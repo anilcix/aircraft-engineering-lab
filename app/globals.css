@@ -10,7 +10,7 @@
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; min-height: 100%; background: var(--bg); color: var(--text); font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-button { font: inherit; }
+button, input, select { font: inherit; }
 .shell { min-height: 100vh; padding: 18px; background: radial-gradient(circle at 35% 10%, #102332 0, transparent 30%), var(--bg); }
 .topbar { height: 64px; display: flex; justify-content: space-between; align-items: center; border: 1px solid var(--line); border-radius: 14px 14px 0 0; padding: 0 20px; background: rgba(8, 15, 23, .92); }
 .brand { font-weight: 800; letter-spacing: .14em; font-size: 13px; }
@@ -43,6 +43,52 @@ button { font: inherit; }
 .damage-card button { width: 100%; margin-top: 8px; }
 .damage-card.danger button { border-color: var(--danger); color: #fecaca; }
 .disclaimer { border-top: 1px solid var(--line); padding-top: 16px; margin-top: 18px; }
+
+.side-tools { position: absolute; z-index: 8; left: 18px; top: 150px; display: flex; flex-direction: column; gap: 8px; pointer-events: auto; }
+.side-tool { width: 184px; border: 1px solid #28455d; border-radius: 10px; padding: 10px 12px; text-align: left; color: #d7e4ee; background: rgba(8, 19, 29, .9); cursor: pointer; box-shadow: 0 10px 30px rgba(0,0,0,.16); }
+.side-tool:hover { border-color: var(--accent); background: rgba(12, 33, 47, .96); }
+.news-tool { border-left: 3px solid #38bdf8; }
+.certification-tool { border-left: 3px solid #a78bfa; }
+.accident-tool { border-left: 3px solid #fb7185; }
+.drawer-backdrop { position: fixed; inset: 0; z-index: 30; background: rgba(2, 6, 10, .56); backdrop-filter: blur(3px); }
+.info-drawer { position: fixed; z-index: 31; top: 0; right: 0; width: min(560px, 94vw); height: 100vh; transform: translateX(104%); transition: transform .24s ease; background: linear-gradient(180deg, #0b141d, #071019); border-left: 1px solid #263849; box-shadow: -22px 0 60px rgba(0,0,0,.4); overflow: auto; padding: 24px; }
+.info-drawer.open { transform: translateX(0); }
+.drawer-head { display: flex; gap: 16px; justify-content: space-between; align-items: flex-start; padding-bottom: 16px; border-bottom: 1px solid var(--line); }
+.drawer-head h2 { margin: 6px 0 7px; font-size: 26px; }
+.drawer-head p { margin: 0; color: var(--muted); font-size: 12px; }
+.drawer-close { width: 36px; height: 36px; border-radius: 9px; border: 1px solid var(--line); background: #101a24; color: #d9e4ec; font-size: 22px; cursor: pointer; }
+.drawer-filters { display: flex; gap: 7px; flex-wrap: wrap; margin: 14px 0; }
+.drawer-filters button { border: 1px solid var(--line); border-radius: 999px; padding: 7px 10px; background: #0b1721; color: #9fb0bf; cursor: pointer; font-size: 11px; }
+.drawer-filters button.active { border-color: var(--accent); background: #123044; color: #dff6ff; }
+.news-list { display: flex; flex-direction: column; gap: 10px; }
+.news-card, .accident-card { display: block; width: 100%; text-align: left; padding: 15px; border: 1px solid #203346; border-radius: 12px; background: #0c1822; color: inherit; }
+.news-card h3, .accident-card h3 { margin: 8px 0; font-size: 16px; line-height: 1.35; }
+.news-card p, .accident-card p, .accident-detail p { margin: 8px 0; color: #9eafbc; font-size: 12px; line-height: 1.55; }
+.news-card a, .accident-links a { color: #7dd3fc; font-size: 12px; text-decoration: none; }
+.news-card a:hover, .accident-links a:hover { text-decoration: underline; }
+.news-meta { display: flex; gap: 7px; flex-wrap: wrap; }
+.news-meta span { color: #9fb4c5; border: 1px solid #243849; border-radius: 999px; padding: 3px 7px; font-size: 9px; text-transform: uppercase; letter-spacing: .06em; }
+.drawer-foot { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); color: #718391; font-size: 10px; line-height: 1.5; }
+.cert-controls { display: grid; gap: 8px; margin: 14px 0; }
+.cert-controls input, .cert-controls select { width: 100%; border: 1px solid #26394a; border-radius: 9px; padding: 10px 11px; background: #08121a; color: #d9e4ec; outline: none; }
+.cert-controls input:focus, .cert-controls select:focus { border-color: var(--accent); }
+.cert-status { color: #a6b5c0; font-size: 10px; margin: 8px 0; }
+.accident-coverage { margin: 14px 0 4px; border: 1px solid #5b3942; background: #211218; color: #d4a8b2; border-radius: 10px; padding: 10px 12px; font-size: 11px; line-height: 1.5; }
+.accident-controls { grid-template-columns: 1fr 120px; }
+.accident-card { cursor: pointer; }
+.accident-card:hover { border-color: #596f81; background: #10202c; }
+.accident-card-foot { display: flex; justify-content: space-between; gap: 10px; margin-top: 10px; color: #8093a2; font-size: 10px; }
+.back-link { border: 0; background: transparent; color: #7dd3fc; padding: 0; margin: 14px 0; cursor: pointer; }
+.accident-detail h3 { font-size: 24px; margin: 12px 0; }
+.accident-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin: 14px 0; }
+.accident-grid div { border: 1px solid #203346; border-radius: 9px; padding: 10px; background: #0b1720; }
+.accident-grid small { display: block; color: #6f8495; font-size: 9px; text-transform: uppercase; letter-spacing: .07em; }
+.accident-grid strong { display: block; margin-top: 4px; font-size: 12px; color: #d2dde5; }
+.accident-detail section { border-top: 1px solid var(--line); padding: 13px 0; }
+.accident-detail h4 { margin: 0 0 6px; font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: #b8c6d2; }
+.accident-links { display: flex; gap: 8px; flex-wrap: wrap; }
+.accident-links a { border: 1px solid #244159; border-radius: 8px; padding: 8px 10px; background: #0b1924; }
+
 @media (max-width: 1000px) {
   .workspace { grid-template-columns: 1fr; }
   .viewer { min-height: 600px; }
@@ -57,4 +103,8 @@ button { font: inherit; }
   .viewer-hud { left: 14px; right: 14px; top: 14px; flex-direction: column; gap: 12px; }
   .viewer-hud h1 { font-size: 34px; }
   .hud-actions { justify-content: flex-start; }
+  .side-tools { left: 12px; top: 230px; }
+  .side-tool { width: 160px; font-size: 11px; }
+  .info-drawer { width: 100vw; }
+  .accident-grid { grid-template-columns: 1fr; }
 }
