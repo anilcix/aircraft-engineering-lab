@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useMemo, useState } from 'react'
+import type { EquipmentLocatorRequest } from '@/components/equipment-locator-types'
 
 type Chapter = { ata: string; name: string }
 type Equipment = {
@@ -28,7 +29,7 @@ type Payload = {
   equipment: Equipment[]
 }
 
-type Props = { onLocate?: (region: string) => void }
+type Props = { onLocate?: (equipment: EquipmentLocatorRequest) => void }
 
 const EMPTY: Payload = { updatedAt: '', aircraftClass: '', scopeNote: '', chapters: [], equipment: [] }
 
@@ -77,6 +78,12 @@ export default function EquipmentSystemsDrawer({ onLocate }: Props) {
   const selectedChapter = selected ? data.chapters.find((x) => x.ata === selected.ata) : undefined
   const highCritical = data.equipment.filter((x) => x.criticality === 'High').length
   const redundantCount = data.equipment.filter(redundancyIsAvailable).length
+
+  const locateSelected = () => {
+    if (!selected || !onLocate) return
+    onLocate({ id: selected.id, ata: selected.ata, name: selected.name, short: selected.short, region: selected.region, location: selected.location })
+    setOpen(false)
+  }
 
   const panel: React.CSSProperties = { border: '1px solid #263d50', borderRadius: 12, background: '#091721' }
   const muted: React.CSSProperties = { color: '#89a0b0', fontSize: 10.5, lineHeight: 1.5 }
@@ -151,7 +158,7 @@ export default function EquipmentSystemsDrawer({ onLocate }: Props) {
               </div>
 
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8, marginTop: 13 }}>
-                <div style={{ ...panel, padding: 10, background: '#0b1b25' }}><small style={muted}>BÖLGE</small><strong style={{ display: 'block', fontSize: 11, marginTop: 3 }}>{selected.region}</strong><span style={{ ...muted, display: 'block', marginTop: 4 }}>{selected.location}</span>{onLocate && <button onClick={() => onLocate(selected.region)} style={{ marginTop: 8, border: '1px solid #31506a', borderRadius: 7, background: '#0e2635', color: '#bfe7fa', padding: '5px 7px', fontSize: 9, cursor: 'pointer' }}>3D modelde bölgeyi vurgula</button>}</div>
+                <div style={{ ...panel, padding: 10, background: '#0b1b25' }}><small style={muted}>BÖLGE</small><strong style={{ display: 'block', fontSize: 11, marginTop: 3 }}>{selected.region}</strong><span style={{ ...muted, display: 'block', marginTop: 4 }}>{selected.location}</span>{onLocate && <button onClick={locateSelected} style={{ marginTop: 8, border: '1px solid #7c3aed', borderRadius: 7, background: '#21143a', color: '#ede9fe', padding: '6px 8px', fontSize: 9, fontWeight: 800, cursor: 'pointer' }}>Uçakta yerini göster ↗</button>}</div>
                 <div style={{ ...panel, padding: 10, background: '#0b1b25' }}><small style={muted}>POWER / SOURCE</small><strong style={{ display: 'block', fontSize: 11, marginTop: 3 }}>{selected.powerSource}</strong></div>
               </div>
 
