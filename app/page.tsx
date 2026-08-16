@@ -9,6 +9,7 @@ import AviationAccidentsDrawer from '@/components/AviationAccidentsDrawer'
 import AircraftTypeGuideDrawer from '@/components/AircraftTypeGuideDrawer'
 import EquipmentSystemsDrawer from '@/components/EquipmentSystemsDrawer'
 import MapWheelScrollGuard from '@/components/MapWheelScrollGuard'
+import type { EquipmentLocatorRequest } from '@/components/equipment-locator-types'
 
 const AircraftScene = dynamic(() => import('@/components/AircraftScene'), { ssr: false })
 
@@ -16,6 +17,7 @@ export default function Home() {
   const [selected, setSelected] = useState('fuselage')
   const [layer, setLayer] = useState('Overview')
   const [damaged, setDamaged] = useState(false)
+  const [equipmentLocator, setEquipmentLocator] = useState<EquipmentLocatorRequest | null>(null)
 
   const wingParts = [
     'wing',
@@ -35,17 +37,20 @@ export default function Home() {
   ]
 
   const selectPart = (part: string) => {
+    setEquipmentLocator(null)
     setSelected(part)
     if (!wingParts.includes(part)) setDamaged(false)
   }
 
-  const locateEquipmentRegion = (region: string) => {
-    const key = region.toLowerCase()
-    if (key.includes('engine') || key.includes('nacelle') || key.includes('pylon')) return selectPart('engine')
-    if (key.includes('tail') || key.includes('aft fuselage') || key.includes('vertical tail')) return selectPart('tail')
-    if (key.includes('wing-body') || key.includes('center fuselage') || key.includes('wing center')) return selectPart('wing-center-section')
-    if (key.includes('wing') || key.includes('main gear')) return selectPart('wing')
-    return selectPart('fuselage')
+  const locateEquipment = (equipment: EquipmentLocatorRequest) => {
+    const key = `${equipment.region} ${equipment.location}`.toLowerCase()
+    if (key.includes('engine') || key.includes('nacelle') || key.includes('pylon')) setSelected('engine')
+    else if (key.includes('tail') || key.includes('aft fuselage') || key.includes('vertical tail') || equipment.ata === '49') setSelected('tail')
+    else if (key.includes('wing-body') || key.includes('center fuselage') || key.includes('wing center')) setSelected('wing-center-section')
+    else if (key.includes('wing') || key.includes('main gear')) setSelected('wing')
+    else setSelected('fuselage')
+    setDamaged(false)
+    setEquipmentLocator(equipment)
   }
 
   return (
@@ -80,10 +85,16 @@ export default function Home() {
             <CertificationDrawer />
             <AviationAccidentsDrawer />
             <AircraftTypeGuideDrawer />
-            <EquipmentSystemsDrawer onLocate={locateEquipmentRegion} />
+            <EquipmentSystemsDrawer onLocate={locateEquipment} />
           </div>
 
-          <AircraftScene selected={selected} onSelect={selectPart} damaged={damaged} />
+          <AircraftScene
+            selected={selected}
+            onSelect={selectPart}
+            damaged={damaged}
+            equipmentLocator={equipmentLocator}
+            onClearEquipmentLocator={() => setEquipmentLocator(null)}
+          />
           <div className="corner-note">REFERENCE-INFORMED STRUCTURAL & SYSTEMS DEMONSTRATOR · ORIGINAL TRAINING GEOMETRY · NO OEM CAD DATA</div>
         </div>
 
