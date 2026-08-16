@@ -1,6 +1,6 @@
 'use client'
 
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import { feature } from 'topojson-client'
 import countries110m from 'world-atlas/countries-110m.json'
 
@@ -27,6 +27,7 @@ export type MapAccident = {
 type Props = { items: MapAccident[]; mapNote?: string; onOpenCase?: (item: MapAccident) => void }
 type GeoGeometry = { type: 'Polygon' | 'MultiPolygon'; coordinates: number[][][] | number[][][][] }
 type GeoFeature = { id?: string | number; geometry: GeoGeometry }
+type MapView = { scale: number; x: number; y: number }
 
 const MIN_YEAR = 1970
 const MAX_YEAR = 2026
@@ -34,12 +35,11 @@ const WIDTH = 1000
 const HEIGHT = 520
 const MAP_PAD_X = 24
 const MAP_PAD_Y = 28
+const MIN_ZOOM = 1
+const MAX_ZOOM = 8
 
 const WORLD_FEATURES = ((feature(countries110m as never, (countries110m as { objects: { countries: unknown } }).objects.countries as never) as unknown) as { features: GeoFeature[] }).features
 
-// Natural Earth 1 projection coefficients (same projection family used by
-// contemporary world reference maps). Keeping the math local avoids a runtime
-// map-service dependency and guarantees pins and borders use the same projection.
 const A0 = 0.8707
 const A1 = -0.131979
 const A2 = -0.013791
@@ -73,10 +73,7 @@ function project(lon: number, lat: number) {
   const usableW = WIDTH - MAP_PAD_X * 2
   const usableH = HEIGHT - MAP_PAD_Y * 2
   const scale = Math.min(usableW / (RAW_X_MAX * 2), usableH / (RAW_Y_MAX * 2))
-  return {
-    x: WIDTH / 2 + raw.x * scale,
-    y: HEIGHT / 2 - raw.y * scale,
-  }
+  return { x: WIDTH / 2 + raw.x * scale, y: HEIGHT / 2 - raw.y * scale }
 }
 
 function ringPath(ring: number[][]) {
@@ -84,7 +81,6 @@ function ringPath(ring: number[][]) {
   let path = ''
   let previous: { x: number; y: number } | null = null
   let segmentOpen = false
-
   for (const [lon, lat] of ring) {
     const p = project(lon, lat)
     const crossedAntimeridian = previous && Math.abs(p.x - previous.x) > WIDTH * 0.55
@@ -160,6 +156,18 @@ function topValue(values: string[]) {
   return [...counts.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] || '—'
 }
 
+function clampView(view: MapView): MapView {
+  const scale = Math.max(MIN_ZOOM, Math.min(MAX_ZOOM, view.scale))
+  if (scale <= 1.0001) return { scale: 1, x: 0, y: 0 }
+  const minX = WIDTH * (1 - scale)
+  const minY = HEIGHT * (1 - scale)
+  return {
+    scale,
+    x: Math.max(minX, Math.min(0, view.x)),
+    y: Math.max(minY, Math.min(0, view.y)),
+  }
+}
+
 export default function AccidentMapTimeline({ items, mapNote, onOpenCase }: Props) {
   const [focusYear, setFocusYear] = useState(MAX_YEAR)
   const [windowYears, setWindowYears] = useState(5)
@@ -170,6 +178,9 @@ export default function AccidentMapTimeline({ items, mapNote, onOpenCase }: Prop
   const [fatalOnly, setFatalOnly] = useState(false)
   const [selected, setSelected] = useState<MapAccident | null>(null)
   const [draggingYear, setDraggingYear] = useState(false)
+  const [mapView, setMapView] = useState<MapView>({ scale: 1, x: 0, y: 0 })
+  const [isPanning, setIsPanning] = useState(false)
+  const dragRef = useRef<{ pointerId: number; clientX: number; clientY: number; x: number; y: number } | null>(null)
 
   const mapped = useMemo(() => items.filter((item) => hasCoords(item) && eventYear(item) >= MIN_YEAR && eventYear(item) <= MAX_YEAR), [items])
   const families = useMemo(() => ['All', ...[...new Set(mapped.map((item) => item.family || item.aircraft).filter((x): x is string => Boolean(x)))].sort((a, b) => a.localeCompare(b))], [mapped])
@@ -207,6 +218,44 @@ export default function AccidentMapTimeline({ items, mapNote, onOpenCase }: Prop
   const selectedPeriod = startYear === focusYear ? String(focusYear) : `${startYear}–${focusYear}`
   const sliderPercent = ((focusYear - MIN_YEAR) / (MAX_YEAR - MIN_YEAR)) * 100
 
+  const zoomAroundSvgPoint = (svgX: number, svgY: number, factor: number) => {
+    setMapView((current) => {
+      const nextScale = Math.max(MIN_ZOOM, Math.min(MAX_ZOOM, current.scale * factor))
+      const worldX = (svgX - current.x) / current.scale
+      const worldY = (svgY - current.y) / current.scale
+      return clampView({
+        scale: nextScale,
+        x: svgX - worldX * nextScale,
+        y: svgY - worldY * nextScale,
+      })
+    })
+  }
+
+  const zoomCenter = (factor: number) => zoomAroundSvgPoint(WIDTH / 2, HEIGHT / 2, factor)
+
+  const resetView = () => setMapView({ scale: 1, x: 0, y: 0 })
+
+  const fitToResults = () => {
+    if (!visible.length) return resetView()
+    const points = visible.map((item) => project(item.longitude!, item.latitude!))
+    if (points.length === 1) {
+      const p = points[0]
+      const scale = 5
+      setMapView(clampView({ scale, x: WIDTH / 2 - p.x * scale, y: HEIGHT / 2 - p.y * scale }))
+      return
+    }
+    const minX = Math.min(...points.map((p) => p.x))
+    const maxX = Math.max(...points.map((p) => p.x))
+    const minY = Math.min(...points.map((p) => p.y))
+    const maxY = Math.max(...points.map((p) => p.y))
+    const spanX = Math.max(35, maxX - minX)
+    const spanY = Math.max(35, maxY - minY)
+    const scale = Math.max(1, Math.min(6, Math.min((WIDTH - 150) / spanX, (HEIGHT - 120) / spanY)))
+    const centerX = (minX + maxX) / 2
+    const centerY = (minY + maxY) / 2
+    setMapView(clampView({ scale, x: WIDTH / 2 - centerX * scale, y: HEIGHT / 2 - centerY * scale }))
+  }
+
   return (
     <div style={{ display: 'grid', gap: 12 }}>
       <div style={{ ...panel, padding: 12 }}>
@@ -221,20 +270,79 @@ export default function AccidentMapTimeline({ items, mapNote, onOpenCase }: Prop
 
       <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) 280px', gap: 12, alignItems: 'stretch' }}>
         <div style={{ ...panel, overflow: 'hidden', position: 'relative', minHeight: 420 }}>
-          <svg viewBox={`0 0 ${WIDTH} ${HEIGHT}`} role="img" aria-label="Natural Earth projected global aviation accident map" style={{ width: '100%', height: '100%', minHeight: 420, display: 'block', background: 'radial-gradient(circle at 50% 48%, #102636 0, #07111a 70%)' }}>
-            <path d={spherePath()} fill="#081823" stroke="#426176" strokeWidth="1.2" />
-            {[-120,-60,0,60,120].map((lon) => <path key={`lon-${lon}`} d={longitudeLine(lon)} fill="none" stroke="#183247" strokeWidth="0.8" opacity=".38" />)}
-            {[-60,-30,0,30,60].map((lat) => <path key={`lat-${lat}`} d={latitudeLine(lat)} fill="none" stroke="#183247" strokeWidth="0.8" opacity=".38" />)}
-            {WORLD_FEATURES.map((country, index) => <path key={String(country.id ?? index)} d={geometryPath(country.geometry)} fill="#17313e" stroke="#426176" strokeWidth="0.62" opacity=".97" fillRule="evenodd" />)}
-            {visible.map((item) => {
-              const p = project(item.longitude!, item.latitude!)
-              const fatal = (item.fatalities || 0) > 0
-              const discovery = item.sourceTier === 'discovery'
-              const active = selected?.id === item.id
-              return <g key={item.id} onClick={() => setSelected(item)} style={{ cursor: 'pointer' }}>{active && <circle cx={p.x} cy={p.y} r={13} fill="none" stroke="#f8fafc" strokeWidth="2" />}<circle cx={p.x} cy={p.y} r={active ? 7 : fatal ? 5.2 : 4} fill={discovery ? '#f59e0b' : fatal ? '#fb7185' : '#38bdf8'} stroke="#041019" strokeWidth="1.1" opacity={discovery ? .72 : .92}><title>{`${item.date} · ${item.title} · ${item.location || ''}`}</title></circle></g>
-            })}
+          <svg
+            viewBox={`0 0 ${WIDTH} ${HEIGHT}`}
+            role="img"
+            aria-label="Zoomable Natural Earth projected global aviation accident map"
+            onWheel={(e) => {
+              e.preventDefault()
+              const rect = e.currentTarget.getBoundingClientRect()
+              const svgX = ((e.clientX - rect.left) / rect.width) * WIDTH
+              const svgY = ((e.clientY - rect.top) / rect.height) * HEIGHT
+              const factor = Math.max(0.72, Math.min(1.38, Math.exp(-e.deltaY * 0.0015)))
+              zoomAroundSvgPoint(svgX, svgY, factor)
+            }}
+            onDoubleClick={(e) => {
+              const rect = e.currentTarget.getBoundingClientRect()
+              const svgX = ((e.clientX - rect.left) / rect.width) * WIDTH
+              const svgY = ((e.clientY - rect.top) / rect.height) * HEIGHT
+              zoomAroundSvgPoint(svgX, svgY, 1.8)
+            }}
+            onPointerDown={(e) => {
+              if (e.button !== 0) return
+              e.currentTarget.setPointerCapture(e.pointerId)
+              dragRef.current = { pointerId: e.pointerId, clientX: e.clientX, clientY: e.clientY, x: mapView.x, y: mapView.y }
+              setIsPanning(true)
+            }}
+            onPointerMove={(e) => {
+              const drag = dragRef.current
+              if (!drag || drag.pointerId !== e.pointerId || mapView.scale <= 1) return
+              const rect = e.currentTarget.getBoundingClientRect()
+              const dx = (e.clientX - drag.clientX) * WIDTH / rect.width
+              const dy = (e.clientY - drag.clientY) * HEIGHT / rect.height
+              setMapView(clampView({ scale: mapView.scale, x: drag.x + dx, y: drag.y + dy }))
+            }}
+            onPointerUp={(e) => {
+              if (dragRef.current?.pointerId === e.pointerId) dragRef.current = null
+              if (e.currentTarget.hasPointerCapture(e.pointerId)) e.currentTarget.releasePointerCapture(e.pointerId)
+              setIsPanning(false)
+            }}
+            onPointerCancel={() => { dragRef.current = null; setIsPanning(false) }}
+            style={{ width: '100%', height: '100%', minHeight: 420, display: 'block', background: 'radial-gradient(circle at 50% 48%, #102636 0, #07111a 70%)', cursor: isPanning ? 'grabbing' : mapView.scale > 1 ? 'grab' : 'zoom-in', touchAction: 'none', userSelect: 'none' }}
+          >
+            <g transform={`translate(${mapView.x} ${mapView.y}) scale(${mapView.scale})`}>
+              <path d={spherePath()} fill="#081823" stroke="#426176" strokeWidth={1.2 / mapView.scale} />
+              {[-120,-60,0,60,120].map((lon) => <path key={`lon-${lon}`} d={longitudeLine(lon)} fill="none" stroke="#183247" strokeWidth={0.8 / mapView.scale} opacity=".38" />)}
+              {[-60,-30,0,30,60].map((lat) => <path key={`lat-${lat}`} d={latitudeLine(lat)} fill="none" stroke="#183247" strokeWidth={0.8 / mapView.scale} opacity=".38" />)}
+              {WORLD_FEATURES.map((country, index) => <path key={String(country.id ?? index)} d={geometryPath(country.geometry)} fill="#17313e" stroke="#426176" strokeWidth={0.62 / mapView.scale} opacity=".97" fillRule="evenodd" />)}
+              {visible.map((item) => {
+                const p = project(item.longitude!, item.latitude!)
+                const fatal = (item.fatalities || 0) > 0
+                const discovery = item.sourceTier === 'discovery'
+                const active = selected?.id === item.id
+                const baseR = active ? 7 : fatal ? 5.2 : 4
+                return (
+                  <g key={item.id} onPointerDown={(e) => e.stopPropagation()} onClick={(e) => { e.stopPropagation(); setSelected(item) }} style={{ cursor: 'pointer' }}>
+                    {active && <circle cx={p.x} cy={p.y} r={13 / mapView.scale} fill="none" stroke="#f8fafc" strokeWidth={2 / mapView.scale} />}
+                    <circle cx={p.x} cy={p.y} r={baseR / mapView.scale} fill={discovery ? '#f59e0b' : fatal ? '#fb7185' : '#38bdf8'} stroke="#041019" strokeWidth={1.1 / mapView.scale} opacity={discovery ? .72 : .92}>
+                      <title>{`${item.date} · ${item.title} · ${item.location || ''}`}</title>
+                    </circle>
+                  </g>
+                )
+              })}
+            </g>
           </svg>
-          <div style={{ position: 'absolute', left: 12, bottom: 10, display: 'flex', gap: 10, flexWrap: 'wrap', padding: '6px 8px', borderRadius: 8, background: 'rgba(4,12,18,.84)', fontSize: 9, color: '#aab9c3' }}><span style={{ color: '#38bdf8' }}>● Official non-fatal</span><span style={{ color: '#fb7185' }}>● Official fatal</span><span style={{ color: '#f59e0b' }}>● Discovery</span><span>Natural Earth 1 projection · 1:110m borders</span></div>
+
+          <div style={{ position: 'absolute', top: 10, right: 10, display: 'flex', gap: 5, alignItems: 'center', padding: 5, borderRadius: 9, background: 'rgba(4,12,18,.9)', border: '1px solid #29465a', zIndex: 2 }}>
+            <button title="Yakınlaştır" onClick={() => zoomCenter(1.45)} style={{ border: '1px solid #315369', borderRadius: 6, background: '#102534', color: '#d9edf7', width: 28, height: 28, cursor: 'pointer', fontSize: 17 }}>+</button>
+            <button title="Uzaklaştır" onClick={() => zoomCenter(1 / 1.45)} style={{ border: '1px solid #315369', borderRadius: 6, background: '#102534', color: '#d9edf7', width: 28, height: 28, cursor: 'pointer', fontSize: 17 }}>−</button>
+            <button title="Filtrelenmiş sonuçları kadraja al" onClick={fitToResults} style={{ border: '1px solid #315369', borderRadius: 6, background: '#102534', color: '#d9edf7', height: 28, padding: '0 8px', cursor: 'pointer', fontSize: 9, fontWeight: 700 }}>FIT</button>
+            <button title="Dünya görünümüne dön" onClick={resetView} style={{ border: '1px solid #315369', borderRadius: 6, background: '#102534', color: '#d9edf7', height: 28, padding: '0 8px', cursor: 'pointer', fontSize: 9, fontWeight: 700 }}>RESET</button>
+            <span style={{ minWidth: 42, textAlign: 'center', color: '#82ccea', fontSize: 9, fontWeight: 800 }}>{Math.round(mapView.scale * 100)}%</span>
+          </div>
+
+          <div style={{ position: 'absolute', left: 12, top: 10, padding: '6px 8px', borderRadius: 8, background: 'rgba(4,12,18,.78)', color: '#8fa6b5', fontSize: 9, pointerEvents: 'none' }}>Tekerlek / trackpad: zoom · sürükle: pan · çift tık: zoom</div>
+          <div style={{ position: 'absolute', left: 12, bottom: 10, display: 'flex', gap: 10, flexWrap: 'wrap', padding: '6px 8px', borderRadius: 8, background: 'rgba(4,12,18,.84)', fontSize: 9, color: '#aab9c3', pointerEvents: 'none' }}><span style={{ color: '#38bdf8' }}>● Official non-fatal</span><span style={{ color: '#fb7185' }}>● Official fatal</span><span style={{ color: '#f59e0b' }}>● Discovery</span><span>Natural Earth 1 projection · 1:110m borders</span></div>
         </div>
 
         <div style={{ ...panel, padding: 14, minHeight: 420 }}>
