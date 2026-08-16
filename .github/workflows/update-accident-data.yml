@@ -12,6 +12,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: ntsb-accident-dashboard
+  cancel-in-progress: true
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -30,16 +34,6 @@ jobs:
             -o .ntsb/avall.zip
           unzip -o .ntsb/avall.zip -d .ntsb/data
 
-      - name: Inspect NTSB database schema
-        run: |
-          MDB_FILE="$(find .ntsb/data -type f \( -iname '*.mdb' -o -iname '*.accdb' \) | head -n 1)"
-          echo '--- TABLES ---'
-          mdb-tables -1 "$MDB_FILE"
-          echo '--- EVENTS SAMPLE ---'
-          mdb-export "$MDB_FILE" events | sed -n '1,3p'
-          echo '--- AIRCRAFT SAMPLE ---'
-          mdb-export "$MDB_FILE" aircraft | sed -n '1,3p'
-
       - name: Build transport-aircraft dashboard statistics
         run: |
           MDB_FILE="$(find .ntsb/data -type f \( -iname '*.mdb' -o -iname '*.accdb' \) | head -n 1)"
@@ -57,4 +51,5 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add public/ntsb-accident-stats.json
           git commit -m 'Refresh NTSB accident dashboard data'
-          git push
+          git pull --rebase origin main
+          git push origin main
