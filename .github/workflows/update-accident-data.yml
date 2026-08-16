@@ -30,6 +30,16 @@ jobs:
             -o .ntsb/avall.zip
           unzip -o .ntsb/avall.zip -d .ntsb/data
 
+      - name: Inspect NTSB database schema
+        run: |
+          MDB_FILE="$(find .ntsb/data -type f \( -iname '*.mdb' -o -iname '*.accdb' \) | head -n 1)"
+          echo '--- TABLES ---'
+          mdb-tables -1 "$MDB_FILE"
+          echo '--- EVENTS SAMPLE ---'
+          mdb-export "$MDB_FILE" events | sed -n '1,3p'
+          echo '--- AIRCRAFT SAMPLE ---'
+          mdb-export "$MDB_FILE" aircraft | sed -n '1,3p'
+
       - name: Build transport-aircraft dashboard statistics
         run: |
           MDB_FILE="$(find .ntsb/data -type f \( -iname '*.mdb' -o -iname '*.accdb' \) | head -n 1)"
