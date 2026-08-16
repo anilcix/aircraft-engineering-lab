@@ -4,6 +4,13 @@ on:
   push:
     branches: ["main"]
   workflow_dispatch:
+  workflow_run:
+    workflows:
+      - "Refresh Aviation News"
+      - "Update NTSB Accident Dashboard"
+      - "Refresh Global Accident Discovery"
+      - "Merge Global Accident Index"
+    types: [completed]
 
 permissions:
   contents: read
@@ -16,10 +23,13 @@ concurrency:
 
 jobs:
   build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout latest main
         uses: actions/checkout@v6
+        with:
+          ref: main
       - name: Setup Node
         uses: actions/setup-node@v6
         with:
@@ -36,6 +46,7 @@ jobs:
           path: ./out
 
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
