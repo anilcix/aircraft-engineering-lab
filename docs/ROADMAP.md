@@ -9,12 +9,12 @@
 - [x] Static-export / GitHub Pages workflow
 
 ## V0.2 — Wing Structure Cutaway
-- [ ] Outer skin visibility toggle
+- [x] Outer skin cutaway behavior
 - [ ] Upper / lower skin objects
-- [ ] Front spar / rear spar
-- [ ] Rib stations
-- [ ] Stringer network
-- [ ] Wing-root fittings
+- [x] Front spar / rear spar
+- [x] Rib stations
+- [x] Stringer network
+- [x] Wing center section / root structural markers
 - [ ] Fastener groups and selectable individual fastener demo
 - [ ] Exploded view
 
@@ -52,12 +52,21 @@
 - [ ] Flight-control architecture
 - [ ] Failure propagation educational scenarios
 
-## V0.7 — Knowledge & News
+## V0.7 — Knowledge, Certification & Safety Intelligence
 - [ ] Searchable engineering knowledge graph
-- [ ] Source / citation model
-- [ ] Aviation technology news ingestion
-- [ ] Topic classification
-- [ ] Map real-world technology to the fictional AEL demonstrator
+- [x] Aviation technology news ingestion
+- [x] Three-hour aviation news refresh workflow
+- [x] Publication date and freshness indicator
+- [x] Technical topic classification
+- [x] FAA / EASA certification source drawer foundation
+- [x] Aviation accidents detail library foundation
+- [x] Aircraft-type accident analytics dashboard
+- [x] NTSB 1982-present bulk-data statistics importer
+- [x] Accident-aircraft age statistics
+- [x] Current-fleet snapshot cards with checked date and source
+- [ ] Add more investigation authorities to global accident federation
+- [ ] Full-text FAA / EASA regulation indexing
+- [ ] Map accident lessons and certification requirements to AEL structural components
 
 ## V1.0 — Engineering Learning Platform
 - [ ] User progress
