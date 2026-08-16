@@ -21,6 +21,9 @@ type Accident = {
   reportUrl?: string
   sourceUrl: string
   videoUrl?: string
+  discoveryArticleUrl?: string
+  sourceTier?: 'official' | 'discovery'
+  verificationStatus?: string
 }
 
 type LegacyFleetProfile = {
@@ -36,7 +39,13 @@ type LegacyFleetProfile = {
 type AccidentPayload = {
   updatedAt: string
   coverageNote: string
+  discoveryNote?: string
   ageNote?: string
+  counts?: {
+    officialIndexed: number
+    discovery: number
+    totalVisible: number
+  }
   fleetProfiles?: LegacyFleetProfile[]
   items: Accident[]
 }
@@ -121,7 +130,7 @@ type FamilySummary = {
 
 const FALLBACK: AccidentPayload = {
   updatedAt: '2026-08-16T16:40:00Z',
-  coverageNote: 'Curated global airline safety index. This is not a complete global census.',
+  coverageNote: 'Federated global airline safety index. This is not a complete global census.',
   items: [],
   fleetProfiles: [],
 }
@@ -210,7 +219,7 @@ export default function AviationAccidentsDrawer() {
   const [selected, setSelected] = useState<Accident | null>(null)
   const [selectedFamily, setSelectedFamily] = useState<string | null>(null)
   const [mode, setMode] = useState<'dashboard' | 'cases'>('dashboard')
-  const [scope, setScope] = useState<'global' | 'ntsb'>('global')
+  const [scope, setScope] = useState<'global' | 'discovery' | 'ntsb'>('global')
 
   useEffect(() => {
     fetch('./aviation-accidents.json', { cache: 'no-store' })
@@ -231,7 +240,10 @@ export default function AviationAccidentsDrawer() {
 
   const legacyProfiles = useMemo(() => new Map((payload.fleetProfiles || []).map((x) => [x.family, x])), [payload])
   const currentProfiles = useMemo(() => new Map(fleet.profiles.map((x) => [x.family, x])), [fleet])
-  const curatedFamilies = useMemo(() => familySummaries(payload.items), [payload])
+  const officialItems = useMemo(() => payload.items.filter((x) => x.sourceTier !== 'discovery'), [payload])
+  const discoveryItems = useMemo(() => payload.items.filter((x) => x.sourceTier === 'discovery'), [payload])
+  const officialFamilies = useMemo(() => familySummaries(officialItems), [officialItems])
+  const discoveryFamilies = useMemo(() => familySummaries(discoveryItems), [discoveryItems])
 
   const years = useMemo(() => {
     const values = Array.from(new Set(payload.items.map((x) => x.date.slice(0, 4)))).sort((a, b) => Number(b) - Number(a))
@@ -247,9 +259,9 @@ export default function AviationAccidentsDrawer() {
     })
   }, [payload, query, year])
 
-  const totalFatalities = useMemo(() => payload.items.reduce((sum, x) => sum + (x.fatalities || 0), 0), [payload])
-  const fatalCases = useMemo(() => payload.items.filter((x) => (x.fatalities || 0) > 0).length, [payload])
-  const allAges = useMemo(() => payload.items.map((x) => x.aircraftAgeYears).filter((x): x is number => typeof x === 'number'), [payload])
+  const totalFatalities = useMemo(() => officialItems.reduce((sum, x) => sum + (x.fatalities || 0), 0), [officialItems])
+  const fatalCases = useMemo(() => officialItems.filter((x) => (x.fatalities || 0) > 0).length, [officialItems])
+  const allAges = useMemo(() => officialItems.map((x) => x.aircraftAgeYears).filter((x): x is number => typeof x === 'number'), [officialItems])
   const avgGlobalAge = average(allAges)
 
   const dashboardRows: FamilySummary[] = useMemo(() => {
@@ -264,18 +276,25 @@ export default function AviationAccidentsDrawer() {
         maxAgeYears: x.maxAgeYears,
       }))
     }
-    return curatedFamilies
-  }, [scope, ntsb, curatedFamilies])
+    if (scope === 'discovery') return discoveryFamilies.slice(0, 80)
+    return officialFamilies
+  }, [scope, ntsb, officialFamilies, discoveryFamilies])
 
   const maxCount = Math.max(1, ...dashboardRows.map((x) => x.accidents))
-  const globalFamily = selectedFamily ? curatedFamilies.find((x) => x.family === selectedFamily) : undefined
-  const activeFamily = selectedFamily ? dashboardRows.find((x) => x.family === selectedFamily) || globalFamily : undefined
+  const globalFamily = selectedFamily ? officialFamilies.find((x) => x.family === selectedFamily) : undefined
+  const discoveryFamily = selectedFamily ? discoveryFamilies.find((x) => x.family === selectedFamily) : undefined
+  const activeFamily = selectedFamily ? dashboardRows.find((x) => x.family === selectedFamily) || globalFamily || discoveryFamily : undefined
   const activeCases = selectedFamily ? payload.items.filter((x) => (x.family || x.aircraft) === selectedFamily) : []
   const activeNtsb = selectedFamily ? ntsb.types.find((x) => x.family === selectedFamily) : undefined
   const activeFleet = selectedFamily ? currentProfiles.get(selectedFamily) : undefined
   const legacyFleet = selectedFamily ? legacyProfiles.get(selectedFamily) : undefined
 
   const documentarySearch = (item: Accident) => item.videoUrl || `https://www.youtube.com/results?search_query=${encodeURIComponent(`${item.title} aviation accident documentary analysis`)}`
+  const scopeCoverage = scope === 'ntsb'
+    ? ntsb.coverageNote
+    : scope === 'discovery'
+      ? (payload.discoveryNote || 'Secondary global discovery records awaiting official-source verification.')
+      : payload.coverageNote
 
   return (
     <>
@@ -286,7 +305,7 @@ export default function AviationAccidentsDrawer() {
           <div>
             <div className="eyebrow">AVIATION SAFETY INTELLIGENCE</div>
             <h2>Uçak Kazaları Dashboard</h2>
-            <p>Neden faktörleri · tip ve operatör istatistiği · uçak yaşı · güncel filo</p>
+            <p>Resmî global indeks · geniş discovery katmanı · NTSB bulk · filo yaşı</p>
           </div>
           <button className="drawer-close" onClick={() => setOpen(false)}>×</button>
         </div>
@@ -298,17 +317,36 @@ export default function AviationAccidentsDrawer() {
 
         {mode === 'dashboard' && !selectedFamily && (
           <>
-            <div className="accident-coverage">{scope === 'global' ? payload.coverageNote : ntsb.coverageNote}</div>
+            <div className="accident-coverage">{scopeCoverage}</div>
             <div className="scope-switch">
-              <button className={scope === 'global' ? 'active' : ''} onClick={() => setScope('global')}>Global detay indeksi</button>
+              <button className={scope === 'global' ? 'active' : ''} onClick={() => setScope('global')}>Official global</button>
+              <button className={scope === 'discovery' ? 'active' : ''} onClick={() => setScope('discovery')}>Global discovery</button>
               <button className={scope === 'ntsb' ? 'active' : ''} onClick={() => setScope('ntsb')}>NTSB bulk</button>
             </div>
 
             <div className="safety-kpis">
-              <div><small>{scope === 'ntsb' ? 'NTSB tüm accident records' : 'Global indexed cases'}</small><strong>{scope === 'ntsb' && ntsb.totalAccidents ? ntsb.totalAccidents.toLocaleString('tr-TR') : payload.items.length}</strong></div>
-              <div><small>{scope === 'ntsb' ? 'Tanınan transport-family event' : 'Fatal indexed cases'}</small><strong>{scope === 'ntsb' ? (ntsb.recognizedAccidentEvents ?? '—') : fatalCases}</strong></div>
-              <div><small>{scope === 'ntsb' ? 'Kapsam notu' : 'Indexed fatalities'}</small><strong>{scope === 'ntsb' ? 'US/NTSB' : totalFatalities.toLocaleString('tr-TR')}</strong></div>
-              <div><small>Avg aircraft age</small><strong>{scope === 'global' ? ageText(avgGlobalAge) : 'Tip bazında'}</strong></div>
+              {scope === 'global' ? (
+                <>
+                  <div><small>Official indexed cases</small><strong>{officialItems.length}</strong></div>
+                  <div><small>Fatal indexed cases</small><strong>{fatalCases}</strong></div>
+                  <div><small>Verified indexed fatalities</small><strong>{totalFatalities.toLocaleString('tr-TR')}</strong></div>
+                  <div><small>Avg aircraft age</small><strong>{ageText(avgGlobalAge)}</strong></div>
+                </>
+              ) : scope === 'discovery' ? (
+                <>
+                  <div><small>Discovery records</small><strong>{discoveryItems.length.toLocaleString('tr-TR')}</strong></div>
+                  <div><small>Verification</small><strong>Pending</strong></div>
+                  <div><small>Source tier</small><strong>Secondary</strong></div>
+                  <div><small>Purpose</small><strong>Coverage</strong></div>
+                </>
+              ) : (
+                <>
+                  <div><small>NTSB all accident records</small><strong>{ntsb.totalAccidents ? ntsb.totalAccidents.toLocaleString('tr-TR') : '—'}</strong></div>
+                  <div><small>Recognized transport-family event</small><strong>{ntsb.recognizedAccidentEvents ?? '—'}</strong></div>
+                  <div><small>Scope</small><strong>US/NTSB</strong></div>
+                  <div><small>Avg aircraft age</small><strong>Tip bazında</strong></div>
+                </>
+              )}
             </div>
 
             {scope === 'ntsb' && (ntsb.causeCategories || []).length > 0 && (
@@ -327,7 +365,10 @@ export default function AviationAccidentsDrawer() {
             )}
 
             <div className="type-ranking">
-              <div className="dashboard-section-title"><span>Aircraft type ranking</span><small>{scope === 'ntsb' ? 'NTSB kapsamı — global toplam değil' : 'Global detay indeksindeki kayıtlar'}</small></div>
+              <div className="dashboard-section-title">
+                <span>Aircraft type ranking</span>
+                <small>{scope === 'ntsb' ? 'NTSB kapsamı — global toplam değil' : scope === 'discovery' ? 'Secondary discovery — doğrulama bekliyor' : 'Official-source federated index'}</small>
+              </div>
               {dashboardRows.map((row) => {
                 const current = currentProfiles.get(row.family)
                 const legacy = legacyProfiles.get(row.family)
@@ -335,7 +376,11 @@ export default function AviationAccidentsDrawer() {
                   <button className="type-row" key={`${scope}-${row.family}`} onClick={() => setSelectedFamily(row.family)}>
                     <div className="type-row-main">
                       <strong>{row.family}</strong>
-                      <span>{scope === 'ntsb' ? `${row.accidents} NTSB olay · ${row.fatalAccidents} fatal · ${row.fatalities.toLocaleString('tr-TR')} NTSB-scope ölüm` : `${row.accidents} indexed olay · ${row.fatalAccidents} fatal · ${row.fatalities.toLocaleString('tr-TR')} indexed ölüm`}</span>
+                      <span>{scope === 'ntsb'
+                        ? `${row.accidents} NTSB olay · ${row.fatalAccidents} fatal · ${row.fatalities.toLocaleString('tr-TR')} NTSB-scope ölüm`
+                        : scope === 'discovery'
+                          ? `${row.accidents} discovery kayıt · ölüm verisi varsa toplam ${row.fatalities.toLocaleString('tr-TR')}`
+                          : `${row.accidents} official-index olay · ${row.fatalAccidents} fatal · ${row.fatalities.toLocaleString('tr-TR')} ölüm`}</span>
                     </div>
                     <div className="type-bar"><span style={{ width: `${Math.max(4, (row.accidents / maxCount) * 100)}%` }} /></div>
                     <div className="type-row-age"><small>Ort. kaza yaşı</small><strong>{ageText(row.avgAgeYears)}</strong></div>
@@ -345,7 +390,7 @@ export default function AviationAccidentsDrawer() {
               })}
             </div>
 
-            <div className="dashboard-note">{scope === 'global' ? payload.ageNote : ntsb.causeMethodNote}</div>
+            <div className="dashboard-note">{scope === 'global' ? payload.ageNote : scope === 'discovery' ? 'Discovery katmanındaki ölüm, tarih, operatör ve uçak tipi alanları eksik olabilir. Resmî dashboard toplamlarına doğrulanmadan eklenmez.' : ntsb.causeMethodNote}</div>
           </>
         )}
 
@@ -356,15 +401,16 @@ export default function AviationAccidentsDrawer() {
             <h3>{selectedFamily}</h3>
 
             <div className="scope-compare">
-              <div><small>Global detay indeksi</small><strong>{globalFamily ? `${globalFamily.accidents} olay · ${globalFamily.fatalAccidents} fatal · ${globalFamily.fatalities.toLocaleString('tr-TR')} ölüm` : 'Detay kayıt yok'}</strong></div>
+              <div><small>Official global index</small><strong>{globalFamily ? `${globalFamily.accidents} olay · ${globalFamily.fatalAccidents} fatal · ${globalFamily.fatalities.toLocaleString('tr-TR')} ölüm` : 'Official detay kayıt yok'}</strong></div>
+              <div><small>Discovery layer</small><strong>{discoveryFamily ? `${discoveryFamily.accidents} discovery kayıt` : 'Ek discovery kaydı yok'}</strong></div>
               <div><small>NTSB bulk</small><strong>{activeNtsb ? `${activeNtsb.accidents} olay · ${activeNtsb.fatalAccidents} fatal · ${activeNtsb.fatalities.toLocaleString('tr-TR')} ölüm` : 'NTSB tip kaydı yok'}</strong></div>
             </div>
 
             <div className="safety-kpis compact">
-              <div><small>Global indexed fatalities</small><strong>{globalFamily?.fatalities.toLocaleString('tr-TR') ?? '—'}</strong></div>
+              <div><small>Official indexed fatalities</small><strong>{globalFamily?.fatalities.toLocaleString('tr-TR') ?? '—'}</strong></div>
               <div><small>NTSB accidents</small><strong>{activeNtsb?.accidents ?? '—'}</strong></div>
-              <div><small>Avg accident age</small><strong>{ageText(activeNtsb?.avgAgeYears ?? activeFamily?.avgAgeYears)}</strong></div>
-              <div><small>Age range</small><strong>{activeNtsb?.minAgeYears != null && activeNtsb?.maxAgeYears != null ? `${activeNtsb.minAgeYears.toFixed(0)}–${activeNtsb.maxAgeYears.toFixed(0)} y` : activeFamily?.minAgeYears != null && activeFamily?.maxAgeYears != null ? `${activeFamily.minAgeYears.toFixed(0)}–${activeFamily.maxAgeYears.toFixed(0)} y` : '—'}</strong></div>
+              <div><small>Avg accident age</small><strong>{ageText(activeNtsb?.avgAgeYears ?? globalFamily?.avgAgeYears ?? activeFamily?.avgAgeYears)}</strong></div>
+              <div><small>Age range</small><strong>{activeNtsb?.minAgeYears != null && activeNtsb?.maxAgeYears != null ? `${activeNtsb.minAgeYears.toFixed(0)}–${activeNtsb.maxAgeYears.toFixed(0)} y` : globalFamily?.minAgeYears != null && globalFamily?.maxAgeYears != null ? `${globalFamily.minAgeYears.toFixed(0)}–${globalFamily.maxAgeYears.toFixed(0)} y` : '—'}</strong></div>
             </div>
 
             {(activeNtsb?.causeCategories || []).length > 0 && (
@@ -412,12 +458,12 @@ export default function AviationAccidentsDrawer() {
             </section>
 
             <section>
-              <h4>Global detay indeksimizdeki olaylar</h4>
+              <h4>İndeksteki ilgili olaylar</h4>
               {activeCases.length ? activeCases.map((item) => (
                 <button className="accident-mini-row" key={item.id} onClick={() => { setSelected(item); setMode('cases') }}>
-                  <span>{item.date}</span><strong>{item.title}</strong><small>{item.aircraftAgeYears != null ? `~${item.aircraftAgeYears.toFixed(1)} yaş · ${item.fatalities ?? 0} ölüm` : `${item.fatalities ?? 0} ölüm`}</small>
+                  <span>{item.date}</span><strong>{item.title}</strong><small>{item.sourceTier === 'discovery' ? 'DISCOVERY' : item.aircraftAgeYears != null ? `~${item.aircraftAgeYears.toFixed(1)} yaş · ${item.fatalities ?? 0} ölüm` : `${item.fatalities ?? 0} ölüm`}</small>
                 </button>
-              )) : <p>Bu tip için henüz detaylı global vaka kartı eklenmedi.</p>}
+              )) : <p>Bu tip için henüz vaka kartı yok.</p>}
             </section>
           </div>
         )}
@@ -425,7 +471,10 @@ export default function AviationAccidentsDrawer() {
         {mode === 'cases' && selected ? (
           <div className="accident-detail">
             <button className="back-link" onClick={() => setSelected(null)}>← Listeye dön</button>
-            <div className="news-meta"><span>{selected.date}</span><span>{selected.authority}</span><span>{selected.status}</span></div>
+            <div className="news-meta">
+              <span>{selected.date}</span><span>{selected.authority}</span><span>{selected.status}</span>
+              <span>{selected.sourceTier === 'discovery' ? 'DISCOVERY · VERIFY' : 'OFFICIAL INDEX'}</span>
+            </div>
             <h3>{selected.title}</h3>
             <div className="accident-grid">
               {selected.aircraft && <div><small>Aircraft</small><strong>{selected.aircraft}</strong></div>}
@@ -436,11 +485,13 @@ export default function AviationAccidentsDrawer() {
               {typeof selected.fatalities === 'number' && <div><small>Fatalities</small><strong>{selected.fatalities}</strong></div>}
               {typeof selected.survivors === 'number' && <div><small>Survivors</small><strong>{selected.survivors}</strong></div>}
             </div>
+            {selected.sourceTier === 'discovery' && <div className="accident-coverage">Bu kayıt kapsam keşfi içindir. Resmî soruşturma otoritesiyle doğrulanmadan cause/fatality istatistiğine authoritative veri olarak katılmaz.</div>}
             <section><h4>Olay özeti</h4><p>{selected.summary}</p></section>
             {selected.probableCause && <section><h4>Probable cause / bulgular</h4><p>{selected.probableCause}</p></section>}
             <div className="accident-links">
               {selected.reportUrl && <a href={selected.reportUrl} target="_blank" rel="noreferrer">Resmî rapor ↗</a>}
-              <a href={selected.sourceUrl} target="_blank" rel="noreferrer">Soruşturma kaynağı ↗</a>
+              <a href={selected.sourceUrl} target="_blank" rel="noreferrer">{selected.sourceTier === 'discovery' ? 'Discovery kaynağı ↗' : 'Soruşturma kaynağı ↗'}</a>
+              {selected.discoveryArticleUrl && <a href={selected.discoveryArticleUrl} target="_blank" rel="noreferrer">Olay sayfası ↗</a>}
               <a href={documentarySearch(selected)} target="_blank" rel="noreferrer">Video / belgesel ara ↗</a>
             </div>
           </div>
@@ -454,10 +505,13 @@ export default function AviationAccidentsDrawer() {
             <div className="news-list">
               {filtered.map((item) => (
                 <button className="accident-card" key={item.id} onClick={() => setSelected(item)}>
-                  <div className="news-meta"><span>{item.date}</span><span>{item.authority}</span>{item.aircraftAgeYears != null && <span>~{item.aircraftAgeYears.toFixed(1)} yaş</span>}</div>
+                  <div className="news-meta">
+                    <span>{item.date}</span><span>{item.authority}</span><span>{item.sourceTier === 'discovery' ? 'DISCOVERY' : 'OFFICIAL'}</span>
+                    {item.aircraftAgeYears != null && <span>~{item.aircraftAgeYears.toFixed(1)} yaş</span>}
+                  </div>
                   <h3>{item.title}</h3>
                   <p>{[item.aircraft, item.operator, item.location].filter(Boolean).join(' · ')}</p>
-                  <div className="accident-card-foot"><span>{item.status}</span>{typeof item.fatalities === 'number' && <span>{item.fatalities} fatality</span>}</div>
+                  <div className="accident-card-foot"><span>{item.status}</span>{typeof item.fatalities === 'number' && <span>{item.sourceTier === 'discovery' ? `${item.fatalities} reported deaths` : `${item.fatalities} fatality`}</span>}</div>
                 </button>
               ))}
             </div>
@@ -465,7 +519,7 @@ export default function AviationAccidentsDrawer() {
         ) : null}
 
         <div className="drawer-foot">
-          Global indeks: {new Date(payload.updatedAt).toLocaleString('tr-TR')} · NTSB stats: {ntsb.totalAccidents ? new Date(ntsb.generatedAt).toLocaleString('tr-TR') : 'ilk üretim bekleniyor'} · Fleet snapshot: {fleet.profiles.length ? new Date(fleet.updatedAt).toLocaleString('tr-TR') : 'yüklenmedi'}
+          Global indeks: {new Date(payload.updatedAt).toLocaleString('tr-TR')} · Official: {officialItems.length} · Discovery: {discoveryItems.length} · NTSB stats: {ntsb.totalAccidents ? new Date(ntsb.generatedAt).toLocaleString('tr-TR') : 'ilk üretim bekleniyor'} · Fleet snapshot: {fleet.profiles.length ? new Date(fleet.updatedAt).toLocaleString('tr-TR') : 'yüklenmedi'}
         </div>
       </aside>
     </>
