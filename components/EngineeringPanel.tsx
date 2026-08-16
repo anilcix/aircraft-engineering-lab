@@ -10,7 +10,22 @@ type Props = {
   onDamageToggle: () => void
 }
 
-const WING_FAMILY = new Set(['wing', 'front-spar', 'rear-spar', 'rib', 'stringer'])
+const WING_FAMILY = new Set([
+  'wing',
+  'front-spar',
+  'rear-spar',
+  'rib',
+  'stringer',
+  'side-of-body-rib',
+  'tank-end-rib',
+  'wing-center-section',
+  'landing-gear-beam',
+  'leading-edge-slat',
+  'spoiler',
+  'flap',
+  'flaperon',
+  'aileron',
+])
 
 export default function EngineeringPanel({ selected, layer, onLayerChange, damaged, onDamageToggle }: Props) {
   const part = engineeringParts[selected] ?? engineeringParts.wing
@@ -65,7 +80,7 @@ export default function EngineeringPanel({ selected, layer, onLayerChange, damag
         <div className={damaged ? 'damage-card danger' : 'damage-card'}>
           <div>
             <strong>Damage Lab — concept mode</strong>
-            <p>{damaged ? 'Local wing-structure damage introduced. The next step is load redistribution and risk visualization across spars, ribs and stringers.' : 'Inject a conceptual defect into the wing demonstrator or selected substructure.'}</p>
+            <p>{damaged ? 'A conceptual local defect is active in the wing region. The next step will be load redistribution and risk visualization across the selected structure.' : 'Inject a conceptual defect into the wing or selected wing component.'}</p>
           </div>
           <button onClick={onDamageToggle}>{damaged ? 'Reset damage' : 'Introduce damage'}</button>
         </div>
