@@ -11,8 +11,8 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'data' / 'wikidata-aviation-accident-discovery.json'
 ENDPOINT = 'https://query.wikidata.org/sparql'
 
-QUERY = r'''
-SELECT DISTINCT ?event ?eventLabel ?date ?deaths ?operatorLabel ?aircraftLabel ?locationLabel ?countryLabel ?eventCoord ?locationCoord ?article WHERE {
+BASE_QUERY = r'''
+SELECT DISTINCT ?event ?eventLabel ?date ?deaths ?operatorLabel ?aircraftLabel ?locationLabel ?countryLabel ?article WHERE {
   ?event wdt:P31 wd:Q744913 ;
          wdt:P585 ?date .
   FILTER(YEAR(?date) >= 1910)
@@ -21,8 +21,6 @@ SELECT DISTINCT ?event ?eventLabel ?date ?deaths ?operatorLabel ?aircraftLabel ?
   OPTIONAL { ?event wdt:P121 ?aircraft . }
   OPTIONAL { ?event wdt:P276 ?location . }
   OPTIONAL { ?event wdt:P17 ?country . }
-  OPTIONAL { ?event wdt:P625 ?eventCoord . }
-  OPTIONAL { ?location wdt:P625 ?locationCoord . }
   OPTIONAL {
     ?article schema:about ?event ;
              schema:isPartOf <https://en.wikipedia.org/> .
@@ -30,6 +28,21 @@ SELECT DISTINCT ?event ?eventLabel ?date ?deaths ?operatorLabel ?aircraftLabel ?
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en,tr". }
 }
 ORDER BY DESC(?date)
+LIMIT 12000
+'''
+
+COORD_QUERY = r'''
+SELECT DISTINCT ?event ?eventCoord ?locationCoord WHERE {
+  ?event wdt:P31 wd:Q744913 ;
+         wdt:P585 ?date .
+  FILTER(YEAR(?date) >= __START__ && YEAR(?date) <= __END__)
+  OPTIONAL { ?event wdt:P625 ?eventCoord . }
+  OPTIONAL {
+    ?event wdt:P276 ?location .
+    ?location wdt:P625 ?locationCoord .
+  }
+  FILTER(BOUND(?eventCoord) || BOUND(?locationCoord))
+}
 LIMIT 12000
 '''
 
@@ -60,18 +73,18 @@ def b(row, key):
     return row.get(key, {}).get('value', '')
 
 
-def fetch():
-    encoded = urllib.parse.urlencode({'query': QUERY, 'format': 'json'})
+def fetch_query(query, retries=4, timeout=90):
+    encoded = urllib.parse.urlencode({'query': query, 'format': 'json'})
     url = ENDPOINT + '?' + encoded
     headers = {
         'Accept': 'application/sparql-results+json',
         'User-Agent': 'AircraftEngineeringLab/0.1 (GitHub Pages educational aviation safety index)'
     }
     last = None
-    for attempt in range(4):
+    for attempt in range(retries):
         try:
             req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, timeout=90) as response:
+            with urllib.request.urlopen(req, timeout=timeout) as response:
                 return json.loads(response.read().decode('utf-8'))
         except Exception as exc:
             last = exc
@@ -103,10 +116,50 @@ def parse_point(value):
     return lat, lon
 
 
-data = fetch()
-rows = data.get('results', {}).get('bindings', [])
-by_event = {}
+# Preserve any already-known coordinates if a later batch is temporarily unavailable.
+existing_coords = {}
+if OUT.exists():
+    try:
+        old = json.loads(OUT.read_text(encoding='utf-8'))
+        for item in old.get('items', []):
+            if isinstance(item.get('latitude'), (int, float)) and isinstance(item.get('longitude'), (int, float)):
+                existing_coords[item.get('id', '').replace('WIKIDATA-', '')] = (
+                    item['latitude'], item['longitude'], item.get('coordinateSource', 'previous discovery run')
+                )
+    except Exception:
+        pass
 
+base_data = fetch_query(BASE_QUERY)
+rows = base_data.get('results', {}).get('bindings', [])
+
+coordinate_map = dict(existing_coords)
+coordinate_failures = []
+for start, end in [(1970, 1979), (1980, 1989), (1990, 1999), (2000, 2009), (2010, 2019), (2020, 2026)]:
+    query = COORD_QUERY.replace('__START__', str(start)).replace('__END__', str(end))
+    try:
+        data = fetch_query(query, retries=3, timeout=75)
+        coord_rows = data.get('results', {}).get('bindings', [])
+        batch_added = 0
+        for row in coord_rows:
+            event_url = b(row, 'event')
+            if not event_url:
+                continue
+            qid = event_url.rsplit('/', 1)[-1]
+            point = parse_point(b(row, 'eventCoord'))
+            source = 'Wikidata event coordinate'
+            if point is None:
+                point = parse_point(b(row, 'locationCoord'))
+                source = 'Wikidata event-location coordinate'
+            if point is not None and qid not in coordinate_map:
+                coordinate_map[qid] = (point[0], point[1], source)
+                batch_added += 1
+        print(f'Coordinate batch {start}-{end}: {len(coord_rows)} rows, {batch_added} new mapped events.')
+    except Exception as exc:
+        coordinate_failures.append(f'{start}-{end}: {exc}')
+        print(f'WARNING coordinate batch {start}-{end} failed: {exc}')
+    time.sleep(1)
+
+by_event = {}
 for row in rows:
     event_url = b(row, 'event')
     if not event_url:
@@ -147,14 +200,9 @@ for row in rows:
     if location_text and not rec.get('location'):
         rec['location'] = location_text
 
-    point = parse_point(b(row, 'eventCoord'))
-    point_source = 'Wikidata event coordinate'
-    if point is None:
-        point = parse_point(b(row, 'locationCoord'))
-        point_source = 'Wikidata event-location coordinate'
-    if point is not None and 'latitude' not in rec:
-        rec['latitude'], rec['longitude'] = point
-        rec['coordinateSource'] = point_source
+    coordinate = coordinate_map.get(qid)
+    if coordinate and 'latitude' not in rec:
+        rec['latitude'], rec['longitude'], rec['coordinateSource'] = coordinate
 
     deaths = int_or_none(b(row, 'deaths'))
     if deaths is not None:
@@ -173,9 +221,10 @@ payload = {
     'source': 'Wikidata Query Service / aviation accident (Q744913)',
     'license': 'Wikidata structured data is CC0',
     'coverageNote': 'Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.',
-    'coordinateNote': f'{coord_count} discovery records include an event or event-location coordinate for map projection.',
+    'coordinateNote': f'{coord_count} discovery records include an event or event-location coordinate for the 1970-2026 map timeline.',
+    'coordinateBatchWarnings': coordinate_failures,
     'items': items,
 }
 OUT.parent.mkdir(parents=True, exist_ok=True)
 OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-print(f'Wrote {OUT}: {len(items)} discovery records, {coord_count} with coordinates, from {len(rows)} query rows.')
+print(f'Wrote {OUT}: {len(items)} discovery records, {coord_count} with coordinates, from {len(rows)} base query rows.')
