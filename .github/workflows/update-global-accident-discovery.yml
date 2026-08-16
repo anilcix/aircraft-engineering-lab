@@ -1,0 +1,45 @@
+name: Refresh Global Accident Discovery
+
+on:
+  schedule:
+    - cron: '37 3 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/update-wikidata-accident-discovery.py'
+      - '.github/workflows/update-global-accident-discovery.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: global-accident-index-write
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Discover global aviation accidents from Wikidata
+        run: python3 scripts/update-wikidata-accident-discovery.py
+
+      - name: Merge official and discovery layers
+        run: python3 scripts/merge-global-accidents.py
+
+      - name: Commit refreshed discovery index
+        run: |
+          if git diff --quiet -- data/wikidata-aviation-accident-discovery.json public/aviation-accidents.json; then
+            echo 'No global discovery changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/wikidata-aviation-accident-discovery.json public/aviation-accidents.json
+          git commit -m 'Refresh broad global aviation accident discovery'
+          git pull --rebase origin main
+          git push origin main
