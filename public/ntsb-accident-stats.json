@@ -1,0 +1,7 @@
+{
+  "generatedAt": "1970-01-01T00:00:00Z",
+  "coverageNote": "NTSB bulk statistics have not been generated yet. The scheduled importer will populate this file from the official NTSB downloadable aviation dataset.",
+  "totalAccidents": 0,
+  "totalAircraftRecords": 0,
+  "types": []
+}
