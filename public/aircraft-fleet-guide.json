@@ -1,0 +1,196 @@
+{
+  "updatedAt": "2026-08-16T18:39:00Z",
+  "methodNote": "Broad passenger-aircraft fleet guide. Manufacturer sources establish program/operator scale where available; independent fleet directories and airline fleet pages are used to cross-check current operator presence and dated fleet-age examples. Named directories are broad but not claimed to be a perfect live census. Orders, historic operators and current active operators are kept conceptually separate.",
+  "profiles": [
+    {
+      "family": "Airbus A320 Family",
+      "status": "One of the world's dominant active single-aisle fleets",
+      "checkedAt": "2026-08-16",
+      "globalScale": "Airbus reports 300+ operators worldwide. Public June-2026 fleet lists place more than 11,000 A320-family aircraft in commercial service.",
+      "globalScaleSourceLabel": "Airbus A320 Family",
+      "globalScaleSourceUrl": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a320-family",
+      "currentOperators": ["Aegean Airlines", "Aer Lingus", "Air Arabia", "Air Astana", "Air Cairo", "Air Canada", "Air China", "Air France", "Air India", "AirAsia", "American Airlines", "ANA", "Austrian Airlines", "Avianca", "British Airways", "Brussels Airlines", "Cebu Pacific", "China Eastern Airlines", "China Southern Airlines", "Croatia Airlines", "Delta Air Lines", "easyJet", "Eurowings", "Finnair", "Frontier Airlines", "Gulf Air", "HK Express", "Iberia", "Iberia Express", "IndiGo", "ITA Airways", "JetBlue", "Jetstar", "Jetstar Japan", "Juneyao Airlines", "Kuwait Airways", "LATAM", "Lufthansa", "Middle East Airlines", "Peach Aviation", "Pegasus Airlines", "Philippine Airlines", "SAS", "Saudia", "Scoot", "Shenzhen Airlines", "Spirit Airlines", "Spring Airlines", "SWISS", "TAP Air Portugal", "Turkish Airlines", "United Airlines", "Vietnam Airlines", "VietJet Air", "Volaris", "Vueling", "Wizz Air", "flynas"],
+      "verificationSources": [
+        {"label": "Airbus — A320 Family / 300+ operators", "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a320-family"},
+        {"label": "Airbus — June 2026 customer documents", "url": "https://www.airbus.com/en/key-documents"},
+        {"label": "Planespotters — A320 Family operator directory", "url": "https://www.planespotters.net/aircraft/operators/airbus-a320-family"}
+      ],
+      "operatorSnapshots": [
+        {"airline": "IndiGo", "variant": "A320 + A321 current subfleets", "fleetCount": 374, "avgAgeYears": 4.6, "sourceLabel": "Planespotters — IndiGo", "sourceUrl": "https://www.planespotters.net/airline/IndiGo", "sourceUpdatedAt": "2026-06-23", "note": "Weighted from A320 and A321 current subfleet rows."},
+        {"airline": "easyJet Group", "variant": "A320 current subfleet", "fleetCount": 260, "avgAgeYears": 10.2, "sourceLabel": "Planespotters — easyJet Group", "sourceUrl": "https://www.planespotters.net/airline/easyJet-Group", "sourceUpdatedAt": "2026-07-17"}
+      ],
+      "note": "Operator directory is intentionally broader than the age table; age is only shown where a dated type-level snapshot was verified."
+    },
+    {
+      "family": "Airbus A220",
+      "status": "Growing global 100–160 seat single-aisle fleet",
+      "checkedAt": "2026-08-16",
+      "globalScale": "Airbus reports 500+ deliveries and 25 historic operators; current airline operation spans five continents.",
+      "globalScaleSourceLabel": "Airbus A220 Family",
+      "globalScaleSourceUrl": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a220-family",
+      "currentOperators": ["Air Austral", "airBaltic", "Air Canada", "Air France", "Air Niugini", "Air Tanzania", "Animawings", "Breeze Airways", "Bulgaria Air", "Croatia Airlines", "Cyprus Airways", "Delta Air Lines", "Ibom Air", "Iraqi Airways", "ITA Airways", "JetBlue", "Korean Air", "QantasLink", "Smartwings", "SWISS", "TAAG Angola Airlines"],
+      "verificationSources": [
+        {"label": "Airbus — A220 named operator history/current context", "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a220-family"},
+        {"label": "Airbus — Ten years of A220 / 25 operators", "url": "https://www.airbus.com/en/newsroom/stories/2026-06-ten-years-of-the-a220"},
+        {"label": "Planespotters — A220 operator directory", "url": "https://www.planespotters.net/aircraft/operators/airbus-a220"}
+      ],
+      "operatorSnapshots": [
+        {"airline": "Delta Air Lines", "variant": "A220 family", "fleetCount": 87, "avgAgeYears": 4.8, "sourceLabel": "Planespotters — Delta Air Lines", "sourceUrl": "https://www.planespotters.net/airline/Delta-Air-Lines", "sourceUpdatedAt": "2026-07-15"},
+        {"airline": "airBaltic", "variant": "A220-300", "fleetCount": 54, "avgAgeYears": 5.1, "sourceLabel": "Planespotters — airBaltic", "sourceUrl": "https://www.planespotters.net/airline/Air-Baltic", "sourceUpdatedAt": "2026-07-17"}
+      ],
+      "note": "Airbus itself labels its 25-name figure as historic operators, so the named current-airline directory is cross-checked against current fleet listings."
+    },
+    {
+      "family": "Boeing 737 NG",
+      "status": "Large mature single-aisle fleet still in widespread service",
+      "checkedAt": "2026-08-16",
+      "globalScale": "Thousands of 737NG aircraft remain in airline service. Current operator directories cover airlines on every continent.",
+      "globalScaleSourceLabel": "Planespotters Boeing 737 directory",
+      "globalScaleSourceUrl": "https://www.planespotters.net/aircraft/operators/boeing-737",
+      "currentOperators": ["Aeromexico", "Air Algerie", "Air India Express", "Alaska Airlines", "American Airlines", "Batik Air", "Copa Airlines", "EgyptAir", "Ethiopian Airlines", "flydubai", "GOL", "Garuda Indonesia", "Japan Airlines", "Jeju Air", "Kenya Airways", "KLM", "Korean Air", "Lion Air", "Malaysia Airlines", "Norwegian", "Oman Air", "Pegasus Airlines", "Qantas", "Royal Air Maroc", "Ryanair", "Southwest Airlines", "SunExpress", "Transavia", "TUI", "Turkish Airlines", "United Airlines", "Virgin Australia", "WestJet", "XiamenAir", "China Southern Airlines", "Shandong Airlines", "Cayman Airways"],
+      "verificationSources": [
+        {"label": "Planespotters — Boeing 737 operator directory", "url": "https://www.planespotters.net/aircraft/operators/boeing-737"},
+        {"label": "Boeing — 737 program", "url": "https://www.boeing.com/commercial/737max"}
+      ],
+      "operatorSnapshots": [
+        {"airline": "Ryanair", "variant": "737-800", "fleetCount": 197, "avgAgeYears": 16.7, "sourceLabel": "Planespotters — Ryanair", "sourceUrl": "https://www.planespotters.net/airline/Ryanair", "sourceUpdatedAt": "2026-07-11"},
+        {"airline": "Turkish Airlines", "variant": "737-800 + 737-900ER", "fleetCount": 55, "avgAgeYears": 12.1, "sourceLabel": "Planespotters — Turkish Airlines", "sourceUrl": "https://www.planespotters.net/airline/Turkish-Airlines", "sourceUpdatedAt": "2026-07-16"}
+      ],
+      "note": "Sub-variant, lease and parked status change frequently; this is a passenger-oriented directory rather than a legal registry."
+    },
+    {
+      "family": "Boeing 737 MAX",
+      "status": "Rapidly growing current-generation single-aisle fleet",
+      "checkedAt": "2026-08-16",
+      "globalScale": "Boeing reports 100+ customers with firm orders for about 7,000 MAX aircraft. Customer/order count is not presented as current active-operator count.",
+      "globalScaleSourceLabel": "Boeing 737 MAX",
+      "globalScaleSourceUrl": "https://www.boeing.com/commercial/737max",
+      "currentOperators": ["Aeromexico", "Air Canada", "Air India Express", "Air Tanzania", "Akasa Air", "Alaska Airlines", "American Airlines", "Batik Air", "Cayman Airways", "China Southern Airlines", "Copa Airlines", "Ethiopian Airlines", "Fiji Airways", "Flair Airlines", "flydubai", "GOL", "Icelandair", "Lion Air", "LOT Polish Airlines", "Malaysia Airlines", "Norwegian", "Oman Air", "Royal Air Maroc", "Ryanair Group", "Shandong Airlines", "Singapore Airlines", "Southwest Airlines", "SunExpress", "TUI", "Turkish Airlines", "United Airlines", "Virgin Australia", "WestJet", "XiamenAir"],
+      "verificationSources": [
+        {"label": "Boeing — 737 MAX global customer scale", "url": "https://www.boeing.com/commercial/737max"},
+        {"label": "Planespotters — Boeing 737 operator directory", "url": "https://www.planespotters.net/aircraft/operators/boeing-737"},
+        {"label": "FAA — 2026 production oversight update", "url": "https://www.faa.gov/newsroom/after-months-safety-review-faa-allows-boeing-resume-issuing-certificates-new-airplanes"}
+      ],
+      "operatorSnapshots": [
+        {"airline": "Southwest Airlines", "variant": "737 MAX 8", "fleetCount": 325, "avgAgeYears": 3.7, "sourceLabel": "Planespotters — Southwest Airlines", "sourceUrl": "https://www.planespotters.net/airline/Southwest-Airlines", "sourceUpdatedAt": "2026-07-18"},
+        {"airline": "Turkish Airlines", "variant": "737 MAX 8 + MAX 9", "fleetCount": 26, "avgAgeYears": 7.1, "sourceLabel": "Planespotters — Turkish Airlines", "sourceUrl": "https://www.planespotters.net/airline/Turkish-Airlines", "sourceUpdatedAt": "2026-07-18"}
+      ],
+      "note": "Orders/customers and aircraft currently operating passenger service are shown as separate concepts."
+    },
+    {
+      "family": "Embraer E-Jet Family",
+      "status": "Very large regional and small-mainline jet fleet",
+      "checkedAt": "2026-08-16",
+      "globalScale": "Embraer reports 1,400+ first-generation E-Jets in service with 80+ airlines; E2 is expanding with newer operators.",
+      "globalScaleSourceLabel": "Embraer E-Jets",
+      "globalScaleSourceUrl": "https://embraer.com/e-jets/en/",
+      "currentOperators": ["Air Canada Express", "Air Dolomiti", "Air Montenegro", "Air Peace", "American Eagle", "Azul", "Binter Canarias", "British Airways CityFlyer", "Envoy Air", "Fuji Dream Airlines", "Helvetic Airways", "Horizon Air", "J-Air", "KLM Cityhopper", "LOT Polish Airlines", "Mesa Airlines", "Porter Airlines", "Republic Airways", "Royal Air Maroc", "SAS", "SkyWest Airlines", "Tianjin Airlines", "Widerøe", "Air Astana", "Luxair"],
+      "verificationSources": [
+        {"label": "Embraer — E-Jets / 80+ airlines", "url": "https://embraer.com/e-jets/en/"},
+        {"label": "Embraer — E2 operators", "url": "https://embraer.com/eca/operators/en/"},
+        {"label": "Embraer SEC filing — largest active E-Jet customers", "url": "https://www.sec.gov/Archives/edgar/data/1355444/000162828026021824/erj-20251231.htm"}
+      ],
+      "operatorSnapshots": [
+        {"airline": "Porter Airlines", "variant": "E195-E2", "fleetCount": 54, "avgAgeYears": 2.4, "sourceLabel": "Planespotters — Porter Airlines", "sourceUrl": "https://www.planespotters.net/airline/Porter-Airlines", "sourceUpdatedAt": "2026-07-17"},
+        {"airline": "KLM Cityhopper", "variant": "E195-E2", "fleetCount": 25, "avgAgeYears": 3.5, "sourceLabel": "Planespotters — KLM Cityhopper", "sourceUrl": "https://www.planespotters.net/airline/KLM-Cityhopper", "sourceUpdatedAt": "2026-07-17"},
+        {"airline": "KLM Cityhopper", "variant": "E190", "fleetCount": 18, "avgAgeYears": 15.3, "sourceLabel": "Planespotters — KLM Cityhopper", "sourceUrl": "https://www.planespotters.net/airline/KLM-Cityhopper", "sourceUpdatedAt": "2026-07-17"}
+      ],
+      "note": "First-generation E-Jet and E2 subfleets are kept visible separately in age rows because their age profiles differ greatly."
+    },
+    {
+      "family": "ATR 72",
+      "status": "One of the world's most common regional turboprop families",
+      "checkedAt": "2026-08-16",
+      "globalScale": "ATR has a broad worldwide operator ecosystem; independent production lists show more than 1,000 ATR 72 airframes across generations.",
+      "globalScaleSourceLabel": "ATR 2026 market update",
+      "globalScaleSourceUrl": "https://www.atr-aircraft.com/presspost/atr-reports-strong-2025-demand-prepares-2026-ramp-up/",
+      "currentOperators": ["Aer Lingus Regional", "Air Corsica", "Air New Zealand", "Air Serbia", "Air Tahiti", "Aircalin", "Azul", "Bangkok Airways", "Binter Canarias", "Caribbean Airlines", "Cebu Pacific", "Citilink", "Firefly", "Fly91", "IndiGo", "Japan Air Commuter", "Loganair", "Olympic Air", "PNG Air", "Royal Air Maroc Express", "SATENA", "Swiftair", "TAROM", "TransNusa", "UNI Air", "Wings Air"],
+      "verificationSources": [
+        {"label": "ATR — 2025 results / 2026 operator growth", "url": "https://www.atr-aircraft.com/presspost/atr-reports-strong-2025-demand-prepares-2026-ramp-up/"},
+        {"label": "Planespotters — ATR 72 operators", "url": "https://www.planespotters.net/aircraft/operators/atr-72"},
+        {"label": "Flightradar24 — ATR 72 production list", "url": "https://www.flightradar24.com/data/aircraft/atr72"}
+      ],
+      "operatorSnapshots": [
+        {"airline": "IndiGo", "variant": "ATR 72", "fleetCount": 44, "avgAgeYears": 5.7, "sourceLabel": "Planespotters — IndiGo", "sourceUrl": "https://www.planespotters.net/airline/IndiGo", "sourceUpdatedAt": "2026-06-23"},
+        {"airline": "Azul", "variant": "ATR 42/72 current fleet", "fleetCount": 38, "avgAgeYears": 10.6, "sourceLabel": "Planespotters — Azul", "sourceUrl": "https://www.planespotters.net/airline/Azul-Linhas-Aereas-Brasileiras", "sourceUpdatedAt": "2026-07-18"}
+      ],
+      "note": "Regional turboprop fleets frequently move via leases, so status requires more frequent refresh than manufacturer program totals."
+    },
+    {
+      "family": "Airbus A330",
+      "status": "Large global passenger and cargo widebody fleet",
+      "checkedAt": "2026-08-16",
+      "globalScale": "Airbus reports 151 operators worldwide across the A330 family.",
+      "globalScaleSourceLabel": "Airbus A330 Family",
+      "globalScaleSourceUrl": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a330-family",
+      "currentOperators": ["Aer Lingus", "Air Canada", "Air China", "Air Europa", "Air France", "Air Mauritius", "Air Transat", "Asiana Airlines", "Brussels Airlines", "Cathay Pacific", "China Eastern Airlines", "China Southern Airlines", "Condor", "Delta Air Lines", "Discover Airlines", "Edelweiss Air", "Etihad Airways", "Fiji Airways", "Garuda Indonesia", "Gulf Air", "Hainan Airlines", "ITA Airways", "KLM", "Korean Air", "Malaysia Airlines", "Philippine Airlines", "Qantas", "Saudia", "Sichuan Airlines", "SriLankan Airlines", "SWISS", "TAP Air Portugal", "Thai Airways", "Turkish Airlines", "Vietnam Airlines", "Virgin Atlantic", "flynas"],
+      "verificationSources": [
+        {"label": "Airbus — A330 Family / 151 operators", "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a330-family"},
+        {"label": "Airbus — June 2026 A330 customer documents", "url": "https://www.airbus.com/en/key-documents"},
+        {"label": "Planespotters — fleet cross-check", "url": "https://www.planespotters.net/"}
+      ],
+      "operatorSnapshots": [
+        {"airline": "Delta Air Lines", "variant": "A330 family", "fleetCount": 81, "avgAgeYears": 11.3, "sourceLabel": "Planespotters — Delta Air Lines", "sourceUrl": "https://www.planespotters.net/airline/Delta-Air-Lines", "sourceUpdatedAt": "2026-07-17"},
+        {"airline": "Turkish Airlines", "variant": "A330-200 + A330-300", "fleetCount": 58, "avgAgeYears": 13.7, "sourceLabel": "Planespotters — Turkish Airlines", "sourceUrl": "https://www.planespotters.net/airline/Turkish-Airlines", "sourceUpdatedAt": "2026-07-16"}
+      ],
+      "note": "A330ceo and A330neo are combined at family level; airline age rows retain the actual subfleet context."
+    },
+    {
+      "family": "Airbus A350",
+      "status": "Modern long-haul widebody fleet with global operator growth",
+      "checkedAt": "2026-08-16",
+      "globalScale": "Airbus 2026 publications show roughly 40 A350 operators worldwide; exact count varies slightly with publication cutoff.",
+      "globalScaleSourceLabel": "Airbus A350 Family",
+      "globalScaleSourceUrl": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a350-family",
+      "currentOperators": ["Air China", "Air France", "Air India", "Air Mauritius", "Asiana Airlines", "British Airways", "Cathay Pacific", "China Airlines", "China Eastern Airlines", "China Southern Airlines", "Delta Air Lines", "Emirates", "Ethiopian Airlines", "Etihad Airways", "Fiji Airways", "Finnair", "French bee", "Iberia", "Japan Airlines", "Lufthansa", "Malaysia Airlines", "Philippine Airlines", "Qatar Airways", "Singapore Airlines", "Sichuan Airlines", "STARLUX Airlines", "Thai Airways", "Turkish Airlines", "Vietnam Airlines", "Virgin Atlantic"],
+      "verificationSources": [
+        {"label": "Airbus — A350 Family", "url": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a350-family"},
+        {"label": "Airbus — June 2026 A350 update / 41 operators cutoff", "url": "https://www.airbus.com/en/newsroom/press-releases/2026-06-worlds-longest-range-aircraft-the-airbus-a350-1000ulr-takes-to-the-skies"},
+        {"label": "Airbus — June 2026 customer list", "url": "https://www.airbus.com/en/key-documents"}
+      ],
+      "operatorSnapshots": [
+        {"airline": "Turkish Airlines", "variant": "A350-900", "fleetCount": 35, "avgAgeYears": 2.8, "sourceLabel": "Planespotters — Turkish Airlines", "sourceUrl": "https://www.planespotters.net/airline/Turkish-Airlines", "sourceUpdatedAt": "2026-07-16"}
+      ],
+      "note": "Publication cutoffs can yield small operator-count differences even across Airbus pages; the guide displays the scale rather than pretending to a single immutable count."
+    },
+    {
+      "family": "Boeing 777",
+      "status": "Major long-haul and cargo widebody family",
+      "checkedAt": "2026-08-16",
+      "globalScale": "Large established global 777-200/300/300ER/F fleet; 777X is kept separate from normal current-service counts until entry into service.",
+      "globalScaleSourceLabel": "Boeing 777",
+      "globalScaleSourceUrl": "https://www.boeing.com/commercial/777",
+      "currentOperators": ["Air Canada", "Air China", "Air France", "Air India", "American Airlines", "ANA", "British Airways", "Cathay Pacific", "China Airlines", "China Southern Airlines", "Emirates", "Ethiopian Airlines", "Etihad Airways", "Japan Airlines", "KLM", "Korean Air", "Pakistan International Airlines", "Qatar Airways", "Saudia", "Singapore Airlines", "SWISS", "Turkish Airlines", "United Airlines", "FedEx Express"],
+      "verificationSources": [
+        {"label": "Boeing — 777 program", "url": "https://www.boeing.com/commercial/777"},
+        {"label": "Planespotters — Boeing 777 production/operator data", "url": "https://www.planespotters.net/aircraft/production/boeing-777"}
+      ],
+      "operatorSnapshots": [
+        {"airline": "Emirates", "variant": "Boeing 777 family", "fleetCount": 145, "avgAgeYears": 12.3, "sourceLabel": "Planespotters — The Emirates Group", "sourceUrl": "https://www.planespotters.net/airline/The-Emirates-Group", "sourceUpdatedAt": "2026-07-18"},
+        {"airline": "Qatar Airways", "variant": "Boeing 777 family", "fleetCount": 93, "avgAgeYears": 11.9, "sourceLabel": "Planespotters — Qatar Airways", "sourceUrl": "https://www.planespotters.net/airline/Qatar-Airways", "sourceUpdatedAt": "2026-07-17"},
+        {"airline": "Turkish Airlines", "variant": "Boeing 777 family", "fleetCount": 45, "avgAgeYears": 11.0, "sourceLabel": "Planespotters — Turkish Airlines", "sourceUrl": "https://www.planespotters.net/airline/Turkish-Airlines", "sourceUpdatedAt": "2026-07-18"}
+      ],
+      "note": "Passenger and freighter operators are both relevant to family longevity; passenger-guide searches can later hide cargo-only rows."
+    },
+    {
+      "family": "Boeing 787",
+      "status": "Widespread active long-haul widebody fleet",
+      "checkedAt": "2026-08-16",
+      "globalScale": "Boeing reports 2,400+ orders from 90 global customers and publishes a regional operator directory spanning all major markets.",
+      "globalScaleSourceLabel": "Boeing 787 Dreamliner",
+      "globalScaleSourceUrl": "https://www.boeing.com/commercial/787/",
+      "currentOperators": ["Aeromexico", "Air Austral", "Air Canada", "Air China", "Air Europa", "Air France", "Air India", "Air New Zealand", "Air Premia", "Air Tahiti Nui", "Air Tanzania", "Alaska Airlines", "ANA", "American Airlines", "Austrian Airlines", "Avianca", "Azerbaijan Airlines", "Biman Bangladesh Airlines", "British Airways", "China Eastern Airlines", "China Southern Airlines", "EgyptAir", "EL AL", "Ethiopian Airlines", "Etihad Airways", "EVA Air", "Gulf Air", "Hainan Airlines", "Hawaiian Airlines", "Iraqi Airways", "Japan Airlines", "Juneyao Airlines", "Kenya Airways", "KLM", "Korean Air", "LATAM", "LOT Polish Airlines", "Lufthansa", "MIAT Mongolian Airlines", "Norse Atlantic Airways", "Oman Air", "Qantas", "Qatar Airways", "Riyadh Air", "Royal Air Maroc", "Royal Brunei Airlines", "Royal Jordanian", "Saudia", "Scoot", "Shanghai Airlines", "Singapore Airlines", "Thai Airways", "TUI", "Turkish Airlines", "United Airlines", "Uzbekistan Airways", "Vietnam Airlines", "Virgin Atlantic", "WestJet", "XiamenAir"],
+      "verificationSources": [
+        {"label": "Boeing — 787 operators by region", "url": "https://787dreamliner.boeing.com/"},
+        {"label": "Boeing — 787 program / 90 global customers", "url": "https://www.boeing.com/commercial/787/"},
+        {"label": "B787 Register — active operator matrix", "url": "https://www.b787register.co.uk/operators.php"}
+      ],
+      "operatorSnapshots": [
+        {"airline": "ANA / All Nippon Airways", "variant": "787-8 + 787-9 + 787-10", "fleetCount": 91, "avgAgeYears": 9.8, "sourceLabel": "Planespotters — ANA", "sourceUrl": "https://www.planespotters.net/airline/All-Nippon-Airways", "sourceUpdatedAt": "2026-07-15"},
+        {"airline": "Qatar Airways", "variant": "Boeing 787 family", "fleetCount": 60, "avgAgeYears": 8.2, "sourceLabel": "Planespotters — Qatar Airways", "sourceUrl": "https://www.planespotters.net/airline/Qatar-Airways", "sourceUpdatedAt": "2026-07-17"},
+        {"airline": "Turkish Airlines", "variant": "787-9", "fleetCount": 27, "avgAgeYears": 4.8, "sourceLabel": "Planespotters — Turkish Airlines", "sourceUrl": "https://www.planespotters.net/airline/Turkish-Airlines", "sourceUpdatedAt": "2026-07-18"}
+      ],
+      "note": "The Boeing regional directory and an independent active-aircraft register are used together to broaden and cross-check the operator list."
+    }
+  ]
+}
