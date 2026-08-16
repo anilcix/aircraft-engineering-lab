@@ -3,6 +3,8 @@
 import dynamic from 'next/dynamic'
 import { useState } from 'react'
 import EngineeringPanel from '@/components/EngineeringPanel'
+import AviationNewsDrawer from '@/components/AviationNewsDrawer'
+import CertificationDrawer from '@/components/CertificationDrawer'
 
 const AircraftScene = dynamic(() => import('@/components/AircraftScene'), { ssr: false })
 
@@ -40,7 +42,7 @@ export default function Home() {
           <div className="brand">AIRCRAFT ENGINEERING LAB</div>
           <div className="subbrand">AEL-300 · reference-based widebody structural demonstrator</div>
         </div>
-        <div className="status"><span /> V0.3 GEOMETRY + WING MAP</div>
+        <div className="status"><span /> V0.4 STRUCTURE + KNOWLEDGE</div>
       </header>
 
       <section className="workspace">
@@ -49,7 +51,7 @@ export default function Home() {
             <div>
               <div className="eyebrow">DIGITAL TWIN / TRAINING MODEL</div>
               <h1>AEL-300</h1>
-              <p>Updated from the provided references · click WING to reveal spars, ribs, wing center section and flight-control surfaces</p>
+              <p>Click WING to reveal the primary wing structure · use the side tools for industry news and certification sources</p>
             </div>
             <div className="hud-actions">
               {['fuselage', 'wing', 'front-spar', 'rear-spar', 'wing-center-section', 'engine', 'tail'].map((part) => (
@@ -57,8 +59,14 @@ export default function Home() {
               ))}
             </div>
           </div>
+
+          <div className="side-tools">
+            <AviationNewsDrawer />
+            <CertificationDrawer />
+          </div>
+
           <AircraftScene selected={selected} onSelect={selectPart} damaged={damaged} />
-          <div className="corner-note">REFERENCE-INFORMED WING BREAKDOWN · ORIGINAL TRAINING GEOMETRY · NO OEM CAD DATA</div>
+          <div className="corner-note">REFERENCE-INFORMED STRUCTURAL DEMONSTRATOR · ORIGINAL TRAINING GEOMETRY · NO OEM CAD DATA</div>
         </div>
 
         <EngineeringPanel
