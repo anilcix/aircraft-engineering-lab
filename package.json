@@ -21,6 +21,6 @@
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@types/three": "0.185.1",
-    "typescript": "7.0.2"
+    "typescript": "6.0.3"
   }
 }
