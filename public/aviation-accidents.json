@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-08-16T18:10:15.099317Z",
-  "coverageNote": "Federated global commercial/transport aviation accident expansion. Records are sourced from official investigation authorities where available. This is an expanding index, not a claim of complete worldwide coverage. Fatality fields reflect verified values available in the cited source set; some ongoing investigations may be incomplete.",
-  "ageNote": "Aircraft ages are approximate where shown. Global accident counts and fatality totals reflect only indexed, verified records currently present in the federated dataset; ongoing investigations and ground-fatality totals may be incomplete until the responsible authority publishes reconciled figures.",
+  "updatedAt": "2026-08-16T18:13:14.902394Z",
+  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 0 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
+  "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
     {
       "family": "Boeing 777",
@@ -196,7 +196,9 @@
       "summary": "The Boeing 787-8 crashed shortly after takeoff from Ahmedabad on a flight to London Gatwick. The fatalities field here records the 241 onboard deaths; separate ground fatalities are not folded into this field until the final investigation record provides a reconciled total.",
       "probableCause": "Investigation remains ongoing; no final causal conclusion is asserted here.",
       "sourceUrl": "https://aaib.gov.in/",
-      "reportUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2272247&lang=1&reg=48"
+      "reportUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2272247&lang=1&reg=48",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "TSB-A25O0021-2025",
@@ -214,7 +216,9 @@
       "summary": "The CRJ-900 impacted the runway during landing, lost major structural components, caught fire and came to rest inverted; all occupants evacuated.",
       "probableCause": "Investigation remains open. The preliminary report contains factual information only and should not be treated as a final cause determination.",
       "sourceUrl": "https://www.tsb.gc.ca/eng/enquetes-investigations/aviation/2025/a25o0021/a25o0021.html",
-      "reportUrl": "https://www.tsb.gc.ca/eng/rapports-reports/aviation/2025/a25o0021/a25o0021-preliminary.html"
+      "reportUrl": "https://www.tsb.gc.ca/eng/rapports-reports/aviation/2025/a25o0021/a25o0021-preliminary.html",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "ARAIB-BX391-2025",
@@ -231,7 +235,9 @@
       "summary": "A fire occurred on the A321 while the aircraft was at Gimhae International Airport before departure; occupants evacuated and the aircraft was substantially damaged.",
       "probableCause": "Investigation ongoing; no final cause is asserted before the ARAIB final report.",
       "sourceUrl": "https://araib.molit.go.kr/USR/airboard0201/m_34497/dtl.jsp?r_id=345",
-      "reportUrl": "https://araib.molit.go.kr/USR/airboard0201/m_34497/dtl.jsp?r_id=345"
+      "reportUrl": "https://araib.molit.go.kr/USR/airboard0201/m_34497/dtl.jsp?r_id=345",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "ARAIB-JEJU2216-2024",
@@ -249,7 +255,9 @@
       "summary": "The Boeing 737-800 overran the runway during landing at Muan and was destroyed in the subsequent impact and fire.",
       "probableCause": "The investigation remains ongoing; the dashboard intentionally does not assign a final cause before ARAIB publishes its conclusions.",
       "sourceUrl": "https://araib.molit.go.kr/USR/airboard0201/m_34497/dtl.jsp?r_id=344",
-      "reportUrl": "https://araib.molit.go.kr/USR/BORD0201/m_34591/DTL.jsp?id=eaib0501&idx=262906&mode=view"
+      "reportUrl": "https://araib.molit.go.kr/USR/BORD0201/m_34591/DTL.jsp?id=eaib0501&idx=262906&mode=view",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "KZ-AZAL8243-2024",
@@ -267,7 +275,9 @@
       "summary": "The aircraft declared an emergency and crashed near Aktau while diverting from its planned route. Kazakhstan authorities reported 38 deaths and 29 survivors.",
       "probableCause": "Final causal findings remain pending in the Annex 13 investigation; no final cause is asserted in the dashboard.",
       "sourceUrl": "https://www.gov.kz/memleket/entities/aitid/documents/details/941670?lang=ru",
-      "reportUrl": "https://www.gov.kz/memleket/entities/transport/press/news/details/1132709?lang=ru"
+      "reportUrl": "https://www.gov.kz/memleket/entities/transport/press/news/details/1132709?lang=ru",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "CENIPA-PSVPB-2024",
@@ -285,7 +295,9 @@
       "summary": "The ATR 72 entered an uncontrolled descent and crashed in Vinhedo. All 58 passengers and four crew members died.",
       "probableCause": "CENIPA published the final technical report in July 2026, including findings and safety recommendations related to the accident sequence and icing-related operational issues.",
       "sourceUrl": "https://www.fab.mil.br/noticia/aviacao/20111/2026/07/fab-divulga-relatorio-final-do-acidente-da-aeronave-de-matricula-ps-vpb/",
-      "reportUrl": "https://sistema.cenipa.fab.mil.br/cenipa/paginas/relatorios/recomendacoes.php?numero_relatorio=A-116%2FCENIPA%2F2024"
+      "reportUrl": "https://sistema.cenipa.fab.mil.br/cenipa/paginas/relatorios/recomendacoes.php?numero_relatorio=A-116%2FCENIPA%2F2024",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "NP-SAURYA-2024",
@@ -303,7 +315,9 @@
       "summary": "The CRJ-200 crashed shortly after takeoff from Kathmandu during a non-revenue positioning/maintenance-related flight.",
       "probableCause": "Use the Nepal final report for the authoritative causal chain and recommendations.",
       "sourceUrl": "https://www.tourism.gov.np/content/593/final-report-of-the-investigation-into-the-accident-of-saurya-airlines/",
-      "reportUrl": "https://www.tourism.gov.np/content/593/final-report-of-the-investigation-into-the-accident-of-saurya-airlines/"
+      "reportUrl": "https://www.tourism.gov.np/content/593/final-report-of-the-investigation-into-the-accident-of-saurya-airlines/",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "TSIB-SQ321-2024",
@@ -320,7 +334,9 @@
       "summary": "The flight encountered a rapid sequence of vertical-acceleration changes associated with severe turbulence; occupants who were not restrained were thrown from their seats.",
       "probableCause": "TSIB preliminary findings describe the turbulence and acceleration sequence; use the final/published investigation record for formal conclusions.",
       "sourceUrl": "https://www.mot.gov.sg/news-resources/newsroom/transport-safety-investigation-bureau-preliminary-investigation-findings-of-incident-involving-sq321/",
-      "reportUrl": "https://www.mot.gov.sg/what-we-do/transport-investigations/aviation/aviation-reports/"
+      "reportUrl": "https://www.mot.gov.sg/what-we-do/transport-investigations/aviation/aviation-reports/",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "NTSB-DCA24MA063",
@@ -339,7 +355,9 @@
       "probableCause": "NTSB determined that inadequate manufacturing training, guidance and oversight contributed to the missing fasteners that allowed the door plug to separate.",
       "sourceUrl": "https://www.ntsb.gov/investigations/Pages/DCA24MA063.aspx",
       "reportUrl": "https://www.ntsb.gov/investigations/Pages/DCA24MA063.aspx",
-      "videoUrl": "https://www.youtube.com/watch?v=qkixkD96ATE"
+      "videoUrl": "https://www.youtube.com/watch?v=qkixkD96ATE",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "JTSB-HANEDA-2024",
@@ -357,7 +375,9 @@
       "summary": "A Japan Airlines A350 and a Japan Coast Guard DHC-8 collided on the runway at Haneda. All occupants of the A350 evacuated; five Coast Guard occupants died.",
       "probableCause": "Final causal findings remain subject to the JTSB investigation; the dashboard does not assign a cause before the final report.",
       "sourceUrl": "https://jtsb.mlit.go.jp/airrep.html",
-      "reportUrl": "https://jtsb.mlit.go.jp/airrep.html"
+      "reportUrl": "https://jtsb.mlit.go.jp/airrep.html",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "NP-YETI691-2023",
@@ -375,7 +395,9 @@
       "summary": "The ATR 72 crashed during approach to Pokhara International Airport on a scheduled domestic passenger flight.",
       "probableCause": "Use the Nepal investigation report for the authoritative causal analysis and contributing factors.",
       "sourceUrl": "https://tourism.gov.np/content/526/preliminary-report-on-the-investigation-of-the-aircraft-accident-of-yeti-/",
-      "reportUrl": "https://tourism.gov.np/content/526/preliminary-report-on-the-investigation-of-the-aircraft-accident-of-yeti-/"
+      "reportUrl": "https://tourism.gov.np/content/526/preliminary-report-on-the-investigation-of-the-aircraft-accident-of-yeti-/",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "NP-TARA197-2022",
@@ -393,7 +415,9 @@
       "summary": "The Twin Otter crashed in mountainous terrain while operating a domestic passenger service in Nepal.",
       "probableCause": "Refer to the Nepal accident investigation final report for formal findings and safety recommendations.",
       "sourceUrl": "https://tourism.gov.np/content/167/final-report-accident-investigation-of-9n-aet--dhc-6-300/",
-      "reportUrl": "https://tourism.gov.np/content/167/final-report-accident-investigation-of-9n-aet--dhc-6-300/"
+      "reportUrl": "https://tourism.gov.np/content/167/final-report-accident-investigation-of-9n-aet--dhc-6-300/",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "CAAC-MU5735-2022",
@@ -411,7 +435,9 @@
       "summary": "The aircraft departed cruise altitude rapidly and impacted mountainous terrain while operating a scheduled domestic passenger flight.",
       "probableCause": "Cause remains under investigation in the official CAAC process; no final causal conclusion is asserted here.",
       "sourceUrl": "https://www.caac.gov.cn/XXGK/XXGK/TZTG/202204/t20220420_212895.html",
-      "reportUrl": "https://www.caac.gov.cn/XXGK/XXGK/TZTG/202403/t20240320_223268.html"
+      "reportUrl": "https://www.caac.gov.cn/XXGK/XXGK/TZTG/202403/t20240320_223268.html",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "KNKT-SJY182-2021",
@@ -429,7 +455,9 @@
       "summary": "The aircraft entered an upset after increasing thrust asymmetry during climb and impacted the Java Sea.",
       "probableCause": "KNKT identified interacting autothrottle mechanical issues, delayed system response, unresolved maintenance history and inadequate upset prevention/recovery training among the contributing factors.",
       "sourceUrl": "https://knkt.go.id/news/read/final-report-of-sjy182-accident",
-      "reportUrl": "https://knkt.go.id/news/read/final-report-of-sjy182-accident"
+      "reportUrl": "https://knkt.go.id/news/read/final-report-of-sjy182-accident",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "IN-AAIB-IX1344-2020",
@@ -447,7 +475,9 @@
       "summary": "The aircraft overran the tabletop runway during landing at Kozhikode and broke into sections beyond the runway end.",
       "probableCause": "Refer to the AAIB India final report for the formal causal and contributing-factor findings.",
       "sourceUrl": "https://aaib.gov.in/",
-      "reportUrl": "https://aaib.gov.in/"
+      "reportUrl": "https://aaib.gov.in/",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "PK-AAIB-PIA8303-2020",
@@ -465,7 +495,9 @@
       "summary": "The scheduled passenger flight crashed in a residential area near Jinnah International Airport during a second approach to Karachi.",
       "probableCause": "Use the final Pakistan AAIB report for the authoritative causal and contributing-factor findings; the dashboard does not substitute a secondary single-cause label.",
       "sourceUrl": "https://www.aviation.gov.pk/Detail/NTc2ZDUxZDMtNjY1NC00YTM3LTgzNTYtNzA4ZGFiMjBiZmNl",
-      "reportUrl": "https://www.aviation.gov.pk/Detail/NTc2ZDUxZDMtNjY1NC00YTM3LTgzNTYtNzA4ZGFiMjBiZmNl"
+      "reportUrl": "https://www.aviation.gov.pk/Detail/NTc2ZDUxZDMtNjY1NC00YTM3LTgzNTYtNzA4ZGFiMjBiZmNl",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "IR-AAIB-PS752-2020",
@@ -483,7 +515,9 @@
       "summary": "The aircraft was shot down shortly after departure from Tehran. The TSB of Canada participated under ICAO Annex 13 and hosts the Iranian final safety investigation report and supporting material.",
       "probableCause": "Official safety investigation material addresses the missile engagement and the chain of events leading to the loss of the aircraft.",
       "sourceUrl": "https://www.tsb.gc.ca/eng/enquetes-investigations/aviation/2020/a20f0002/a20f0002.html",
-      "reportUrl": "https://www.tsb.gc.ca/eng/enquetes-investigations/aviation/2020/a20f0002/a20f0002.html"
+      "reportUrl": "https://www.tsb.gc.ca/eng/enquetes-investigations/aviation/2020/a20f0002/a20f0002.html",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "ET302-2019",
@@ -501,7 +535,9 @@
       "status": "Final report / international participation",
       "summary": "The aircraft crashed shortly after takeoff following erroneous angle-of-attack information and repeated automatic stabilizer commands.",
       "probableCause": "The investigation focused on flight-control design behavior, sensor input, crew workload, procedures and certification assumptions.",
-      "sourceUrl": "https://www.ntsb.gov/Pages/AviationQueryV2.aspx"
+      "sourceUrl": "https://www.ntsb.gov/Pages/AviationQueryV2.aspx",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "NTSB-DCA19MA086",
@@ -519,7 +555,9 @@
       "status": "Completed",
       "summary": "The cargo aircraft entered a rapid descent and impacted a bay while on approach to Houston.",
       "probableCause": "The investigation focused on inadvertent go-around-mode activation, spatial disorientation, crew performance and training/selection issues.",
-      "sourceUrl": "https://www.ntsb.gov/Pages/AviationQueryV2.aspx"
+      "sourceUrl": "https://www.ntsb.gov/Pages/AviationQueryV2.aspx",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "KNKT-LNI610-2018",
@@ -537,7 +575,9 @@
       "status": "Final report",
       "summary": "The aircraft crashed shortly after departure following repeated nose-down stabilizer commands associated with erroneous angle-of-attack data.",
       "probableCause": "The final report identified interacting design, certification, maintenance and crew-response factors in the accident sequence.",
-      "sourceUrl": "https://knkt.go.id/"
+      "sourceUrl": "https://knkt.go.id/",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "NTSB-DCA18MA142",
@@ -555,7 +595,9 @@
       "status": "Completed",
       "summary": "A fan blade separated in flight, causing an uncontained engine failure and fuselage-window damage followed by rapid depressurization.",
       "probableCause": "The investigation identified a low-cycle fatigue crack in a fan blade and examined inspection-method effectiveness and containment behavior.",
-      "sourceUrl": "https://www.ntsb.gov/Pages/AviationQueryV2.aspx"
+      "sourceUrl": "https://www.ntsb.gov/Pages/AviationQueryV2.aspx",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "GCAA-EK521-2016",
@@ -573,7 +615,9 @@
       "status": "Final report",
       "summary": "The aircraft impacted the runway during an attempted go-around and was destroyed by post-impact fire; all occupants evacuated, while one firefighter was killed.",
       "probableCause": "The investigation examined go-around initiation, thrust-command logic, crew actions and energy state during the rejected landing sequence.",
-      "sourceUrl": "https://www.gcaa.gov.ae/en/departments/airaccidentinvestigation/Pages/default.aspx"
+      "sourceUrl": "https://www.gcaa.gov.ae/en/departments/airaccidentinvestigation/Pages/default.aspx",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "BEA-GWI9525-2015",
@@ -591,7 +635,9 @@
       "status": "Final report",
       "summary": "The aircraft was deliberately flown into terrain during cruise descent.",
       "probableCause": "The investigation addressed deliberate pilot action as well as aeromedical oversight, confidentiality and risk-detection issues.",
-      "sourceUrl": "https://bea.aero/en/investigation-reports/notified-events/"
+      "sourceUrl": "https://bea.aero/en/investigation-reports/notified-events/",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "KNKT-QZ8501-2014",
@@ -609,7 +655,9 @@
       "status": "Final report",
       "summary": "The aircraft entered an upset and prolonged stall during cruise after a sequence involving recurrent system faults and crew actions.",
       "probableCause": "The investigation linked recurring rudder-travel-limiter system faults, maintenance history and subsequent crew handling to the accident sequence.",
-      "sourceUrl": "https://knkt.go.id/"
+      "sourceUrl": "https://knkt.go.id/",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "NTSB-DCA13MA120",
@@ -629,7 +677,9 @@
       "probableCause": "The investigation focused on approach-energy management, automation understanding, monitoring, crew coordination and fatigue-related performance factors.",
       "sourceUrl": "https://www.ntsb.gov/investigations/pages/DCA13MA120.aspx",
       "reportUrl": "https://www.ntsb.gov/investigations/pages/DCA13MA120.aspx",
-      "videoUrl": "https://www.youtube.com/watch?v=8MFPSfGoT1U"
+      "videoUrl": "https://www.youtube.com/watch?v=8MFPSfGoT1U",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "ATSB-AO-2010-089",
@@ -648,7 +698,9 @@
       "summary": "An uncontained engine rotor failure caused significant structural and systems damage shortly after departure from Singapore; the crew returned and landed safely.",
       "probableCause": "The investigation found a fatigue crack in a non-conforming oil-feed pipe that released oil, led to an internal fire and ultimately to turbine-disc failure and debris release.",
       "sourceUrl": "https://www.atsb.gov.au/investigations/ao-2010-089",
-      "reportUrl": "https://www.atsb.gov.au/investigations/ao-2010-089"
+      "reportUrl": "https://www.atsb.gov.au/investigations/ao-2010-089",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "GCAA-UPS6-2010",
@@ -666,7 +718,9 @@
       "status": "Final report",
       "summary": "An in-flight cargo fire led to severe smoke, system degradation and loss of control during the attempted return to Dubai.",
       "probableCause": "The investigation examined lithium-battery fire hazards, cargo-fire detection/suppression limitations, smoke penetration and system degradation.",
-      "sourceUrl": "https://www.gcaa.gov.ae/en/departments/airaccidentinvestigation/Pages/default.aspx"
+      "sourceUrl": "https://www.gcaa.gov.ae/en/departments/airaccidentinvestigation/Pages/default.aspx",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "BEA-AF447-2009",
@@ -685,7 +739,9 @@
       "summary": "The aircraft entered a stall after unreliable airspeed indications during cruise and impacted the Atlantic Ocean.",
       "probableCause": "The investigation examined pitot-probe icing, loss of reliable airspeed information, flight-control inputs, stall recognition and crew response as part of the accident sequence.",
       "sourceUrl": "https://bea.aero/en/investigation-reports/notified-events/detail/accident-to-the-airbus-a330-203-registered-f-gzcp-and-operated-by-air-france-occured-on-06-01-2009-in-the-atlantic-ocean/",
-      "reportUrl": "https://bea.aero/en/investigation-reports/notified-events/detail/accident-to-the-airbus-a330-203-registered-f-gzcp-and-operated-by-air-france-occured-on-06-01-2009-in-the-atlantic-ocean/"
+      "reportUrl": "https://bea.aero/en/investigation-reports/notified-events/detail/accident-to-the-airbus-a330-203-registered-f-gzcp-and-operated-by-air-france-occured-on-06-01-2009-in-the-atlantic-ocean/",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "DSB-TK1951-2009",
@@ -703,7 +759,9 @@
       "status": "Final report",
       "summary": "The aircraft stalled on final approach after an erroneous radio-altimeter signal affected autothrottle behavior and the developing low-energy state was not corrected in time.",
       "probableCause": "The investigation examined radio-altimeter malfunction, automation response, crew monitoring and approach-energy management.",
-      "sourceUrl": "https://www.onderzoeksraad.nl/en/"
+      "sourceUrl": "https://www.onderzoeksraad.nl/en/",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "NTSB-DCA09MA026",
@@ -721,7 +779,9 @@
       "status": "Completed",
       "summary": "Following a multiple bird strike and loss of thrust in both engines, the crew ditched the aircraft in the Hudson River.",
       "probableCause": "The NTSB identified bird ingestion into both engines and the resulting near-total loss of thrust as the initiating event, with survivability aided by crew response and evacuation.",
-      "sourceUrl": "https://www.ntsb.gov/Pages/AviationQueryV2.aspx"
+      "sourceUrl": "https://www.ntsb.gov/Pages/AviationQueryV2.aspx",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "ATSB-QF72-2008",
@@ -739,7 +799,9 @@
       "status": "Final report",
       "summary": "The aircraft experienced two uncommanded pitch-down events in cruise, causing passenger and crew injuries before a diversion and safe landing.",
       "probableCause": "The investigation examined erroneous air-data/inertial reference inputs and flight-control computer response to invalid angle-of-attack data.",
-      "sourceUrl": "https://www.atsb.gov.au/investigations"
+      "sourceUrl": "https://www.atsb.gov.au/investigations",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "AAIB-BA38-2008",
@@ -757,7 +819,9 @@
       "status": "Final report",
       "summary": "The aircraft lost thrust on both engines during final approach and landed short of the runway.",
       "probableCause": "The investigation identified restricted fuel flow associated with ice accumulation in the fuel system under the specific operating conditions.",
-      "sourceUrl": "https://www.gov.uk/government/organisations/air-accidents-investigation-branch"
+      "sourceUrl": "https://www.gov.uk/government/organisations/air-accidents-investigation-branch",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "ASC-CI611-2002",
@@ -775,7 +839,9 @@
       "status": "Final report",
       "summary": "The aircraft broke up in flight after long-term fatigue cracking propagated from an earlier structural repair area.",
       "probableCause": "The investigation identified an inadequate repair following a previous tail strike, allowing fatigue cracking to grow over many years.",
-      "sourceUrl": "https://www.ttsb.gov.tw/"
+      "sourceUrl": "https://www.ttsb.gov.tw/",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "NTSB-DCA02MA001",
@@ -793,7 +859,9 @@
       "status": "Completed",
       "summary": "The vertical stabilizer separated after large alternating rudder inputs following wake turbulence shortly after takeoff.",
       "probableCause": "The investigation focused on excessive rudder pedal inputs, rudder-system characteristics, training and structural loads on the vertical stabilizer attachment.",
-      "sourceUrl": "https://www.ntsb.gov/Pages/AviationQueryV2.aspx"
+      "sourceUrl": "https://www.ntsb.gov/Pages/AviationQueryV2.aspx",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "NTSB-DCA00MA023",
@@ -811,7 +879,9 @@
       "status": "Completed",
       "summary": "The aircraft lost pitch control after failure of the horizontal stabilizer trim-system jackscrew assembly.",
       "probableCause": "The NTSB identified insufficient lubrication and maintenance-program issues that led to excessive wear and failure of the stabilizer trim mechanism.",
-      "sourceUrl": "https://www.ntsb.gov/Pages/AviationQueryV2.aspx"
+      "sourceUrl": "https://www.ntsb.gov/Pages/AviationQueryV2.aspx",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "NTSB-DCA96MA070",
@@ -830,7 +900,9 @@
       "summary": "The aircraft broke up in flight shortly after departure from New York following an explosion in the center wing fuel tank.",
       "probableCause": "The NTSB concluded that the center wing fuel-tank fuel/air mixture ignited; the exact ignition source was not determined with certainty.",
       "sourceUrl": "https://www.ntsb.gov/investigations/Pages/DCA96MA070.aspx",
-      "reportUrl": "https://www.ntsb.gov/investigations/Pages/DCA96MA070.aspx"
+      "reportUrl": "https://www.ntsb.gov/investigations/Pages/DCA96MA070.aspx",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "NTSB-DCA89MA063",
@@ -849,7 +921,9 @@
       "summary": "A catastrophic failure of the tail-mounted engine led to loss of all three hydraulic systems; the crew attempted an emergency landing using asymmetric thrust.",
       "probableCause": "The NTSB traced the initiating engine failure to an undetected fatigue crack associated with a metallurgical defect and shortcomings in inspection and quality-control processes.",
       "sourceUrl": "https://www.ntsb.gov/investigations/Pages/DCA89MA063.aspx",
-      "reportUrl": "https://www.ntsb.gov/investigations/Pages/DCA89MA063.aspx"
+      "reportUrl": "https://www.ntsb.gov/investigations/Pages/DCA89MA063.aspx",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "NTSB-UAL811-1989",
@@ -867,7 +941,9 @@
       "status": "Completed",
       "summary": "A forward cargo door opened in flight, causing explosive decompression and major fuselage damage.",
       "probableCause": "The investigation examined cargo-door electrical/mechanical locking design and the ability of the door to appear latched without all locking sectors fully engaged.",
-      "sourceUrl": "https://www.ntsb.gov/Pages/AviationQueryV2.aspx"
+      "sourceUrl": "https://www.ntsb.gov/Pages/AviationQueryV2.aspx",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "JTSB-JAL123-1985",
@@ -885,7 +961,9 @@
       "status": "Final report",
       "summary": "A structural failure of the aft pressure bulkhead led to explosive decompression, major empennage damage and loss of hydraulic control.",
       "probableCause": "The investigation traced the failure to an improperly executed repair of the aft pressure bulkhead following an earlier tail-strike event.",
-      "sourceUrl": "https://jtsb.mlit.go.jp/eng-air_report/"
+      "sourceUrl": "https://jtsb.mlit.go.jp/eng-air_report/",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     },
     {
       "id": "NTSB-AA191-1979",
@@ -903,7 +981,15 @@
       "status": "Completed",
       "summary": "The left engine and pylon separated during takeoff, damaging systems and leading to asymmetric stall and loss of control.",
       "probableCause": "The investigation identified maintenance-induced structural damage in the pylon attachment sequence as a critical initiating factor.",
-      "sourceUrl": "https://www.ntsb.gov/Pages/AviationQueryV2.aspx"
+      "sourceUrl": "https://www.ntsb.gov/Pages/AviationQueryV2.aspx",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed"
     }
-  ]
+  ],
+  "discoveryNote": "",
+  "counts": {
+    "officialIndexed": 40,
+    "discovery": 0,
+    "totalVisible": 40
+  }
 }
