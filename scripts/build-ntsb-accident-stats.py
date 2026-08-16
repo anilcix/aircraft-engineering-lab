@@ -44,11 +44,14 @@ def integer(value):
 
 def parse_date(value):
     text = str(value or '').strip()
-    for fmt in ('%m/%d/%Y', '%Y-%m-%d', '%m/%d/%y', '%Y/%m/%d'):
-        try:
-            return dt.datetime.strptime(text[:10], fmt).date()
-        except Exception:
-            pass
+    date_token = text.split()[0] if text else ''
+    candidates = [text, date_token]
+    for candidate in candidates:
+        for fmt in ('%m/%d/%Y %H:%M:%S', '%m/%d/%y %H:%M:%S', '%m/%d/%Y', '%m/%d/%y', '%Y-%m-%d', '%Y/%m/%d'):
+            try:
+                return dt.datetime.strptime(candidate, fmt).date()
+            except Exception:
+                pass
     try:
         return dt.datetime.fromisoformat(text.replace('Z', '+00:00')).date()
     except Exception:
@@ -131,7 +134,7 @@ for row in event_rows:
         'date': date,
         'fatalities': integer(get(row, 'inj_tot_f', 'TotalFatalInjuries', 'total_fatal_injuries')) or 0,
         'country': get(row, 'ev_country', 'Country', 'country'),
-        'injury': get(row, 'injury_severity', 'InjurySeverity'),
+        'injury': get(row, 'ev_highest_injury', 'injury_severity', 'InjurySeverity'),
     }
 
 recognized_records = 0
@@ -168,7 +171,7 @@ for row in aircraft_rows:
         if 0 <= age <= 80:
             bucket['ages'].append(float(age))
 
-    operator = get(row, 'operator', 'AirCarrier', 'air_carrier', 'oper_name')
+    operator = get(row, 'oper_name', 'operator', 'AirCarrier', 'air_carrier')
     if operator and operator.upper() not in {'NONE', 'UNKNOWN', 'UNK'}:
         bucket['operators'][operator] += 1
     if model:
