@@ -53,7 +53,7 @@ button, input, select { font: inherit; }
 .drawer-backdrop { position: fixed; inset: 0; z-index: 30; background: rgba(2, 6, 10, .56); backdrop-filter: blur(3px); }
 .info-drawer { position: fixed; z-index: 31; top: 0; right: 0; width: min(560px, 94vw); height: 100vh; transform: translateX(104%); transition: transform .24s ease; background: linear-gradient(180deg, #0b141d, #071019); border-left: 1px solid #263849; box-shadow: -22px 0 60px rgba(0,0,0,.4); overflow: auto; padding: 24px; }
 .info-drawer.open { transform: translateX(0); }
-.safety-dashboard-drawer { width: min(860px, 96vw); }
+.safety-dashboard-drawer { width: min(980px, 97vw); }
 .drawer-head { display: flex; gap: 16px; justify-content: space-between; align-items: flex-start; padding-bottom: 16px; border-bottom: 1px solid var(--line); }
 .drawer-head h2 { margin: 6px 0 7px; font-size: 26px; }
 .drawer-head p { margin: 0; color: var(--muted); font-size: 12px; }
@@ -116,11 +116,35 @@ button, input, select { font: inherit; }
 .type-row-age strong, .type-row-service strong { display: block; margin-top: 3px; color: #bacbd6; font-size: 10px; line-height: 1.25; }
 .dashboard-note, .dashboard-empty { margin-top: 12px; border: 1px solid #25394a; border-radius: 10px; padding: 10px 11px; color: #8096a6; font-size: 10px; line-height: 1.5; background: #09141d; }
 .dashboard-empty { border-color: #5c4b27; color: #d2be8a; background: #1a160d; }
+.dashboard-block { margin: 14px 0 18px; padding: 12px; border: 1px solid #24394b; border-radius: 12px; background: #09151e; }
+.scope-compare { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; margin: 12px 0; }
+.scope-compare div { border: 1px solid #314659; border-radius: 10px; padding: 11px; background: #0b1822; }
+.scope-compare small { display: block; color: #788e9f; font-size: 9px; text-transform: uppercase; letter-spacing: .06em; }
+.scope-compare strong { display: block; margin-top: 5px; color: #dbe7ee; font-size: 12px; }
+.factor-list { display: flex; flex-direction: column; gap: 8px; }
+.factor-row { display: grid; grid-template-columns: minmax(190px, 1.2fr) minmax(180px, 2fr); gap: 12px; align-items: center; }
+.factor-label { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+.factor-label strong { color: #c9d8e1; font-size: 10px; }
+.factor-label span { color: #7990a0; font-size: 9px; white-space: nowrap; }
+.factor-bar { height: 9px; border-radius: 99px; background: #111f2a; overflow: hidden; }
+.factor-bar span { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, #fb7185, #f59e0b); }
+.method-note { color: #708594 !important; font-size: 9px !important; line-height: 1.45 !important; }
+.operator-table { display: flex; flex-direction: column; border: 1px solid #22384a; border-radius: 10px; overflow: hidden; }
+.operator-table-head, .operator-table-row { display: grid; grid-template-columns: minmax(190px, 2fr) 60px 60px 70px 105px; gap: 8px; align-items: center; padding: 8px 10px; }
+.operator-table-head { background: #101d27; color: #708697; font-size: 8px; text-transform: uppercase; letter-spacing: .06em; }
+.operator-table-row { border-top: 1px solid #1d3140; color: #a7b7c2; font-size: 9px; }
+.operator-table-row strong { color: #d3dfe6; font-size: 10px; }
 .fleet-snapshot { margin-top: 10px; }
 .fleet-status { display: block; color: #d7e7ef; font-size: 13px; margin: 5px 0 10px; }
 .operator-chips { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0; }
 .operator-chips span { border: 1px solid #28465b; background: #0c1b26; color: #9fc5d8; border-radius: 999px; padding: 5px 8px; font-size: 9px; }
-.accident-mini-row { display: grid; grid-template-columns: 92px 1fr 76px; gap: 9px; width: 100%; align-items: center; border: 1px solid #213647; border-radius: 8px; background: #0a1720; color: inherit; padding: 8px 9px; margin: 6px 0; cursor: pointer; text-align: left; }
+.fleet-age-table { margin-top: 12px; border: 1px solid #22384a; border-radius: 10px; overflow: hidden; }
+.fleet-age-head, .fleet-age-row { display: grid; grid-template-columns: minmax(130px, 1.3fr) minmax(155px, 1.5fr) 55px 75px 95px; gap: 8px; align-items: center; padding: 8px 10px; }
+.fleet-age-head { background: #101d27; color: #718797; font-size: 8px; text-transform: uppercase; letter-spacing: .06em; }
+.fleet-age-row { border-top: 1px solid #1d3140; color: #9cb0be !important; font-size: 9px !important; text-decoration: none !important; }
+.fleet-age-row:hover { background: #0e202c; }
+.fleet-age-row strong { color: #d6e2e9; font-size: 10px; }
+.accident-mini-row { display: grid; grid-template-columns: 92px 1fr 115px; gap: 9px; width: 100%; align-items: center; border: 1px solid #213647; border-radius: 8px; background: #0a1720; color: inherit; padding: 8px 9px; margin: 6px 0; cursor: pointer; text-align: left; }
 .accident-mini-row:hover { border-color: #466780; }
 .accident-mini-row span, .accident-mini-row small { color: #7890a0; font-size: 9px; }
 .accident-mini-row strong { color: #cbd9e2; font-size: 10px; }
@@ -135,6 +159,10 @@ button, input, select { font: inherit; }
   .type-row { grid-template-columns: 1fr 90px; }
   .type-bar { grid-column: 1 / -1; order: 3; }
   .type-row-service { grid-column: 1 / -1; }
+  .factor-row { grid-template-columns: 1fr; gap: 5px; }
+  .operator-table-head, .operator-table-row { grid-template-columns: minmax(130px, 1.5fr) 45px 45px 55px 80px; padding: 7px 8px; }
+  .fleet-age-head, .fleet-age-row { grid-template-columns: 1.2fr 1.3fr 42px 60px; }
+  .fleet-age-head span:last-child, .fleet-age-row span:last-child { display: none; }
 }
 @media (max-width: 640px) {
   .shell { padding: 0; }
@@ -150,4 +178,9 @@ button, input, select { font: inherit; }
   .info-drawer { width: 100vw; }
   .accident-grid { grid-template-columns: 1fr; }
   .accident-controls { grid-template-columns: 1fr; }
+  .scope-compare { grid-template-columns: 1fr; }
+  .operator-table { overflow-x: auto; }
+  .operator-table-head, .operator-table-row { min-width: 520px; }
+  .fleet-age-table { overflow-x: auto; }
+  .fleet-age-head, .fleet-age-row { min-width: 560px; }
 }
