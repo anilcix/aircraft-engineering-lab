@@ -8,6 +8,7 @@ import CertificationDrawer from '@/components/CertificationDrawer'
 import AviationAccidentsDrawer from '@/components/AviationAccidentsDrawer'
 import AircraftTypeGuideDrawer from '@/components/AircraftTypeGuideDrawer'
 import EquipmentSystemsDrawer from '@/components/EquipmentSystemsDrawer'
+import SensorAtlasDrawer from '@/components/SensorAtlasDrawer'
 import MapWheelScrollGuard from '@/components/MapWheelScrollGuard'
 import type { EquipmentLocatorRequest } from '@/components/equipment-locator-types'
 
@@ -62,7 +63,7 @@ export default function Home() {
           <div className="brand">AIRCRAFT ENGINEERING LAB</div>
           <div className="subbrand">AEL-300 · reference-based widebody structural & systems demonstrator</div>
         </div>
-        <div className="status"><span /> V0.5 STRUCTURE + SYSTEMS + KNOWLEDGE</div>
+        <div className="status"><span /> V0.6 STRUCTURE + SYSTEM ARCHITECTURE</div>
       </header>
 
       <section className="workspace">
@@ -71,7 +72,7 @@ export default function Home() {
             <div>
               <div className="eyebrow">DIGITAL TWIN / TRAINING MODEL</div>
               <h1>AEL-300</h1>
-              <p>Click WING to reveal primary structure · use Equipment & Systems for ATA-based aircraft equipment architecture, locations, interactions and redundancy</p>
+              <p>Structure, ATA equipment, physical interfaces, sensor signal paths, redundancy and approximate 3D installation locations</p>
             </div>
             <div className="hud-actions">
               {['fuselage', 'wing', 'front-spar', 'rear-spar', 'wing-center-section', 'engine', 'tail'].map((part) => (
@@ -86,6 +87,7 @@ export default function Home() {
             <AviationAccidentsDrawer />
             <AircraftTypeGuideDrawer />
             <EquipmentSystemsDrawer onLocate={locateEquipment} />
+            <SensorAtlasDrawer onLocate={locateEquipment} />
           </div>
 
           <AircraftScene
