@@ -1,0 +1,33 @@
+name: Refresh Aviation News
+
+on:
+  schedule:
+    - cron: '17 */3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+      - name: Collect technical aviation news
+        run: node scripts/update-aviation-news.mjs
+      - name: Commit updated news index
+        run: |
+          if git diff --quiet -- public/aviation-news.json; then
+            echo "No news index change"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/aviation-news.json
+          git commit -m "Refresh aviation news index"
+          git push
