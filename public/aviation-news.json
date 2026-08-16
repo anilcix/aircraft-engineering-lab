@@ -1,0 +1,33 @@
+{
+  "updatedAt": "2026-08-16T16:20:00Z",
+  "items": [
+    {
+      "title": "NASA, GE Aerospace Work Enables Hybrid-Electric Flight Demonstration",
+      "source": "NASA Aeronautics",
+      "category": "Propulsion",
+      "url": "https://www.nasa.gov/aeronautics/",
+      "summary": "Hybrid-electric propulsion integration and flight-demonstration work."
+    },
+    {
+      "title": "NASA Pushes New Wing Design to Find Structural Limits",
+      "source": "NASA Aeronautics",
+      "category": "Structures",
+      "url": "https://www.nasa.gov/aeronautics/",
+      "summary": "Research focused on advanced wing structural behavior and test limits."
+    },
+    {
+      "title": "Aviation Week aerospace technology and program updates",
+      "source": "Aviation Week",
+      "category": "New Concepts",
+      "url": "https://aviationweek.com/awn-rss/feed",
+      "summary": "Current aerospace programs, technologies, propulsion, manufacturing and MRO coverage."
+    },
+    {
+      "title": "FlightGlobal aerospace and airframer technology updates",
+      "source": "FlightGlobal",
+      "category": "Industry",
+      "url": "https://www.flightglobal.com/",
+      "summary": "Current aerospace, airframer, engine, MRO and programme coverage."
+    }
+  ]
+}
