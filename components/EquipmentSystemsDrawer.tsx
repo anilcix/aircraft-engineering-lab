@@ -1,6 +1,8 @@
 'use client'
 
 import { useEffect, useMemo, useState } from 'react'
+import EquipmentReferenceImage from '@/components/EquipmentReferenceImage'
+import EquipmentInterfacesPanel from '@/components/EquipmentInterfacesPanel'
 import type { EquipmentLocatorRequest } from '@/components/equipment-locator-types'
 
 type Chapter = { ata: string; name: string }
@@ -157,6 +159,8 @@ export default function EquipmentSystemsDrawer({ onLocate }: Props) {
                 <div style={{ display: 'grid', gap: 5, justifyItems: 'end' }}><span style={badge(selected.criticality === 'High' ? '#3a1520' : selected.criticality === 'Medium' ? '#392e12' : '#123224', selected.criticality === 'High' ? '#fda4af' : selected.criticality === 'Medium' ? '#fde68a' : '#86efac')}>{selected.criticality} criticality</span><span style={badge('#182f40', '#93c5fd')}>{selected.redundancyClass}</span></div>
               </div>
 
+              <EquipmentReferenceImage name={selected.name} short={selected.short} ata={selected.ata} />
+
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8, marginTop: 13 }}>
                 <div style={{ ...panel, padding: 10, background: '#0b1b25' }}><small style={muted}>BÖLGE</small><strong style={{ display: 'block', fontSize: 11, marginTop: 3 }}>{selected.region}</strong><span style={{ ...muted, display: 'block', marginTop: 4 }}>{selected.location}</span>{onLocate && <button onClick={locateSelected} style={{ marginTop: 8, border: '1px solid #7c3aed', borderRadius: 7, background: '#21143a', color: '#ede9fe', padding: '6px 8px', fontSize: 9, fontWeight: 800, cursor: 'pointer' }}>Uçakta yerini göster ↗</button>}</div>
                 <div style={{ ...panel, padding: 10, background: '#0b1b25' }}><small style={muted}>POWER / SOURCE</small><strong style={{ display: 'block', fontSize: 11, marginTop: 3 }}>{selected.powerSource}</strong></div>
@@ -174,6 +178,8 @@ export default function EquipmentSystemsDrawer({ onLocate }: Props) {
                   <div>{selected.outputs.map((x) => <div key={x} style={{ border: '1px solid #294052', borderRadius: 7, padding: '5px 6px', marginBottom: 4, color: '#9fb4c1', fontSize: 9 }}>{x}</div>)}</div>
                 </div>
               </div>
+
+              <EquipmentInterfacesPanel equipment={selected} />
 
               <div style={{ marginTop: 13 }}><small style={muted}>ETKİLEŞTİĞİ EKİPMAN / SİSTEMLER</small><div style={{ display: 'flex', flexWrap: 'wrap', gap: 5, marginTop: 6 }}>{selected.interactions.map((x) => <span key={x} style={{ border: '1px solid #2d4658', borderRadius: 999, padding: '4px 7px', color: '#a9c1cf', background: '#0b1a24', fontSize: 9 }}>{x}</span>)}</div></div>
 
