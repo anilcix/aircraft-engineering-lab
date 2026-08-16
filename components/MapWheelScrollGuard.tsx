@@ -7,23 +7,30 @@ const MAP_SELECTOR = 'svg[aria-label="Zoomable Natural Earth projected global av
 export default function MapWheelScrollGuard() {
   useEffect(() => {
     const blockPageScrollOverMap = (event: WheelEvent) => {
-      const target = event.target
-      if (!(target instanceof Element)) return
-      if (!target.closest(MAP_SELECTOR)) return
+      const maps = document.querySelectorAll<SVGSVGElement>(MAP_SELECTOR)
+      if (!maps.length) return
 
-      // The map's React wheel handler still receives the event and performs
-      // the zoom. Cancelling the native default here prevents Chrome/Safari
-      // from scrolling the page at the same time.
+      const overMap = Array.from(maps).some((map) => {
+        const rect = map.getBoundingClientRect()
+        return event.clientX >= rect.left && event.clientX <= rect.right && event.clientY >= rect.top && event.clientY <= rect.bottom
+      })
+
+      if (!overMap) return
+
+      // Use an active native wheel listener at window capture level so Chrome/Safari
+      // cannot hand the same gesture to the page/drawer scroll container. We check
+      // pointer coordinates rather than event.target because map overlays can sit
+      // above the SVG and otherwise let the wheel event escape.
       event.preventDefault()
     }
 
-    document.addEventListener('wheel', blockPageScrollOverMap, {
+    window.addEventListener('wheel', blockPageScrollOverMap, {
       capture: true,
       passive: false,
     })
 
     return () => {
-      document.removeEventListener('wheel', blockPageScrollOverMap, { capture: true })
+      window.removeEventListener('wheel', blockPageScrollOverMap, { capture: true })
     }
   }, [])
 
