@@ -13,7 +13,7 @@ export default function Home() {
 
   const selectPart = (part: string) => {
     setSelected(part)
-    if (part !== 'wing') setDamaged(false)
+    if (!['wing', 'front-spar', 'rear-spar', 'rib', 'stringer'].includes(part)) setDamaged(false)
   }
 
   return (
@@ -21,9 +21,9 @@ export default function Home() {
       <header className="topbar">
         <div>
           <div className="brand">AIRCRAFT ENGINEERING LAB</div>
-          <div className="subbrand">AEL-180 · original commercial transport demonstrator</div>
+          <div className="subbrand">AEL-300 · original modern widebody twin demonstrator</div>
         </div>
-        <div className="status"><span /> V0.1 INTERACTIVE AIRCRAFT</div>
+        <div className="status"><span /> V0.2 WING CUTAWAY</div>
       </header>
 
       <section className="workspace">
@@ -31,8 +31,8 @@ export default function Home() {
           <div className="viewer-hud">
             <div>
               <div className="eyebrow">DIGITAL TWIN / TRAINING MODEL</div>
-              <h1>AEL-180</h1>
-              <p>Rotate · zoom · click an aircraft region</p>
+              <h1>AEL-300</h1>
+              <p>Select WING to reveal the primary structure · click spar, rib or stringer</p>
             </div>
             <div className="hud-actions">
               {['fuselage', 'wing', 'engine', 'tail'].map((part) => (
@@ -41,7 +41,7 @@ export default function Home() {
             </div>
           </div>
           <AircraftScene selected={selected} onSelect={selectPart} damaged={damaged} />
-          <div className="corner-note">ORIGINAL GENERIC GEOMETRY · NO OEM CAD DATA</div>
+          <div className="corner-note">ORIGINAL WIDEBODY TRAINING GEOMETRY · NO OEM CAD DATA</div>
         </div>
 
         <EngineeringPanel
