@@ -1,0 +1,37 @@
+name: Merge Global Accident Index
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'data/global-air-accident-additions.json'
+      - 'scripts/merge-global-accidents.py'
+      - '.github/workflows/merge-global-accidents.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Merge verified global accident records
+        run: python3 scripts/merge-global-accidents.py
+
+      - name: Commit merged index
+        run: |
+          if git diff --quiet -- public/aviation-accidents.json; then
+            echo 'No global accident-index changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/aviation-accidents.json
+          git commit -m 'Expand federated global accident index'
+          git pull --rebase origin main
+          git push origin main
