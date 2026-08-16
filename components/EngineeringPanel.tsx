@@ -10,6 +10,8 @@ type Props = {
   onDamageToggle: () => void
 }
 
+const WING_FAMILY = new Set(['wing', 'front-spar', 'rear-spar', 'rib', 'stringer'])
+
 export default function EngineeringPanel({ selected, layer, onLayerChange, damaged, onDamageToggle }: Props) {
   const part = engineeringParts[selected] ?? engineeringParts.wing
 
@@ -19,7 +21,7 @@ export default function EngineeringPanel({ selected, layer, onLayerChange, damag
       <h2>{part.name}</h2>
       <div className="chip-row">
         <span className="chip">{part.category}</span>
-        <span className="chip muted">AEL-180 DEMO</span>
+        <span className="chip muted">AEL-300 DEMO</span>
       </div>
 
       <div className="layer-tabs">
@@ -28,17 +30,43 @@ export default function EngineeringPanel({ selected, layer, onLayerChange, damag
         ))}
       </div>
 
-      <section><h3>Engineering intent</h3><p>{part.function}</p></section>
-      <section><h3>Material concept</h3><p>{part.material}</p></section>
-      <section><h3>Primary loads</h3><ul>{part.loads.map((x) => <li key={x}>{x}</li>)}</ul></section>
-      <section><h3>Design drivers</h3><ul>{part.designDrivers.map((x) => <li key={x}>{x}</li>)}</ul></section>
+      <section>
+        <h3>Engineering intent</h3>
+        <p>{part.function}</p>
+      </section>
+      <section>
+        <h3>Material concept</h3>
+        <p>{part.material}</p>
+      </section>
+      <section>
+        <h3>Primary loads</h3>
+        <ul>{part.loads.map((x) => <li key={x}>{x}</li>)}</ul>
+      </section>
+      <section>
+        <h3>Design drivers</h3>
+        <ul>{part.designDrivers.map((x) => <li key={x}>{x}</li>)}</ul>
+      </section>
 
-      {layer === 'Manufacturing' && <section className="focus-card"><h3>Manufacturing sequence</h3><ol>{part.manufacturing.map((x) => <li key={x}>{x}</li>)}</ol></section>}
-      {layer === 'Systems' && <section className="focus-card"><h3>Interfaces</h3><ul>{part.interfaces.map((x) => <li key={x}>{x}</li>)}</ul></section>}
+      {layer === 'Manufacturing' && (
+        <section className="focus-card">
+          <h3>Manufacturing sequence</h3>
+          <ol>{part.manufacturing.map((x) => <li key={x}>{x}</li>)}</ol>
+        </section>
+      )}
 
-      {selected === 'wing' && (
+      {layer === 'Systems' && (
+        <section className="focus-card">
+          <h3>Interfaces</h3>
+          <ul>{part.interfaces.map((x) => <li key={x}>{x}</li>)}</ul>
+        </section>
+      )}
+
+      {WING_FAMILY.has(selected) && (
         <div className={damaged ? 'damage-card danger' : 'damage-card'}>
-          <div><strong>Damage Lab — concept mode</strong><p>{damaged ? 'Local wing damage introduced. Load redistribution visualization is the next implementation step.' : 'Inject a conceptual defect into the wing demonstrator.'}</p></div>
+          <div>
+            <strong>Damage Lab — concept mode</strong>
+            <p>{damaged ? 'Local wing-structure damage introduced. The next step is load redistribution and risk visualization across spars, ribs and stringers.' : 'Inject a conceptual defect into the wing demonstrator or selected substructure.'}</p>
+          </div>
           <button onClick={onDamageToggle}>{damaged ? 'Reset damage' : 'Introduce damage'}</button>
         </div>
       )}
