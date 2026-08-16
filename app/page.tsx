@@ -7,6 +7,7 @@ import AviationNewsDrawer from '@/components/AviationNewsDrawer'
 import CertificationDrawer from '@/components/CertificationDrawer'
 import AviationAccidentsDrawer from '@/components/AviationAccidentsDrawer'
 import AircraftTypeGuideDrawer from '@/components/AircraftTypeGuideDrawer'
+import MapWheelScrollGuard from '@/components/MapWheelScrollGuard'
 
 const AircraftScene = dynamic(() => import('@/components/AircraftScene'), { ssr: false })
 
@@ -39,6 +40,8 @@ export default function Home() {
 
   return (
     <main className="shell">
+      <MapWheelScrollGuard />
+
       <header className="topbar">
         <div>
           <div className="brand">AIRCRAFT ENGINEERING LAB</div>
