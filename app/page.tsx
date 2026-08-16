@@ -6,6 +6,7 @@ import EngineeringPanel from '@/components/EngineeringPanel'
 import AviationNewsDrawer from '@/components/AviationNewsDrawer'
 import CertificationDrawer from '@/components/CertificationDrawer'
 import AviationAccidentsDrawer from '@/components/AviationAccidentsDrawer'
+import AircraftTypeGuideDrawer from '@/components/AircraftTypeGuideDrawer'
 
 const AircraftScene = dynamic(() => import('@/components/AircraftScene'), { ssr: false })
 
@@ -52,7 +53,7 @@ export default function Home() {
             <div>
               <div className="eyebrow">DIGITAL TWIN / TRAINING MODEL</div>
               <h1>AEL-300</h1>
-              <p>Click WING to reveal the primary wing structure · side tools: industry news, certification and aviation safety history</p>
+              <p>Click WING to reveal the primary wing structure · side tools: news, certification, safety history and passenger aircraft-type intelligence</p>
             </div>
             <div className="hud-actions">
               {['fuselage', 'wing', 'front-spar', 'rear-spar', 'wing-center-section', 'engine', 'tail'].map((part) => (
@@ -65,6 +66,7 @@ export default function Home() {
             <AviationNewsDrawer />
             <CertificationDrawer />
             <AviationAccidentsDrawer />
+            <AircraftTypeGuideDrawer />
           </div>
 
           <AircraftScene selected={selected} onSelect={selectPart} damaged={damaged} />
