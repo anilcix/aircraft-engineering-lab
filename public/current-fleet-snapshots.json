@@ -1,0 +1,136 @@
+{
+  "updatedAt": "2026-08-16T16:54:00Z",
+  "methodNote": "Selected current airline/type snapshots for engineering context, not an exhaustive global fleet census. Counts include in-service plus parked aircraft shown as current by the cited fleet source. Average ages are source-calculated or explicitly noted weighted combinations of source subfleets.",
+  "profiles": [
+    {
+      "family": "Boeing 777",
+      "status": "In active airline and cargo service",
+      "checkedAt": "2026-08-16",
+      "currentOperators": ["Emirates", "Qatar Airways", "Turkish Airlines", "United Airlines", "British Airways", "American Airlines", "Cathay Pacific", "Singapore Airlines"],
+      "operatorSnapshots": [
+        {
+          "airline": "Emirates",
+          "variant": "Boeing 777 family",
+          "fleetCount": 145,
+          "avgAgeYears": 12.3,
+          "sourceLabel": "Planespotters — The Emirates Group",
+          "sourceUrl": "https://www.planespotters.net/airline/The-Emirates-Group",
+          "sourceUpdatedAt": "2026-07-18"
+        },
+        {
+          "airline": "Qatar Airways",
+          "variant": "Boeing 777 family",
+          "fleetCount": 93,
+          "avgAgeYears": 11.9,
+          "sourceLabel": "Planespotters — Qatar Airways",
+          "sourceUrl": "https://www.planespotters.net/airline/Qatar-Airways",
+          "sourceUpdatedAt": "2026-07-17"
+        },
+        {
+          "airline": "Turkish Airlines",
+          "variant": "Boeing 777 family",
+          "fleetCount": 45,
+          "avgAgeYears": 11.0,
+          "sourceLabel": "Planespotters — Turkish Airlines",
+          "sourceUrl": "https://www.planespotters.net/airline/Turkish-Airlines",
+          "sourceUpdatedAt": "2026-07-18"
+        }
+      ],
+      "note": "Operator list is selected, not exhaustive. Fleet count and age rows are only shown where a current source snapshot was verified."
+    },
+    {
+      "family": "Airbus A320 Family",
+      "status": "In widespread active airline service",
+      "checkedAt": "2026-08-16",
+      "currentOperators": ["IndiGo", "easyJet Group", "American Airlines", "China Eastern Airlines", "China Southern Airlines", "Delta Air Lines", "LATAM", "Wizz Air"],
+      "operatorSnapshots": [
+        {
+          "airline": "IndiGo",
+          "variant": "A320 + A321 current subfleets",
+          "fleetCount": 374,
+          "avgAgeYears": 4.6,
+          "sourceLabel": "Planespotters — IndiGo; weighted A320/A321 current subfleet ages",
+          "sourceUrl": "https://www.planespotters.net/airline/IndiGo",
+          "sourceUpdatedAt": "2026-05-16",
+          "note": "Weighted from 194 current A320-family A320 aircraft at 6.1 years and 180 current A321 aircraft at 2.9 years in the cited snapshot."
+        },
+        {
+          "airline": "easyJet Group",
+          "variant": "A320 current subfleet",
+          "fleetCount": 260,
+          "avgAgeYears": 10.2,
+          "sourceLabel": "Planespotters — easyJet Group",
+          "sourceUrl": "https://www.planespotters.net/airline/easyJet-Group",
+          "sourceUpdatedAt": "2026-07-17",
+          "note": "A320 row only; the wider A320-family operator also includes A319/A321 aircraft."
+        }
+      ],
+      "note": "The A320 family is used by hundreds of operators; rows above are selected examples with verified age data."
+    },
+    {
+      "family": "Boeing 737 MAX",
+      "status": "In widespread active airline service",
+      "checkedAt": "2026-08-16",
+      "currentOperators": ["Southwest Airlines", "United Airlines", "Ryanair Group", "American Airlines", "Alaska Airlines", "flydubai", "Turkish Airlines"],
+      "operatorSnapshots": [
+        {
+          "airline": "Southwest Airlines",
+          "variant": "737 MAX 8",
+          "fleetCount": 325,
+          "avgAgeYears": 3.7,
+          "sourceLabel": "Planespotters — Southwest Airlines",
+          "sourceUrl": "https://www.planespotters.net/airline/Southwest-Airlines",
+          "sourceUpdatedAt": "2026-07-18"
+        },
+        {
+          "airline": "Turkish Airlines",
+          "variant": "737 MAX 8 + MAX 9",
+          "fleetCount": 26,
+          "avgAgeYears": 7.1,
+          "sourceLabel": "Planespotters — Turkish Airlines; weighted MAX 8/MAX 9 ages",
+          "sourceUrl": "https://www.planespotters.net/airline/Turkish-Airlines",
+          "sourceUpdatedAt": "2026-07-18",
+          "note": "Weighted from 21 current MAX 8 aircraft at 7.0 years and 5 current MAX 9 aircraft at 7.3 years in the cited snapshot."
+        }
+      ],
+      "note": "Selected operators only; active fleets and parked status can change frequently."
+    },
+    {
+      "family": "Boeing 787",
+      "status": "In widespread active airline service",
+      "checkedAt": "2026-08-16",
+      "currentOperators": ["ANA", "Qatar Airways", "Turkish Airlines", "American Airlines", "British Airways", "Air Canada", "Air India", "Aeromexico"],
+      "operatorSnapshots": [
+        {
+          "airline": "ANA / All Nippon Airways",
+          "variant": "787-8 + 787-9 + 787-10",
+          "fleetCount": 91,
+          "avgAgeYears": 9.8,
+          "sourceLabel": "Planespotters — All Nippon Airways; weighted 787 subfleet ages",
+          "sourceUrl": "https://www.planespotters.net/airline/All-Nippon-Airways",
+          "sourceUpdatedAt": "2026-07-15",
+          "note": "Weighted from 36 current 787-8 at 13.2 years, 45 current 787-9 at 8.5 years, and 10 current 787-10 at 3.3 years."
+        },
+        {
+          "airline": "Qatar Airways",
+          "variant": "Boeing 787 family",
+          "fleetCount": 60,
+          "avgAgeYears": 8.2,
+          "sourceLabel": "Planespotters — Qatar Airways",
+          "sourceUrl": "https://www.planespotters.net/airline/Qatar-Airways",
+          "sourceUpdatedAt": "2026-07-17"
+        },
+        {
+          "airline": "Turkish Airlines",
+          "variant": "787-9",
+          "fleetCount": 27,
+          "avgAgeYears": 4.8,
+          "sourceLabel": "Planespotters — Turkish Airlines",
+          "sourceUrl": "https://www.planespotters.net/airline/Turkish-Airlines",
+          "sourceUpdatedAt": "2026-07-18"
+        }
+      ],
+      "note": "Selected operators only; this is a verified snapshot rather than a complete operator census."
+    }
+  ]
+}
