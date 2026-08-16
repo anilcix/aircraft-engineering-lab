@@ -4,17 +4,30 @@ import { useEffect } from 'react'
 
 const MAP_SELECTOR = 'svg[aria-label="Zoomable Natural Earth projected global aviation accident map"]'
 
-type LockedStyle = {
-  element: HTMLElement
-  overflow: string
-  overflowY: string
-  overscrollBehavior: string
-}
-
 export default function MapWheelScrollGuard() {
   useEffect(() => {
-    let lockedFor: SVGSVGElement | null = null
-    let lockedStyles: LockedStyle[] = []
+    const attached = new WeakSet<SVGSVGElement>()
+
+    // Important: Chrome/Safari can hand the remainder of a wheel gesture to a
+    // parent scroller once the map reaches its minimum zoom. Registering an
+    // active listener on the SVG itself makes the wheel sequence cancellable at
+    // the actual interaction surface. We only cancel the browser default; the
+    // event still propagates to React's onWheel handler, so map zoom keeps working.
+    const consumeMapWheel = (event: WheelEvent) => {
+      if (event.cancelable) event.preventDefault()
+    }
+
+    const attachToMaps = () => {
+      document.querySelectorAll<SVGSVGElement>(MAP_SELECTOR).forEach((map) => {
+        if (attached.has(map)) return
+        attached.add(map)
+        map.style.overscrollBehavior = 'none'
+        map.addEventListener('wheel', consumeMapWheel, {
+          capture: true,
+          passive: false,
+        })
+      })
+    }
 
     const findMapAt = (clientX: number, clientY: number) => {
       const maps = document.querySelectorAll<SVGSVGElement>(MAP_SELECTOR)
@@ -24,74 +37,29 @@ export default function MapWheelScrollGuard() {
       }) || null
     }
 
-    const restoreScroll = () => {
-      for (const saved of lockedStyles) {
-        saved.element.style.overflow = saved.overflow
-        saved.element.style.overflowY = saved.overflowY
-        saved.element.style.overscrollBehavior = saved.overscrollBehavior
-      }
-      lockedStyles = []
-      lockedFor = null
+    // Fallback for overlay pixels above the SVG (legend / zoom controls). This
+    // also consumes wheel at 100% zoom so no residual delta reaches the drawer
+    // or page scroll container.
+    const blockScrollChaining = (event: WheelEvent) => {
+      if (!findMapAt(event.clientX, event.clientY)) return
+      if (event.cancelable) event.preventDefault()
     }
 
-    const lockElement = (element: HTMLElement) => {
-      if (lockedStyles.some((saved) => saved.element === element)) return
-      lockedStyles.push({
-        element,
-        overflow: element.style.overflow,
-        overflowY: element.style.overflowY,
-        overscrollBehavior: element.style.overscrollBehavior,
-      })
-      element.style.overflowY = 'hidden'
-      element.style.overscrollBehavior = 'none'
-    }
+    attachToMaps()
 
-    const lockScrollForMap = (map: SVGSVGElement) => {
-      if (lockedFor === map) return
-      restoreScroll()
-      lockedFor = map
-
-      // The accident drawer itself is scrollable, so blocking only body/html is
-      // not enough. Lock every scrollable ancestor of the map while the pointer
-      // is inside the map area, then restore the exact inline styles on exit.
-      let node: HTMLElement | null = map.parentElement
-      while (node) {
-        const computed = window.getComputedStyle(node)
-        const overflowY = computed.overflowY
-        if (overflowY === 'auto' || overflowY === 'scroll' || overflowY === 'overlay') {
-          lockElement(node)
-        }
-        node = node.parentElement
-      }
-
-      lockElement(document.documentElement)
-      lockElement(document.body)
-    }
-
-    const syncPointerLock = (event: PointerEvent) => {
-      const map = findMapAt(event.clientX, event.clientY)
-      if (map) lockScrollForMap(map)
-      else restoreScroll()
-    }
-
-    const blockWheel = (event: WheelEvent) => {
-      const map = findMapAt(event.clientX, event.clientY)
-      if (!map) {
-        restoreScroll()
-        return
-      }
-
-      lockScrollForMap(map)
-      event.preventDefault()
-    }
-
-    window.addEventListener('pointermove', syncPointerLock, { capture: true, passive: true })
-    window.addEventListener('wheel', blockWheel, { capture: true, passive: false })
+    const observer = new MutationObserver(attachToMaps)
+    observer.observe(document.body, { childList: true, subtree: true })
+    window.addEventListener('wheel', blockScrollChaining, {
+      capture: true,
+      passive: false,
+    })
 
     return () => {
-      restoreScroll()
-      window.removeEventListener('pointermove', syncPointerLock, { capture: true })
-      window.removeEventListener('wheel', blockWheel, { capture: true })
+      observer.disconnect()
+      window.removeEventListener('wheel', blockScrollChaining, { capture: true })
+      document.querySelectorAll<SVGSVGElement>(MAP_SELECTOR).forEach((map) => {
+        map.removeEventListener('wheel', consumeMapWheel, { capture: true })
+      })
     }
   }, [])
 
