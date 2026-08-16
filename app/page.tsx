@@ -7,6 +7,7 @@ import AviationNewsDrawer from '@/components/AviationNewsDrawer'
 import CertificationDrawer from '@/components/CertificationDrawer'
 import AviationAccidentsDrawer from '@/components/AviationAccidentsDrawer'
 import AircraftTypeGuideDrawer from '@/components/AircraftTypeGuideDrawer'
+import EquipmentSystemsDrawer from '@/components/EquipmentSystemsDrawer'
 import MapWheelScrollGuard from '@/components/MapWheelScrollGuard'
 
 const AircraftScene = dynamic(() => import('@/components/AircraftScene'), { ssr: false })
@@ -38,6 +39,15 @@ export default function Home() {
     if (!wingParts.includes(part)) setDamaged(false)
   }
 
+  const locateEquipmentRegion = (region: string) => {
+    const key = region.toLowerCase()
+    if (key.includes('engine') || key.includes('nacelle') || key.includes('pylon')) return selectPart('engine')
+    if (key.includes('tail') || key.includes('aft fuselage') || key.includes('vertical tail')) return selectPart('tail')
+    if (key.includes('wing-body') || key.includes('center fuselage') || key.includes('wing center')) return selectPart('wing-center-section')
+    if (key.includes('wing') || key.includes('main gear')) return selectPart('wing')
+    return selectPart('fuselage')
+  }
+
   return (
     <main className="shell">
       <MapWheelScrollGuard />
@@ -45,9 +55,9 @@ export default function Home() {
       <header className="topbar">
         <div>
           <div className="brand">AIRCRAFT ENGINEERING LAB</div>
-          <div className="subbrand">AEL-300 · reference-based widebody structural demonstrator</div>
+          <div className="subbrand">AEL-300 · reference-based widebody structural & systems demonstrator</div>
         </div>
-        <div className="status"><span /> V0.4 STRUCTURE + KNOWLEDGE</div>
+        <div className="status"><span /> V0.5 STRUCTURE + SYSTEMS + KNOWLEDGE</div>
       </header>
 
       <section className="workspace">
@@ -56,7 +66,7 @@ export default function Home() {
             <div>
               <div className="eyebrow">DIGITAL TWIN / TRAINING MODEL</div>
               <h1>AEL-300</h1>
-              <p>Click WING to reveal the primary wing structure · side tools: news, certification, safety history and passenger aircraft-type intelligence</p>
+              <p>Click WING to reveal primary structure · use Equipment & Systems for ATA-based aircraft equipment architecture, locations, interactions and redundancy</p>
             </div>
             <div className="hud-actions">
               {['fuselage', 'wing', 'front-spar', 'rear-spar', 'wing-center-section', 'engine', 'tail'].map((part) => (
@@ -70,10 +80,11 @@ export default function Home() {
             <CertificationDrawer />
             <AviationAccidentsDrawer />
             <AircraftTypeGuideDrawer />
+            <EquipmentSystemsDrawer onLocate={locateEquipmentRegion} />
           </div>
 
           <AircraftScene selected={selected} onSelect={selectPart} damaged={damaged} />
-          <div className="corner-note">REFERENCE-INFORMED STRUCTURAL DEMONSTRATOR · ORIGINAL TRAINING GEOMETRY · NO OEM CAD DATA</div>
+          <div className="corner-note">REFERENCE-INFORMED STRUCTURAL & SYSTEMS DEMONSTRATOR · ORIGINAL TRAINING GEOMETRY · NO OEM CAD DATA</div>
         </div>
 
         <EngineeringPanel
