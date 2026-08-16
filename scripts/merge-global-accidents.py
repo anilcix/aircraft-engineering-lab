@@ -21,11 +21,24 @@ def norm(text):
 def signature(item):
     return f"{item.get('date', '')}|{norm(item.get('title', ''))}"
 
+
+def has_coords(item):
+    return isinstance(item.get('latitude'), (int, float)) and isinstance(item.get('longitude'), (int, float))
+
+
+def copy_coords(target, source):
+    if not has_coords(target) and has_coords(source):
+        target['latitude'] = source['latitude']
+        target['longitude'] = source['longitude']
+        target['coordinateSource'] = source.get('coordinateSource', 'Wikidata discovery match')
+
+
 # Remove the previous generated discovery layer on every run so stale Wikidata
 # records do not remain indefinitely if the discovery source changes.
 official_seed = [item for item in base.get('items', []) if item.get('sourceTier') != 'discovery']
 items_by_id = {}
 official_signatures = set()
+signature_to_official_id = {}
 
 for item in official_seed:
     if not item.get('id'):
@@ -34,7 +47,9 @@ for item in official_seed:
     item.setdefault('sourceTier', 'official')
     item.setdefault('verificationStatus', 'official-source indexed')
     items_by_id[item['id']] = item
-    official_signatures.add(signature(item))
+    sig = signature(item)
+    official_signatures.add(sig)
+    signature_to_official_id[sig] = item['id']
 
 # Explicit official-source additions always win over older records.
 for item in additions.get('items', []):
@@ -44,7 +59,17 @@ for item in additions.get('items', []):
     item['sourceTier'] = 'official'
     item.setdefault('verificationStatus', 'official-source indexed')
     items_by_id[item['id']] = item
-    official_signatures.add(signature(item))
+    sig = signature(item)
+    official_signatures.add(sig)
+    signature_to_official_id[sig] = item['id']
+
+# If a Wikidata discovery record matches an official title/date, retain the
+# official authority data but borrow the structured geographic coordinate.
+for item in discovery.get('items', []):
+    sig = signature(item)
+    official_id = signature_to_official_id.get(sig)
+    if official_id:
+        copy_coords(items_by_id[official_id], item)
 
 # Broad CC0 discovery records fill coverage gaps but never overwrite a matching
 # official record. Exact title/date duplicates are suppressed.
@@ -68,6 +93,7 @@ items.sort(key=lambda x: (x.get('date', ''), x.get('title', '')), reverse=True)
 
 official_count = sum(1 for item in items if item.get('sourceTier') != 'discovery')
 discovery_count = sum(1 for item in items if item.get('sourceTier') == 'discovery')
+coordinate_count = sum(1 for item in items if has_coords(item))
 
 base['items'] = items
 base['updatedAt'] = dt.datetime.now(dt.timezone.utc).isoformat().replace('+00:00', 'Z')
@@ -81,14 +107,20 @@ base['ageNote'] = (
     'Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. '
     'Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.'
 )
+base['mapNote'] = (
+    f'{coordinate_count} indexed records currently include structured map coordinates. '
+    'Records without coordinates remain searchable in the case library but are omitted from the map.'
+)
 base['counts'] = {
     'officialIndexed': official_count,
     'discovery': discovery_count,
     'totalVisible': len(items),
+    'withCoordinates': coordinate_count,
 }
 
 base_path.write_text(json.dumps(base, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 print(
     f'Merged official + discovery layers: {official_count} official, '
-    f'{discovery_count} discovery ({discovery_added} newly accepted this run), {len(items)} total.'
+    f'{discovery_count} discovery ({discovery_added} newly accepted this run), '
+    f'{coordinate_count} with coordinates, {len(items)} total.'
 )
