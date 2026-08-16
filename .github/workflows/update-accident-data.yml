@@ -26,7 +26,7 @@ jobs:
         run: |
           mkdir -p .ntsb
           curl --fail --location --retry 3 --retry-delay 5 \
-            https://data.ntsb.gov/avdata/avall.zip \
+            'https://data.ntsb.gov/avdata/FileDirectory/DownloadFile?fileID=C%3A%5Cavdata%5Cavall.zip' \
             -o .ntsb/avall.zip
           unzip -o .ntsb/avall.zip -d .ntsb/data
 
@@ -34,6 +34,7 @@ jobs:
         run: |
           MDB_FILE="$(find .ntsb/data -type f \( -iname '*.mdb' -o -iname '*.accdb' \) | head -n 1)"
           test -n "$MDB_FILE"
+          echo "Using database: $MDB_FILE"
           python3 scripts/build-ntsb-accident-stats.py "$MDB_FILE" public/ntsb-accident-stats.json
 
       - name: Commit refreshed statistics
