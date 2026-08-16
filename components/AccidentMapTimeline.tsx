@@ -31,24 +31,107 @@ type GeoFeature = { id?: string | number; geometry: GeoGeometry }
 const MIN_YEAR = 1970
 const MAX_YEAR = 2026
 const WIDTH = 1000
-const HEIGHT = 500
+const HEIGHT = 520
+const MAP_PAD_X = 24
+const MAP_PAD_Y = 28
 
 const WORLD_FEATURES = ((feature(countries110m as never, (countries110m as { objects: { countries: unknown } }).objects.countries as never) as unknown) as { features: GeoFeature[] }).features
 
+// Natural Earth 1 projection coefficients (same projection family used by
+// contemporary world reference maps). Keeping the math local avoids a runtime
+// map-service dependency and guarantees pins and borders use the same projection.
+const A0 = 0.8707
+const A1 = -0.131979
+const A2 = -0.013791
+const A3 = 0.003971
+const A4 = -0.001529
+const B0 = 1.007226
+const B1 = 0.015085
+const B2 = -0.044475
+const B3 = 0.028874
+const B4 = -0.005916
+const RAW_X_MAX = Math.PI * A0
+const RAW_Y_MAX = (() => {
+  const phi = Math.PI / 2
+  const phi2 = phi * phi
+  const phi4 = phi2 * phi2
+  return phi * (B0 + phi2 * (B1 + phi4 * (B2 + B3 * phi2 + B4 * phi4)))
+})()
+
+function naturalEarthRaw(lon: number, lat: number) {
+  const lambda = lon * Math.PI / 180
+  const phi = Math.max(-89.999, Math.min(89.999, lat)) * Math.PI / 180
+  const phi2 = phi * phi
+  const phi4 = phi2 * phi2
+  const x = lambda * (A0 + phi2 * (A1 + phi2 * (A2 + phi4 * phi2 * (A3 + phi2 * A4))))
+  const y = phi * (B0 + phi2 * (B1 + phi4 * (B2 + B3 * phi2 + B4 * phi4)))
+  return { x, y }
+}
+
 function project(lon: number, lat: number) {
-  return { x: ((lon + 180) / 360) * WIDTH, y: ((90 - lat) / 180) * HEIGHT }
+  const raw = naturalEarthRaw(lon, lat)
+  const usableW = WIDTH - MAP_PAD_X * 2
+  const usableH = HEIGHT - MAP_PAD_Y * 2
+  const scale = Math.min(usableW / (RAW_X_MAX * 2), usableH / (RAW_Y_MAX * 2))
+  return {
+    x: WIDTH / 2 + raw.x * scale,
+    y: HEIGHT / 2 - raw.y * scale,
+  }
 }
 
 function ringPath(ring: number[][]) {
-  return ring.map(([lon, lat], index) => {
+  if (!ring.length) return ''
+  let path = ''
+  let previous: { x: number; y: number } | null = null
+  let segmentOpen = false
+
+  for (const [lon, lat] of ring) {
     const p = project(lon, lat)
-    return `${index === 0 ? 'M' : 'L'}${p.x.toFixed(2)},${p.y.toFixed(2)}`
-  }).join(' ') + ' Z'
+    const crossedAntimeridian = previous && Math.abs(p.x - previous.x) > WIDTH * 0.55
+    if (!segmentOpen || crossedAntimeridian) {
+      if (segmentOpen) path += ' Z '
+      path += `M${p.x.toFixed(2)},${p.y.toFixed(2)}`
+      segmentOpen = true
+    } else {
+      path += ` L${p.x.toFixed(2)},${p.y.toFixed(2)}`
+    }
+    previous = p
+  }
+  return segmentOpen ? `${path} Z` : path
 }
 
 function geometryPath(geometry: GeoGeometry) {
   if (geometry.type === 'Polygon') return (geometry.coordinates as number[][][]).map(ringPath).join(' ')
   return (geometry.coordinates as number[][][][]).map((polygon) => polygon.map(ringPath).join(' ')).join(' ')
+}
+
+function sampledPath(points: Array<[number, number]>, close = false) {
+  const body = points.map(([lon, lat], index) => {
+    const p = project(lon, lat)
+    return `${index === 0 ? 'M' : 'L'}${p.x.toFixed(2)},${p.y.toFixed(2)}`
+  }).join(' ')
+  return close ? `${body} Z` : body
+}
+
+function longitudeLine(lon: number) {
+  const points: Array<[number, number]> = []
+  for (let lat = -80; lat <= 80; lat += 4) points.push([lon, lat])
+  return sampledPath(points)
+}
+
+function latitudeLine(lat: number) {
+  const points: Array<[number, number]> = []
+  for (let lon = -180; lon <= 180; lon += 4) points.push([lon, lat])
+  return sampledPath(points)
+}
+
+function spherePath() {
+  const points: Array<[number, number]> = []
+  for (let lon = -180; lon <= 180; lon += 4) points.push([lon, 89.999])
+  for (let lat = 86; lat >= -86; lat -= 4) points.push([180, lat])
+  for (let lon = 180; lon >= -180; lon -= 4) points.push([lon, -89.999])
+  for (let lat = -86; lat <= 86; lat += 4) points.push([-180, lat])
+  return sampledPath(points, true)
 }
 
 function hasCoords(item: MapAccident) {
@@ -86,6 +169,7 @@ export default function AccidentMapTimeline({ items, mapNote, onOpenCase }: Prop
   const [operatorQuery, setOperatorQuery] = useState('')
   const [fatalOnly, setFatalOnly] = useState(false)
   const [selected, setSelected] = useState<MapAccident | null>(null)
+  const [draggingYear, setDraggingYear] = useState(false)
 
   const mapped = useMemo(() => items.filter((item) => hasCoords(item) && eventYear(item) >= MIN_YEAR && eventYear(item) <= MAX_YEAR), [items])
   const families = useMemo(() => ['All', ...[...new Set(mapped.map((item) => item.family || item.aircraft).filter((x): x is string => Boolean(x)))].sort((a, b) => a.localeCompare(b))], [mapped])
@@ -120,6 +204,8 @@ export default function AccidentMapTimeline({ items, mapNote, onOpenCase }: Prop
   const topRegion = topValue(visible.map((x) => regionFor(x.latitude!, x.longitude!)))
   const panel: React.CSSProperties = { border: '1px solid #24394b', borderRadius: 12, background: '#0a1620' }
   const small: React.CSSProperties = { color: '#7890a2', fontSize: 10 }
+  const selectedPeriod = startYear === focusYear ? String(focusYear) : `${startYear}–${focusYear}`
+  const sliderPercent = ((focusYear - MIN_YEAR) / (MAX_YEAR - MIN_YEAR)) * 100
 
   return (
     <div style={{ display: 'grid', gap: 12 }}>
@@ -135,11 +221,11 @@ export default function AccidentMapTimeline({ items, mapNote, onOpenCase }: Prop
 
       <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) 280px', gap: 12, alignItems: 'stretch' }}>
         <div style={{ ...panel, overflow: 'hidden', position: 'relative', minHeight: 420 }}>
-          <svg viewBox={`0 0 ${WIDTH} ${HEIGHT}`} role="img" aria-label="Natural Earth global aviation accident map" style={{ width: '100%', height: '100%', minHeight: 420, display: 'block', background: 'radial-gradient(circle at 50% 48%, #102636 0, #07111a 70%)' }}>
-            <rect x="0" y="0" width={WIDTH} height={HEIGHT} fill="transparent" />
-            {[-120,-60,0,60,120].map((lon) => { const p = project(lon, 0); return <line key={`lon-${lon}`} x1={p.x} x2={p.x} y1={0} y2={HEIGHT} stroke="#183247" strokeWidth="1" opacity=".35" /> })}
-            {[-60,-30,0,30,60].map((lat) => { const p = project(0, lat); return <line key={`lat-${lat}`} y1={p.y} y2={p.y} x1={0} x2={WIDTH} stroke="#183247" strokeWidth="1" opacity=".35" /> })}
-            {WORLD_FEATURES.map((country, index) => <path key={String(country.id ?? index)} d={geometryPath(country.geometry)} fill="#17313e" stroke="#426176" strokeWidth="0.65" opacity=".96" fillRule="evenodd" />)}
+          <svg viewBox={`0 0 ${WIDTH} ${HEIGHT}`} role="img" aria-label="Natural Earth projected global aviation accident map" style={{ width: '100%', height: '100%', minHeight: 420, display: 'block', background: 'radial-gradient(circle at 50% 48%, #102636 0, #07111a 70%)' }}>
+            <path d={spherePath()} fill="#081823" stroke="#426176" strokeWidth="1.2" />
+            {[-120,-60,0,60,120].map((lon) => <path key={`lon-${lon}`} d={longitudeLine(lon)} fill="none" stroke="#183247" strokeWidth="0.8" opacity=".38" />)}
+            {[-60,-30,0,30,60].map((lat) => <path key={`lat-${lat}`} d={latitudeLine(lat)} fill="none" stroke="#183247" strokeWidth="0.8" opacity=".38" />)}
+            {WORLD_FEATURES.map((country, index) => <path key={String(country.id ?? index)} d={geometryPath(country.geometry)} fill="#17313e" stroke="#426176" strokeWidth="0.62" opacity=".97" fillRule="evenodd" />)}
             {visible.map((item) => {
               const p = project(item.longitude!, item.latitude!)
               const fatal = (item.fatalities || 0) > 0
@@ -148,7 +234,7 @@ export default function AccidentMapTimeline({ items, mapNote, onOpenCase }: Prop
               return <g key={item.id} onClick={() => setSelected(item)} style={{ cursor: 'pointer' }}>{active && <circle cx={p.x} cy={p.y} r={13} fill="none" stroke="#f8fafc" strokeWidth="2" />}<circle cx={p.x} cy={p.y} r={active ? 7 : fatal ? 5.2 : 4} fill={discovery ? '#f59e0b' : fatal ? '#fb7185' : '#38bdf8'} stroke="#041019" strokeWidth="1.1" opacity={discovery ? .72 : .92}><title>{`${item.date} · ${item.title} · ${item.location || ''}`}</title></circle></g>
             })}
           </svg>
-          <div style={{ position: 'absolute', left: 12, bottom: 10, display: 'flex', gap: 10, flexWrap: 'wrap', padding: '6px 8px', borderRadius: 8, background: 'rgba(4,12,18,.84)', fontSize: 9, color: '#aab9c3' }}><span style={{ color: '#38bdf8' }}>● Official non-fatal</span><span style={{ color: '#fb7185' }}>● Official fatal</span><span style={{ color: '#f59e0b' }}>● Discovery</span><span>Natural Earth 1:110m basemap</span></div>
+          <div style={{ position: 'absolute', left: 12, bottom: 10, display: 'flex', gap: 10, flexWrap: 'wrap', padding: '6px 8px', borderRadius: 8, background: 'rgba(4,12,18,.84)', fontSize: 9, color: '#aab9c3' }}><span style={{ color: '#38bdf8' }}>● Official non-fatal</span><span style={{ color: '#fb7185' }}>● Official fatal</span><span style={{ color: '#f59e0b' }}>● Discovery</span><span>Natural Earth 1 projection · 1:110m borders</span></div>
         </div>
 
         <div style={{ ...panel, padding: 14, minHeight: 420 }}>
@@ -160,11 +246,34 @@ export default function AccidentMapTimeline({ items, mapNote, onOpenCase }: Prop
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5,minmax(0,1fr))', gap: 8, marginBottom: 12 }}>
           <div><small style={small}>GÖRÜNEN OLAY</small><strong style={{ display: 'block', fontSize: 18 }}>{visible.length}</strong></div><div><small style={small}>FATAL OLAY</small><strong style={{ display: 'block', fontSize: 18 }}>{fatalEvents}</strong></div><div><small style={small}>OFFICIAL FATALITIES</small><strong style={{ display: 'block', fontSize: 18 }}>{officialFatalities.toLocaleString('tr-TR')}</strong></div><div><small style={small}>TOP TYPE</small><strong style={{ display: 'block', fontSize: 12 }}>{topFamily}</strong></div><div><small style={small}>TOP REGION</small><strong style={{ display: 'block', fontSize: 12 }}>{topRegion}</strong></div>
         </div>
+
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 10, marginBottom: 8 }}>
+          <div><small style={small}>SEÇİLİ DÖNEM</small><strong style={{ display: 'block', color: '#dceaf3', fontSize: 17, marginTop: 2 }}>{selectedPeriod}</strong></div>
+          <div style={{ textAlign: 'right' }}><small style={small}>PENCERE</small><strong style={{ display: 'block', color: '#9edcff', fontSize: 12, marginTop: 2 }}>{windowYears} yıl</strong></div>
+        </div>
+
         <div style={{ display: 'flex', alignItems: 'end', height: 82, gap: 2, borderBottom: '1px solid #294051', paddingBottom: 2 }}>{timeline.map((row) => <button key={row.year} title={`${row.year}: ${row.count}`} onClick={() => setFocusYear(row.year)} style={{ flex: 1, height: `${Math.max(2, (row.count / maxTimeline) * 72)}px`, minWidth: 2, padding: 0, border: 0, background: row.year >= startYear && row.year <= focusYear ? '#38bdf8' : '#29475a', opacity: row.year >= startYear && row.year <= focusYear ? .9 : .55, cursor: 'pointer' }} />)}</div>
-        <div style={{ display: 'flex', justifyContent: 'space-between', ...small, marginTop: 4 }}><span>{MIN_YEAR}</span><strong style={{ color: '#b8cad5' }}>{startYear}–{focusYear}</strong><span>{MAX_YEAR}</span></div>
-        <input type="range" min={MIN_YEAR} max={MAX_YEAR} value={focusYear} onChange={(e) => setFocusYear(Number(e.target.value))} style={{ width: '100%', marginTop: 8 }} />
-        <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', marginTop: 8 }}>{[1,5,10,20].map((n) => <button key={n} onClick={() => setWindowYears(n)} style={{ border: windowYears === n ? '1px solid #38bdf8' : '1px solid #284154', borderRadius: 7, background: windowYears === n ? '#102a39' : '#09151e', color: '#c8d6df', padding: '6px 8px', cursor: 'pointer', fontSize: 10 }}>{n} yıl</button>)}</div>
-        <p style={{ ...small, marginTop: 10 }}>{mapNote || `${mapped.length} koordinatlı kayıt haritada kullanılabilir.`} Altlık: Natural Earth / world-atlas 1:110m.</p>
+        <div style={{ display: 'flex', justifyContent: 'space-between', ...small, marginTop: 4 }}><span>{MIN_YEAR}</span><strong style={{ color: '#b8cad5' }}>{selectedPeriod}</strong><span>{MAX_YEAR}</span></div>
+
+        <div style={{ position: 'relative', paddingTop: 34, marginTop: 2 }}>
+          <div style={{ position: 'absolute', left: `clamp(38px, ${sliderPercent}%, calc(100% - 38px))`, top: draggingYear ? 0 : 5, transform: 'translateX(-50%)', padding: '5px 8px', borderRadius: 7, background: draggingYear ? '#38bdf8' : '#102b3b', color: draggingYear ? '#03131d' : '#cceeff', border: '1px solid #38bdf8', fontSize: 10, fontWeight: 800, whiteSpace: 'nowrap', boxShadow: draggingYear ? '0 5px 18px rgba(56,189,248,.28)' : 'none', transition: 'top .12s ease, background .12s ease' }}>{selectedPeriod}</div>
+          <input
+            type="range"
+            min={MIN_YEAR}
+            max={MAX_YEAR}
+            value={focusYear}
+            aria-label={`Seçili dönem ${selectedPeriod}`}
+            onPointerDown={() => setDraggingYear(true)}
+            onPointerUp={() => setDraggingYear(false)}
+            onPointerCancel={() => setDraggingYear(false)}
+            onBlur={() => setDraggingYear(false)}
+            onChange={(e) => setFocusYear(Number(e.target.value))}
+            style={{ width: '100%', margin: 0 }}
+          />
+        </div>
+
+        <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap', marginTop: 9 }}>{[1,5,10,20].map((n) => <button key={n} onClick={() => setWindowYears(n)} style={{ border: windowYears === n ? '1px solid #38bdf8' : '1px solid #284154', borderRadius: 7, background: windowYears === n ? '#102a39' : '#09151e', color: '#c8d6df', padding: '6px 8px', cursor: 'pointer', fontSize: 10 }}>{n} yıl</button>)}</div>
+        <p style={{ ...small, marginTop: 10 }}>{mapNote || `${mapped.length} koordinatlı kayıt haritada kullanılabilir.`} Altlık: Natural Earth / world-atlas 1:110m; projeksiyon: Natural Earth 1.</p>
       </div>
     </div>
   )
