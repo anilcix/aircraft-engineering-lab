@@ -1,0 +1,119 @@
+{
+  "updatedAt": "2026-08-16T18:56:00Z",
+  "methodNote": "Variant hierarchy combines manufacturer product-family definitions with current fleet-directory cross-checks. 'In service' means the variant is represented in airline operation; certified/pre-EIS and development variants are explicitly separated. Operator examples are representative, not exhaustive global registries.",
+  "families": [
+    {
+      "family": "Airbus A320 Family",
+      "sourceLabel": "Airbus — A320 Family",
+      "sourceUrl": "https://www.aircraft.airbus.com/en/aircraft/a320-family",
+      "variants": [
+        {"name":"A318","generation":"ceo / legacy","status":"Limited active service","role":"Smallest legacy A320-family member","operatorExamples":["Air France (historic/retiring context)","charter/VIP operators"],"note":"Very small remaining airline population; do not infer family-wide age from A318."},
+        {"name":"A319ceo","generation":"ceo","status":"Active service","role":"Short-body single aisle","operatorExamples":["American Airlines","easyJet","Lufthansa","Air Serbia","Croatia Airlines"]},
+        {"name":"A319neo","generation":"neo","status":"Limited active service","role":"Short-body new-engine variant","operatorExamples":["Air China","West Air","Xizang Airlines"],"sourceUrl":"https://www.planespotters.net/aircraft/operators/airbus-a319neo"},
+        {"name":"A320ceo","generation":"ceo","status":"Widespread active service","role":"Core legacy A320 variant","operatorExamples":["easyJet","British Airways","Lufthansa","Air France","Turkish Airlines","JetBlue"]},
+        {"name":"A320neo","generation":"neo","status":"Widespread active service","role":"Core new-engine A320 variant","operatorExamples":["IndiGo","Lufthansa","easyJet","Turkish Airlines","Pegasus Airlines","Wizz Air","Spirit Airlines","AirAsia"]},
+        {"name":"A321ceo","generation":"ceo","status":"Widespread active service","role":"Stretched legacy A320-family member","operatorExamples":["American Airlines","Delta Air Lines","Turkish Airlines","Lufthansa","JetBlue"]},
+        {"name":"A321neo","generation":"neo","status":"Rapidly growing active service","role":"High-capacity new-engine single aisle","operatorExamples":["IndiGo","American Airlines","Delta Air Lines","Turkish Airlines","Wizz Air","JetBlue","Pegasus Airlines"]},
+        {"name":"A321LR","generation":"neo / long range","status":"Active long-range service","role":"Long-range A321neo configuration","operatorExamples":["TAP Air Portugal","JetBlue","Aer Lingus","Air Transat"]},
+        {"name":"A321XLR","generation":"neo / extra long range","status":"Active and expanding","role":"4,700-nm long-range single aisle","operatorExamples":["Iberia","Aer Lingus","Air Canada","Wizz Air"],"sourceUrl":"https://aircraft.airbus.com/en/aircraft/a320/a321xlr"}
+      ]
+    },
+    {
+      "family": "Airbus A220",
+      "sourceLabel": "Airbus — A220 Family",
+      "sourceUrl": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a220-family",
+      "variants": [
+        {"name":"A220-100","generation":"A220","status":"Active service","role":"Smaller A220","operatorExamples":["Delta Air Lines","SWISS"]},
+        {"name":"A220-300","generation":"A220","status":"Widespread and growing service","role":"Larger A220","operatorExamples":["airBaltic","Air Canada","Air France","Delta Air Lines","JetBlue","ITA Airways","Breeze Airways"]}
+      ]
+    },
+    {
+      "family": "Boeing 737 NG",
+      "sourceLabel": "Boeing / current fleet directories",
+      "sourceUrl": "https://www.boeing.com/commercial/airports/3-view",
+      "variants": [
+        {"name":"737-600","generation":"Next Generation","status":"Very limited active service","role":"Smallest NG variant","operatorExamples":[]},
+        {"name":"737-700","generation":"Next Generation","status":"Active service","role":"Short-body NG","operatorExamples":["Southwest Airlines","WestJet","Alaska Airlines (specialized fleet context)"]},
+        {"name":"737-800","generation":"Next Generation","status":"Very widespread active service","role":"Core NG variant","operatorExamples":["Ryanair","American Airlines","Turkish Airlines","KLM","SunExpress","Qantas","Jeju Air"]},
+        {"name":"737-900ER","generation":"Next Generation","status":"Active service","role":"Largest common NG passenger variant","operatorExamples":["United Airlines","Delta Air Lines","Alaska Airlines","Turkish Airlines"]}
+      ]
+    },
+    {
+      "family": "Boeing 737 MAX",
+      "sourceLabel": "Boeing — 737 MAX Family",
+      "sourceUrl": "https://www.boeing.com/commercial/737max",
+      "variants": [
+        {"name":"737 MAX 7","generation":"MAX","status":"FAA certified; airline EIS pending","role":"Smallest MAX","operatorExamples":["Southwest Airlines (planned)"],"note":"FAA certification completed in August 2026; first airline service is not treated as active until an operator actually introduces it."},
+        {"name":"737 MAX 8","generation":"MAX","status":"Widespread active service","role":"Core MAX variant","operatorExamples":["Southwest Airlines","American Airlines","United Airlines","Turkish Airlines","flydubai","Air Canada","Norwegian"]},
+        {"name":"737 MAX 8-200","generation":"MAX high capacity","status":"Active service","role":"High-capacity MAX 8 configuration","operatorExamples":["Ryanair Group"]},
+        {"name":"737 MAX 9","generation":"MAX","status":"Active service","role":"Stretched MAX","operatorExamples":["United Airlines","Alaska Airlines","Copa Airlines","Turkish Airlines"]},
+        {"name":"737 MAX 10","generation":"MAX","status":"Certification / pre-EIS","role":"Largest MAX variant","operatorExamples":[],"note":"Not counted as an active passenger-service variant until certification and airline entry into service are complete."}
+      ]
+    },
+    {
+      "family": "Embraer E-Jet Family",
+      "sourceLabel": "Embraer — E-Jets",
+      "sourceUrl": "https://embraer.com/e-jets/en/",
+      "variants": [
+        {"name":"E170","generation":"E-Jet E1","status":"Limited active service","role":"Small E-Jet","operatorExamples":[]},
+        {"name":"E175","generation":"E-Jet E1","status":"Very widespread regional service","role":"US-regional optimized E-Jet","operatorExamples":["SkyWest","Republic Airways","Envoy Air","Horizon Air"]},
+        {"name":"E190","generation":"E-Jet E1","status":"Active service","role":"Mainline/regional crossover","operatorExamples":["KLM Cityhopper","Air France HOP","Azul","Kenya Airways"]},
+        {"name":"E195","generation":"E-Jet E1","status":"Active service","role":"Largest first-generation E-Jet","operatorExamples":["LOT Polish Airlines","Azul"]},
+        {"name":"E190-E2","generation":"E-Jet E2","status":"Active service","role":"New-generation E190","operatorExamples":["KLM Cityhopper","Helvetic Airways"]},
+        {"name":"E195-E2","generation":"E-Jet E2","status":"Growing active service","role":"Largest E2","operatorExamples":["Porter Airlines","KLM Cityhopper","Azul","Binter"]}
+      ]
+    },
+    {
+      "family": "ATR 72",
+      "sourceLabel": "ATR",
+      "sourceUrl": "https://www.atr-aircraft.com/",
+      "variants": [
+        {"name":"ATR 72-500","generation":"ATR 72 classic","status":"Active service","role":"Earlier-generation regional turboprop","operatorExamples":["regional and charter operators worldwide"]},
+        {"name":"ATR 72-600","generation":"ATR 72 current","status":"Widespread active service / current production","role":"Current-generation ATR 72","operatorExamples":["IndiGo","Air New Zealand","Azul","Binter","Cebu Pacific","Bangkok Airways"]}
+      ]
+    },
+    {
+      "family": "Airbus A330",
+      "sourceLabel": "Airbus — A330 Family",
+      "sourceUrl": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a330-family",
+      "variants": [
+        {"name":"A330-200","generation":"ceo","status":"Active service","role":"Shorter long-range A330ceo","operatorExamples":["Turkish Airlines","KLM/legacy operators","Air China","Iberia-group/charter contexts"]},
+        {"name":"A330-300","generation":"ceo","status":"Widespread active service","role":"Stretched A330ceo","operatorExamples":["Turkish Airlines","Delta Air Lines","Cathay Pacific","Korean Air","China Eastern Airlines"]},
+        {"name":"A330-800","generation":"neo","status":"Limited active service","role":"Long-range smaller A330neo","operatorExamples":["Kuwait Airways","Uganda Airlines"]},
+        {"name":"A330-900","generation":"neo","status":"Growing active service","role":"Primary A330neo variant","operatorExamples":["Delta Air Lines","TAP Air Portugal","Condor","Virgin Atlantic","ITA Airways","Cebu Pacific"]}
+      ]
+    },
+    {
+      "family": "Airbus A350",
+      "sourceLabel": "Airbus — A350 Family",
+      "sourceUrl": "https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a350-family",
+      "variants": [
+        {"name":"A350-900","generation":"A350","status":"Widespread active service","role":"Core A350 variant","operatorExamples":["Qatar Airways","Singapore Airlines","Cathay Pacific","Turkish Airlines","Lufthansa","Air France","Delta Air Lines"]},
+        {"name":"A350-900ULR","generation":"A350 ULR","status":"Active ultra-long-range service","role":"Ultra-long-range -900 configuration","operatorExamples":["Singapore Airlines"]},
+        {"name":"A350-1000","generation":"A350","status":"Growing active service","role":"Larger A350 passenger variant","operatorExamples":["Qatar Airways","British Airways","Cathay Pacific","Virgin Atlantic","Japan Airlines"]}
+      ]
+    },
+    {
+      "family": "Boeing 777",
+      "sourceLabel": "Boeing — airport planning / 777 family",
+      "sourceUrl": "https://www.boeing.com/commercial/airports/3-view",
+      "variants": [
+        {"name":"777-200ER","generation":"777 Classic","status":"Active but declining passenger service","role":"Long-range early 777","operatorExamples":["United Airlines","British Airways (fleet transition context)"]},
+        {"name":"777-200LR","generation":"777 Classic","status":"Limited active service","role":"Ultra-long-range classic 777","operatorExamples":["Air Canada","Emirates"]},
+        {"name":"777-300ER","generation":"777 Classic","status":"Very widespread active long-haul service","role":"Dominant passenger 777 classic","operatorExamples":["Emirates","Qatar Airways","Turkish Airlines","Air France","Cathay Pacific","Singapore Airlines"]},
+        {"name":"777F","generation":"777 Classic freighter","status":"Widespread cargo service","role":"Long-range freighter","operatorExamples":["FedEx","Qatar Airways Cargo","Emirates SkyCargo","Lufthansa Cargo"]},
+        {"name":"777-9","generation":"777X","status":"Certification / pre-EIS","role":"Next-generation large passenger 777","operatorExamples":[],"note":"Not included in active passenger fleet totals until airline entry into service."}
+      ]
+    },
+    {
+      "family": "Boeing 787",
+      "sourceLabel": "Boeing — 787 Dreamliner",
+      "sourceUrl": "https://www.boeing.com/commercial/787/",
+      "variants": [
+        {"name":"787-8","generation":"Dreamliner","status":"Widespread active service","role":"Smallest 787","operatorExamples":["ANA","American Airlines","Air India","Qatar Airways","British Airways"]},
+        {"name":"787-9","generation":"Dreamliner","status":"Very widespread active service","role":"Core long-range 787","operatorExamples":["ANA","United Airlines","Qatar Airways","Turkish Airlines","Air New Zealand","Etihad Airways"]},
+        {"name":"787-10","generation":"Dreamliner","status":"Growing active service","role":"Largest 787","operatorExamples":["Singapore Airlines","United Airlines","Etihad Airways","KLM"]}
+      ]
+    }
+  ]
+}
