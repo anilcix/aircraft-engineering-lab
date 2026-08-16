@@ -1,6 +1,6 @@
 {
-  "generatedAt": "1970-01-01T00:00:00Z",
-  "coverageNote": "NTSB bulk statistics have not been generated yet. The scheduled importer will populate this file from the official NTSB downloadable aviation dataset.",
+  "generatedAt": "2026-08-16T16:40:26.292379Z",
+  "coverageNote": "Official NTSB downloadable aviation dataset, 1982-present. Dashboard type counts represent recognized transport-aircraft families involved in NTSB accident events; this is not a global accident census.",
   "totalAccidents": 0,
   "totalAircraftRecords": 0,
   "types": []
