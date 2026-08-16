@@ -1,0 +1,27 @@
+{
+  "updatedAt": "2026-08-16T17:02:00Z",
+  "methodNote": "Critical global fatal-crash totals are only added here after cross-checking multiple investigation/government sources. These verified totals are distinct from NTSB bulk statistics and from the curated global case library.",
+  "families": [
+    {
+      "family": "Boeing 737 MAX",
+      "asOf": "2026-08-16",
+      "fatalCrashes": 2,
+      "fatalities": 346,
+      "summary": "Lion Air Flight 610 (189 fatalities) and Ethiopian Airlines Flight 302 (157 fatalities).",
+      "sources": [
+        {
+          "label": "NTSB — Investigation of Lion Air 610 and Ethiopian 302",
+          "url": "https://www.ntsb.gov/investigations/pages/DCA19RA017-DCA19RA101.aspx"
+        },
+        {
+          "label": "ATSB — accredited representative support to Lion Air 610 / NTSC investigation",
+          "url": "https://www.atsb.gov.au/investigations/ae-2018-074"
+        },
+        {
+          "label": "BEA — Ethiopian 302 / EAIB investigation page",
+          "url": "https://bea.aero/en/investigation-reports/notified-events/detail/accident-to-the-boeing-737-registered-et-avj-and-operated-by-ethiopian-airlines-on-10-03-2019-near-bishoftu-investigation-led-by-eaib-ethiopia/"
+        }
+      ]
+    }
+  ]
+}
