@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: '17 */3 * * *'
   workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/update-aviation-news.mjs'
+      - '.github/workflows/update-aviation-news.yml'
 
 permissions:
   contents: write
