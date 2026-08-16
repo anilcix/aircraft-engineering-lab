@@ -161,7 +161,7 @@ export default function AviationAccidentsDrawer() {
 
   const dashboardRows = useMemo(() => {
     if (scope === 'ntsb' && ntsb.types.length) return ntsb.types.slice(0, 30)
-    return curatedFamilies.map((x) => ({ family: x.family, make: '', model: '', ...x }))
+    return curatedFamilies.map((x) => ({ ...x, make: '', model: '' }))
   }, [scope, ntsb, curatedFamilies])
 
   const maxCount = Math.max(1, ...dashboardRows.map((x) => x.accidents))
