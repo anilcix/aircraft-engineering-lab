@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - 'scripts/update-wikidata-accident-discovery.py'
+      - 'scripts/merge-global-accidents.py'
       - '.github/workflows/update-global-accident-discovery.yml'
 
 permissions:
