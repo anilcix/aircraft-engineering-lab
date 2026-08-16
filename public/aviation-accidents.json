@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T18:13:34.653153Z",
+  "updatedAt": "2026-08-16T18:29:16.205671Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2938 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -16665,7 +16665,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Pakistan International Airlines",
-      "location": "Lower Himalayan Range, Nepal",
+      "location": "Kathmandu, Nepal",
       "fatalities": 167,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Pakistan_International_Airlines_Flight_268"
     },
@@ -36584,7 +36584,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Barzas",
+      "location": "Kemerovsky District",
       "fatalities": 27
     },
     {
@@ -42092,6 +42092,8 @@
   "counts": {
     "officialIndexed": 40,
     "discovery": 2938,
-    "totalVisible": 2978
-  }
+    "totalVisible": 2978,
+    "withCoordinates": 0
+  },
+  "mapNote": "0 indexed records currently include structured map coordinates. Records without coordinates remain searchable in the case library but are omitted from the map."
 }
