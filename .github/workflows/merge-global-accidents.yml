@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: global-accident-index-write
+  cancel-in-progress: false
+
 jobs:
   merge:
     runs-on: ubuntu-latest
