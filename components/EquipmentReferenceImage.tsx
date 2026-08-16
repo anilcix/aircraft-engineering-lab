@@ -66,41 +66,47 @@ function searchTerms(name: string, short?: string, ata?: string) {
   const clean = cleanEquipmentName(name)
 
   const ataHint: Record<string, string> = {
-    '21': 'aircraft environmental control aviation',
-    '22': 'aircraft autopilot avionics',
-    '23': 'aircraft radio avionics',
-    '24': 'aircraft electrical aviation',
-    '26': 'aircraft fire protection aviation',
-    '27': 'aircraft flight control aviation',
-    '28': 'aircraft fuel aviation',
-    '29': 'aircraft hydraulic aviation',
-    '30': 'aircraft ice protection aviation',
-    '31': 'aircraft avionics aviation',
-    '32': 'aircraft landing gear brake aviation',
-    '34': 'aircraft navigation avionics aviation',
-    '35': 'aircraft oxygen aviation',
-    '36': 'aircraft pneumatic bleed air aviation',
-    '38': 'aircraft water waste aviation',
-    '44': 'aircraft cabin aviation',
-    '45': 'aircraft maintenance computer avionics',
-    '46': 'aircraft information system avionics',
-    '47': 'aircraft inert gas aviation',
-    '49': 'aircraft auxiliary power unit APU aviation',
-    '52': 'aircraft door aviation',
-    '73': 'aircraft engine fuel control aviation',
-    '74': 'aircraft engine ignition aviation',
-    '75': 'aircraft engine air aviation',
-    '77': 'aircraft engine indication sensor aviation',
-    '78': 'aircraft engine exhaust aviation',
-    '79': 'aircraft engine oil aviation',
-    '80': 'aircraft engine starter aviation',
+    '21': 'environmental control ECS',
+    '22': 'autopilot avionics',
+    '23': 'radio avionics',
+    '24': 'electrical power',
+    '26': 'fire protection',
+    '27': 'flight control',
+    '28': 'fuel system',
+    '29': 'hydraulic system',
+    '30': 'ice protection',
+    '31': 'avionics display',
+    '32': 'landing gear brake',
+    '34': 'navigation avionics',
+    '35': 'oxygen system',
+    '36': 'pneumatic bleed air',
+    '38': 'water waste',
+    '44': 'cabin system',
+    '45': 'maintenance computer avionics',
+    '46': 'information system avionics',
+    '47': 'inert gas system',
+    '49': 'auxiliary power unit APU',
+    '52': 'door system',
+    '73': 'engine fuel control',
+    '74': 'engine ignition',
+    '75': 'engine air',
+    '77': 'engine indication sensor',
+    '78': 'engine exhaust',
+    '79': 'engine oil system',
+    '80': 'engine starter',
   }
 
   const shortClean = short?.replace(/[\/]/g, ' ').replace(/\s+/g, ' ').trim()
+  const hint = ataHint[ata || ''] || 'aircraft equipment'
+
   return [
-    `"${clean}" ${ataHint[ata || ''] || 'aircraft aviation'}`,
-    `${clean} aircraft aviation component`,
+    `Boeing "${clean}"`,
+    shortClean ? `Boeing "${shortClean}" aircraft` : '',
+    `Boeing "${clean}" ${hint}`,
+    `Boeing ${clean} aircraft component`,
+    `"${clean}" aircraft aviation component`,
     shortClean ? `"${shortClean}" aircraft aviation component` : '',
+    `${clean} ${hint}`,
     clean,
   ].filter(Boolean)
 }
@@ -127,32 +133,36 @@ function scoreCandidate(page: CommonsPage, queryName: string, short?: string) {
   const height = info.height || 0
   if (width && height) {
     const ratio = width / height
-    // Strongly portrait, page-like images are commonly scans/manual pages rather than equipment photos.
     if (height > width * 1.45 && height > 1000) return -Infinity
     if (ratio < 0.42 || ratio > 3.4) return -Infinity
   }
 
   const normalizedHaystack = normalize(haystack)
+  const normalizedTitle = normalize(title)
   const nameTokens = usefulTokens(queryName)
   const shortTokens = usefulTokens(short || '')
   let score = 0
 
   for (const token of nameTokens) {
-    if (normalize(title).includes(token)) score += 9
+    if (normalizedTitle.includes(token)) score += 9
     else if (normalizedHaystack.includes(token)) score += 4
   }
   for (const token of shortTokens) {
-    if (normalize(title).includes(token)) score += 5
+    if (normalizedTitle.includes(token)) score += 5
     else if (normalizedHaystack.includes(token)) score += 2
   }
 
-  if (/\baircraft\b|\baviation\b|\bairliner\b|\bboeing\b|\bairbus\b|\bjet\b/i.test(haystack)) score += 8
+  // The AEL-300 is a generic trainer, but the user requested Boeing-first visual references.
+  // Prefer Boeing-context equipment photos without making Boeing a hard requirement.
+  if (/\bboeing\b/i.test(haystack)) score += 16
+  if (/\bairbus\b/i.test(haystack) && !/\bboeing\b/i.test(haystack)) score -= 5
+
+  if (/\baircraft\b|\baviation\b|\bairliner\b|\bjet\b/i.test(haystack)) score += 8
   if (/\bcomponent\b|\bequipment\b|\bavionics\b|\binstalled\b|\binstallation\b/i.test(haystack)) score += 4
   if (/\.(jpe?g|webp|png)(?:\?|$)/i.test(url) || /^image\/(jpeg|png|webp)$/i.test(info.mime || '')) score += 5
   if (/\bphoto\b|\bphotograph\b/i.test(description)) score += 4
   if (width >= 900 && height >= 500) score += 3
 
-  // Mildly penalize museum placards or text-dominant contextual images without rejecting useful exhibits.
   if (/\bplacard\b|\bcaption\b|\bdisplay board\b|\btext panel\b/i.test(haystack)) score -= 10
 
   return score
@@ -173,7 +183,8 @@ export default function EquipmentReferenceImage({ name, short, ata }: Props) {
     const load = async () => {
       let best: { page: CommonsPage; info: CommonsImage; score: number } | null = null
 
-      for (const term of terms) {
+      for (let index = 0; index < terms.length; index++) {
+        const term = terms[index]
         try {
           const params = new URLSearchParams({
             action: 'query',
@@ -195,19 +206,22 @@ export default function EquipmentReferenceImage({ name, short, ata }: Props) {
           for (const page of pages) {
             const info = page.imageinfo?.[0]
             if (!info) continue
-            const score = scoreCandidate(page, name, short)
+            let score = scoreCandidate(page, name, short)
             if (!Number.isFinite(score)) continue
+
+            // Give Boeing-prefixed searches a small query-priority bonus in addition to metadata scoring.
+            if (index <= 3) score += Math.max(0, 8 - index * 2)
+
             if (!best || score > best.score) best = { page, info, score }
           }
 
-          // A strong title/content match is good enough; avoid progressively broader queries replacing it.
-          if (best && best.score >= 24) break
+          // On Boeing-first queries, only stop early for a genuinely strong match.
+          if (best && best.score >= 34) break
         } catch {
           // Try the next image-search query.
         }
       }
 
-      // Do not display a weak, likely unrelated image simply because one exists.
       if (!best || best.score < 8) {
         if (!cancelled) {
           setFailed(true)
@@ -242,8 +256,8 @@ export default function EquipmentReferenceImage({ name, short, ata }: Props) {
     marginTop: 12,
   }
 
-  if (loading) return <div style={{ ...shell, minHeight: 180, display: 'grid', placeItems: 'center', color: '#7890a0', fontSize: 10 }}>Ekipmanın gerçek fotoğrafı aranıyor…</div>
-  if (failed || !image) return <div style={{ ...shell, padding: 12, color: '#7890a0', fontSize: 10 }}>Bu ekipman için yeterince iyi eşleşen gerçek bir fotoğraf bulunamadı. Belge/şema gibi zayıf sonuçlar özellikle gösterilmedi.</div>
+  if (loading) return <div style={{ ...shell, minHeight: 180, display: 'grid', placeItems: 'center', color: '#7890a0', fontSize: 10 }}>Boeing öncelikli gerçek ekipman fotoğrafı aranıyor…</div>
+  if (failed || !image) return <div style={{ ...shell, padding: 12, color: '#7890a0', fontSize: 10 }}>Bu ekipman için yeterince iyi eşleşen gerçek bir fotoğraf bulunamadı. Boeing sonuçları önce tarandı; belge/şema gibi zayıf sonuçlar özellikle gösterilmedi.</div>
 
   return (
     <figure style={{ ...shell, marginLeft: 0, marginRight: 0, marginBottom: 0 }}>
@@ -251,9 +265,9 @@ export default function EquipmentReferenceImage({ name, short, ata }: Props) {
         <img src={image.url} alt={`${name} gerçek ekipman fotoğrafı`} style={{ width: '100%', height: 240, objectFit: 'contain', display: 'block', background: '#050d13' }} />
       </a>
       <figcaption style={{ padding: '8px 10px', borderTop: '1px solid #203545', color: '#7890a0', fontSize: 8.5, lineHeight: 1.45 }}>
-        <strong style={{ color: '#b9cad4' }}>REAL EQUIPMENT PHOTO · Wikimedia Commons image search</strong><br />
+        <strong style={{ color: '#b9cad4' }}>REAL EQUIPMENT PHOTO · BOEING-FIRST IMAGE SEARCH</strong><br />
         {image.title}{image.artist ? ` · ${image.artist}` : ''}{image.license ? ` · ${image.license}` : ''}<br />
-        Görsel, ekipman adına göre fotoğraf sonuçları arasından otomatik seçilir; AEL-300 için OEM parça numarası veya exact installation kanıtı değildir.
+        Boeing bağlamlı sonuçlar önceliklendirilir; görsel yine de AEL-300 için OEM parça numarası veya exact installation kanıtı değildir.
       </figcaption>
     </figure>
   )
