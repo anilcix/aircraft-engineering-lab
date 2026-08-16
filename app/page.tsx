@@ -5,6 +5,7 @@ import { useState } from 'react'
 import EngineeringPanel from '@/components/EngineeringPanel'
 import AviationNewsDrawer from '@/components/AviationNewsDrawer'
 import CertificationDrawer from '@/components/CertificationDrawer'
+import AviationAccidentsDrawer from '@/components/AviationAccidentsDrawer'
 
 const AircraftScene = dynamic(() => import('@/components/AircraftScene'), { ssr: false })
 
@@ -51,7 +52,7 @@ export default function Home() {
             <div>
               <div className="eyebrow">DIGITAL TWIN / TRAINING MODEL</div>
               <h1>AEL-300</h1>
-              <p>Click WING to reveal the primary wing structure · use the side tools for industry news and certification sources</p>
+              <p>Click WING to reveal the primary wing structure · side tools: industry news, certification and aviation safety history</p>
             </div>
             <div className="hud-actions">
               {['fuselage', 'wing', 'front-spar', 'rear-spar', 'wing-center-section', 'engine', 'tail'].map((part) => (
@@ -63,6 +64,7 @@ export default function Home() {
           <div className="side-tools">
             <AviationNewsDrawer />
             <CertificationDrawer />
+            <AviationAccidentsDrawer />
           </div>
 
           <AircraftScene selected={selected} onSelect={selectPart} damaged={damaged} />
