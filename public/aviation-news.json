@@ -1,14 +1,6 @@
 {
-  "updatedAt": "2026-08-17T13:06:05.223Z",
+  "updatedAt": "2026-08-17T15:40:16.142Z",
   "items": [
-    {
-      "title": "4 Min Read NASA, GE Aerospace Work Enables Hybrid-Electric Flight Demonstration Article",
-      "source": "NASA Aeronautics",
-      "category": "Propulsion",
-      "url": "https://www.nasa.gov/directorates/rtmd/nasa-ge-hybrid-electric-flight/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "publishedAt": "2026-07-20T18:54:44.000Z"
-    },
     {
       "title": "3 min read NASA Pushes New Wing Design to Find Structural Limits article 4 weeks ago",
       "source": "NASA Aeronautics",
@@ -16,27 +8,6 @@
       "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-pushes-new-wing-design-to-find-structural-limits/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "publishedAt": "2026-07-17T23:08:33.000Z"
-    },
-    {
-      "title": "Women to Watch in Manufacturing",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Manufacturing",
-      "url": "https://www.aerospacemanufacturinganddesign.com/tag/women-to-watch/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
-    },
-    {
-      "title": "Heart Aerospace flies its X1 electric aircraft",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Propulsion",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/heart-aerospace-flies-its-x1-electric-aircraft/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
-    },
-    {
-      "title": "IMTS 2026 Conference: Manufacturing is a Team Sport: How Technology and Collaboration Are Strengthening the American Supply Chain",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Manufacturing",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/imts-2026-conference-manufacturing-is-a-team-sport-how-technology-and-collaboration-are-strengthening-the-american-supply-chain/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
     },
     {
       "title": "5 min read NASA Announces MAX POWER: America’s Newest Aerospace Expo, Airshow article 3 days ago",
@@ -95,6 +66,13 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     },
     {
+      "title": "4 Min Read NASA, GE Aerospace Work Enables Hybrid-Electric Flight Demonstration Article",
+      "source": "NASA Aeronautics",
+      "category": "Propulsion",
+      "url": "https://www.nasa.gov/directorates/rtmd/nasa-ge-hybrid-electric-flight/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
+    },
+    {
       "title": "3 Min Read NASA Pushes New Wing Design to Find Structural Limits Article",
       "source": "NASA Aeronautics",
       "category": "Structures",
@@ -107,6 +85,34 @@
       "category": "Industry",
       "url": "https://www.nasa.gov/aeronautics/ultra-efficient-aviation/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics."
+    },
+    {
+      "title": "Women to Watch in Manufacturing",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Manufacturing",
+      "url": "https://www.aerospacemanufacturinganddesign.com/tag/women-to-watch/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
+    },
+    {
+      "title": "Heart Aerospace flies its X1 electric aircraft",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Propulsion",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/heart-aerospace-flies-its-x1-electric-aircraft/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
+    },
+    {
+      "title": "IMTS 2026 Conference: Manufacturing is a Team Sport: How Technology and Collaboration Are Strengthening the American Supply Chain",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Manufacturing",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/imts-2026-conference-manufacturing-is-a-team-sport-how-technology-and-collaboration-are-strengthening-the-american-supply-chain/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
+    },
+    {
+      "title": "The Benefits of Bonded Bimetal in Aerospace",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Industry",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/benefits-bonded-bimetal-components-aerospace/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
     },
     {
       "title": "5 min read NASA Announces MAX POWER: America’s Newest Aerospace Expo, Airshow article 2 days ago",
