@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T18:46:18.764609Z",
+  "updatedAt": "2026-08-17T04:23:47.685276Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2938 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -27576,7 +27576,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Korpijärvi, South Korea",
+      "location": "Loukhi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -41399,7 +41399,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Kemerovsky District",
+      "location": "Barzas",
       "fatalities": 27
     },
     {
