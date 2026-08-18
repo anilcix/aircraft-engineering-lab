@@ -8,6 +8,8 @@ type Props = {
   onLayerChange: (layer: string) => void
   damaged: boolean
   onDamageToggle: () => void
+  collapsed: boolean
+  onToggle: () => void
 }
 
 const WING_FAMILY = new Set([
@@ -27,13 +29,30 @@ const WING_FAMILY = new Set([
   'aileron',
 ])
 
-export default function EngineeringPanel({ selected, layer, onLayerChange, damaged, onDamageToggle }: Props) {
+export default function EngineeringPanel({ selected, layer, onLayerChange, damaged, onDamageToggle, collapsed, onToggle }: Props) {
   const part = engineeringParts[selected] ?? engineeringParts.wing
+
+  if (collapsed) {
+    return (
+      <aside className="engineering-panel collapsed">
+        <button className="engineering-panel-toggle collapsed-toggle" onClick={onToggle} aria-label="Selected Component panelini aç" title="Selected Component panelini aç">
+          <span className="engineering-toggle-icon">‹</span>
+          <span className="engineering-toggle-label">COMPONENT</span>
+        </button>
+      </aside>
+    )
+  }
 
   return (
     <aside className="engineering-panel">
-      <div className="eyebrow">SELECTED COMPONENT</div>
-      <h2>{part.name}</h2>
+      <div className="engineering-panel-head">
+        <div>
+          <div className="eyebrow">SELECTED COMPONENT</div>
+          <h2>{part.name}</h2>
+        </div>
+        <button className="engineering-panel-toggle" onClick={onToggle} aria-label="Selected Component panelini kapat" title="Paneli küçült">×</button>
+      </div>
+
       <div className="chip-row">
         <span className="chip">{part.category}</span>
         <span className="chip muted">AEL-300 DEMO</span>
