@@ -9,6 +9,7 @@ import AviationAccidentsDrawer from '@/components/AviationAccidentsDrawer'
 import AircraftTypeGuideDrawer from '@/components/AircraftTypeGuideDrawer'
 import EquipmentSystemsDrawer from '@/components/EquipmentSystemsDrawer'
 import SensorAtlasDrawer from '@/components/SensorAtlasDrawer'
+import ImageCuratorDrawer from '@/components/ImageCuratorDrawer'
 import MapWheelScrollGuard from '@/components/MapWheelScrollGuard'
 import type { EquipmentLocatorRequest } from '@/components/equipment-locator-types'
 
@@ -21,20 +22,7 @@ export default function Home() {
   const [equipmentLocator, setEquipmentLocator] = useState<EquipmentLocatorRequest | null>(null)
 
   const wingParts = [
-    'wing',
-    'front-spar',
-    'rear-spar',
-    'rib',
-    'stringer',
-    'side-of-body-rib',
-    'tank-end-rib',
-    'wing-center-section',
-    'landing-gear-beam',
-    'leading-edge-slat',
-    'spoiler',
-    'flap',
-    'flaperon',
-    'aileron',
+    'wing','front-spar','rear-spar','rib','stringer','side-of-body-rib','tank-end-rib','wing-center-section','landing-gear-beam','leading-edge-slat','spoiler','flap','flaperon','aileron',
   ]
 
   const selectPart = (part: string) => {
@@ -57,13 +45,12 @@ export default function Home() {
   return (
     <main className="shell">
       <MapWheelScrollGuard />
-
       <header className="topbar">
         <div>
           <div className="brand">AIRCRAFT ENGINEERING LAB</div>
           <div className="subbrand">AEL-300 · reference-based widebody structural & systems demonstrator</div>
         </div>
-        <div className="status"><span /> V0.6 STRUCTURE + SYSTEM ARCHITECTURE</div>
+        <div className="status"><span /> V0.7 VERIFIED HARDWARE + SYSTEM ARCHITECTURE</div>
       </header>
 
       <section className="workspace">
@@ -72,7 +59,7 @@ export default function Home() {
             <div>
               <div className="eyebrow">DIGITAL TWIN / TRAINING MODEL</div>
               <h1>AEL-300</h1>
-              <p>Structure, ATA equipment, physical interfaces, sensor signal paths, redundancy and approximate 3D installation locations</p>
+              <p>Structure, ATA equipment, physical interfaces, sensor signal paths, verified real-hardware references and approximate 3D installation locations</p>
             </div>
             <div className="hud-actions">
               {['fuselage', 'wing', 'front-spar', 'rear-spar', 'wing-center-section', 'engine', 'tail'].map((part) => (
@@ -88,25 +75,14 @@ export default function Home() {
             <AircraftTypeGuideDrawer />
             <EquipmentSystemsDrawer onLocate={locateEquipment} />
             <SensorAtlasDrawer onLocate={locateEquipment} />
+            <ImageCuratorDrawer />
           </div>
 
-          <AircraftScene
-            selected={selected}
-            onSelect={selectPart}
-            damaged={damaged}
-            equipmentLocator={equipmentLocator}
-            onClearEquipmentLocator={() => setEquipmentLocator(null)}
-          />
+          <AircraftScene selected={selected} onSelect={selectPart} damaged={damaged} equipmentLocator={equipmentLocator} onClearEquipmentLocator={() => setEquipmentLocator(null)} />
           <div className="corner-note">REFERENCE-INFORMED STRUCTURAL & SYSTEMS DEMONSTRATOR · ORIGINAL TRAINING GEOMETRY · NO OEM CAD DATA</div>
         </div>
 
-        <EngineeringPanel
-          selected={selected}
-          layer={layer}
-          onLayerChange={setLayer}
-          damaged={damaged}
-          onDamageToggle={() => setDamaged((v) => !v)}
-        />
+        <EngineeringPanel selected={selected} layer={layer} onLayerChange={setLayer} damaged={damaged} onDamageToggle={() => setDamaged((v) => !v)} />
       </section>
     </main>
   )
