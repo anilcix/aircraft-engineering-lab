@@ -1,14 +1,6 @@
 {
-  "updatedAt": "2026-08-18T01:51:04.469Z",
+  "updatedAt": "2026-08-18T03:58:01.736Z",
   "items": [
-    {
-      "title": "4 min read NASA, GE Aerospace Work Enables Hybrid-Electric Flight Demonstration article 4 weeks ago",
-      "source": "NASA Aeronautics",
-      "category": "Propulsion",
-      "url": "https://www.nasa.gov/directorates/rtmd/nasa-ge-hybrid-electric-flight/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "publishedAt": "2026-07-20T18:54:44.000Z"
-    },
     {
       "title": "4 Min Read NASA, GE Aerospace Work Enables Hybrid-Electric Flight Demonstration Article",
       "source": "NASA Aeronautics",
@@ -16,22 +8,6 @@
       "url": "https://www.nasa.gov/directorates/rtmd/nasa-ge-hybrid-electric-flight/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "publishedAt": "2026-07-20T18:54:44.000Z"
-    },
-    {
-      "title": "3 min read NASA Pushes New Wing Design to Find Structural Limits article 1 month ago",
-      "source": "NASA Aeronautics",
-      "category": "Structures",
-      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-pushes-new-wing-design-to-find-structural-limits/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "publishedAt": "2026-07-17T23:08:33.000Z"
-    },
-    {
-      "title": "3 Min Read NASA Pushes New Wing Design to Find Structural Limits Article",
-      "source": "NASA Aeronautics",
-      "category": "Structures",
-      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-pushes-new-wing-design-to-find-structural-limits/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "publishedAt": "2026-07-17T23:08:33.000Z"
     },
     {
       "title": "3 min read NASA Pushes New Wing Design to Find Structural Limits article 4 weeks ago",
@@ -70,6 +46,20 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     },
     {
+      "title": "4 min read NASA, GE Aerospace Work Enables Hybrid-Electric Flight Demonstration article 4 weeks ago",
+      "source": "NASA Aeronautics",
+      "category": "Propulsion",
+      "url": "https://www.nasa.gov/directorates/rtmd/nasa-ge-hybrid-electric-flight/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
+    },
+    {
+      "title": "3 min read NASA Pushes New Wing Design to Find Structural Limits article 1 month ago",
+      "source": "NASA Aeronautics",
+      "category": "Structures",
+      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-pushes-new-wing-design-to-find-structural-limits/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
+    },
+    {
       "title": "Ultra-Efficient Aviation",
       "source": "NASA Aeronautics",
       "category": "Industry",
@@ -81,6 +71,13 @@
       "source": "NASA Aeronautics",
       "category": "Industry",
       "url": "https://www.nasa.gov/rtmd",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
+    },
+    {
+      "title": "3 Min Read NASA Pushes New Wing Design to Find Structural Limits Article",
+      "source": "NASA Aeronautics",
+      "category": "Structures",
+      "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-pushes-new-wing-design-to-find-structural-limits/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     },
     {
