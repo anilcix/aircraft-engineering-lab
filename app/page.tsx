@@ -20,6 +20,7 @@ export default function Home() {
   const [layer, setLayer] = useState('Overview')
   const [damaged, setDamaged] = useState(false)
   const [equipmentLocator, setEquipmentLocator] = useState<EquipmentLocatorRequest | null>(null)
+  const [engineeringPanelOpen, setEngineeringPanelOpen] = useState(false)
 
   const wingParts = [
     'wing','front-spar','rear-spar','rib','stringer','side-of-body-rib','tank-end-rib','wing-center-section','landing-gear-beam','leading-edge-slat','spoiler','flap','flaperon','aileron',
@@ -53,7 +54,7 @@ export default function Home() {
         <div className="status"><span /> V0.7 VERIFIED HARDWARE + SYSTEM ARCHITECTURE</div>
       </header>
 
-      <section className="workspace">
+      <section className="workspace" style={!engineeringPanelOpen ? { gridTemplateColumns: 'minmax(0, 1fr)' } : undefined}>
         <div className="viewer">
           <div className="viewer-hud">
             <div>
@@ -78,11 +79,30 @@ export default function Home() {
             <ImageCuratorDrawer />
           </div>
 
+          {!engineeringPanelOpen && (
+            <button
+              onClick={() => setEngineeringPanelOpen(true)}
+              style={{ position: 'absolute', zIndex: 9, right: 14, bottom: 14, border: '1px solid #315064', borderRadius: 9, background: 'rgba(8,19,29,.94)', color: '#d7e4ee', padding: '9px 11px', fontSize: 10, fontWeight: 800, cursor: 'pointer', boxShadow: '0 10px 28px rgba(0,0,0,.28)' }}
+            >
+              Selected Component ↗
+            </button>
+          )}
+
           <AircraftScene selected={selected} onSelect={selectPart} damaged={damaged} equipmentLocator={equipmentLocator} onClearEquipmentLocator={() => setEquipmentLocator(null)} />
           <div className="corner-note">REFERENCE-INFORMED STRUCTURAL & SYSTEMS DEMONSTRATOR · ORIGINAL TRAINING GEOMETRY · NO OEM CAD DATA</div>
         </div>
 
-        <EngineeringPanel selected={selected} layer={layer} onLayerChange={setLayer} damaged={damaged} onDamageToggle={() => setDamaged((v) => !v)} />
+        {engineeringPanelOpen && (
+          <EngineeringPanel
+            selected={selected}
+            layer={layer}
+            onLayerChange={setLayer}
+            damaged={damaged}
+            onDamageToggle={() => setDamaged((v) => !v)}
+            collapsed={false}
+            onToggle={() => setEngineeringPanelOpen(false)}
+          />
+        )}
       </section>
     </main>
   )
