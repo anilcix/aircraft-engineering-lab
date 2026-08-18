@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from 'react'
 
 type Props = {
-  id: string
+  id?: string
   kind?: 'equipment' | 'sensor'
   name: string
   short?: string
@@ -25,16 +25,7 @@ type ImageInfo = {
 
 type CatalogEntry = Omit<ImageInfo, 'status'> & { verifiedAt?: string; verifiedBy?: string }
 type CatalogPayload = { entries?: Record<string, CatalogEntry> }
-
-type CommonsImage = {
-  thumburl?: string
-  url?: string
-  descriptionurl?: string
-  width?: number
-  height?: number
-  mime?: string
-  extmetadata?: Record<string, { value?: string }>
-}
+type CommonsImage = { thumburl?: string; url?: string; descriptionurl?: string; width?: number; height?: number; mime?: string; extmetadata?: Record<string, { value?: string }> }
 type CommonsPage = { title?: string; imageinfo?: CommonsImage[] }
 
 function stripHtml(value?: string) {
@@ -42,13 +33,12 @@ function stripHtml(value?: string) {
   return value.replace(/<[^>]*>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim()
 }
 function normalize(value: string) { return value.toLowerCase().replace(/[^a-z0-9]+/g, ' ').replace(/\s+/g, ' ').trim() }
+function keySlug(value: string) { return normalize(value).replace(/\s+/g, '-') }
 function usefulTokens(value: string) {
   const stop = new Set(['aircraft','system','unit','assembly','left','right','main','primary','secondary','the','and'])
   return normalize(value).split(' ').filter((token) => token.length > 2 && !stop.has(token))
 }
-function cleanEquipmentName(name: string) {
-  return name.replace(/—/g, ' ').replace(/\b(left|right)\b/gi, ' ').replace(/\s+/g, ' ').trim()
-}
+function cleanEquipmentName(name: string) { return name.replace(/—/g, ' ').replace(/\b(left|right)\b/gi, ' ').replace(/\s+/g, ' ').trim() }
 function searchTerms(name: string, short?: string, ata?: string) {
   const clean = cleanEquipmentName(name)
   const hint: Record<string,string> = {
@@ -106,12 +96,11 @@ export default function EquipmentReferenceImage({ id, kind = 'equipment', name, 
   const [loading, setLoading] = useState(true)
   const [failed, setFailed] = useState(false)
   const terms = useMemo(() => searchTerms(name, short, ata), [name, short, ata])
-  const catalogKey = `${kind}:${id}`
+  const catalogKey = `${kind}:${id || keySlug(name)}`
 
   useEffect(() => {
     let cancelled = false
     setLoading(true); setFailed(false); setImage(null)
-
     const load = async () => {
       try {
         const catalogResponse = await fetch('./verified-equipment-images.json', { cache: 'no-store' })
@@ -123,7 +112,7 @@ export default function EquipmentReferenceImage({ id, kind = 'equipment', name, 
             return
           }
         }
-      } catch { /* fall through to candidate search */ }
+      } catch { /* continue to auto-match */ }
 
       let best: { page: CommonsPage; info: CommonsImage; score: number } | null = null
       for (let index = 0; index < terms.length; index++) {
@@ -158,7 +147,6 @@ export default function EquipmentReferenceImage({ id, kind = 'equipment', name, 
       }
       if (!cancelled) { setImage(result); setLoading(false) }
     }
-
     load()
     return () => { cancelled = true }
   }, [catalogKey, terms, name, short])
