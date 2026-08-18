@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-17T04:23:47.685276Z",
-  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2938 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
+  "updatedAt": "2026-08-18T04:19:12.422952Z",
+  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2939 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
     {
@@ -18143,7 +18143,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q3797657",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "operator": "Airbus",
+      "operator": "Airbus Commercial Aircraft",
       "location": "Toulouse-Blagnac, France",
       "latitude": 43.635,
       "longitude": 1.35833333,
@@ -27576,7 +27576,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Loukhi, South Korea",
+      "location": "Korpijärvi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -29129,7 +29129,7 @@
     {
       "id": "WIKIDATA-Q28110728",
       "date": "1976-03-23",
-      "title": "Yoshio Kodama residence kamikaze attack",
+      "title": "Yoshio Kodama residence light aircraft breach incident",
       "authority": "Wikidata discovery",
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
@@ -29823,6 +29823,20 @@
       "latitude": 39.79388889,
       "longitude": 64.48666667,
       "coordinateSource": "Wikidata event coordinate"
+    },
+    {
+      "id": "WIKIDATA-Q114556976",
+      "date": "1974-12-09",
+      "title": "Q114556976",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q114556976",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "operator": "TAROM",
+      "aircraft": "Ilyushin Il-18",
+      "family": "Ilyushin Il-18"
     },
     {
       "id": "WIKIDATA-Q4207890",
@@ -34071,7 +34085,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q108805116",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Bockhorn"
+      "location": "Emling"
     },
     {
       "id": "WIKIDATA-Q11737218",
@@ -38814,7 +38828,7 @@
     {
       "id": "WIKIDATA-Q10265410",
       "date": "1959-12-22",
-      "title": "Q10265410",
+      "title": "VASP Flight 233",
       "authority": "Wikidata discovery",
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
@@ -46906,8 +46920,8 @@
   "discoveryNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
   "counts": {
     "officialIndexed": 40,
-    "discovery": 2938,
-    "totalVisible": 2978,
+    "discovery": 2939,
+    "totalVisible": 2979,
     "withCoordinates": 1605
   },
   "mapNote": "1605 indexed records currently include structured map coordinates. Records without coordinates remain searchable in the case library but are omitted from the map."
