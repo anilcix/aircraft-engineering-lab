@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T04:19:12.422952Z",
+  "updatedAt": "2026-08-19T04:19:40.538413Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2939 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -4729,7 +4729,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q21640152",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Khanty-Mansi Autonomous Okrug",
+      "location": "Khanty-Mansi Autonomous District",
       "latitude": 62.25,
       "longitude": 70.166666666,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -17961,7 +17961,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q18398641",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Evenk Autonomous Okrug, Russia",
+      "location": "Evenk Autonomous District, Russia",
       "latitude": 60.69277778,
       "longitude": 102.08222222,
       "coordinateSource": "Wikidata event coordinate",
@@ -41413,7 +41413,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Barzas",
+      "location": "Kemerovsky District",
       "fatalities": 27
     },
     {

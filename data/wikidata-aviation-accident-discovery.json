@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T04:19:12.239458Z",
+  "updatedAt": "2026-08-19T04:19:40.385022Z",
   "source": "Wikidata Query Service / aviation accident (Q744913)",
   "license": "Wikidata structured data is CC0",
   "coverageNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
@@ -4231,7 +4231,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q21640152",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Khanty-Mansi Autonomous Okrug",
+      "location": "Khanty-Mansi Autonomous District",
       "latitude": 62.25,
       "longitude": 70.166666666,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -17372,7 +17372,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q18398641",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Evenk Autonomous Okrug, Russia",
+      "location": "Evenk Autonomous District, Russia",
       "latitude": 60.69277778,
       "longitude": 102.08222222,
       "coordinateSource": "Wikidata event coordinate",
@@ -40805,7 +40805,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Barzas",
+      "location": "Kemerovsky District",
       "fatalities": 27
     },
     {
