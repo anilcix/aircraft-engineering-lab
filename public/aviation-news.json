@@ -1,22 +1,6 @@
 {
-  "updatedAt": "2026-08-20T09:50:22.279Z",
+  "updatedAt": "2026-08-20T13:11:28.149Z",
   "items": [
-    {
-      "title": "3 min read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure article 2 days ago",
-      "source": "NASA Aeronautics",
-      "category": "Structures",
-      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "publishedAt": "2026-08-18T18:03:44.000Z"
-    },
-    {
-      "title": "Article 3 Min Read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure",
-      "source": "NASA Aeronautics",
-      "category": "Structures",
-      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "publishedAt": "2026-08-18T18:03:44.000Z"
-    },
     {
       "title": "3 min read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure article 24 hours ago",
       "source": "NASA Aeronautics",
@@ -56,14 +40,6 @@
       "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "publishedAt": "2026-08-18T18:03:44.000Z"
-    },
-    {
-      "title": "4 Min Read NASA, GE Aerospace Work Enables Hybrid-Electric Flight Demonstration Article",
-      "source": "NASA Aeronautics",
-      "category": "Propulsion",
-      "url": "https://www.nasa.gov/directorates/rtmd/nasa-ge-hybrid-electric-flight/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "publishedAt": "2026-07-20T18:54:44.000Z"
     },
     {
       "title": "3 min read NASA Pushes New Wing Design to Find Structural Limits article 1 month ago",
@@ -110,6 +86,13 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     },
     {
+      "title": "3 min read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure article 2 days ago",
+      "source": "NASA Aeronautics",
+      "category": "Structures",
+      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
+    },
+    {
       "title": "Ultra-Efficient Aviation",
       "source": "NASA Aeronautics",
       "category": "Industry",
@@ -121,6 +104,20 @@
       "source": "NASA Aeronautics",
       "category": "Industry",
       "url": "https://www.nasa.gov/rtmd",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
+    },
+    {
+      "title": "Article 3 Min Read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure",
+      "source": "NASA Aeronautics",
+      "category": "Structures",
+      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
+    },
+    {
+      "title": "4 Min Read NASA, GE Aerospace Work Enables Hybrid-Electric Flight Demonstration Article",
+      "source": "NASA Aeronautics",
+      "category": "Propulsion",
+      "url": "https://www.nasa.gov/directorates/rtmd/nasa-ge-hybrid-electric-flight/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     },
     {
