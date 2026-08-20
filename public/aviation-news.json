@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-08-20T13:11:28.149Z",
+  "updatedAt": "2026-08-20T15:49:44.136Z",
   "items": [
+    {
+      "title": "Article 4 Min Read NASA Selects University Teams to Help Advance Aviation Research",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/aeronautics/nasa-selects-university-teams-to-help-advance-aviation-research/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "publishedAt": "2026-08-20T14:57:01.000Z"
+    },
+    {
+      "title": "3 min read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure article 2 days ago",
+      "source": "NASA Aeronautics",
+      "category": "Structures",
+      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "publishedAt": "2026-08-18T18:03:44.000Z"
+    },
+    {
+      "title": "Article 3 Min Read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure",
+      "source": "NASA Aeronautics",
+      "category": "Structures",
+      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "publishedAt": "2026-08-18T18:03:44.000Z"
+    },
     {
       "title": "3 min read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure article 24 hours ago",
       "source": "NASA Aeronautics",
@@ -86,13 +110,6 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     },
     {
-      "title": "3 min read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure article 2 days ago",
-      "source": "NASA Aeronautics",
-      "category": "Structures",
-      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
-    },
-    {
       "title": "Ultra-Efficient Aviation",
       "source": "NASA Aeronautics",
       "category": "Industry",
@@ -104,20 +121,6 @@
       "source": "NASA Aeronautics",
       "category": "Industry",
       "url": "https://www.nasa.gov/rtmd",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
-    },
-    {
-      "title": "Article 3 Min Read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure",
-      "source": "NASA Aeronautics",
-      "category": "Structures",
-      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
-    },
-    {
-      "title": "4 Min Read NASA, GE Aerospace Work Enables Hybrid-Electric Flight Demonstration Article",
-      "source": "NASA Aeronautics",
-      "category": "Propulsion",
-      "url": "https://www.nasa.gov/directorates/rtmd/nasa-ge-hybrid-electric-flight/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     },
     {
@@ -161,6 +164,13 @@
       "category": "Industry",
       "url": "https://www.aerospacemanufacturinganddesign.com/news/textron-aviation-celebrates-500th-cessna-citation-cj4-delivery/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
+    },
+    {
+      "title": "4 Min Read NASA, GE Aerospace Work Enables Hybrid-Electric Flight Demonstration Article",
+      "source": "NASA Aeronautics",
+      "category": "Propulsion",
+      "url": "https://www.nasa.gov/directorates/rtmd/nasa-ge-hybrid-electric-flight/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     },
     {
       "title": "5 min read NASA Announces MAX POWER: America’s Newest Aerospace Expo, Airshow article 5 days ago",
