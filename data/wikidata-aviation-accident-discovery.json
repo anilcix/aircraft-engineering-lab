@@ -1,11 +1,29 @@
 {
-  "updatedAt": "2026-08-19T04:19:40.385022Z",
+  "updatedAt": "2026-08-21T04:21:20.417742Z",
   "source": "Wikidata Query Service / aviation accident (Q744913)",
   "license": "Wikidata structured data is CC0",
   "coverageNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
-  "coordinateNote": "1605 discovery records include an event or event-location coordinate for the 1970-2026 map timeline.",
+  "coordinateNote": "1607 discovery records include an event or event-location coordinate for the 1970-2026 map timeline.",
   "coordinateBatchWarnings": [],
   "items": [
+    {
+      "id": "WIKIDATA-Q141131120",
+      "date": "2026-08-19",
+      "title": "Q141131120",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q141131120",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "aircraft": "Eurocopter EC130",
+      "family": "Eurocopter EC130",
+      "location": "Kenya",
+      "latitude": 0.933333333,
+      "longitude": 37.666666666,
+      "coordinateSource": "Wikidata event coordinate",
+      "fatalities": 7
+    },
     {
       "id": "WIKIDATA-Q140812043",
       "date": "2026-08-01",
@@ -14342,7 +14360,8 @@
       "latitude": 55.972777777,
       "longitude": 37.414722222,
       "coordinateSource": "Wikidata event-location coordinate",
-      "fatalities": 9
+      "fatalities": 9,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Vologda_Aviation_Enterprise_Flight_9651"
     },
     {
       "id": "WIKIDATA-Q7571206",
@@ -17065,6 +17084,23 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Q104874903",
+      "fatalities": 6
+    },
+    {
+      "id": "WIKIDATA-Q141134905",
+      "date": "1995-04-28",
+      "title": "Faucett Peru Flight 705",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q141134905",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "operator": "Q750198",
+      "location": "Guatemala",
+      "latitude": 14.569327,
+      "longitude": -90.531904,
+      "coordinateSource": "Wikidata event coordinate",
       "fatalities": 6
     },
     {
@@ -26968,7 +27004,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Korpijärvi, South Korea",
+      "location": "Loukhi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -36847,7 +36883,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q20986953",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Spokane"
+      "location": "Mount Kit Carson"
     },
     {
       "id": "WIKIDATA-Q18398627",
@@ -40805,7 +40841,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Kemerovsky District",
+      "location": "Barzas",
       "fatalities": 27
     },
     {
