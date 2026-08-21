@@ -1,6 +1,22 @@
 {
-  "updatedAt": "2026-08-21T07:07:42.109Z",
+  "updatedAt": "2026-08-21T09:52:45.361Z",
   "items": [
+    {
+      "title": "4 min read NASA Selects University Teams to Help Advance Aviation Research article 18 hours ago",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/aeronautics/nasa-selects-university-teams-to-help-advance-aviation-research/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "publishedAt": "2026-08-20T14:57:01.000Z"
+    },
+    {
+      "title": "Article 4 Min Read NASA Selects University Teams to Help Advance Aviation Research",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/aeronautics/nasa-selects-university-teams-to-help-advance-aviation-research/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "publishedAt": "2026-08-20T14:57:01.000Z"
+    },
     {
       "title": "4 min read NASA Selects University Teams to Help Advance Aviation Research article 12 hours ago",
       "source": "NASA Aeronautics",
@@ -16,6 +32,22 @@
       "url": "https://www.nasa.gov/aeronautics/nasa-selects-university-teams-to-help-advance-aviation-research/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "publishedAt": "2026-08-20T14:57:01.000Z"
+    },
+    {
+      "title": "3 min read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure article 3 days ago",
+      "source": "NASA Aeronautics",
+      "category": "Structures",
+      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "publishedAt": "2026-08-18T18:03:44.000Z"
+    },
+    {
+      "title": "Article 3 Min Read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure",
+      "source": "NASA Aeronautics",
+      "category": "Structures",
+      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "publishedAt": "2026-08-18T18:03:44.000Z"
     },
     {
       "title": "3 min read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure article 24 hours ago",
@@ -74,7 +106,7 @@
       "publishedAt": "2026-07-17T23:08:33.000Z"
     },
     {
-      "title": "5 min read NASA Announces MAX POWER: America’s Newest Aerospace Expo, Airshow article 6 days ago",
+      "title": "5 min read NASA Announces MAX POWER: America’s Newest Aerospace Expo, Airshow article 7 days ago",
       "source": "NASA Aeronautics",
       "category": "Industry",
       "url": "https://www.nasa.gov/news-release/nasa-announces-max-power-americas-newest-aerospace-expo-airshow/",
@@ -102,20 +134,6 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     },
     {
-      "title": "4 min read NASA Selects University Teams to Help Advance Aviation Research article 15 hours ago",
-      "source": "NASA Aeronautics",
-      "category": "Industry",
-      "url": "https://www.nasa.gov/aeronautics/nasa-selects-university-teams-to-help-advance-aviation-research/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
-    },
-    {
-      "title": "3 min read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure article 2 days ago",
-      "source": "NASA Aeronautics",
-      "category": "Structures",
-      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
-    },
-    {
       "title": "Ultra-Efficient Aviation",
       "source": "NASA Aeronautics",
       "category": "Industry",
@@ -127,20 +145,6 @@
       "source": "NASA Aeronautics",
       "category": "Industry",
       "url": "https://www.nasa.gov/rtmd",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
-    },
-    {
-      "title": "Article 4 Min Read NASA Selects University Teams to Help Advance Aviation Research",
-      "source": "NASA Aeronautics",
-      "category": "Industry",
-      "url": "https://www.nasa.gov/aeronautics/nasa-selects-university-teams-to-help-advance-aviation-research/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
-    },
-    {
-      "title": "Article 3 Min Read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure",
-      "source": "NASA Aeronautics",
-      "category": "Structures",
-      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     },
     {
@@ -177,6 +181,27 @@
       "category": "Manufacturing",
       "url": "https://www.aerospacemanufacturinganddesign.com/news/manufacturing-technology-orders-set-half-year-record/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
+    },
+    {
+      "title": "5 min read NASA Announces MAX POWER: America’s Newest Aerospace Expo, Airshow article 6 days ago",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/news-release/nasa-announces-max-power-americas-newest-aerospace-expo-airshow/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
+    },
+    {
+      "title": "4 min read NASA Selects University Teams to Help Advance Aviation Research article 15 hours ago",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/aeronautics/nasa-selects-university-teams-to-help-advance-aviation-research/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
+    },
+    {
+      "title": "3 min read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure article 2 days ago",
+      "source": "NASA Aeronautics",
+      "category": "Structures",
+      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     },
     {
       "title": "IMTS 2026 Conference: Automated, Multi-Job Metal Additive Manufacturing at Scale",
