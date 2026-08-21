@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T18:56:03.992Z",
+  "updatedAt": "2026-08-21T21:38:35.259Z",
   "items": [
     {
       "title": "4 min read NASA Selects University Teams to Help Advance Aviation Research article 22 hours ago",
@@ -90,13 +90,6 @@
       "publishedAt": "2026-07-17T23:08:33.000Z"
     },
     {
-      "title": "5 min read NASA Announces MAX POWER: America’s Newest Aerospace Expo, Airshow article 7 days ago",
-      "source": "NASA Aeronautics",
-      "category": "Industry",
-      "url": "https://www.nasa.gov/news-release/nasa-announces-max-power-americas-newest-aerospace-expo-airshow/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
-    },
-    {
       "title": "Technology Transfer & Spinoffs",
       "source": "NASA Aeronautics",
       "category": "Industry",
@@ -129,6 +122,13 @@
       "source": "NASA Aeronautics",
       "category": "Structures",
       "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
+    },
+    {
+      "title": "2 min read NASA Establishes State Hubs to Grow Technical Aerospace Workforce article 2 days ago",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/news-release/nasa-establishes-state-hubs-to-grow-technical-aerospace-workforce/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     },
     {
@@ -193,6 +193,13 @@
       "category": "Manufacturing",
       "url": "https://www.aerospacemanufacturinganddesign.com/news/manufacturing-technology-orders-set-half-year-record/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
+    },
+    {
+      "title": "5 min read NASA Announces MAX POWER: America’s Newest Aerospace Expo, Airshow article 7 days ago",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/news-release/nasa-announces-max-power-americas-newest-aerospace-expo-airshow/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     },
     {
       "title": "4 min read NASA Selects University Teams to Help Advance Aviation Research article 24 hours ago",
