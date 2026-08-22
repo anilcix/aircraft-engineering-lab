@@ -1,22 +1,6 @@
 {
-  "updatedAt": "2026-08-22T03:57:05.378Z",
+  "updatedAt": "2026-08-22T06:59:28.906Z",
   "items": [
-    {
-      "title": "4 min read NASA Selects University Teams to Help Advance Aviation Research article 2 days ago",
-      "source": "NASA Aeronautics",
-      "category": "Industry",
-      "url": "https://www.nasa.gov/aeronautics/nasa-selects-university-teams-to-help-advance-aviation-research/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "publishedAt": "2026-08-20T14:57:01.000Z"
-    },
-    {
-      "title": "Article 4 Min Read NASA Selects University Teams to Help Advance Aviation Research",
-      "source": "NASA Aeronautics",
-      "category": "Industry",
-      "url": "https://www.nasa.gov/aeronautics/nasa-selects-university-teams-to-help-advance-aviation-research/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "publishedAt": "2026-08-20T14:57:01.000Z"
-    },
     {
       "title": "4 min read NASA Selects University Teams to Help Advance Aviation Research article 1 day ago",
       "source": "NASA Aeronautics",
@@ -56,22 +40,6 @@
       "url": "https://www.nasa.gov/aeronautics/nasa-selects-university-teams-to-help-advance-aviation-research/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "publishedAt": "2026-08-20T14:57:01.000Z"
-    },
-    {
-      "title": "3 min read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure article 3 days ago",
-      "source": "NASA Aeronautics",
-      "category": "Structures",
-      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "publishedAt": "2026-08-18T18:03:44.000Z"
-    },
-    {
-      "title": "Article 3 Min Read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure",
-      "source": "NASA Aeronautics",
-      "category": "Structures",
-      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "publishedAt": "2026-08-18T18:03:44.000Z"
     },
     {
       "title": "3 min read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure article 24 hours ago",
@@ -151,7 +119,21 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     },
     {
-      "title": "2 min read NASA Establishes State Hubs to Grow Technical Aerospace Workforce article 2 days ago",
+      "title": "4 min read NASA Selects University Teams to Help Advance Aviation Research article 2 days ago",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/aeronautics/nasa-selects-university-teams-to-help-advance-aviation-research/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
+    },
+    {
+      "title": "3 min read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure article 3 days ago",
+      "source": "NASA Aeronautics",
+      "category": "Structures",
+      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
+    },
+    {
+      "title": "2 min read NASA Establishes State Hubs to Grow Technical Aerospace Workforce article 3 days ago",
       "source": "NASA Aeronautics",
       "category": "Industry",
       "url": "https://www.nasa.gov/news-release/nasa-establishes-state-hubs-to-grow-technical-aerospace-workforce/",
@@ -172,6 +154,20 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     },
     {
+      "title": "Article 4 Min Read NASA Selects University Teams to Help Advance Aviation Research",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/aeronautics/nasa-selects-university-teams-to-help-advance-aviation-research/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
+    },
+    {
+      "title": "Article 3 Min Read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure",
+      "source": "NASA Aeronautics",
+      "category": "Structures",
+      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
+    },
+    {
       "title": "Read More on Ultra-Efficient Aviation",
       "source": "NASA Aeronautics",
       "category": "Industry",
@@ -183,6 +179,13 @@
       "source": "Aerospace Manufacturing & Design",
       "category": "Manufacturing",
       "url": "https://www.aerospacemanufacturinganddesign.com/tag/women-to-watch/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
+    },
+    {
+      "title": "What CMMC certification actually looks like",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Industry",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/what-cmmc-certification-actually-looks-like/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
     },
     {
@@ -198,6 +201,13 @@
       "category": "Industry",
       "url": "https://www.aerospacemanufacturinganddesign.com/news/nasa-establishes-state-hubs-grow-technical-aerospace-workforce/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
+    },
+    {
+      "title": "2 min read NASA Establishes State Hubs to Grow Technical Aerospace Workforce article 2 days ago",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/news-release/nasa-establishes-state-hubs-to-grow-technical-aerospace-workforce/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     },
     {
       "title": "Manufacturing technology orders set half-year record",
@@ -422,13 +432,6 @@
       "category": "New Concepts",
       "url": "https://aviationweek.com/awn-rss/feed",
       "summary": "Current aerospace programs, technologies, propulsion, manufacturing and MRO coverage."
-    },
-    {
-      "title": "FlightGlobal aerospace and airframer technology updates",
-      "source": "FlightGlobal",
-      "category": "Industry",
-      "url": "https://www.flightglobal.com/",
-      "summary": "Current aerospace, airframer, engine, MRO and programme coverage."
     }
   ]
 }
