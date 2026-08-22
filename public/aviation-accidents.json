@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T04:21:20.563285Z",
+  "updatedAt": "2026-08-22T04:16:39.114829Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2941 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -183,7 +183,7 @@
     {
       "id": "WIKIDATA-Q141131120",
       "date": "2026-08-19",
-      "title": "Q141131120",
+      "title": "2026 Mount Ololokwe helicopter crash",
       "authority": "Wikidata discovery",
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
@@ -196,7 +196,8 @@
       "latitude": 0.933333333,
       "longitude": 37.666666666,
       "coordinateSource": "Wikidata event coordinate",
-      "fatalities": 7
+      "fatalities": 7,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2026_Mount_Ololokwe_helicopter_crash"
     },
     {
       "id": "WIKIDATA-Q140812043",
@@ -27218,7 +27219,8 @@
       "location": "Minsk",
       "latitude": 53.89916667,
       "longitude": 27.46527778,
-      "coordinateSource": "Wikidata event coordinate"
+      "coordinateSource": "Wikidata event coordinate",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroflot_Flight_7502"
     },
     {
       "id": "WIKIDATA-Q16488482",
@@ -27612,7 +27614,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Loukhi, South Korea",
+      "location": "Korpijärvi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -28102,7 +28104,8 @@
       "verificationStatus": "secondary structured discovery",
       "latitude": 44.696666666,
       "longitude": 26.537222222,
-      "coordinateSource": "Wikidata event coordinate"
+      "coordinateSource": "Wikidata event coordinate",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Mal%C3%A9v_Flight_203"
     },
     {
       "id": "WIKIDATA-Q22093755",
@@ -34121,7 +34124,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q108805116",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Emling"
+      "location": "Bockhorn"
     },
     {
       "id": "WIKIDATA-Q11737218",
@@ -35364,7 +35367,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q19907726",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Georgian SSR"
+      "location": "Black Sea"
     },
     {
       "id": "WIKIDATA-Q99699962",
