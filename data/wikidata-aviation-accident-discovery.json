@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T04:16:38.958438Z",
+  "updatedAt": "2026-08-23T04:21:13.308163Z",
   "source": "Wikidata Query Service / aviation accident (Q744913)",
   "license": "Wikidata structured data is CC0",
   "coverageNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
@@ -18798,7 +18798,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Pakistan International Airlines",
-      "location": "Kathmandu, Nepal",
+      "location": "Lower Himalayan Range, Nepal",
       "latitude": 27.53277778,
       "longitude": 85.28472222,
       "coordinateSource": "Wikidata event coordinate",
@@ -34759,7 +34759,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q19907726",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Black Sea"
+      "location": "Georgian SSR"
     },
     {
       "id": "WIKIDATA-Q99699962",
@@ -36886,7 +36886,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q20986953",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Mount Kit Carson"
+      "location": "Spokane"
     },
     {
       "id": "WIKIDATA-Q18398627",
@@ -45982,6 +45982,20 @@
       "location": "United Kingdom",
       "fatalities": 7,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/October_1926_Air_Union_Bl%C3%A9riot_155_crash"
+    },
+    {
+      "id": "WIKIDATA-Q141147803",
+      "date": "1926-09-12",
+      "title": "1926 Paris–Bucharest Potez 25 crash",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q141147803",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "location": "Hrubý Jeseník, Czechoslovakia",
+      "fatalities": 1,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1926_Paris%E2%80%93Bucharest_Potez_25_crash"
     },
     {
       "id": "WIKIDATA-Q139601050",
