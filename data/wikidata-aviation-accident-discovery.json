@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T04:21:13.308163Z",
+  "updatedAt": "2026-08-24T04:26:18.725655Z",
   "source": "Wikidata Query Service / aviation accident (Q744913)",
   "license": "Wikidata structured data is CC0",
   "coverageNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
@@ -17075,19 +17075,6 @@
       "fatalities": 8
     },
     {
-      "id": "WIKIDATA-Q90500245",
-      "date": "1995-04-28",
-      "title": "Q90500245",
-      "authority": "Wikidata discovery",
-      "status": "Discovery record — official verification pending",
-      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
-      "sourceUrl": "http://www.wikidata.org/entity/Q90500245",
-      "sourceTier": "discovery",
-      "verificationStatus": "secondary structured discovery",
-      "operator": "Q104874903",
-      "fatalities": 6
-    },
-    {
       "id": "WIKIDATA-Q141134905",
       "date": "1995-04-28",
       "title": "Faucett Peru Flight 705",
@@ -17097,7 +17084,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q141134905",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "operator": "Q750198",
+      "operator": "Q104874903",
       "location": "Guatemala",
       "latitude": 14.569327,
       "longitude": -90.531904,
@@ -23232,7 +23219,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Q3198409",
+      "location": "Navoiy Region",
       "latitude": 42.15666667,
       "longitude": 63.55555556,
       "coordinateSource": "Wikidata event coordinate",
@@ -25466,7 +25453,8 @@
       "latitude": 54.481583333,
       "longitude": 17.152916666,
       "coordinateSource": "Wikidata event coordinate",
-      "fatalities": 1
+      "fatalities": 1,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/LOT_Polish_Airlines_Flight_691"
     },
     {
       "id": "WIKIDATA-Q16662438",
@@ -32060,7 +32048,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q120281506",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Nashchyokino",
+      "location": "Anninsky District",
       "latitude": 51.399166666,
       "longitude": 40.138055555,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -33516,7 +33504,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q108805116",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Bockhorn"
+      "location": "Emling"
     },
     {
       "id": "WIKIDATA-Q11737218",
@@ -36886,7 +36874,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q20986953",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Spokane"
+      "location": "Mount Kit Carson"
     },
     {
       "id": "WIKIDATA-Q18398627",
