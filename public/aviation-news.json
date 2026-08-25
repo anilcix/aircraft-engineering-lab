@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T03:59:59.454Z",
+  "updatedAt": "2026-08-25T07:08:36.270Z",
   "items": [
     {
       "title": "4 min read NASA Selects University Teams to Help Advance Aviation Research article 5 days ago",
@@ -191,7 +191,7 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     },
     {
-      "title": "2 min read NASA Establishes State Hubs to Grow Technical Aerospace Workforce article 5 days ago",
+      "title": "2 min read NASA Establishes State Hubs to Grow Technical Aerospace Workforce article 6 days ago",
       "source": "NASA Aeronautics",
       "category": "Industry",
       "url": "https://www.nasa.gov/news-release/nasa-establishes-state-hubs-to-grow-technical-aerospace-workforce/",
@@ -226,6 +226,20 @@
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
     },
     {
+      "title": "Cirrus expands Grand Forks manufacturing facility",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Manufacturing",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/cirrus-expands-grand-forks-manufacturing-facility/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
+    },
+    {
+      "title": "SyberJet Aircraft sets unofficial light jet transcontinental East-to-West speed record",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Industry",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/syberjet-aircraft-sets-unofficial-light-jet-transcontinental-east-to-west-speed-record/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
+    },
+    {
       "title": "Aerofugia, Sysgo advance avionics for the AE200-100 eVTOL",
       "source": "Aerospace Manufacturing & Design",
       "category": "New Concepts",
@@ -245,6 +259,13 @@
       "category": "Manufacturing",
       "url": "https://www.aerospacemanufacturinganddesign.com/media/manufacturing-matters-podcast-mfg-radio-network-high-feed-cutting-tools-in-aerospace-adopting-new-carbide-grades-to-control-rising-insert-costs-iscar/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
+    },
+    {
+      "title": "2 min read NASA Establishes State Hubs to Grow Technical Aerospace Workforce article 5 days ago",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/news-release/nasa-establishes-state-hubs-to-grow-technical-aerospace-workforce/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     },
     {
       "title": "2 min read NASA Establishes State Hubs to Grow Technical Aerospace Workforce article 4 days ago",
@@ -420,27 +441,6 @@
       "category": "Manufacturing",
       "url": "https://www.aerospacemanufacturinganddesign.com/news/imts-2026-conference-high-accuracy-five-axis-laser-micromachining-with-femto-second-laser-technology-in-manufacturing/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
-    },
-    {
-      "title": "Heart Aerospace flies its X1 electric aircraft",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Propulsion",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/heart-aerospace-flies-its-x1-electric-aircraft/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
-    },
-    {
-      "title": "The Benefits of Bonded Bimetal in Aerospace",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Industry",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/benefits-bonded-bimetal-components-aerospace/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
-    },
-    {
-      "title": "3 min read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure article 54 seconds ago",
-      "source": "NASA Aeronautics",
-      "category": "Structures",
-      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     }
   ]
 }
