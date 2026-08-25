@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T04:26:18.725655Z",
+  "updatedAt": "2026-08-25T04:21:07.120880Z",
   "source": "Wikidata Query Service / aviation accident (Q744913)",
   "license": "Wikidata structured data is CC0",
   "coverageNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
@@ -10230,7 +10230,7 @@
     {
       "id": "WIKIDATA-Q99482556",
       "date": "2007-10-08",
-      "title": "Q99482556",
+      "title": "2007 Nacional de Aviación Let L-410 crash",
       "authority": "Wikidata discovery",
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
@@ -13272,6 +13272,18 @@
       "fatalities": 0
     },
     {
+      "id": "WIKIDATA-Q141165894",
+      "date": "2001-12-16",
+      "title": "2001 Mountain El Silencio Heliandes Let L-410 crash",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q141165894",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "fatalities": 16
+    },
+    {
       "id": "WIKIDATA-Q4793024",
       "date": "2001-12-02",
       "title": "Armed Forces of the Russian Federation Flight 9064",
@@ -13814,7 +13826,7 @@
     {
       "id": "WIKIDATA-Q90507015",
       "date": "2001-01-31",
-      "title": "Q90507015",
+      "title": "Líneas Aéreas Sudamericanas Flight 3932",
       "authority": "Wikidata discovery",
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
@@ -18785,7 +18797,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Pakistan International Airlines",
-      "location": "Lower Himalayan Range, Nepal",
+      "location": "Kathmandu, Nepal",
       "latitude": 27.53277778,
       "longitude": 85.28472222,
       "coordinateSource": "Wikidata event coordinate",
@@ -23219,7 +23231,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Navoiy Region",
+      "location": "Q3198409",
       "latitude": 42.15666667,
       "longitude": 63.55555556,
       "coordinateSource": "Wikidata event coordinate",
@@ -26994,7 +27006,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Korpijärvi, South Korea",
+      "location": "Loukhi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -34700,7 +34712,7 @@
     {
       "id": "WIKIDATA-Q107652818",
       "date": "1966-09-22",
-      "title": "Q107652818",
+      "title": "Avianca Flight 870",
       "authority": "Wikidata discovery",
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
@@ -36874,7 +36886,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q20986953",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Mount Kit Carson"
+      "location": "Spokane"
     },
     {
       "id": "WIKIDATA-Q18398627",
