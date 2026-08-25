@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-25T01:52:42.268Z",
+  "updatedAt": "2026-08-25T03:59:59.454Z",
   "items": [
     {
-      "title": "4 min read NASA Selects University Teams to Help Advance Aviation Research article 4 days ago",
+      "title": "4 min read NASA Selects University Teams to Help Advance Aviation Research article 5 days ago",
       "source": "NASA Aeronautics",
       "category": "Industry",
       "url": "https://www.nasa.gov/aeronautics/nasa-selects-university-teams-to-help-advance-aviation-research/",
@@ -11,6 +11,14 @@
     },
     {
       "title": "Article 4 Min Read NASA Selects University Teams to Help Advance Aviation Research",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/aeronautics/nasa-selects-university-teams-to-help-advance-aviation-research/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "publishedAt": "2026-08-20T14:57:01.000Z"
+    },
+    {
+      "title": "4 min read NASA Selects University Teams to Help Advance Aviation Research article 4 days ago",
       "source": "NASA Aeronautics",
       "category": "Industry",
       "url": "https://www.nasa.gov/aeronautics/nasa-selects-university-teams-to-help-advance-aviation-research/",
@@ -432,13 +440,6 @@
       "source": "NASA Aeronautics",
       "category": "Structures",
       "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
-    },
-    {
-      "title": "4 min read NASA, GE Aerospace Work Enables Hybrid-Electric Flight Demonstration article 4 weeks ago",
-      "source": "NASA Aeronautics",
-      "category": "Propulsion",
-      "url": "https://www.nasa.gov/directorates/rtmd/nasa-ge-hybrid-electric-flight/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     }
   ]
