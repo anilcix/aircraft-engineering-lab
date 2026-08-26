@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T04:21:07.120880Z",
+  "updatedAt": "2026-08-26T04:22:36.307216Z",
   "source": "Wikidata Query Service / aviation accident (Q744913)",
   "license": "Wikidata structured data is CC0",
   "coverageNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
@@ -23398,6 +23398,19 @@
       "location": "Germany"
     },
     {
+      "id": "WIKIDATA-Q141178476",
+      "date": "1985-01-23",
+      "title": "AIRES Colombia Flight 585",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q141178476",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "fatalities": 17,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/AIRES_Colombia_Flight_585"
+    },
+    {
       "id": "WIKIDATA-Q5518110",
       "date": "1985-01-21",
       "title": "Galaxy Airlines Flight 203",
@@ -25195,6 +25208,18 @@
       "coordinateSource": "Wikidata event-location coordinate",
       "fatalities": 40,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1981_Zheleznogorsk_mid-air_collision"
+    },
+    {
+      "id": "WIKIDATA-Q141178661",
+      "date": "1981-09-02",
+      "title": "Taxi Aéreo el Venado Flight 235",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q141178661",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "fatalities": 20
     },
     {
       "id": "WIKIDATA-Q16662604",
@@ -32060,7 +32085,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q120281506",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Anninsky District",
+      "location": "Nashchyokino",
       "latitude": 51.399166666,
       "longitude": 40.138055555,
       "coordinateSource": "Wikidata event-location coordinate",
