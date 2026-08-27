@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T04:22:36.427721Z",
+  "updatedAt": "2026-08-27T14:37:32.638273Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2944 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -12649,7 +12649,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q6416483",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "operator": "Q1336342",
+      "operator": "Kish Air",
       "location": "United Arab Emirates",
       "latitude": 25.61666667,
       "longitude": 55.68333333,
@@ -23907,7 +23907,7 @@
     {
       "id": "WIKIDATA-Q97138227",
       "date": "1985-03-28",
-      "title": "Q97138227",
+      "title": "1985 Florencia SATENA Fokker 28 Crash",
       "authority": "Wikidata discovery",
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
@@ -27639,7 +27639,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Loukhi, South Korea",
+      "location": "Korpijärvi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -37519,7 +37519,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q20986953",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Spokane"
+      "location": "Mount Kit Carson"
     },
     {
       "id": "WIKIDATA-Q18398627",
@@ -41477,7 +41477,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Barzas",
+      "location": "Kemerovsky District",
       "fatalities": 27
     },
     {
