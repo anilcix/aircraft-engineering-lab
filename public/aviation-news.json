@@ -1,6 +1,14 @@
 {
-  "updatedAt": "2026-08-28T00:25:13.074Z",
+  "updatedAt": "2026-08-28T15:23:02.685Z",
   "items": [
+    {
+      "title": "1 min read Planetary Exploration Science Technology Office (PESTO) article 2 days ago",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://science.nasa.gov/planetary-science/programs/pesto/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "publishedAt": "2026-08-26T17:27:40.000Z"
+    },
     {
       "title": "1 min read Planetary Exploration Science Technology Office (PESTO) article 1 day ago",
       "source": "NASA Aeronautics",
@@ -32,6 +40,14 @@
       "url": "https://science.nasa.gov/planetary-science/programs/pesto/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "publishedAt": "2026-08-26T17:27:40.000Z"
+    },
+    {
+      "title": "2 min read Amendment 69: New Opportunity: D.9 Habitable Worlds Observatory Instrument Concept Assessments article 3 days ago",
+      "source": "NASA Aeronautics",
+      "category": "New Concepts",
+      "url": "https://science.nasa.gov/researchers/solicitations/roses-2025/amendment-69-new-opportunity-d-9-habitable-worlds-observatory-instrument-concept-assessments/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "publishedAt": "2026-08-25T15:26:15.000Z"
     },
     {
       "title": "2 min read Amendment 69: New Opportunity: D.9 Habitable Worlds Observatory Instrument Concept Assessments article 2 days ago",
@@ -210,6 +226,22 @@
       "publishedAt": "2026-08-20T14:57:01.000Z"
     },
     {
+      "title": "3 min read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure article 1 week ago",
+      "source": "NASA Aeronautics",
+      "category": "Structures",
+      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "publishedAt": "2026-08-18T18:03:44.000Z"
+    },
+    {
+      "title": "Article 3 Min Read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure",
+      "source": "NASA Aeronautics",
+      "category": "Structures",
+      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "publishedAt": "2026-08-18T18:03:44.000Z"
+    },
+    {
       "title": "3 min read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure article 7 days ago",
       "source": "NASA Aeronautics",
       "category": "Structures",
@@ -319,13 +351,6 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     },
     {
-      "title": "3 min read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure article 1 week ago",
-      "source": "NASA Aeronautics",
-      "category": "Structures",
-      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
-    },
-    {
       "title": "2 min read NASA Establishes State Hubs to Grow Technical Aerospace Workforce article 1 week ago",
       "source": "NASA Aeronautics",
       "category": "Industry",
@@ -354,13 +379,6 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     },
     {
-      "title": "Article 3 Min Read NASA Student Aviation Challenge Focuses on Nation’s Infrastructure",
-      "source": "NASA Aeronautics",
-      "category": "Structures",
-      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
-    },
-    {
       "title": "Read More on Ultra-Efficient Aviation",
       "source": "NASA Aeronautics",
       "category": "Industry",
@@ -375,10 +393,10 @@
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
     },
     {
-      "title": "Embraer&#x2019;s Phenom 300EV secures triple certification",
+      "title": "IMTS 2026 Conference: The Automation Impact: Short-term Wins to Long-term Transformations",
       "source": "Aerospace Manufacturing & Design",
-      "category": "Industry",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/embraers-phenom-300ev-secures-triple-certification/",
+      "category": "Manufacturing",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/imts-2026-conference-the-automation-impact-short-term-wins-to-long-term-transformations/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
     },
     {
@@ -386,6 +404,13 @@
       "source": "Aerospace Manufacturing & Design",
       "category": "Manufacturing",
       "url": "https://www.aerospacemanufacturinganddesign.com/media/lunch-learn-podcast-mfg-radio-network-smw-autoblok-electronics-automation/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
+    },
+    {
+      "title": "Embraer&#x2019;s Phenom 300EV secures triple certification",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Industry",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/embraers-phenom-300ev-secures-triple-certification/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
     },
     {
@@ -436,27 +461,6 @@
       "category": "Industry",
       "url": "https://www.aerospacemanufacturinganddesign.com/news/syberjet-aircraft-sets-unofficial-light-jet-transcontinental-east-to-west-speed-record/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
-    },
-    {
-      "title": "Aerofugia, Sysgo advance avionics for the AE200-100 eVTOL",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "New Concepts",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/aerofugia-sysgo-advance-avionics-ae200-100-evtol/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
-    },
-    {
-      "title": "#93 Manufacturing Matters - High Feed Cutting Tools in Aerospace: Adopting New Carbide Grades to Control Rising Insert Costs with Iscar",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Manufacturing",
-      "url": "https://www.aerospacemanufacturinganddesign.com/media/manufacturing-matters-podcast-mfg-radio-network-high-feed-cutting-tools-in-aerospace-adopting-new-carbide-grades-to-control-rising-insert-costs-iscar/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design."
-    },
-    {
-      "title": "2 min read NASA Establishes State Hubs to Grow Technical Aerospace Workforce article 5 days ago",
-      "source": "NASA Aeronautics",
-      "category": "Industry",
-      "url": "https://www.nasa.gov/news-release/nasa-establishes-state-hubs-to-grow-technical-aerospace-workforce/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics."
     }
   ]
 }
