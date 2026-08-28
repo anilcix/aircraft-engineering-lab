@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-27T14:37:32.638273Z",
-  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2944 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
+  "updatedAt": "2026-08-28T15:41:13.882943Z",
+  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2946 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
     {
@@ -1209,7 +1209,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Singapore Airlines",
-      "location": "Suvarnabhumi Airport",
+      "location": "Gulf of Martaban",
       "latitude": 13.681111,
       "longitude": 100.747222,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -1479,6 +1479,19 @@
       "longitude": 20.871667,
       "coordinateSource": "Wikidata event coordinate",
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2023_Chrcynno_Cessna_208_crash"
+    },
+    {
+      "id": "WIKIDATA-Q120023083",
+      "date": "2023-06-13",
+      "title": "2023 Syria helicopter accident",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q120023083",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "location": "Syria",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2023_Syria_helicopter_accident"
     },
     {
       "id": "WIKIDATA-Q138004605",
@@ -15841,7 +15854,8 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "China Eastern Airlines",
-      "location": "People's Republic of China"
+      "location": "People's Republic of China",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/China_Eastern_Airlines_Flight_586"
     },
     {
       "id": "WIKIDATA-Q461911",
@@ -19386,7 +19400,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Pakistan International Airlines",
-      "location": "Kathmandu, Nepal",
+      "location": "Lower Himalayan Range, Nepal",
       "latitude": 27.53277778,
       "longitude": 85.28472222,
       "coordinateSource": "Wikidata event coordinate",
@@ -20620,7 +20634,8 @@
       "location": "Azerbaijan",
       "latitude": 39.683333333,
       "longitude": 46.533333333,
-      "coordinateSource": "Wikidata event coordinate"
+      "coordinateSource": "Wikidata event coordinate",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroflot_Flight_E-35D"
     },
     {
       "id": "WIKIDATA-Q106925710",
@@ -21401,7 +21416,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Interflug",
-      "location": "Berlin Schönefeld Airport, German Democratic Republic",
+      "location": "Berlin Schönefeld Airport, East Germany",
       "latitude": 52.388333,
       "longitude": 13.52,
       "coordinateSource": "Wikidata event coordinate",
@@ -23671,7 +23686,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q116688523",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Rokytne",
+      "location": "Kharkiv International Airport",
       "latitude": 49.924722,
       "longitude": 36.29,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -23927,7 +23942,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q133801263",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Cottbus, German Democratic Republic",
+      "location": "Cottbus, East Germany",
       "latitude": 51.760805555,
       "longitude": 14.331861111,
       "coordinateSource": "Wikidata event-location coordinate"
@@ -27639,7 +27654,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Korpijärvi, South Korea",
+      "location": "Loukhi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -31856,7 +31871,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Interflug",
-      "location": "German Democratic Republic",
+      "location": "East Germany",
       "latitude": 52.299444444,
       "longitude": 13.642777777,
       "coordinateSource": "Wikidata event coordinate",
@@ -36769,7 +36784,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q4571641",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Vogelsberg, German Democratic Republic",
+      "location": "Vogelsberg, East Germany",
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1964_T-39_shootdown_incident"
     },
     {
@@ -37519,7 +37534,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q20986953",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Mount Kit Carson"
+      "location": "Spokane"
     },
     {
       "id": "WIKIDATA-Q18398627",
@@ -41477,7 +41492,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Kemerovsky District",
+      "location": "Barzas",
       "fatalities": 27
     },
     {
@@ -46120,6 +46135,21 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1935_San_Giacomo_Douglas_DC-2_crash"
     },
     {
+      "id": "WIKIDATA-Q123144304",
+      "date": "1935-07-17",
+      "title": "1935 KLM Bushehr incident",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q123144304",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "operator": "KLM",
+      "location": "Bushehr, Iran",
+      "fatalities": 0,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1935_Bushehr_KLM_Douglas_DC-2_crash"
+    },
+    {
       "id": "WIKIDATA-Q21640154",
       "date": "1935-06-26",
       "title": "S.55 crash near Lazarevo",
@@ -46998,8 +47028,8 @@
   "discoveryNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
   "counts": {
     "officialIndexed": 40,
-    "discovery": 2944,
-    "totalVisible": 2984,
+    "discovery": 2946,
+    "totalVisible": 2986,
     "withCoordinates": 1607
   },
   "mapNote": "1607 indexed records currently include structured map coordinates. Records without coordinates remain searchable in the case library but are omitted from the map."
