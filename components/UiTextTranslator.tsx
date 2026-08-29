@@ -3,48 +3,58 @@
 import { useEffect } from 'react'
 import { useUiLanguage } from '@/components/UiLanguage'
 
-const PAIRS: Array<[string, string]> = [
-  ['Equipment & Systems', 'Ekipman & Sistemler'],
-  ['Sensors', 'Sensörler'],
-  ['Image Curator', 'Görsel Doğrulama'],
-  ['Aircraft Types', 'Uçak Tipleri'],
-  ['Certification', 'Sertifikasyon'],
-  ['Selected Component', 'Seçili Parça'],
-  ['Equipment List', 'Ekipman Listesi'],
-  ['Ekipman Listesi', 'Equipment List'],
-  ['Sensor List', 'Sensör Listesi'],
-  ['Sensör Listesi', 'Sensor List'],
-  ['All', 'Tümü'],
-  ['Tümü', 'All'],
-  ['Search', 'Ara'],
-  ['Ara', 'Search'],
-  ['Purpose', 'Amaç'],
-  ['AMAÇ', 'PURPOSE'],
-  ['Region', 'Bölge'],
-  ['BÖLGE', 'REGION'],
-  ['What does it measure?', 'Ne ölçer?'],
-  ['NE ÖLÇER?', 'WHAT DOES IT MEASURE?'],
-  ['Sensor principle', 'Sensör prensibi'],
-  ['SENSÖR PRENSİBİ', 'SENSOR PRINCIPLE'],
-  ['Signal', 'Sinyal'],
-  ['SİNYAL', 'SIGNAL'],
-  ['Physical connection', 'Fiziksel bağlantı'],
-  ['FİZİKSEL BAĞLANTI', 'PHYSICAL CONNECTION'],
-  ['Redundancy', 'Yedeklilik'],
-  ['FAILURE EFFECT', 'ARIZA ETKİSİ'],
-  ['Failure effect', 'Arıza etkisi'],
-  ['Open source', 'Kaynağı aç'],
-  ['Kaynağı aç', 'Open source'],
-  ['Back', 'Geri'],
-  ['Geri', 'Back'],
+const DICTIONARY: Array<{ en: string; tr: string }> = [
+  { en: 'Equipment & Systems', tr: 'Ekipman & Sistemler' },
+  { en: 'Equipment & Systems Atlas', tr: 'Ekipman & Sistemler Atlası' },
+  { en: 'Aircraft Sensor Atlas', tr: 'Uçak Sensör Atlası' },
+  { en: 'Sensors', tr: 'Sensörler' },
+  { en: 'Image Curator', tr: 'Görsel Doğrulama' },
+  { en: 'Aircraft Types', tr: 'Uçak Tipleri' },
+  { en: 'Certification', tr: 'Sertifikasyon' },
+  { en: 'Selected Component', tr: 'Seçili Parça' },
+  { en: 'Equipment List', tr: 'Ekipman Listesi' },
+  { en: 'Sensor List', tr: 'Sensör Listesi' },
+  { en: 'All', tr: 'Tümü' },
+  { en: 'Search', tr: 'Ara' },
+  { en: 'Purpose', tr: 'Amaç' },
+  { en: 'PURPOSE', tr: 'AMAÇ' },
+  { en: 'Region', tr: 'Bölge' },
+  { en: 'REGION', tr: 'BÖLGE' },
+  { en: 'POWER / SOURCE', tr: 'GÜÇ / KAYNAK' },
+  { en: 'SYSTEM INTERACTION FLOW', tr: 'SİSTEM ETKİLEŞİM AKIŞI' },
+  { en: 'PHYSICAL / DATA INTERFACES', tr: 'FİZİKSEL / VERİ ARAYÜZLERİ' },
+  { en: 'WHAT DOES IT MEASURE?', tr: 'NE ÖLÇER?' },
+  { en: 'SENSOR PRINCIPLE', tr: 'SENSÖR PRENSİBİ' },
+  { en: 'SIGNAL', tr: 'SİNYAL' },
+  { en: 'PHYSICAL CONNECTION', tr: 'FİZİKSEL BAĞLANTI' },
+  { en: 'SIGNAL PATH', tr: 'SİNYAL YOLU' },
+  { en: 'FUNCTIONS USING THIS DATA', tr: 'BU VERİYİ KULLANAN FONKSİYONLAR' },
+  { en: 'REDUNDANCY', tr: 'YEDEKLİLİK' },
+  { en: 'FAILURE EFFECT', tr: 'ARIZA ETKİSİ' },
+  { en: 'High criticality', tr: 'Yüksek kritiklik' },
+  { en: 'Medium criticality', tr: 'Orta kritiklik' },
+  { en: 'Low criticality', tr: 'Düşük kritiklik' },
+  { en: 'Show on aircraft ↗', tr: 'Uçakta yerini göster ↗' },
+  { en: 'Show sensor on aircraft ↗', tr: 'Sensörü uçakta göster ↗' },
+  { en: 'Boeing-first candidates → human review → verified catalog', tr: 'Boeing öncelikli adaylar → insan kontrolü → doğrulanmış katalog' },
+  { en: 'CURATION WORKSPACE', tr: 'DOĞRULAMA ÇALIŞMA ALANI' },
+  { en: 'Verified real hardware', tr: 'Doğrulanmış gerçek donanım' },
+  { en: 'Auto-matched reference', tr: 'Otomatik eşleşen referans' },
+  { en: 'Back', tr: 'Geri' },
+  { en: 'Home', tr: 'Ana Sayfa' },
+  { en: 'Open source', tr: 'Kaynağı aç' },
+  { en: 'Last scan', tr: 'Son tarama' },
+  { en: 'Latest developments', tr: 'Son gelişmeler' },
+  { en: 'QUICK DIGEST', tr: 'HIZLI ÖZET' },
+  { en: 'What matters in aerospace right now', tr: 'Şu anda havacılıkta öne çıkanlar' },
 ]
 
-function translateExact(text: string, toEnglish: boolean) {
+function translateExact(text: string, language: 'tr' | 'en') {
   const trimmed = text.trim()
   if (!trimmed) return text
-  for (const [a, b] of PAIRS) {
-    const source = toEnglish ? b : a
-    const target = toEnglish ? a : b
+  for (const item of DICTIONARY) {
+    const source = language === 'tr' ? item.en : item.tr
+    const target = language === 'tr' ? item.tr : item.en
     if (trimmed === source) return text.replace(trimmed, target)
   }
   return text
@@ -61,15 +71,14 @@ export default function UiTextTranslator() {
         const parent = node.parentElement
         if (!parent || parent.closest('script,style')) continue
         const value = node.nodeValue || ''
-        const next = translateExact(value, language === 'en')
+        const next = translateExact(value, language)
         if (next !== value) node.nodeValue = next
       }
     }
+
     apply()
     const observer = new MutationObserver((mutations) => {
-      for (const mutation of mutations) {
-        mutation.addedNodes.forEach((node) => apply(node))
-      }
+      for (const mutation of mutations) mutation.addedNodes.forEach((node) => apply(node))
     })
     observer.observe(document.body, { childList: true, subtree: true })
     return () => observer.disconnect()
