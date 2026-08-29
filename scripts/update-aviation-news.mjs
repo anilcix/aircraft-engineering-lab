@@ -55,6 +55,45 @@ function summaryTrFor(source, category) {
   return `${source} kaynaklı bu gelişme, ${areas[category] || 'havacılık teknolojileri'} alanındaki yeni bir güncellemeyi ele alıyor.`
 }
 
+function cleanTitle(title = '') {
+  return title
+    .replace(/^\s*(article\s+)?\d+\s*min\s*read\s*/i, '')
+    .replace(/\s+article\s+(?:\d+\s+(?:hours?|days?|weeks?)\s+ago|\d+\s+day\s+ago)$/i, '')
+    .replace(/\s+(?:\d+\s+(?:hours?|days?|weeks?)\s+ago)$/i, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+function canonicalUrl(value = '') {
+  try {
+    const url = new URL(value)
+    url.hash = ''
+    for (const key of ['utm_source','utm_medium','utm_campaign','utm_term','utm_content','output']) url.searchParams.delete(key)
+    return `${url.origin}${url.pathname.replace(/\/$/, '')}${url.search}`.toLowerCase()
+  } catch {
+    return ''
+  }
+}
+
+function canonicalKey(item) {
+  const urlKey = canonicalUrl(item.url)
+  if (urlKey) return `url:${urlKey}`
+  const titleKey = cleanTitle(item.title).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()
+  return `title:${(item.source || '').toLowerCase()}:${titleKey}`
+}
+
+function dedupeItems(items) {
+  const seen = new Set()
+  const out = []
+  for (const item of items) {
+    const key = canonicalKey(item)
+    if (!key || seen.has(key)) continue
+    seen.add(key)
+    out.push({ ...item, title: cleanTitle(item.title) || item.title })
+  }
+  return out
+}
+
 function isTechnical(title) {
   const t = title.toLowerCase()
   return title.length >= 24 && title.length <= 190 && technicalWords.some((word) => t.includes(word))
@@ -79,21 +118,14 @@ function extractRss(xml, source) {
   const items = []
   const blocks = xml.match(/<item\b[\s\S]*?<\/item>/gi) || []
   for (const block of blocks.slice(0, 20)) {
-    const title = tagValue(block, 'title')
+    const rawTitle = tagValue(block, 'title')
+    const title = cleanTitle(rawTitle)
     if (!isTechnical(title)) continue
     const link = tagValue(block, 'link') || block.match(/<link[^>]*href=["']([^"']+)["']/i)?.[1] || ''
     const publishedAt = isoDate(tagValue(block, 'pubDate') || tagValue(block, 'published') || tagValue(block, 'updated') || tagValue(block, 'dc:date'))
     const description = tagValue(block, 'description')
     const category = categoryFor(title)
-    items.push({
-      title,
-      source: source.source,
-      category,
-      publishedAt,
-      url: resolveUrl(link, source.url),
-      summary: description ? decodeHtml(description).slice(0, 260) : `Latest technical aerospace item collected from ${source.source}.`,
-      summaryTr: summaryTrFor(source.source, category),
-    })
+    items.push({ title, source: source.source, category, publishedAt, url: resolveUrl(link, source.url), summary: description ? decodeHtml(description).slice(0, 260) : `Latest technical aerospace item collected from ${source.source}.`, summaryTr: summaryTrFor(source.source, category) })
   }
   return items
 }
@@ -103,22 +135,15 @@ function extractHtmlLinks(html, source) {
   const re = /<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi
   let match
   while ((match = re.exec(html))) {
-    const title = decodeHtml(match[2])
+    const title = cleanTitle(decodeHtml(match[2]))
     if (!isTechnical(title)) continue
     const url = resolveUrl(match[1], source.url)
     if (!/^https?:/.test(url)) continue
     const category = categoryFor(title)
-    out.push({
-      title,
-      source: source.source,
-      category,
-      url,
-      summary: `Latest technical aerospace item collected from ${source.source}.`,
-      summaryTr: summaryTrFor(source.source, category),
-    })
-    if (out.length >= 14) break
+    out.push({ title, source: source.source, category, url, summary: `Latest technical aerospace item collected from ${source.source}.`, summaryTr: summaryTrFor(source.source, category) })
+    if (out.length >= 24) break
   }
-  return out
+  return dedupeItems(out).slice(0, 14)
 }
 
 function extractPublishedAt(html) {
@@ -178,21 +203,14 @@ for (const source of sources) {
   }
 }
 
-const seen = new Set()
-const deduped = collected.filter((item) => {
-  const key = item.title.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()
-  if (!key || seen.has(key)) return false
-  seen.add(key)
-  return true
-})
-
+const deduped = dedupeItems(collected)
 const hydrated = await hydrateDates(deduped)
-const currentKeys = new Set(hydrated.map((x) => x.title.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()))
-const previousExtras = (previous.items || [])
-  .filter((item) => !currentKeys.has(item.title.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()))
+const currentKeys = new Set(hydrated.map(canonicalKey))
+const previousExtras = dedupeItems(previous.items || [])
+  .filter((item) => !currentKeys.has(canonicalKey(item)))
   .map((item) => ({ ...item, summaryTr: item.summaryTr || summaryTrFor(item.source, item.category) }))
 
-const merged = [...hydrated, ...previousExtras]
+const merged = dedupeItems([...hydrated, ...previousExtras])
   .sort((a, b) => {
     const at = a.publishedAt ? new Date(a.publishedAt).getTime() : 0
     const bt = b.publishedAt ? new Date(b.publishedAt).getTime() : 0
@@ -202,4 +220,4 @@ const merged = [...hydrated, ...previousExtras]
 
 const payload = { updatedAt: new Date().toISOString(), items: merged }
 await fs.writeFile('public/aviation-news.json', `${JSON.stringify(payload, null, 2)}\n`)
-console.log(`aviation-news.json updated with ${merged.length} items; ${merged.filter((x) => x.publishedAt).length} include publication dates`)
+console.log(`aviation-news.json updated with ${merged.length} unique items; ${merged.filter((x) => x.publishedAt).length} include publication dates`)
