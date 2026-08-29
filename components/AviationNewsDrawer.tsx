@@ -43,15 +43,38 @@ function cleanSourceTitle(title: string) {
   return title
     .replace(/^\s*(article\s+)?\d+\s*min\s*read\s*/i, '')
     .replace(/\s+article\s+(?:\d+\s+(?:hours?|days?|weeks?)\s+ago|\d+\s+day\s+ago)$/i, '')
+    .replace(/\s+(?:\d+\s+(?:hours?|days?|weeks?)\s+ago)$/i, '')
     .trim()
+}
+
+function canonicalNewsKey(item: NewsItem) {
+  try {
+    const url = new URL(item.url)
+    url.hash = ''
+    ;['utm_source','utm_medium','utm_campaign','utm_term','utm_content','output'].forEach((key) => url.searchParams.delete(key))
+    const normalizedUrl = `${url.origin}${url.pathname.replace(/\/$/, '')}${url.search}`.toLowerCase()
+    if (normalizedUrl) return `url:${normalizedUrl}`
+  } catch { /* title fallback */ }
+  const normalizedTitle = cleanSourceTitle(item.title).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()
+  return `title:${item.source.toLowerCase()}:${normalizedTitle}`
+}
+
+function dedupeNews(items: NewsItem[]) {
+  const seen = new Set<string>()
+  const out: NewsItem[] = []
+  for (const item of items) {
+    const key = canonicalNewsKey(item)
+    if (seen.has(key)) continue
+    seen.add(key)
+    out.push(item)
+  }
+  return out
 }
 
 function turkishSummary(item: NewsItem) {
   if (item.summaryTr) return item.summaryTr
   const generic = !item.summary || /^Latest technical aerospace item collected from/i.test(item.summary)
-  if (!generic) {
-    return `Kaynak özeti İngilizce: ${item.summary}`
-  }
+  if (!generic) return `Kaynak özeti İngilizce: ${item.summary}`
   const categoryText: Record<string, string> = {
     'New Concepts': 'yeni nesil havacılık konseptleri ve teknoloji geliştirme',
     Structures: 'uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji',
@@ -78,11 +101,11 @@ export default function AviationNewsDrawer() {
       .catch(() => undefined)
   }, [])
 
-  const sortedAll = useMemo(() => [...payload.items].sort((a, b) => {
+  const sortedAll = useMemo(() => dedupeNews([...payload.items].sort((a, b) => {
     const at = a.publishedAt ? new Date(a.publishedAt).getTime() : 0
     const bt = b.publishedAt ? new Date(b.publishedAt).getTime() : 0
     return bt - at
-  }), [payload])
+  })), [payload])
 
   const items = useMemo(() => filter === 'All' ? sortedAll : sortedAll.filter((x) => x.category === filter), [sortedAll, filter])
   const digest = sortedAll.slice(0, 4)
@@ -107,14 +130,14 @@ export default function AviationNewsDrawer() {
           <div className="news-digest-head"><span>{tr ? 'HIZLI ÖZET' : 'QUICK DIGEST'}</span><small>{tr ? 'Son gelişmeler' : 'Latest developments'}</small></div>
           <h3>{tr ? 'Bugün havacılıkta öne çıkanlar' : 'What matters in aerospace right now'}</h3>
           <div className="news-digest-list">
-            {digest.map((item, i) => <div key={`${item.title}-${i}`}><b>{i + 1}</b><p><strong>{cleanSourceTitle(item.title)}</strong>{summaryFor(item) ? ` — ${summaryFor(item)}` : ''}</p></div>)}
+            {digest.map((item, i) => <div key={canonicalNewsKey(item)}><b>{i + 1}</b><p><strong>{cleanSourceTitle(item.title)}</strong>{summaryFor(item) ? ` — ${summaryFor(item)}` : ''}</p></div>)}
           </div>
         </section>
 
         <div className="news-refresh-line"><span>{tr ? 'Son tarama' : 'Last scan'}</span><strong>{new Date(payload.updatedAt).toLocaleString(locale)}</strong></div>
         <div className="drawer-filters">{FILTERS.map((x) => <button key={x} className={filter === x ? 'active' : ''} onClick={() => setFilter(x)}>{x === 'All' ? (tr ? 'Tümü' : 'All') : (tr ? CATEGORY_TR[x] || x : x)}</button>)}</div>
         <div className="news-list">
-          {items.map((item, i) => <article className="news-card" key={`${item.source}-${item.title}-${i}`}>
+          {items.map((item) => <article className="news-card" key={canonicalNewsKey(item)}>
             <div className="news-meta"><span>{tr ? CATEGORY_TR[item.category] || item.category : item.category}</span><span>{item.source}</span></div>
             <div className="news-date-line"><strong>{absoluteDate(item.publishedAt, locale)}</strong><span>{relativeAge(item.publishedAt, tr)}</span></div>
             <h3>{cleanSourceTitle(item.title)}</h3>
@@ -122,7 +145,7 @@ export default function AviationNewsDrawer() {
             <a href={item.url} target="_blank" rel="noreferrer">{tr ? 'Kaynağı aç' : 'Open source'} ↗</a>
           </article>)}
         </div>
-        <div className="drawer-foot">{tr ? 'Haber başlığı kaynak dilinde korunur; karttaki açıklama TR modunda Türkçe özet olarak gösterilir. “Son tarama” AEL’in kaynağı en son ne zaman kontrol ettiğini gösterir.' : 'Source headlines stay in their original language; summaries are shown in English when available. “Last scan” shows when AEL last checked the source.'}</div>
+        <div className="drawer-foot">{tr ? 'Aynı URL veya aynı normalize başlığa sahip tekrarlar otomatik gizlenir. Haber başlığı kaynak dilinde korunur; açıklama TR modunda Türkçe özet olarak gösterilir.' : 'Duplicates with the same canonical URL or normalized title are hidden automatically. Source headlines remain in their original language.'}</div>
       </aside>
     </>
   )
