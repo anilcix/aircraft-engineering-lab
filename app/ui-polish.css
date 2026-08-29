@@ -28,7 +28,23 @@
 .news-digest-list b { width:22px; height:22px; display:grid; place-items:center; border-radius:999px; background:#123044; color:#7dd3fc; font-size:9px; }
 .news-digest-list p { margin:0; color:#94a9b7; font-size:9.5px; line-height:1.45; }
 .news-digest-list strong { color:#d8e5ec; }
-.info-drawer { backdrop-filter:blur(20px); }
+.info-drawer {
+  backdrop-filter:blur(20px);
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
+  scrollbar-gutter: stable;
+}
+.info-drawer * { overscroll-behavior: contain; }
+.info-drawer [style*="overflowY"],
+.info-drawer [style*="overflow-y"],
+.info-drawer [style*="overflow: auto"],
+.info-drawer [style*="overflow:auto"] {
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+.drawer-backdrop { overscroll-behavior:none; touch-action:none; }
+html.ael-drawer-open, body.ael-drawer-open { overscroll-behavior:none; }
 .news-card, .accident-card { box-shadow:0 9px 24px rgba(0,0,0,.08); }
 
 @media (max-width: 720px) {
@@ -39,4 +55,5 @@
   .compact-nav button { font-size:8px; padding:5px 7px; }
   .compact-tools .side-tool { width:142px; font-size:8.8px; padding:7px 9px; }
   .drawer-home-global { left:10px; top:10px; padding:7px 9px; }
+  .info-drawer { height:100dvh; max-height:100dvh; }
 }
