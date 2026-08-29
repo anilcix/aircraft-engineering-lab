@@ -41,6 +41,20 @@ function categoryFor(title) {
   return 'Industry'
 }
 
+function summaryTrFor(source, category) {
+  const areas = {
+    Materials: 'havacılık malzemeleri ve malzeme teknolojileri',
+    Manufacturing: 'havacılık üretimi, imalat teknolojileri ve tedarik zinciri',
+    Propulsion: 'motor, türbin ve itki sistemleri',
+    MRO: 'bakım, onarım ve revizyon faaliyetleri',
+    Structures: 'uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji',
+    Sustainability: 'sürdürülebilir havacılık ve emisyon azaltımı',
+    'New Concepts': 'yeni nesil havacılık konseptleri ve teknoloji geliştirme',
+    Industry: 'havacılık sektörü, programlar ve araştırma faaliyetleri',
+  }
+  return `${source} kaynaklı bu gelişme, ${areas[category] || 'havacılık teknolojileri'} alanındaki yeni bir güncellemeyi ele alıyor.`
+}
+
 function isTechnical(title) {
   const t = title.toLowerCase()
   return title.length >= 24 && title.length <= 190 && technicalWords.some((word) => t.includes(word))
@@ -70,13 +84,15 @@ function extractRss(xml, source) {
     const link = tagValue(block, 'link') || block.match(/<link[^>]*href=["']([^"']+)["']/i)?.[1] || ''
     const publishedAt = isoDate(tagValue(block, 'pubDate') || tagValue(block, 'published') || tagValue(block, 'updated') || tagValue(block, 'dc:date'))
     const description = tagValue(block, 'description')
+    const category = categoryFor(title)
     items.push({
       title,
       source: source.source,
-      category: categoryFor(title),
+      category,
       publishedAt,
       url: resolveUrl(link, source.url),
       summary: description ? decodeHtml(description).slice(0, 260) : `Latest technical aerospace item collected from ${source.source}.`,
+      summaryTr: summaryTrFor(source.source, category),
     })
   }
   return items
@@ -91,12 +107,14 @@ function extractHtmlLinks(html, source) {
     if (!isTechnical(title)) continue
     const url = resolveUrl(match[1], source.url)
     if (!/^https?:/.test(url)) continue
+    const category = categoryFor(title)
     out.push({
       title,
       source: source.source,
-      category: categoryFor(title),
+      category,
       url,
       summary: `Latest technical aerospace item collected from ${source.source}.`,
+      summaryTr: summaryTrFor(source.source, category),
     })
     if (out.length >= 14) break
   }
@@ -131,10 +149,7 @@ async function fetchText(url) {
 async function hydrateDates(items) {
   const result = []
   for (const item of items.slice(0, 40)) {
-    if (item.publishedAt) {
-      result.push(item)
-      continue
-    }
+    if (item.publishedAt) { result.push(item); continue }
     try {
       const html = await fetchText(item.url)
       result.push({ ...item, publishedAt: extractPublishedAt(html) })
@@ -146,11 +161,8 @@ async function hydrateDates(items) {
 }
 
 async function readPrevious() {
-  try {
-    return JSON.parse(await fs.readFile('public/aviation-news.json', 'utf8'))
-  } catch {
-    return { updatedAt: new Date(0).toISOString(), items: [] }
-  }
+  try { return JSON.parse(await fs.readFile('public/aviation-news.json', 'utf8')) }
+  catch { return { updatedAt: new Date(0).toISOString(), items: [] } }
 }
 
 const previous = await readPrevious()
@@ -176,7 +188,10 @@ const deduped = collected.filter((item) => {
 
 const hydrated = await hydrateDates(deduped)
 const currentKeys = new Set(hydrated.map((x) => x.title.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()))
-const previousExtras = (previous.items || []).filter((item) => !currentKeys.has(item.title.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()))
+const previousExtras = (previous.items || [])
+  .filter((item) => !currentKeys.has(item.title.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()))
+  .map((item) => ({ ...item, summaryTr: item.summaryTr || summaryTrFor(item.source, item.category) }))
+
 const merged = [...hydrated, ...previousExtras]
   .sort((a, b) => {
     const at = a.publishedAt ? new Date(a.publishedAt).getTime() : 0
