@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T15:41:13.882943Z",
+  "updatedAt": "2026-08-29T10:24:30.623928Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2946 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -1209,7 +1209,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Singapore Airlines",
-      "location": "Gulf of Martaban",
+      "location": "Suvarnabhumi Airport",
       "latitude": 13.681111,
       "longitude": 100.747222,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -20868,7 +20868,7 @@
     {
       "id": "WIKIDATA-Q19910592",
       "date": "1990-02-01",
-      "title": "Q19910592",
+      "title": "Il-76 crash in Panavėžys",
       "authority": "Wikidata discovery",
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
@@ -23686,7 +23686,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q116688523",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Kharkiv International Airport",
+      "location": "Rokytne",
       "latitude": 49.924722,
       "longitude": 36.29,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -27654,7 +27654,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Loukhi, South Korea",
+      "location": "Korpijärvi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -37534,7 +37534,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q20986953",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Spokane"
+      "location": "Mount Kit Carson"
     },
     {
       "id": "WIKIDATA-Q18398627",
@@ -41492,7 +41492,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Barzas",
+      "location": "Kemerovsky District",
       "fatalities": 27
     },
     {
