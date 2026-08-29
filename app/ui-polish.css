@@ -15,7 +15,14 @@
 .compact-tools { gap:6px; }
 .compact-tools .side-tool { width:156px; padding:8px 10px; font-size:9.5px; border-radius:8px; background:rgba(7,18,27,.86); backdrop-filter:blur(8px); }
 .compact-tools .side-tool:hover { transform:translateX(2px); }
-.selected-component-toggle { position:absolute; z-index:9; right:14px; bottom:14px; border:1px solid #315064; border-radius:9px; background:rgba(8,19,29,.92); color:#d7e4ee; padding:8px 10px; font-size:9px; font-weight:800; cursor:pointer; box-shadow:0 10px 28px rgba(0,0,0,.28); backdrop-filter:blur(9px); }
+.selected-component-controls { position:absolute; z-index:9; right:14px; bottom:14px; display:flex; gap:5px; align-items:center; }
+.selected-component-toggle,
+.selected-component-jump { border:1px solid #315064; background:rgba(8,19,29,.92); color:#d7e4ee; font-weight:800; cursor:pointer; box-shadow:0 10px 28px rgba(0,0,0,.28); backdrop-filter:blur(9px); }
+.selected-component-toggle { position:static; border-radius:9px 7px 7px 9px; padding:8px 10px; font-size:9px; }
+.selected-component-jump { width:32px; height:32px; border-radius:7px 9px 9px 7px; display:grid; place-items:center; padding:0; font-size:15px; line-height:1; }
+.selected-component-jump:hover,
+.selected-component-toggle:hover { border-color:#38bdf8; background:#102532; }
+.engineering-panel-anchor { scroll-margin-top:10px; min-width:0; }
 .drawer-home-global { position:fixed; z-index:40; left:18px; top:18px; border:1px solid #34556b; border-radius:10px; background:rgba(7,18,27,.94); color:#dff6ff; padding:8px 11px; font-size:9.5px; font-weight:900; cursor:pointer; box-shadow:0 12px 28px rgba(0,0,0,.28); backdrop-filter:blur(12px); }
 .drawer-home-global:hover { border-color:#38bdf8; background:#102532; }
 .news-digest-card { margin:14px 0 10px; padding:14px; border:1px solid #28506b; border-radius:13px; background:linear-gradient(145deg,#0d2230,#0a1721); box-shadow:inset 0 1px 0 rgba(255,255,255,.025); }
@@ -47,6 +54,10 @@
 html.ael-drawer-open, body.ael-drawer-open { overscroll-behavior:none; }
 .news-card, .accident-card { box-shadow:0 9px 24px rgba(0,0,0,.08); }
 
+@media (max-width: 1000px) {
+  .engineering-panel-anchor { grid-column:1; width:100%; scroll-margin-top:0; }
+}
+
 @media (max-width: 720px) {
   .topbar-actions .status { display:none; }
   .language-switch { margin-left:auto; }
@@ -56,4 +67,7 @@ html.ael-drawer-open, body.ael-drawer-open { overscroll-behavior:none; }
   .compact-tools .side-tool { width:142px; font-size:8.8px; padding:7px 9px; }
   .drawer-home-global { left:10px; top:10px; padding:7px 9px; }
   .info-drawer { height:100dvh; max-height:100dvh; }
+  .selected-component-controls { right:10px; bottom:10px; }
+  .selected-component-toggle { padding:7px 9px; font-size:8.5px; }
+  .selected-component-jump { width:30px; height:30px; }
 }
