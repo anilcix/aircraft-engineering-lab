@@ -12,6 +12,7 @@ import SensorAtlasDrawer from '@/components/SensorAtlasDrawer'
 import ImageCuratorDrawer from '@/components/ImageCuratorDrawer'
 import MapWheelScrollGuard from '@/components/MapWheelScrollGuard'
 import DrawerHomeGuard from '@/components/DrawerHomeGuard'
+import UiTextTranslator from '@/components/UiTextTranslator'
 import { UiLanguageProvider, useUiLanguage } from '@/components/UiLanguage'
 import type { EquipmentLocatorRequest } from '@/components/equipment-locator-types'
 
@@ -58,6 +59,7 @@ function HomeContent() {
     <main className="shell" data-language={language}>
       <MapWheelScrollGuard />
       <DrawerHomeGuard />
+      <UiTextTranslator />
       <header className="topbar topbar-polished">
         <div>
           <div className="brand">AIRCRAFT ENGINEERING LAB</div>
