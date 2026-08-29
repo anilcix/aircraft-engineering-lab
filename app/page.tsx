@@ -55,6 +55,13 @@ function HomeContent() {
     setEquipmentLocator(equipment)
   }
 
+  const jumpToEngineeringPanel = () => {
+    setEngineeringPanelOpen(true)
+    window.setTimeout(() => {
+      document.getElementById('engineering-panel-anchor')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }, 80)
+  }
+
   return (
     <main className="shell" data-language={language}>
       <MapWheelScrollGuard />
@@ -99,18 +106,23 @@ function HomeContent() {
             <ImageCuratorDrawer />
           </div>
 
-          {!engineeringPanelOpen && (
-            <button className="selected-component-toggle" onClick={() => setEngineeringPanelOpen(true)}>
-              {tr ? 'Seçili Parça' : 'Selected Component'} ↗
-            </button>
-          )}
+          <div className="selected-component-controls">
+            {!engineeringPanelOpen && (
+              <button className="selected-component-toggle" onClick={() => setEngineeringPanelOpen(true)}>
+                {tr ? 'Seçili Parça' : 'Selected Component'} ↗
+              </button>
+            )}
+            <button className="selected-component-jump" onClick={jumpToEngineeringPanel} aria-label={tr ? 'Seçili parça bilgilerine git' : 'Jump to selected component details'} title={tr ? 'Bilgilere git' : 'Jump to details'}>↓</button>
+          </div>
 
           <AircraftScene selected={selected} onSelect={selectPart} damaged={damaged} equipmentLocator={equipmentLocator} onClearEquipmentLocator={() => setEquipmentLocator(null)} />
           <div className="corner-note">REFERENCE-INFORMED · ORIGINAL TRAINING GEOMETRY · NO OEM CAD DATA</div>
         </div>
 
         {engineeringPanelOpen && (
-          <EngineeringPanel selected={selected} layer={layer} onLayerChange={setLayer} damaged={damaged} onDamageToggle={() => setDamaged((v) => !v)} collapsed={false} onToggle={() => setEngineeringPanelOpen(false)} />
+          <div id="engineering-panel-anchor" className="engineering-panel-anchor">
+            <EngineeringPanel selected={selected} layer={layer} onLayerChange={setLayer} damaged={damaged} onDamageToggle={() => setDamaged((v) => !v)} collapsed={false} onToggle={() => setEngineeringPanelOpen(false)} />
+          </div>
         )}
       </section>
     </main>
