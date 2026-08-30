@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T23:20:28.030Z",
+  "updatedAt": "2026-08-30T05:24:56.029Z",
   "items": [
     {
       "title": "Planetary Exploration Science Technology Office (PESTO)",
@@ -38,6 +38,15 @@
       "publishedAt": "2026-08-20T14:57:01.000Z"
     },
     {
+      "title": "NASA Student Aviation Challenge Focuses on Nation’s Infrastructure",
+      "source": "NASA Aeronautics",
+      "category": "Structures",
+      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji alanındaki yeni bir güncellemeyi ele alıyor.",
+      "publishedAt": "2026-08-18T18:03:44.000Z"
+    },
+    {
       "title": "NASA Pushes New Wing Design to Find Structural Limits article 1 month ago",
       "source": "NASA Aeronautics",
       "category": "Structures",
@@ -69,14 +78,6 @@
       "url": "https://www.nasa.gov/manufacturing-and-materials/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık malzemeleri ve malzeme teknolojileri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "NASA Student Aviation Challenge Focuses on Nation’s Infrastructure",
-      "source": "NASA Aeronautics",
-      "category": "Structures",
-      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
       "title": "Ultra-Efficient Aviation",
