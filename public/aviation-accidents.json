@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T09:27:39.979544Z",
+  "updatedAt": "2026-08-31T10:04:04.923662Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2946 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -2773,7 +2773,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "PenAir",
-      "location": "Unalaska Airport",
+      "location": "Unalaska Airport, United States",
       "latitude": 53.894,
       "longitude": -166.5373,
       "coordinateSource": "Wikidata event coordinate",
@@ -4459,7 +4459,7 @@
       "operator": "EgyptAir",
       "aircraft": "Airbus A320-232",
       "family": "Airbus A320 Family",
-      "location": "Mediterranean Sea",
+      "location": "Mediterranean Sea, Egypt",
       "latitude": 33.6757,
       "longitude": 28.7924,
       "coordinateSource": "Wikidata event coordinate",
@@ -11849,7 +11849,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Azerbaijan Airlines",
-      "location": "Nardaran",
+      "location": "Nardaran, Azerbaijan",
       "latitude": 40.55611111,
       "longitude": 50.00555556,
       "coordinateSource": "Wikidata event coordinate",
@@ -14065,7 +14065,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Dubai International Airport",
+      "location": "Dubai International Airport, United Arab Emirates",
       "latitude": 25.252777777,
       "longitude": 55.364444444,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -14960,7 +14960,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q18398639",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Sheremetyevo International Airport",
+      "location": "Sheremetyevo International Airport, Russia",
       "latitude": 55.972777777,
       "longitude": 37.414722222,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -16227,7 +16227,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "United Airlines",
-      "location": "Tokyo",
+      "location": "Tokyo, Japan",
       "latitude": 0.0,
       "longitude": -160.0,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -17768,7 +17768,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q120269168",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Krasnoyarsk International Airport",
+      "location": "Krasnoyarsk International Airport, Russia",
       "latitude": 56.008888888,
       "longitude": 92.871944444,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -20081,7 +20081,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16662362",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Gulf of Finland",
+      "location": "Gulf of Finland, Russia",
       "latitude": 59.95,
       "longitude": 30.316666666,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -21457,7 +21457,8 @@
       "latitude": 57.350555555,
       "longitude": 16.496388888,
       "coordinateSource": "Wikidata event-location coordinate",
-      "fatalities": 16
+      "fatalities": 16,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Holmstr%C3%B6m_Flyg_Flight_314"
     },
     {
       "id": "WIKIDATA-Q16662402",
@@ -23051,7 +23052,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Tashkent",
+      "location": "Tashkent, Uzbekistan",
       "latitude": 41.311111111,
       "longitude": 69.279722222,
       "coordinateSource": "Wikidata event coordinate",
@@ -23099,7 +23100,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Bohnsdorf",
+      "location": "Bohnsdorf, Germany",
       "latitude": 52.38638889,
       "longitude": 13.5675,
       "coordinateSource": "Wikidata event coordinate",
@@ -23487,7 +23488,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q120268793",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Omsk-Severny",
+      "location": "Omsk-Severny, Russia",
       "latitude": 54.975277777,
       "longitude": 73.5525,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -24167,7 +24168,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Omsk",
+      "location": "Omsk, Russia",
       "latitude": 54.96666667,
       "longitude": 73.30833333,
       "coordinateSource": "Wikidata event coordinate",
@@ -24510,7 +24511,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q78552785",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Ted Stevens Anchorage International Airport",
+      "location": "Ted Stevens Anchorage International Airport, United States",
       "latitude": 61.1697,
       "longitude": -150.0062,
       "coordinateSource": "Wikidata event coordinate",
@@ -26191,7 +26192,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q4242625",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Vosstaniya square, Kazan",
+      "location": "Vosstaniya square, Kazan, Russia",
       "latitude": 55.790833333,
       "longitude": 49.114444444,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -27654,7 +27655,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Loukhi, South Korea",
+      "location": "Korpijärvi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -28891,7 +28892,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q4451541",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Novosibirsk",
+      "location": "Novosibirsk, Russia",
       "latitude": 54.97677778,
       "longitude": 82.87141667,
       "coordinateSource": "Wikidata event coordinate",
@@ -29468,7 +29469,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q56345502",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "runway",
+      "location": "runway, United States",
       "latitude": 40.633333333,
       "longitude": -73.766666666,
       "coordinateSource": "Wikidata event coordinate",
@@ -30186,7 +30187,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16912881",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Cairo",
+      "location": "Cairo, Egypt",
       "latitude": 30.102,
       "longitude": 31.404,
       "coordinateSource": "Wikidata event coordinate",
@@ -32051,7 +32052,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q18396268",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Cairo",
+      "location": "Cairo, Egypt",
       "latitude": 30.044444444,
       "longitude": 31.235833333,
       "coordinateSource": "Wikidata event-location coordinate"
@@ -33819,7 +33820,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Vnukovo International Airport",
+      "location": "Vnukovo International Airport, Russia",
       "fatalities": 16,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1969_Vnukovo_Airport_Il-18_crash"
     },
@@ -34021,7 +34022,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q4573536",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Sea of Japan",
+      "location": "Sea of Japan, Japan",
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1969_EC-121_shootdown_incident"
     },
     {
@@ -34035,13 +34036,13 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Air Canada",
-      "location": "Sept-Îles Airport",
+      "location": "Sept-Îles Airport, Canada",
       "fatalities": 1
     },
     {
       "id": "WIKIDATA-Q11475843",
       "date": "1969-04-02",
-      "title": "LOT Polish Airlines Flight 165 (1969)",
+      "title": "LOT Polish Airlines Flight 165",
       "authority": "Wikidata discovery",
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
@@ -34971,7 +34972,7 @@
       "operator": "Czech Airlines",
       "aircraft": "Ilyushin Il-18",
       "family": "Ilyushin Il-18",
-      "location": "Gander International Airport",
+      "location": "Gander International Airport, Canada",
       "fatalities": 37,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/%C4%8CSA_Flight_523"
     },
@@ -35663,7 +35664,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Sheremetyevo International Airport",
+      "location": "Sheremetyevo International Airport, Russia",
       "fatalities": 21,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroflot_Flight_065"
     },
@@ -36153,7 +36154,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q18398539",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Marine Corps Air Station El Toro"
+      "location": "Marine Corps Air Station El Toro, United States"
     },
     {
       "id": "WIKIDATA-Q4217221",
@@ -37647,7 +37648,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Yangiyo‘l",
+      "location": "Yangiyo‘l, Uzbekistan",
       "fatalities": 11
     },
     {
@@ -37661,7 +37662,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Voznesenka",
+      "location": "Voznesenka, Russia",
       "fatalities": 84,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroflot_Flight_902"
     },
@@ -37762,7 +37763,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Flying Tiger Line",
-      "location": "Mariana Islands",
+      "location": "Mariana Islands, Philippines",
       "fatalities": 107,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Flying_Tiger_Line_Flight_739"
     },
@@ -38574,7 +38575,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Austrian Airlines",
-      "location": "Sheremetyevo International Airport",
+      "location": "Sheremetyevo International Airport, Russia",
       "fatalities": 31,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Austrian_Airlines_Flight_901"
     },
@@ -38928,7 +38929,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Vilnius",
+      "location": "Vilnius, Lithuania",
       "fatalities": 1
     },
     {
@@ -39871,7 +39872,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q20986948",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Norwalk",
+      "location": "Norwalk, United States",
       "fatalities": 48
     },
     {
@@ -40499,7 +40500,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Pan Am",
-      "location": "Honolulu",
+      "location": "Honolulu, United States",
       "fatalities": 0,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Pan_Am_Flight_6"
     },
@@ -40940,7 +40941,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Pan Am",
-      "location": "Oregon",
+      "location": "Oregon, United States",
       "fatalities": 4,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Pan_Am_Flight_845/26"
     },
@@ -41492,7 +41493,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Barzas",
+      "location": "Kemerovsky District",
       "fatalities": 27
     },
     {
@@ -41542,7 +41543,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Tatar Autonomous Soviet Socialist Republic",
+      "location": "Tatar Autonomous Soviet Socialist Republic, Russia",
       "fatalities": 1,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroflot_Flight_35"
     },
@@ -45156,7 +45157,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q114234048",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Greenland",
+      "location": "Greenland, Kingdom of Denmark",
       "fatalities": 3
     },
     {
