@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T08:55:08.288065Z",
+  "updatedAt": "2026-09-02T08:08:16.744407Z",
   "source": "Wikidata Query Service / aviation accident (Q744913)",
   "license": "Wikidata structured data is CC0",
   "coverageNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
@@ -213,7 +213,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q137920366",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Baramati",
+      "location": "Baramati, India",
       "latitude": 19.75148,
       "longitude": 75.713888055,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -1725,7 +1725,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "United Aircraft Corporation",
-      "location": "Kubinka",
+      "location": "Kubinka, Russia",
       "latitude": 55.628,
       "longitude": 37.738,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -3269,7 +3269,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "United States Marine Corps",
-      "location": "Leflore County",
+      "location": "Leflore County, United States",
       "latitude": 33.473,
       "longitude": -90.449,
       "coordinateSource": "Wikidata event coordinate",
@@ -7138,7 +7138,8 @@
       "latitude": 60.407415,
       "longitude": 6.97164,
       "coordinateSource": "Wikidata event coordinate",
-      "fatalities": 5
+      "fatalities": 5,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2011_Dalamot_helicopter_crash"
     },
     {
       "id": "WIKIDATA-Q5493210",
@@ -15037,7 +15038,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q109457975",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "O'Hare International Airport",
+      "location": "O'Hare International Airport, United States",
       "latitude": 41.978611111,
       "longitude": -87.904722222,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -17552,7 +17553,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q120263633",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Lyakhovo",
+      "location": "Lyakhovo, Russia",
       "latitude": 55.5472,
       "longitude": 36.4861,
       "coordinateSource": "Wikidata event-location coordinate"
@@ -18812,7 +18813,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Pakistan International Airlines",
-      "location": "Kathmandu, Nepal",
+      "location": "Lower Himalayan Range, Nepal",
       "latitude": 27.53277778,
       "longitude": 85.28472222,
       "coordinateSource": "Wikidata event coordinate",
@@ -20151,7 +20152,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q97940189",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Guatemala City",
+      "location": "Guatemala City, Guatemala",
       "latitude": 14.641666666,
       "longitude": -90.513333333,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -27048,7 +27049,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Korpijärvi, South Korea",
+      "location": "Loukhi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -27087,7 +27088,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q113410336",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Stupino",
+      "location": "Stupino, Russia",
       "latitude": 55.628,
       "longitude": 37.738,
       "coordinateSource": "Wikidata event-location coordinate"
@@ -27484,7 +27485,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Russian Soviet Federative Socialist Republic",
+      "location": "Russian Soviet Federative Socialist Republic, Russia",
       "latitude": 62.0,
       "longitude": 100.0,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -30083,7 +30084,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16662530",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Q109985975",
+      "location": "Q109985975, Russia",
       "latitude": 55.41972222,
       "longitude": 37.87805556,
       "coordinateSource": "Wikidata event coordinate",
@@ -31837,7 +31838,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Eastern Air Lines",
-      "location": "Raleigh–Durham International Airport",
+      "location": "Raleigh–Durham International Airport, United States",
       "latitude": 35.877777777,
       "longitude": -78.7875,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -32379,7 +32380,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q20986957",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Edison",
+      "location": "Edison, United States",
       "latitude": 40.5274,
       "longitude": -74.3933,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -32448,7 +32449,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q18398557",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "West Bengal",
+      "location": "West Bengal, India",
       "latitude": 23.0,
       "longitude": 87.0,
       "coordinateSource": "Wikidata event-location coordinate"
@@ -36359,7 +36360,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Finland Railway Bridge",
+      "location": "Finland Railway Bridge, Russia",
       "fatalities": 0,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroflot_Flight_366"
     },
@@ -38011,7 +38012,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Tarasovychi",
+      "location": "Kyiv Oblast",
       "fatalities": 34,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroflot_Flight_036"
     },
@@ -39008,6 +39009,21 @@
       "fatalities": 2
     },
     {
+      "id": "WIKIDATA-Q136335514",
+      "date": "1958-06-16",
+      "title": "Serviços Aéreos Cruzeiro do Sul Flight 412",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q136335514",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "operator": "Serviços Aéreos Cruzeiro do Sul",
+      "location": "Brazil",
+      "fatalities": 21,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Servi%C3%A7os_A%C3%A9reos_Cruzeiro_do_Sul_Flight_412"
+    },
+    {
       "id": "WIKIDATA-Q19909934",
       "date": "1958-06-09",
       "title": "Aeroflot Flight 105",
@@ -39061,7 +39077,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Capital Airlines",
-      "location": "Brunswick",
+      "location": "Brunswick, United States",
       "fatalities": 11,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Capital_Airlines_Flight_300"
     },
@@ -39112,7 +39128,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16662491",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Sheremetyevsky",
+      "location": "Sheremetyevsky, Russia",
       "fatalities": 10
     },
     {
@@ -39389,7 +39405,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q18237557",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Vnukovo International Airport",
+      "location": "Vnukovo International Airport, Russia",
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1957_Romanian_Ilyushin_Il-14_crash"
     },
     {
@@ -40921,7 +40937,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q11616908",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Netaji Subhas Chandra Bose International Airport",
+      "location": "Netaji Subhas Chandra Bose International Airport, India",
       "fatalities": 43,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/BOAC_Flight_783"
     },
@@ -42368,7 +42384,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q4836509",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "operator": "British South American Airways",
+      "operator": "Q4971082",
       "fatalities": 20,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/BSAA_Star_Ariel_disappearance"
     },
@@ -42840,7 +42856,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q4836516",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "operator": "British South American Airways",
+      "operator": "Q4971082",
       "fatalities": 31,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/BSAA_Star_Tiger_disappearance"
     },
@@ -43003,7 +43019,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q337044",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "operator": "British South American Airways",
+      "operator": "Q4971082",
       "aircraft": "Avro Lancastrian",
       "family": "Avro Lancastrian",
       "location": "Tupungato Volcano, Argentina",
@@ -43334,7 +43350,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q19915933",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Ufa"
+      "location": "Ufa, Russia"
     },
     {
       "id": "WIKIDATA-Q66310912",
@@ -43455,7 +43471,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q68556166",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "operator": "British South American Airways",
+      "operator": "Q4971082",
       "location": "The Gambia",
       "fatalities": 24
     },
@@ -43591,7 +43607,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q19916752",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Q17154900"
+      "location": "Q17154900, Russia"
     },
     {
       "id": "WIKIDATA-Q138004307",
