@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T08:08:16.882790Z",
+  "updatedAt": "2026-09-03T08:17:05.365963Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2947 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -19402,7 +19402,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Pakistan International Airlines",
-      "location": "Lower Himalayan Range, Nepal",
+      "location": "Kathmandu, Nepal",
       "latitude": 27.53277778,
       "longitude": 85.28472222,
       "coordinateSource": "Wikidata event coordinate",
@@ -21856,7 +21856,8 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroperu",
-      "fatalities": 12
+      "fatalities": 12,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroper%C3%BA_Flight_772"
     },
     {
       "id": "WIKIDATA-Q6019789",
@@ -38620,7 +38621,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Kyiv Oblast",
+      "location": "Tarasovychi",
       "fatalities": 34,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroflot_Flight_036"
     },
@@ -41510,7 +41511,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Barzas",
+      "location": "Kemerovsky District",
       "fatalities": 27
     },
     {
