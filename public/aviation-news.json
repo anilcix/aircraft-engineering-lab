@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T04:34:11.237Z",
+  "updatedAt": "2026-09-04T11:18:22.187Z",
   "items": [
     {
       "title": "Amendment 73: D.9 Habitable Worlds Observatory Instrument Concept Assessments: Correction regarding collaborators on category 2 proposals",
@@ -9,6 +9,15 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor.",
       "publishedAt": "2026-09-03T15:23:20.000Z"
+    },
+    {
+      "title": "NASA Revamps Challenge Linking Community College Studies to Aerospace Careers",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/learning-resources/linking-community-college-studies-to-aerospace-careers/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor.",
+      "publishedAt": "2026-09-02T19:01:05.000Z"
     },
     {
       "title": "Planetary Exploration Science Technology Office (PESTO)",
@@ -47,6 +56,15 @@
       "publishedAt": "2026-08-20T14:57:01.000Z"
     },
     {
+      "title": "NASA Student Aviation Challenge Focuses on Nation’s Infrastructure",
+      "source": "NASA Aeronautics",
+      "category": "Structures",
+      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji alanındaki yeni bir güncellemeyi ele alıyor.",
+      "publishedAt": "2026-08-18T18:03:44.000Z"
+    },
+    {
       "title": "NASA Pushes New Wing Design to Find Structural Limits article 1 month ago",
       "source": "NASA Aeronautics",
       "category": "Structures",
@@ -78,22 +96,6 @@
       "url": "https://www.nasa.gov/manufacturing-and-materials/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık malzemeleri ve malzeme teknolojileri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "NASA Student Aviation Challenge Focuses on Nation’s Infrastructure",
-      "source": "NASA Aeronautics",
-      "category": "Structures",
-      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "NASA Revamps Challenge Linking Community College Studies to Aerospace Careers",
-      "source": "NASA Aeronautics",
-      "category": "Industry",
-      "url": "https://www.nasa.gov/learning-resources/linking-community-college-studies-to-aerospace-careers/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
       "title": "Ultra-Efficient Aviation",
@@ -136,6 +138,14 @@
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
+      "title": "#94 Manufacturing Matters - Leveraging AI for Defense Supply Chains",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Manufacturing",
+      "url": "https://www.aerospacemanufacturinganddesign.com/media/manufacturing-matters-podcast-mfg-radio-network-leveraging-ai-for-defense-supply-chains-vantive-brennan-grignon/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
+      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
       "title": "Muratec USA brings &#x2018;Automation for All&#x2019; to IMTS 2026",
       "source": "Aerospace Manufacturing & Design",
       "category": "Manufacturing",
@@ -158,14 +168,6 @@
       "url": "https://www.aerospacemanufacturinganddesign.com/news/ge-aerospace-awarded-hycat-program-contract/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "#94 Manufacturing Matters - Leveraging AI for Defense Supply Chains",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Manufacturing",
-      "url": "https://www.aerospacemanufacturinganddesign.com/media/manufacturing-matters-podcast-mfg-radio-network-leveraging-ai-for-defense-supply-chains-vantive-brennan-grignon/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
       "title": "Microscreen opens stencil manufacturing facility",
