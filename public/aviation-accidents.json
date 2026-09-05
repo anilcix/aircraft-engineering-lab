@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T08:12:49.927896Z",
+  "updatedAt": "2026-09-05T07:51:10.900826Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2947 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -404,7 +404,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q137909857",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Central Papua, Indonesia",
+      "location": "Karadiri, Indonesia",
       "latitude": -3.3741372,
       "longitude": 135.3955055,
       "coordinateSource": "Wikidata event coordinate",
@@ -1209,7 +1209,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Singapore Airlines",
-      "location": "Suvarnabhumi Airport",
+      "location": "Gulf of Martaban",
       "latitude": 13.681111,
       "longitude": 100.747222,
       "coordinateSource": "Wikidata event-location coordinate",
