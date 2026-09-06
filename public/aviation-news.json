@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T20:24:27.820Z",
+  "updatedAt": "2026-09-06T22:53:45.716Z",
   "items": [
     {
       "title": "NASA’s X-59 Aircraft Builds Momentum Through 25th Flight",
@@ -83,14 +83,6 @@
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
-      "title": "Women to Watch in Manufacturing",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Manufacturing",
-      "url": "https://www.aerospacemanufacturinganddesign.com/tag/women-to-watch/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
       "title": "Technology Transfer & Spinoffs",
       "source": "NASA Aeronautics",
       "category": "Industry",
@@ -137,6 +129,14 @@
       "url": "https://www.nasa.gov/podcasts/small-steps-giant-leaps/episode-180-the-x-59-goes-supersonic-whats-next/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "Women to Watch in Manufacturing",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Manufacturing",
+      "url": "https://www.aerospacemanufacturinganddesign.com/tag/women-to-watch/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
+      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
       "title": "AIR, Elmo Motion Control partner to enhance uncrewed cargo aircraft",
