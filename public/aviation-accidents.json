@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T07:51:10.900826Z",
+  "updatedAt": "2026-09-06T08:07:05.099156Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2947 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -27658,7 +27658,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Korpijärvi, South Korea",
+      "location": "Loukhi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -46676,8 +46676,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "location": "Hrubý Jeseník, Czechoslovakia",
-      "fatalities": 1,
-      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1926_Paris%E2%80%93Bucharest_Potez_25_crash"
+      "fatalities": 1
     },
     {
       "id": "WIKIDATA-Q139601050",
