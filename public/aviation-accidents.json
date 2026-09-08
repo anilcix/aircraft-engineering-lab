@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-07T08:38:21.321801Z",
-  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2947 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
+  "updatedAt": "2026-09-08T08:20:33.044858Z",
+  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2949 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
     {
@@ -180,6 +180,41 @@
     }
   ],
   "items": [
+    {
+      "id": "WIKIDATA-Q141334374",
+      "date": "2026-09-06",
+      "title": "21 Air Flight 7598",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q141334374",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "operator": "21 Air",
+      "location": "Miami International Airport, United States",
+      "latitude": 25.801944444,
+      "longitude": -80.306666666,
+      "coordinateSource": "Wikidata event coordinate",
+      "fatalities": 5,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/21_Air_Flight_7598"
+    },
+    {
+      "id": "WIKIDATA-Q141246366",
+      "date": "2026-08-20",
+      "title": "Security Aviation Flight 45",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q141246366",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "location": "United States",
+      "latitude": 58.648916666,
+      "longitude": -162.172916666,
+      "coordinateSource": "Wikidata event coordinate",
+      "fatalities": 8,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Security_Aviation_Flight_45"
+    },
     {
       "id": "WIKIDATA-Q141131120",
       "date": "2026-08-19",
@@ -404,7 +439,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q137909857",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Karadiri, Indonesia",
+      "location": "Central Papua, Indonesia",
       "latitude": -3.3741372,
       "longitude": 135.3955055,
       "coordinateSource": "Wikidata event coordinate",
@@ -1209,7 +1244,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Singapore Airlines",
-      "location": "Gulf of Martaban",
+      "location": "Suvarnabhumi Airport",
       "latitude": 13.681111,
       "longitude": 100.747222,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -14635,7 +14670,7 @@
       "latitude": -18.125,
       "longitude": 140.05,
       "coordinateSource": "Wikidata event coordinate",
-      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2000_Australia_Beechcraft_King_Air_crash"
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2000_Queensland_Beechcraft_King_Air_crash"
     },
     {
       "id": "WIKIDATA-Q3271379",
@@ -27658,7 +27693,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Loukhi, South Korea",
+      "location": "Korpijärvi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -36789,6 +36824,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "location": "Vogelsberg, East Germany",
+      "fatalities": 3,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1964_T-39_shootdown_incident"
     },
     {
@@ -41511,7 +41547,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Barzas",
+      "location": "Kemerovsky District",
       "fatalities": 27
     },
     {
@@ -47046,9 +47082,9 @@
   "discoveryNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
   "counts": {
     "officialIndexed": 40,
-    "discovery": 2947,
-    "totalVisible": 2987,
-    "withCoordinates": 1607
+    "discovery": 2949,
+    "totalVisible": 2989,
+    "withCoordinates": 1609
   },
-  "mapNote": "1607 indexed records currently include structured map coordinates. Records without coordinates remain searchable in the case library but are omitted from the map."
+  "mapNote": "1609 indexed records currently include structured map coordinates. Records without coordinates remain searchable in the case library but are omitted from the map."
 }
