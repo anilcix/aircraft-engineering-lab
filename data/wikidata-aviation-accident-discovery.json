@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T08:20:32.902359Z",
+  "updatedAt": "2026-09-09T08:22:38.641575Z",
   "source": "Wikidata Query Service / aviation accident (Q744913)",
   "license": "Wikidata structured data is CC0",
   "coverageNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
@@ -265,7 +265,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q137909857",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Central Papua, Indonesia",
+      "location": "Karadiri, Indonesia",
       "latitude": -3.3741372,
       "longitude": 135.3955055,
       "coordinateSource": "Wikidata event coordinate",
@@ -45595,6 +45595,19 @@
       "location": "Bushehr, Iran",
       "fatalities": 0,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1935_Bushehr_KLM_Douglas_DC-2_crash"
+    },
+    {
+      "id": "WIKIDATA-Q97285911",
+      "date": "1935-07-11",
+      "title": "Q97285911",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q97285911",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "location": "Estonia",
+      "fatalities": 2
     },
     {
       "id": "WIKIDATA-Q21640154",

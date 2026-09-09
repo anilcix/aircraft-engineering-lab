@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-08T08:20:33.044858Z",
-  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2949 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
+  "updatedAt": "2026-09-09T08:22:38.791709Z",
+  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2950 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
     {
@@ -439,7 +439,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q137909857",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Central Papua, Indonesia",
+      "location": "Karadiri, Indonesia",
       "latitude": -3.3741372,
       "longitude": 135.3955055,
       "coordinateSource": "Wikidata event coordinate",
@@ -46205,6 +46205,19 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1935_Bushehr_KLM_Douglas_DC-2_crash"
     },
     {
+      "id": "WIKIDATA-Q97285911",
+      "date": "1935-07-11",
+      "title": "Q97285911",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q97285911",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "location": "Estonia",
+      "fatalities": 2
+    },
+    {
       "id": "WIKIDATA-Q21640154",
       "date": "1935-06-26",
       "title": "S.55 crash near Lazarevo",
@@ -47082,8 +47095,8 @@
   "discoveryNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
   "counts": {
     "officialIndexed": 40,
-    "discovery": 2949,
-    "totalVisible": 2989,
+    "discovery": 2950,
+    "totalVisible": 2990,
     "withCoordinates": 1609
   },
   "mapNote": "1609 indexed records currently include structured map coordinates. Records without coordinates remain searchable in the case library but are omitted from the map."
