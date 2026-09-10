@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T08:22:38.641575Z",
+  "updatedAt": "2026-09-10T08:23:00.411236Z",
   "source": "Wikidata Query Service / aviation accident (Q744913)",
   "license": "Wikidata structured data is CC0",
   "coverageNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
@@ -27085,7 +27085,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Korpijärvi, South Korea",
+      "location": "Loukhi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -28697,7 +28697,7 @@
       "operator": "Aeroflot",
       "aircraft": "Tupolev Tu-104",
       "family": "Tupolev Tu-104",
-      "location": "Irkutsk International Airport",
+      "location": "Russian Soviet Federative Socialist Republic",
       "latitude": 52.26166667,
       "longitude": 104.4102778,
       "coordinateSource": "Wikidata event coordinate",
@@ -33595,7 +33595,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q108805116",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Emling"
+      "location": "Bockhorn"
     },
     {
       "id": "WIKIDATA-Q11737218",
@@ -34350,7 +34350,7 @@
     {
       "id": "WIKIDATA-Q10926933",
       "date": "1967-11-05",
-      "title": "Q10926933",
+      "title": "Cathay Pacific Flight 033",
       "authority": "Wikidata discovery",
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
@@ -34358,7 +34358,8 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Cathay Pacific",
-      "fatalities": 1
+      "fatalities": 1,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Cathay_Pacific_Flight_033"
     },
     {
       "id": "WIKIDATA-Q16846287",
@@ -40939,7 +40940,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Kemerovsky District",
+      "location": "Barzas",
       "fatalities": 27
     },
     {
