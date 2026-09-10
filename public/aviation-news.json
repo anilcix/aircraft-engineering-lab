@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-09-10T20:52:14.420Z",
+  "updatedAt": "2026-09-10T23:11:06.824Z",
   "items": [
-    {
-      "title": "NASA’s X-59 Aircraft Builds Momentum Through 25th Flight",
-      "source": "NASA Aeronautics",
-      "category": "Industry",
-      "url": "https://www.nasa.gov/blogs/quesst/2026/09/04/nasas-x-59-aircraft-builds-momentum-through-25th-flight/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor.",
-      "publishedAt": "2026-09-04T15:32:49.000Z"
-    },
     {
       "title": "Amendment 73: D.9 Habitable Worlds Observatory Instrument Concept Assessments: Correction regarding collaborators on category 2 proposals",
       "source": "NASA Aeronautics",
@@ -18,15 +9,6 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor.",
       "publishedAt": "2026-09-03T15:23:20.000Z"
-    },
-    {
-      "title": "NASA Revamps Challenge Linking Community College Studies to Aerospace Careers",
-      "source": "NASA Aeronautics",
-      "category": "Industry",
-      "url": "https://www.nasa.gov/learning-resources/linking-community-college-studies-to-aerospace-careers/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor.",
-      "publishedAt": "2026-09-02T19:01:05.000Z"
     },
     {
       "title": "Planetary Exploration Science Technology Office (PESTO)",
@@ -54,15 +36,6 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "publishedAt": "2026-08-25T13:00:00.000Z",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, motor, türbin ve itki sistemleri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "NASA Selects University Teams to Help Advance Aviation Research",
-      "source": "NASA Aeronautics",
-      "category": "Industry",
-      "url": "https://www.nasa.gov/aeronautics/nasa-selects-university-teams-to-help-advance-aviation-research/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor.",
-      "publishedAt": "2026-08-20T14:57:01.000Z"
     },
     {
       "title": "NASA Student Aviation Challenge Focuses on Nation’s Infrastructure",
@@ -105,6 +78,38 @@
       "url": "https://www.nasa.gov/manufacturing-and-materials/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık malzemeleri ve malzeme teknolojileri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "NASA’s X-59 Aircraft Builds Momentum Through 25th Flight",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/blogs/quesst/2026/09/04/nasas-x-59-aircraft-builds-momentum-through-25th-flight/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "NASA Selects University Teams to Help Advance Aviation Research",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/aeronautics/nasa-selects-university-teams-to-help-advance-aviation-research/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "NASA’s Life-Saving Technology Where Cell Signals Can’t Go",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasas-life-saving-technology-where-cell-signals-cant-go/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "NASA Revamps Challenge Linking Community College Studies to Aerospace Careers",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/learning-resources/linking-community-college-studies-to-aerospace-careers/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
       "title": "Ultra-Efficient Aviation",
