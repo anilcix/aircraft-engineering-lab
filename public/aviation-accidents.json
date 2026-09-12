@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T08:18:05.936381Z",
+  "updatedAt": "2026-09-12T08:07:17.924507Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2950 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -22473,7 +22473,8 @@
       "latitude": 61.34486111,
       "longitude": 73.38933333,
       "coordinateSource": "Wikidata event coordinate",
-      "fatalities": 20
+      "fatalities": 20,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroflot_Flight_7867"
     },
     {
       "id": "WIKIDATA-Q4655029",
@@ -22539,7 +22540,8 @@
       "location": "Nizhnevartovsk Airport, Russia",
       "latitude": 60.975,
       "longitude": 76.526111111,
-      "coordinateSource": "Wikidata event coordinate"
+      "coordinateSource": "Wikidata event coordinate",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroflot_Flight_29674"
     },
     {
       "id": "WIKIDATA-Q24884216",
@@ -40512,6 +40514,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q120883212",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
+      "operator": "Czechoslovak Airlines",
       "location": "Eglisau, Switzerland",
       "fatalities": 23,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/%C4%8CSA_Flight_548"
@@ -41548,7 +41551,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Kemerovsky District",
+      "location": "Barzas",
       "fatalities": 27
     },
     {
