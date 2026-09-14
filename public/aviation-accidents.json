@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-13T08:31:57.582169Z",
-  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2950 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
+  "updatedAt": "2026-09-14T09:14:41.775873Z",
+  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2953 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
     {
@@ -7702,26 +7702,6 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Silk_Way_Airlines_Flight_995"
     },
     {
-      "id": "WIKIDATA-Q11974851",
-      "date": "2011-07-04",
-      "title": "Q11974851",
-      "authority": "Wikidata discovery",
-      "status": "Discovery record — official verification pending",
-      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
-      "sourceUrl": "http://www.wikidata.org/entity/Q11974851",
-      "sourceTier": "discovery",
-      "verificationStatus": "secondary structured discovery",
-      "operator": "Airlift AS",
-      "aircraft": "Eurocopter AS350 Écureuil",
-      "family": "Eurocopter AS350 Écureuil",
-      "location": "Norway",
-      "latitude": 60.407415,
-      "longitude": 6.97164,
-      "coordinateSource": "Wikidata event coordinate",
-      "fatalities": 5,
-      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2011_Dalamot_helicopter_crash"
-    },
-    {
       "id": "WIKIDATA-Q5493210",
       "date": "2011-07-04",
       "title": "Missinippi Airways Cessna 208 crash",
@@ -7737,6 +7717,26 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 1,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2011_Missinippi_Airways_Cessna_208_crash"
+    },
+    {
+      "id": "WIKIDATA-Q11974851",
+      "date": "2011-07-04",
+      "title": "2011 Dalamot helicopter crash",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q11974851",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "operator": "Airlift AS",
+      "aircraft": "Eurocopter AS350 Écureuil",
+      "family": "Eurocopter AS350 Écureuil",
+      "location": "Norway",
+      "latitude": 60.407415,
+      "longitude": 6.97164,
+      "coordinateSource": "Wikidata event coordinate",
+      "fatalities": 5,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2011_Dalamot_helicopter_crash"
     },
     {
       "id": "WIKIDATA-Q1762806",
@@ -13869,7 +13869,7 @@
     {
       "id": "WIKIDATA-Q17353552",
       "date": "2001-12-26",
-      "title": "Q17353552",
+      "title": "2001 Bremerhaven Airline Britten-Norman Islander crash",
       "authority": "Wikidata discovery",
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
@@ -19437,7 +19437,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Pakistan International Airlines",
-      "location": "Lower Himalayan Range, Nepal",
+      "location": "Kathmandu, Nepal",
       "latitude": 27.53277778,
       "longitude": 85.28472222,
       "coordinateSource": "Wikidata event coordinate",
@@ -21357,6 +21357,20 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 79,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Korean_Air_Flight_803"
+    },
+    {
+      "id": "WIKIDATA-Q124759144",
+      "date": "1989-07-21",
+      "title": "Philippine Airlines Flight 124",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q124759144",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "location": "Philippines",
+      "fatalities": 8,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Philippine_Airlines_Flight_124"
     },
     {
       "id": "NTSB-DCA89MA063",
@@ -34205,7 +34219,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q108805116",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Emling"
+      "location": "Bockhorn"
     },
     {
       "id": "WIKIDATA-Q11737218",
@@ -36664,6 +36678,20 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Civil_Air_Transport_Flight_106"
     },
     {
+      "id": "WIKIDATA-Q124968095",
+      "date": "1964-05-20",
+      "title": "Philippine Airlines Flight F26",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q124968095",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "location": "Philippines",
+      "fatalities": 11,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Philippine_Air_Lines_Flight_F26"
+    },
+    {
       "id": "WIKIDATA-Q1414752",
       "date": "1964-05-07",
       "title": "Pacific Air Lines Flight 773",
@@ -37577,7 +37605,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q20986953",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Mount Kit Carson"
+      "location": "Spokane"
     },
     {
       "id": "WIKIDATA-Q18398627",
@@ -44319,8 +44347,24 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q1332211",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
+      "operator": "United States Navy",
       "location": "United States",
+      "fatalities": 14,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Flight_19"
+    },
+    {
+      "id": "WIKIDATA-Q137375915",
+      "date": "1945-10-16",
+      "title": "1945 Beiping C-46 crash",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q137375915",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "location": "Republic of China",
+      "fatalities": 59,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1945_Beiping_C-46_crash"
     },
     {
       "id": "WIKIDATA-Q16000689",
@@ -47099,8 +47143,8 @@
   "discoveryNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
   "counts": {
     "officialIndexed": 40,
-    "discovery": 2950,
-    "totalVisible": 2990,
+    "discovery": 2953,
+    "totalVisible": 2993,
     "withCoordinates": 1609
   },
   "mapNote": "1609 indexed records currently include structured map coordinates. Records without coordinates remain searchable in the case library but are omitted from the map."
