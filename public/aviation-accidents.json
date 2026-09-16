@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T08:57:31.603024Z",
+  "updatedAt": "2026-09-16T08:50:30.837830Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2953 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -5384,7 +5384,8 @@
       "latitude": 18.03833333,
       "longitude": -63.12722222,
       "coordinateSource": "Wikidata event coordinate",
-      "fatalities": 2
+      "fatalities": 2,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Skyway_Enterprises_Flight_7101"
     },
     {
       "id": "WIKIDATA-Q8929770",
@@ -19437,7 +19438,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Pakistan International Airlines",
-      "location": "Lower Himalayan Range, Nepal",
+      "location": "Kathmandu, Nepal",
       "latitude": 27.53277778,
       "longitude": 85.28472222,
       "coordinateSource": "Wikidata event coordinate",
@@ -27709,7 +27710,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Loukhi, South Korea",
+      "location": "Korpijärvi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -36058,7 +36059,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "United States Marine Corps",
-      "location": "Kowloon Bay",
+      "location": "Kai Tak Airport",
       "fatalities": 59,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1965_Hong_Kong_USMC_KC-130F_crash"
     },

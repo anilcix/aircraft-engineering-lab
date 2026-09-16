@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T08:57:31.445127Z",
+  "updatedAt": "2026-09-16T08:50:30.722642Z",
   "source": "Wikidata Query Service / aviation accident (Q744913)",
   "license": "Wikidata structured data is CC0",
   "coverageNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
@@ -4846,7 +4846,8 @@
       "latitude": 18.03833333,
       "longitude": -63.12722222,
       "coordinateSource": "Wikidata event coordinate",
-      "fatalities": 2
+      "fatalities": 2,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Skyway_Enterprises_Flight_7101"
     },
     {
       "id": "WIKIDATA-Q8929770",
@@ -18848,7 +18849,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Pakistan International Airlines",
-      "location": "Lower Himalayan Range, Nepal",
+      "location": "Kathmandu, Nepal",
       "latitude": 27.53277778,
       "longitude": 85.28472222,
       "coordinateSource": "Wikidata event coordinate",
@@ -27101,7 +27102,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Loukhi, South Korea",
+      "location": "Korpijärvi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -35450,7 +35451,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "United States Marine Corps",
-      "location": "Kowloon Bay",
+      "location": "Kai Tak Airport",
       "fatalities": 59,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1965_Hong_Kong_USMC_KC-130F_crash"
     },
