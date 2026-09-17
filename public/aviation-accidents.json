@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T08:50:30.837830Z",
+  "updatedAt": "2026-09-17T08:53:45.738172Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2953 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -7527,7 +7527,8 @@
       "latitude": 50.425,
       "longitude": 127.413333333,
       "coordinateSource": "Wikidata event-location coordinate",
-      "fatalities": 0
+      "fatalities": 0,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/IrAero_Flight_103"
     },
     {
       "id": "WIKIDATA-Q4055781",
@@ -34220,7 +34221,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q108805116",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Bockhorn"
+      "location": "Emling"
     },
     {
       "id": "WIKIDATA-Q11737218",
@@ -36059,7 +36060,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "United States Marine Corps",
-      "location": "Kai Tak Airport",
+      "location": "Kowloon Bay",
       "fatalities": 59,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1965_Hong_Kong_USMC_KC-130F_crash"
     },
