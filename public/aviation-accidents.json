@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-17T08:53:45.738172Z",
-  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2953 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
+  "updatedAt": "2026-09-18T08:29:37.802847Z",
+  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2955 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
     {
@@ -180,6 +180,23 @@
     }
   ],
   "items": [
+    {
+      "id": "WIKIDATA-Q141489588",
+      "date": "2026-09-15",
+      "title": "2026 Chatsworth Eurocopter AS350 crash",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q141489588",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "location": "Chatsworth, United States",
+      "latitude": 34.23708,
+      "longitude": -118.58191,
+      "coordinateSource": "Wikidata event coordinate",
+      "fatalities": 3,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2026_Chatsworth_Eurocopter_AS350_crash"
+    },
     {
       "id": "WIKIDATA-Q141334374",
       "date": "2026-09-06",
@@ -1244,7 +1261,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Singapore Airlines",
-      "location": "Suvarnabhumi Airport",
+      "location": "Gulf of Martaban",
       "latitude": 13.681111,
       "longitude": 100.747222,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -3572,7 +3589,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Russian Air Force",
-      "location": "Khmeimim",
+      "location": "Latakia International Airport",
       "latitude": 35.4125,
       "longitude": 35.94167,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -4556,25 +4573,6 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2016_Sunbird_Aviation_Britten-Norman_Islander_crash"
     },
     {
-      "id": "WIKIDATA-Q108859683",
-      "date": "2016-04-06",
-      "title": "crash of a Japan Air Self-Defense Force U-125 at Mt. Takakuma",
-      "authority": "Wikidata discovery",
-      "status": "Discovery record — official verification pending",
-      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
-      "sourceUrl": "http://www.wikidata.org/entity/Q108859683",
-      "sourceTier": "discovery",
-      "verificationStatus": "secondary structured discovery",
-      "operator": "Japan Air Self-Defense Force",
-      "aircraft": "Hawker 800",
-      "family": "Hawker 800",
-      "location": "Takakuma Yama, Japan",
-      "latitude": 31.466666666,
-      "longitude": 130.816666666,
-      "coordinateSource": "Wikidata event-location coordinate",
-      "fatalities": 6
-    },
-    {
       "id": "WIKIDATA-Q28683491",
       "date": "2016-04-06",
       "title": "2016 Ontake U-125 crash",
@@ -4584,7 +4582,13 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q28683491",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Japan",
+      "operator": "Japan Air Self-Defense Force",
+      "aircraft": "Hawker 800",
+      "family": "Hawker 800",
+      "location": "Takakuma Yama, Japan",
+      "latitude": 31.466666666,
+      "longitude": 130.816666666,
+      "coordinateSource": "Wikidata event-location coordinate",
       "fatalities": 6
     },
     {
@@ -19981,6 +19985,23 @@
       "fatalities": 28
     },
     {
+      "id": "WIKIDATA-Q141494330",
+      "date": "1991-12-02",
+      "title": "Q141494330",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q141494330",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "operator": "French Air Force",
+      "location": "Élancourt, France",
+      "latitude": 48.765,
+      "longitude": 1.962777777,
+      "coordinateSource": "Wikidata event coordinate",
+      "fatalities": 4
+    },
+    {
       "id": "WIKIDATA-Q16662337",
       "date": "1991-11-26",
       "title": "Q16662337",
@@ -23210,6 +23231,20 @@
       "longitude": -1.2,
       "coordinateSource": "Wikidata event coordinate",
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1986_British_International_Helicopters_Chinook_crash"
+    },
+    {
+      "id": "WIKIDATA-Q11315858",
+      "date": "1986-10-26",
+      "title": "Thai Airways International Flight 620",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q11315858",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "operator": "Thai Airways",
+      "location": "Japan",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Thai_Airways_International_Flight_620"
     },
     {
       "id": "WIKIDATA-Q4055762",
@@ -28688,7 +28723,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Panfilovo",
+      "location": "Almaty International Airport",
       "latitude": 43.37638889,
       "longitude": 77.10277778,
       "coordinateSource": "Wikidata event coordinate",
@@ -32500,7 +32535,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Eastern Air Lines",
-      "location": "Raleigh–Durham International Airport, United States",
+      "location": "North Carolina, United States",
       "latitude": 35.877777777,
       "longitude": -78.7875,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -34135,7 +34170,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16488132",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Guldala",
+      "location": "Almaty International Airport",
       "fatalities": 4
     },
     {
@@ -37607,7 +37642,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q20986953",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Spokane"
+      "location": "Mount Kit Carson"
     },
     {
       "id": "WIKIDATA-Q18398627",
@@ -41716,7 +41751,7 @@
     {
       "id": "WIKIDATA-Q19909320",
       "date": "1953-01-23",
-      "title": "Q19909320",
+      "title": "Kazan mid-air collision",
       "authority": "Wikidata discovery",
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
@@ -47145,9 +47180,9 @@
   "discoveryNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
   "counts": {
     "officialIndexed": 40,
-    "discovery": 2953,
-    "totalVisible": 2993,
-    "withCoordinates": 1609
+    "discovery": 2955,
+    "totalVisible": 2995,
+    "withCoordinates": 1611
   },
-  "mapNote": "1609 indexed records currently include structured map coordinates. Records without coordinates remain searchable in the case library but are omitted from the map."
+  "mapNote": "1611 indexed records currently include structured map coordinates. Records without coordinates remain searchable in the case library but are omitted from the map."
 }
