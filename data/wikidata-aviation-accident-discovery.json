@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T08:17:50.641839Z",
+  "updatedAt": "2026-09-20T08:51:41.057794Z",
   "source": "Wikidata Query Service / aviation accident (Q744913)",
   "license": "Wikidata structured data is CC0",
   "coverageNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
@@ -3094,7 +3094,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Russian Air Force",
-      "location": "Khmeimim",
+      "location": "Latakia International Airport",
       "latitude": 35.4125,
       "longitude": 35.94167,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -7969,7 +7969,7 @@
       "longitude": -121.533,
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 2,
-      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2010_Conair_CV-580_crash"
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2010_Conair_Aviation_Convair_CV-580_crash"
     },
     {
       "id": "WIKIDATA-Q4616571",
@@ -18854,7 +18854,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Pakistan International Airlines",
-      "location": "Kathmandu, Nepal",
+      "location": "Lower Himalayan Range, Nepal",
       "latitude": 27.53277778,
       "longitude": 85.28472222,
       "coordinateSource": "Wikidata event coordinate",
@@ -27138,7 +27138,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Loukhi, South Korea",
+      "location": "Korpijärvi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -29830,7 +29830,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Pulkovo Airport",
+      "location": "Leningrad Oblast",
       "latitude": 59.79822222,
       "longitude": 30.34091667,
       "coordinateSource": "Wikidata event coordinate",
@@ -31927,7 +31927,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Eastern Air Lines",
-      "location": "Raleigh–Durham International Airport, United States",
+      "location": "North Carolina, United States",
       "latitude": 35.877777777,
       "longitude": -78.7875,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -38420,7 +38420,7 @@
     {
       "id": "WIKIDATA-Q19850428",
       "date": "1959-12-17",
-      "title": "Q19850428",
+      "title": "Aeroflot Flight 345",
       "authority": "Wikidata discovery",
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
@@ -39623,7 +39623,7 @@
     {
       "id": "WIKIDATA-Q18398574",
       "date": "1957-08-07",
-      "title": "Q18398574",
+      "title": "Aeroflot Flight 554a",
       "authority": "Wikidata discovery",
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
