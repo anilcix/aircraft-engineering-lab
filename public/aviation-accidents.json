@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T08:51:41.267756Z",
+  "updatedAt": "2026-09-21T09:17:44.511881Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2955 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -491,7 +491,7 @@
       "operator": "Indonesia Air Transport",
       "aircraft": "ATR 42-500",
       "family": "ATR 42",
-      "location": "Leang-Leang, Indonesia",
+      "location": "Bantimurung – Bulusaraung National Park, Indonesia",
       "latitude": -4.952222,
       "longitude": 119.715,
       "coordinateSource": "Wikidata event coordinate",
@@ -3589,7 +3589,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Russian Air Force",
-      "location": "Latakia International Airport",
+      "location": "Khmeimim",
       "latitude": 35.4125,
       "longitude": 35.94167,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -19443,7 +19443,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Pakistan International Airlines",
-      "location": "Lower Himalayan Range, Nepal",
+      "location": "Kathmandu, Nepal",
       "latitude": 27.53277778,
       "longitude": 85.28472222,
       "coordinateSource": "Wikidata event coordinate",
@@ -27746,7 +27746,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Korpijärvi, South Korea",
+      "location": "Loukhi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -30438,7 +30438,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Leningrad Oblast",
+      "location": "Pulkovo Airport",
       "latitude": 59.79822222,
       "longitude": 30.34091667,
       "coordinateSource": "Wikidata event coordinate",
@@ -32399,7 +32399,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Sterling Airlines",
-      "location": "Kalba, United Arab Emirates",
+      "location": "Dubai, United Arab Emirates",
       "latitude": 25.0742,
       "longitude": 56.3553,
       "coordinateSource": "Wikidata event coordinate",
@@ -32535,7 +32535,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Eastern Air Lines",
-      "location": "North Carolina, United States",
+      "location": "Raleigh–Durham International Airport, United States",
       "latitude": 35.877777777,
       "longitude": -78.7875,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -37642,7 +37642,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q20986953",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Mount Kit Carson"
+      "location": "Spokane"
     },
     {
       "id": "WIKIDATA-Q18398627",
@@ -40778,7 +40778,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Sokhumi"
+      "location": "Black Sea"
     },
     {
       "id": "WIKIDATA-Q7060140",
