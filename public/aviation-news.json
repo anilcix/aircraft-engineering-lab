@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-09-22T11:39:10.601Z",
+  "updatedAt": "2026-09-22T16:57:49.809Z",
   "items": [
-    {
-      "title": "NASA Celebrates Restoration of Guam Station Damaged by Typhoon Mawar",
-      "source": "NASA Aeronautics",
-      "category": "New Concepts",
-      "url": "https://www.nasa.gov/technology/space-comms/nasa-celebrates-restoration-of-guam-station-damaged-by-typhoon-mawar/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor.",
-      "publishedAt": "2026-09-16T16:12:01.000Z"
-    },
-    {
-      "title": "NASA’s Life-Saving Technology Where Cell Signals Can’t Go",
-      "source": "NASA Aeronautics",
-      "category": "Industry",
-      "url": "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasas-life-saving-technology-where-cell-signals-cant-go/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor.",
-      "publishedAt": "2026-09-10T20:12:39.000Z"
-    },
     {
       "title": "After Latest Swing Past Sun, NASA’s Parker Solar Probe Checks in",
       "source": "NASA Aeronautics",
@@ -27,15 +9,6 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji alanındaki yeni bir güncellemeyi ele alıyor.",
       "publishedAt": "2026-09-10T19:53:55.000Z"
-    },
-    {
-      "title": "Blog 5 Min Read NASA’s X-59 Aircraft Builds Momentum Through 25th Flight",
-      "source": "NASA Aeronautics",
-      "category": "Industry",
-      "url": "https://www.nasa.gov/blogs/quesst/2026/09/04/nasas-x-59-aircraft-builds-momentum-through-25th-flight/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor.",
-      "publishedAt": "2026-09-04T15:32:49.000Z"
     },
     {
       "title": "Amendment 73: D.9 Habitable Worlds Observatory Instrument Concept Assessments: Correction regarding collaborators on category 2 proposals",
@@ -83,24 +56,6 @@
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, motor, türbin ve itki sistemleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
-      "title": "NASA Selects University Teams to Help Advance Aviation Research article 1 month ago",
-      "source": "NASA Aeronautics",
-      "category": "Industry",
-      "url": "https://www.nasa.gov/aeronautics/nasa-selects-university-teams-to-help-advance-aviation-research/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor.",
-      "publishedAt": "2026-08-20T14:57:01.000Z"
-    },
-    {
-      "title": "NASA Student Aviation Challenge Focuses on Nation’s Infrastructure Article",
-      "source": "NASA Aeronautics",
-      "category": "Structures",
-      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji alanındaki yeni bir güncellemeyi ele alıyor.",
-      "publishedAt": "2026-08-18T18:03:44.000Z"
-    },
-    {
       "title": "NASA Pushes New Wing Design to Find Structural Limits article 1 month ago",
       "source": "NASA Aeronautics",
       "category": "Structures",
@@ -134,6 +89,30 @@
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık malzemeleri ve malzeme teknolojileri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
+      "title": "NASA Selects University Teams to Help Advance Aviation Research article 1 month ago",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/aeronautics/nasa-selects-university-teams-to-help-advance-aviation-research/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "NASA Celebrates Restoration of Guam Station Damaged by Typhoon Mawar",
+      "source": "NASA Aeronautics",
+      "category": "New Concepts",
+      "url": "https://www.nasa.gov/technology/space-comms/nasa-celebrates-restoration-of-guam-station-damaged-by-typhoon-mawar/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "NASA’s Life-Saving Technology Where Cell Signals Can’t Go",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasas-life-saving-technology-where-cell-signals-cant-go/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
       "title": "Ultra-Efficient Aviation",
       "source": "NASA Aeronautics",
       "category": "Industry",
@@ -150,12 +129,28 @@
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
+      "title": "Blog 5 Min Read NASA’s X-59 Aircraft Builds Momentum Through 25th Flight",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/blogs/quesst/2026/09/04/nasas-x-59-aircraft-builds-momentum-through-25th-flight/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
       "title": "Episode 180: The X-59 Goes Supersonic: What’s Next?",
       "source": "NASA Aeronautics",
       "category": "New Concepts",
       "url": "https://www.nasa.gov/podcasts/small-steps-giant-leaps/episode-180-the-x-59-goes-supersonic-whats-next/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "NASA Student Aviation Challenge Focuses on Nation’s Infrastructure Article",
+      "source": "NASA Aeronautics",
+      "category": "Structures",
+      "url": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
       "title": "Women to Watch in Manufacturing",
