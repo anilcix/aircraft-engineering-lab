@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T09:17:44.511881Z",
+  "updatedAt": "2026-09-22T08:47:31.836780Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2955 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -491,7 +491,7 @@
       "operator": "Indonesia Air Transport",
       "aircraft": "ATR 42-500",
       "family": "ATR 42",
-      "location": "Bantimurung – Bulusaraung National Park, Indonesia",
+      "location": "Leang-Leang, Indonesia",
       "latitude": -4.952222,
       "longitude": 119.715,
       "coordinateSource": "Wikidata event coordinate",
@@ -22418,7 +22418,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Avianca",
-      "location": "Cúcuta, Colombia",
+      "location": "Q216847, Colombia",
       "latitude": 8.0837,
       "longitude": -72.6925,
       "coordinateSource": "Wikidata event coordinate",
@@ -32399,7 +32399,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Sterling Airlines",
-      "location": "Dubai, United Arab Emirates",
+      "location": "Kalba, United Arab Emirates",
       "latitude": 25.0742,
       "longitude": 56.3553,
       "coordinateSource": "Wikidata event coordinate",
@@ -32535,7 +32535,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Eastern Air Lines",
-      "location": "Raleigh–Durham International Airport, United States",
+      "location": "North Carolina, United States",
       "latitude": 35.877777777,
       "longitude": -78.7875,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -36028,7 +36028,7 @@
       "verificationStatus": "secondary structured discovery",
       "aircraft": "Curtiss C-46 Commando",
       "family": "Curtiss C-46 Commando",
-      "location": "Cúcuta, Colombia",
+      "location": "Q216847, Colombia",
       "fatalities": 4
     },
     {
@@ -37642,7 +37642,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q20986953",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Spokane"
+      "location": "Mount Kit Carson"
     },
     {
       "id": "WIKIDATA-Q18398627",
@@ -40778,7 +40778,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Black Sea"
+      "location": "Sokhumi"
     },
     {
       "id": "WIKIDATA-Q7060140",
