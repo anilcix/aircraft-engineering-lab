@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T08:49:14.058640Z",
+  "updatedAt": "2026-09-24T08:46:18.520448Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2955 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -32535,7 +32535,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Eastern Air Lines",
-      "location": "Raleigh–Durham International Airport, United States",
+      "location": "North Carolina, United States",
       "latitude": 35.877777777,
       "longitude": -78.7875,
       "coordinateSource": "Wikidata event-location coordinate",
