@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-09-25T17:11:38.755Z",
+  "updatedAt": "2026-09-25T21:35:07.846Z",
   "items": [
+    {
+      "title": "2026-2027 DWU: High School Engineering Challenge",
+      "source": "NASA Aeronautics",
+      "category": "Propulsion",
+      "url": "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-high-school-engineering-challenge/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, motor, türbin ve itki sistemleri alanındaki yeni bir güncellemeyi ele alıyor.",
+      "publishedAt": "2026-09-25T17:19:42.000Z"
+    },
     {
       "title": "NASA Celebrates Restoration of Guam Station Damaged by Typhoon Mawar",
       "source": "NASA Aeronautics",
@@ -150,14 +159,6 @@
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
-      "title": "Episode 180: The X-59 Goes Supersonic: What’s Next?",
-      "source": "NASA Aeronautics",
-      "category": "New Concepts",
-      "url": "https://www.nasa.gov/podcasts/small-steps-giant-leaps/episode-180-the-x-59-goes-supersonic-whats-next/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
       "title": "Women to Watch in Manufacturing",
       "source": "Aerospace Manufacturing & Design",
       "category": "Manufacturing",
@@ -180,6 +181,14 @@
       "url": "https://www.aerospacemanufacturinganddesign.com/media/september-manufacturing-lunch-learn-webinar-exostar/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "Episode 180: The X-59 Goes Supersonic: What’s Next?",
+      "source": "NASA Aeronautics",
+      "category": "New Concepts",
+      "url": "https://www.nasa.gov/podcasts/small-steps-giant-leaps/episode-180-the-x-59-goes-supersonic-whats-next/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
       "title": "National Manufacturing Day &#x2018;3D Printing for Drones&#x2019; student experiences planned in 5 states",
