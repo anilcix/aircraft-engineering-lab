@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T16:23:52.631Z",
+  "updatedAt": "2026-09-26T21:10:39.340Z",
   "items": [
     {
       "title": "NASA’s Swift Powers On Third Instrument, Restarts Automated Slewing",
@@ -45,15 +45,6 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji alanındaki yeni bir güncellemeyi ele alıyor.",
       "publishedAt": "2026-09-10T19:53:55.000Z"
-    },
-    {
-      "title": "NASA’s X-59 Aircraft Builds Momentum Through 25th Flight Blog",
-      "source": "NASA Aeronautics",
-      "category": "Industry",
-      "url": "https://www.nasa.gov/blogs/quesst/2026/09/04/nasas-x-59-aircraft-builds-momentum-through-25th-flight/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor.",
-      "publishedAt": "2026-09-04T15:32:49.000Z"
     },
     {
       "title": "Amendment 73: D.9 Habitable Worlds Observatory Instrument Concept Assessments: Correction regarding collaborators on category 2 proposals",
@@ -164,6 +155,14 @@
       "source": "NASA Aeronautics",
       "category": "Industry",
       "url": "https://www.nasa.gov/rtmd",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "NASA’s X-59 Aircraft Builds Momentum Through 25th Flight Blog",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/blogs/quesst/2026/09/04/nasas-x-59-aircraft-builds-momentum-through-25th-flight/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
