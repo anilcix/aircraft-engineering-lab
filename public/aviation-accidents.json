@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T09:04:37.829414Z",
+  "updatedAt": "2026-09-26T08:49:24.204176Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2955 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -3589,7 +3589,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Russian Air Force",
-      "location": "Khmeimim",
+      "location": "Latakia International Airport",
       "latitude": 35.4125,
       "longitude": 35.94167,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -32535,7 +32535,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Eastern Air Lines",
-      "location": "North Carolina, United States",
+      "location": "Raleigh–Durham International Airport, United States",
       "latitude": 35.877777777,
       "longitude": -78.7875,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -43352,7 +43352,7 @@
       "verificationStatus": "secondary structured discovery",
       "operator": "Air France",
       "fatalities": 52,
-      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Air_France_Flight_072"
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Air_France_Flight_072_(1948)"
     },
     {
       "id": "WIKIDATA-Q4566263",
