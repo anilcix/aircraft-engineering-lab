@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-26T08:49:24.204176Z",
-  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2955 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
+  "updatedAt": "2026-09-27T09:31:44.887948Z",
+  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2956 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
     {
@@ -3589,7 +3589,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Russian Air Force",
-      "location": "Latakia International Airport",
+      "location": "Khmeimim",
       "latitude": 35.4125,
       "longitude": 35.94167,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -35615,6 +35615,22 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1966_Felthorpe_Trident_crash"
     },
     {
+      "id": "WIKIDATA-Q138770733",
+      "date": "1966-05-17",
+      "title": "MiG-19S crash",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q138770733",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "operator": "Czechoslovak Air Force",
+      "aircraft": "MiG-19S",
+      "family": "MiG-19S",
+      "location": "Czechoslovakia",
+      "fatalities": 1
+    },
+    {
       "id": "WIKIDATA-Q6457040",
       "date": "1966-04-27",
       "title": "LANSA Flight 501",
@@ -37642,7 +37658,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q20986953",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Mount Kit Carson"
+      "location": "Spokane"
     },
     {
       "id": "WIKIDATA-Q18398627",
@@ -47180,8 +47196,8 @@
   "discoveryNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
   "counts": {
     "officialIndexed": 40,
-    "discovery": 2955,
-    "totalVisible": 2995,
+    "discovery": 2956,
+    "totalVisible": 2996,
     "withCoordinates": 1611
   },
   "mapNote": "1611 indexed records currently include structured map coordinates. Records without coordinates remain searchable in the case library but are omitted from the map."
