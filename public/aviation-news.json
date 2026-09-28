@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T21:21:23.780Z",
+  "updatedAt": "2026-09-28T05:24:35.170Z",
   "items": [
     {
       "title": "NASA’s Swift Powers On Third Instrument, Restarts Automated Slewing",
@@ -9,6 +9,15 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji alanındaki yeni bir güncellemeyi ele alıyor.",
       "publishedAt": "2026-09-25T20:01:13.000Z"
+    },
+    {
+      "title": "2026-2027 DWU: High School Engineering Challenge",
+      "source": "NASA Aeronautics",
+      "category": "Propulsion",
+      "url": "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-high-school-engineering-challenge/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, motor, türbin ve itki sistemleri alanındaki yeni bir güncellemeyi ele alıyor.",
+      "publishedAt": "2026-09-25T17:19:42.000Z"
     },
     {
       "title": "NASA Celebrates Restoration of Guam Station Damaged by Typhoon Mawar",
@@ -141,14 +150,6 @@
       "url": "https://www.nasa.gov/manufacturing-and-materials/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık malzemeleri ve malzeme teknolojileri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "2026-2027 DWU: High School Engineering Challenge",
-      "source": "NASA Aeronautics",
-      "category": "Propulsion",
-      "url": "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-high-school-engineering-challenge/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, motor, türbin ve itki sistemleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
       "title": "Ultra-Efficient Aviation",
