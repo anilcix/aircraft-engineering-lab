@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T10:09:07.911592Z",
+  "updatedAt": "2026-09-29T10:06:57.037349Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2956 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -19443,7 +19443,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Pakistan International Airlines",
-      "location": "Lower Himalayan Range, Nepal",
+      "location": "Kathmandu, Nepal",
       "latitude": 27.53277778,
       "longitude": 85.28472222,
       "coordinateSource": "Wikidata event coordinate",
@@ -27746,7 +27746,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Korpijärvi, South Korea",
+      "location": "Loukhi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -33516,7 +33516,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Novosibirsk Oblast, Soviet Union",
+      "location": "Tolmachevo Airport, Soviet Union",
       "latitude": 55.233333333,
       "longitude": 84.383333333,
       "coordinateSource": "Wikidata event coordinate",
