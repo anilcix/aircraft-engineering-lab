@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-29T10:06:56.714721Z",
+  "updatedAt": "2026-09-30T09:59:21.323066Z",
   "source": "Wikidata Query Service / aviation accident (Q744913)",
   "license": "Wikidata structured data is CC0",
   "coverageNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
-  "coordinateNote": "1611 discovery records include an event or event-location coordinate for the 1970-2026 map timeline.",
+  "coordinateNote": "1612 discovery records include an event or event-location coordinate for the 1970-2026 map timeline.",
   "coordinateBatchWarnings": [],
   "items": [
     {
@@ -22,6 +22,24 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 3,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2026_Chatsworth_Eurocopter_AS350_crash"
+    },
+    {
+      "id": "WIKIDATA-Q141411807",
+      "date": "2026-09-08",
+      "title": "2026 Long Lellang helicopter crash",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q141411807",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "operator": "Layang Layang Aerospace",
+      "location": "Long Lellang Airport, Malaysia",
+      "latitude": 3.459444444,
+      "longitude": 115.178611111,
+      "coordinateSource": "Wikidata event-location coordinate",
+      "fatalities": 5,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2026_Long_Lellang_helicopter_crash"
     },
     {
       "id": "WIKIDATA-Q141334374",
@@ -3094,7 +3112,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Russian Air Force",
-      "location": "Khmeimim",
+      "location": "Latakia International Airport",
       "latitude": 35.4125,
       "longitude": 35.94167,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -18742,7 +18760,7 @@
       "operator": "Aerocaribbean",
       "aircraft": "Ilyushin Il-18",
       "family": "Ilyushin Il-18",
-      "location": "Puerto Plata, Dominican Republic",
+      "location": "Luperon pto pta, Dominican Republic",
       "latitude": 19.763888888,
       "longitude": -70.716388888,
       "coordinateSource": "Wikidata event coordinate",
@@ -28115,7 +28133,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Almaty International Airport",
+      "location": "Panfilovo",
       "latitude": 43.37638889,
       "longitude": 77.10277778,
       "coordinateSource": "Wikidata event coordinate",
@@ -44556,6 +44574,20 @@
       "location": "United Kingdom",
       "fatalities": 2,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1943_RAF_Hudson_crash"
+    },
+    {
+      "id": "WIKIDATA-Q141597929",
+      "date": "1943-05-13",
+      "title": "Q141597929",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q141597929",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "operator": "Royal Canadian Air Force",
+      "location": "Hasselo, Netherlands",
+      "fatalities": 5
     },
     {
       "id": "WIKIDATA-Q125895968",

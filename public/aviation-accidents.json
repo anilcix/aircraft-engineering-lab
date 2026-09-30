@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-29T10:06:57.037349Z",
-  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2956 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
+  "updatedAt": "2026-09-30T09:59:21.472272Z",
+  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2958 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
     {
@@ -196,6 +196,24 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 3,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2026_Chatsworth_Eurocopter_AS350_crash"
+    },
+    {
+      "id": "WIKIDATA-Q141411807",
+      "date": "2026-09-08",
+      "title": "2026 Long Lellang helicopter crash",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q141411807",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "operator": "Layang Layang Aerospace",
+      "location": "Long Lellang Airport, Malaysia",
+      "latitude": 3.459444444,
+      "longitude": 115.178611111,
+      "coordinateSource": "Wikidata event-location coordinate",
+      "fatalities": 5,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2026_Long_Lellang_helicopter_crash"
     },
     {
       "id": "WIKIDATA-Q141334374",
@@ -3589,7 +3607,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Russian Air Force",
-      "location": "Khmeimim",
+      "location": "Latakia International Airport",
       "latitude": 35.4125,
       "longitude": 35.94167,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -19331,7 +19349,7 @@
       "operator": "Aerocaribbean",
       "aircraft": "Ilyushin Il-18",
       "family": "Ilyushin Il-18",
-      "location": "Puerto Plata, Dominican Republic",
+      "location": "Luperon pto pta, Dominican Republic",
       "latitude": 19.763888888,
       "longitude": -70.716388888,
       "coordinateSource": "Wikidata event coordinate",
@@ -28723,7 +28741,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Almaty International Airport",
+      "location": "Panfilovo",
       "latitude": 43.37638889,
       "longitude": 77.10277778,
       "coordinateSource": "Wikidata event coordinate",
@@ -45166,6 +45184,20 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1943_RAF_Hudson_crash"
     },
     {
+      "id": "WIKIDATA-Q141597929",
+      "date": "1943-05-13",
+      "title": "Q141597929",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q141597929",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "operator": "Royal Canadian Air Force",
+      "location": "Hasselo, Netherlands",
+      "fatalities": 5
+    },
+    {
       "id": "WIKIDATA-Q125895968",
       "date": "1943-04-27",
       "title": "Carlton crash",
@@ -47196,9 +47228,9 @@
   "discoveryNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
   "counts": {
     "officialIndexed": 40,
-    "discovery": 2956,
-    "totalVisible": 2996,
-    "withCoordinates": 1611
+    "discovery": 2958,
+    "totalVisible": 2998,
+    "withCoordinates": 1612
   },
-  "mapNote": "1611 indexed records currently include structured map coordinates. Records without coordinates remain searchable in the case library but are omitted from the map."
+  "mapNote": "1612 indexed records currently include structured map coordinates. Records without coordinates remain searchable in the case library but are omitted from the map."
 }
