@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-09-30T05:32:54.047Z",
+  "updatedAt": "2026-09-30T12:35:10.676Z",
   "items": [
-    {
-      "title": "Reliable Robots: Meet Johnson’s Dexterous Robotics Team",
-      "source": "NASA Aeronautics",
-      "category": "Manufacturing",
-      "url": "https://www.nasa.gov/centers-and-facilities/johnson/reliable-robots-meet-johnsons-dexterous-robotics-team/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor.",
-      "publishedAt": "2026-09-28T10:00:00.000Z"
-    },
     {
       "title": "NASA’s Swift Powers On Third Instrument, Restarts Automated Slewing",
       "source": "NASA Aeronautics",
@@ -18,15 +9,6 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji alanındaki yeni bir güncellemeyi ele alıyor.",
       "publishedAt": "2026-09-25T20:01:13.000Z"
-    },
-    {
-      "title": "2026-2027 DWU: High School Engineering Challenge",
-      "source": "NASA Aeronautics",
-      "category": "Propulsion",
-      "url": "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-high-school-engineering-challenge/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, motor, türbin ve itki sistemleri alanındaki yeni bir güncellemeyi ele alıyor.",
-      "publishedAt": "2026-09-25T17:19:42.000Z"
     },
     {
       "title": "NASA Celebrates Restoration of Guam Station Damaged by Typhoon Mawar",
@@ -152,6 +134,22 @@
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık malzemeleri ve malzeme teknolojileri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
+      "title": "2026-2027 DWU: High School Engineering Challenge",
+      "source": "NASA Aeronautics",
+      "category": "Propulsion",
+      "url": "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-high-school-engineering-challenge/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, motor, türbin ve itki sistemleri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "Reliable Robots: Meet Johnson’s Dexterous Robotics Team",
+      "source": "NASA Aeronautics",
+      "category": "Manufacturing",
+      "url": "https://www.nasa.gov/centers-and-facilities/johnson/reliable-robots-meet-johnsons-dexterous-robotics-team/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
       "title": "Ultra-Efficient Aviation",
       "source": "NASA Aeronautics",
       "category": "Industry",
@@ -184,10 +182,10 @@
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
-      "title": "Collins Aerospace presented ZOLLER Toolroom of the Year Award",
+      "title": "Joby Aviation showcases autonomous flight technology in Oklahoma City",
       "source": "Aerospace Manufacturing & Design",
       "category": "Industry",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/collins-aerospace-presented-zoller-toolroom-year-award/",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/joby-aviation-showcases-autonomous-flight-technology-oklahoma-city/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
@@ -196,6 +194,14 @@
       "source": "Aerospace Manufacturing & Design",
       "category": "Industry",
       "url": "https://www.aerospacemanufacturinganddesign.com/media/lunch-learn-podcast-mfg-radio-network-exostar-operational-certainty-rethinking-supplier-collaboration-aerospace-defense/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
+      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "Collins Aerospace presented ZOLLER Toolroom of the Year Award",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Industry",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/collins-aerospace-presented-zoller-toolroom-year-award/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
@@ -486,14 +492,6 @@
       "url": "https://www.aerospacemanufacturinganddesign.com/media/lunch-learn-podcast-mfg-radio-network-smw-autoblok-electronics-automation/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "Embraer&#x2019;s Phenom 300EV secures triple certification",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Industry",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/embraers-phenom-300ev-secures-triple-certification/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     }
   ]
 }
