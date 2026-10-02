@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-10-02T09:46:26.217Z",
+  "updatedAt": "2026-10-02T17:52:45.358Z",
   "items": [
+    {
+      "title": "NASA Model Wing Lights Up During First Pressure Sensitive Paint Tests article 50 minutes ago",
+      "source": "NASA Aeronautics",
+      "category": "Structures",
+      "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji alanındaki yeni bir güncellemeyi ele alıyor.",
+      "publishedAt": "2026-10-02T16:10:55.000Z"
+    },
     {
       "title": "Reliable Robots: Meet Johnson’s Dexterous Robotics Team",
       "source": "NASA Aeronautics",
@@ -20,7 +29,7 @@
       "publishedAt": "2026-09-25T20:01:13.000Z"
     },
     {
-      "title": "2026-2027 DWU: High School Engineering Challenge",
+      "title": "2026-2027 DWU: High School Engineering Challenge Article",
       "source": "NASA Aeronautics",
       "category": "Propulsion",
       "url": "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-high-school-engineering-challenge/",
@@ -168,7 +177,7 @@
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
-      "title": "Image Article 1 Min Read Practicing for Safe Landings on the Moon and Beyond",
+      "title": "Practicing for Safe Landings on the Moon and Beyond Image Article",
       "source": "NASA Aeronautics",
       "category": "Sustainability",
       "url": "https://www.nasa.gov/image-article/practicing-for-safe-landings-on-the-moon-and-beyond/",
@@ -484,14 +493,6 @@
       "source": "Aerospace Manufacturing & Design",
       "category": "Manufacturing",
       "url": "https://www.aerospacemanufacturinganddesign.com/news/microscreen-opens-stencil-manufacturing-facility/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "Mitsubishi Electric highlights connected manufacturing and educational solutions at IMTS 2026",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Manufacturing",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/mitsubishi-electric-highlights-connected-manufacturing-educational-solutions-imts-2026/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
     }
