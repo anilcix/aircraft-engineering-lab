@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-05T10:49:37.194486Z",
-  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2958 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
+  "updatedAt": "2026-10-06T10:45:30.936305Z",
+  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 2968 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
     {
@@ -243,7 +243,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q141246366",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "United States",
+      "location": "Cape Newenham, United States",
       "latitude": 58.648916666,
       "longitude": -162.172916666,
       "coordinateSource": "Wikidata event coordinate",
@@ -569,6 +569,22 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2025_North_Carolina_Cessna_Citation_II_crash"
     },
     {
+      "id": "WIKIDATA-Q136892833",
+      "date": "2025-11-21",
+      "title": "2025 HAL Tejas Dubai Air Show crash",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q136892833",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "location": "Dubai World Central – DWC",
+      "latitude": 24.886111111,
+      "longitude": 55.172222222,
+      "coordinateSource": "Wikidata event-location coordinate",
+      "fatalities": 1
+    },
+    {
       "id": "WIKIDATA-Q136705120",
       "date": "2025-11-04",
       "title": "UPS Airlines Flight 2976",
@@ -764,6 +780,23 @@
       "verificationStatus": "secondary structured discovery",
       "location": "Somalia",
       "fatalities": 5
+    },
+    {
+      "id": "WIKIDATA-Q133309963",
+      "date": "2025-03-17",
+      "title": "Aerolínea Lanhsa Flight 018",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q133309963",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "location": "Honduras",
+      "latitude": 16.316611111,
+      "longitude": -86.51975,
+      "coordinateSource": "Wikidata event coordinate",
+      "fatalities": 12,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aerol%C3%ADnea_Lanhsa_Flight_018"
     },
     {
       "id": "WIKIDATA-Q133274463",
@@ -3607,7 +3640,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Russian Air Force",
-      "location": "Khmeimim",
+      "location": "Latakia International Airport",
       "latitude": 35.4125,
       "longitude": 35.94167,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -12563,6 +12596,17 @@
       "verificationStatus": "secondary structured discovery"
     },
     {
+      "id": "WIKIDATA-Q111969108",
+      "date": "2004-09-11",
+      "title": "Q111969108",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111969108",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q2375246",
       "date": "2004-08-24",
       "title": "2004 Russian aircraft bombings",
@@ -14679,6 +14723,21 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 0,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aerom%C3%A9xico_Flight_250"
+    },
+    {
+      "id": "WIKIDATA-Q131471109",
+      "date": "2000-09-16",
+      "title": "2000 SLAF Mi-17 Crash",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q131471109",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "operator": "Sri Lanka Air Force",
+      "location": "Sri Lanka",
+      "fatalities": 15,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2000_SLAF_Mi-17_crash"
     },
     {
       "id": "WIKIDATA-Q4597179",
@@ -16992,6 +17051,17 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 0,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/FedEx_Express_Flight_1406"
+    },
+    {
+      "id": "WIKIDATA-Q113124430",
+      "date": "1996-09-05",
+      "title": "Air-France flight 437",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q113124430",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q2662518",
@@ -27157,6 +27227,17 @@
       "coordinateSource": "Wikidata event coordinate"
     },
     {
+      "id": "WIKIDATA-Q110985743",
+      "date": "1979-04-18",
+      "title": "New York Airways flight 972 (1979)",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q110985743",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q7672526",
       "date": "1979-04-04",
       "title": "TWA Flight 841",
@@ -27267,8 +27348,7 @@
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
       "sourceUrl": "http://www.wikidata.org/entity/Q127253395",
       "sourceTier": "discovery",
-      "verificationStatus": "secondary structured discovery",
-      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Hawker_Siddeley_HS-121_Trident"
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q15924516",
@@ -27765,7 +27845,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Loukhi, South Korea",
+      "location": "Korpijärvi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -28354,6 +28434,17 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 68,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroflot_Flight_331"
+    },
+    {
+      "id": "WIKIDATA-Q110972977",
+      "date": "1977-05-16",
+      "title": "New York Airways flight 972 (1977)",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q110972977",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q4577626",
@@ -29377,7 +29468,7 @@
       "operator": "Aeroflot",
       "aircraft": "Tupolev Tu-104",
       "family": "Tupolev Tu-104",
-      "location": "runway",
+      "location": "Irkutsk International Airport",
       "latitude": 52.26166667,
       "longitude": 104.4102778,
       "coordinateSource": "Wikidata event coordinate",
@@ -32554,7 +32645,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Eastern Air Lines",
-      "location": "Raleigh–Durham International Airport, United States",
+      "location": "North Carolina, United States",
       "latitude": 35.877777777,
       "longitude": -78.7875,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -33269,7 +33360,8 @@
       "latitude": 40.215277777,
       "longitude": 69.694722222,
       "coordinateSource": "Wikidata event-location coordinate",
-      "fatalities": 21
+      "fatalities": 21,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroflot_Flight_Sh-4"
     },
     {
       "id": "WIKIDATA-Q16662562",
@@ -37019,6 +37111,17 @@
       "location": "Graham Bell Island"
     },
     {
+      "id": "WIKIDATA-Q111706469",
+      "date": "1963-10-14",
+      "title": "New York Airways flight 600",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111706469",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q18274869",
       "date": "1963-10-04",
       "title": "Q18274869",
@@ -37677,7 +37780,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q20986953",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Spokane"
+      "location": "Mount Kit Carson"
     },
     {
       "id": "WIKIDATA-Q18398627",
@@ -38776,6 +38879,19 @@
       "verificationStatus": "secondary structured discovery",
       "operator": "Condor Flugdienst",
       "fatalities": 1
+    },
+    {
+      "id": "WIKIDATA-Q107570824",
+      "date": "1960-07-27",
+      "title": "Chicago Helicopter Airways Flight 698",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q107570824",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "location": "United States",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Chicago_Helicopter_Airways_Flight_698"
     },
     {
       "id": "WIKIDATA-Q97722151",
@@ -40813,7 +40929,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Sokhumi"
+      "location": "Black Sea"
     },
     {
       "id": "WIKIDATA-Q7060140",
@@ -44615,6 +44731,18 @@
       "operator": "United States Army Air Forces"
     },
     {
+      "id": "WIKIDATA-Q110905170",
+      "date": "1945-03-05",
+      "title": "1945 Resko Przymorskie Dornier Do 24 crash",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q110905170",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1945_Resko_Przymorskie_Dornier_Do_24_crash"
+    },
+    {
       "id": "WIKIDATA-Q18398541",
       "date": "1945-03-04",
       "title": "Q18398541",
@@ -47229,9 +47357,9 @@
   "discoveryNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
   "counts": {
     "officialIndexed": 40,
-    "discovery": 2958,
-    "totalVisible": 2998,
-    "withCoordinates": 1612
+    "discovery": 2968,
+    "totalVisible": 3008,
+    "withCoordinates": 1614
   },
-  "mapNote": "1612 indexed records currently include structured map coordinates. Records without coordinates remain searchable in the case library but are omitted from the map."
+  "mapNote": "1614 indexed records currently include structured map coordinates. Records without coordinates remain searchable in the case library but are omitted from the map."
 }
