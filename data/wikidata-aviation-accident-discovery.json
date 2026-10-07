@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-06T10:45:30.788258Z",
+  "updatedAt": "2026-10-07T10:33:24.063933Z",
   "source": "Wikidata Query Service / aviation accident (Q744913)",
   "license": "Wikidata structured data is CC0",
   "coverageNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
-  "coordinateNote": "1614 discovery records include an event or event-location coordinate for the 1970-2026 map timeline.",
+  "coordinateNote": "1618 discovery records include an event or event-location coordinate for the 1970-2026 map timeline.",
   "coordinateBatchWarnings": [],
   "items": [
     {
@@ -1418,6 +1418,20 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2022_Mutiny_Bay_DHC-3_crash"
     },
     {
+      "id": "WIKIDATA-Q116853497",
+      "date": "2022-09-02",
+      "title": "Q116853497",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q116853497",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "latitude": 9.576889,
+      "longitude": -13.611961,
+      "coordinateSource": "Wikidata event coordinate"
+    },
+    {
       "id": "WIKIDATA-Q113532925",
       "date": "2022-08-14",
       "title": "Hawker Hurricane Mk. IV crash",
@@ -1441,6 +1455,17 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2022_Pakistan_Army_helicopter_incident"
+    },
+    {
+      "id": "WIKIDATA-Q120907326",
+      "date": "2022-07-29",
+      "title": "Q120907326",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q120907326",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q113129372",
@@ -1787,6 +1812,17 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 16,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2021_Menzelinsk_Let_L-410UVP-E_crash"
+    },
+    {
+      "id": "WIKIDATA-Q116255516",
+      "date": "2021-10-05",
+      "title": "Q116255516",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q116255516",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q108672261",
@@ -2407,6 +2443,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2019_Busy_Bee_Congo_Dornier_228_crash"
     },
     {
+      "id": "WIKIDATA-Q110219409",
+      "date": "2019-10-26",
+      "title": "Q110219409",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q110219409",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q86733758",
       "date": "2019-10-21",
       "title": "Q86733758",
@@ -2954,6 +3001,28 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Air_Niugini_Flight_73"
     },
     {
+      "id": "WIKIDATA-Q123985318",
+      "date": "2018-09-27",
+      "title": "Q123985318",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q123985318",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
+      "id": "WIKIDATA-Q109568706",
+      "date": "2018-09-27",
+      "title": "Q109568706",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q109568706",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q133827176",
       "date": "2018-08-28",
       "title": "Capital Airlines Flight 5759",
@@ -3135,6 +3204,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2018_New_York_City_helicopter_crash"
     },
     {
+      "id": "WIKIDATA-Q109733744",
+      "date": "2018-03-11",
+      "title": "2018 Iran Bombardier Challenger crash",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q109733744",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q50356106",
       "date": "2018-03-06",
       "title": "2018 Antonov An-26 crash",
@@ -3234,6 +3314,17 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 6,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2017_Sydney_Seaplanes_DHC-2_crash"
+    },
+    {
+      "id": "WIKIDATA-Q109502903",
+      "date": "2017-12-14",
+      "title": "Q109502903",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q109502903",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q45493810",
@@ -5382,6 +5473,17 @@
       "fatalities": 0
     },
     {
+      "id": "WIKIDATA-Q109569350",
+      "date": "2013-12-11",
+      "title": "Q109569350",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q109569350",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q67569815",
       "date": "2013-12-02",
       "title": "IBC Airways Flight 405",
@@ -7392,6 +7494,18 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Georgian_Airways_Flight_834"
     },
     {
+      "id": "WIKIDATA-Q109781385",
+      "date": "2011-04-02",
+      "title": "Gulfstream Aerospace Flight 153",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q109781385",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Gulfstream_Aerospace_Flight_153"
+    },
+    {
       "id": "WIKIDATA-Q5390512",
       "date": "2011-04-01",
       "title": "Southwest Airlines Flight 812",
@@ -8307,6 +8421,18 @@
       "coordinateSource": "Wikidata event-location coordinate",
       "fatalities": 0,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/United_Airlines_Flight_663"
+    },
+    {
+      "id": "WIKIDATA-Q109569307",
+      "date": "2010-03-22",
+      "title": "Q109569307",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q109569307",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "location": "Australia"
     },
     {
       "id": "WIKIDATA-Q2112721",
@@ -9765,6 +9891,21 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Centurion_Air_Cargo_Flight_164"
     },
     {
+      "id": "WIKIDATA-Q118122933",
+      "date": "2008-07-06",
+      "title": "USA Jet Airlines Flight 199",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q118122933",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "latitude": 25.559166666,
+      "longitude": -100.929166666,
+      "coordinateSource": "Wikidata event coordinate",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/USA_Jet_Airlines_Flight_199"
+    },
+    {
       "id": "WIKIDATA-Q16662517",
       "date": "2008-07-02",
       "title": "Q16662517",
@@ -9943,6 +10084,18 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 8,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Kata_Air_Transport_Flight_007"
+    },
+    {
+      "id": "WIKIDATA-Q115102674",
+      "date": "2008-04-09",
+      "title": "Q115102674",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q115102674",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "location": "Australia"
     },
     {
       "id": "WIKIDATA-Q4612004",
@@ -10491,6 +10644,26 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 0,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Air_Moorea_Flight_1121"
+    },
+    {
+      "id": "WIKIDATA-Q108862205",
+      "date": "2007-07-29",
+      "title": "ATRAN flight 9655",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q108862205",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "operator": "ATRAN",
+      "aircraft": "An-12BP",
+      "family": "An-12BP",
+      "location": "Domodedovo, Russia",
+      "latitude": 55.433333333,
+      "longitude": 37.75,
+      "coordinateSource": "Wikidata event-location coordinate",
+      "fatalities": 7,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/ATRAN_Flight_9655"
     },
     {
       "id": "WIKIDATA-Q4609127",
@@ -11330,6 +11503,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2006_Slovak_Air_Force_Antonov_An-24_crash"
     },
     {
+      "id": "WIKIDATA-Q111082751",
+      "date": "2006-01-12",
+      "title": "Q111082751",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111082751",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q106610509",
       "date": "2006-01-09",
       "title": "2006 Iranian Dassault Falcon 20E crash",
@@ -12141,6 +12325,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/American_Eagle_Flight_5401"
     },
     {
+      "id": "WIKIDATA-Q110966664",
+      "date": "2004-05-05",
+      "title": "Q110966664",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q110966664",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q7332264",
       "date": "2004-04-14",
       "title": "Rico Linhas Aéreas Flight 4815",
@@ -12404,6 +12599,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Air Freight NZ",
+      "location": "New Zealand",
       "fatalities": 2
     },
     {
@@ -13093,6 +13289,17 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 225,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/China_Airlines_Flight_611"
+    },
+    {
+      "id": "WIKIDATA-Q116621712",
+      "date": "2002-05-21",
+      "title": "Q116621712",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q116621712",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q5348314",
@@ -14087,6 +14294,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2000_ASA_Pesada_Antonov_An-24_crash"
     },
     {
+      "id": "WIKIDATA-Q116535621",
+      "date": "2000-11-09",
+      "title": "Q116535621",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q116535621",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q478172",
       "date": "2000-10-31",
       "title": "Singapore Airlines Flight 006",
@@ -14126,6 +14344,17 @@
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
       "sourceUrl": "http://www.wikidata.org/entity/Q22929449",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
+      "id": "WIKIDATA-Q113122541",
+      "date": "2000-10-10",
+      "title": "Q113122541",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q113122541",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery"
     },
@@ -14737,6 +14966,17 @@
       "fatalities": 5
     },
     {
+      "id": "WIKIDATA-Q111132781",
+      "date": "1999-12-05",
+      "title": "Q111132781",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111132781",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q28682103",
       "date": "1999-11-22",
       "title": "1999 JSDF T-33A crash",
@@ -15079,6 +15319,17 @@
       "fatalities": 2
     },
     {
+      "id": "WIKIDATA-Q111309844",
+      "date": "1999-06-25",
+      "title": "Q111309844",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111309844",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q55701733",
       "date": "1999-06-17",
       "title": "Airlink Flight 120",
@@ -15277,6 +15528,17 @@
       "latitude": 50.965277777,
       "longitude": 6.119444444,
       "coordinateSource": "Wikidata event-location coordinate"
+    },
+    {
+      "id": "WIKIDATA-Q121438793",
+      "date": "1999-01-11",
+      "title": "Q121438793",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q121438793",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q15916977",
@@ -15482,6 +15744,17 @@
       "coordinateSource": "Wikidata event-location coordinate",
       "fatalities": 0,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Korean_Air_Flight_8702"
+    },
+    {
+      "id": "WIKIDATA-Q111651468",
+      "date": "1998-07-30",
+      "title": "Q111651468",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111651468",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q119683909",
@@ -16071,6 +16344,17 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 1,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Air_Littoral_Flight_701A"
+    },
+    {
+      "id": "WIKIDATA-Q123477832",
+      "date": "1997-07-29",
+      "title": "Q123477832",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q123477832",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q18746634",
@@ -17301,6 +17585,21 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1995_Borodianka_mid-air_collision"
     },
     {
+      "id": "WIKIDATA-Q109415657",
+      "date": "1995-01-30",
+      "title": "TransAsia Airways Flight 510A",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q109415657",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "latitude": 24.985549166,
+      "longitude": 121.369161666,
+      "coordinateSource": "Wikidata event coordinate",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/TransAsia_Airways_Flight_510A"
+    },
+    {
       "id": "WIKIDATA-Q120269168",
       "date": "1995-01-20",
       "title": "Q120269168",
@@ -17315,6 +17614,17 @@
       "longitude": 92.871944444,
       "coordinateSource": "Wikidata event-location coordinate",
       "fatalities": 3
+    },
+    {
+      "id": "WIKIDATA-Q117839970",
+      "date": "1995-01-20",
+      "title": "Q117839970",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q117839970",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q1012788",
@@ -17561,6 +17871,19 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1994_Vanavara_Yakovlev_Yak-40_crash"
     },
     {
+      "id": "WIKIDATA-Q123653303",
+      "date": "1994-09-18",
+      "title": "1994 Oriental Airlines crash",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q123653303",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "location": "Algeria",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1994_Oriental_Airlines_BAC_One-Eleven_crash"
+    },
+    {
       "id": "WIKIDATA-Q130295880",
       "date": "1994-09-17",
       "title": "Q130295880",
@@ -17568,6 +17891,17 @@
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
       "sourceUrl": "http://www.wikidata.org/entity/Q130295880",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
+      "id": "WIKIDATA-Q111449766",
+      "date": "1994-09-17",
+      "title": "Q111449766",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111449766",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery"
     },
@@ -18018,6 +18352,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Pulkovo_Aviation_Enterprise_Flight_9045"
     },
     {
+      "id": "WIKIDATA-Q122702722",
+      "date": "1994-02-22",
+      "title": "Q122702722",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q122702722",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q41771694",
       "date": "1994-01-24",
       "title": "1994 Lake Constance Cessna 425 crash",
@@ -18362,6 +18707,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/American_International_Airways_Flight_808"
     },
     {
+      "id": "WIKIDATA-Q111660218",
+      "date": "1993-08-17",
+      "title": "Q111660218",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111660218",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q4588616",
       "date": "1993-08-12",
       "title": "1993 Llyn Padarn helicopter crash",
@@ -18461,6 +18817,17 @@
       "longitude": 38.151666666,
       "coordinateSource": "Wikidata event-location coordinate",
       "fatalities": 7
+    },
+    {
+      "id": "WIKIDATA-Q111132567",
+      "date": "1993-07-05",
+      "title": "Q111132567",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111132567",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q28163694",
@@ -18733,6 +19100,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Palair_Macedonian_Airlines_Flight_301"
     },
     {
+      "id": "WIKIDATA-Q111306881",
+      "date": "1993-02-28",
+      "title": "Q111306881",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111306881",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q15080583",
       "date": "1993-02-08",
       "title": "1993 Tehran mid-air collision",
@@ -18912,6 +19290,17 @@
       "longitude": 29.77722222,
       "coordinateSource": "Wikidata event-location coordinate",
       "fatalities": 8
+    },
+    {
+      "id": "WIKIDATA-Q123272461",
+      "date": "1992-10-08",
+      "title": "Q123272461",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q123272461",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q1323799",
@@ -19191,6 +19580,17 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 47,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Copa_Airlines_Flight_201"
+    },
+    {
+      "id": "WIKIDATA-Q111306717",
+      "date": "1992-04-10",
+      "title": "Q111306717",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111306717",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q16662509",
@@ -19645,6 +20045,17 @@
       "longitude": 30.316666666,
       "coordinateSource": "Wikidata event-location coordinate",
       "fatalities": 10
+    },
+    {
+      "id": "WIKIDATA-Q113111103",
+      "date": "1991-09-18",
+      "title": "Q113111103",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q113111103",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q24934586",
@@ -20861,6 +21272,18 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Olympic_Aviation_Flight_545"
     },
     {
+      "id": "WIKIDATA-Q113111007",
+      "date": "1989-07-31",
+      "title": "Q113111007",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q113111007",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "location": "New Zealand"
+    },
+    {
       "id": "WIKIDATA-Q626003",
       "date": "1989-07-27",
       "title": "Korean Air Flight 803",
@@ -21227,6 +21650,28 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 144,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Independent_Air_Flight_1851"
+    },
+    {
+      "id": "WIKIDATA-Q110143549",
+      "date": "1989-02-06",
+      "title": "Q110143549",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q110143549",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
+      "id": "WIKIDATA-Q117084680",
+      "date": "1989-01-26",
+      "title": "Q117084680",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q117084680",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q2062178",
@@ -21898,6 +22343,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Horizon_Air_Flight_2658"
     },
     {
+      "id": "WIKIDATA-Q114571253",
+      "date": "1988-03-31",
+      "title": "Q114571253",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q114571253",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q3087069",
       "date": "1988-03-17",
       "title": "Avianca Flight 410",
@@ -22087,6 +22543,17 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 9,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Trans-Colorado_Airlines_Flight_2286"
+    },
+    {
+      "id": "WIKIDATA-Q111345202",
+      "date": "1988-01-19",
+      "title": "Q111345202",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111345202",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q2254436",
@@ -22346,6 +22813,28 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 37,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aero_Trasporti_Italiani_Flight_460"
+    },
+    {
+      "id": "WIKIDATA-Q111660582",
+      "date": "1987-10-14",
+      "title": "Q111660582",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111660582",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
+      "id": "WIKIDATA-Q114558934",
+      "date": "1987-09-21",
+      "title": "Q114558934",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q114558934",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q6900391",
@@ -22627,6 +23116,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroflot_Flight_U-505"
     },
     {
+      "id": "WIKIDATA-Q115299409",
+      "date": "1986-12-27",
+      "title": "Q115299409",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q115299409",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q6067958",
       "date": "1986-12-25",
       "title": "Iraqi Airways Flight 163",
@@ -22807,6 +23307,39 @@
       "verificationStatus": "secondary structured discovery",
       "fatalities": 3,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Corporate_Air_Services_HPF821"
+    },
+    {
+      "id": "WIKIDATA-Q110967099",
+      "date": "1986-10-04",
+      "title": "Q110967099",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q110967099",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
+      "id": "WIKIDATA-Q116483767",
+      "date": "1986-09-19",
+      "title": "Q116483767",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q116483767",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
+      "id": "WIKIDATA-Q115287429",
+      "date": "1986-09-11",
+      "title": "Q115287429",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q115287429",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q97655708",
@@ -23378,6 +23911,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1985_Manchester_Airport_disaster"
     },
     {
+      "id": "WIKIDATA-Q114142603",
+      "date": "1985-08-15",
+      "title": "Q114142603",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q114142603",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q18173",
       "date": "1985-08-12",
       "title": "Japan Air Lines Flight 123",
@@ -23414,6 +23958,17 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 137,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Delta_Air_Lines_Flight_191"
+    },
+    {
+      "id": "WIKIDATA-Q123053481",
+      "date": "1985-07-24",
+      "title": "1985 Colombian Air Force DC-6 Crash in Leticia",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q123053481",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q4055770",
@@ -23495,6 +24050,17 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 94,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1985_Zolochiv_mid-air_collision"
+    },
+    {
+      "id": "WIKIDATA-Q111044812",
+      "date": "1985-04-15",
+      "title": "Q111044812",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111044812",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q97138227",
@@ -23750,6 +24316,17 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 174,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroflot_Flight_3352"
+    },
+    {
+      "id": "WIKIDATA-Q109455234",
+      "date": "1984-09-25",
+      "title": "Q109455234",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q109455234",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q16338517",
@@ -24215,6 +24792,17 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 10,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Air_Illinois_Flight_710"
+    },
+    {
+      "id": "WIKIDATA-Q111306714",
+      "date": "1983-09-28",
+      "title": "Q111306714",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111306714",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q4055763",
@@ -25626,6 +26214,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroflot_Flight_498"
     },
     {
+      "id": "WIKIDATA-Q111145293",
+      "date": "1981-06-13",
+      "title": "Q111145293",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111145293",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q4823384",
       "date": "1981-05-07",
       "title": "Austral Líneas Aéreas Flight 901",
@@ -26097,6 +26696,17 @@
       "fatalities": 1
     },
     {
+      "id": "WIKIDATA-Q124679892",
+      "date": "1980-03-20",
+      "title": "Q124679892",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q124679892",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q1573486",
       "date": "1980-03-14",
       "title": "LOT Polish Airlines Flight 007",
@@ -26115,6 +26725,18 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 87,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/LOT_Polish_Airlines_Flight_007"
+    },
+    {
+      "id": "WIKIDATA-Q111417093",
+      "date": "1980-02-27",
+      "title": "China Airlines Flight 811",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111417093",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/China_Airlines_Flight_811"
     },
     {
       "id": "WIKIDATA-Q7906918",
@@ -26359,6 +26981,17 @@
       "longitude": 8.9325,
       "coordinateSource": "Wikidata event coordinate",
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aero_Trasporti_Italiani_Flight_12"
+    },
+    {
+      "id": "WIKIDATA-Q111045713",
+      "date": "1979-09-11",
+      "title": "Q111045713",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111045713",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q107686869",
@@ -27092,6 +27725,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1978_Air_Ceylon_Avro_HS_748_bombing"
     },
     {
+      "id": "WIKIDATA-Q111252410",
+      "date": "1978-09-02",
+      "title": "Q111252410",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111252410",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q19374720",
       "date": "1978-08-28",
       "title": "Q19374720",
@@ -27459,6 +28103,18 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 213,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Air_India_Flight_855"
+    },
+    {
+      "id": "WIKIDATA-Q110206160",
+      "date": "1977-12-19",
+      "title": "1977 Vieques Air Link crash",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q110206160",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1977_Vieques_Air_Link_crash"
     },
     {
       "id": "WIKIDATA-Q7388896",
@@ -28110,6 +28766,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1977_British_Airtours_Boeing_707_crash"
     },
     {
+      "id": "WIKIDATA-Q121438746",
+      "date": "1977-03-04",
+      "title": "Q121438746",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q121438746",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q3797649",
       "date": "1977-03-03",
       "title": "Q3797649",
@@ -28490,6 +29157,17 @@
       "longitude": 82.87141667,
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 5
+    },
+    {
+      "id": "WIKIDATA-Q111091618",
+      "date": "1976-09-26",
+      "title": "Q111091618",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111091618",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q2240494",
@@ -28907,6 +29585,17 @@
       "fatalities": 7
     },
     {
+      "id": "WIKIDATA-Q123574606",
+      "date": "1976-01-21",
+      "title": "Q123574606",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q123574606",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q29017929",
       "date": "1976-01-15",
       "title": "1976 Taxi Aereo el Venado Douglas DC-4 accident",
@@ -29272,6 +29961,17 @@
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
       "sourceUrl": "http://www.wikidata.org/entity/Q16662619",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
+      "id": "WIKIDATA-Q123020738",
+      "date": "1975-07-02",
+      "title": "Q123020738",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q123020738",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery"
     },
@@ -29769,6 +30469,28 @@
       "latitude": 54.4,
       "longitude": 40.6,
       "coordinateSource": "Wikidata event-location coordinate"
+    },
+    {
+      "id": "WIKIDATA-Q121545246",
+      "date": "1974-07-24",
+      "title": "Q121545246",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q121545246",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
+      "id": "WIKIDATA-Q114424494",
+      "date": "1974-07-10",
+      "title": "Q114424494",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q114424494",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q16912881",
@@ -31229,6 +31951,17 @@
       "fatalities": 26
     },
     {
+      "id": "WIKIDATA-Q114559449",
+      "date": "1972-12-05",
+      "title": "Q114559449",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q114559449",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q5656105",
       "date": "1972-12-03",
       "title": "Spantax Flight 275",
@@ -31265,6 +31998,17 @@
       "coordinateSource": "Wikidata event-location coordinate",
       "fatalities": 62,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Japan_Air_Lines_Flight_446"
+    },
+    {
+      "id": "WIKIDATA-Q115192582",
+      "date": "1972-11-04",
+      "title": "Q115192582",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q115192582",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q4016224",
@@ -31389,6 +32133,17 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 109,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroflot_Flight_1036"
+    },
+    {
+      "id": "WIKIDATA-Q110368098",
+      "date": "1972-09-30",
+      "title": "Q110368098",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q110368098",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q16984281",
@@ -32010,6 +32765,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/LANSA_Flight_508"
     },
     {
+      "id": "WIKIDATA-Q110386808",
+      "date": "1971-12-21",
+      "title": "Q110386808",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q110386808",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q135297762",
       "date": "1971-12-21",
       "title": "Balkan airlines Il-18 Crash (1971)",
@@ -32534,6 +33300,18 @@
       "fatalities": 13
     },
     {
+      "id": "WIKIDATA-Q110372227",
+      "date": "1971-01-23",
+      "title": "1971 Korean Air Lines Fokker F27 hijacking",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q110372227",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1971_Korean_Air_Lines_Fokker_F27_hijacking"
+    },
+    {
       "id": "WIKIDATA-Q4574667",
       "date": "1971-01-22",
       "title": "1971 January 22 Surgut Aeroflot Antonov An-12 crash",
@@ -32825,6 +33603,17 @@
       "fatalities": 1
     },
     {
+      "id": "WIKIDATA-Q110367865",
+      "date": "1970-08-08",
+      "title": "Q110367865",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q110367865",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q11333487",
       "date": "1970-07-27",
       "title": "Flying Tiger Line Flight 45",
@@ -32838,6 +33627,17 @@
       "location": "United States occupation of the Ryukyu Islands",
       "fatalities": 4,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Flying_Tiger_Line_Flight_45"
+    },
+    {
+      "id": "WIKIDATA-Q114522863",
+      "date": "1970-07-19",
+      "title": "Q114522863",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q114522863",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q18398555",
@@ -32969,6 +33769,17 @@
       "latitude": 46.927777777,
       "longitude": 28.930833333,
       "coordinateSource": "Wikidata event-location coordinate"
+    },
+    {
+      "id": "WIKIDATA-Q114358364",
+      "date": "1970-05-06",
+      "title": "Q114358364",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q114358364",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q4652401",
@@ -33467,6 +34278,17 @@
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
       "sourceUrl": "http://www.wikidata.org/entity/Q106822900",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
+      "id": "WIKIDATA-Q110220021",
+      "date": "1969-07-15",
+      "title": "Q110220021",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q110220021",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery"
     },
@@ -35394,6 +36216,17 @@
       "location": "Rozhdestveno, Sobinsky District, Vladimir Oblast"
     },
     {
+      "id": "WIKIDATA-Q109729537",
+      "date": "1966-01-14",
+      "title": "Q109729537",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q109729537",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q4828576",
       "date": "1966-01-14",
       "title": "Avianca Flight 4",
@@ -35827,6 +36660,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/British_United_Airways_Flight_1030X"
     },
     {
+      "id": "WIKIDATA-Q123177448",
+      "date": "1965-03-31",
+      "title": "Q123177448",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q123177448",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q135006082",
       "date": "1965-03-27",
       "title": "1965 TEAL Lockheed crash at Whenuapai",
@@ -36191,6 +37035,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroflot_Flight_721"
     },
     {
+      "id": "WIKIDATA-Q124467025",
+      "date": "1964-08-16",
+      "title": "Q124467025",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q124467025",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q18286128",
       "date": "1964-07-15",
       "title": "Q18286128",
@@ -36328,6 +37183,17 @@
       "operator": "Alitalia",
       "fatalities": 45,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Alitalia_Flight_045"
+    },
+    {
+      "id": "WIKIDATA-Q125217403",
+      "date": "1964-03-26",
+      "title": "Q125217403",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q125217403",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q20986954",
@@ -37121,6 +37987,17 @@
       "fatalities": 4
     },
     {
+      "id": "WIKIDATA-Q111154779",
+      "date": "1962-10-25",
+      "title": "Q111154779",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111154779",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q18635156",
       "date": "1962-10-22",
       "title": "1962 Northwest Orient Airlines Sitka Sound ditching",
@@ -37459,6 +38336,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Caledonian_Airways_Flight_153"
     },
     {
+      "id": "WIKIDATA-Q109887904",
+      "date": "1962-03-03",
+      "title": "Q109887904",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q109887904",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q890629",
       "date": "1962-03-01",
       "title": "American Airlines Flight 1",
@@ -37512,6 +38400,18 @@
       "verificationStatus": "secondary structured discovery",
       "location": "Mineralnye Vody Airport",
       "fatalities": 32
+    },
+    {
+      "id": "WIKIDATA-Q111709908",
+      "date": "1961-12-21",
+      "title": "British European Airways Flight 226",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111709908",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/British_European_Airways_Flight_226"
     },
     {
       "id": "WIKIDATA-Q16662481",
@@ -38273,6 +39173,17 @@
       "fatalities": 1
     },
     {
+      "id": "WIKIDATA-Q109521522",
+      "date": "1960-07-31",
+      "title": "Q109521522",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q109521522",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q107570824",
       "date": "1960-07-27",
       "title": "Chicago Helicopter Airways Flight 698",
@@ -38713,6 +39624,17 @@
       "fatalities": 4
     },
     {
+      "id": "WIKIDATA-Q111635349",
+      "date": "1959-10-19",
+      "title": "Q111635349",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111635349",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q11737193",
       "date": "1959-10-15",
       "title": "Hardinsburg air collision",
@@ -38808,6 +39730,17 @@
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
       "sourceUrl": "http://www.wikidata.org/entity/Q107009997",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
+      "id": "WIKIDATA-Q123575690",
+      "date": "1959-07-15",
+      "title": "Q123575690",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q123575690",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery"
     },
@@ -39308,6 +40241,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeronaves_de_M%C3%A9xico_Flight_111"
     },
     {
+      "id": "WIKIDATA-Q123499285",
+      "date": "1958-05-31",
+      "title": "Q123499285",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q123499285",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q4569275",
       "date": "1958-05-25",
       "title": "1958 Dan-Air Avro York crash",
@@ -39663,6 +40607,17 @@
       "verificationStatus": "secondary structured discovery",
       "location": "Vnukovo International Airport, Russia",
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1957_Romanian_Ilyushin_Il-14_crash"
+    },
+    {
+      "id": "WIKIDATA-Q123176875",
+      "date": "1957-10-28",
+      "title": "Q123176875",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q123176875",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q4569049",
@@ -40443,6 +41398,17 @@
       "location": "Saryesik-Atyrau Desert"
     },
     {
+      "id": "WIKIDATA-Q109418490",
+      "date": "1955-12-09",
+      "title": "Q109418490",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q109418490",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q2910683",
       "date": "1955-11-01",
       "title": "United Airlines Flight 629",
@@ -40680,6 +41646,18 @@
       "verificationStatus": "secondary structured discovery",
       "location": "Italy",
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Sabena_Flight_503"
+    },
+    {
+      "id": "WIKIDATA-Q109568547",
+      "date": "1955-01-13",
+      "title": "1955 Bykovo plane accident",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q109568547",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroflot_Flight_31"
     },
     {
       "id": "WIKIDATA-Q4568343",
@@ -41251,6 +42229,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Transocean_Air_Lines_Flight_942"
     },
     {
+      "id": "WIKIDATA-Q121303287",
+      "date": "1953-03-03",
+      "title": "Q121303287",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q121303287",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q18379387",
       "date": "1953-02-14",
       "title": "National Airlines Flight 470",
@@ -41641,6 +42630,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1952_Tula_Airport_collision"
     },
     {
+      "id": "WIKIDATA-Q118134013",
+      "date": "1952-03-24",
+      "title": "Q118134013",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q118134013",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q17576578",
       "date": "1952-03-22",
       "title": "KLM Flight 592",
@@ -41790,6 +42790,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1952_Aer_Lingus_C-47_accident"
     },
     {
+      "id": "WIKIDATA-Q113579163",
+      "date": "1951-12-30",
+      "title": "Transocean Air Lines Flight 501",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q113579163",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q5165259",
       "date": "1951-12-29",
       "title": "Continental Charters Flight 44-2",
@@ -41913,6 +42924,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Canadian_Pacific_Air_Lines_Flight_3505"
     },
     {
+      "id": "WIKIDATA-Q109517171",
+      "date": "1951-07-19",
+      "title": "Q109517171",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q109517171",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q108858975",
       "date": "1951-07-14",
       "title": "crash of an Airtaco L-14 in Stockholm",
@@ -42033,6 +43055,17 @@
       "operator": "United States Air Force",
       "fatalities": 53,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1951_Atlantic_C-124_disappearance"
+    },
+    {
+      "id": "WIKIDATA-Q109570296",
+      "date": "1951-01-09",
+      "title": "Q109570296",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q109570296",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q6772341",
@@ -42273,6 +43306,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1950_Bahrain_Air_France_Douglas_DC-4_crashes"
     },
     {
+      "id": "WIKIDATA-Q114797275",
+      "date": "1950-06-05",
+      "title": "Q114797275",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q114797275",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q93990537",
       "date": "1950-05-30",
       "title": "Q93990537",
@@ -42369,6 +43413,17 @@
       "location": "Koltsovo Airport, Russia",
       "fatalities": 19,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1950_Sverdlovsk_plane_crash"
+    },
+    {
+      "id": "WIKIDATA-Q117211590",
+      "date": "1949-12-30",
+      "title": "Q117211590",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q117211590",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q4742942",
@@ -42572,6 +43627,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1949_Strato-Freight_Curtiss_C-46A_crash"
     },
     {
+      "id": "WIKIDATA-Q113579156",
+      "date": "1949-05-27",
+      "title": "Q113579156",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q113579156",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q17563051",
       "date": "1949-05-13",
       "title": "Aeroflot Flight 17",
@@ -42617,6 +43683,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1949_Queensland_Airlines_Lockheed_Lodestar_crash"
     },
     {
+      "id": "WIKIDATA-Q117086842",
+      "date": "1949-02-24",
+      "title": "Q117086842",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q117086842",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q4566545",
       "date": "1949-02-19",
       "title": "1949 Exhall mid-air collision",
@@ -42630,6 +43707,28 @@
       "location": "Exhall, United Kingdom",
       "fatalities": 14,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1949_Exhall_mid-air_collision"
+    },
+    {
+      "id": "WIKIDATA-Q117313394",
+      "date": "1949-02-08",
+      "title": "Q117313394",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q117313394",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
+      "id": "WIKIDATA-Q117211750",
+      "date": "1949-02-04",
+      "title": "Q117211750",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q117211750",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q4836509",
@@ -42738,6 +43837,17 @@
       "fatalities": 24
     },
     {
+      "id": "WIKIDATA-Q117185309",
+      "date": "1948-11-23",
+      "title": "Q117185309",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q117185309",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q12033088",
       "date": "1948-11-08",
       "title": "1948 Beechcraft Model 18 disappearance",
@@ -42751,6 +43861,17 @@
       "family": "Beechcraft 18",
       "location": "English Channel",
       "fatalities": 8
+    },
+    {
+      "id": "WIKIDATA-Q114708594",
+      "date": "1948-10-27",
+      "title": "Q114708594",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q114708594",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q2334343",
@@ -43049,6 +44170,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Pan_Am_Flight_1-10"
     },
     {
+      "id": "WIKIDATA-Q117212098",
+      "date": "1948-04-10",
+      "title": "Q117212098",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q117212098",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q4566258",
       "date": "1948-04-05",
       "title": "1948 Gatow air disaster",
@@ -43102,6 +44234,18 @@
       "verificationStatus": "secondary structured discovery",
       "location": "London Heathrow Airport, United Kingdom",
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1948_Heathrow_disaster"
+    },
+    {
+      "id": "WIKIDATA-Q117286575",
+      "date": "1948-02-12",
+      "title": "Q117286575",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q117286575",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "location": "Germany"
     },
     {
       "id": "WIKIDATA-Q4836516",
@@ -43394,6 +44538,18 @@
       "location": "Khabarovsk"
     },
     {
+      "id": "WIKIDATA-Q117101558",
+      "date": "1947-04-28",
+      "title": "Trans-Canada Air Lines Flight 3",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q117101558",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Trans-Canada_Air_Lines_Flight_3"
+    },
+    {
       "id": "WIKIDATA-Q19365976",
       "date": "1947-04-22",
       "title": "Q19365976",
@@ -43406,6 +44562,18 @@
       "operator": "Aeroflot",
       "location": "Taymyr Peninsula, Soviet Union",
       "fatalities": 9
+    },
+    {
+      "id": "WIKIDATA-Q109898050",
+      "date": "1947-04-22",
+      "title": "1947 Columbus mid-air collision",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q109898050",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1947_Columbus_mid-air_collision"
     },
     {
       "id": "WIKIDATA-Q16495687",
@@ -43433,6 +44601,17 @@
       "location": "Colombia",
       "fatalities": 53,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1947_Avianca_Douglas_DC-4_crash"
+    },
+    {
+      "id": "WIKIDATA-Q121463850",
+      "date": "1947-02-13",
+      "title": "Q121463850",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q121463850",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q1164685",
@@ -43652,6 +44831,17 @@
       "fatalities": 13
     },
     {
+      "id": "WIKIDATA-Q116693614",
+      "date": "1946-11-05",
+      "title": "Q116693614",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q116693614",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q120736970",
       "date": "1946-10-07",
       "title": "1946 Apeldoorn Fairey Firefly crash",
@@ -43803,6 +44993,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Fairfax,_California_B-17_crash"
     },
     {
+      "id": "WIKIDATA-Q116727185",
+      "date": "1946-04-08",
+      "title": "Q116727185",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q116727185",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q18398540",
       "date": "1946-04-02",
       "title": "Q18398540",
@@ -43918,6 +45119,17 @@
       "fatalities": 17
     },
     {
+      "id": "WIKIDATA-Q116303949",
+      "date": "1945-12-05",
+      "title": "Q116303949",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q116303949",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q1332211",
       "date": "1945-12-05",
       "title": "Flight 19",
@@ -43931,6 +45143,28 @@
       "location": "United States",
       "fatalities": 14,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Flight_19"
+    },
+    {
+      "id": "WIKIDATA-Q110716186",
+      "date": "1945-11-01",
+      "title": "Q110716186",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q110716186",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
+      "id": "WIKIDATA-Q121544486",
+      "date": "1945-10-31",
+      "title": "Q121544486",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q121544486",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q137375915",
@@ -44300,6 +45534,17 @@
       "verificationStatus": "secondary structured discovery"
     },
     {
+      "id": "WIKIDATA-Q121602385",
+      "date": "1944-09-27",
+      "title": "Q121602385",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q121602385",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q131138166",
       "date": "1944-09-18",
       "title": "Q131138166",
@@ -44322,6 +45567,17 @@
       "verificationStatus": "secondary structured discovery",
       "location": "Iceland",
       "fatalities": 0
+    },
+    {
+      "id": "WIKIDATA-Q116225580",
+      "date": "1944-08-31",
+      "title": "Q116225580",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q116225580",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q5494346",
@@ -44421,6 +45677,17 @@
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
       "sourceUrl": "http://www.wikidata.org/entity/Q108905705",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
+      "id": "WIKIDATA-Q115598014",
+      "date": "1944-04-21",
+      "title": "Q115598014",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q115598014",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery"
     },
@@ -44798,6 +46065,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Pan_Am_Flight_V-1104"
     },
     {
+      "id": "WIKIDATA-Q116447847",
+      "date": "1943-01-18",
+      "title": "Q116447847",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q116447847",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q137865221",
       "date": "1943-01-15",
       "title": "airplane crash at the Warappa Creek",
@@ -45005,6 +46283,17 @@
       "verificationStatus": "secondary structured discovery"
     },
     {
+      "id": "WIKIDATA-Q118869215",
+      "date": "1941-11-29",
+      "title": "Q118869215",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q118869215",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q136213694",
       "date": "1941-11-13",
       "title": "1941 crash of TB-7 near Kanash",
@@ -45040,6 +46329,17 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "location": "Sweden"
+    },
+    {
+      "id": "WIKIDATA-Q117034966",
+      "date": "1941-07-02",
+      "title": "Q117034966",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q117034966",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q16532388",
@@ -45929,6 +47229,17 @@
       "location": "Atlanta, United States",
       "fatalities": 5,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/TWA_Flight_6"
+    },
+    {
+      "id": "WIKIDATA-Q111192006",
+      "date": "1935-04-06",
+      "title": "Q111192006",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q111192006",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
     },
     {
       "id": "WIKIDATA-Q139586485",
