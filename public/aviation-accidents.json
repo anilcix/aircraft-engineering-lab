@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T10:33:24.215089Z",
+  "updatedAt": "2026-10-08T10:54:32.745979Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 3084 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -17375,7 +17375,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q7572950",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "operator": "Spair Airlines",
+      "operator": "Spair Air Transport",
       "latitude": 44.8313,
       "longitude": 20.2811,
       "coordinateSource": "Wikidata event coordinate",
@@ -29500,7 +29500,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Almaty International Airport",
+      "location": "Panfilovo",
       "latitude": 43.37638889,
       "longitude": 77.10277778,
       "coordinateSource": "Wikidata event coordinate",
@@ -35103,7 +35103,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16488132",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Guldala",
+      "location": "Almaty International Airport",
       "fatalities": 4
     },
     {
@@ -41884,7 +41884,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Black Sea"
+      "location": "Sokhumi"
     },
     {
       "id": "WIKIDATA-Q7060140",
