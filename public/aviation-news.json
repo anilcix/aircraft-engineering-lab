@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-08T01:00:53.307Z",
+  "updatedAt": "2026-10-08T10:35:15.638Z",
   "items": [
-    {
-      "title": "NASA Model Wing Lights Up During First Pressure Sensitive Paint Tests",
-      "source": "NASA Aeronautics",
-      "category": "Structures",
-      "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji alanındaki yeni bir güncellemeyi ele alıyor.",
-      "publishedAt": "2026-10-02T16:10:55.000Z"
-    },
     {
       "title": "Reliable Robots: Meet Johnson’s Dexterous Robotics Team",
       "source": "NASA Aeronautics",
@@ -27,15 +18,6 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji alanındaki yeni bir güncellemeyi ele alıyor.",
       "publishedAt": "2026-09-25T20:01:13.000Z"
-    },
-    {
-      "title": "2026-2027 DWU: High School Engineering Challenge Article",
-      "source": "NASA Aeronautics",
-      "category": "Propulsion",
-      "url": "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-high-school-engineering-challenge/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, motor, türbin ve itki sistemleri alanındaki yeni bir güncellemeyi ele alıyor.",
-      "publishedAt": "2026-09-25T17:19:42.000Z"
     },
     {
       "title": "NASA Celebrates Restoration of Guam Station Damaged by Typhoon Mawar",
@@ -161,6 +143,14 @@
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık malzemeleri ve malzeme teknolojileri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
+      "title": "NASA Model Wing Lights Up During First Pressure Sensitive Paint Tests",
+      "source": "NASA Aeronautics",
+      "category": "Structures",
+      "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
       "title": "NASA Testing Aims at Supercooled Large Droplet Aviation Safety",
       "source": "NASA Aeronautics",
       "category": "Sustainability",
@@ -185,6 +175,14 @@
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
+      "title": "2026-2027 DWU: High School Engineering Challenge Article",
+      "source": "NASA Aeronautics",
+      "category": "Propulsion",
+      "url": "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-high-school-engineering-challenge/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, motor, türbin ve itki sistemleri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
       "title": "Practicing for Safe Landings on the Moon and Beyond Image Article",
       "source": "NASA Aeronautics",
       "category": "Sustainability",
@@ -199,6 +197,14 @@
       "url": "https://www.aerospacemanufacturinganddesign.com/tag/women-to-watch/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "PPG announces $70 million investment to expand aerospace operations",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Industry",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/ppg-announces-70-million-investment-expand-aerospace-operations/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
+      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
       "title": "Air Turbine Tools highlights Drill Tap Series",
@@ -487,14 +493,6 @@
       "url": "https://www.aerospacemanufacturinganddesign.com/news/wall-colmonoy-oklahoma-city-awarded-usaf-contract/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, sürdürülebilir havacılık ve emisyon azaltımı alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "AIR, Elmo Motion Control partner to enhance uncrewed cargo aircraft",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Industry",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/air-elmo-motion-control-partner-enhance-uncrewed-cargo-aircraft/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     }
   ]
 }
