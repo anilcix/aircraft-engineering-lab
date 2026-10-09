@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-09T01:13:31.740Z",
+  "updatedAt": "2026-10-09T10:34:04.224Z",
   "items": [
-    {
-      "title": "NASA Model Wing Lights Up During First Pressure Sensitive Paint Tests",
-      "source": "NASA Aeronautics",
-      "category": "Structures",
-      "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji alanındaki yeni bir güncellemeyi ele alıyor.",
-      "publishedAt": "2026-10-02T16:10:55.000Z"
-    },
     {
       "title": "Reliable Robots: Meet Johnson’s Dexterous Robotics Team",
       "source": "NASA Aeronautics",
@@ -161,6 +152,14 @@
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık malzemeleri ve malzeme teknolojileri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
+      "title": "NASA Model Wing Lights Up During First Pressure Sensitive Paint Tests",
+      "source": "NASA Aeronautics",
+      "category": "Structures",
+      "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
       "title": "NASA Testing Aims at Supercooled Large Droplet Aviation Safety",
       "source": "NASA Aeronautics",
       "category": "Sustainability",
@@ -199,6 +198,14 @@
       "url": "https://www.aerospacemanufacturinganddesign.com/tag/women-to-watch/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "GE Aerospace is investing $225M to modernize research center",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Industry",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/ge-aerospace-investing-225m-modernize-research-center/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
+      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
       "title": "PPG announces $70 million investment to expand aerospace operations",
@@ -485,14 +492,6 @@
       "source": "Aerospace Manufacturing & Design",
       "category": "Manufacturing",
       "url": "https://www.aerospacemanufacturinganddesign.com/news/schneider-elite-machining-group-acquires-toolcraft-machining/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "IMTS 2026 Conference: Innovations for Swiss-type and Small Parts Machining",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Manufacturing",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/imts-2026-conference-innovations-for-swiss-type-and-small-parts-machining/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
     }
