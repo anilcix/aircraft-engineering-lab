@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T10:54:32.745979Z",
+  "updatedAt": "2026-10-09T10:54:00.431118Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 3084 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -5472,7 +5472,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Armenian Armed Forces",
-      "location": "Aghdam District",
+      "location": "Aghdam",
       "latitude": 39.983611,
       "longitude": 46.928611,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -28489,7 +28489,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Korpijärvi, South Korea",
+      "location": "Loukhi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -29500,7 +29500,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Panfilovo",
+      "location": "Almaty International Airport",
       "latitude": 43.37638889,
       "longitude": 77.10277778,
       "coordinateSource": "Wikidata event coordinate",
@@ -43046,7 +43046,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702245",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Skvoritsy",
+      "location": "Pulkovo Airport",
       "fatalities": 31
     },
     {
@@ -43141,7 +43141,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Q9130995",
-      "location": "Q268, Poland",
+      "location": "Poznań, Poland",
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1952_Pozna%C5%84_Pe-2_crash",
       "fatalities": 9
     },
