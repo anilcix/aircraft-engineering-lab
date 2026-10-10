@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T10:54:00.431118Z",
+  "updatedAt": "2026-10-10T10:10:19.132982Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 3084 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -3720,7 +3720,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Russian Air Force",
-      "location": "Latakia International Airport",
+      "location": "Khmeimim",
       "latitude": 35.4125,
       "longitude": 35.94167,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -28489,7 +28489,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Loukhi, South Korea",
+      "location": "Korpijärvi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -33411,7 +33411,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Eastern Air Lines",
-      "location": "North Carolina, United States",
+      "location": "Raleigh–Durham International Airport, United States",
       "latitude": 35.877777777,
       "longitude": -78.7875,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -35103,7 +35103,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16488132",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Almaty International Airport",
+      "location": "Guldala",
       "fatalities": 4
     },
     {
@@ -41715,6 +41715,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Braathens",
+      "location": "Hummelfjell, Norway",
       "fatalities": 2,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Braathens_SAFE_Flight_253"
     },
@@ -43046,7 +43047,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702245",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Pulkovo Airport",
+      "location": "Skvoritsy",
       "fatalities": 31
     },
     {
