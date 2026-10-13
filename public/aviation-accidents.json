@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T11:18:18.336283Z",
+  "updatedAt": "2026-10-13T11:03:35.112629Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 3084 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -761,7 +761,7 @@
       "operator": "New York Helicopter Charter Inc",
       "aircraft": "N216MH",
       "family": "N216MH",
-      "location": "Hudson River, United States",
+      "location": "Holland Tunnel, United States",
       "latitude": 40.729131757,
       "longitude": -74.026937108,
       "coordinateSource": "Wikidata event coordinate",
@@ -3720,7 +3720,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Russian Air Force",
-      "location": "Khmeimim",
+      "location": "Latakia International Airport",
       "latitude": 35.4125,
       "longitude": 35.94167,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -29500,7 +29500,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Panfilovo",
+      "location": "Almaty International Airport",
       "latitude": 43.37638889,
       "longitude": 77.10277778,
       "coordinateSource": "Wikidata event coordinate",
@@ -35189,7 +35189,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q108805116",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Bockhorn"
+      "location": "Emling"
     },
     {
       "id": "WIKIDATA-Q11737218",
