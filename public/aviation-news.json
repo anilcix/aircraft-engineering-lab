@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-10-15T11:29:37.030Z",
+  "updatedAt": "2026-10-15T17:01:07.744Z",
   "items": [
+    {
+      "title": "NASA Awards Enable Research, Technology to Build Future Workforce article 14 minutes ago",
+      "source": "NASA Aeronautics",
+      "category": "New Concepts",
+      "url": "https://www.nasa.gov/learning-resources/nasa-awards-enable-research-technology-to-build-future-workforce/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor.",
+      "publishedAt": "2026-10-15T15:57:47.000Z"
+    },
     {
       "title": "An Impact Structure With Legs",
       "source": "NASA Aeronautics",
@@ -36,6 +45,15 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji alanındaki yeni bir güncellemeyi ele alıyor.",
       "publishedAt": "2026-09-25T20:01:13.000Z"
+    },
+    {
+      "title": "2026-2027 DWU: High School Engineering Challenge Article",
+      "source": "NASA Aeronautics",
+      "category": "Propulsion",
+      "url": "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-high-school-engineering-challenge/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, motor, türbin ve itki sistemleri alanındaki yeni bir güncellemeyi ele alıyor.",
+      "publishedAt": "2026-09-25T17:19:42.000Z"
     },
     {
       "title": "NASA Celebrates Restoration of Guam Station Damaged by Typhoon Mawar",
@@ -185,14 +203,6 @@
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, sürdürülebilir havacılık ve emisyon azaltımı alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
-      "title": "2026-2027 DWU: High School Engineering Challenge Article",
-      "source": "NASA Aeronautics",
-      "category": "Propulsion",
-      "url": "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-high-school-engineering-challenge/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, motor, türbin ve itki sistemleri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
       "title": "Women to Watch in Manufacturing",
       "source": "Aerospace Manufacturing & Design",
       "category": "Manufacturing",
@@ -223,6 +233,14 @@
       "url": "https://www.aerospacemanufacturinganddesign.com/news/avolon-places-firm-order-110-airbus-aircraft/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "From Datums to Data: Linking GD&T Characteristics to Manufacturing Process Root Causes and Automating Process Control Solutions",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Manufacturing",
+      "url": "https://www.aerospacemanufacturinganddesign.com/media/from-datums-to-data-linking-g-d-and-t-characteristics-to-manufacturing-process-root-causes-and-automating-process-control-solutions/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
+      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
       "title": "Custom machining center tooling solutions",
@@ -479,22 +497,6 @@
       "url": "https://www.aerospacemanufacturinganddesign.com/news/drones-supersonic-aircraft-digital-technology-imts-2026/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "ORNL, Mazak develop VC-Ez WAAM additive manufacturing platform",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Manufacturing",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/ornl-mazak-develop-vc-ez-waam-additive-manufacturing-platform/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "NOEMI Aerospace selects Syensqo advanced materials for electric amphibious aircraft",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Materials",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/noemi-aerospace-selects-syensqo-advanced-materials-electric-amphibious-aircraft/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık malzemeleri ve malzeme teknolojileri alanındaki yeni bir güncellemeyi ele alıyor."
     }
   ]
 }
