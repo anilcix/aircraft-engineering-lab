@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-15T17:01:07.744Z",
+  "updatedAt": "2026-10-15T21:23:17.627Z",
   "items": [
-    {
-      "title": "NASA Awards Enable Research, Technology to Build Future Workforce article 14 minutes ago",
-      "source": "NASA Aeronautics",
-      "category": "New Concepts",
-      "url": "https://www.nasa.gov/learning-resources/nasa-awards-enable-research-technology-to-build-future-workforce/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor.",
-      "publishedAt": "2026-10-15T15:57:47.000Z"
-    },
     {
       "title": "An Impact Structure With Legs",
       "source": "NASA Aeronautics",
@@ -18,15 +9,6 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji alanındaki yeni bir güncellemeyi ele alıyor.",
       "publishedAt": "2026-10-13T04:01:00.000Z"
-    },
-    {
-      "title": "NASA Model Wing Lights Up During First Pressure Sensitive Paint Tests",
-      "source": "NASA Aeronautics",
-      "category": "Structures",
-      "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji alanındaki yeni bir güncellemeyi ele alıyor.",
-      "publishedAt": "2026-10-02T16:10:55.000Z"
     },
     {
       "title": "Reliable Robots: Meet Johnson’s Dexterous Robotics Team",
@@ -177,6 +159,22 @@
       "url": "https://www.nasa.gov/manufacturing-and-materials/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık malzemeleri ve malzeme teknolojileri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "NASA Model Wing Lights Up During First Pressure Sensitive Paint Tests",
+      "source": "NASA Aeronautics",
+      "category": "Structures",
+      "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "NASA Awards Enable Research, Technology to Build Future Workforce",
+      "source": "NASA Aeronautics",
+      "category": "New Concepts",
+      "url": "https://www.nasa.gov/learning-resources/nasa-awards-enable-research-technology-to-build-future-workforce/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
       "title": "Ultra-Efficient Aviation",
