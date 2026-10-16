@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T08:35:02.849665Z",
+  "updatedAt": "2026-10-16T08:35:00.021392Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 3084 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -3720,7 +3720,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Russian Air Force",
-      "location": "Khmeimim",
+      "location": "Latakia International Airport",
       "latitude": 35.4125,
       "longitude": 35.94167,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -5534,21 +5534,19 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Skyway_Enterprises_Flight_7101"
     },
     {
-      "id": "WIKIDATA-Q8929770",
+      "id": "WIKIDATA-Q18328407",
       "date": "2014-10-20",
-      "title": "2014 Vnukovo Airport Falcon 50 crash",
+      "title": "2014 Vnukovo Dassault Falcon 50 crash",
       "authority": "Wikidata discovery",
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
-      "sourceUrl": "http://www.wikidata.org/entity/Q8929770",
+      "sourceUrl": "http://www.wikidata.org/entity/Q18328407",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Vnukovo International Airport, Russia",
       "latitude": 55.5961,
       "longitude": 37.2675,
       "coordinateSource": "Wikidata event coordinate",
-      "fatalities": 4,
-      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Unijet_Flight_074P"
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2014_Falcon_50_Vnukovo_ground_collision"
     },
     {
       "id": "WIKIDATA-Q17988809",
@@ -7196,13 +7194,13 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Bhoja_Air_Flight_213"
     },
     {
-      "id": "WIKIDATA-Q17616278",
+      "id": "WIKIDATA-Q19863646",
       "date": "2012-04-06",
-      "title": "US Navy F/A-18 Hornet crash in Virginia Beach",
+      "title": "2012 Virginia Beach F/A-18 crash",
       "authority": "Wikidata discovery",
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
-      "sourceUrl": "http://www.wikidata.org/entity/Q17616278",
+      "sourceUrl": "http://www.wikidata.org/entity/Q19863646",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Strike Fighter Squadron 106",
@@ -19920,7 +19918,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Pakistan International Airlines",
-      "location": "Lower Himalayan Range, Nepal",
+      "location": "Kathmandu, Nepal",
       "latitude": 27.53277778,
       "longitude": 85.28472222,
       "coordinateSource": "Wikidata event coordinate",
@@ -29500,7 +29498,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Almaty International Airport",
+      "location": "Panfilovo",
       "latitude": 43.37638889,
       "longitude": 77.10277778,
       "coordinateSource": "Wikidata event coordinate",
