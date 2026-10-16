@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T04:32:17.885Z",
+  "updatedAt": "2026-10-16T11:24:49.686Z",
   "items": [
     {
       "title": "An Impact Structure With Legs",
@@ -27,6 +27,15 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, uçak yapıları, yük taşıyan bileşenler ve yapısal teknoloji alanındaki yeni bir güncellemeyi ele alıyor.",
       "publishedAt": "2026-09-25T20:01:13.000Z"
+    },
+    {
+      "title": "2026-2027 DWU: High School Engineering Challenge Article",
+      "source": "NASA Aeronautics",
+      "category": "Propulsion",
+      "url": "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-high-school-engineering-challenge/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, motor, türbin ve itki sistemleri alanındaki yeni bir güncellemeyi ele alıyor.",
+      "publishedAt": "2026-09-25T17:19:42.000Z"
     },
     {
       "title": "NASA Celebrates Restoration of Guam Station Damaged by Typhoon Mawar",
@@ -192,14 +201,6 @@
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, sürdürülebilir havacılık ve emisyon azaltımı alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
-      "title": "2026-2027 DWU: High School Engineering Challenge Article",
-      "source": "NASA Aeronautics",
-      "category": "Propulsion",
-      "url": "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-high-school-engineering-challenge/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, motor, türbin ve itki sistemleri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
       "title": "Women to Watch in Manufacturing",
       "source": "Aerospace Manufacturing & Design",
       "category": "Manufacturing",
@@ -208,26 +209,26 @@
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
+      "title": "Airbus U740 Valkyrie uncrewed combat aircraft makes maiden flight",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Industry",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/airbus-u740-valkyrie-uncrewed-combat-aircraft-makes-maiden-flight/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
+      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "EMUGE-FRANKEN USA hosts students, state, regional leaders on Manufacturing Day",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Manufacturing",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/emuge-franken-usa-hosts-students-state-regional-leaders-manufacturing-day/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
+      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
       "title": "Oklahoma breaks ground on $7.5 million Dawn Aerospace facility",
       "source": "Aerospace Manufacturing & Design",
       "category": "Industry",
       "url": "https://www.aerospacemanufacturinganddesign.com/news/oklahoma-breaks-ground-7-5-million-dawn-aerospace-facility/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "FAA selects Heart Aerospace for CLEEN award",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Industry",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/faa-selects-heart-aerospace-cleen-award/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "Avolon places firm order for 110 Airbus aircraft",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Industry",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/avolon-places-firm-order-110-airbus-aircraft/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
@@ -246,6 +247,22 @@
       "url": "https://www.aerospacemanufacturinganddesign.com/product/custom-machining-center-tooling-solutions/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "FAA selects Heart Aerospace for CLEEN award",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Industry",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/faa-selects-heart-aerospace-cleen-award/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
+      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "Avolon places firm order for 110 Airbus aircraft",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Industry",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/avolon-places-firm-order-110-airbus-aircraft/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
+      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
       "title": "NASA initiative to help Embry Riddle prepare students for AI-driven aerospace careers",
@@ -478,22 +495,6 @@
       "url": "https://www.aerospacemanufacturinganddesign.com/news/manufacturing-has-tools-to-transform-but-not-always-habits/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "#95 Manufacturing Matters - Toolholding Roundtable with Ekaras Inc.",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Manufacturing",
-      "url": "https://www.aerospacemanufacturinganddesign.com/media/manufacturing-matters-podcast-mfg-radio-network-toolholding-roundtable-ekaras/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "Drones, supersonic aircraft, digital technology, and more at IMTS 2026",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "New Concepts",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/drones-supersonic-aircraft-digital-technology-imts-2026/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor."
     }
   ]
 }
