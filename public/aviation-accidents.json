@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T08:35:00.021392Z",
+  "updatedAt": "2026-10-17T08:01:22.154618Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 3084 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -19918,7 +19918,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Pakistan International Airlines",
-      "location": "Kathmandu, Nepal",
+      "location": "Lower Himalayan Range, Nepal",
       "latitude": 27.53277778,
       "longitude": 85.28472222,
       "coordinateSource": "Wikidata event coordinate",
@@ -38105,7 +38105,8 @@
       "verificationStatus": "secondary structured discovery",
       "operator": "Air Inter",
       "location": "France",
-      "fatalities": 16
+      "fatalities": 16,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Air_Inter_Flight_2611"
     },
     {
       "id": "WIKIDATA-Q3079825",
@@ -45363,8 +45364,8 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q1434041",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "operator": "United States Air Force",
-      "location": "Switzerland",
+      "operator": "United States Army Air Corps",
+      "location": "Gauli Glacier, Switzerland",
       "fatalities": 0,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1946_C-53_Skytrooper_crash_on_the_Gauli_Glacier"
     },
