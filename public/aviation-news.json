@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-18T15:52:10.181Z",
+  "updatedAt": "2026-10-18T20:43:40.280Z",
   "items": [
-    {
-      "title": "Blog 4 Min Read Diving into Maintenance with NASA’s X-59",
-      "source": "NASA Aeronautics",
-      "category": "MRO",
-      "url": "https://www.nasa.gov/blogs/quesst/2026/10/16/diving-into-maintenance-with-nasas-x-59/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, bakım, onarım ve revizyon faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor.",
-      "publishedAt": "2026-10-16T16:57:56.000Z"
-    },
     {
       "title": "An Impact Structure With Legs",
       "source": "NASA Aeronautics",
@@ -200,6 +191,14 @@
       "url": "https://www.nasa.gov/rtmd",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "Blog 4 Min Read Diving into Maintenance with NASA’s X-59",
+      "source": "NASA Aeronautics",
+      "category": "MRO",
+      "url": "https://www.nasa.gov/blogs/quesst/2026/10/16/diving-into-maintenance-with-nasas-x-59/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, bakım, onarım ve revizyon faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
       "title": "NASA Testing Aims at Supercooled Large Droplet Aviation Safety Image Article",
