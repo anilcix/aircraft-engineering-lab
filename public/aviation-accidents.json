@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T08:01:22.154618Z",
+  "updatedAt": "2026-10-18T08:19:23.656292Z",
   "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 3084 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
@@ -9239,7 +9239,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q4217226",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Q4155196",
+      "location": "Datta",
       "latitude": 54.8,
       "longitude": 136.833333333,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -29347,7 +29347,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q19910301",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Q18791735",
+      "location": "Natalin Yar",
       "latitude": 51.150833333,
       "longitude": 51.543055555,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -31594,7 +31594,7 @@
       "operator": "Aeroflot",
       "aircraft": "Tupolev Tu-124",
       "family": "Tupolev Tu-124",
-      "location": "Q4214453",
+      "location": "Karacharovo",
       "latitude": 55.74055556,
       "longitude": 35.7875,
       "coordinateSource": "Wikidata event coordinate",
@@ -46912,7 +46912,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Kazan Aircraft Production Association",
-      "location": "Q13565446, Soviet Union",
+      "location": "Shakulovo, Soviet Union",
       "fatalities": 4
     },
     {
