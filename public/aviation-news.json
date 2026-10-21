@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T11:49:35.456Z",
+  "updatedAt": "2026-10-21T17:12:32.740Z",
   "items": [
     {
       "title": "Diving into Maintenance with NASA’s X-59 October 16, 2026 Blog",
@@ -204,14 +204,6 @@
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
-      "title": "NASA Testing Aims at Supercooled Large Droplet Aviation Safety October 5, 2026 Image Article",
-      "source": "NASA Aeronautics",
-      "category": "Sustainability",
-      "url": "https://www.nasa.gov/image-article/nasa-testing-aims-at-supercooled-large-droplet-aviation-safety/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, sürdürülebilir havacılık ve emisyon azaltımı alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
       "title": "Women to Watch in Manufacturing",
       "source": "Aerospace Manufacturing & Design",
       "category": "Manufacturing",
@@ -236,6 +228,14 @@
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
+      "title": "Quantum Technology in Space",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Industry",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/atlas-technologies-quantum-in-space-al-ti-chambers/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
+      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
       "title": "Aerospace Industry Outlook - Fall 2026 webinar with Richard Aboulafia",
       "source": "Aerospace Manufacturing & Design",
       "category": "Industry",
@@ -250,6 +250,14 @@
       "url": "https://www.aerospacemanufacturinganddesign.com/media/manufacturing-matters-podcast-mfg-radio-network-cmmc-one-year-later-what-we-are-seeing-smithers-information-security-services-collins-machine-works/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "NASA Testing Aims at Supercooled Large Droplet Aviation Safety October 5, 2026 Image Article",
+      "source": "NASA Aeronautics",
+      "category": "Sustainability",
+      "url": "https://www.nasa.gov/image-article/nasa-testing-aims-at-supercooled-large-droplet-aviation-safety/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, sürdürülebilir havacılık ve emisyon azaltımı alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
       "title": "Grinding Automation: Turning Complexity into Competitive Advantage",
@@ -490,14 +498,6 @@
       "url": "https://www.aerospacemanufacturinganddesign.com/news/collins-aerospace-presented-zoller-toolroom-year-award/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "September Manufacturing Lunch &#x2B; Learn webinar with ExoStar",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Manufacturing",
-      "url": "https://www.aerospacemanufacturinganddesign.com/media/september-manufacturing-lunch-learn-webinar-exostar/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
     }
   ]
 }
