@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-10-22T11:52:59.036Z",
+  "updatedAt": "2026-10-22T17:10:49.450Z",
   "items": [
+    {
+      "title": "Diving into Maintenance with NASA’s X-59 October 16, 2026 Blog",
+      "source": "NASA Aeronautics",
+      "category": "MRO",
+      "url": "https://www.nasa.gov/blogs/quesst/2026/10/16/diving-into-maintenance-with-nasas-x-59/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, bakım, onarım ve revizyon faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor.",
+      "publishedAt": "2026-10-16T16:57:56.000Z"
+    },
+    {
+      "title": "NASA Awards Enable Research, Technology to Build Future Workforce",
+      "source": "NASA Aeronautics",
+      "category": "New Concepts",
+      "url": "https://www.nasa.gov/learning-resources/nasa-awards-enable-research-technology-to-build-future-workforce/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor.",
+      "publishedAt": "2026-10-15T15:57:47.000Z"
+    },
     {
       "title": "An Impact Structure With Legs",
       "source": "NASA Aeronautics",
@@ -170,14 +188,6 @@
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık malzemeleri ve malzeme teknolojileri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
-      "title": "NASA Awards Enable Research, Technology to Build Future Workforce",
-      "source": "NASA Aeronautics",
-      "category": "New Concepts",
-      "url": "https://www.nasa.gov/learning-resources/nasa-awards-enable-research-technology-to-build-future-workforce/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
       "title": "Ultra-Efficient Aviation",
       "source": "NASA Aeronautics",
       "category": "Industry",
@@ -192,14 +202,6 @@
       "url": "https://www.nasa.gov/rtmd",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "Diving into Maintenance with NASA’s X-59 October 16, 2026 Blog",
-      "source": "NASA Aeronautics",
-      "category": "MRO",
-      "url": "https://www.nasa.gov/blogs/quesst/2026/10/16/diving-into-maintenance-with-nasas-x-59/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, bakım, onarım ve revizyon faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
       "title": "Women to Watch in Manufacturing",
