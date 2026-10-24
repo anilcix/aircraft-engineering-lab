@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-10-24T04:37:09.257Z",
+  "updatedAt": "2026-10-24T11:01:02.957Z",
   "items": [
+    {
+      "title": "Diving into Maintenance with NASA’s X-59 October 16, 2026 Blog",
+      "source": "NASA Aeronautics",
+      "category": "MRO",
+      "url": "https://www.nasa.gov/blogs/quesst/2026/10/16/diving-into-maintenance-with-nasas-x-59/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, bakım, onarım ve revizyon faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor.",
+      "publishedAt": "2026-10-16T16:57:56.000Z"
+    },
+    {
+      "title": "NASA Awards Enable Research, Technology to Build Future Workforce",
+      "source": "NASA Aeronautics",
+      "category": "New Concepts",
+      "url": "https://www.nasa.gov/learning-resources/nasa-awards-enable-research-technology-to-build-future-workforce/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor.",
+      "publishedAt": "2026-10-15T15:57:47.000Z"
+    },
     {
       "title": "An Impact Structure With Legs",
       "source": "NASA Aeronautics",
@@ -170,14 +188,6 @@
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık malzemeleri ve malzeme teknolojileri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
-      "title": "NASA Awards Enable Research, Technology to Build Future Workforce",
-      "source": "NASA Aeronautics",
-      "category": "New Concepts",
-      "url": "https://www.nasa.gov/learning-resources/nasa-awards-enable-research-technology-to-build-future-workforce/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
       "title": "Ultra-Efficient Aviation",
       "source": "NASA Aeronautics",
       "category": "Industry",
@@ -194,18 +204,18 @@
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
-      "title": "Diving into Maintenance with NASA’s X-59 October 16, 2026 Blog",
-      "source": "NASA Aeronautics",
-      "category": "MRO",
-      "url": "https://www.nasa.gov/blogs/quesst/2026/10/16/diving-into-maintenance-with-nasas-x-59/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, bakım, onarım ve revizyon faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
       "title": "Women to Watch in Manufacturing",
       "source": "Aerospace Manufacturing & Design",
       "category": "Manufacturing",
       "url": "https://www.aerospacemanufacturinganddesign.com/tag/women-to-watch/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
+      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "Talking manufacturing challenges, opportunities with industry leaders",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Manufacturing",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/talking-manufacturing-challenges-opportunities-industry-leaders/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
     },
@@ -486,14 +496,6 @@
       "source": "Aerospace Manufacturing & Design",
       "category": "Industry",
       "url": "https://www.aerospacemanufacturinganddesign.com/news/minus-k-technology-is-giving-away-negative-stiffness-vibration-isolators-us-colleges/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "Joby Aviation showcases autonomous flight technology in Oklahoma City",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Industry",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/joby-aviation-showcases-autonomous-flight-technology-oklahoma-city/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     }
