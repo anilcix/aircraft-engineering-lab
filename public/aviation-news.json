@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-10-25T16:19:32.807Z",
+  "updatedAt": "2026-10-25T20:51:08.406Z",
   "items": [
-    {
-      "title": "Diving into Maintenance with NASA’s X-59 October 16, 2026 Blog",
-      "source": "NASA Aeronautics",
-      "category": "MRO",
-      "url": "https://www.nasa.gov/blogs/quesst/2026/10/16/diving-into-maintenance-with-nasas-x-59/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, bakım, onarım ve revizyon faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor.",
-      "publishedAt": "2026-10-16T16:57:56.000Z"
-    },
     {
       "title": "NASA Awards Enable Research, Technology to Build Future Workforce",
       "source": "NASA Aeronautics",
@@ -202,6 +193,14 @@
       "url": "https://www.nasa.gov/rtmd",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "Diving into Maintenance with NASA’s X-59 October 16, 2026 Blog",
+      "source": "NASA Aeronautics",
+      "category": "MRO",
+      "url": "https://www.nasa.gov/blogs/quesst/2026/10/16/diving-into-maintenance-with-nasas-x-59/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, bakım, onarım ve revizyon faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
       "title": "Women to Watch in Manufacturing",
