@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T08:42:29.633874Z",
+  "updatedAt": "2026-10-26T09:20:08.196189Z",
   "source": "Wikidata Query Service / aviation accident (Q744913)",
   "license": "Wikidata structured data is CC0",
   "coverageNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
@@ -567,7 +567,7 @@
       "operator": "New York Helicopter Charter Inc",
       "aircraft": "N216MH",
       "family": "N216MH",
-      "location": "Hudson River, United States",
+      "location": "Holland Tunnel, United States",
       "latitude": 40.729131757,
       "longitude": -74.026937108,
       "coordinateSource": "Wikidata event coordinate",
@@ -27880,7 +27880,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Karelian Autonomous Soviet Socialist Republic, South Korea",
+      "location": "Korpijärvi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -34580,7 +34580,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q108805116",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Bockhorn"
+      "location": "Emling"
     },
     {
       "id": "WIKIDATA-Q11737218",
@@ -35951,7 +35951,7 @@
       "operator": "Czechoslovak Air Force",
       "aircraft": "MiG-19S",
       "family": "MiG-19S",
-      "location": "Czechoslovakia",
+      "location": "Hořovice, Czechoslovakia",
       "fatalities": 1
     },
     {
@@ -38049,7 +38049,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q20986953",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Mount Kit Carson"
+      "location": "Spokane"
     },
     {
       "id": "WIKIDATA-Q18398627",
@@ -39155,7 +39155,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Kyiv Oblast",
+      "location": "Tarasovychi",
       "fatalities": 34,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroflot_Flight_036"
     },
@@ -42138,7 +42138,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Kemerovsky District",
+      "location": "Barzas",
       "fatalities": 27
     },
     {
