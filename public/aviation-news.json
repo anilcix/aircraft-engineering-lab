@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T00:25:44.922Z",
+  "updatedAt": "2026-10-27T09:00:02.752Z",
   "items": [
     {
       "title": "Diving into Maintenance with NASA’s X-59 October 16, 2026 Blog",
@@ -212,12 +212,28 @@
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
+      "title": "eVTOL developer Skyfly lands $10 million seed round",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "New Concepts",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/evtol-developer-skyfly-lands-10-million-seed-round/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
+      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
       "title": "Pratt & Whitney Canada introduces certified PT9 engine",
       "source": "Aerospace Manufacturing & Design",
       "category": "Propulsion",
       "url": "https://www.aerospacemanufacturinganddesign.com/news/pratt-whitney-canada-introduces-certified-pt9-engine/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, motor, türbin ve itki sistemleri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "#95 Manufacturing Matters - The Front End of Innovation in MedTech with Dr. Stuart Grant of Archetype MedTech",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Manufacturing",
+      "url": "https://www.aerospacemanufacturinganddesign.com/media/manufacturing-matters-podcast-mfg-radio-network-front-end-of-innovation-in-med-tech-dr-stuart-grant-archetype-med-tech/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
+      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
       "title": "Optimizing machining for high-strength and fragmenting steels",
@@ -232,14 +248,6 @@
       "source": "Aerospace Manufacturing & Design",
       "category": "Manufacturing",
       "url": "https://www.aerospacemanufacturinganddesign.com/news/talking-manufacturing-challenges-opportunities-industry-leaders/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "#95 Manufacturing Matters - The Front End of Innovation in MedTech with Dr. Stuart Grant of Archetype MedTech",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Manufacturing",
-      "url": "https://www.aerospacemanufacturinganddesign.com/media/manufacturing-matters-podcast-mfg-radio-network-front-end-of-innovation-in-med-tech-dr-stuart-grant-archetype-med-tech/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
     },
@@ -490,14 +498,6 @@
       "url": "https://www.aerospacemanufacturinganddesign.com/news/learn-something-new-october-manufacturing-lunch-learn/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "EAA Aviation Foundation scholarship applications now open",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Industry",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/eaa-aviation-foundation-scholarship-applications-now-open/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     }
   ]
 }
