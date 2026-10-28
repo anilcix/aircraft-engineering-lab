@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T05:42:36.788Z",
+  "updatedAt": "2026-10-28T12:55:00.072Z",
   "items": [
     {
       "title": "Diving into Maintenance with NASA’s X-59 October 16, 2026 Blog",
@@ -9,6 +9,15 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, bakım, onarım ve revizyon faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor.",
       "publishedAt": "2026-10-16T16:57:56.000Z"
+    },
+    {
+      "title": "NASA Awards Enable Research, Technology to Build Future Workforce",
+      "source": "NASA Aeronautics",
+      "category": "New Concepts",
+      "url": "https://www.nasa.gov/learning-resources/nasa-awards-enable-research-technology-to-build-future-workforce/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor.",
+      "publishedAt": "2026-10-15T15:57:47.000Z"
     },
     {
       "title": "An Impact Structure With Legs",
@@ -179,14 +188,6 @@
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık malzemeleri ve malzeme teknolojileri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
-      "title": "NASA Awards Enable Research, Technology to Build Future Workforce",
-      "source": "NASA Aeronautics",
-      "category": "New Concepts",
-      "url": "https://www.nasa.gov/learning-resources/nasa-awards-enable-research-technology-to-build-future-workforce/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
       "title": "Ultra-Efficient Aviation",
       "source": "NASA Aeronautics",
       "category": "Industry",
@@ -227,20 +228,20 @@
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
-      "title": "Pratt & Whitney Canada introduces certified PT9 engine",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Propulsion",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/pratt-whitney-canada-introduces-certified-pt9-engine/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, motor, türbin ve itki sistemleri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
       "title": "#95 Manufacturing Matters - The Front End of Innovation in MedTech with Dr. Stuart Grant of Archetype MedTech",
       "source": "Aerospace Manufacturing & Design",
       "category": "Manufacturing",
       "url": "https://www.aerospacemanufacturinganddesign.com/media/manufacturing-matters-podcast-mfg-radio-network-front-end-of-innovation-in-med-tech-dr-stuart-grant-archetype-med-tech/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "Pratt & Whitney Canada introduces certified PT9 engine",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Propulsion",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/pratt-whitney-canada-introduces-certified-pt9-engine/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
+      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, motor, türbin ve itki sistemleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
       "title": "Optimizing machining for high-strength and fragmenting steels",
