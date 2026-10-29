@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-10-29T09:58:27.352Z",
+  "updatedAt": "2026-10-29T18:28:26.591Z",
   "items": [
+    {
+      "title": "NASA’s ISAM State of Play: The Industry Standard for Space Servicing, Assembly, and Manufacturing",
+      "source": "NASA Aeronautics",
+      "category": "Manufacturing",
+      "url": "https://www.nasa.gov/humans-in-space/commercial-space/nasas-isam-state-of-play-the-industry-standard-for-space-servicing-assembly-and-manufacturing/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor.",
+      "publishedAt": "2026-10-29T15:06:40.000Z"
+    },
     {
       "title": "NASA University Challenge Ignites Trajectory of Drone Entrepreneur",
       "source": "NASA Aeronautics",
@@ -491,14 +500,6 @@
       "url": "https://www.aerospacemanufacturinganddesign.com/news/ge-aerospace-investing-225m-modernize-research-center/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "Practicing for Safe Landings on the Moon and Beyond Image Article",
-      "source": "NASA Aeronautics",
-      "category": "Sustainability",
-      "url": "https://www.nasa.gov/image-article/practicing-for-safe-landings-on-the-moon-and-beyond/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, sürdürülebilir havacılık ve emisyon azaltımı alanındaki yeni bir güncellemeyi ele alıyor."
     }
   ]
 }
