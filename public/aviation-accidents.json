@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-29T10:24:01.283460Z",
-  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 3084 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
+  "updatedAt": "2026-10-30T10:26:19.290066Z",
+  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 3085 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
     {
@@ -180,6 +180,24 @@
     }
   ],
   "items": [
+    {
+      "id": "WIKIDATA-Q141649162",
+      "date": "2026-10-05",
+      "title": "2026 Nigerian Air Force ATR 42 crash",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q141649162",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "operator": "Nigerian Air Force",
+      "location": "Ondo State, Nigeria",
+      "latitude": 7.166666666,
+      "longitude": 5.083333333,
+      "coordinateSource": "Wikidata event-location coordinate",
+      "fatalities": 25,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2026_Nigerian_Air_Force_ATR_42_crash"
+    },
     {
       "id": "WIKIDATA-Q141489588",
       "date": "2026-09-15",
@@ -1312,7 +1330,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Singapore Airlines",
-      "location": "Suvarnabhumi Airport",
+      "location": "Gulf of Martaban",
       "latitude": 13.681111,
       "longitude": 100.747222,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -3720,7 +3738,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Russian Air Force",
-      "location": "Latakia International Airport",
+      "location": "Khmeimim",
       "latitude": 35.4125,
       "longitude": 35.94167,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -4942,7 +4960,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q21640152",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Khanty-Mansi Autonomous District",
+      "location": "Khanty-Mansi Autonomous Okrug",
       "latitude": 62.25,
       "longitude": 70.166666666,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -19444,7 +19462,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q118956688",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Choporti",
+      "location": "Tbilisi International Airport",
       "latitude": 41.976944444,
       "longitude": 44.768333333,
       "coordinateSource": "Wikidata event-location coordinate"
@@ -19919,7 +19937,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Pakistan International Airlines",
-      "location": "Lower Himalayan Range, Nepal",
+      "location": "Kathmandu, Nepal",
       "latitude": 27.53277778,
       "longitude": 85.28472222,
       "coordinateSource": "Wikidata event coordinate",
@@ -27948,7 +27966,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
-      "location": "Liepāja, Latvian Socialist Soviet Republic",
+      "location": "Liepāja, Latvian Soviet Socialist Republic",
       "latitude": 56.508333333,
       "longitude": 21.011111111,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -33410,7 +33428,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Eastern Air Lines",
-      "location": "North Carolina, United States",
+      "location": "Raleigh–Durham International Airport, United States",
       "latitude": 35.877777777,
       "longitude": -78.7875,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -42746,7 +42764,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Kemerovsky District",
+      "location": "Barzas",
       "fatalities": 27
     },
     {
@@ -43609,7 +43627,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q5192133",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Key West, United States",
+      "location": "Florida, United States",
       "fatalities": 43,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Cubana_de_Aviaci%C3%B3n_Flight_493"
     },
@@ -48669,9 +48687,9 @@
   "discoveryNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
   "counts": {
     "officialIndexed": 40,
-    "discovery": 3084,
-    "totalVisible": 3124,
-    "withCoordinates": 1618
+    "discovery": 3085,
+    "totalVisible": 3125,
+    "withCoordinates": 1619
   },
-  "mapNote": "1618 indexed records currently include structured map coordinates. Records without coordinates remain searchable in the case library but are omitted from the map."
+  "mapNote": "1619 indexed records currently include structured map coordinates. Records without coordinates remain searchable in the case library but are omitted from the map."
 }
