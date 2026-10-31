@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-10-30T22:20:17.046Z",
+  "updatedAt": "2026-10-31T05:41:31.068Z",
   "items": [
-    {
-      "title": "NASA’s ISAM State of Play: The Industry Standard for Space Servicing, Assembly, and Manufacturing",
-      "source": "NASA Aeronautics",
-      "category": "Manufacturing",
-      "url": "https://www.nasa.gov/humans-in-space/commercial-space/nasas-isam-state-of-play-the-industry-standard-for-space-servicing-assembly-and-manufacturing/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor.",
-      "publishedAt": "2026-10-29T15:06:40.000Z"
-    },
-    {
-      "title": "NASA University Challenge Ignites Trajectory of Drone Entrepreneur",
-      "source": "NASA Aeronautics",
-      "category": "Industry",
-      "url": "https://www.nasa.gov/aeronautics/nasa-challenge-drone-entrepreneur/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor.",
-      "publishedAt": "2026-10-28T18:00:28.000Z"
-    },
     {
       "title": "Diving into Maintenance with NASA’s X-59 October 16, 2026 Blog",
       "source": "NASA Aeronautics",
@@ -27,15 +9,6 @@
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, bakım, onarım ve revizyon faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor.",
       "publishedAt": "2026-10-16T16:57:56.000Z"
-    },
-    {
-      "title": "NASA Awards Enable Research, Technology to Build Future Workforce",
-      "source": "NASA Aeronautics",
-      "category": "New Concepts",
-      "url": "https://www.nasa.gov/learning-resources/nasa-awards-enable-research-technology-to-build-future-workforce/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor.",
-      "publishedAt": "2026-10-15T15:57:47.000Z"
     },
     {
       "title": "An Impact Structure With Legs",
@@ -206,6 +179,30 @@
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık malzemeleri ve malzeme teknolojileri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
+      "title": "NASA’s ISAM State of Play: The Industry Standard for Space Servicing, Assembly, and Manufacturing",
+      "source": "NASA Aeronautics",
+      "category": "Manufacturing",
+      "url": "https://www.nasa.gov/humans-in-space/commercial-space/nasas-isam-state-of-play-the-industry-standard-for-space-servicing-assembly-and-manufacturing/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "NASA University Challenge Ignites Trajectory of Drone Entrepreneur",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/aeronautics/nasa-challenge-drone-entrepreneur/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "NASA Awards Enable Research, Technology to Build Future Workforce",
+      "source": "NASA Aeronautics",
+      "category": "New Concepts",
+      "url": "https://www.nasa.gov/learning-resources/nasa-awards-enable-research-technology-to-build-future-workforce/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
       "title": "Ultra-Efficient Aviation",
       "source": "NASA Aeronautics",
       "category": "Industry",
@@ -234,6 +231,14 @@
       "source": "Aerospace Manufacturing & Design",
       "category": "Manufacturing",
       "url": "https://www.aerospacemanufacturinganddesign.com/tag/women-to-watch/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
+      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "The manufacturing supply chain: Challenges and solutions",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Manufacturing",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/manufacturing-supply-chain-challenges-solutions/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
     },
@@ -492,14 +497,6 @@
       "url": "https://www.aerospacemanufacturinganddesign.com/media/cnc-driven-robotics-how-siemens-and-kuka-are-simplifying-automation-for-the-modern-shopfloor/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "Up close with SMW Autoblok&#x2019;s workholding technology",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Industry",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/up-close-smw-autoblok-workholding-technology/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     }
   ]
 }
