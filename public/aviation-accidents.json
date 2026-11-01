@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-31T09:56:28.219569Z",
-  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 3085 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
+  "updatedAt": "2026-11-01T10:47:19.152398Z",
+  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 3087 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
     {
@@ -180,6 +180,41 @@
     }
   ],
   "items": [
+    {
+      "id": "WIKIDATA-Q141947331",
+      "date": "2026-10-30",
+      "title": "2026 Uttarakhand helicopter crash",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q141947331",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "location": "Joshimath, India",
+      "latitude": 30.555,
+      "longitude": 79.565,
+      "coordinateSource": "Wikidata event-location coordinate",
+      "fatalities": 6,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2026_Uttarakhand_helicopter_crash"
+    },
+    {
+      "id": "WIKIDATA-Q141947324",
+      "date": "2026-10-29",
+      "title": "2026 Brčko helicopter crash",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q141947324",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "operator": "Italian Army",
+      "location": "Brčko, Bosnia and Herzegovina",
+      "latitude": 44.878333333,
+      "longitude": 18.809166666,
+      "coordinateSource": "Wikidata event-location coordinate",
+      "fatalities": 4,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2026_Br%C4%8Dko_helicopter_crash"
+    },
     {
       "id": "WIKIDATA-Q141649162",
       "date": "2026-10-05",
@@ -3738,7 +3773,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Russian Air Force",
-      "location": "Latakia International Airport",
+      "location": "Khmeimim",
       "latitude": 35.4125,
       "longitude": 35.94167,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -21179,7 +21214,8 @@
       "location": "Chulman Airport",
       "latitude": 24.906666666,
       "longitude": 67.160833333,
-      "coordinateSource": "Wikidata event-location coordinate"
+      "coordinateSource": "Wikidata event-location coordinate",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroflot_Flight_4076"
     },
     {
       "id": "WIKIDATA-Q110462304",
@@ -28506,7 +28542,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Korpijärvi, South Korea",
+      "location": "Karelian Autonomous Soviet Socialist Republic, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -30434,7 +30470,8 @@
       "latitude": 58.52494444,
       "longitude": 31.25886111,
       "coordinateSource": "Wikidata event coordinate",
-      "fatalities": 11
+      "fatalities": 11,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroflot_Flight_L-98"
     },
     {
       "id": "WIKIDATA-Q1851980",
@@ -33428,7 +33465,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Eastern Air Lines",
-      "location": "North Carolina, United States",
+      "location": "Raleigh–Durham International Airport, United States",
       "latitude": 35.877777777,
       "longitude": -78.7875,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -38675,7 +38712,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q20986953",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Mount Kit Carson"
+      "location": "Spokane"
     },
     {
       "id": "WIKIDATA-Q18398627",
@@ -42764,7 +42801,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Kemerovsky District",
+      "location": "Barzas",
       "fatalities": 27
     },
     {
@@ -48687,9 +48724,9 @@
   "discoveryNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
   "counts": {
     "officialIndexed": 40,
-    "discovery": 3085,
-    "totalVisible": 3125,
-    "withCoordinates": 1619
+    "discovery": 3087,
+    "totalVisible": 3127,
+    "withCoordinates": 1621
   },
-  "mapNote": "1619 indexed records currently include structured map coordinates. Records without coordinates remain searchable in the case library but are omitted from the map."
+  "mapNote": "1621 indexed records currently include structured map coordinates. Records without coordinates remain searchable in the case library but are omitted from the map."
 }
