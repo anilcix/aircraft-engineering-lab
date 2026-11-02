@@ -1,11 +1,28 @@
 {
-  "updatedAt": "2026-11-01T10:47:18.997754Z",
+  "updatedAt": "2026-11-02T11:39:44.144285Z",
   "source": "Wikidata Query Service / aviation accident (Q744913)",
   "license": "Wikidata structured data is CC0",
   "coverageNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
-  "coordinateNote": "1621 discovery records include an event or event-location coordinate for the 1970-2026 map timeline.",
+  "coordinateNote": "1623 discovery records include an event or event-location coordinate for the 1970-2026 map timeline.",
   "coordinateBatchWarnings": [],
   "items": [
+    {
+      "id": "WIKIDATA-Q141966885",
+      "date": "2026-11-01",
+      "title": "2026 Palm Beach County Learjet 60 crash",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q141966885",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "location": "Greenacres, United States",
+      "latitude": 26.632888888,
+      "longitude": -80.113111111,
+      "coordinateSource": "Wikidata event coordinate",
+      "fatalities": 9,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2026_Palm_Beach_County_Learjet_60_crash"
+    },
     {
       "id": "WIKIDATA-Q141947331",
       "date": "2026-10-30",
@@ -1174,7 +1191,10 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q137260092",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "United States",
+      "location": "Salt Lake City International Airport, United States",
+      "latitude": 40.788333333,
+      "longitude": -111.977777777,
+      "coordinateSource": "Wikidata event-location coordinate",
       "fatalities": 1
     },
     {
@@ -1280,7 +1300,7 @@
     },
     {
       "id": "WIKIDATA-Q120023083",
-      "date": "2023-06-13",
+      "date": "2023-06-11",
       "title": "2023 Syria helicopter accident",
       "authority": "Wikidata discovery",
       "status": "Discovery record — official verification pending",
@@ -1480,6 +1500,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q116853497",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
+      "location": "Ahmed Sékou Touré International Airport, Guinea",
       "latitude": 9.576889,
       "longitude": -13.611961,
       "coordinateSource": "Wikidata event coordinate"
@@ -1518,7 +1539,8 @@
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
       "sourceUrl": "http://www.wikidata.org/entity/Q120907326",
       "sourceTier": "discovery",
-      "verificationStatus": "secondary structured discovery"
+      "verificationStatus": "secondary structured discovery",
+      "location": "United States"
     },
     {
       "id": "WIKIDATA-Q113129372",
@@ -3278,7 +3300,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Russian Air Force",
-      "location": "Khmeimim",
+      "location": "Latakia International Airport",
       "latitude": 35.4125,
       "longitude": 35.94167,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -27934,7 +27956,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Karelian Autonomous Soviet Socialist Republic, South Korea",
+      "location": "Korpijärvi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -32857,7 +32879,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Eastern Air Lines",
-      "location": "Raleigh–Durham International Airport, United States",
+      "location": "North Carolina, United States",
       "latitude": 35.877777777,
       "longitude": -78.7875,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -38104,7 +38126,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q20986953",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Spokane"
+      "location": "Mount Kit Carson"
     },
     {
       "id": "WIKIDATA-Q18398627",
@@ -42193,7 +42215,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Barzas",
+      "location": "Kemerovsky District",
       "fatalities": 27
     },
     {
