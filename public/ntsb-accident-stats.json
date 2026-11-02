@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-10-26T11:17:18.124251Z",
+  "generatedAt": "2026-11-02T13:39:36.080108Z",
   "coverageNote": "Official NTSB downloadable aviation dataset, 1982-present. Type and operator counts are NTSB-scope accident records, not a global accident census.",
   "causeMethodNote": "Cause/contributing-factor categories are AEL multi-label groupings derived primarily from NTSB Findings text, with narrative fallback when no finding category matches. They are not an official NTSB single-cause taxonomy; one event may appear in multiple categories.",
-  "totalAccidents": 28951,
-  "recognizedAccidentEvents": 798,
-  "totalAircraftRecords": 839,
+  "totalAccidents": 29075,
+  "recognizedAccidentEvents": 801,
+  "totalAircraftRecords": 842,
   "causeCategories": [
     {
       "category": "Other / uncategorized",
-      "count": 305,
-      "percentOfEvents": 38.2
+      "count": 304,
+      "percentOfEvents": 38.0
     },
     {
       "category": "Weather / environment",
-      "count": 249,
-      "percentOfEvents": 31.2
+      "count": 251,
+      "percentOfEvents": 31.3
     },
     {
       "category": "Pilot / flight crew",
-      "count": 195,
-      "percentOfEvents": 24.4
+      "count": 198,
+      "percentOfEvents": 24.7
     },
     {
       "category": "ATC / airport / ground infrastructure",
@@ -33,13 +33,13 @@
     },
     {
       "category": "Engine / powerplant",
-      "count": 59,
-      "percentOfEvents": 7.4
+      "count": 60,
+      "percentOfEvents": 7.5
     },
     {
       "category": "Structural / material",
-      "count": 55,
-      "percentOfEvents": 6.9
+      "count": 57,
+      "percentOfEvents": 7.1
     },
     {
       "category": "Aircraft systems / component",
@@ -85,7 +85,7 @@
     },
     {
       "operator": "UNITED AIRLINES INC",
-      "accidents": 31,
+      "accidents": 32,
       "fatalAccidents": 0,
       "fatalities": 0,
       "families": [
@@ -97,7 +97,7 @@
         "Boeing 777",
         "Boeing 787"
       ],
-      "avgAccidentAircraftAgeYears": 17.8
+      "avgAccidentAircraftAgeYears": 18.2
     },
     {
       "operator": "AMERICAN AIRLINES INC",
@@ -145,7 +145,7 @@
         "Boeing 767",
         "Boeing 787"
       ],
-      "avgAccidentAircraftAgeYears": 14.3
+      "avgAccidentAircraftAgeYears": 14.6
     },
     {
       "operator": "Delta Air Lines",
@@ -483,17 +483,6 @@
       ]
     },
     {
-      "operator": "Korean Air",
-      "accidents": 3,
-      "fatalAccidents": 0,
-      "fatalities": 0,
-      "families": [
-        "Airbus A330",
-        "Boeing 737 Family",
-        "Boeing 777"
-      ]
-    },
-    {
       "operator": "REPUBLIC AIRLINE INC",
       "accidents": 3,
       "fatalAccidents": 0,
@@ -691,6 +680,17 @@
       ]
     },
     {
+      "operator": "Delta Air Lines, Inc",
+      "accidents": 2,
+      "fatalAccidents": 0,
+      "fatalities": 0,
+      "families": [
+        "Airbus A330",
+        "McDonnell Douglas MD-80"
+      ],
+      "avgAccidentAircraftAgeYears": 25.5
+    },
+    {
       "operator": "Delta Airlines",
       "accidents": 2,
       "fatalAccidents": 0,
@@ -762,6 +762,16 @@
         "Boeing 747"
       ],
       "avgAccidentAircraftAgeYears": 17.5
+    },
+    {
+      "operator": "Korean Air",
+      "accidents": 2,
+      "fatalAccidents": 0,
+      "fatalities": 0,
+      "families": [
+        "Airbus A330",
+        "Boeing 737 Family"
+      ]
     },
     {
       "operator": "Mesa Airlines",
@@ -905,15 +915,6 @@
       "families": [
         "Boeing 777"
       ]
-    },
-    {
-      "operator": "Ukraine International Airlines",
-      "accidents": 1,
-      "fatalAccidents": 1,
-      "fatalities": 176,
-      "families": [
-        "Boeing 737 Family"
-      ]
     }
   ],
   "types": [
@@ -921,19 +922,19 @@
       "family": "Boeing 737 Family",
       "make": "BOEING",
       "model": "737",
-      "accidents": 298,
+      "accidents": 299,
       "fatalAccidents": 22,
       "fatalities": 1667,
       "causeCategories": [
         {
           "category": "Other / uncategorized",
-          "count": 154,
-          "percentOfEvents": 51.7
+          "count": 155,
+          "percentOfEvents": 51.8
         },
         {
           "category": "Weather / environment",
           "count": 70,
-          "percentOfEvents": 23.5
+          "percentOfEvents": 23.4
         },
         {
           "category": "ATC / airport / ground infrastructure",
@@ -968,7 +969,7 @@
         {
           "category": "Fuel / fire / explosion",
           "count": 10,
-          "percentOfEvents": 3.4
+          "percentOfEvents": 3.3
         }
       ],
       "operatorStats": [
@@ -1116,7 +1117,7 @@
         "DELTA AIR LINES INC",
         "UNITED AIR LINES INC"
       ],
-      "avgAgeYears": 12.5,
+      "avgAgeYears": 12.4,
       "minAgeYears": 0.0,
       "maxAgeYears": 46.0
     },
@@ -1135,13 +1136,13 @@
         },
         {
           "category": "Pilot / flight crew",
-          "count": 32,
-          "percentOfEvents": 30.5
+          "count": 33,
+          "percentOfEvents": 31.4
         },
         {
           "category": "Other / uncategorized",
-          "count": 20,
-          "percentOfEvents": 19.0
+          "count": 19,
+          "percentOfEvents": 18.1
         },
         {
           "category": "Engine / powerplant",
@@ -1238,7 +1239,7 @@
           "accidents": 3,
           "fatalAccidents": 0,
           "fatalities": 0,
-          "avgAccidentAircraftAgeYears": 20.5
+          "avgAccidentAircraftAgeYears": 20.7
         },
         {
           "operator": "Allegiant Air, LLC",
@@ -1315,7 +1316,7 @@
         "SPIRIT AIRLINES INC",
         "UNITED AIRLINES INC"
       ],
-      "avgAgeYears": 11.8,
+      "avgAgeYears": 11.9,
       "minAgeYears": 0.0,
       "maxAgeYears": 30.0
     },
@@ -1329,48 +1330,48 @@
       "causeCategories": [
         {
           "category": "Weather / environment",
-          "count": 25,
-          "percentOfEvents": 38.5
-        },
-        {
-          "category": "Other / uncategorized",
-          "count": 21,
-          "percentOfEvents": 32.3
+          "count": 26,
+          "percentOfEvents": 40.0
         },
         {
           "category": "Pilot / flight crew",
-          "count": 18,
-          "percentOfEvents": 27.7
+          "count": 20,
+          "percentOfEvents": 30.8
+        },
+        {
+          "category": "Other / uncategorized",
+          "count": 19,
+          "percentOfEvents": 29.2
         },
         {
           "category": "ATC / airport / ground infrastructure",
+          "count": 9,
+          "percentOfEvents": 13.8
+        },
+        {
+          "category": "Maintenance / inspection",
           "count": 8,
           "percentOfEvents": 12.3
         },
         {
-          "category": "Maintenance / inspection",
-          "count": 7,
-          "percentOfEvents": 10.8
-        },
-        {
           "category": "Aircraft systems / component",
-          "count": 5,
-          "percentOfEvents": 7.7
+          "count": 6,
+          "percentOfEvents": 9.2
         },
         {
           "category": "Structural / material",
-          "count": 5,
-          "percentOfEvents": 7.7
+          "count": 6,
+          "percentOfEvents": 9.2
         },
         {
           "category": "Engine / powerplant",
-          "count": 3,
-          "percentOfEvents": 4.6
+          "count": 4,
+          "percentOfEvents": 6.2
         },
         {
           "category": "Fuel / fire / explosion",
-          "count": 3,
-          "percentOfEvents": 4.6
+          "count": 4,
+          "percentOfEvents": 6.2
         }
       ],
       "operatorStats": [
@@ -1441,7 +1442,8 @@
           "operator": "21 Air LLC",
           "accidents": 1,
           "fatalAccidents": 0,
-          "fatalities": 0
+          "fatalities": 0,
+          "avgAccidentAircraftAgeYears": 32.0
         },
         {
           "operator": "ABX Air",
@@ -1488,6 +1490,13 @@
           "fatalities": 0
         },
         {
+          "operator": "Amerijet",
+          "accidents": 1,
+          "fatalAccidents": 0,
+          "fatalities": 0,
+          "avgAccidentAircraftAgeYears": 36.0
+        },
+        {
           "operator": "Asiana Airlines Co LTD",
           "accidents": 1,
           "fatalAccidents": 0,
@@ -1499,12 +1508,6 @@
           "fatalAccidents": 0,
           "fatalities": 0,
           "avgAccidentAircraftAgeYears": 26.0
-        },
-        {
-          "operator": "BRITISH AIRWAYS",
-          "accidents": 1,
-          "fatalAccidents": 0,
-          "fatalities": 0
         }
       ],
       "sampleOperators": [
@@ -1517,9 +1520,9 @@
         "UNITED PARCEL SERVICE CO",
         "United Airlines"
       ],
-      "avgAgeYears": 22.8,
+      "avgAgeYears": 23.4,
       "minAgeYears": 3.0,
-      "maxAgeYears": 34.0
+      "maxAgeYears": 36.0
     },
     {
       "family": "Embraer ERJ",
@@ -1531,8 +1534,8 @@
       "causeCategories": [
         {
           "category": "Weather / environment",
-          "count": 27,
-          "percentOfEvents": 43.5
+          "count": 28,
+          "percentOfEvents": 45.2
         },
         {
           "category": "Pilot / flight crew",
@@ -1556,8 +1559,8 @@
         },
         {
           "category": "Other / uncategorized",
-          "count": 8,
-          "percentOfEvents": 12.9
+          "count": 7,
+          "percentOfEvents": 11.3
         },
         {
           "category": "Aircraft systems / component",
@@ -1728,49 +1731,49 @@
       "family": "Boeing 777",
       "make": "BOEING",
       "model": "777",
-      "accidents": 56,
+      "accidents": 57,
       "fatalAccidents": 3,
       "fatalities": 302,
       "causeCategories": [
         {
           "category": "Other / uncategorized",
-          "count": 25,
-          "percentOfEvents": 44.6
+          "count": 26,
+          "percentOfEvents": 45.6
         },
         {
           "category": "Weather / environment",
           "count": 19,
-          "percentOfEvents": 33.9
+          "percentOfEvents": 33.3
         },
         {
           "category": "Pilot / flight crew",
           "count": 9,
-          "percentOfEvents": 16.1
+          "percentOfEvents": 15.8
         },
         {
           "category": "ATC / airport / ground infrastructure",
           "count": 6,
-          "percentOfEvents": 10.7
+          "percentOfEvents": 10.5
         },
         {
           "category": "Structural / material",
           "count": 5,
-          "percentOfEvents": 8.9
+          "percentOfEvents": 8.8
         },
         {
           "category": "Engine / powerplant",
           "count": 4,
-          "percentOfEvents": 7.1
+          "percentOfEvents": 7.0
         },
         {
           "category": "Maintenance / inspection",
           "count": 3,
-          "percentOfEvents": 5.4
+          "percentOfEvents": 5.3
         },
         {
           "category": "Aircraft systems / component",
           "count": 2,
-          "percentOfEvents": 3.6
+          "percentOfEvents": 3.5
         },
         {
           "category": "Fuel / fire / explosion",
@@ -1787,6 +1790,13 @@
           "avgAccidentAircraftAgeYears": 19.7
         },
         {
+          "operator": "UNITED AIRLINES INC",
+          "accidents": 4,
+          "fatalAccidents": 0,
+          "fatalities": 0,
+          "avgAccidentAircraftAgeYears": 26.5
+        },
+        {
           "operator": "Air France",
           "accidents": 3,
           "fatalAccidents": 0,
@@ -1798,13 +1808,6 @@
           "accidents": 3,
           "fatalAccidents": 0,
           "fatalities": 0
-        },
-        {
-          "operator": "UNITED AIRLINES INC",
-          "accidents": 3,
-          "fatalAccidents": 0,
-          "fatalities": 0,
-          "avgAccidentAircraftAgeYears": 25.0
         },
         {
           "operator": "Asiana Airlines",
@@ -1912,17 +1915,17 @@
       ],
       "sampleOperators": [
         "AMERICAN AIRLINES INC",
+        "UNITED AIRLINES INC",
         "Air France",
         "Qatar Airways",
-        "UNITED AIRLINES INC",
         "Asiana Airlines",
         "Singapore Airlines",
         "American Airlines",
         "British Airways"
       ],
-      "avgAgeYears": 19.7,
+      "avgAgeYears": 20.2,
       "minAgeYears": 7.0,
-      "maxAgeYears": 27.0
+      "maxAgeYears": 31.0
     },
     {
       "family": "Boeing 757",
@@ -2661,54 +2664,54 @@
       "family": "Airbus A330",
       "make": "AIRBUS",
       "model": "A330",
-      "accidents": 26,
+      "accidents": 27,
       "fatalAccidents": 2,
       "fatalities": 331,
       "causeCategories": [
         {
           "category": "Pilot / flight crew",
           "count": 13,
-          "percentOfEvents": 50.0
+          "percentOfEvents": 48.1
+        },
+        {
+          "category": "Other / uncategorized",
+          "count": 7,
+          "percentOfEvents": 25.9
         },
         {
           "category": "Weather / environment",
           "count": 7,
-          "percentOfEvents": 26.9
+          "percentOfEvents": 25.9
         },
         {
           "category": "ATC / airport / ground infrastructure",
           "count": 6,
-          "percentOfEvents": 23.1
+          "percentOfEvents": 22.2
         },
         {
           "category": "Engine / powerplant",
           "count": 6,
-          "percentOfEvents": 23.1
-        },
-        {
-          "category": "Other / uncategorized",
-          "count": 6,
-          "percentOfEvents": 23.1
+          "percentOfEvents": 22.2
         },
         {
           "category": "Maintenance / inspection",
           "count": 5,
-          "percentOfEvents": 19.2
+          "percentOfEvents": 18.5
         },
         {
           "category": "Aircraft systems / component",
           "count": 3,
-          "percentOfEvents": 11.5
+          "percentOfEvents": 11.1
         },
         {
           "category": "Fuel / fire / explosion",
           "count": 3,
-          "percentOfEvents": 11.5
+          "percentOfEvents": 11.1
         },
         {
           "category": "Structural / material",
           "count": 2,
-          "percentOfEvents": 7.7
+          "percentOfEvents": 7.4
         }
       ],
       "operatorStats": [
@@ -2762,6 +2765,13 @@
           "accidents": 1,
           "fatalAccidents": 0,
           "fatalities": 0
+        },
+        {
+          "operator": "Delta Air Lines, Inc",
+          "accidents": 1,
+          "fatalAccidents": 0,
+          "fatalities": 0,
+          "avgAccidentAircraftAgeYears": 10.0
         },
         {
           "operator": "HAWAIIAN AIRLINES INC",
@@ -2829,7 +2839,7 @@
         "Alaska Airlines",
         "DELTA AIRLINES, INC"
       ],
-      "avgAgeYears": 10.7,
+      "avgAgeYears": 10.6,
       "minAgeYears": 2.0,
       "maxAgeYears": 20.0
     },
@@ -3266,29 +3276,9 @@
           "percentOfEvents": 28.6
         },
         {
-          "category": "ATC / airport / ground infrastructure",
-          "count": 1,
-          "percentOfEvents": 14.3
-        },
-        {
-          "category": "Aircraft systems / component",
-          "count": 1,
-          "percentOfEvents": 14.3
-        },
-        {
-          "category": "Fuel / fire / explosion",
-          "count": 1,
-          "percentOfEvents": 14.3
-        },
-        {
-          "category": "Maintenance / inspection",
-          "count": 1,
-          "percentOfEvents": 14.3
-        },
-        {
           "category": "Structural / material",
-          "count": 1,
-          "percentOfEvents": 14.3
+          "count": 2,
+          "percentOfEvents": 28.6
         },
         {
           "category": "Weather / environment",
