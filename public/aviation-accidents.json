@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-02T11:39:44.298731Z",
-  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 3088 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
+  "updatedAt": "2026-11-03T11:18:21.869727Z",
+  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 3089 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
     {
@@ -19956,7 +19956,7 @@
     {
       "id": "WIKIDATA-Q123272461",
       "date": "1992-10-08",
-      "title": "Q123272461",
+      "title": "Wuhan Airlines Flight 4211",
       "authority": "Wikidata discovery",
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
@@ -33487,7 +33487,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Eastern Air Lines",
-      "location": "North Carolina, United States",
+      "location": "Raleigh–Durham International Airport, United States",
       "latitude": 35.877777777,
       "longitude": -78.7875,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -42823,7 +42823,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Kemerovsky District",
+      "location": "Barzas",
       "fatalities": 27
     },
     {
@@ -46484,6 +46484,20 @@
       "fatalities": 4
     },
     {
+      "id": "WIKIDATA-Q141984151",
+      "date": "1944-01-29",
+      "title": "Crash of a Heinkel He 111 Aircraft near Rzeka (1944)",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q141984151",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "operator": "Luftwaffe",
+      "location": "Řeka, Czechoslovakia",
+      "fatalities": 5
+    },
+    {
       "id": "WIKIDATA-Q124129701",
       "date": "1943-11-24",
       "title": "Q124129701",
@@ -48746,8 +48760,8 @@
   "discoveryNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
   "counts": {
     "officialIndexed": 40,
-    "discovery": 3088,
-    "totalVisible": 3128,
+    "discovery": 3089,
+    "totalVisible": 3129,
     "withCoordinates": 1623
   },
   "mapNote": "1623 indexed records currently include structured map coordinates. Records without coordinates remain searchable in the case library but are omitted from the map."
