@@ -23,6 +23,7 @@ type AccidentRow = {
   reportUrl?: string
   aircraftAgeYears?: number
   manufacturer?: string
+  flightNumber?: string
 }
 
 type Props = {
@@ -215,6 +216,17 @@ function similarityDetails(selected: AccidentRow, candidate: AccidentRow, select
   return { score, reasons: Array.from(new Set(reasons)).slice(0, 4) }
 }
 
+function inferredFlightNumber(item: AccidentRow) {
+  if (item.flightNumber?.trim()) return item.flightNumber.trim()
+  const title = item.title || ''
+  const flightMatch = title.match(/\b(?:flight|flt)\s*([A-Z]{0,3}\s*\d{1,4}[A-Z]?)\b/i)
+  if (flightMatch?.[1]) return flightMatch[1].replace(/\s+/g, ' ').trim().toUpperCase()
+  const carrierMatch = title.match(/\b(Air France|Lion Air|Ethiopian(?: Airlines)?|Malaysia Airlines|United Airlines|American Airlines|Turkish Airlines|Japan Airlines|Korean Air|Swissair|TWA|Pan Am)\s+(?:Flight\s*)?(\d{2,4}[A-Z]?)\b/i)
+  if (carrierMatch) return carrierMatch[1] + ' ' + carrierMatch[2]
+  const codeMatch = title.match(/\b([A-Z]{2,3}\s?\d{2,4}[A-Z]?)\b/)
+  if (codeMatch?.[1]) return codeMatch[1].replace(/\s+/g, '')
+  return '—'
+}
 function causeText(item: AccidentRow) {
   if (item.sourceTier === 'discovery') return 'Discovery kaydı — sebep için resmî soruşturma kaynağıyla doğrulama gerekli.'
   if (item.probableCause?.trim()) return item.probableCause.trim()
@@ -230,6 +242,7 @@ function AccidentHistoryTable({ rows, emptyText, reasonsById = {} }: { rows: Acc
       <thead>
         <tr>
           <th>Tarih</th>
+          <th>Uçuş</th>
           <th>Uçak</th>
           <th>Operatör</th>
           <th>Yer</th>
@@ -241,6 +254,7 @@ function AccidentHistoryTable({ rows, emptyText, reasonsById = {} }: { rows: Acc
       <tbody>
         {rows.map((row) => <tr key={row.id}>
           <td>{row.date}</td>
+          <td className="flight-number-cell">{inferredFlightNumber(row)}</td>
           <td>{row.aircraft || row.family || '—'}</td>
           <td>{row.operator || '—'}</td>
           <td>{row.location || '—'}</td>
@@ -267,6 +281,7 @@ function AircraftTypeHistoryTable({ rows, emptyText }: { rows: AccidentRow[]; em
       <thead>
         <tr>
           <th>Tarih</th>
+          <th>Uçuş</th>
           <th>Uçak tipi</th>
           <th>Yaş</th>
           <th>Operatör</th>
@@ -278,6 +293,7 @@ function AircraftTypeHistoryTable({ rows, emptyText }: { rows: AccidentRow[]; em
       <tbody>
         {rows.map((row) => <tr key={row.id}>
           <td>{row.date}</td>
+          <td className="flight-number-cell">{inferredFlightNumber(row)}</td>
           <td>{row.aircraft || row.family || '—'}</td>
           <td>{typeof row.aircraftAgeYears === 'number' ? row.aircraftAgeYears.toFixed(1) + ' yıl' : 'Bilinmiyor'}</td>
           <td>{row.operator || '—'}</td>
@@ -368,6 +384,7 @@ export default function AccidentNewsIntelligence({ accident, allAccidents = [] }
           <small>Kanıt ağırlıklı erken değerlendirme · resmî probable cause değildir</small>
         </div>
         <div className="accident-cause-meta">
+          <div><span>Uçuş numarası</span><strong>{inferredFlightNumber(accident)}</strong></div>
           <div><span>Uçak tipi</span><strong>{accident.aircraft || accident.family || 'Bilinmiyor'}</strong></div>
           <div><span>Uçak ailesi</span><strong>{accident.family || 'Bilinmiyor'}</strong></div>
           <div><span>Ölü sayısı</span><strong>{typeof accident.fatalities === 'number' ? accident.fatalities : 'Bilinmiyor'}</strong></div>
