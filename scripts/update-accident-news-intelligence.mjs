@@ -98,8 +98,8 @@ const items = Array.isArray(raw.items) ? raw.items : []
 const cutoff = Date.now() - 1000 * 60 * 60 * 24 * 365 * 2
 
 const targets = items
+  .filter((item) => item.sourceTier !== 'discovery')
   .filter((item) => !String(item.id || '').startsWith('WIKIDATA-'))
-  .filter((item) => item.sourceTier !== 'discovery' || (Date.parse(item.date || '') || 0) >= cutoff)
   .sort((a, b) => (Date.parse(b.date || '') || 0) - (Date.parse(a.date || '') || 0))
   .slice(0, 120)
 
