@@ -1,0 +1,31 @@
+name: Refresh Accident News Intelligence
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 4 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Build accident news intelligence
+        run: node scripts/update-accident-news-intelligence.mjs
+      - name: Commit refreshed intelligence
+        run: |
+          if git diff --quiet -- public/accident-news-intelligence.json; then
+            echo "No accident intelligence changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/accident-news-intelligence.json
+          git commit -m "Refresh accident news intelligence"
+          git push
