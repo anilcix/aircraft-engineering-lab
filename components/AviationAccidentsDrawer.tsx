@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from 'react'
 import AccidentMapTimeline, { type MapAccident } from '@/components/AccidentMapTimeline'
+import AccidentNewsIntelligence from '@/components/AccidentNewsIntelligence'
 
 type Accident = MapAccident & {
   manufacturer?: string
@@ -388,6 +389,7 @@ export default function AviationAccidentsDrawer() {
           </div>
           {selected.sourceTier === 'discovery' && <div className="accident-coverage">Bu kayıt kapsam keşfi içindir. Resmî soruşturma otoritesiyle doğrulanmadan cause/fatality istatistiğine authoritative veri olarak katılmaz.</div>}
           <section><h4>Olay özeti</h4><p>{selected.summary}</p></section>{selected.probableCause && <section><h4>Probable cause / bulgular</h4><p>{selected.probableCause}</p></section>}
+          <AccidentNewsIntelligence accident={selected} />
           <div className="accident-links">{selected.reportUrl && <a href={selected.reportUrl} target="_blank" rel="noreferrer">Resmî rapor ↗</a>}<a href={selected.sourceUrl} target="_blank" rel="noreferrer">{selected.sourceTier === 'discovery' ? 'Discovery kaynağı ↗' : 'Soruşturma kaynağı ↗'}</a>{selected.discoveryArticleUrl && <a href={selected.discoveryArticleUrl} target="_blank" rel="noreferrer">Olay sayfası ↗</a>}<a href={documentarySearch(selected)} target="_blank" rel="noreferrer">Video / belgesel ara ↗</a></div>
         </div> : mode === 'cases' ? <>
           <div className="accident-coverage">{payload.coverageNote}</div>
