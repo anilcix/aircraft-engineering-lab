@@ -124,6 +124,7 @@ function similarityScore(selected: AccidentRow, candidate: AccidentRow) {
 }
 
 function causeText(item: AccidentRow) {
+  if (item.sourceTier === 'discovery') return 'Discovery kaydı — sebep için resmî soruşturma kaynağıyla doğrulama gerekli.'
   if (item.probableCause?.trim()) return item.probableCause.trim()
   if (item.summary?.trim()) return item.summary.trim()
   return 'Sebep / bulgu henüz indekslenmemiş.'
@@ -195,6 +196,7 @@ export default function AccidentNewsIntelligence({ accident, allAccidents = [] }
   }, [accident, allAccidents])
 
   const hypotheses = useMemo(() => {
+    if (accident.sourceTier === 'discovery') return []
     const base = [accident.title, accident.summary, accident.probableCause, accident.location, ...articles.map((x) => x.title)].filter(Boolean).join(' ').toLowerCase()
     return FACTORS.map((factor) => {
       let score = 0
