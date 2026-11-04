@@ -138,3 +138,12 @@ html.ael-drawer-open, body.ael-drawer-open { overscroll-behavior:none; }
 
 .similarity-reason-cell { min-width:220px; }
 .similarity-reason-cell span { display:inline-block; margin:2px 4px 2px 0; padding:3px 6px; border:1px solid #315064; border-radius:999px; background:#0d2230; color:#9ed8f2; font-size:8px; line-height:1.2; }
+
+.aircraft-type-summary { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; margin:9px 0 11px; }
+.aircraft-type-summary > div { border:1px solid #294254; border-radius:10px; background:#0a1822; padding:10px 11px; }
+.aircraft-type-summary span { display:block; color:#718999; font-size:8px; text-transform:uppercase; letter-spacing:.06em; margin-bottom:4px; }
+.aircraft-type-summary strong { color:#e1ebf0; font-size:11px; }
+.aircraft-type-history-table td:nth-child(3) { white-space:nowrap; }
+@media (max-width:720px) {
+  .aircraft-type-summary { grid-template-columns:1fr; }
+}
