@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T20:19:28.034Z",
+  "updatedAt": "2026-11-04T20:21:58.350Z",
   "sourceSet": [
     {
       "name": "FlightGlobal",
@@ -34,13 +34,6 @@
           "summary": "Air India 787-8 crashes after taking off from Ahmedabad &nbsp;&nbsp; FlightGlobal"
         },
         {
-          "title": "Air India Boeing 787 Accident Probe Reveals Few Clues",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSTE5UTFGdDl0WHFJUVZsaE5ZYnJTSGl1eTc0aHZVX3ByTzRSbGZ2UTZMQUdlN05rZEFJM2pTdGlKb2czUDFLZWh6ZzhyMkVlS28wVVJLTGstSTVMQk1VOGxqbXVEY3JnTTY0RlBWUDFLZWdsbHBZdml6QjAxdTJaNzVyV1dXRmVOZFpQNnNSZEwzRGd3d1hvUXhTMlpGLXVqaUpOS0pjMVRwVm4xQjg0ZlllQmw?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2025-06-12T07:00:00.000Z",
-          "summary": "Air India Boeing 787 Accident Probe Reveals Few Clues &nbsp;&nbsp; Aviation Week"
-        },
-        {
           "title": "Air India Boeing 787-8 Crashes After Takeoff",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZFp3eWxUOFI3TzB6MnlvQkwzUVZwTTBWRTF1SXM5YlhpZ19tMTNEYUNkREdOaDBHS0ZBU3IzNEJxbnRyVUpEOWpMU0UzZ185MU5mS1hkdlBJYmxwUGpERS01LURnVHVNTmZXUldjS29YcVdJZUMybjBQamhHZXFvRExSamMxaTk2aFFWOUpRM1kzdUk2ck9XNC05UUdmemFQMnJzaW5paWE?oc=5",
           "source": "Aviation Week",
@@ -48,11 +41,18 @@
           "summary": "Air India Boeing 787-8 Crashes After Takeoff &nbsp;&nbsp; Aviation Week"
         },
         {
-          "title": "Air India Begins Rebuilding International Schedule, Adds Ahmedabad–Heathrow",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcENjNzVCeWNEOFlFd2xuSG9IQkM4UG4zTm9nWXF1QWdvbHZ4MTJNTFBVTXFfcGEzOGJZNVFRSHBtQ2IyQjktekM3WkYtWlQyNUltQzdqNUFnT2hnSjM2TXp3R0cwSzA4Ty1vZFJSM3V0M2pvcVpuZlU2U3BqZzF5UE1OU1ZlcmE5aGpKZ1dIRmt4bWFuRXBVX0lyMVJuRFYyRGRwS1NyckUxRUx1NGU5WV80cUNKb05hTHQ3dEVB?oc=5",
+          "title": "Air India Boeing 787 Accident Probe Reveals Few Clues",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSTE5UTFGdDl0WHFJUVZsaE5ZYnJTSGl1eTc0aHZVX3ByTzRSbGZ2UTZMQUdlN05rZEFJM2pTdGlKb2czUDFLZWh6ZzhyMkVlS28wVVJLTGstSTVMQk1VOGxqbXVEY3JnTTY0RlBWUDFLZWdsbHBZdml6QjAxdTJaNzVyV1dXRmVOZFpQNnNSZEwzRGd3d1hvUXhTMlpGLXVqaUpOS0pjMVRwVm4xQjg0ZlllQmw?oc=5",
           "source": "Aviation Week",
-          "publishedAt": "2025-07-16T07:00:00.000Z",
-          "summary": "Air India Begins Rebuilding International Schedule, Adds Ahmedabad–Heathrow &nbsp;&nbsp; Aviation Week"
+          "publishedAt": "2025-06-12T07:00:00.000Z",
+          "summary": "Air India Boeing 787 Accident Probe Reveals Few Clues &nbsp;&nbsp; Aviation Week"
+        },
+        {
+          "title": "Air India 787 Crash Being Investigated As ‘Criminal Act,’ Says Safety Expert",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdncwTVAzd0J1S0N3d3VKWXVTWWJicUdtazF2SG1CaW10U2xEUVdyZVBmcGZ0NDhLM2tsaU5hdWNlNnh5TUxqcDl1ZUR0eUxBaThuOEN3N2c0anFSR0ZZcUtXUS00MjJwcy1sVnpfbU1NaXNWa0dRWHNXOFkzdkI2U0dZMDd2WWtqc0piYzBuZTM0NjZPZVdXM0lGcUJ0QmxfZU5EQWZWSHBneFdBVWtfalVTQ2VDOXNGeC1YSnVFRHlhZw?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2025-07-23T07:00:00.000Z",
+          "summary": "Air India 787 Crash Being Investigated As ‘Criminal Act,’ Says Safety Expert &nbsp;&nbsp; Aviation Week"
         },
         {
           "title": "Air India Flight 171",
@@ -955,13 +955,6 @@
           "source": "Aviation Week",
           "publishedAt": "2020-08-10T07:00:00.000Z",
           "summary": "Air India Express Probe Likely To Revisit Airport Safety &nbsp;&nbsp; Aviation Week"
-        },
-        {
-          "title": "Death Toll Rises After Air India Express 737-800 Overshoots Runway",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSlpWWjdCQWI2NmtpNjUtUkFKT05CWHZfRDZlQ25UQ2FBYU9EMlhoUnRvUV9GcDRpZ2NER1c4S3Q1M09maXgzc21jZ3ZFVmpsbnZjSVBhcTV2bHFUbWlILTU1Nk5NMTE5U29CU01KTzB2Qy1nNmc2YVFfaXhpb1RkR1RIN0R2QmVwdnNIelZYZjhBanliMUtmbjdnNTBBcmtVcWdWRE4tRV8wVFE4Q0ZwbmVYUHJHVnVIeEQ5MW5TZw?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2020-08-07T07:00:00.000Z",
-          "summary": "Death Toll Rises After Air India Express 737-800 Overshoots Runway &nbsp;&nbsp; Aviation Week"
         },
         {
           "title": "What Was The Most Significant Factor Behind The Air India Express Crash?",
@@ -2273,11 +2266,11 @@
           "summary": "154 occurrences in the ASN safety database 1075 fatalities &nbsp;&nbsp; Aviation Safety Network"
         },
         {
-          "title": "609 occurrences in the ASN safety database 1727 fatalities",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4xbkN2SHhYN0M0YVYzUWtFdVNCSUlGYUwtMlAwM0FOd29FYXVNT0pyU0U2Z202cENTczg5YlVwTlhNdkt0R1dFbVVhUGdfYzZsNXVLWFMxREEyQzFa?oc=5",
+          "title": "1911 occurrences in the ASN safety database 2402 fatalities",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5acEgyZ2FDS1I2N3I1bkJEY1F3cDJLbEh4aWRHMVZBNlVNN240a2REUkp4Y1V0U3RyZjhSbUR1T2dkMFF0Ry0yWFJ4al9rR210T1FKR084OA?oc=5",
           "source": "Aviation Safety Network",
-          "publishedAt": "2023-09-28T03:41:29.000Z",
-          "summary": "609 occurrences in the ASN safety database 1727 fatalities &nbsp;&nbsp; Aviation Safety Network"
+          "publishedAt": "2024-02-08T06:28:32.000Z",
+          "summary": "1911 occurrences in the ASN safety database 2402 fatalities &nbsp;&nbsp; Aviation Safety Network"
         },
         {
           "title": "Altimeter, pilot error led to Schiphol crash--board",
@@ -2629,11 +2622,11 @@
           "summary": "Aviation Week & Space Technology &nbsp;&nbsp; Aviation Week"
         },
         {
-          "title": "Rolls-Royce Tay 611-8C Turbofans",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1CVlVCU2hFQUwzQUtXNzNtWElTX1VTRDZhbW5pZnE3R1BUTDg3YnJjXzJyRGFtTG9PWk1SRXNJVXo3d3FGWldnbm54NWhEeTBOZl9YOGF0cTQ3bHkyOHJvaVd4MU1mcDZp?oc=5",
+          "title": "Aviation Week & Space Technology - January 13-26, 2025",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBDMlp2Sk1wVDN2RXpCYV9IUUVaMlhCbFlTMkdsNmdSdlBJVHpSUHVxUV92TTNJNGFKc08wT19SUkx1Rk0tOUQtYWRMT0FyVl9RandYQktHT3hySEgyV0pld1Q4TkNONXg2anZZYXJhOXVsLWZQSC1XNGVkWDctUQ?oc=5",
           "source": "Aviation Week",
-          "publishedAt": "2003-12-01T08:00:00.000Z",
-          "summary": "Rolls-Royce Tay 611-8C Turbofans &nbsp;&nbsp; Aviation Week"
+          "publishedAt": "2025-01-13T08:00:00.000Z",
+          "summary": "January 13-26, 2025 &nbsp;&nbsp; Aviation Week"
         },
         {
           "title": "Accident Boeing 747-209B B-18255, Saturday 25 May 2002",
@@ -2859,11 +2852,11 @@
           "summary": "Program Book 2019 &nbsp;&nbsp; Aviation Week"
         },
         {
-          "title": "2025 MARKET SUMMARY REPORT",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPb3BZbHRFSUZmZERhTkwzekF2SGtlMlJ5ZWhfYU5iWkRMNkxfUks2SGl4dkE0enZRbXBHa3VHZ0VaYjdWVllwQjl5c0tCOXJqV3FpQW9rNUVRR3Q5UFVLaTdOVFZNQWRGZTk4VVdNSlk5NXotbWVEQjVlb2MxeExiWmZlNk1SSFg5OEhtbDExeEtZWmNqODhpTjFpY3QwLTdnYjlINjhOcDFYNlhVZDY4MnpWWDUzRWJlLXJQQnNtOA?oc=5",
+          "title": "Business & Commercial Aviation - Purchase Planning Handbook - May 2018",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZ3Jqd281NE44MWtUX0d4d0Q1OE9sQjRTcFc2ZXRnUm5QTE5vM0N4Ymc5dEhFRm40RzZsOGg2Z00ta2drUU83NWdBbTM1cm5tT1QxQVMweXpDb29xWU9Ka1RqMDNYQVBiZm81R1J3Vjd5N2RwMm14WE8zSG8zNW5ReXd0LWh6T0JZSll6ZzE4MEFTOENkVEpFZThCZ1ptN2tVdVFqQUVB?oc=5",
           "source": "Aviation Week",
-          "publishedAt": "2025-06-29T15:44:35.000Z",
-          "summary": "2025 MARKET SUMMARY REPORT &nbsp;&nbsp; Aviation Week"
+          "publishedAt": "2018-05-01T07:00:00.000Z",
+          "summary": "Purchase Planning Handbook - May 2018 &nbsp;&nbsp; Aviation Week"
         },
         {
           "title": "IN THE SUPREME COURT OF INDIA WRIT PETITION (C) NO. ____________ OF 2025 (UNDER ARTICLE 32 OF THE CONSTITUTION OF INDIA) PUBLIC",
@@ -3084,11 +3077,11 @@
           "summary": "2024 Commercial Fleet and MRO Forecast Market Summary Report &nbsp;&nbsp; Aviation Week"
         },
         {
-          "title": "2025 MARKET SUMMARY REPORT",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPb3BZbHRFSUZmZERhTkwzekF2SGtlMlJ5ZWhfYU5iWkRMNkxfUks2SGl4dkE0enZRbXBHa3VHZ0VaYjdWVllwQjl5c0tCOXJqV3FpQW9rNUVRR3Q5UFVLaTdOVFZNQWRGZTk4VVdNSlk5NXotbWVEQjVlb2MxeExiWmZlNk1SSFg5OEhtbDExeEtZWmNqODhpTjFpY3QwLTdnYjlINjhOcDFYNlhVZDY4MnpWWDUzRWJlLXJQQnNtOA?oc=5",
+          "title": "Program Book 2019",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPT1Q3R2tvZm1uTzlTaFRXcXFwUWVNOUR3YjRINWZLc2RLa0k3WjNCQXo0WEdTN2trN3JrcnhKbG1VcW5WWXJxck5mNFdLV1gxbnpiSklKQlIwWUhxVmgyYkRtclB2R0pwR2pkMk5MQ0dMaXRVNTFqX0dzSFlSWjhZaEpVQ0dxOVl5eHZ6ZlhJRmwzV3BoQUlvaldfeFQ?oc=5",
           "source": "Aviation Week",
-          "publishedAt": "2025-06-29T15:44:35.000Z",
-          "summary": "2025 MARKET SUMMARY REPORT &nbsp;&nbsp; Aviation Week"
+          "publishedAt": "2020-05-28T07:14:38.000Z",
+          "summary": "Program Book 2019 &nbsp;&nbsp; Aviation Week"
         },
         {
           "title": "Crash: UPS MD11 at Louisville on Nov 4th 2025, burst into flames on takeoff",
@@ -3126,11 +3119,11 @@
           "summary": "Accident Lockheed L-1011 TriStar 1 N726DA, Friday 2 August 1985 &nbsp;&nbsp; Aviation Safety Network"
         },
         {
-          "title": "158107 occurrences in the ASN safety database 88120 fatalities",
+          "title": "158106 occurrences in the ASN safety database 88119 fatalities",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjS0VsRmt6WkY0R0l5MFRONnBSVTlxYVNuMy1ZUlJFN3NFVC1ZRUZETUd2LXdKVWR6WmlNTG0yRWRBT1NMRGd1QkpNM2VGUnY5aGxUdVZB?oc=5",
           "source": "Aviation Safety Network",
           "publishedAt": "2026-04-02T18:03:25.000Z",
-          "summary": "158107 occurrences in the ASN safety database 88120 fatalities &nbsp;&nbsp; Aviation Safety Network"
+          "summary": "158106 occurrences in the ASN safety database 88119 fatalities &nbsp;&nbsp; Aviation Safety Network"
         },
         {
           "title": "Evidence of fatigue cracks a 'major clue' in fatal UPS cargo jet crash, experts say",
