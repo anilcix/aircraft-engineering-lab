@@ -431,3 +431,8 @@ html.ael-drawer-open, body.ael-drawer-open { overscroll-behavior:none; }
 .flight-event-meta b { color:#67c7ff; font-size:8px; }
 .flight-event-meta span { color:#8d9da8; font-size:7.5px; }
 .flight-reconstruction-note { margin:10px 0 0 !important; color:#738895 !important; font-size:8.5px !important; line-height:1.45 !important; }
+
+.hypothesis-analysis-note { margin:7px 0 8px !important; color:#9fb2bf !important; font-size:9px !important; line-height:1.5 !important; }
+.hypothesis-evidence-line { display:flex; gap:7px; align-items:center; flex-wrap:wrap; padding-top:7px; border-top:1px solid #203846; }
+.hypothesis-evidence-line span { color:#708695; font-size:7.5px; text-transform:uppercase; letter-spacing:.08em; }
+.hypothesis-evidence-line strong { color:#b9ccd8; font-size:8px; font-weight:750; }
