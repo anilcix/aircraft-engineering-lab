@@ -135,3 +135,6 @@ html.ael-drawer-open, body.ael-drawer-open { overscroll-behavior:none; }
 .accident-source-card-body article > a { display:inline-block; margin-top:6px; color:#7dd3fc; font-size:8.5px; font-weight:800; text-decoration:none; }
 .accident-source-card-body article > a:hover { text-decoration:underline; }
 .source-empty { color:#768d9d !important; }
+
+.similarity-reason-cell { min-width:220px; }
+.similarity-reason-cell span { display:inline-block; margin:2px 4px 2px 0; padding:3px 6px; border:1px solid #315064; border-radius:999px; background:#0d2230; color:#9ed8f2; font-size:8px; line-height:1.2; }
