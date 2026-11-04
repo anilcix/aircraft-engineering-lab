@@ -5,11 +5,27 @@ import { useEffect, useMemo, useState } from 'react'
 type Article = { title: string; url: string; source: string; publishedAt?: string }
 type IntelPayload = { updatedAt: string; sourceSet: { name: string; domain: string }[]; cases: Record<string, { query: string; articles: Article[] }> }
 
+type AccidentRow = {
+  id: string
+  title: string
+  date: string
+  operator?: string
+  aircraft?: string
+  family?: string
+  location?: string
+  summary?: string
+  probableCause?: string
+  status?: string
+  sourceTier?: string
+  fatalities?: number
+  authority?: string
+  sourceUrl?: string
+  reportUrl?: string
+}
+
 type Props = {
-  accident: {
-    id: string; title: string; date: string; operator?: string; aircraft?: string; family?: string;
-    location?: string; summary?: string; probableCause?: string; status?: string; sourceTier?: string
-  }
+  accident: AccidentRow
+  allAccidents?: AccidentRow[]
 }
 
 const EMPTY: IntelPayload = { updatedAt: '', sourceSet: [], cases: {} }
@@ -33,7 +49,7 @@ const FACTORS = [
   { key: 'external', label: 'Harici etken / FOD / kuş', words: ['bird strike','bird','fod','foreign object','debris','drone'] },
 ]
 
-function searchUrl(accident: Props['accident'], domain: string) {
+function searchUrl(accident: AccidentRow, domain: string) {
   const terms = [accident.title, accident.operator, accident.aircraft, accident.date?.slice(0, 4)].filter(Boolean).join(' ')
   return 'https://www.google.com/search?q=' + encodeURIComponent('site:' + domain + ' ' + terms)
 }
@@ -44,7 +60,81 @@ function supportLabel(score: number) {
   return { label: 'Düşük destek', cls: 'low' }
 }
 
-export default function AccidentNewsIntelligence({ accident }: Props) {
+
+const SIMILARITY_WORDS = [
+  'takeoff','departure','climb','cruise','descent','approach','landing','go-around','runway',
+  'stall','airspeed','overspeed','icing','turbulence','wind shear','engine','fuel','fire',
+  'smoke','hydraulic','electrical','autopilot','flight control','structural','bird strike',
+  'maintenance','atc','visibility','weather','gear','brake','pressurization'
+]
+
+function normalizedText(item: AccidentRow) {
+  return [item.title, item.summary, item.probableCause, item.location, item.aircraft, item.family]
+    .filter(Boolean)
+    .join(' ')
+    .toLowerCase()
+}
+
+function similarityScore(selected: AccidentRow, candidate: AccidentRow) {
+  if (selected.id === candidate.id) return -1
+  const a = normalizedText(selected)
+  const b = normalizedText(candidate)
+  let score = 0
+
+  for (const word of SIMILARITY_WORDS) {
+    if (a.includes(word) && b.includes(word)) score += 2
+  }
+
+  if (selected.family && candidate.family && selected.family === candidate.family) score += 2
+  if (selected.aircraft && candidate.aircraft && selected.aircraft === candidate.aircraft) score += 2
+  if (selected.operator && candidate.operator && selected.operator === candidate.operator) score += 1
+
+  const selectedFatal = (selected.fatalities || 0) > 0
+  const candidateFatal = (candidate.fatalities || 0) > 0
+  if (selectedFatal === candidateFatal) score += 1
+
+  return score
+}
+
+function causeText(item: AccidentRow) {
+  if (item.probableCause?.trim()) return item.probableCause.trim()
+  if (item.summary?.trim()) return item.summary.trim()
+  return 'Sebep / bulgu henüz indekslenmemiş.'
+}
+
+function AccidentHistoryTable({ rows, emptyText }: { rows: AccidentRow[]; emptyText: string }) {
+  if (!rows.length) return <div className="accident-intel-empty">{emptyText}</div>
+
+  return <div className="accident-history-table-wrap">
+    <table className="accident-history-table">
+      <thead>
+        <tr>
+          <th>Tarih</th>
+          <th>Uçak</th>
+          <th>Operatör</th>
+          <th>Yer</th>
+          <th>Ölüm</th>
+          <th>Sebep / bulgu</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((row) => <tr key={row.id}>
+          <td>{row.date}</td>
+          <td>{row.aircraft || row.family || '—'}</td>
+          <td>{row.operator || '—'}</td>
+          <td>{row.location || '—'}</td>
+          <td>{typeof row.fatalities === 'number' ? row.fatalities : '—'}</td>
+          <td>
+            <span>{causeText(row)}</span>
+            {(row.reportUrl || row.sourceUrl) && <a href={row.reportUrl || row.sourceUrl} target="_blank" rel="noreferrer">Kaynak ↗</a>}
+          </td>
+        </tr>)}
+      </tbody>
+    </table>
+  </div>
+}
+
+export default function AccidentNewsIntelligence({ accident, allAccidents = [] }: Props) {
   const [data, setData] = useState<IntelPayload>(EMPTY)
 
   useEffect(() => {
@@ -56,6 +146,24 @@ export default function AccidentNewsIntelligence({ accident }: Props) {
 
   const cached = data.cases[accident.id]
   const articles = cached?.articles || []
+
+  const similarAccidents = useMemo(() => {
+    return allAccidents
+      .map((item) => ({ item, score: similarityScore(accident, item) }))
+      .filter((row) => row.score >= 2)
+      .sort((a, b) => b.score - a.score || (Date.parse(b.item.date || '') || 0) - (Date.parse(a.item.date || '') || 0))
+      .slice(0, 10)
+      .map((row) => row.item)
+  }, [accident, allAccidents])
+
+  const sameAircraftHistory = useMemo(() => {
+    const family = accident.family || accident.aircraft
+    if (!family) return []
+    return allAccidents
+      .filter((item) => item.id !== accident.id && (item.family === family || item.aircraft === family || item.aircraft === accident.aircraft))
+      .sort((a, b) => (Date.parse(b.date || '') || 0) - (Date.parse(a.date || '') || 0))
+      .slice(0, 20)
+  }, [accident, allAccidents])
 
   const hypotheses = useMemo(() => {
     const base = [accident.title, accident.summary, accident.probableCause, accident.location, ...articles.map((x) => x.title)].filter(Boolean).join(' ').toLowerCase()
@@ -104,6 +212,22 @@ export default function AccidentNewsIntelligence({ accident }: Props) {
           <span>{article.source}</span><strong>{article.title}</strong><small>{article.publishedAt ? new Date(article.publishedAt).toLocaleDateString('tr-TR') : ''}</small>
         </a>)}
       </div>}
+
+      <div className="accident-history-section">
+        <div className="dashboard-section-title">
+          <span>Bu kazaya benzeyen geçmiş kazalar</span>
+          <small>Olay belirtileri / flight phase / faktör benzerliği</small>
+        </div>
+        <AccidentHistoryTable rows={similarAccidents} emptyText="Benzerlik eşiğini geçen geçmiş vaka bulunamadı." />
+      </div>
+
+      <div className="accident-history-section">
+        <div className="dashboard-section-title">
+          <span>{(accident.family || accident.aircraft) ? (accident.family || accident.aircraft) + ' geçmiş kazaları' : 'Aynı uçak tipi geçmiş kazaları'}</span>
+          <small>Aynı aircraft family / type</small>
+        </div>
+        <AccidentHistoryTable rows={sameAircraftHistory} emptyText="Bu uçak tipi/ailesi için indekslenmiş başka geçmiş vaka bulunamadı." />
+      </div>
 
       <div className="accident-hypotheses">
         <div className="dashboard-section-title"><span>Rapor öncesi olası katkı faktörleri</span><small>Yüzde değil · kanıt desteği</small></div>
