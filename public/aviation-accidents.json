@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-04T20:34:01.277629Z",
-  "coverageNote": "Federated global aviation safety index: 40 official/curated cases plus 3090 Wikidata discovery records for coverage. Discovery records are excluded from authoritative cause analysis until verified against an Annex 13 authority.",
+  "updatedAt": "2026-11-04T21:15:34.920024Z",
+  "coverageNote": "Federated global aviation safety index: 41 official/curated cases plus 3089 Wikidata discovery records for coverage. Discovery records are excluded from authoritative cause analysis until verified against an Annex 13 authority.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality/cause statistics use verified or curated records; discovery-layer values may be incomplete and are kept separate.",
   "fleetProfiles": [
     {
@@ -181,22 +181,29 @@
   ],
   "items": [
     {
-      "id": "WIKIDATA-Q141966885",
+      "id": "US-NTSB-ERA27MA026",
       "date": "2026-11-01",
       "title": "2026 Palm Beach County Learjet 60 crash",
-      "authority": "Wikidata discovery",
-      "status": "Discovery record — official verification pending",
-      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
-      "sourceUrl": "http://www.wikidata.org/entity/Q141966885",
-      "sourceTier": "discovery",
-      "verificationStatus": "secondary structured discovery — cause not authoritative",
-      "location": "Greenacres, United States",
+      "operator": "Aurora Aviation dba Upper Jet",
+      "aircraft": "Learjet 60",
+      "family": "Learjet 60",
+      "manufacturer": "Bombardier Learjet",
+      "registration": "N722BD",
+      "location": "Greenacres, Palm Beach County, Florida, United States",
+      "aircraftAgeYears": 22,
+      "fatalities": 9,
+      "survivors": 0,
+      "authority": "NTSB",
+      "status": "Preliminary investigation ongoing",
+      "summary": "The Learjet 60 was lost while en route from Austin, Texas to North Eleuthera, Bahamas. The crew reported clear icing and moderate turbulence at high altitude before a rapid overspeed descent. NTSB investigators reported evidence of in-flight breakup; most of the left elevator was later recovered away from the main impact site.",
+      "probableCause": "Investigation ongoing. No final probable cause has been determined. Current investigative focus includes high-altitude weather and icing, turbulence, the rapid overspeed descent, and evidence of in-flight structural separation including the left elevator.",
+      "sourceUrl": "https://www.ntsb.gov/investigations/Pages/ERA27MA026.aspx",
+      "reportUrl": "https://www.ntsb.gov/investigations/Pages/ERA27MA026.aspx",
+      "sourceTier": "official",
+      "verificationStatus": "official-source indexed",
       "latitude": 26.632888888,
       "longitude": -80.113111111,
-      "coordinateSource": "Wikidata event coordinate",
-      "fatalities": 9,
-      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2026_Palm_Beach_County_Learjet_60_crash",
-      "probableCause": ""
+      "coordinateSource": "Wikidata event coordinate"
     },
     {
       "id": "WIKIDATA-Q141947331",
@@ -51863,8 +51870,8 @@
   ],
   "discoveryNote": "Wikidata is used only to expand case, timeline and map coverage. Its discovery records are not treated as authoritative probable-cause or investigation findings.",
   "counts": {
-    "officialIndexed": 40,
-    "discovery": 3090,
+    "officialIndexed": 41,
+    "discovery": 3089,
     "totalVisible": 3130,
     "withCoordinates": 1623
   },
