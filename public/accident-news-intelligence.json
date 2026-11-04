@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T20:09:18.357Z",
+  "updatedAt": "2026-11-04T20:14:28.682Z",
   "sourceSet": [
     {
       "name": "FlightGlobal",
@@ -14,377 +14,173 @@
       "domain": "avherald.com"
     },
     {
-      "name": "AeroTime",
-      "domain": "aerotime.aero"
+      "name": "Aviation Safety Network",
+      "domain": "aviation-safety.net"
     },
     {
-      "name": "Simple Flying",
-      "domain": "simpleflying.com"
+      "name": "Reuters",
+      "domain": "reuters.com"
     }
   ],
   "cases": {
-    "WIKIDATA-Q141966885": {
-      "query": "\"2026 Palm Beach County Learjet 60 crash 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q141947331": {
-      "query": "\"2026 Uttarakhand helicopter crash 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q141947324": {
-      "query": "\"2026 Brčko helicopter crash Italian Army 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q141649162": {
-      "query": "\"2026 Nigerian Air Force ATR 42 crash Nigerian Air Force 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q141489588": {
-      "query": "\"2026 Chatsworth Eurocopter AS350 crash 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q141411807": {
-      "query": "\"2026 Long Lellang helicopter crash Layang Layang Aerospace 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q141334374": {
-      "query": "\"21 Air Flight 7598 21 Air 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q141246366": {
-      "query": "\"Security Aviation Flight 45 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q141131120": {
-      "query": "\"2026 Mount Ololokwe helicopter crash Eurocopter EC130 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q140812043": {
-      "query": "\"2026 Aerodiana Cessna 208 crash 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q140799586": {
-      "query": "\"Kenmore Air Flight 140 Kenmore Air 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q140459803": {
-      "query": "\"K2 Airways Flight 1732 K2 Airways 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q140236513": {
-      "query": "\"2026 Edwards Air Force Base B-52 crash 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q138846527": {
-      "query": "\"2026 Crimea Antonov An-26 crash Russian Air Force 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q138773815": {
-      "query": "\"2026 Colombian Air Force Lockheed C-130 crash Colombian Air Force Lockheed C-130 Hercules 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q138766846": {
-      "query": "\"Air Canada Express Flight 8646 Jazz Aviation 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q138502870": {
-      "query": "\"2026 Bolivian Air Force Hercules C-130 crash 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q138344270": {
-      "query": "\"2026 Pelita Air crash in Nunukan Pelita Air Service 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q137921022": {
-      "query": "\"8849 SATENA flight SATENA Beechcraft 1900D 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q137920366": {
-      "query": "\"2026 Baramati Learjet 45 crash 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q137909857": {
-      "query": "\"2026 Smart Air PK-SNS emergency landing 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q137832719": {
-      "query": "\"2026 Kumamoto helicopter crash 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q137801147": {
-      "query": "\"2026 Indonesia Air Transport ATR 42 crash Indonesia Air Transport ATR 42-500 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q137798902": {
-      "query": "\"Q137798902 Republic of China Air Force General Dynamics F-16 Fighting Falcon 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q137673648": {
-      "query": "\"Buddha Air Flight 901 Buddha Air 2026\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q137454501": {
-      "query": "\"2025 North Carolina Cessna Citation II crash 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q136892833": {
-      "query": "\"2025 HAL Tejas Dubai Air Show crash 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q136705120": {
-      "query": "\"UPS Airlines Flight 2976 UPS Airlines 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q136659268": {
-      "query": "\"Mombasa Air Safari Flight 203 Mombasa Air Safari 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q136537299": {
-      "query": "\"Emirates SkyCargo Flight 9788 Air ACT 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q136544201": {
-      "query": "\"La Atalaya plane crash private 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q136391140": {
-      "query": "\"2025 Aquidauana Cessna 175 crash 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q135433157": {
-      "query": "\"2025 Dhaka fighter jet crash Bangladesh Air Force 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
     "AAIB-AI171-2025": {
-      "query": "\"Air India Flight AI171 Air India Boeing 787-8 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q134880537": {
-      "query": "\"Air India Flight 171 Air India 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q134304736": {
-      "query": "\"2025 Beni Cessna 172 disappearance 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q135796627": {
-      "query": "\"2025 Royal Thai Police DHC-6 crash 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q133852788": {
-      "query": "\"2025 Hudson River helicopter crash New York Helicopter Charter Inc N216MH 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q133464921": {
-      "query": "\"2025 Trident Aviation DHC-5 crash 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q133309963": {
-      "query": "\"Aerolínea Lanhsa Flight 018 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q133274463": {
-      "query": "\"American Airlines flight 1006 American Airlines 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q133067560": {
-      "query": "\"2025 FA-50 fighter jet crash Korea Aerospace Industries FA-50 Fighting Eagle 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Air India Flight AI171 Air India Boeing 787-8 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "TSB-A25O0021-2025": {
-      "query": "\"Delta Connection Flight 4819 Endeavor Air dba Delta Connection CRJ-900LR 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q132197398": {
-      "query": "\"2025 Scottsdale Airport plane crash 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q132161853": {
-      "query": "\"Bering Air Flight 445 Bering Air 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q131990794": {
-      "query": "\"Med Jets Flight 056 Jet Rescue Air Ambulance 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Delta Connection Flight 4819 Endeavor Air dba Delta Connection CRJ-900LR 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "ARAIB-BX391-2025": {
-      "query": "\"Air Busan Flight BX391 Ground Fire Air Busan Airbus A321-200 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q131930345": {
-      "query": "\"Air Busan Flight 391 Air Busan Airbus A321-200 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q131739772": {
-      "query": "\"Q131739772 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Air Busan Flight BX391 Ground Fire Air Busan Airbus A321-200 2025\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "ARAIB-JEJU2216-2024": {
-      "query": "\"Jeju Air Flight 2216 Jeju Air Boeing 737-800 2024\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Jeju Air Flight 2216 Jeju Air Boeing 737-800 2024\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "KZ-AZAL8243-2024": {
-      "query": "\"Azerbaijan Airlines Flight 8243 Azerbaijan Airlines Embraer 190AR 2024\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q131539636": {
-      "query": "\"2024 Gramado Piper PA-42 crash 2024\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q131469153": {
-      "query": "\"Runway excursion at San Fernando International Airport in 2024 2024\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q131468197": {
-      "query": "\"2024 Bombardier Challenger 300 plane crash 2024\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q131319476": {
-      "query": "\"Swiftair Flight 5960 Swiftair 2024\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
-      "articles": []
-    },
-    "WIKIDATA-Q131062047": {
-      "query": "\"Trigana Air Flight 273 Trigana Air Service 2024\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Azerbaijan Airlines Flight 8243 Azerbaijan Airlines Embraer 190AR 2024\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "CENIPA-PSVPB-2024": {
-      "query": "\"Voepass Flight 2283 Voepass Linhas Aereas ATR 72-500 2024\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Voepass Flight 2283 Voepass Linhas Aereas ATR 72-500 2024\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "NP-SAURYA-2024": {
-      "query": "\"Saurya Airlines CRJ-200 Accident Saurya Airlines Bombardier CRJ-200LR 2024\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Saurya Airlines CRJ-200 Accident Saurya Airlines Bombardier CRJ-200LR 2024\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "TSIB-SQ321-2024": {
-      "query": "\"Singapore Airlines Flight SQ321 Singapore Airlines Boeing 777-300ER 2024\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Singapore Airlines Flight SQ321 Singapore Airlines Boeing 777-300ER 2024\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "NTSB-DCA24MA063": {
-      "query": "\"Alaska Airlines Flight 1282 Alaska Airlines Boeing 737-9 MAX 2024\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Alaska Airlines Flight 1282 Alaska Airlines Boeing 737-9 MAX 2024\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "JTSB-HANEDA-2024": {
-      "query": "\"Haneda Runway Collision — Japan Airlines Flight 516 / Japan Coast Guard Japan Airlines / Japan Coast Guard Airbus A350-941 / Bombardier DHC-8-315 2024\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Haneda Runway Collision — Japan Airlines Flight 516 / Japan Coast Guard Japan Airlines / Japan Coast Guard Airbus A350-941 / Bombardier DHC-8-315 2024\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "NP-YETI691-2023": {
-      "query": "\"Yeti Airlines Flight 691 Yeti Airlines ATR 72-212A 2023\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Yeti Airlines Flight 691 Yeti Airlines ATR 72-212A 2023\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "NP-TARA197-2022": {
-      "query": "\"Tara Air Flight 197 Tara Air De Havilland Canada DHC-6-300 Twin Otter 2022\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Tara Air Flight 197 Tara Air De Havilland Canada DHC-6-300 Twin Otter 2022\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "CAAC-MU5735-2022": {
-      "query": "\"China Eastern Airlines Flight MU5735 China Eastern Airlines Boeing 737-800 2022\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"China Eastern Airlines Flight MU5735 China Eastern Airlines Boeing 737-800 2022\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "KNKT-SJY182-2021": {
-      "query": "\"Sriwijaya Air Flight 182 Sriwijaya Air Boeing 737-500 2021\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Sriwijaya Air Flight 182 Sriwijaya Air Boeing 737-500 2021\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "IN-AAIB-IX1344-2020": {
-      "query": "\"Air India Express Flight 1344 Air India Express Boeing 737-800 2020\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Air India Express Flight 1344 Air India Express Boeing 737-800 2020\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "PK-AAIB-PIA8303-2020": {
-      "query": "\"Pakistan International Airlines Flight 8303 Pakistan International Airlines Airbus A320-214 2020\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Pakistan International Airlines Flight 8303 Pakistan International Airlines Airbus A320-214 2020\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "IR-AAIB-PS752-2020": {
-      "query": "\"Ukraine International Airlines Flight 752 Ukraine International Airlines Boeing 737-800 2020\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Ukraine International Airlines Flight 752 Ukraine International Airlines Boeing 737-800 2020\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "ET302-2019": {
-      "query": "\"Ethiopian Airlines Flight 302 Ethiopian Airlines Boeing 737 MAX 8 2019\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Ethiopian Airlines Flight 302 Ethiopian Airlines Boeing 737 MAX 8 2019\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "NTSB-DCA19MA086": {
-      "query": "\"Atlas Air Flight 3591 Atlas Air Boeing 767-375BCF 2019\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Atlas Air Flight 3591 Atlas Air Boeing 767-375BCF 2019\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "KNKT-LNI610-2018": {
-      "query": "\"Lion Air Flight 610 Lion Air Boeing 737 MAX 8 2018\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Lion Air Flight 610 Lion Air Boeing 737 MAX 8 2018\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "NTSB-DCA18MA142": {
-      "query": "\"Southwest Airlines Flight 1380 Southwest Airlines Boeing 737-700 2018\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Southwest Airlines Flight 1380 Southwest Airlines Boeing 737-700 2018\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "GCAA-EK521-2016": {
-      "query": "\"Emirates Flight 521 Emirates Boeing 777-300 2016\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Emirates Flight 521 Emirates Boeing 777-300 2016\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "BEA-GWI9525-2015": {
-      "query": "\"Germanwings Flight 9525 Germanwings Airbus A320-211 2015\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Germanwings Flight 9525 Germanwings Airbus A320-211 2015\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "KNKT-QZ8501-2014": {
-      "query": "\"Indonesia AirAsia Flight 8501 Indonesia AirAsia Airbus A320-216 2014\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Indonesia AirAsia Flight 8501 Indonesia AirAsia Airbus A320-216 2014\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "NTSB-DCA13MA120": {
-      "query": "\"Asiana Airlines Flight 214 Asiana Airlines Boeing 777-200ER 2013\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Asiana Airlines Flight 214 Asiana Airlines Boeing 777-200ER 2013\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "ATSB-AO-2010-089": {
-      "query": "\"Qantas Flight 32 Qantas Airways Airbus A380-842 2010\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Qantas Flight 32 Qantas Airways Airbus A380-842 2010\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "GCAA-UPS6-2010": {
-      "query": "\"UPS Airlines Flight 6 UPS Airlines Boeing 747-400F 2010\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"UPS Airlines Flight 6 UPS Airlines Boeing 747-400F 2010\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "BEA-AF447-2009": {
-      "query": "\"Air France Flight 447 Air France Airbus A330-203 2009\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Air France Flight 447 Air France Airbus A330-203 2009\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "DSB-TK1951-2009": {
-      "query": "\"Turkish Airlines Flight 1951 Turkish Airlines Boeing 737-800 2009\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Turkish Airlines Flight 1951 Turkish Airlines Boeing 737-800 2009\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "NTSB-DCA09MA026": {
-      "query": "\"US Airways Flight 1549 US Airways Airbus A320-214 2009\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"US Airways Flight 1549 US Airways Airbus A320-214 2009\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "ATSB-QF72-2008": {
-      "query": "\"Qantas Flight 72 Qantas Airways Airbus A330-303 2008\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Qantas Flight 72 Qantas Airways Airbus A330-303 2008\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "AAIB-BA38-2008": {
-      "query": "\"British Airways Flight 38 British Airways Boeing 777-200ER 2008\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"British Airways Flight 38 British Airways Boeing 777-200ER 2008\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "ASC-CI611-2002": {
-      "query": "\"China Airlines Flight 611 China Airlines Boeing 747-209B 2002\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"China Airlines Flight 611 China Airlines Boeing 747-209B 2002\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "NTSB-DCA02MA001": {
-      "query": "\"American Airlines Flight 587 American Airlines Airbus A300B4-605R 2001\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"American Airlines Flight 587 American Airlines Airbus A300B4-605R 2001\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "NTSB-DCA00MA023": {
-      "query": "\"Alaska Airlines Flight 261 Alaska Airlines McDonnell Douglas MD-83 2000\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Alaska Airlines Flight 261 Alaska Airlines McDonnell Douglas MD-83 2000\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "NTSB-DCA96MA070": {
-      "query": "\"TWA Flight 800 Trans World Airlines Boeing 747-131 1996\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"TWA Flight 800 Trans World Airlines Boeing 747-131 1996\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "NTSB-DCA89MA063": {
-      "query": "\"United Airlines Flight 232 United Airlines McDonnell Douglas DC-10-10 1989\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"United Airlines Flight 232 United Airlines McDonnell Douglas DC-10-10 1989\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "NTSB-UAL811-1989": {
-      "query": "\"United Airlines Flight 811 United Airlines Boeing 747-122 1989\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"United Airlines Flight 811 United Airlines Boeing 747-122 1989\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "JTSB-JAL123-1985": {
-      "query": "\"Japan Airlines Flight 123 Japan Airlines Boeing 747SR-46 1985\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"Japan Airlines Flight 123 Japan Airlines Boeing 747SR-46 1985\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     },
     "NTSB-AA191-1979": {
-      "query": "\"American Airlines Flight 191 American Airlines McDonnell Douglas DC-10-10 1979\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aerotime.aero OR site:simpleflying.com)",
+      "query": "\"American Airlines Flight 191 American Airlines McDonnell Douglas DC-10-10 1979\" (site:flightglobal.com OR site:aviationweek.com OR site:avherald.com OR site:aviation-safety.net OR site:reuters.com)",
       "articles": []
     }
   }
