@@ -34,8 +34,8 @@ const SOURCES = [
   { name: 'FlightGlobal', domain: 'flightglobal.com' },
   { name: 'Aviation Week', domain: 'aviationweek.com' },
   { name: 'The Aviation Herald', domain: 'avherald.com' },
-  { name: 'AeroTime', domain: 'aerotime.aero' },
-  { name: 'Simple Flying', domain: 'simpleflying.com' },
+  { name: 'Aviation Safety Network', domain: 'aviation-safety.net' },
+  { name: 'Reuters', domain: 'reuters.com' },
 ]
 
 const FACTORS = [
