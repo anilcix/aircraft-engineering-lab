@@ -272,8 +272,8 @@ export default function AviationAccidentsDrawer() {
     <>
       <button className="side-tool accident-tool" onClick={() => setOpen(true)}>Uçak Kazaları</button>
       {open && <div className="drawer-backdrop" onClick={() => setOpen(false)} />}
-      <aside className={open ? 'info-drawer open accidents-drawer safety-dashboard-drawer' : 'info-drawer accidents-drawer safety-dashboard-drawer'}>
-        <div className="drawer-head">
+      <aside className={open ? 'info-drawer open accidents-drawer safety-dashboard-drawer accidents-fullscreen' : 'info-drawer accidents-drawer safety-dashboard-drawer accidents-fullscreen'}>
+        <div className="drawer-head accidents-fullscreen-head">
           <div>
             <div className="eyebrow">AVIATION SAFETY INTELLIGENCE</div>
             <h2>Uçak Kazaları Dashboard</h2>
