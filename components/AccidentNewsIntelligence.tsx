@@ -57,7 +57,7 @@ const CAUSE_CATEGORIES = [
   { key:'unknown', label:'Diğer / bilinmiyor', words:[] },
 ]
 
-type CauseProbability = { key:string; label:string; probability:number; evidence:string[] }
+type CauseProbability = { key:string; label:string; probability:number; evidence:string[]; details?: string[] }
 
 function categoryScores(accident: AccidentRow, articles: Article[]): CauseProbability[] {
   const baseParts = [accident.title, accident.summary, accident.location]
@@ -85,7 +85,7 @@ function categoryScores(accident: AccidentRow, articles: Article[]): CauseProbab
         for (const a of matchingArticles.slice(0,2)) if (!evidence.includes(a.source)) evidence.push(a.source)
       }
     }
-    return { key:cat.key, label:cat.label, score, evidence:evidence.slice(0,4) }
+    return { key:cat.key, label:cat.label, score, evidence:evidence.slice(0,4), details: subCauseDetails(cat.key, accident, articles) }
   })
 
   const active = scored.filter((x) => x.score > 0)
@@ -98,12 +98,12 @@ function categoryScores(accident: AccidentRow, articles: Article[]): CauseProbab
   const rawTotal = active.reduce((sum,x)=>sum+x.score,0)
   const available = 100 - uncertainty
   const rows = active
-    .map((x) => ({ key:x.key, label:x.label, probability:Math.max(1, Math.round((x.score/rawTotal)*available)), evidence:x.evidence }))
+    .map((x) => ({ key:x.key, label:x.label, probability:Math.max(1, Math.round((x.score/rawTotal)*available)), evidence:x.evidence, details:x.details }))
     .sort((a,b)=>b.probability-a.probability)
 
   let sum = rows.reduce((s,x)=>s+x.probability,0)
   if (rows.length && sum !== available) rows[0].probability += available - sum
-  rows.push({ key:'unknown', label:'Diğer / bilinmiyor', probability:uncertainty, evidence:[accident.probableCause?.trim() ? 'Artık belirsizlik payı' : 'Soruşturma tamamlanmadı'] })
+  rows.push({ key:'unknown', label:'Diğer / bilinmiyor', probability:uncertainty, evidence:[accident.probableCause?.trim() ? 'Artık belirsizlik payı' : 'Soruşturma tamamlanmadı'], details:[] })
   return rows.sort((a,b)=>b.probability-a.probability)
 }
 
@@ -260,6 +260,72 @@ function inferFamilyFromAircraft(aircraft: string, fallback?: string) {
   return aircraft
 }
 
+
+function inferAircraftAgeFromEvidence(item: AccidentRow, articles: Article[]) {
+  if (typeof item.aircraftAgeYears === 'number') return item.aircraftAgeYears
+  const text = [item.title, item.summary, item.probableCause, ...articles.map((a) => [a.title, a.summary].filter(Boolean).join(' '))]
+    .filter(Boolean).join(' ')
+  const direct = text.match(/\b(\d{1,2}(?:\.\d)?)\s*[- ]?year[- ]old\b/i)
+  if (direct?.[1]) return Number(direct[1])
+  const built = text.match(/\b(?:built|manufactured|delivered|entered service)\s+(?:in\s+)?(19\d{2}|20\d{2})\b/i)
+  const accidentYear = Number(String(item.date || '').slice(0,4))
+  if (built?.[1] && accidentYear) {
+    const age = accidentYear - Number(built[1])
+    if (age >= 0 && age <= 80) return age
+  }
+  return undefined
+}
+
+const CAUSE_SUBCATEGORIES = [
+  { parent:'weather', key:'convective-weather', label:'Konvektif hava / gök gürültülü fırtına', words:['thunderstorm','convective','storm cell','cumulonimbus'] },
+  { parent:'weather', key:'turbulence', label:'Türbülans / şiddetli türbülans', words:['turbulence','severe turbulence','moderate turbulence'] },
+  { parent:'weather', key:'windshear', label:'Windshear / microburst', words:['wind shear','windshear','microburst'] },
+  { parent:'weather', key:'low-visibility', label:'Düşük görüş / sis', words:['fog','low visibility','visibility'] },
+  { parent:'icing', key:'pitot-icing', label:'Pitot icing / air-data buzlanması', words:['pitot icing','pitot tube','pitot probes','air data icing'] },
+  { parent:'icing', key:'wing-tail-icing', label:'Kanat / kuyruk buzlanması', words:['wing icing','tail icing','airframe icing','ice accretion','clear ice'] },
+  { parent:'icing', key:'engine-inlet-icing', label:'Motor girişi / inlet icing', words:['engine inlet icing','inlet icing','engine icing'] },
+  { parent:'controls', key:'elevator', label:'Elevator / pitch kontrol kaybı', words:['elevator','pitch control','pitch trim','stabilizer'] },
+  { parent:'controls', key:'rudder', label:'Rudder / yaw kontrol kaybı', words:['rudder','yaw control'] },
+  { parent:'controls', key:'aileron', label:'Aileron / roll kontrol kaybı', words:['aileron','roll control'] },
+  { parent:'controls', key:'spoiler', label:'Spoiler / speedbrake arızası', words:['spoiler','speedbrake','speed brake'] },
+  { parent:'controls', key:'actuator', label:'Aktüatör / servo / linkage arızası', words:['actuator','servo','linkage','control cable','control rod'] },
+  { parent:'structure', key:'wing-structure', label:'Kanat yapısal hasarı', words:['wing failure','wing separation','wing fracture'] },
+  { parent:'structure', key:'fuselage-structure', label:'Gövde yapısal hasarı', words:['fuselage rupture','fuselage failure','decompression','skin failure'] },
+  { parent:'structure', key:'fatigue', label:'Fatigue / crack propagation', words:['fatigue','crack propagation','metal fatigue','fracture'] },
+  { parent:'sensor', key:'pitot-static', label:'Pitot-static / hız verisi', words:['pitot','airspeed','air speed','static port','unreliable speed'] },
+  { parent:'sensor', key:'aoa', label:'AoA sensörü', words:['angle of attack','aoa sensor','aoa vane'] },
+  { parent:'sensor', key:'inertial', label:'IRS / inertial sensör', words:['inertial','irs','imu','attitude sensor'] },
+  { parent:'engine', key:'flameout', label:'Flameout / thrust loss', words:['flameout','loss of thrust','thrust loss','power loss'] },
+  { parent:'engine', key:'uncontained', label:'Uncontained engine failure', words:['uncontained engine','fan blade separation','turbine disk'] },
+  { parent:'engine', key:'compressor', label:'Compressor stall / surge', words:['compressor stall','compressor surge'] },
+  { parent:'fuel', key:'exhaustion', label:'Yakıt tükenmesi', words:['fuel exhaustion','ran out of fuel'] },
+  { parent:'fuel', key:'starvation', label:'Yakıt besleme kesilmesi / starvation', words:['fuel starvation','fuel feed','fuel pump'] },
+  { parent:'systems', key:'hydraulic', label:'Hidrolik sistem kaybı', words:['hydraulic failure','hydraulic pressure','hydraulic system'] },
+  { parent:'systems', key:'electrical', label:'Elektrik / jeneratör kaybı', words:['electrical failure','generator failure','power failure'] },
+  { parent:'systems', key:'avionics', label:'Aviyonik / flight computer arızası', words:['avionics','flight computer','autopilot','fmc','fcc'] },
+  { parent:'maintenance', key:'improper-maintenance', label:'Hatalı bakım / montaj', words:['improper maintenance','maintenance error','incorrect installation','improper installation'] },
+  { parent:'maintenance', key:'missed-inspection', label:'Eksik inspeksiyon / tespit edilemeyen hasar', words:['missed inspection','inspection failed','not detected'] },
+  { parent:'atc', key:'runway-incursion', label:'Runway incursion / pist çatışması', words:['runway incursion','runway collision','ground collision'] },
+  { parent:'atc', key:'clearance', label:'Yanlış / hatalı clearance', words:['wrong clearance','incorrect clearance','clearance error'] },
+  { parent:'atc', key:'separation', label:'Separation loss / trafik ayrım kaybı', words:['loss of separation','separation minimum','traffic conflict'] },
+  { parent:'atc', key:'airport-lighting', label:'Pist/airport lighting problemi', words:['airport lighting','runway lights','lighting failure'] },
+  { parent:'external', key:'bird-strike', label:'Bird strike', words:['bird strike','bird ingestion'] },
+  { parent:'external', key:'fod', label:'FOD / debris', words:['fod','foreign object','debris'] },
+  { parent:'intentional', key:'pilot-suicide', label:'Pilot intiharı / kasıtlı çarpma', words:['suicide','deliberately crashed','murder-suicide','intentional crash','locked cockpit'] },
+]
+
+function subCauseDetails(parentKey: string, accident: AccidentRow, articles: Article[]) {
+  const text = [accident.title, accident.summary, accident.probableCause, ...articles.map((a) => [a.title,a.summary].filter(Boolean).join(' '))]
+    .filter(Boolean).join(' ').toLowerCase()
+  return CAUSE_SUBCATEGORIES
+    .filter((x) => x.parent === parentKey)
+    .map((x) => ({ ...x, hits: x.words.filter((w) => text.includes(w)).length }))
+    .filter((x) => x.hits > 0)
+    .sort((a,b) => b.hits - a.hits)
+    .slice(0,3)
+    .map((x) => x.label)
+}
+
 function inferredFlightNumber(item: AccidentRow) {
   if (item.flightNumber?.trim()) return item.flightNumber.trim()
   const title = item.title || ''
@@ -368,7 +434,8 @@ export default function AccidentNewsIntelligence({ accident, allAccidents = [] }
 
   const inferredAircraft = useMemo(() => inferAircraftFromEvidence(accident, articles), [accident, articles])
   const inferredFamily = useMemo(() => inferFamilyFromAircraft(inferredAircraft, accident.family), [inferredAircraft, accident.family])
-  const enrichedAccident = useMemo(() => ({ ...accident, aircraft: accident.aircraft || inferredAircraft || undefined, family: accident.family || inferredFamily || undefined }), [accident, inferredAircraft, inferredFamily])
+  const inferredAge = useMemo(() => inferAircraftAgeFromEvidence(accident, articles), [accident, articles])
+  const enrichedAccident = useMemo(() => ({ ...accident, aircraft: accident.aircraft || inferredAircraft || undefined, family: accident.family || inferredFamily || undefined, aircraftAgeYears: typeof accident.aircraftAgeYears === 'number' ? accident.aircraftAgeYears : inferredAge }), [accident, inferredAircraft, inferredFamily, inferredAge])
   const causeProbabilities = useMemo(() => categoryScores(enrichedAccident, articles), [enrichedAccident, articles])
 
   const selectedEvidenceText = useMemo(() => {
@@ -435,7 +502,7 @@ export default function AccidentNewsIntelligence({ accident, allAccidents = [] }
           <div><span>Uçak tipi</span><strong>{enrichedAccident.aircraft || enrichedAccident.family || 'Bilinmiyor'}</strong></div>
           <div><span>Uçak ailesi</span><strong>{enrichedAccident.family || 'Bilinmiyor'}</strong></div>
           <div><span>Ölü sayısı</span><strong>{typeof accident.fatalities === 'number' ? accident.fatalities : 'Bilinmiyor'}</strong></div>
-          <div><span>Kaza anındaki yaş</span><strong>{typeof accident.aircraftAgeYears === 'number' ? accident.aircraftAgeYears.toFixed(1) + ' yıl' : 'Bilinmiyor'}</strong></div>
+          <div><span>Kaza anındaki yaş</span><strong>{typeof enrichedAccident.aircraftAgeYears === 'number' ? enrichedAccident.aircraftAgeYears.toFixed(1) + ' yıl' : 'Bilinmiyor'}</strong></div>
         </div>
         <div className="cause-probability-list">
           {causeProbabilities.map((row) => <div className="cause-probability-row" key={row.key}>
@@ -444,6 +511,7 @@ export default function AccidentNewsIntelligence({ accident, allAccidents = [] }
               <span>%{row.probability}</span>
             </div>
             <div className="cause-probability-track"><span style={{width:`${row.probability}%`}} /></div>
+            {row.details?.length ? <div className="cause-detail-chips">{row.details.map((detail) => <span key={detail}>{detail}</span>)}</div> : null}
             <small>{row.evidence.join(' · ')}</small>
           </div>)}
         </div>
@@ -507,7 +575,7 @@ export default function AccidentNewsIntelligence({ accident, allAccidents = [] }
         <div className="aircraft-type-summary">
           <div><span>Uçak tipi</span><strong>{enrichedAccident.aircraft || 'Bilinmiyor'}</strong></div>
           <div><span>Uçak ailesi</span><strong>{enrichedAccident.family || 'Bilinmiyor'}</strong></div>
-          <div><span>Kaza anındaki yaşı</span><strong>{typeof accident.aircraftAgeYears === 'number' ? accident.aircraftAgeYears.toFixed(1) + ' yıl' : 'Bilinmiyor'}</strong></div>
+          <div><span>Kaza anındaki yaşı</span><strong>{typeof enrichedAccident.aircraftAgeYears === 'number' ? enrichedAccident.aircraftAgeYears.toFixed(1) + ' yıl' : 'Bilinmiyor'}</strong></div>
         </div>
 
         <AircraftTypeHistoryTable
