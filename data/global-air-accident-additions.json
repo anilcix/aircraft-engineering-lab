@@ -305,6 +305,26 @@
       "probableCause": "Investigation remains ongoing; no final causal conclusion is asserted here.",
       "sourceUrl": "https://aaib.gov.in/",
       "reportUrl": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2272247&lang=1&reg=48"
+    },
+    {
+      "id": "US-NTSB-ERA27MA026",
+      "date": "2026-11-01",
+      "title": "2026 Palm Beach County Learjet 60 crash",
+      "operator": "Aurora Aviation dba Upper Jet",
+      "aircraft": "Learjet 60",
+      "family": "Learjet 60",
+      "manufacturer": "Bombardier Learjet",
+      "registration": "N722BD",
+      "location": "Greenacres, Palm Beach County, Florida, United States",
+      "aircraftAgeYears": 22,
+      "fatalities": 9,
+      "survivors": 0,
+      "authority": "NTSB",
+      "status": "Preliminary investigation ongoing",
+      "summary": "The Learjet 60 was lost while en route from Austin, Texas to North Eleuthera, Bahamas. The crew reported clear icing and moderate turbulence at high altitude before a rapid overspeed descent. NTSB investigators reported evidence of in-flight breakup; most of the left elevator was later recovered away from the main impact site.",
+      "probableCause": "Investigation ongoing. No final probable cause has been determined. Current investigative focus includes high-altitude weather and icing, turbulence, the rapid overspeed descent, and evidence of in-flight structural separation including the left elevator.",
+      "sourceUrl": "https://www.ntsb.gov/investigations/Pages/ERA27MA026.aspx",
+      "reportUrl": "https://www.ntsb.gov/investigations/Pages/ERA27MA026.aspx"
     }
   ]
 }
