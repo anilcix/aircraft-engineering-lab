@@ -40,6 +40,72 @@ const SOURCES = [
   { name: 'Reuters', domain: 'reuters.com' },
 ]
 
+const CAUSE_CATEGORIES = [
+  { key:'weather', label:'Hava muhalefeti', words:['bad weather','weather','storm','thunderstorm','convective','turbulence','wind shear','windshear','microburst','fog','visibility','precipitation','heavy rain','hail'] },
+  { key:'icing', label:'Buzlanma', words:['icing','ice ','clear ice','airframe ice','wing ice','pitot icing','ice accretion'] },
+  { key:'controls', label:'Kontrol yüzeyi / uçuş kumandası kaybı', words:['flight control','control surface','elevator','rudder','aileron','control jam','jammed','loss of control','loc-i','uncommanded','control failure'] },
+  { key:'structure', label:'Yapısal hasar', words:['structural','structure failure','breakup','in-flight breakup','fracture','fatigue','crack','separation','pylon','fuselage rupture','wing failure'] },
+  { key:'intentional', label:'Pilot intiharı / kasıtlı eylem', words:['suicide','deliberate','intentional','intentionally','murder-suicide','locked cockpit','deliberately crashed','pilot incapacitation by intent'] },
+  { key:'sensor', label:'Sensör / Air-data arızası', words:['sensor','pitot','air data','airspeed','air speed','erroneous speed','unreliable speed','angle of attack','aoa','instrument indication'] },
+  { key:'engine', label:'Motor / itki arızası', words:['engine failure','engine','thrust loss','loss of thrust','flameout','compressor','fan blade','propulsion','uncontained engine'] },
+  { key:'fuel', label:'Yakıt problemi', words:['fuel exhaustion','fuel starvation','fuel leak','fuel contamination','fuel system','ran out of fuel'] },
+  { key:'systems', label:'Elektrik / hidrolik / aviyonik arıza', words:['electrical','hydraulic','avionics','autopilot','flight computer','system failure','power failure','generator failure'] },
+  { key:'maintenance', label:'Bakım / inspeksiyon hatası', words:['maintenance','inspection','overhaul','repair error','improper maintenance','missed inspection','service bulletin','maintenance error'] },
+  { key:'atc', label:'ATC / havaalanı operasyonu', words:['atc','controller','clearance','runway incursion','wrong runway','airport lighting','ground collision','runway collision'] },
+  { key:'external', label:'Bird strike / FOD / harici etken', words:['bird strike','bird','fod','foreign object','debris','drone','missile','shot down'] },
+  { key:'unknown', label:'Diğer / bilinmiyor', words:[] },
+]
+
+type CauseProbability = { key:string; label:string; probability:number; evidence:string[] }
+
+function categoryScores(accident: AccidentRow, articles: Article[]): CauseProbability[] {
+  const baseParts = [accident.title, accident.summary, accident.location]
+  const official = accident.probableCause || ''
+  const articleText = articles.map((a) => [a.title, a.summary].filter(Boolean).join(' ')).join(' ')
+  const base = baseParts.filter(Boolean).join(' ').toLowerCase()
+  const officialText = official.toLowerCase()
+  const newsText = articleText.toLowerCase()
+
+  const scored = CAUSE_CATEGORIES.filter((cat) => cat.key !== 'unknown').map((cat) => {
+    let score = 0
+    const evidence:string[] = []
+    for (const word of cat.words) {
+      if (officialText.includes(word)) {
+        score += 8
+        if (!evidence.includes('Resmî bulgu/rapor')) evidence.push('Resmî bulgu/rapor')
+      }
+      if (base.includes(word)) {
+        score += 3
+        if (!evidence.includes('Olay özeti')) evidence.push('Olay özeti')
+      }
+      const matchingArticles = articles.filter((a) => ([a.title, a.summary].filter(Boolean).join(' ').toLowerCase()).includes(word))
+      if (matchingArticles.length) {
+        score += Math.min(6, matchingArticles.length * 2)
+        for (const a of matchingArticles.slice(0,2)) if (!evidence.includes(a.source)) evidence.push(a.source)
+      }
+    }
+    return { key:cat.key, label:cat.label, score, evidence:evidence.slice(0,4) }
+  })
+
+  const active = scored.filter((x) => x.score > 0)
+  if (!active.length) {
+    return [{ key:'unknown', label:'Diğer / bilinmiyor', probability:100, evidence:['Mevcut kanıt yetersiz'] }]
+  }
+
+  // A small residual prevents the UI from implying certainty before investigation is complete.
+  const uncertainty = accident.probableCause?.trim() ? 4 : Math.max(12, 30 - Math.min(18, articles.length * 3))
+  const rawTotal = active.reduce((sum,x)=>sum+x.score,0)
+  const available = 100 - uncertainty
+  const rows = active
+    .map((x) => ({ key:x.key, label:x.label, probability:Math.max(1, Math.round((x.score/rawTotal)*available)), evidence:x.evidence }))
+    .sort((a,b)=>b.probability-a.probability)
+
+  let sum = rows.reduce((s,x)=>s+x.probability,0)
+  if (rows.length && sum !== available) rows[0].probability += available - sum
+  rows.push({ key:'unknown', label:'Diğer / bilinmiyor', probability:uncertainty, evidence:[accident.probableCause?.trim() ? 'Artık belirsizlik payı' : 'Soruşturma tamamlanmadı'] })
+  return rows.sort((a,b)=>b.probability-a.probability)
+}
+
 const FACTORS = [
   { key: 'weather', label: 'Buzlanma / kötü hava / türbülans', words: ['icing','ice ','clear ice','turbulence','wind shear','windshear','storm','thunderstorm','weather','convective','precipitation','microburst','fog','visibility'] },
   { key: 'airdata', label: 'Sürat / air-data / sensör anomalisi', words: ['airspeed','air speed','pitot','air data','speed indication','erroneous speed','unreliable speed','sensor'] },
@@ -240,6 +306,8 @@ export default function AccidentNewsIntelligence({ accident, allAccidents = [] }
   const cached = data.cases[accident.id]
   const articles = cached?.articles || []
 
+  const causeProbabilities = useMemo(() => categoryScores(accident, articles), [accident, articles])
+
   const selectedEvidenceText = useMemo(() => {
     return articles.map((article) => [article.title, article.summary].filter(Boolean).join(' ')).join(' ').toLowerCase()
   }, [articles])
@@ -294,6 +362,30 @@ export default function AccidentNewsIntelligence({ accident, allAccidents = [] }
 
   return (
     <section className="accident-intel">
+      <section className="accident-cause-summary">
+        <div className="dashboard-section-title">
+          <span>Kaza özeti ve olası neden dağılımı</span>
+          <small>Kanıt ağırlıklı erken değerlendirme · resmî probable cause değildir</small>
+        </div>
+        <div className="accident-cause-meta">
+          <div><span>Uçak tipi</span><strong>{accident.aircraft || accident.family || 'Bilinmiyor'}</strong></div>
+          <div><span>Uçak ailesi</span><strong>{accident.family || 'Bilinmiyor'}</strong></div>
+          <div><span>Ölü sayısı</span><strong>{typeof accident.fatalities === 'number' ? accident.fatalities : 'Bilinmiyor'}</strong></div>
+          <div><span>Kaza anındaki yaş</span><strong>{typeof accident.aircraftAgeYears === 'number' ? accident.aircraftAgeYears.toFixed(1) + ' yıl' : 'Bilinmiyor'}</strong></div>
+        </div>
+        <div className="cause-probability-list">
+          {causeProbabilities.map((row) => <div className="cause-probability-row" key={row.key}>
+            <div className="cause-probability-label">
+              <strong>{row.label}</strong>
+              <span>%{row.probability}</span>
+            </div>
+            <div className="cause-probability-track"><span style={{width:`${row.probability}%`}} /></div>
+            <small>{row.evidence.join(' · ')}</small>
+          </div>)}
+        </div>
+        <p className="cause-probability-note">Yüzdeler soruşturma sonucu değildir; mevcut resmî bulgulara, olay özetine ve güvenilir haber kaynaklarında tekrar eden teknik belirtilere göre normalize edilmiş kanıt ağırlığıdır. Yeni kanıt geldikçe değişir.</p>
+      </section>
+
       <div className="dashboard-section-title">
         <span>5 kaynaklı olay istihbaratı</span>
         <small>{data.updatedAt ? 'Son tarama: ' + new Date(data.updatedAt).toLocaleString('tr-TR') : 'Kaynak indeksi yükleniyor'}</small>
