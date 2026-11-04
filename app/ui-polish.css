@@ -406,3 +406,5 @@ html.ael-drawer-open, body.ael-drawer-open { overscroll-behavior:none; }
 .cause-probability-note { margin:10px 0 0 !important; color:#8ea0ac !important; font-size:9px !important; line-height:1.5 !important; }
 @media (max-width:900px) { .accident-cause-meta { grid-template-columns:repeat(2,minmax(0,1fr)); } }
 @media (max-width:520px) { .accident-cause-meta { grid-template-columns:1fr; } }
+
+.flight-number-cell { white-space:nowrap; color:#d4af37 !important; font-weight:800; letter-spacing:.02em; }
