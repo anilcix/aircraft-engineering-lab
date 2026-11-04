@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-03T11:18:21.869727Z",
-  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 3089 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
+  "updatedAt": "2026-11-04T11:32:08.651598Z",
+  "coverageNote": "Federated global aviation safety index: 40 official-source indexed cases plus 3090 secondary discovery records awaiting authority-level verification. This is an expanding index, not a complete worldwide accident census.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality totals reflect only indexed, verified records. Discovery-layer values may be incomplete or inconsistent and are excluded from official dashboard totals until verified.",
   "fleetProfiles": [
     {
@@ -20256,6 +20256,20 @@
       "verificationStatus": "secondary structured discovery"
     },
     {
+      "id": "WIKIDATA-Q141123753",
+      "date": "1992-04-07",
+      "title": "Q141123753",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q141123753",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery",
+      "operator": "Air Bissau",
+      "location": "Libya",
+      "fatalities": 3
+    },
+    {
       "id": "WIKIDATA-Q16662509",
       "date": "1992-04-05",
       "title": "Q16662509",
@@ -28564,7 +28578,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Korpijärvi, South Korea",
+      "location": "Karelian Autonomous Soviet Socialist Republic, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -34203,7 +34217,7 @@
     {
       "id": "WIKIDATA-Q16662635",
       "date": "1970-09-03",
-      "title": "Q16662635",
+      "title": "Aeroflot Flight Sh-4",
       "authority": "Wikidata discovery",
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
@@ -48760,8 +48774,8 @@
   "discoveryNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
   "counts": {
     "officialIndexed": 40,
-    "discovery": 3089,
-    "totalVisible": 3129,
+    "discovery": 3090,
+    "totalVisible": 3130,
     "withCoordinates": 1623
   },
   "mapNote": "1623 indexed records currently include structured map coordinates. Records without coordinates remain searchable in the case library but are omitted from the map."
