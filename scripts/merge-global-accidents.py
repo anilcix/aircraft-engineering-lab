@@ -69,6 +69,7 @@ for item in discovery.get('items', []):
         copy_coords(items_by_id[official_id], item)
 
 # Wikidata is retained strictly as a broad coverage/discovery layer.
+# Coverage records remain separate from authoritative causal findings.
 discovery_added = 0
 for item in discovery.get('items', []):
     if not item.get('id'):
