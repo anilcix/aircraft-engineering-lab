@@ -75,13 +75,22 @@ function parseRss(xml) {
   return rows
 }
 
-function queryFor(item) {
-  const core = [item.title, item.operator, item.aircraft || item.family, item.date?.slice(0, 4)]
-    .filter(Boolean)
-    .join(' ')
-    .slice(0, 160)
-  const sites = SOURCES.map((source) => 'site:' + source.domain).join(' OR ')
-  return '"' + core + '" (' + sites + ')'
+function searchTerms(item) {
+  const title = String(item.title || '').replace(/[—–]/g, ' ').replace(/\s+/g, ' ').trim()
+  const operator = String(item.operator || '').trim()
+  const aircraft = String(item.aircraft || item.family || '').trim()
+  const year = String(item.date || '').slice(0, 4)
+  return { title, operator, aircraft, year }
+}
+
+function queriesFor(item, source) {
+  const { title, operator, aircraft, year } = searchTerms(item)
+  const broad = [title, operator, year].filter(Boolean).join(' ')
+  const fallback = [operator, aircraft, year, title.split(' ').slice(-3).join(' ')].filter(Boolean).join(' ')
+  return [
+    'site:' + source.domain + ' ' + broad,
+    'site:' + source.domain + ' ' + fallback,
+  ]
 }
 
 const raw = JSON.parse(await fs.readFile('public/aviation-accidents.json', 'utf8'))
@@ -97,22 +106,34 @@ const targets = items
 const cases = {}
 
 for (const item of targets) {
-  const query = queryFor(item)
-  try {
-    const url = 'https://news.google.com/rss/search?q=' + encodeURIComponent(query) + '&hl=en-US&gl=US&ceid=US:en'
-    const xml = await fetchText(url)
-    const seen = new Set()
-    const articles = parseRss(xml).filter((article) => {
-      if (!article.url || seen.has(article.url)) return false
-      seen.add(article.url)
-      return true
-    }).slice(0, 15)
-    cases[item.id] = { query, articles }
-  } catch (error) {
-    cases[item.id] = { query, articles: [] }
-    console.warn('Accident news skipped for ' + item.id + ': ' + error.message)
+  const articles = []
+  const seen = new Set()
+  const queries = []
+
+  for (const source of SOURCES) {
+    let sourceFound = 0
+    for (const query of queriesFor(item, source)) {
+      queries.push(query)
+      try {
+        const url = 'https://news.google.com/rss/search?q=' + encodeURIComponent(query) + '&hl=en-US&gl=US&ceid=US:en'
+        const xml = await fetchText(url)
+        for (const article of parseRss(xml)) {
+          if (article.source !== source.name || !article.url || seen.has(article.url)) continue
+          seen.add(article.url)
+          articles.push(article)
+          sourceFound += 1
+          if (sourceFound >= 3) break
+        }
+      } catch (error) {
+        console.warn('Source search skipped for ' + item.id + ' / ' + source.name + ': ' + error.message)
+      }
+      if (sourceFound > 0) break
+      await new Promise((resolve) => setTimeout(resolve, 80))
+    }
+    await new Promise((resolve) => setTimeout(resolve, 80))
   }
-  await new Promise((resolve) => setTimeout(resolve, 120))
+
+  cases[item.id] = { query: queries.join(' || '), articles: articles.slice(0, 15) }
 }
 
 const payload = { updatedAt: new Date().toISOString(), sourceSet: SOURCES, cases }
