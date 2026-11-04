@@ -21,6 +21,8 @@ type AccidentRow = {
   authority?: string
   sourceUrl?: string
   reportUrl?: string
+  aircraftAgeYears?: number
+  manufacturer?: string
 }
 
 type Props = {
@@ -190,6 +192,41 @@ function AccidentHistoryTable({ rows, emptyText, reasonsById = {} }: { rows: Acc
   </div>
 }
 
+
+function AircraftTypeHistoryTable({ rows, emptyText }: { rows: AccidentRow[]; emptyText: string }) {
+  if (!rows.length) return <div className="accident-intel-empty">{emptyText}</div>
+
+  return <div className="accident-history-table-wrap">
+    <table className="accident-history-table aircraft-type-history-table">
+      <thead>
+        <tr>
+          <th>Tarih</th>
+          <th>Uçak tipi</th>
+          <th>Yaş</th>
+          <th>Operatör</th>
+          <th>Yer</th>
+          <th>Ölüm</th>
+          <th>Kaza sebebi / resmî bulgu</th>
+        </tr>
+      </thead>
+      <tbody>
+        {rows.map((row) => <tr key={row.id}>
+          <td>{row.date}</td>
+          <td>{row.aircraft || row.family || '—'}</td>
+          <td>{typeof row.aircraftAgeYears === 'number' ? row.aircraftAgeYears.toFixed(1) + ' yıl' : 'Bilinmiyor'}</td>
+          <td>{row.operator || '—'}</td>
+          <td>{row.location || '—'}</td>
+          <td>{typeof row.fatalities === 'number' ? row.fatalities : '—'}</td>
+          <td>
+            <span>{causeText(row)}</span>
+            {(row.reportUrl || row.sourceUrl) && <a href={row.reportUrl || row.sourceUrl} target="_blank" rel="noreferrer">Kaynak ↗</a>}
+          </td>
+        </tr>)}
+      </tbody>
+    </table>
+  </div>
+}
+
 export default function AccidentNewsIntelligence({ accident, allAccidents = [] }: Props) {
   const [data, setData] = useState<IntelPayload>(EMPTY)
 
@@ -218,14 +255,23 @@ export default function AccidentNewsIntelligence({ accident, allAccidents = [] }
   const similarAccidents = useMemo(() => similarAccidentRanking.map((row) => row.item), [similarAccidentRanking])
   const similarityReasons = useMemo(() => Object.fromEntries(similarAccidentRanking.map((row) => [row.item.id, row.reasons])), [similarAccidentRanking])
 
-  const sameAircraftHistory = useMemo(() => {
-    const family = accident.family || accident.aircraft
-    if (!family) return []
+  const exactAircraftHistory = useMemo(() => {
+    if (!accident.aircraft) return []
     return allAccidents
-      .filter((item) => item.id !== accident.id && (item.family === family || item.aircraft === family || item.aircraft === accident.aircraft))
+      .filter((item) => item.id !== accident.id && item.aircraft === accident.aircraft)
       .sort((a, b) => (Date.parse(b.date || '') || 0) - (Date.parse(a.date || '') || 0))
       .slice(0, 20)
   }, [accident, allAccidents])
+
+  const familyAircraftHistory = useMemo(() => {
+    if (!accident.family) return []
+    return allAccidents
+      .filter((item) => item.id !== accident.id && item.family === accident.family)
+      .sort((a, b) => (Date.parse(b.date || '') || 0) - (Date.parse(a.date || '') || 0))
+      .slice(0, 25)
+  }, [accident, allAccidents])
+
+  const aircraftHistoryRows = exactAircraftHistory.length ? exactAircraftHistory : familyAircraftHistory
 
   const hypotheses = useMemo(() => {
     if (accident.sourceTier === 'discovery') return []
@@ -296,12 +342,22 @@ export default function AccidentNewsIntelligence({ accident, allAccidents = [] }
         <AccidentHistoryTable rows={similarAccidents} reasonsById={similarityReasons} emptyText="Teknik benzerlik eşiğini geçen geçmiş vaka bulunamadı." />
       </div>
 
-      <div className="accident-history-section">
+      <div className="accident-history-section aircraft-type-history-section">
         <div className="dashboard-section-title">
-          <span>{(accident.family || accident.aircraft) ? (accident.family || accident.aircraft) + ' geçmiş kazaları' : 'Aynı uçak tipi geçmiş kazaları'}</span>
-          <small>Aynı aircraft family / type</small>
+          <span>Uçak tipi ve geçmiş kaza geçmişi</span>
+          <small>{exactAircraftHistory.length ? 'Aynı tam uçak tipi' : 'Tam tip kaydı yoksa aynı uçak ailesi'}</small>
         </div>
-        <AccidentHistoryTable rows={sameAircraftHistory} emptyText="Bu uçak tipi/ailesi için indekslenmiş başka geçmiş vaka bulunamadı." />
+
+        <div className="aircraft-type-summary">
+          <div><span>Uçak tipi</span><strong>{accident.aircraft || 'Bilinmiyor'}</strong></div>
+          <div><span>Uçak ailesi</span><strong>{accident.family || 'Bilinmiyor'}</strong></div>
+          <div><span>Kaza anındaki yaşı</span><strong>{typeof accident.aircraftAgeYears === 'number' ? accident.aircraftAgeYears.toFixed(1) + ' yıl' : 'Bilinmiyor'}</strong></div>
+        </div>
+
+        <AircraftTypeHistoryTable
+          rows={aircraftHistoryRows}
+          emptyText="Bu uçak tipi/ailesi için indekslenmiş başka geçmiş kaza bulunamadı."
+        />
       </div>
 
       <div className="accident-hypotheses">
