@@ -411,3 +411,23 @@ html.ael-drawer-open, body.ael-drawer-open { overscroll-behavior:none; }
 
 .cause-detail-chips { display:flex; flex-wrap:wrap; gap:5px; margin:6px 0 3px; }
 .cause-detail-chips span { display:inline-block; padding:3px 6px; border:1px solid #36566c; border-radius:999px; background:#0d2635; color:#b6dff5; font-size:8px; line-height:1.2; }
+
+.accident-flight-reconstruction { margin:12px 0 18px; padding:14px; border:1px solid #2b4c61; border-radius:14px; background:linear-gradient(180deg,rgba(8,26,38,.97),rgba(6,20,29,.97)); box-shadow:inset 0 1px rgba(255,255,255,.025),0 14px 30px rgba(0,0,0,.14); }
+.flight-route-strip { display:grid; grid-template-columns:14px 1fr auto; gap:9px; align-items:center; margin:10px 0 12px; padding:10px 12px; border:1px solid #315267; border-radius:10px; background:#0a1c28; }
+.flight-route-dot { width:9px; height:9px; border-radius:999px; background:#67c7ff; box-shadow:0 0 14px rgba(103,199,255,.55); }
+.flight-route-strip strong { color:#dce7ed; font-size:11px; letter-spacing:.01em; }
+.flight-route-plane { color:#d4af37; font-size:17px; }
+.flight-event-rail { display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:8px; position:relative; }
+.flight-event-card { display:grid; grid-template-columns:34px 1fr; gap:9px; min-height:130px; padding:10px; border:1px solid #2a4659; border-radius:11px; background:linear-gradient(180deg,#0c202c,#091720); }
+.flight-event-card.warning { border-color:#806821; background:linear-gradient(180deg,rgba(66,51,13,.34),#0b1921); }
+.flight-event-card.critical { border-color:#7f3842; background:linear-gradient(180deg,rgba(74,25,34,.32),#0b1820); }
+.flight-event-index { width:28px; height:28px; display:grid; place-items:center; border-radius:999px; border:1px solid #395b70; color:#8dd5fb; font-size:8px; font-weight:900; }
+.flight-event-card.warning .flight-event-index { border-color:#8b7428; color:#e3c862; }
+.flight-event-card.critical .flight-event-index { border-color:#914b54; color:#ff9ca8; }
+.flight-event-phase { display:block; color:#718998; font-size:7.5px; text-transform:uppercase; letter-spacing:.08em; margin-bottom:4px; }
+.flight-event-body strong { display:block; color:#dce5eb; font-size:10px; line-height:1.3; }
+.flight-event-body p { margin:6px 0 8px !important; color:#8ea2af !important; font-size:8.8px !important; line-height:1.45 !important; }
+.flight-event-meta { display:flex; gap:6px; flex-wrap:wrap; align-items:center; }
+.flight-event-meta b { color:#67c7ff; font-size:8px; }
+.flight-event-meta span { color:#8d9da8; font-size:7.5px; }
+.flight-reconstruction-note { margin:10px 0 0 !important; color:#738895 !important; font-size:8.5px !important; line-height:1.45 !important; }
