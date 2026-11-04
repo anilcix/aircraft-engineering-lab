@@ -1,0 +1,26 @@
+{
+  "updatedAt": "1970-01-01T00:00:00.000Z",
+  "sourceSet": [
+    {
+      "name": "FlightGlobal",
+      "domain": "flightglobal.com"
+    },
+    {
+      "name": "Aviation Week",
+      "domain": "aviationweek.com"
+    },
+    {
+      "name": "The Aviation Herald",
+      "domain": "avherald.com"
+    },
+    {
+      "name": "AeroTime",
+      "domain": "aerotime.aero"
+    },
+    {
+      "name": "Simple Flying",
+      "domain": "simpleflying.com"
+    }
+  ],
+  "cases": {}
+}
