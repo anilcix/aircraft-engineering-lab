@@ -438,6 +438,32 @@ function inferredFlightNumber(item: AccidentRow) {
   if (codeMatch?.[1]) return codeMatch[1].replace(/\s+/g, '')
   return '—'
 }
+
+function professionalHypothesisNote(factor: { key:string; label:string }, accident: AccidentRow, articles: Article[], evidence: string[]) {
+  const text = [accident.summary, accident.probableCause, ...articles.map((a) => [a.title,a.summary].filter(Boolean).join(' '))]
+    .filter(Boolean).join(' ').toLowerCase()
+  const notes: Record<string,string> = {
+    weather: 'Meteorolojik koşulların uçuş zarfını ve ekip iş yükünü olumsuz etkilemiş olabileceği değerlendiriliyor. Bu başlık, mevcut hava bildirimi ve uçuş profiliyle birlikte ele alınmalıdır.',
+    airdata: 'Sürat/air-data zincirindeki anormallikler, otomasyon ve manuel uçuş girdilerinin güvenilirliğini azaltabilecek bir faktör olarak değerlendiriliyor.',
+    losscontrol: 'Uçağın normal uçuş zarfından çıkması ve kontrolün yeniden tesis edilememesi, olay zincirinde kritik bir aşama olarak değerlendiriliyor.',
+    highaltitude: 'Yüksek irtifa koşulları; hava yoğunluğu, icing marjı ve kontrol tepkileri açısından olay dinamiğini ağırlaştırmış olabilir.',
+    propulsion: 'Motor veya itki tarafındaki olası bozulmalar, performans ve enerji yönetimini doğrudan etkileyebilecek teknik faktörler arasında değerlendiriliyor.',
+    structure: 'Kontrol yüzeyi veya yapısal elemanlarda ayrılma/hasar bulguları, olayın ilerleyişinde kritik teknik gösterge olarak değerlendiriliyor.',
+    approach: 'Yaklaşma/iniş safhasındaki enerji ve uçuş yolu yönetimi, olayın gelişiminde incelenmesi gereken operasyonel başlıklardan biridir.',
+    systems: 'Elektrik, hidrolik veya aviyonik sistemlerdeki olası bozulmaların uçuş kumandaları ve ekip farkındalığı üzerindeki etkisi değerlendiriliyor.',
+    maintenance: 'Bakım ve inspeksiyon geçmişinin mevcut teknik bulgularla ilişkisi, kök neden analizinde incelenmesi gereken alanlardan biridir.',
+    atc: 'ATC veya havaalanı operasyonlarının olay zincirine katkısı ancak clearance, separation veya pist operasyonu verileriyle doğrulanır; mevcut kanıt yoksa bu başlık düşük öncelikte tutulmalıdır.',
+    external: 'Harici etkenlerin uçak sistemleri veya yapısal bütünlük üzerindeki etkisi mevcut fiziksel ve operasyonel kanıtlarla birlikte değerlendirilmelidir.',
+  }
+  if (factor.key === 'weather' && (text.includes('icing') || text.includes('clear ice'))) {
+    return 'Buzlanma ve/veya türbülans bildirimi, uçuş koşullarının hızla kötüleştiğini gösteriyor. Bu çevresel faktörlerin air-data, kontrol marjı ve ekip iş yükü üzerindeki etkisi birlikte değerlendiriliyor.'
+  }
+  if (factor.key === 'structure' && text.includes('elevator')) {
+    return 'Elevator ile ilişkili ayrılma/hasar bulgusu, pitch kontrolünün kaybı veya yapısal bütünlüğün bozulması açısından kritik bir teknik gösterge olarak değerlendiriliyor.'
+  }
+  return notes[factor.key] || 'Bu faktör mevcut olay zinciri içinde teknik olarak anlamlı bir olasılık olarak değerlendiriliyor; resmî soruşturma bulguları geldikçe ağırlığı değişebilir.'
+}
+
 function causeText(item: AccidentRow) {
   if (item.sourceTier === 'discovery') return 'Discovery kaydı — sebep için resmî soruşturma kaynağıyla doğrulama gerekli.'
   if (item.probableCause?.trim()) return item.probableCause.trim()
@@ -588,7 +614,7 @@ export default function AccidentNewsIntelligence({ accident, allAccidents = [] }
           evidence.push(article.source + ': ' + article.title)
         }
       }
-      return { ...factor, score, evidence: evidence.slice(0, 3), support: supportLabel(score) }
+      return { ...factor, score, evidence: evidence.slice(0, 3), support: supportLabel(score), note: professionalHypothesisNote(factor, accident, articles, evidence) }
     }).filter((x) => x.score > 0).sort((a, b) => b.score - a.score).slice(0, 5)
   }, [accident, articles])
 
@@ -717,7 +743,8 @@ export default function AccidentNewsIntelligence({ accident, allAccidents = [] }
         <div className="dashboard-section-title"><span>Rapor öncesi olası katkı faktörleri</span><small>Yüzde değil · kanıt desteği</small></div>
         {hypotheses.length ? hypotheses.map((factor) => <div className="hypothesis-card" key={factor.key}>
           <div className="hypothesis-head"><strong>{factor.label}</strong><span className={'support-' + factor.support.cls}>{factor.support.label}</span></div>
-          {factor.evidence.length > 0 ? factor.evidence.map((item) => <p key={item}>• {item}</p>) : <p>Olay başlığı/özeti içinde bu faktörle ilişkili ifade bulundu; bağımsız haber teyidi henüz sınırlı.</p>}
+          <p className="hypothesis-analysis-note">{factor.note}</p>
+          {factor.evidence.length > 0 && <div className="hypothesis-evidence-line"><span>Dayanak</span><strong>{Array.from(new Set(factor.evidence.map((item) => item.split(':')[0]))).join(' · ')}</strong></div>}
         </div>) : <div className="accident-intel-empty">Mevcut açık kaynak verisi anlamlı bir hipotezi desteklemek için yetersiz. Bu durumda sistem sebep tahmini üretmez.</div>}
       </div>
     </section>
