@@ -39,11 +39,14 @@ const SOURCES = [
 ]
 
 const FACTORS = [
-  { key: 'weather', label: 'Hava / icing / türbülans', words: ['icing','ice ','turbulence','wind shear','windshear','storm','weather','convective','microburst','fog','visibility'] },
+  { key: 'weather', label: 'Buzlanma / kötü hava / türbülans', words: ['icing','ice ','clear ice','turbulence','wind shear','windshear','storm','thunderstorm','weather','convective','precipitation','microburst','fog','visibility'] },
+  { key: 'airdata', label: 'Sürat / air-data / sensör anomalisi', words: ['airspeed','air speed','pitot','air data','speed indication','erroneous speed','unreliable speed','sensor'] },
+  { key: 'losscontrol', label: 'Kontrol kaybı / anormal dalış / stall', words: ['loss of control','loc-i','stall','overspeed','rapid descent','steep descent','uncontrolled descent','descending 10,000','descending 20,000','vertical dive'] },
+  { key: 'highaltitude', label: 'Yüksek irtifa operasyonu', words: ['35,000','35000','fl350','37,000','37000','fl370','high altitude','cruise altitude'] },
   { key: 'propulsion', label: 'Motor / yakıt / itki', words: ['engine','thrust','fuel','power loss','flameout','fan blade','compressor','propulsion'] },
-  { key: 'structure', label: 'Yapısal / uçuş kumandası', words: ['structural','structure','elevator','rudder','aileron','flight control','control jam','pylon','separation','fatigue','fracture','crack'] },
-  { key: 'approach', label: 'Yaklaşma / enerji / uçuş yolu', words: ['unstable approach','approach','landing','go-around','go around','airspeed','energy state','stall','overshoot','runway overrun'] },
-  { key: 'systems', label: 'Elektrik / hidrolik / sistem', words: ['electrical','hydraulic','avionics','sensor','autopilot','system failure','warning','flight computer'] },
+  { key: 'structure', label: 'Yapısal / uçuş kumandası', words: ['structural','structure','elevator','rudder','aileron','flight control','control jam','pylon','separation','fatigue','fracture','crack','breakup'] },
+  { key: 'approach', label: 'Yaklaşma / iniş / enerji yönetimi', words: ['unstable approach','approach','landing','go-around','go around','energy state','overshoot','runway overrun'] },
+  { key: 'systems', label: 'Elektrik / hidrolik / avionik sistem', words: ['electrical','hydraulic','avionics','autopilot','system failure','warning','flight computer'] },
   { key: 'maintenance', label: 'Bakım / inspeksiyon', words: ['maintenance','inspection','overhaul','repair','missed inspection','service bulletin'] },
   { key: 'atc', label: 'ATC / havaalanı operasyonu', words: ['atc','controller','clearance','runway incursion','phraseology','airport lighting','wrong runway'] },
   { key: 'external', label: 'Harici etken / FOD / kuş', words: ['bird strike','bird','fod','foreign object','debris','drone'] },
@@ -77,14 +80,20 @@ const PHASES = [
   { key: 'landing', words: ['landing','touchdown','runway overrun','hard landing'] },
 ]
 
-function phaseFor(item: AccidentRow) {
-  const text = normalizedText(item)
+function phaseForText(text: string) {
   return PHASES.find((phase) => phase.words.some((word) => text.includes(word)))?.key
 }
 
-function factorKeys(item: AccidentRow) {
-  const text = normalizedText(item)
+function phaseFor(item: AccidentRow) {
+  return phaseForText(normalizedText(item))
+}
+
+function factorKeysFromText(text: string) {
   return FACTORS.filter((factor) => factor.words.some((word) => text.includes(word))).map((factor) => factor.key)
+}
+
+function factorKeys(item: AccidentRow) {
+  return factorKeysFromText(normalizedText(item))
 }
 
 function normalizedText(item: AccidentRow) {
@@ -94,33 +103,48 @@ function normalizedText(item: AccidentRow) {
     .toLowerCase()
 }
 
-function similarityScore(selected: AccidentRow, candidate: AccidentRow) {
-  if (selected.id === candidate.id) return -1
-  const a = normalizedText(selected)
+function similarityDetails(selected: AccidentRow, candidate: AccidentRow, selectedEvidenceText = '') {
+  if (selected.id === candidate.id) return { score: -1, reasons: [] as string[] }
+  const a = [normalizedText(selected), selectedEvidenceText].filter(Boolean).join(' ').toLowerCase()
   const b = normalizedText(candidate)
   let score = 0
+  const reasons: string[] = []
 
-  const selectedPhase = phaseFor(selected)
+  const selectedPhase = phaseForText(a)
   const candidatePhase = phaseFor(candidate)
-  if (selectedPhase && candidatePhase && selectedPhase === candidatePhase) score += 4
+  if (selectedPhase && candidatePhase && selectedPhase === candidatePhase) {
+    score += 4
+    const phaseLabel: Record<string, string> = { takeoff:'Kalkış safhası', climb:'Tırmanış safhası', cruise:'Seyir safhası', descent:'Alçalma safhası', approach:'Yaklaşma safhası', landing:'İniş safhası' }
+    reasons.push(phaseLabel[selectedPhase] || 'Aynı uçuş safhası')
+  }
 
-  const selectedFactors = new Set(factorKeys(selected))
+  const selectedFactors = new Set(factorKeysFromText(a))
   const candidateFactors = new Set(factorKeys(candidate))
-  for (const key of selectedFactors) if (candidateFactors.has(key)) score += 3
+  for (const factor of FACTORS) {
+    if (selectedFactors.has(factor.key) && candidateFactors.has(factor.key)) {
+      score += ['weather','airdata','losscontrol'].includes(factor.key) ? 5 : 3
+      reasons.push(factor.label)
+    }
+  }
 
   for (const word of SIMILARITY_WORDS) {
     if (a.includes(word) && b.includes(word)) score += 1
   }
 
-  if (selected.family && candidate.family && selected.family === candidate.family) score += 4
-  if (selected.aircraft && candidate.aircraft && selected.aircraft === candidate.aircraft) score += 3
-  if (selected.operator && candidate.operator && selected.operator === candidate.operator) score += 1
+  if (selected.family && candidate.family && selected.family === candidate.family) {
+    score += 4
+    reasons.push('Aynı uçak ailesi')
+  }
+  if (selected.aircraft && candidate.aircraft && selected.aircraft === candidate.aircraft) {
+    score += 3
+    reasons.push('Aynı uçak tipi')
+  }
 
   const selectedFatal = (selected.fatalities || 0) > 0
   const candidateFatal = (candidate.fatalities || 0) > 0
   if (selectedFatal === candidateFatal) score += 1
 
-  return score
+  return { score, reasons: Array.from(new Set(reasons)).slice(0, 4) }
 }
 
 function causeText(item: AccidentRow) {
@@ -130,7 +154,7 @@ function causeText(item: AccidentRow) {
   return 'Sebep / bulgu henüz indekslenmemiş.'
 }
 
-function AccidentHistoryTable({ rows, emptyText }: { rows: AccidentRow[]; emptyText: string }) {
+function AccidentHistoryTable({ rows, emptyText, reasonsById = {} }: { rows: AccidentRow[]; emptyText: string; reasonsById?: Record<string, string[]> }) {
   if (!rows.length) return <div className="accident-intel-empty">{emptyText}</div>
 
   return <div className="accident-history-table-wrap">
@@ -142,6 +166,7 @@ function AccidentHistoryTable({ rows, emptyText }: { rows: AccidentRow[]; emptyT
           <th>Operatör</th>
           <th>Yer</th>
           <th>Ölüm</th>
+          <th>Neden benziyor?</th>
           <th>Sebep / bulgu</th>
         </tr>
       </thead>
@@ -152,6 +177,9 @@ function AccidentHistoryTable({ rows, emptyText }: { rows: AccidentRow[]; emptyT
           <td>{row.operator || '—'}</td>
           <td>{row.location || '—'}</td>
           <td>{typeof row.fatalities === 'number' ? row.fatalities : '—'}</td>
+          <td className="similarity-reason-cell">
+            {(reasonsById[row.id] || []).length ? (reasonsById[row.id] || []).map((reason) => <span key={reason}>{reason}</span>) : <span>Genel olay profili benzerliği</span>}
+          </td>
           <td>
             <span>{causeText(row)}</span>
             {(row.reportUrl || row.sourceUrl) && <a href={row.reportUrl || row.sourceUrl} target="_blank" rel="noreferrer">Kaynak ↗</a>}
@@ -175,16 +203,20 @@ export default function AccidentNewsIntelligence({ accident, allAccidents = [] }
   const cached = data.cases[accident.id]
   const articles = cached?.articles || []
 
-  const similarAccidents = useMemo(() => {
-    const ranked = allAccidents
-      .map((item) => ({ item, score: similarityScore(accident, item) }))
-      .filter((row) => row.score >= 0)
-      .sort((a, b) => b.score - a.score || (Date.parse(b.item.date || '') || 0) - (Date.parse(a.item.date || '') || 0))
+  const selectedEvidenceText = useMemo(() => {
+    return articles.map((article) => [article.title, article.summary].filter(Boolean).join(' ')).join(' ').toLowerCase()
+  }, [articles])
 
-    const strong = ranked.filter((row) => row.score >= 3)
-    const chosen = strong.length >= 3 ? strong : ranked.filter((row) => row.score > 0)
-    return chosen.slice(0, 10).map((row) => row.item)
-  }, [accident, allAccidents])
+  const similarAccidentRanking = useMemo(() => {
+    return allAccidents
+      .map((item) => ({ item, ...similarityDetails(accident, item, selectedEvidenceText) }))
+      .filter((row) => row.score > 0)
+      .sort((a, b) => b.score - a.score || (Date.parse(b.item.date || '') || 0) - (Date.parse(a.item.date || '') || 0))
+      .slice(0, 10)
+  }, [accident, allAccidents, selectedEvidenceText])
+
+  const similarAccidents = useMemo(() => similarAccidentRanking.map((row) => row.item), [similarAccidentRanking])
+  const similarityReasons = useMemo(() => Object.fromEntries(similarAccidentRanking.map((row) => [row.item.id, row.reasons])), [similarAccidentRanking])
 
   const sameAircraftHistory = useMemo(() => {
     const family = accident.family || accident.aircraft
@@ -259,9 +291,9 @@ export default function AccidentNewsIntelligence({ accident, allAccidents = [] }
       <div className="accident-history-section">
         <div className="dashboard-section-title">
           <span>Bu kazaya benzeyen geçmiş kazalar</span>
-          <small>Olay belirtileri / flight phase / faktör benzerliği</small>
+          <small>Meteoroloji · uçuş safhası · sistem/air-data · kontrol kaybı zinciri</small>
         </div>
-        <AccidentHistoryTable rows={similarAccidents} emptyText="Benzerlik eşiğini geçen geçmiş vaka bulunamadı." />
+        <AccidentHistoryTable rows={similarAccidents} reasonsById={similarityReasons} emptyText="Teknik benzerlik eşiğini geçen geçmiş vaka bulunamadı." />
       </div>
 
       <div className="accident-history-section">
