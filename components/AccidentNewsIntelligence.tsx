@@ -216,6 +216,50 @@ function similarityDetails(selected: AccidentRow, candidate: AccidentRow, select
   return { score, reasons: Array.from(new Set(reasons)).slice(0, 4) }
 }
 
+function inferAircraftFromEvidence(item: AccidentRow, articles: Article[]) {
+  if (item.aircraft?.trim()) return item.aircraft.trim()
+  const text = [item.title, item.summary, ...articles.map((a) => [a.title, a.summary].filter(Boolean).join(' '))]
+    .filter(Boolean).join(' ')
+  const patterns: Array<[RegExp, string]> = [
+    [/\bLearjet\s*60\b/i, 'Learjet 60'],
+    [/\bLearjet\s*55\b/i, 'Learjet 55'],
+    [/\bLearjet\s*45\b/i, 'Learjet 45'],
+    [/\bBoeing\s*787[- ]?8\b/i, 'Boeing 787-8'],
+    [/\bBoeing\s*787[- ]?9\b/i, 'Boeing 787-9'],
+    [/\bBoeing\s*777[- ]?300ER\b/i, 'Boeing 777-300ER'],
+    [/\bBoeing\s*777[- ]?200ER\b/i, 'Boeing 777-200ER'],
+    [/\bBoeing\s*737[- ]?800\b/i, 'Boeing 737-800'],
+    [/\bBoeing\s*737\s*MAX\s*8\b/i, 'Boeing 737 MAX 8'],
+    [/\bAirbus\s*A330[- ]?203\b/i, 'Airbus A330-203'],
+    [/\bAirbus\s*A320[- ]?\d{3}\b/i, text.match(/\bAirbus\s*A320[- ]?\d{3}\b/i)?.[0] || 'Airbus A320'],
+    [/\bAirbus\s*A350[- ]?\d{3}\b/i, text.match(/\bAirbus\s*A350[- ]?\d{3}\b/i)?.[0] || 'Airbus A350'],
+    [/\bATR\s*72(?:[- ]?\d{3})?\b/i, text.match(/\bATR\s*72(?:[- ]?\d{3})?\b/i)?.[0] || 'ATR 72'],
+    [/\bCRJ[- ]?900(?:LR)?\b/i, 'CRJ-900LR'],
+    [/\bCRJ[- ]?200(?:LR)?\b/i, 'CRJ-200LR'],
+    [/\bEmbraer\s*190(?:AR)?\b/i, 'Embraer 190'],
+  ]
+  for (const [pattern, label] of patterns) if (pattern.test(text)) return label
+  return ''
+}
+
+function inferFamilyFromAircraft(aircraft: string, fallback?: string) {
+  if (fallback?.trim()) return fallback.trim()
+  const s = aircraft.toUpperCase()
+  if (s.includes('LEARJET 60')) return 'Learjet 60'
+  if (s.includes('LEARJET')) return 'Learjet'
+  if (s.includes('787')) return 'Boeing 787'
+  if (s.includes('777')) return 'Boeing 777'
+  if (s.includes('737 MAX')) return 'Boeing 737 MAX'
+  if (s.includes('737')) return 'Boeing 737 Family'
+  if (s.includes('A350')) return 'Airbus A350'
+  if (s.includes('A330')) return 'Airbus A330'
+  if (s.includes('A320') || s.includes('A319') || s.includes('A321') || s.includes('A318')) return 'Airbus A320 Family'
+  if (s.includes('ATR 72')) return 'ATR 72'
+  if (s.includes('CRJ')) return 'Bombardier CRJ'
+  if (s.includes('EMBRAER 190')) return 'Embraer E-Jet'
+  return aircraft
+}
+
 function inferredFlightNumber(item: AccidentRow) {
   if (item.flightNumber?.trim()) return item.flightNumber.trim()
   const title = item.title || ''
@@ -322,7 +366,10 @@ export default function AccidentNewsIntelligence({ accident, allAccidents = [] }
   const cached = data.cases[accident.id]
   const articles = cached?.articles || []
 
-  const causeProbabilities = useMemo(() => categoryScores(accident, articles), [accident, articles])
+  const inferredAircraft = useMemo(() => inferAircraftFromEvidence(accident, articles), [accident, articles])
+  const inferredFamily = useMemo(() => inferFamilyFromAircraft(inferredAircraft, accident.family), [inferredAircraft, accident.family])
+  const enrichedAccident = useMemo(() => ({ ...accident, aircraft: accident.aircraft || inferredAircraft || undefined, family: accident.family || inferredFamily || undefined }), [accident, inferredAircraft, inferredFamily])
+  const causeProbabilities = useMemo(() => categoryScores(enrichedAccident, articles), [enrichedAccident, articles])
 
   const selectedEvidenceText = useMemo(() => {
     return articles.map((article) => [article.title, article.summary].filter(Boolean).join(' ')).join(' ').toLowerCase()
@@ -330,30 +377,30 @@ export default function AccidentNewsIntelligence({ accident, allAccidents = [] }
 
   const similarAccidentRanking = useMemo(() => {
     return allAccidents
-      .map((item) => ({ item, ...similarityDetails(accident, item, selectedEvidenceText) }))
+      .map((item) => ({ item, ...similarityDetails(enrichedAccident, item, selectedEvidenceText) }))
       .filter((row) => row.score > 0)
       .sort((a, b) => b.score - a.score || (Date.parse(b.item.date || '') || 0) - (Date.parse(a.item.date || '') || 0))
       .slice(0, 10)
-  }, [accident, allAccidents, selectedEvidenceText])
+  }, [enrichedAccident, allAccidents, selectedEvidenceText])
 
   const similarAccidents = useMemo(() => similarAccidentRanking.map((row) => row.item), [similarAccidentRanking])
   const similarityReasons = useMemo(() => Object.fromEntries(similarAccidentRanking.map((row) => [row.item.id, row.reasons])), [similarAccidentRanking])
 
   const exactAircraftHistory = useMemo(() => {
-    if (!accident.aircraft) return []
+    if (!enrichedAccident.aircraft) return []
     return allAccidents
-      .filter((item) => item.id !== accident.id && item.aircraft === accident.aircraft)
+      .filter((item) => item.id !== accident.id && item.aircraft === enrichedAccident.aircraft)
       .sort((a, b) => (Date.parse(b.date || '') || 0) - (Date.parse(a.date || '') || 0))
       .slice(0, 20)
-  }, [accident, allAccidents])
+  }, [enrichedAccident, accident.id, allAccidents])
 
   const familyAircraftHistory = useMemo(() => {
-    if (!accident.family) return []
+    if (!enrichedAccident.family) return []
     return allAccidents
-      .filter((item) => item.id !== accident.id && item.family === accident.family)
+      .filter((item) => item.id !== accident.id && item.family === enrichedAccident.family)
       .sort((a, b) => (Date.parse(b.date || '') || 0) - (Date.parse(a.date || '') || 0))
       .slice(0, 25)
-  }, [accident, allAccidents])
+  }, [enrichedAccident, accident.id, allAccidents])
 
   const aircraftHistoryRows = exactAircraftHistory.length ? exactAircraftHistory : familyAircraftHistory
 
@@ -384,9 +431,9 @@ export default function AccidentNewsIntelligence({ accident, allAccidents = [] }
           <small>Kanıt ağırlıklı erken değerlendirme · resmî probable cause değildir</small>
         </div>
         <div className="accident-cause-meta">
-          <div><span>Uçuş numarası</span><strong>{inferredFlightNumber(accident)}</strong></div>
-          <div><span>Uçak tipi</span><strong>{accident.aircraft || accident.family || 'Bilinmiyor'}</strong></div>
-          <div><span>Uçak ailesi</span><strong>{accident.family || 'Bilinmiyor'}</strong></div>
+          <div><span>Uçuş numarası</span><strong>{inferredFlightNumber(enrichedAccident)}</strong></div>
+          <div><span>Uçak tipi</span><strong>{enrichedAccident.aircraft || enrichedAccident.family || 'Bilinmiyor'}</strong></div>
+          <div><span>Uçak ailesi</span><strong>{enrichedAccident.family || 'Bilinmiyor'}</strong></div>
           <div><span>Ölü sayısı</span><strong>{typeof accident.fatalities === 'number' ? accident.fatalities : 'Bilinmiyor'}</strong></div>
           <div><span>Kaza anındaki yaş</span><strong>{typeof accident.aircraftAgeYears === 'number' ? accident.aircraftAgeYears.toFixed(1) + ' yıl' : 'Bilinmiyor'}</strong></div>
         </div>
@@ -458,8 +505,8 @@ export default function AccidentNewsIntelligence({ accident, allAccidents = [] }
         </div>
 
         <div className="aircraft-type-summary">
-          <div><span>Uçak tipi</span><strong>{accident.aircraft || 'Bilinmiyor'}</strong></div>
-          <div><span>Uçak ailesi</span><strong>{accident.family || 'Bilinmiyor'}</strong></div>
+          <div><span>Uçak tipi</span><strong>{enrichedAccident.aircraft || 'Bilinmiyor'}</strong></div>
+          <div><span>Uçak ailesi</span><strong>{enrichedAccident.family || 'Bilinmiyor'}</strong></div>
           <div><span>Kaza anındaki yaşı</span><strong>{typeof accident.aircraftAgeYears === 'number' ? accident.aircraftAgeYears.toFixed(1) + ' yıl' : 'Bilinmiyor'}</strong></div>
         </div>
 
