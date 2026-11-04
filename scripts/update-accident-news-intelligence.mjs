@@ -75,6 +75,62 @@ function parseRss(xml) {
   return rows
 }
 
+
+const STOP_TOKENS = new Set(['the','and','for','with','from','near','crash','accident','county','flight','aircraft','aviation','fatal','officials','says','say','after','before','into','over','under','about','this','that','2026','2025','2024'])
+
+function normWords(text = '') {
+  return String(text).toLowerCase().replace(/[^a-z0-9]+/g, ' ').split(/\s+/).filter((x) => x.length >= 3 && !STOP_TOKENS.has(x))
+}
+
+function aircraftHint(item) {
+  const text = [item.aircraft, item.family, item.title, item.summary].filter(Boolean).join(' ')
+  const patterns = [
+    /\bLearjet\s*\d{2}\b/i,
+    /\bBoeing\s*7\d{2}(?:[- ]?[A-Z0-9]+)?\b/i,
+    /\bAirbus\s*A\d{3}(?:[- ]?\d{3})?\b/i,
+    /\bATR\s*\d{2}(?:[- ]?\d{3})?\b/i,
+    /\bCRJ[- ]?\d{3,4}(?:LR)?\b/i,
+    /\bEmbraer\s*\d{3}(?:AR)?\b/i,
+  ]
+  for (const pattern of patterns) {
+    const m = text.match(pattern)
+    if (m?.[0]) return m[0]
+  }
+  return String(item.aircraft || item.family || '').trim()
+}
+
+function relevanceScore(item, article) {
+  const targetText = [item.title, item.operator, item.aircraft, item.family, item.location].filter(Boolean).join(' ')
+  const articleText = [article.title, article.summary].filter(Boolean).join(' ')
+  const targetWords = new Set(normWords(targetText))
+  const articleWords = new Set(normWords(articleText))
+  let score = 0
+  for (const w of targetWords) if (articleWords.has(w)) score += 1
+
+  const hint = aircraftHint(item).toLowerCase()
+  if (hint && articleText.toLowerCase().includes(hint)) score += 4
+
+  const locationWords = normWords(item.location || '')
+  if (locationWords.some((w) => articleWords.has(w))) score += 2
+
+  const titleWords = normWords(item.title || '')
+  const strongTitleOverlap = titleWords.filter((w) => articleWords.has(w)).length
+  if (strongTitleOverlap >= 2) score += 2
+
+  const eventDate = Date.parse(item.date || '')
+  const articleDate = Date.parse(article.publishedAt || '')
+  if (eventDate && articleDate) {
+    const diffDays = Math.abs(articleDate - eventDate) / 86400000
+    if (diffDays <= 14) score += 2
+    else if (diffDays > 180) score -= 3
+  }
+  return score
+}
+
+function isRelevantArticle(item, article) {
+  return relevanceScore(item, article) >= 4
+}
+
 function searchTerms(item) {
   const title = String(item.title || '').replace(/[—–]/g, ' ').replace(/\s+/g, ' ').trim()
   const operator = String(item.operator || '').trim()
@@ -87,10 +143,14 @@ function queriesFor(item, source) {
   const { title, operator, aircraft, year } = searchTerms(item)
   const broad = [title, operator, year].filter(Boolean).join(' ')
   const fallback = [operator, aircraft, year, title.split(' ').slice(-3).join(' ')].filter(Boolean).join(' ')
+  const hint = aircraftHint(item)
+  const locationToken = String(item.location || title).split(/[,-]/)[0].trim()
+  const ageQuery = hint ? ['site:' + source.domain, '"' + hint + '"', '"year-old"', locationToken].filter(Boolean).join(' ') : ''
   return [
     'site:' + source.domain + ' ' + broad,
     'site:' + source.domain + ' ' + fallback,
-  ]
+    ageQuery,
+  ].filter(Boolean)
 }
 
 const raw = JSON.parse(await fs.readFile('public/aviation-accidents.json', 'utf8'))
@@ -124,8 +184,9 @@ for (const item of targets) {
         const xml = await fetchText(url)
         for (const article of parseRss(xml)) {
           if (article.source !== source.name || !article.url || seen.has(article.url)) continue
+          if (!isRelevantArticle(item, article)) continue
           seen.add(article.url)
-          articles.push(article)
+          articles.push({ ...article, relevanceScore: relevanceScore(item, article) })
           sourceFound += 1
           if (sourceFound >= 3) break
         }
