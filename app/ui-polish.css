@@ -408,3 +408,6 @@ html.ael-drawer-open, body.ael-drawer-open { overscroll-behavior:none; }
 @media (max-width:520px) { .accident-cause-meta { grid-template-columns:1fr; } }
 
 .flight-number-cell { white-space:nowrap; color:#d4af37 !important; font-weight:800; letter-spacing:.02em; }
+
+.cause-detail-chips { display:flex; flex-wrap:wrap; gap:5px; margin:6px 0 3px; }
+.cause-detail-chips span { display:inline-block; padding:3px 6px; border:1px solid #36566c; border-radius:999px; background:#0d2635; color:#b6dff5; font-size:8px; line-height:1.2; }
