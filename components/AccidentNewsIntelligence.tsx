@@ -326,6 +326,107 @@ function subCauseDetails(parentKey: string, accident: AccidentRow, articles: Art
     .map((x) => x.label)
 }
 
+
+type FlightEvent = {
+  phase: string
+  title: string
+  detail: string
+  metric?: string
+  source?: string
+  severity?: 'normal' | 'warning' | 'critical'
+}
+
+function preCrashTimeline(accident: AccidentRow, articles: Article[]): { route?: string; events: FlightEvent[] } {
+  const evidence = [accident.summary, accident.probableCause, ...articles.map((a) => [a.title, a.summary].filter(Boolean).join(' '))]
+    .filter(Boolean).join(' ')
+  const text = evidence.toLowerCase()
+  const events: FlightEvent[] = []
+
+  let route = ''
+  const fromTo = evidence.match(/(?:from|departed from)\s+([^.,;]+?)\s+(?:to|for)\s+([^.,;]+)/i)
+  if (fromTo) route = fromTo[1].trim() + ' → ' + fromTo[2].trim()
+
+  const altitude = evidence.match(/\b(?:FL\s?\d{2,3}|\d{2,3},?\d{3}\s*(?:ft|feet))\b/i)?.[0]
+  const speed = evidence.match(/\b\d{2,3}\s*(?:kt|kts|knots)\b/i)?.[0]
+
+  events.push({
+    phase:'Uçuş',
+    title: route ? 'Planlanan / bildirilen rota' : 'Uçuşun seyir bölümü',
+    detail: route || 'Açık kaynaklarda rota ayrıntısı sınırlı.',
+    severity:'normal'
+  })
+
+  if (text.includes('high altitude') || text.includes('cruise') || altitude) {
+    events.push({
+      phase:'Seyir',
+      title:'Yüksek irtifa / cruise',
+      detail:'Uçak seyir safhasındaydı; olay zincirinin ilk önemli belirtileri bu bölümde raporlandı.',
+      metric: altitude,
+      severity:'normal'
+    })
+  }
+
+  if (text.includes('icing') || text.includes('clear ice') || text.includes('turbulence') || text.includes('precipitation') || text.includes('thunderstorm')) {
+    const parts = []
+    if (text.includes('icing') || text.includes('clear ice')) parts.push('buzlanma')
+    if (text.includes('turbulence')) parts.push('türbülans')
+    if (text.includes('precipitation')) parts.push('yağış')
+    if (text.includes('thunderstorm')) parts.push('konvektif hava')
+    events.push({
+      phase:'Crew / Weather',
+      title:'Meteorolojik risk bildirimi',
+      detail:'Açık kaynaklarda ' + parts.join(', ') + ' ifadeleri geçiyor.',
+      source:'crew / haber / soruşturma materyali',
+      severity:'warning'
+    })
+  }
+
+  if (text.includes('airspeed') || text.includes('pitot') || text.includes('air data') || text.includes('overspeed')) {
+    const detail = text.includes('overspeed')
+      ? 'Sürat profilinde overspeed / yüksek sürat durumu raporlandı.'
+      : 'Air-data / sürat göstergesi tarafında anormallik bildirildi.'
+    events.push({
+      phase:'Anomali',
+      title:'Sürat / air-data bozulması',
+      detail,
+      metric:speed,
+      severity:'warning'
+    })
+  }
+
+  if (text.includes('rapid descent') || text.includes('steep descent') || text.includes('high-speed dive') || text.includes('uncontrolled descent') || text.includes('vertical dive')) {
+    events.push({
+      phase:'Alçalma',
+      title:'Ani / yüksek oranlı alçalma',
+      detail:'Uçuş profili kısa sürede normal seyirden anormal ve hızlı bir alçalmaya geçti.',
+      severity:'critical'
+    })
+  }
+
+  if (text.includes('elevator') || text.includes('rudder') || text.includes('aileron') || text.includes('breakup') || text.includes('structural separation')) {
+    const components = []
+    if (text.includes('elevator')) components.push('elevator')
+    if (text.includes('rudder')) components.push('rudder')
+    if (text.includes('aileron')) components.push('aileron')
+    if (text.includes('breakup') || text.includes('structural separation')) components.push('yapısal ayrılma')
+    events.push({
+      phase:'Yapısal / Kontrol',
+      title:'Kontrol yüzeyi / yapısal olay',
+      detail:'Soruşturma materyalinde ' + components.join(', ') + ' ile ilişkili bulgular bulunuyor.',
+      severity:'critical'
+    })
+  }
+
+  events.push({
+    phase:'Son',
+    title:'Son temas / impact',
+    detail: accident.location ? accident.location + ' bölgesinde uçuş sona erdi.' : 'Uçuşun son safhası impact ile sonuçlandı.',
+    severity:'critical'
+  })
+
+  return { route: route || undefined, events }
+}
+
 function inferredFlightNumber(item: AccidentRow) {
   if (item.flightNumber?.trim()) return item.flightNumber.trim()
   const title = item.title || ''
@@ -437,6 +538,7 @@ export default function AccidentNewsIntelligence({ accident, allAccidents = [] }
   const inferredAge = useMemo(() => inferAircraftAgeFromEvidence(accident, articles), [accident, articles])
   const enrichedAccident = useMemo(() => ({ ...accident, aircraft: accident.aircraft || inferredAircraft || undefined, family: accident.family || inferredFamily || undefined, aircraftAgeYears: typeof accident.aircraftAgeYears === 'number' ? accident.aircraftAgeYears : inferredAge }), [accident, inferredAircraft, inferredFamily, inferredAge])
   const causeProbabilities = useMemo(() => categoryScores(enrichedAccident, articles), [enrichedAccident, articles])
+  const flightReconstruction = useMemo(() => preCrashTimeline(enrichedAccident, articles), [enrichedAccident, articles])
 
   const selectedEvidenceText = useMemo(() => {
     return articles.map((article) => [article.title, article.summary].filter(Boolean).join(' ')).join(' ').toLowerCase()
@@ -492,6 +594,33 @@ export default function AccidentNewsIntelligence({ accident, allAccidents = [] }
 
   return (
     <section className="accident-intel">
+      <section className="accident-flight-reconstruction">
+        <div className="dashboard-section-title">
+          <span>Kaza öncesi uçuş akışı</span>
+          <small>Açık kaynak uçuş rekonstrüksiyonu · canlı Flightradar verisi değildir</small>
+        </div>
+        {flightReconstruction.route && <div className="flight-route-strip">
+          <span className="flight-route-dot" />
+          <strong>{flightReconstruction.route}</strong>
+          <span className="flight-route-plane">✈</span>
+        </div>}
+        <div className="flight-event-rail">
+          {flightReconstruction.events.map((event, index) => <div className={'flight-event-card ' + (event.severity || 'normal')} key={index}>
+            <div className="flight-event-index">{String(index + 1).padStart(2,'0')}</div>
+            <div className="flight-event-body">
+              <span className="flight-event-phase">{event.phase}</span>
+              <strong>{event.title}</strong>
+              <p>{event.detail}</p>
+              <div className="flight-event-meta">
+                {event.metric && <b>{event.metric}</b>}
+                {event.source && <span>{event.source}</span>}
+              </div>
+            </div>
+          </div>)}
+        </div>
+        <p className="flight-reconstruction-note">Bu akış yalnız resmî raporlar ve eşleşen güvenilir haber kaynaklarında geçen bilgilerden oluşturulur. Kesin zaman, irtifa veya sürat verisi kaynağa yazılmamışsa sistem tahmin etmez.</p>
+      </section>
+
       <section className="accident-cause-summary">
         <div className="dashboard-section-title">
           <span>Kaza özeti ve olası neden dağılımı</span>
