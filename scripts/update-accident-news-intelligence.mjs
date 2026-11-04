@@ -57,11 +57,19 @@ function parseRss(xml) {
     const rawTitle = tag(block, 'title')
     const source = sourceFromTitle(rawTitle)
     if (!source) continue
+    const description = tag(block, 'description')
+    const summary = description
+      .replace(/^.+?\s-\s/, '')
+      .replace(/Read more.*$/i, '')
+      .trim()
+      .slice(0, 420)
+
     rows.push({
       title: cleanTitle(rawTitle, source),
       url: tag(block, 'link'),
       source,
       publishedAt: dateIso(tag(block, 'pubDate')),
+      summary,
     })
   }
   return rows
