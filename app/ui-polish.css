@@ -106,3 +106,16 @@ html.ael-drawer-open, body.ael-drawer-open { overscroll-behavior:none; }
   .accident-intel-articles > a { grid-template-columns:82px minmax(0,1fr); }
   .accident-intel-articles > a small { grid-column:2; }
 }
+
+.accident-history-section { margin-top:14px; }
+.accident-history-table-wrap { overflow:auto; border:1px solid #24394a; border-radius:10px; background:#08151e; }
+.accident-history-table { width:100%; border-collapse:collapse; min-width:820px; }
+.accident-history-table th { position:sticky; top:0; background:#0d1c27; color:#7f96a6; font-size:8.5px; text-align:left; padding:8px 9px; border-bottom:1px solid #294052; letter-spacing:.04em; }
+.accident-history-table td { color:#b8c7d0; font-size:9px; line-height:1.4; padding:8px 9px; border-bottom:1px solid #1b2e3d; vertical-align:top; }
+.accident-history-table tr:last-child td { border-bottom:0; }
+.accident-history-table td:nth-child(1),
+.accident-history-table td:nth-child(5) { white-space:nowrap; }
+.accident-history-table td:last-child { min-width:280px; }
+.accident-history-table td:last-child span { display:block; }
+.accident-history-table td:last-child a { display:inline-block; margin-top:5px; color:#7dd3fc; font-size:8.5px; font-weight:800; text-decoration:none; }
+.accident-history-table td:last-child a:hover { text-decoration:underline; }
