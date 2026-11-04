@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from 'react'
 
-type Article = { title: string; url: string; source: string; publishedAt?: string }
+type Article = { title: string; url: string; source: string; publishedAt?: string; summary?: string }
 type IntelPayload = { updatedAt: string; sourceSet: { name: string; domain: string }[]; cases: Record<string, { query: string; articles: Article[] }> }
 
 type AccidentRow = {
@@ -68,6 +68,25 @@ const SIMILARITY_WORDS = [
   'maintenance','atc','visibility','weather','gear','brake','pressurization'
 ]
 
+const PHASES = [
+  { key: 'takeoff', words: ['takeoff','departure','rotation','liftoff','initial climb'] },
+  { key: 'climb', words: ['climb','climbing'] },
+  { key: 'cruise', words: ['cruise','en route','enroute'] },
+  { key: 'descent', words: ['descent','descending'] },
+  { key: 'approach', words: ['approach','final approach','go-around','go around'] },
+  { key: 'landing', words: ['landing','touchdown','runway overrun','hard landing'] },
+]
+
+function phaseFor(item: AccidentRow) {
+  const text = normalizedText(item)
+  return PHASES.find((phase) => phase.words.some((word) => text.includes(word)))?.key
+}
+
+function factorKeys(item: AccidentRow) {
+  const text = normalizedText(item)
+  return FACTORS.filter((factor) => factor.words.some((word) => text.includes(word))).map((factor) => factor.key)
+}
+
 function normalizedText(item: AccidentRow) {
   return [item.title, item.summary, item.probableCause, item.location, item.aircraft, item.family]
     .filter(Boolean)
@@ -81,12 +100,20 @@ function similarityScore(selected: AccidentRow, candidate: AccidentRow) {
   const b = normalizedText(candidate)
   let score = 0
 
+  const selectedPhase = phaseFor(selected)
+  const candidatePhase = phaseFor(candidate)
+  if (selectedPhase && candidatePhase && selectedPhase === candidatePhase) score += 4
+
+  const selectedFactors = new Set(factorKeys(selected))
+  const candidateFactors = new Set(factorKeys(candidate))
+  for (const key of selectedFactors) if (candidateFactors.has(key)) score += 3
+
   for (const word of SIMILARITY_WORDS) {
-    if (a.includes(word) && b.includes(word)) score += 2
+    if (a.includes(word) && b.includes(word)) score += 1
   }
 
-  if (selected.family && candidate.family && selected.family === candidate.family) score += 2
-  if (selected.aircraft && candidate.aircraft && selected.aircraft === candidate.aircraft) score += 2
+  if (selected.family && candidate.family && selected.family === candidate.family) score += 4
+  if (selected.aircraft && candidate.aircraft && selected.aircraft === candidate.aircraft) score += 3
   if (selected.operator && candidate.operator && selected.operator === candidate.operator) score += 1
 
   const selectedFatal = (selected.fatalities || 0) > 0
@@ -148,12 +175,14 @@ export default function AccidentNewsIntelligence({ accident, allAccidents = [] }
   const articles = cached?.articles || []
 
   const similarAccidents = useMemo(() => {
-    return allAccidents
+    const ranked = allAccidents
       .map((item) => ({ item, score: similarityScore(accident, item) }))
-      .filter((row) => row.score >= 2)
+      .filter((row) => row.score >= 0)
       .sort((a, b) => b.score - a.score || (Date.parse(b.item.date || '') || 0) - (Date.parse(a.item.date || '') || 0))
-      .slice(0, 10)
-      .map((row) => row.item)
+
+    const strong = ranked.filter((row) => row.score >= 3)
+    const chosen = strong.length >= 3 ? strong : ranked.filter((row) => row.score > 0)
+    return chosen.slice(0, 10).map((row) => row.item)
   }, [accident, allAccidents])
 
   const sameAircraftHistory = useMemo(() => {
@@ -198,11 +227,23 @@ export default function AccidentNewsIntelligence({ accident, allAccidents = [] }
       <div className="accident-source-grid">
         {SOURCES.map((source) => {
           const sourceArticles = articles.filter((x) => x.source === source.name)
-          return <div className="accident-source-card" key={source.domain}>
-            <div><strong>{source.name}</strong><span>{sourceArticles.length ? sourceArticles.length + ' eşleşme' : 'Kayıtlı eşleşme yok'}</span></div>
-            {sourceArticles.slice(0, 2).map((article) => <a key={article.url} href={article.url} target="_blank" rel="noreferrer">{article.title} ↗</a>)}
-            <a className="source-search-link" href={searchUrl(accident, source.domain)} target="_blank" rel="noreferrer">Bu olayı kaynakta ara ↗</a>
-          </div>
+          return <details className="accident-source-card" key={source.domain} open={sourceArticles.length > 0}>
+            <summary>
+              <strong>{source.name}</strong>
+              <span>{sourceArticles.length ? sourceArticles.length + ' haber bulundu' : 'Eşleşme yok'}</span>
+            </summary>
+            <div className="accident-source-card-body">
+              {sourceArticles.length > 0 ? sourceArticles.slice(0, 3).map((article) => <article key={article.url}>
+                <div className="source-article-meta">
+                  <span>{article.publishedAt ? new Date(article.publishedAt).toLocaleDateString('tr-TR') : 'Tarih yok'}</span>
+                </div>
+                <h5>{article.title}</h5>
+                <p>{article.summary || 'Bu haber için kısa özet alınamadı; başlık ve kaynak bağlantısı mevcut.'}</p>
+                <a href={article.url} target="_blank" rel="noreferrer">Haberi aç ↗</a>
+              </article>) : <p className="source-empty">Bu kaynakta otomatik eşleşen haber bulunamadı.</p>}
+              <a className="source-search-link" href={searchUrl(accident, source.domain)} target="_blank" rel="noreferrer">Bu olayı kaynakta ara ↗</a>
+            </div>
+          </details>
         })}
       </div>
 
