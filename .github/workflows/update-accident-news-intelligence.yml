@@ -1,6 +1,10 @@
 name: Refresh Accident News Intelligence
 
 on:
+  push:
+    paths:
+      - 'scripts/update-accident-news-intelligence.mjs'
+      - '.github/workflows/update-accident-news-intelligence.yml'
   workflow_dispatch:
   schedule:
     - cron: '47 4 * * *'
