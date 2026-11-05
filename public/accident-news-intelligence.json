@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T21:19:37.122Z",
+  "updatedAt": "2026-11-05T12:49:07.687Z",
   "sourceSet": [
     {
       "name": "FlightGlobal",
@@ -23,47 +23,15 @@
     }
   ],
   "cases": {
-    "WIKIDATA-Q141966885": {
-      "query": "site:flightglobal.com 2026 Palm Beach County Learjet 60 crash 2026 || site:aviationweek.com 2026 Palm Beach County Learjet 60 crash 2026 || site:aviationweek.com 2026 Learjet 60 crash || site:avherald.com 2026 Palm Beach County Learjet 60 crash 2026 || site:avherald.com 2026 Learjet 60 crash || site:avherald.com \"Learjet 60\" \"year-old\" Greenacres || site:aviation-safety.net 2026 Palm Beach County Learjet 60 crash 2026 || site:reuters.com 2026 Palm Beach County Learjet 60 crash 2026 || site:reuters.com 2026 Learjet 60 crash || site:reuters.com \"Learjet 60\" \"year-old\" Greenacres",
+    "US-NTSB-ERA27MA026": {
+      "query": "site:flightglobal.com 2026 Palm Beach County Learjet 60 crash Aurora Aviation dba Upper Jet 2026 || site:flightglobal.com Aurora Aviation dba Upper Jet Learjet 60 2026 Learjet 60 crash || site:flightglobal.com \"Learjet 60\" \"year-old\" Greenacres || site:aviationweek.com 2026 Palm Beach County Learjet 60 crash Aurora Aviation dba Upper Jet 2026 || site:aviationweek.com Aurora Aviation dba Upper Jet Learjet 60 2026 Learjet 60 crash || site:aviationweek.com \"Learjet 60\" \"year-old\" Greenacres || site:avherald.com 2026 Palm Beach County Learjet 60 crash Aurora Aviation dba Upper Jet 2026 || site:avherald.com Aurora Aviation dba Upper Jet Learjet 60 2026 Learjet 60 crash || site:avherald.com \"Learjet 60\" \"year-old\" Greenacres || site:aviation-safety.net 2026 Palm Beach County Learjet 60 crash Aurora Aviation dba Upper Jet 2026 || site:aviation-safety.net Aurora Aviation dba Upper Jet Learjet 60 2026 Learjet 60 crash || site:aviation-safety.net \"Learjet 60\" \"year-old\" Greenacres || site:reuters.com 2026 Palm Beach County Learjet 60 crash Aurora Aviation dba Upper Jet 2026 || site:reuters.com Aurora Aviation dba Upper Jet Learjet 60 2026 Learjet 60 crash || site:reuters.com \"Learjet 60\" \"year-old\" Greenacres",
       "articles": [
-        {
-          "title": "Learjet 60 crashes near West Palm Beach after high-speed dive",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZC1LQXBhRmMtS2s2TDYwOWZrWHlqNE55UmpaTWJOOVV1ZU42N1g3NnJUNWVERDlnTURma2h0OW44c3ppaXdsRnpGcEF0X2VTZl95SklXUDBMemR3RFktQ1RqQW5IWnhZU1h6TU11amkwcGNrUTE1LVcwUDY1bHpaM01VN2FaaFA3V3BDdWUtdVlONUh0Yk1haldaRTJOWXRKUFJlQzVBWXpUU1ZSLW0xMlZla3czT3k1cWdmU2VGNzVJUQ?oc=5",
-          "source": "FlightGlobal",
-          "publishedAt": "2026-11-01T21:59:55.000Z",
-          "summary": "Learjet 60 crashes near West Palm Beach after high-speed dive &nbsp;&nbsp; FlightGlobal",
-          "relevanceScore": 11
-        },
-        {
-          "title": "NTSB examining possible pre-crash break-up of Learjet 60",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPLVhSZ1B6TXV4M2hwRWJobjkyMURTcWpibGJxTzJ3RUdDZFBZSUN1UlA3MkhUbnJYdUpUb1NVRUs2aWpTZHlBU3E1TjZjcWk1OHJXelpDQktLbmZwUzhuVVNJTEtxVno0dnIxaWc3dWdiZHduWmExR0JJS2REMF93Y1gyb3FNdlloTHFsaUFodm8xaGJRbUR3RmNPZko3dC1qV1E4V2pzNDg?oc=5",
-          "source": "FlightGlobal",
-          "publishedAt": "2026-11-02T20:54:22.000Z",
-          "summary": "NTSB examining possible pre-crash break-up of Learjet 60 &nbsp;&nbsp; FlightGlobal",
-          "relevanceScore": 7
-        },
         {
           "title": "Icing, Turbulence Possible Factors In Fatal Learjet 60 Crash",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWXNfYUZFcjd1VF8yTk9rWnZBcDhJdUg1dVJyWF9ocWJRczRHVkhRZ251SmxaWFZnb0wwSVowVm5jU2poZjJYdFpNSkVUSXZPVTNYa3JyNVVaWHNpc0Z3aWN1aUJLTmx2WjQxd0tWN3RfVmZjVktIUVFGNW9iTk9yNm16WWxMS0RPd0d3US1OOHVGU2lEczNYWDBubWw0VXY2LTEtdGpjZDhzMDNHQkw0UUZZMVV4SWtRbXdyTXV3?oc=5",
           "source": "Aviation Week",
           "publishedAt": "2026-11-03T02:09:17.000Z",
           "summary": "Icing, Turbulence Possible Factors In Fatal Learjet 60 Crash &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 7
-        },
-        {
-          "title": "NTSB Recovers Most Of Crashed Learjet 60's Left Elevator",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMjRzaDVYWEdSZXRZVlBubHZOWFp6M3g2RWJzUloxVkN3RHdmUnFtMnNGZ1RmMUlvVG1UUmlfUGdPdnFQa216V0hZNkRDZkY3OHdzVW1FNVllN3hFSk5OOXpIWjJraDBvN2NRVURiaUVtVDlSM2dNQzhWZnBoZ3pONWVpS3pta1B5ZGNyMGF1LXpEVWtPRk1MUmJ6cEJfN2t5SzVlYTRLa2dVYnFUUk9tMzNBdmJXSWc0Szc4?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2026-11-03T22:21:46.000Z",
-          "summary": "NTSB Recovers Most Of Crashed Learjet 60's Left Elevator &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 7
-        },
-        {
-          "title": "Loss of control Accident Learjet 60 N722BD, Sunday 1 November 2026",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCT3ZIaXJZX1BXem13UTBfbXhtaHFEUjY2d3RzYWR1SUZ6UnZQUndOMS14MGd5eFZKNTRYRHR1NnFWcDY4NGhEeGpuZzl3VXBPa0tVUmln?oc=5",
-          "source": "Aviation Safety Network",
-          "publishedAt": "2026-11-01T18:22:18.000Z",
-          "summary": "Loss of control Accident Learjet 60 N722BD, Sunday 1 November 2026 &nbsp;&nbsp; Aviation Safety Network",
           "relevanceScore": 7
         }
       ]
@@ -100,7 +68,7 @@
           "title": "Nigerian air force outlines fleet development plans",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOc0lRUHlJZHpYYXdTLXZ6aWp2cnV4MnpMQ3NmWTJMNjNMTGJRcHdERDlVYWk2b2xvNEowbWJuSFRaTnB2a3B4NFZJVlpBZFNGZzVYUks3M2drLVN4WUJ4Z2NVOVMwUzRtWVZDZ3gydTJBQ0VaVFVZRGFULWV1cmhPZG5RTzhxTUpJa2tNTzRscFVBcFctckdJd1hDVzdmMjR1Nnc?oc=5",
           "source": "FlightGlobal",
-          "publishedAt": "2026-10-26T08:03:42.000Z",
+          "publishedAt": "2026-10-26T07:00:00.000Z",
           "summary": "Nigerian air force outlines fleet development plans &nbsp;&nbsp; FlightGlobal",
           "relevanceScore": 5
         },
@@ -347,6 +315,14 @@
           "relevanceScore": 5
         },
         {
+          "title": "Edwards AFB Pauses Operations After B-52 Crash, Killed Crew ID’d",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPY1J2R1NlS1k1M19ubDRtMllsYnVGWWJYUUFyajVCSGR1LTJ4UUVrUHRSM29KeHd0YlRrRGhuRS1hOGp5VFREUFF0UFQzTVFVUzlCcVJuc1FHeW5JRm9zTTRWeFZ3SzVBbGFFOFBucllYMlVBckpxQ1RZbW5MeXZsRVl6SlM5RVdIVmE2aDZrNmpMcHRna0d3YnpMY05OTGtwRXNMVHJZbFRRMXpNajNZamc1M3BmRU1RMjVRbg?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2026-06-17T07:00:00.000Z",
+          "summary": "Edwards AFB Pauses Operations After B-52 Crash, Killed Crew ID’d &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 5
+        },
+        {
           "title": "US Air Force B-52 bomber crashes in flames in California, killing all 8 crew aboard",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPYnRyRWNnME5oNEVVT25ZdEhXS0lFTU9mcVZNVl9IYzlzb0VlWklhWUNsQzBGdHFOaTZRQ1FSNXdZdFRfcGoyTDBiaG5fczAydktLQ29PLVNRYWl6TVNSelZLZUhOSE84MjN5QURoaXI5OXRUNDVkU2p3ZW9MWWx3WkdNS2FKVDYyNWdSVXl1b3NzNXNrck0wM0NQWjJRWXFNc3J3UllTaXV3aG1wSUU1aGc0eFA4R1NfalpROXlaNm55Z2JsNVgycFZjWThPenFMTlI0?oc=5",
           "source": "Reuters",
@@ -493,14 +469,6 @@
           "publishedAt": "2026-04-05T07:00:00.000Z",
           "summary": "Incident Lockheed C-130 Hercules (2x) , Sunday 5 April 2026 &nbsp;&nbsp; Aviation Safety Network",
           "relevanceScore": 4
-        },
-        {
-          "title": "Incident Lockheed C-130 Hercules , Friday 6 March 2026",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBmSnBLSm0yWC1LZmFLc2l1b1QwbGNjUzhsN3VMV1RlNEdDckpObzVteV9lQ1F3Q0VjUi1fY3puSy1QZUgwaVFBX3BsVXJBeEU4NGNaV01R?oc=5",
-          "source": "Aviation Safety Network",
-          "publishedAt": "2026-03-06T08:00:00.000Z",
-          "summary": "Incident Lockheed C-130 Hercules , Friday 6 March 2026 &nbsp;&nbsp; Aviation Safety Network",
-          "relevanceScore": 6
         }
       ]
     },
@@ -621,6 +589,14 @@
           "source": "Aviation Week",
           "publishedAt": "2025-11-07T08:00:00.000Z",
           "summary": "Cessna Citation Ascend Earns FAA Type Certification &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 4
+        },
+        {
+          "title": "Aircraft Overview: Cessna Citation Latitude",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPX0VnSWRPR1lqa0RoTmhNQmpzNDlNOFNKRGt5YmpVUUNQMTlQTEc3VzFlMjlxd3RrTVVYSDFNMVRwZ2VFSU5BUEk3NVVEVGdvaHA1QVFwSjdaWmczRkNFQW8yVFlMZ25FQXlLb0tsclpiZVR1eEw2a3NrSkZfR19UZS00MWN6cElZckN6U0RpQXJPbXcxeER4WWNXQnRERWRnQVM4dW1R?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2025-07-14T22:58:17.000Z",
+          "summary": "Aircraft Overview: Cessna Citation Latitude &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 4
         },
         {
@@ -875,20 +851,20 @@
           "relevanceScore": 8
         },
         {
-          "title": "Air India Flight 171 Accident Probe Stokes More Confusion",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNd2FhOUtpSDBNMno5Zk1zSkZMQ2xCM3BtbERqLUJRUnFQelZsbzMxMFpiOVBNZzQ5b2FkSWt0OENuOW5ReDFzdDF4RG54SnVkOUktNEFWOTBxRkhySkQ1ZTIwYzItV0NQR0lwMlQ4NHFReFVBTlFFZzdHbS1GQW5ucXF1RzlzQzFUbnF1eTVodWpjbFg5bVpweVIzTDVqaWN6QnVCNFlILUFwdnRDWUlDcGFsT1lhQk9OM2c?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2025-07-18T07:00:00.000Z",
-          "summary": "Air India Flight 171 Accident Probe Stokes More Confusion &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 7
-        },
-        {
           "title": "Air India Boeing 787-8 Crashes After Takeoff",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZFp3eWxUOFI3TzB6MnlvQkwzUVZwTTBWRTF1SXM5YlhpZ19tMTNEYUNkREdOaDBHS0ZBU3IzNEJxbnRyVUpEOWpMU0UzZ185MU5mS1hkdlBJYmxwUGpERS01LURnVHVNTmZXUldjS29YcVdJZUMybjBQamhHZXFvRExSamMxaTk2aFFWOUpRM1kzdUk2ck9XNC05UUdmemFQMnJzaW5paWE?oc=5",
           "source": "Aviation Week",
           "publishedAt": "2025-06-12T07:00:00.000Z",
           "summary": "Air India Boeing 787-8 Crashes After Takeoff &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 8
+        },
+        {
+          "title": "Air India Flight 171 Accident Probe Stokes More Confusion",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNd2FhOUtpSDBNMno5Zk1zSkZMQ2xCM3BtbERqLUJRUnFQelZsbzMxMFpiOVBNZzQ5b2FkSWt0OENuOW5ReDFzdDF4RG54SnVkOUktNEFWOTBxRkhySkQ1ZTIwYzItV0NQR0lwMlQ4NHFReFVBTlFFZzdHbS1GQW5ucXF1RzlzQzFUbnF1eTVodWpjbFg5bVpweVIzTDVqaWN6QnVCNFlILUFwdnRDWUlDcGFsT1lhQk9OM2c?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2025-07-18T07:00:00.000Z",
+          "summary": "Air India Flight 171 Accident Probe Stokes More Confusion &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 7
         },
         {
           "title": "Air India Flight 171",
@@ -1351,20 +1327,20 @@
           "relevanceScore": 4
         },
         {
-          "title": "Incident: KLM B738 at Oslo on Dec 28th 2024, hydraulic problems, runway excursion",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1McUhKRE1ocWp5OXpWQ09WeGtjNzMtZU94Z3Nuekg5SVE1Nm5Ebk1rZWFGTGFOYVJaMm4zS2djSWNOWmFkWEh0U0MwNnViQWNC?oc=5",
-          "source": "The Aviation Herald",
-          "publishedAt": "2024-12-28T08:00:00.000Z",
-          "summary": "Incident: KLM B738 at Oslo on Dec 28th 2024, hydraulic problems, runway excursion &nbsp;&nbsp; The Aviation Herald",
-          "relevanceScore": 6
-        },
-        {
           "title": "Incident: Buddha AT72 at Bhairawa on Jul 11th 2024, runway excursion on landing",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE83UjB5Z2ZLZmdUZmNfZEs5c0lTMzk3RnJLd3J4dXNmR0tNeVF3Yk02Q29IY0I0ZU1JbnlyVGxHT3Zjak1rc2RCUFlBQ2FaNW9G?oc=5",
           "source": "The Aviation Herald",
           "publishedAt": "2024-07-11T07:00:00.000Z",
           "summary": "Incident: Buddha AT72 at Bhairawa on Jul 11th 2024, runway excursion on landing &nbsp;&nbsp; The Aviation Herald",
           "relevanceScore": 4
+        },
+        {
+          "title": "Incident: KLM B738 at Oslo on Dec 28th 2024, hydraulic problems, runway excursion",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1McUhKRE1ocWp5OXpWQ09WeGtjNzMtZU94Z3Nuekg5SVE1Nm5Ebk1rZWFGTGFOYVJaMm4zS2djSWNOWmFkWEh0U0MwNnViQWNC?oc=5",
+          "source": "The Aviation Herald",
+          "publishedAt": "2024-12-28T08:00:00.000Z",
+          "summary": "Incident: KLM B738 at Oslo on Dec 28th 2024, hydraulic problems, runway excursion &nbsp;&nbsp; The Aviation Herald",
+          "relevanceScore": 6
         },
         {
           "title": "Accident: Salaam L410 at Lankien on Nov 19th 2024, runway excursion, fire on board",
@@ -1463,10 +1439,6 @@
     },
     "WIKIDATA-Q131319476": {
       "query": "site:flightglobal.com Swiftair Flight 5960 Swiftair 2024 || site:flightglobal.com Swiftair 2024 Swiftair Flight 5960 || site:aviationweek.com Swiftair Flight 5960 Swiftair 2024 || site:aviationweek.com Swiftair 2024 Swiftair Flight 5960 || site:avherald.com Swiftair Flight 5960 Swiftair 2024 || site:avherald.com Swiftair 2024 Swiftair Flight 5960 || site:aviation-safety.net Swiftair Flight 5960 Swiftair 2024 || site:aviation-safety.net Swiftair 2024 Swiftair Flight 5960 || site:reuters.com Swiftair Flight 5960 Swiftair 2024 || site:reuters.com Swiftair 2024 Swiftair Flight 5960",
-      "articles": []
-    },
-    "WIKIDATA-Q131062047": {
-      "query": "site:flightglobal.com Trigana Air Flight 273 Trigana Air Service 2024 || site:flightglobal.com Trigana Air Service 2024 Air Flight 273 || site:aviationweek.com Trigana Air Flight 273 Trigana Air Service 2024 || site:aviationweek.com Trigana Air Service 2024 Air Flight 273 || site:avherald.com Trigana Air Flight 273 Trigana Air Service 2024 || site:avherald.com Trigana Air Service 2024 Air Flight 273 || site:aviation-safety.net Trigana Air Flight 273 Trigana Air Service 2024 || site:aviation-safety.net Trigana Air Service 2024 Air Flight 273 || site:reuters.com Trigana Air Flight 273 Trigana Air Service 2024 || site:reuters.com Trigana Air Service 2024 Air Flight 273",
       "articles": []
     },
     "CENIPA-PSVPB-2024": {
@@ -1685,20 +1657,20 @@
       "query": "site:flightglobal.com Haneda Runway Collision Japan Airlines Flight 516 / Japan Coast Guard Japan Airlines / Japan Coast Guard 2024 || site:aviationweek.com Haneda Runway Collision Japan Airlines Flight 516 / Japan Coast Guard Japan Airlines / Japan Coast Guard 2024 || site:avherald.com Haneda Runway Collision Japan Airlines Flight 516 / Japan Coast Guard Japan Airlines / Japan Coast Guard 2024 || site:aviation-safety.net Haneda Runway Collision Japan Airlines Flight 516 / Japan Coast Guard Japan Airlines / Japan Coast Guard 2024 || site:reuters.com Haneda Runway Collision Japan Airlines Flight 516 / Japan Coast Guard Japan Airlines / Japan Coast Guard 2024",
       "articles": [
         {
-          "title": "Tokyo Haneda operating in mixed mode at time of JAL A350 landing collision",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNc0VKYUtYdUtNLXN1SnR6aHVWN3J0OVpOcnNaSUFGUXZJdXZBRTVGYUxQdHE4X012ekF5MDlrWnpLNWtsYVdyU1l3LU5palUxY25ERFB6dnVLblZUemI0bURqbkJXZHM1S0VmOU5TN2Y0LVJaTHBxLWdmNlBHQ3J2eWpwM0dDRkdFY3h0Y0p4X2lleVhhUXhIS0ZNTWJGZ3lCb1BNS09raGxDajVvT3F5eWVWR0lkR3VrOHRUUlk1TE0?oc=5",
-          "source": "FlightGlobal",
-          "publishedAt": "2024-01-02T08:00:00.000Z",
-          "summary": "Tokyo Haneda operating in mixed mode at time of JAL A350 landing collision &nbsp;&nbsp; FlightGlobal",
-          "relevanceScore": 10
-        },
-        {
           "title": "JAL A350 hit Japan Coast Guard Dash 8 in fatal Haneda landing accident",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeVdKd0JXTUp1Rlkza0VaQjd5UF8yRWdnbzZaMEtCWE51YmpQVHpLRkpyLU90d3FhMjZpZjN1OEl6U0JfNU9sMHRMdzNZSm9RMkxadVQ3V0FGNHFmN3UzX3ZxQXh0aVFfOUllczlKVzVXWkZkODF5SWFWTTlybU9qcFFvZUhwaVNid2tvek84VmFrbk9kQTRyS2xreGVETjBlODZjSVBDMGwzRk1Bck1fNG1oNjl1Zw?oc=5",
           "source": "FlightGlobal",
           "publishedAt": "2024-01-02T08:00:00.000Z",
           "summary": "JAL A350 hit Japan Coast Guard Dash 8 in fatal Haneda landing accident &nbsp;&nbsp; FlightGlobal",
           "relevanceScore": 11
+        },
+        {
+          "title": "Tokyo Haneda operating in mixed mode at time of JAL A350 landing collision",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNc0VKYUtYdUtNLXN1SnR6aHVWN3J0OVpOcnNaSUFGUXZJdXZBRTVGYUxQdHE4X012ekF5MDlrWnpLNWtsYVdyU1l3LU5palUxY25ERFB6dnVLblZUemI0bURqbkJXZHM1S0VmOU5TN2Y0LVJaTHBxLWdmNlBHQ3J2eWpwM0dDRkdFY3h0Y0p4X2lleVhhUXhIS0ZNTWJGZ3lCb1BNS09raGxDajVvT3F5eWVWR0lkR3VrOHRUUlk1TE0?oc=5",
+          "source": "FlightGlobal",
+          "publishedAt": "2024-01-02T08:00:00.000Z",
+          "summary": "Tokyo Haneda operating in mixed mode at time of JAL A350 landing collision &nbsp;&nbsp; FlightGlobal",
+          "relevanceScore": 10
         },
         {
           "title": "JAL A350 was cleared to land before runway collision",
@@ -1733,14 +1705,6 @@
           "relevanceScore": 4
         },
         {
-          "title": "Japan Airlines counts losses from wrecked Tokyo plane",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWjB1T0ktRzhiV0xtbEcwclE3WWx3aDBYemd5d2NVZHQ1cGROQ2lxd09BTHBDRmdpMVFwTmpfaXBUUzZab0RVVkxwV3QwUzI2SXBJcXc3Y0NOLUhHazZHU3hhNU13cXNxUmZuU2lNeXlqNV9kNTMyUmRJRnR1ODlBbDNPQlF3TVQyWGxQSllGWVZtRXp3Z2RSZ3ppemxXVmtuc0xWeVpVbnJINWxROEFTR3h3WHRzdG1D?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2024-01-04T08:00:00.000Z",
-          "summary": "Japan Airlines counts losses from wrecked Tokyo plane &nbsp;&nbsp; Reuters",
-          "relevanceScore": 9
-        },
-        {
           "title": "Crews begin clearing plane wreckage from Japan runway collision",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSzM2SThNVHZoSGZpY2RzaUItVG0xQm5SVVR0amVRcE5LZllhSlZ4Q2VYMGpjN0c3dnhuYWN4NWtMZjkzM09hVDBQNERkNjNpSW9TSDVtOGdWSnY0Tnl5eUtKNG9KbFV2SG1nNWZVaXE1RmlXeFdVSzVaby03bUIzUnl6QWlPYzlwRENISFhJeFE5RmtUR0hNa1l3OXM0S01rZDVONkFFSnZWSDhuZnBmSVJyY3J3VUE?oc=5",
           "source": "Reuters",
@@ -1755,6 +1719,14 @@
           "publishedAt": "2024-01-05T08:00:00.000Z",
           "summary": "Key moments of Tokyo runway collision &nbsp;&nbsp; Reuters",
           "relevanceScore": 9
+        },
+        {
+          "title": "Five dead after JAL airliner crashes into quake aid plane at Tokyo airport",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSW5ER2puclNBaTVWRW9RNnJuQzRyaHg5b01GZkVVTXdCaW1URzgyN0ZveXBvLVVweEIzb0UwSkhyTl9TeHdUd2Y2dVhVR1lhQjJ3NmZGUjJaYURMT2pCT0ZNUjZxX1U0NExZX0N5emlXWnZpeUd4YkdOa0pXdV82M2tJdFRfaV9LSmttUEQ0R1d1RC1fckNnWGhRcUVZaERFSjdkOFN6WHZOTGFhX1YzOExhX2ZfZw?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2024-01-03T08:00:00.000Z",
+          "summary": "Five dead after JAL airliner crashes into quake aid plane at Tokyo airport &nbsp;&nbsp; Reuters",
+          "relevanceScore": 6
         }
       ]
     },
@@ -1808,6 +1780,14 @@
           "publishedAt": "2023-01-15T08:00:00.000Z",
           "summary": "Loss of control Accident ATR 72-500 (72-212A) 9N-ANC, Sunday 15 January 2023 &nbsp;&nbsp; Aviation Safety Network",
           "relevanceScore": 8
+        },
+        {
+          "title": "Nepal finds black boxes of aircraft after deadliest crash in 30 years",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOU9LVkpGNy1NbFFNcFZJTFJfMXh1V0tOLU1JV0d5Q3VPbDloTWhGSktHRDNPbWVLZmVYVVMwZjRPdFpvUTVqSDFHbVMtMG5xcFlTTjJubTVEUDVpMzFhc1Z4Wl81a1BkMTFFbC1nYlVNclR0Q05kdGM0NVB2S1ZoQ0k5SVhMSTRpWEpxcFozeWktZGdGZFkyTjlvOEJKLUF4NFducWJyOXppbU1QZTVjSjVXdTM1bWhVMHc?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2023-01-16T08:00:00.000Z",
+          "summary": "Nepal finds black boxes of aircraft after deadliest crash in 30 years &nbsp;&nbsp; Reuters",
+          "relevanceScore": 5
         }
       ]
     },
@@ -1892,14 +1872,6 @@
           "relevanceScore": 4
         },
         {
-          "title": "China expands crash search as second black box eludes",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTG5hWTFCWWU4d1NOejk4TkNBUWk4ZGRNNGFlQUtJektDanJCMkpCQ2lYa1RVT1lxSXpYYXhqMlU2WlAwMHBFT2Zya2t2SzFDcEtxS0Nzd0J1dERZMmc5UEZUOU93N3FLT0RDRXQxRXg0QngtN3p5TGh4RE8tMFdCQTM4OWNYSlZUdEVUX0tmMlpBOVBKdUgwQlpkaTRXbjg?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2022-03-25T07:00:00.000Z",
-          "summary": "China expands crash search as second black box eludes &nbsp;&nbsp; Reuters",
-          "relevanceScore": 5
-        },
-        {
           "title": "China Eastern faces more losses, regulatory scrutiny after plane crash",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdFIyUWxhME1QUGtpREJmMmgxZ3dzRDd1NWVxcFBvWGFoMDBJcC1JQkdaSUtoV00zdmlib25WVXFpcmdkTVB1X0dIWGFuamRFTHNNell1LXRxblU2bHo0M3dqeGlDbXRncHl3LVdFa2hfSlB6N0FyZ0lYcWEyX05Ha2ltLUZOWlRucTBoNXFiZ0U3ZGlDTHlDTmRyTkhackV5RUplWURKUERmTUdtek9lT2tmMS1LWWtBd1NfMVQzczktY2hzUUdhNjN1dk4?oc=5",
           "source": "Reuters",
@@ -1914,6 +1886,14 @@
           "publishedAt": "2022-03-23T07:00:00.000Z",
           "summary": "China finds first black box from crashed jet, U.S. discussing quarantine for investigators &nbsp;&nbsp; Reuters",
           "relevanceScore": 5
+        },
+        {
+          "title": "China confirms all on board China Eastern plane died in crash",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRV95TjJzYUxQb1VNbGhKYWZXU3NZbktZQVg2alJiQjBWRGhEaV9Dek1WRUZzb1I4RHczZWwzckxpVVN6TWpaYzJaeTAzVnYxSGFKOWYzaWhNakxOTndkMXNfS0IxbXNiMUdLMUpaYVFPVUtNSHlJMzhSZFpQYmdUTXZjRGpZeFVHZDh3SDA5VWRUMUZqLUo1eUtPcjFQQjJtS1A5YmlLclU?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2022-03-26T07:00:00.000Z",
+          "summary": "China confirms all on board China Eastern plane died in crash &nbsp;&nbsp; Reuters",
+          "relevanceScore": 8
         }
       ]
     },
@@ -1996,14 +1976,6 @@
           "publishedAt": "2020-08-10T07:00:00.000Z",
           "summary": "Air India Express Probe Likely To Revisit Airport Safety &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 9
-        },
-        {
-          "title": "Death Toll Rises After Air India Express 737-800 Overshoots Runway",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSlpWWjdCQWI2NmtpNjUtUkFKT05CWHZfRDZlQ25UQ2FBYU9EMlhoUnRvUV9GcDRpZ2NER1c4S3Q1M09maXgzc21jZ3ZFVmpsbnZjSVBhcTV2bHFUbWlILTU1Nk5NMTE5U29CU01KTzB2Qy1nNmc2YVFfaXhpb1RkR1RIN0R2QmVwdnNIelZYZjhBanliMUtmbjdnNTBBcmtVcWdWRE4tRV8wVFE4Q0ZwbmVYUHJHVnVIeEQ5MW5TZw?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2020-08-07T07:00:00.000Z",
-          "summary": "Death Toll Rises After Air India Express 737-800 Overshoots Runway &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 11
         },
         {
           "title": "What Was The Most Significant Factor Behind The Air India Express Crash?",
@@ -2727,20 +2699,20 @@
           "relevanceScore": 9
         },
         {
-          "title": "Search for Air France flight remnants",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmY5T1BGaFdaUUpLY1RZRXhTaUxWSXhYZWJFUFFDQ0owOHA2VzhwelFDVjdUX0RYeVI3UjB3WFp3bGpvWVpLYVMxenB6ZHFkNmwxMWpGbzIwXzFjTnVYanhLU0Q5S0ZNTWVDOUo1a0JxOFNURzZDMVJGeHJpams4ZTF1cmF4TU5XVmlYMzNGdWtiZw?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2009-06-15T07:00:00.000Z",
-          "summary": "Search for Air France flight remnants &nbsp;&nbsp; Reuters",
-          "relevanceScore": 4
-        },
-        {
           "title": "Air France and Airbus on trial 13 years after Atlantic jet disaster",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdUZPeWVKcmV0Q0VGclNTLXdUeFY3ak1kNUZyNzNfemJSQ1Q3WWFWekhRQ2VsdUxHY0FXUjUza1d2NC0tbzlfMjMxSFdVeTBBYVlrS1c4YlNEemlRdFhBUENCdVgyRmdqekZEMWJtdWhxbHNBQTAwNlRXMUdCZXR6VjdCTXZzQnk0YmEzMlZ4ekhGcjFEbE1JMGNiMWl2dnVJYndMc1FVeHpYbUNPZDF1NFFQT2N4ajl1ek5HVnpvS3k?oc=5",
           "source": "Reuters",
           "publishedAt": "2022-10-07T07:00:00.000Z",
           "summary": "Air France and Airbus on trial 13 years after Atlantic jet disaster &nbsp;&nbsp; Reuters",
           "relevanceScore": 5
+        },
+        {
+          "title": "Search for Air France flight remnants",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmY5T1BGaFdaUUpLY1RZRXhTaUxWSXhYZWJFUFFDQ0owOHA2VzhwelFDVjdUX0RYeVI3UjB3WFp3bGpvWVpLYVMxenB6ZHFkNmwxMWpGbzIwXzFjTnVYanhLU0Q5S0ZNTWVDOUo1a0JxOFNURzZDMVJGeHJpams4ZTF1cmF4TU5XVmlYMzNGdWtiZw?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2009-06-15T07:00:00.000Z",
+          "summary": "Search for Air France flight remnants &nbsp;&nbsp; Reuters",
+          "relevanceScore": 4
         },
         {
           "title": "Airbus, Air France found guilty of manslaughter over 2009 Atlantic crash",
@@ -2800,6 +2772,14 @@
     "NTSB-DCA09MA026": {
       "query": "site:flightglobal.com US Airways Flight 1549 US Airways 2009 || site:flightglobal.com US Airways Airbus A320-214 2009 Airways Flight 1549 || site:flightglobal.com \"Airbus A320-214\" \"year-old\" Hudson River || site:aviationweek.com US Airways Flight 1549 US Airways 2009 || site:aviationweek.com US Airways Airbus A320-214 2009 Airways Flight 1549 || site:aviationweek.com \"Airbus A320-214\" \"year-old\" Hudson River || site:avherald.com US Airways Flight 1549 US Airways 2009 || site:aviation-safety.net US Airways Flight 1549 US Airways 2009 || site:reuters.com US Airways Flight 1549 US Airways 2009 || site:reuters.com US Airways Airbus A320-214 2009 Airways Flight 1549 || site:reuters.com \"Airbus A320-214\" \"year-old\" Hudson River",
       "articles": [
+        {
+          "title": "Accident: US Airways A320 at New York on Jan 15th 2009, ditched in Hudson River",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5BRWU3VzRMQk9GTDZmN3RKejhERGpFWGhuLV9NSUkybHNBa2FjcjFPX1dULWdWekVSU1ZNQ3hzdlZlZXBCUE5ycVhONTZ4VUNXSU9OYndrZw?oc=5",
+          "source": "The Aviation Herald",
+          "publishedAt": "2009-01-18T08:00:00.000Z",
+          "summary": "Accident: US Airways A320 at New York on Jan 15th 2009, ditched in Hudson River &nbsp;&nbsp; The Aviation Herald",
+          "relevanceScore": 10
+        },
         {
           "title": "Accident: US Airways A320 at New York on Jan 15th 2009, ditched in Hudson River",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qRzVwckIwdkdHX2Q2NFZKbmVucnc2Smp6NTEzd0FsZGcxUnl5SWVrMGpYSHhyd1Z2WUNZVEZQSEdKX2RRMmt5WmNIa0dXT05n?oc=5",
