@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T21:15:34.920024Z",
+  "updatedAt": "2026-11-05T11:27:58.235924Z",
   "coverageNote": "Federated global aviation safety index: 41 official/curated cases plus 3089 Wikidata discovery records for coverage. Discovery records are excluded from authoritative cause analysis until verified against an Annex 13 authority.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality/cause statistics use verified or curated records; discovery-layer values may be incomplete and are kept separate.",
   "fleetProfiles": [
@@ -3998,7 +3998,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
       "operator": "Russian Air Force",
-      "location": "Latakia International Airport",
+      "location": "Khmeimim",
       "latitude": 35.4125,
       "longitude": 35.94167,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -30271,7 +30271,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Karelian Autonomous Soviet Socialist Republic, South Korea",
+      "location": "Korpijärvi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -35497,7 +35497,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
       "operator": "Eastern Air Lines",
-      "location": "North Carolina, United States",
+      "location": "Raleigh–Durham International Airport, United States",
       "latitude": 35.877777777,
       "longitude": -78.7875,
       "coordinateSource": "Wikidata event-location coordinate",
