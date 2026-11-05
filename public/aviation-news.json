@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T17:24:26.181Z",
+  "updatedAt": "2026-11-05T23:38:15.725Z",
   "items": [
     {
       "title": "Heliophysics ROSES Solicitation Materials",
@@ -211,6 +211,14 @@
       "source": "NASA Aeronautics",
       "category": "Materials",
       "url": "https://www.nasa.gov/manufacturing-and-materials/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık malzemeleri ve malzeme teknolojileri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "Materials Engineered for Re-Entry Using Innovative Needling Operations",
+      "source": "NASA Aeronautics",
+      "category": "Materials",
+      "url": "https://www.nasa.gov/technology/materials-engineered-for-re-entry-using-innovative-needling-operations/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık malzemeleri ve malzeme teknolojileri alanındaki yeni bir güncellemeyi ele alıyor."
     },
@@ -493,14 +501,6 @@
       "url": "https://www.aerospacemanufacturinganddesign.com/news/aviation-capital-group-orders-75-airbus-a320neo-family-aircraft/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "Hermeus to manufacture Pratt & Whitney&#x27;s F100-PW-229 engine",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Manufacturing",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/hermeus-manufacture-pratt-whitney-f100-pw-229-engine/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
     }
   ]
 }
