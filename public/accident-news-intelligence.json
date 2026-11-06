@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T12:49:07.687Z",
+  "updatedAt": "2026-11-06T12:34:44.986Z",
   "sourceSet": [
     {
       "name": "FlightGlobal",
@@ -32,6 +32,14 @@
           "source": "Aviation Week",
           "publishedAt": "2026-11-03T02:09:17.000Z",
           "summary": "Icing, Turbulence Possible Factors In Fatal Learjet 60 Crash &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 7
+        },
+        {
+          "title": "NTSB Recovers Most Of Crashed Learjet 60's Left Elevator",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMjRzaDVYWEdSZXRZVlBubHZOWFp6M3g2RWJzUloxVkN3RHdmUnFtMnNGZ1RmMUlvVG1UUmlfUGdPdnFQa216V0hZNkRDZkY3OHdzVW1FNVllN3hFSk5OOXpIWjJraDBvN2NRVURiaUVtVDlSM2dNQzhWZnBoZ3pONWVpS3pta1B5ZGNyMGF1LXpEVWtPRk1MUmJ6cEJfN2t5SzVlYTRLa2dVYnFUUk9tMzNBdmJXSWc0Szc4?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2026-11-03T22:22:35.000Z",
+          "summary": "NTSB Recovers Most Of Crashed Learjet 60's Left Elevator &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 7
         }
       ]
@@ -640,7 +648,7 @@
           "title": "India's Tejas jet-maker HAL calls Dubai crash an isolated occurrence",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOa3VuUWQxQVN1Q3FjVE9DSWVlQ3R5MWpBZXBaSzlzTDQ5TVZHSGxsZFhBWURIY1Jta0FFYWhLQXlWLXRSS293VUc4ZGNLeVA2V3M1ZEF2cjB2Tmg4Um5ySEtITGFyak94THFVTFM4YmFRSnVnLUEyWm9SMElhZURtOEV6NjVCcHg0bm1lTFA3X052Rk1tVWpHVERqdHhrR0lrREtOelBIUjFJQVRzeDhjajZkOThpb3doYW1FbUxB?oc=5",
           "source": "Reuters",
-          "publishedAt": "2025-11-24T08:00:00.000Z",
+          "publishedAt": "2025-11-23T08:00:00.000Z",
           "summary": "India's Tejas jet-maker HAL calls Dubai crash an isolated occurrence &nbsp;&nbsp; Reuters",
           "relevanceScore": 9
         }
@@ -705,17 +713,8 @@
       "articles": []
     },
     "WIKIDATA-Q136391140": {
-      "query": "site:flightglobal.com 2025 Aquidauana Cessna 175 crash 2025 || site:flightglobal.com 2025 Cessna 175 crash || site:aviationweek.com 2025 Aquidauana Cessna 175 crash 2025 || site:aviationweek.com 2025 Cessna 175 crash || site:avherald.com 2025 Aquidauana Cessna 175 crash 2025 || site:avherald.com 2025 Cessna 175 crash || site:aviation-safety.net 2025 Aquidauana Cessna 175 crash 2025 || site:reuters.com 2025 Aquidauana Cessna 175 crash 2025 || site:reuters.com 2025 Cessna 175 crash",
-      "articles": [
-        {
-          "title": "Accident Cessna 175 PT-BAN, Tuesday 23 September 2025",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBidU5rYkRLMXJXSnd4R3FsTU5lOXZPdW9sMjBxZUczdWx6U1VnZmlZbktGWVBva0E1M1pzbVJNX3ZBYy0wb3ZhQnVZVG80QjRDRUs5RzJB?oc=5",
-          "source": "Aviation Safety Network",
-          "publishedAt": "2025-09-23T07:00:00.000Z",
-          "summary": "Accident Cessna 175 PT-BAN, Tuesday 23 September 2025 &nbsp;&nbsp; Aviation Safety Network",
-          "relevanceScore": 6
-        }
-      ]
+      "query": "site:flightglobal.com 2025 Aquidauana Cessna 175 crash 2025 || site:flightglobal.com 2025 Cessna 175 crash || site:aviationweek.com 2025 Aquidauana Cessna 175 crash 2025 || site:aviationweek.com 2025 Cessna 175 crash || site:avherald.com 2025 Aquidauana Cessna 175 crash 2025 || site:avherald.com 2025 Cessna 175 crash || site:aviation-safety.net 2025 Aquidauana Cessna 175 crash 2025 || site:aviation-safety.net 2025 Cessna 175 crash || site:reuters.com 2025 Aquidauana Cessna 175 crash 2025 || site:reuters.com 2025 Cessna 175 crash",
+      "articles": []
     },
     "WIKIDATA-Q135433157": {
       "query": "site:flightglobal.com 2025 Dhaka fighter jet crash Bangladesh Air Force 2025 || site:flightglobal.com Bangladesh Air Force 2025 fighter jet crash || site:aviationweek.com 2025 Dhaka fighter jet crash Bangladesh Air Force 2025 || site:aviationweek.com Bangladesh Air Force 2025 fighter jet crash || site:avherald.com 2025 Dhaka fighter jet crash Bangladesh Air Force 2025 || site:avherald.com Bangladesh Air Force 2025 fighter jet crash || site:aviation-safety.net 2025 Dhaka fighter jet crash Bangladesh Air Force 2025 || site:aviation-safety.net Bangladesh Air Force 2025 fighter jet crash || site:reuters.com 2025 Dhaka fighter jet crash Bangladesh Air Force 2025",
@@ -747,7 +746,7 @@
       ]
     },
     "AAIB-AI171-2025": {
-      "query": "site:flightglobal.com Air India Flight AI171 Air India 2025 || site:aviationweek.com Air India Flight AI171 Air India 2025 || site:avherald.com Air India Flight AI171 Air India 2025 || site:aviation-safety.net Air India Flight AI171 Air India 2025 || site:reuters.com Air India Flight AI171 Air India 2025",
+      "query": "site:flightglobal.com Air India Flight AI171 Air India 2025 || site:flightglobal.com Air India Boeing 787-8 2025 India Flight AI171 || site:aviationweek.com Air India Flight AI171 Air India 2025 || site:avherald.com Air India Flight AI171 Air India 2025 || site:aviation-safety.net Air India Flight AI171 Air India 2025 || site:reuters.com Air India Flight AI171 Air India 2025",
       "articles": [
         {
           "title": "Air India 787-8 crashes after taking off from Ahmedabad",
@@ -1327,20 +1326,20 @@
           "relevanceScore": 4
         },
         {
-          "title": "Incident: Buddha AT72 at Bhairawa on Jul 11th 2024, runway excursion on landing",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE83UjB5Z2ZLZmdUZmNfZEs5c0lTMzk3RnJLd3J4dXNmR0tNeVF3Yk02Q29IY0I0ZU1JbnlyVGxHT3Zjak1rc2RCUFlBQ2FaNW9G?oc=5",
-          "source": "The Aviation Herald",
-          "publishedAt": "2024-07-11T07:00:00.000Z",
-          "summary": "Incident: Buddha AT72 at Bhairawa on Jul 11th 2024, runway excursion on landing &nbsp;&nbsp; The Aviation Herald",
-          "relevanceScore": 4
-        },
-        {
           "title": "Incident: KLM B738 at Oslo on Dec 28th 2024, hydraulic problems, runway excursion",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1McUhKRE1ocWp5OXpWQ09WeGtjNzMtZU94Z3Nuekg5SVE1Nm5Ebk1rZWFGTGFOYVJaMm4zS2djSWNOWmFkWEh0U0MwNnViQWNC?oc=5",
           "source": "The Aviation Herald",
           "publishedAt": "2024-12-28T08:00:00.000Z",
           "summary": "Incident: KLM B738 at Oslo on Dec 28th 2024, hydraulic problems, runway excursion &nbsp;&nbsp; The Aviation Herald",
           "relevanceScore": 6
+        },
+        {
+          "title": "Incident: Buddha AT72 at Bhairawa on Jul 11th 2024, runway excursion on landing",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE83UjB5Z2ZLZmdUZmNfZEs5c0lTMzk3RnJLd3J4dXNmR0tNeVF3Yk02Q29IY0I0ZU1JbnlyVGxHT3Zjak1rc2RCUFlBQ2FaNW9G?oc=5",
+          "source": "The Aviation Herald",
+          "publishedAt": "2024-07-11T07:00:00.000Z",
+          "summary": "Incident: Buddha AT72 at Bhairawa on Jul 11th 2024, runway excursion on landing &nbsp;&nbsp; The Aviation Herald",
+          "relevanceScore": 4
         },
         {
           "title": "Accident: Salaam L410 at Lankien on Nov 19th 2024, runway excursion, fire on board",
@@ -1373,19 +1372,11 @@
           "publishedAt": "2024-07-19T07:00:00.000Z",
           "summary": "Self-check-in kiosk shows maintenance notice at Kuala Lumpur International Airport amid global IT outage, in Sepang &nbsp;&nbsp; Reuters",
           "relevanceScore": 4
-        },
-        {
-          "title": "Uganda signs deal with UAE to build third international airport",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdlJ3SEFKRmlkRjNMbFV6UWtMenltVGRxeF95QkZtenZQcXZWZFYyalJBb0tLb29ZT3c5a3hZeFhwU0VfbDE3NkNwT3RIQzhTQ0l0djBwS1Nkam5ka0tKc2pFcTd6REhTZmpNeEJkWXMyTGl6MEVXNXBnVFpQVnhKa3hUVHoxTjN0Nk85eW5kQUg4cktGa1gtdkZObWx0T1pUVjgwM2F5YmhfWExrd1E?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2024-06-21T07:00:00.000Z",
-          "summary": "Uganda signs deal with UAE to build third international airport &nbsp;&nbsp; Reuters",
-          "relevanceScore": 4
         }
       ]
     },
     "WIKIDATA-Q131468197": {
-      "query": "site:flightglobal.com 2024 Bombardier Challenger 300 plane crash 2024 || site:aviationweek.com 2024 Bombardier Challenger 300 plane crash 2024 || site:avherald.com 2024 Bombardier Challenger 300 plane crash 2024 || site:avherald.com 2024 300 plane crash || site:aviation-safety.net 2024 Bombardier Challenger 300 plane crash 2024 || site:reuters.com 2024 Bombardier Challenger 300 plane crash 2024 || site:reuters.com 2024 300 plane crash",
+      "query": "site:flightglobal.com 2024 Bombardier Challenger 300 plane crash 2024 || site:aviationweek.com 2024 Bombardier Challenger 300 plane crash 2024 || site:aviationweek.com 2024 300 plane crash || site:avherald.com 2024 Bombardier Challenger 300 plane crash 2024 || site:avherald.com 2024 300 plane crash || site:aviation-safety.net 2024 Bombardier Challenger 300 plane crash 2024 || site:reuters.com 2024 Bombardier Challenger 300 plane crash 2024 || site:reuters.com 2024 300 plane crash",
       "articles": [
         {
           "title": "Bombardier Challenger 300 destroyed following runway excursion in Argentina",
@@ -1402,14 +1393,6 @@
           "publishedAt": "2024-12-06T08:00:00.000Z",
           "summary": "Pilot errors caused 2023 Challenger 300 upset that killed one passenger: NTSB &nbsp;&nbsp; FlightGlobal",
           "relevanceScore": 6
-        },
-        {
-          "title": "Aircraft Overview: Bombardier Challenger 300 / 350 / 3500",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR0l3ZGZCcldOaEoxeU1nYU5FR0NwT2N4UFJBUGItQkUxZkR2Q1JjWnZ4aDIwcWxEQmNYNUNWMFVTLXpGbFRGQ0JPTUVzdXdyTmd0WmdGQ003Nkl1MGxfWnl2Z01ISkxQZGpRUnVzUGJqN21IVGc2TVlTS0FEZm5sdjlfRU80eE9NbnE4T2htT25rcU5ZYnBSckZDZnlqUE95MW5UcDVSSS12dHRLNnhrSVEtQQ?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2024-09-10T11:53:44.000Z",
-          "summary": "Aircraft Overview: Bombardier Challenger 300 / 350 / 3500 &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 5
         },
         {
           "title": "Runway excursion Accident Bombardier Challenger 300 LV-GOK, Wednesday 18 December 2024",
@@ -1705,28 +1688,28 @@
           "relevanceScore": 4
         },
         {
-          "title": "Crews begin clearing plane wreckage from Japan runway collision",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSzM2SThNVHZoSGZpY2RzaUItVG0xQm5SVVR0amVRcE5LZllhSlZ4Q2VYMGpjN0c3dnhuYWN4NWtMZjkzM09hVDBQNERkNjNpSW9TSDVtOGdWSnY0Tnl5eUtKNG9KbFV2SG1nNWZVaXE1RmlXeFdVSzVaby03bUIzUnl6QWlPYzlwRENISFhJeFE5RmtUR0hNa1l3OXM0S01rZDVONkFFSnZWSDhuZnBmSVJyY3J3VUE?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2024-01-05T08:00:00.000Z",
-          "summary": "Crews begin clearing plane wreckage from Japan runway collision &nbsp;&nbsp; Reuters",
-          "relevanceScore": 9
-        },
-        {
-          "title": "Key moments of Tokyo runway collision",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPN0M1dnU2aTZUY1NBZG9QSzgzXzBYdV9lYWxhQTZocEZheGFRelpzZVlPeDMtZjZPdHZKMFJiMlBfbHliTkpfa2pSNWpaSW5CU2FZVjQ1Z0lrbTJSR3V3Y0N4YnZYaHpuU3RnOXltdllnYzhhMkVoaTVWZUt1bDNHWTRyZ1hJdTI0OE9DbmJ3WmthVDQ?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2024-01-05T08:00:00.000Z",
-          "summary": "Key moments of Tokyo runway collision &nbsp;&nbsp; Reuters",
-          "relevanceScore": 9
-        },
-        {
           "title": "Five dead after JAL airliner crashes into quake aid plane at Tokyo airport",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSW5ER2puclNBaTVWRW9RNnJuQzRyaHg5b01GZkVVTXdCaW1URzgyN0ZveXBvLVVweEIzb0UwSkhyTl9TeHdUd2Y2dVhVR1lhQjJ3NmZGUjJaYURMT2pCT0ZNUjZxX1U0NExZX0N5emlXWnZpeUd4YkdOa0pXdV82M2tJdFRfaV9LSmttUEQ0R1d1RC1fckNnWGhRcUVZaERFSjdkOFN6WHZOTGFhX1YzOExhX2ZfZw?oc=5",
           "source": "Reuters",
           "publishedAt": "2024-01-03T08:00:00.000Z",
           "summary": "Five dead after JAL airliner crashes into quake aid plane at Tokyo airport &nbsp;&nbsp; Reuters",
           "relevanceScore": 6
+        },
+        {
+          "title": "Japan Airlines counts losses from wrecked Tokyo plane",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWjB1T0ktRzhiV0xtbEcwclE3WWx3aDBYemd5d2NVZHQ1cGROQ2lxd09BTHBDRmdpMVFwTmpfaXBUUzZab0RVVkxwV3QwUzI2SXBJcXc3Y0NOLUhHazZHU3hhNU13cXNxUmZuU2lNeXlqNV9kNTMyUmRJRnR1ODlBbDNPQlF3TVQyWGxQSllGWVZtRXp3Z2RSZ3ppemxXVmtuc0xWeVpVbnJINWxROEFTR3h3WHRzdG1D?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2024-01-04T08:00:00.000Z",
+          "summary": "Japan Airlines counts losses from wrecked Tokyo plane &nbsp;&nbsp; Reuters",
+          "relevanceScore": 9
+        },
+        {
+          "title": "Crews begin clearing plane wreckage from Japan runway collision",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSzM2SThNVHZoSGZpY2RzaUItVG0xQm5SVVR0amVRcE5LZllhSlZ4Q2VYMGpjN0c3dnhuYWN4NWtMZjkzM09hVDBQNERkNjNpSW9TSDVtOGdWSnY0Tnl5eUtKNG9KbFV2SG1nNWZVaXE1RmlXeFdVSzVaby03bUIzUnl6QWlPYzlwRENISFhJeFE5RmtUR0hNa1l3OXM0S01rZDVONkFFSnZWSDhuZnBmSVJyY3J3VUE?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2024-01-05T08:00:00.000Z",
+          "summary": "Crews begin clearing plane wreckage from Japan runway collision &nbsp;&nbsp; Reuters",
+          "relevanceScore": 9
         }
       ]
     },
@@ -1740,14 +1723,6 @@
           "publishedAt": "2023-01-15T08:00:00.000Z",
           "summary": "Yeti Airlines ATR 72-500 crashes near Pokhara &nbsp;&nbsp; FlightGlobal",
           "relevanceScore": 14
-        },
-        {
-          "title": "Investigators recover flight recorders from crashed Yeti Airlines ATR 72",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQ0xfdDFfbjltemI1R3Z2em1JamQ4RDVmRmJjWlgwMl85cW0xYzRHNGRmSHY5Y0ZTUWNCcTkzeTNVVjNWOUpLQmQxZEwyWEd3TGVoV0oyZDlFeDU0b1dCeW52aVh0UXBvYy02cEQ3aTIyVHBDS0RzN1hvcG4xSDVqZGlhUWEtMVlVaVBwYmZjMTM3eGV1cE1MVTVLMUljTVViX3g0UkZfTjdmSlBJVG5MbGtRYlVsdXVia09TQWNB?oc=5",
-          "source": "FlightGlobal",
-          "publishedAt": "2023-01-16T08:00:00.000Z",
-          "summary": "Investigators recover flight recorders from crashed Yeti Airlines ATR 72 &nbsp;&nbsp; FlightGlobal",
-          "relevanceScore": 11
         },
         {
           "title": "Yeti Airlines ATR 72 Crash In Nepal Kills At Least 68",
@@ -1780,14 +1755,6 @@
           "publishedAt": "2023-01-15T08:00:00.000Z",
           "summary": "Loss of control Accident ATR 72-500 (72-212A) 9N-ANC, Sunday 15 January 2023 &nbsp;&nbsp; Aviation Safety Network",
           "relevanceScore": 8
-        },
-        {
-          "title": "Nepal finds black boxes of aircraft after deadliest crash in 30 years",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOU9LVkpGNy1NbFFNcFZJTFJfMXh1V0tOLU1JV0d5Q3VPbDloTWhGSktHRDNPbWVLZmVYVVMwZjRPdFpvUTVqSDFHbVMtMG5xcFlTTjJubTVEUDVpMzFhc1Z4Wl81a1BkMTFFbC1nYlVNclR0Q05kdGM0NVB2S1ZoQ0k5SVhMSTRpWEpxcFozeWktZGdGZFkyTjlvOEJKLUF4NFducWJyOXppbU1QZTVjSjVXdTM1bWhVMHc?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2023-01-16T08:00:00.000Z",
-          "summary": "Nepal finds black boxes of aircraft after deadliest crash in 30 years &nbsp;&nbsp; Reuters",
-          "relevanceScore": 5
         }
       ]
     },
@@ -2507,7 +2474,7 @@
         },
         {
           "title": "Germanwings crash in France",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMV9fbE0xSkc0ZFlqOVJtdW9Tek0zd3Y1Y2c4OU5MWDZqOTdSUnNBM3JJN1hFcVcwMVdLVDA3MS0wbV9pVWZkeDhBVi1NcFdRUHJWdEF1enZpTEc1ZEp3ZmJWbThVU0lpRkJJdm9FUVA4OE1iYlROb0h6RWlUUktmQkhaSDc?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONVhSczZPb0ViQ3BndjB3NGhIcUhsb3ZFS05UTlkwQzJZSXZSY0ZGZTJMTFEtSU9QYjBTNXFZNHZlbzUwOWpxTTdjNGthQTNsclY2WmlvSGJpWVpsRDBUSjhZZXlraFYtOWtkUjIzVlFpaUZxX2xTQ0xydWo5eVdicmE3ek4?oc=5",
           "source": "Reuters",
           "publishedAt": "2015-03-26T07:00:00.000Z",
           "summary": "Germanwings crash in France &nbsp;&nbsp; Reuters",
@@ -2591,7 +2558,7 @@
           "title": "In difficult year for Boeing, 777 crash may not be major setback",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQ3ZLbUtHRXFnY0t2OG4yZFlMMW51M3ZIY25KN21hTWZER1ZBWXpFaHRCckZKX0x4SEVHd0ExT0x3aWZwRTVmQmthNXg0a2c4ZGF0Vkl6bWZDNmxzSlZNNjVkX2V4TWpjN3VyLUFLdWdsZU9kd0FUazRXd3VlbkJ1cGVwOXhGc2w5Q181TnJWdGlCd29HRnFfeUl5ZzB6YXU0YXNWNDE2Mks5Zk5qcDE5Xy1XUXoxNGJyaHNN?oc=5",
           "source": "Reuters",
-          "publishedAt": "2013-07-07T07:00:00.000Z",
+          "publishedAt": "2013-07-08T07:00:00.000Z",
           "summary": "In difficult year for Boeing, 777 crash may not be major setback &nbsp;&nbsp; Reuters",
           "relevanceScore": 4
         }
@@ -2699,20 +2666,20 @@
           "relevanceScore": 9
         },
         {
-          "title": "Air France and Airbus on trial 13 years after Atlantic jet disaster",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdUZPeWVKcmV0Q0VGclNTLXdUeFY3ak1kNUZyNzNfemJSQ1Q3WWFWekhRQ2VsdUxHY0FXUjUza1d2NC0tbzlfMjMxSFdVeTBBYVlrS1c4YlNEemlRdFhBUENCdVgyRmdqekZEMWJtdWhxbHNBQTAwNlRXMUdCZXR6VjdCTXZzQnk0YmEzMlZ4ekhGcjFEbE1JMGNiMWl2dnVJYndMc1FVeHpYbUNPZDF1NFFQT2N4ajl1ek5HVnpvS3k?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2022-10-07T07:00:00.000Z",
-          "summary": "Air France and Airbus on trial 13 years after Atlantic jet disaster &nbsp;&nbsp; Reuters",
-          "relevanceScore": 5
-        },
-        {
           "title": "Search for Air France flight remnants",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmY5T1BGaFdaUUpLY1RZRXhTaUxWSXhYZWJFUFFDQ0owOHA2VzhwelFDVjdUX0RYeVI3UjB3WFp3bGpvWVpLYVMxenB6ZHFkNmwxMWpGbzIwXzFjTnVYanhLU0Q5S0ZNTWVDOUo1a0JxOFNURzZDMVJGeHJpams4ZTF1cmF4TU5XVmlYMzNGdWtiZw?oc=5",
           "source": "Reuters",
           "publishedAt": "2009-06-15T07:00:00.000Z",
           "summary": "Search for Air France flight remnants &nbsp;&nbsp; Reuters",
           "relevanceScore": 4
+        },
+        {
+          "title": "Air France and Airbus on trial 13 years after Atlantic jet disaster",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdUZPeWVKcmV0Q0VGclNTLXdUeFY3ak1kNUZyNzNfemJSQ1Q3WWFWekhRQ2VsdUxHY0FXUjUza1d2NC0tbzlfMjMxSFdVeTBBYVlrS1c4YlNEemlRdFhBUENCdVgyRmdqekZEMWJtdWhxbHNBQTAwNlRXMUdCZXR6VjdCTXZzQnk0YmEzMlZ4ekhGcjFEbE1JMGNiMWl2dnVJYndMc1FVeHpYbUNPZDF1NFFQT2N4ajl1ek5HVnpvS3k?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2022-10-07T07:00:00.000Z",
+          "summary": "Air France and Airbus on trial 13 years after Atlantic jet disaster &nbsp;&nbsp; Reuters",
+          "relevanceScore": 5
         },
         {
           "title": "Airbus, Air France found guilty of manslaughter over 2009 Atlantic crash",
