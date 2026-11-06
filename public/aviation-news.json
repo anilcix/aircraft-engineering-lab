@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T06:46:37.266Z",
+  "updatedAt": "2026-11-06T16:46:04.710Z",
   "items": [
     {
       "title": "Heliophysics ROSES Solicitation Materials",
@@ -263,10 +263,18 @@
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
-      "title": "Reliable Robotics, Sunport complete first autonomous flights under eIPP",
+      "title": "Electra, VertiPorts by Atlantic to advance EL9 aircraft operations",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Industry",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/electra-vertiports-by-atlantic-to-advance-el9-aircraft-operations/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
+      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "ISO 21423 interoperability standard for mobile robots released",
       "source": "Aerospace Manufacturing & Design",
       "category": "Manufacturing",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/reliable-robotics-sunport-complete-first-autonomous-flights-under-eipp/",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/iso-21423-interoperability-standard-mobile-robots-released/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
     },
@@ -283,6 +291,14 @@
       "source": "Aerospace Manufacturing & Design",
       "category": "Manufacturing",
       "url": "https://www.aerospacemanufacturinganddesign.com/media/machining-high-strength-fragmenting-steels-webinar-kennametal-defense/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
+      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "Reliable Robotics, Sunport complete first autonomous flights under eIPP",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Manufacturing",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/reliable-robotics-sunport-complete-first-autonomous-flights-under-eipp/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
     },
@@ -485,22 +501,6 @@
       "url": "https://www.nasa.gov/image-article/nasa-testing-aims-at-supercooled-large-droplet-aviation-safety/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, sürdürülebilir havacılık ve emisyon azaltımı alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "Grinding Automation: Turning Complexity into Competitive Advantage",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Manufacturing",
-      "url": "https://www.aerospacemanufacturinganddesign.com/media/grinding-automation-turning-complexity-into-competitive-advantage/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "Aviation Capital Group orders 75 Airbus A320neo family aircraft",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Industry",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/aviation-capital-group-orders-75-airbus-a320neo-family-aircraft/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     }
   ]
 }
