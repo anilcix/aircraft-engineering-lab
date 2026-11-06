@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T11:27:58.235924Z",
+  "updatedAt": "2026-11-06T11:26:29.257087Z",
   "coverageNote": "Federated global aviation safety index: 41 official/curated cases plus 3089 Wikidata discovery records for coverage. Discovery records are excluded from authoritative cause analysis until verified against an Annex 13 authority.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality/cause statistics use verified or curated records; discovery-layer values may be incomplete and are kept separate.",
   "fleetProfiles": [
@@ -3998,7 +3998,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
       "operator": "Russian Air Force",
-      "location": "Khmeimim",
+      "location": "Latakia International Airport",
       "latitude": 35.4125,
       "longitude": 35.94167,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -19382,7 +19382,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
       "operator": "Intercontinental de Aviación",
-      "location": "María La Baja, Colombia",
+      "location": "Marialabaja, Colombia",
       "latitude": 9.983333333,
       "longitude": -75.35,
       "coordinateSource": "Wikidata event coordinate",
@@ -33833,6 +33833,9 @@
       "verificationStatus": "secondary structured discovery — cause not authoritative",
       "operator": "Aerocondor Colombia",
       "location": "Eastern Hills, Bogotá, Colombia",
+      "latitude": 4.634782439,
+      "longitude": -74.036005048,
+      "coordinateSource": "Wikidata event-location coordinate",
       "fatalities": 42,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1973_Aeroc%C3%B3ndor_Lockheed_L-188_Electra_crash",
       "probableCause": ""
@@ -35497,7 +35500,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
       "operator": "Eastern Air Lines",
-      "location": "Raleigh–Durham International Airport, United States",
+      "location": "North Carolina, United States",
       "latitude": 35.877777777,
       "longitude": -78.7875,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -45492,7 +45495,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
-      "location": "Kemerovsky District",
+      "location": "Barzas",
       "fatalities": 27,
       "probableCause": ""
     },
@@ -51873,7 +51876,7 @@
     "officialIndexed": 41,
     "discovery": 3089,
     "totalVisible": 3130,
-    "withCoordinates": 1623
+    "withCoordinates": 1624
   },
-  "mapNote": "1623 indexed records currently include structured map coordinates. Discovery coordinates improve coverage but do not imply cause verification."
+  "mapNote": "1624 indexed records currently include structured map coordinates. Discovery coordinates improve coverage but do not imply cause verification."
 }
