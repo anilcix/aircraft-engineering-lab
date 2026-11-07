@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T12:34:44.986Z",
+  "updatedAt": "2026-11-07T11:25:13.620Z",
   "sourceSet": [
     {
       "name": "FlightGlobal",
@@ -27,19 +27,19 @@
       "query": "site:flightglobal.com 2026 Palm Beach County Learjet 60 crash Aurora Aviation dba Upper Jet 2026 || site:flightglobal.com Aurora Aviation dba Upper Jet Learjet 60 2026 Learjet 60 crash || site:flightglobal.com \"Learjet 60\" \"year-old\" Greenacres || site:aviationweek.com 2026 Palm Beach County Learjet 60 crash Aurora Aviation dba Upper Jet 2026 || site:aviationweek.com Aurora Aviation dba Upper Jet Learjet 60 2026 Learjet 60 crash || site:aviationweek.com \"Learjet 60\" \"year-old\" Greenacres || site:avherald.com 2026 Palm Beach County Learjet 60 crash Aurora Aviation dba Upper Jet 2026 || site:avherald.com Aurora Aviation dba Upper Jet Learjet 60 2026 Learjet 60 crash || site:avherald.com \"Learjet 60\" \"year-old\" Greenacres || site:aviation-safety.net 2026 Palm Beach County Learjet 60 crash Aurora Aviation dba Upper Jet 2026 || site:aviation-safety.net Aurora Aviation dba Upper Jet Learjet 60 2026 Learjet 60 crash || site:aviation-safety.net \"Learjet 60\" \"year-old\" Greenacres || site:reuters.com 2026 Palm Beach County Learjet 60 crash Aurora Aviation dba Upper Jet 2026 || site:reuters.com Aurora Aviation dba Upper Jet Learjet 60 2026 Learjet 60 crash || site:reuters.com \"Learjet 60\" \"year-old\" Greenacres",
       "articles": [
         {
-          "title": "Icing, Turbulence Possible Factors In Fatal Learjet 60 Crash",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWXNfYUZFcjd1VF8yTk9rWnZBcDhJdUg1dVJyWF9ocWJRczRHVkhRZ251SmxaWFZnb0wwSVowVm5jU2poZjJYdFpNSkVUSXZPVTNYa3JyNVVaWHNpc0Z3aWN1aUJLTmx2WjQxd0tWN3RfVmZjVktIUVFGNW9iTk9yNm16WWxMS0RPd0d3US1OOHVGU2lEczNYWDBubWw0VXY2LTEtdGpjZDhzMDNHQkw0UUZZMVV4SWtRbXdyTXV3?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2026-11-03T02:09:17.000Z",
-          "summary": "Icing, Turbulence Possible Factors In Fatal Learjet 60 Crash &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 7
-        },
-        {
           "title": "NTSB Recovers Most Of Crashed Learjet 60's Left Elevator",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMjRzaDVYWEdSZXRZVlBubHZOWFp6M3g2RWJzUloxVkN3RHdmUnFtMnNGZ1RmMUlvVG1UUmlfUGdPdnFQa216V0hZNkRDZkY3OHdzVW1FNVllN3hFSk5OOXpIWjJraDBvN2NRVURiaUVtVDlSM2dNQzhWZnBoZ3pONWVpS3pta1B5ZGNyMGF1LXpEVWtPRk1MUmJ6cEJfN2t5SzVlYTRLa2dVYnFUUk9tMzNBdmJXSWc0Szc4?oc=5",
           "source": "Aviation Week",
           "publishedAt": "2026-11-03T22:22:35.000Z",
           "summary": "NTSB Recovers Most Of Crashed Learjet 60's Left Elevator &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 7
+        },
+        {
+          "title": "Icing, Turbulence Possible Factors In Fatal Learjet 60 Crash",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWXNfYUZFcjd1VF8yTk9rWnZBcDhJdUg1dVJyWF9ocWJRczRHVkhRZ251SmxaWFZnb0wwSVowVm5jU2poZjJYdFpNSkVUSXZPVTNYa3JyNVVaWHNpc0Z3aWN1aUJLTmx2WjQxd0tWN3RfVmZjVktIUVFGNW9iTk9yNm16WWxMS0RPd0d3US1OOHVGU2lEczNYWDBubWw0VXY2LTEtdGpjZDhzMDNHQkw0UUZZMVV4SWtRbXdyTXV3?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2026-11-03T02:09:17.000Z",
+          "summary": "Icing, Turbulence Possible Factors In Fatal Learjet 60 Crash &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 7
         }
       ]
@@ -55,7 +55,7 @@
           "title": "Four killed in crash of Italian helicopter on EU mission in Bosnia",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTUlFV3JZME1DdXNyVnZGZlhRZ1k2ZVUteFVpMVppdEd2YnVsVjEzSlZZT2lYbXJ2aXM0TjgxeTVYYnpKeXA1WWFsUHhxcEhEMEQ5U09sSWNDODFwZ2wxQUM0RjZQVVBzbDQ4cHh2djJRbkp3d2h1MlVGYWdtN3lEWDlacDVaaFQwTmV5aUpCZG5mRTBVSWp4bmtzdw?oc=5",
           "source": "Reuters",
-          "publishedAt": "2026-10-29T21:11:44.000Z",
+          "publishedAt": "2026-10-29T07:00:00.000Z",
           "summary": "Four killed in crash of Italian helicopter on EU mission in Bosnia &nbsp;&nbsp; Reuters",
           "relevanceScore": 7
         }
@@ -177,7 +177,7 @@
           "title": "Investigators recover black boxes from cargo plane crash in Miami",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQVZXcnY2Ym5SNExDY0RsNmlYeV9qcVRrVGNNajFfQ0pkd3k5ZmZicVBfOUZQTjdjV0d0Z29LT2FnYnByR1RyVGxHTkhOX1lUWjJGd3dOQ210Vlo5UV93WlgySTg4TTgzX3VYcnZlQ3dHU2ZHX00teG84eUFOc3RGUDdOdUo4NzEtdjZqLUwzMHhnWmY5aHhTelJCQlVrbXJ5UmFGelVjcG5xdkJwV01TWUV1cFkyd3E3ZzVjQi1uRUdDOHVzekM4?oc=5",
           "source": "Reuters",
-          "publishedAt": "2026-09-07T07:00:00.000Z",
+          "publishedAt": "2026-09-08T07:00:00.000Z",
           "summary": "Investigators recover black boxes from cargo plane crash in Miami &nbsp;&nbsp; Reuters",
           "relevanceScore": 5
         }
@@ -528,7 +528,7 @@
           "title": "Deputy chief minister of India's Maharashtra state among five dead in air charter crash",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcHRkU2lLdWlQMmZuak5neUxVQU9SOGh3N3RRREtjZ0hWRG04WUE3V1VPVDY0MVJrVldTTjU3ZGpxMm85UU1zcHRQdHdHbmRERzhERnVEOEZsblM1UTA2emNhb0tWZEFCUk5RNUg3eFpWUE50UnJLZjBYeU8yZmRCMi1iOGo4dmRpaWo0aWJBb1lOaVR4MHdKcHh4dTZKcnYyZ1RHVGpodVdQLUUxdXVKMU1vWDdseUVxckdLa0RR?oc=5",
           "source": "Reuters",
-          "publishedAt": "2026-01-27T08:00:00.000Z",
+          "publishedAt": "2026-01-28T08:00:00.000Z",
           "summary": "Deputy chief minister of India's Maharashtra state among five dead in air charter crash &nbsp;&nbsp; Reuters",
           "relevanceScore": 5
         }
@@ -713,8 +713,17 @@
       "articles": []
     },
     "WIKIDATA-Q136391140": {
-      "query": "site:flightglobal.com 2025 Aquidauana Cessna 175 crash 2025 || site:flightglobal.com 2025 Cessna 175 crash || site:aviationweek.com 2025 Aquidauana Cessna 175 crash 2025 || site:aviationweek.com 2025 Cessna 175 crash || site:avherald.com 2025 Aquidauana Cessna 175 crash 2025 || site:avherald.com 2025 Cessna 175 crash || site:aviation-safety.net 2025 Aquidauana Cessna 175 crash 2025 || site:aviation-safety.net 2025 Cessna 175 crash || site:reuters.com 2025 Aquidauana Cessna 175 crash 2025 || site:reuters.com 2025 Cessna 175 crash",
-      "articles": []
+      "query": "site:flightglobal.com 2025 Aquidauana Cessna 175 crash 2025 || site:flightglobal.com 2025 Cessna 175 crash || site:aviationweek.com 2025 Aquidauana Cessna 175 crash 2025 || site:aviationweek.com 2025 Cessna 175 crash || site:avherald.com 2025 Aquidauana Cessna 175 crash 2025 || site:avherald.com 2025 Cessna 175 crash || site:aviation-safety.net 2025 Aquidauana Cessna 175 crash 2025 || site:reuters.com 2025 Aquidauana Cessna 175 crash 2025 || site:reuters.com 2025 Cessna 175 crash",
+      "articles": [
+        {
+          "title": "Accident Cessna 175 PT-BAN, Tuesday 23 September 2025",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBidU5rYkRLMXJXSnd4R3FsTU5lOXZPdW9sMjBxZUczdWx6U1VnZmlZbktGWVBva0E1M1pzbVJNX3ZBYy0wb3ZhQnVZVG80QjRDRUs5RzJB?oc=5",
+          "source": "Aviation Safety Network",
+          "publishedAt": "2025-09-23T07:00:00.000Z",
+          "summary": "Accident Cessna 175 PT-BAN, Tuesday 23 September 2025 &nbsp;&nbsp; Aviation Safety Network",
+          "relevanceScore": 6
+        }
+      ]
     },
     "WIKIDATA-Q135433157": {
       "query": "site:flightglobal.com 2025 Dhaka fighter jet crash Bangladesh Air Force 2025 || site:flightglobal.com Bangladesh Air Force 2025 fighter jet crash || site:aviationweek.com 2025 Dhaka fighter jet crash Bangladesh Air Force 2025 || site:aviationweek.com Bangladesh Air Force 2025 fighter jet crash || site:avherald.com 2025 Dhaka fighter jet crash Bangladesh Air Force 2025 || site:avherald.com Bangladesh Air Force 2025 fighter jet crash || site:aviation-safety.net 2025 Dhaka fighter jet crash Bangladesh Air Force 2025 || site:aviation-safety.net Bangladesh Air Force 2025 fighter jet crash || site:reuters.com 2025 Dhaka fighter jet crash Bangladesh Air Force 2025",
@@ -746,16 +755,8 @@
       ]
     },
     "AAIB-AI171-2025": {
-      "query": "site:flightglobal.com Air India Flight AI171 Air India 2025 || site:flightglobal.com Air India Boeing 787-8 2025 India Flight AI171 || site:aviationweek.com Air India Flight AI171 Air India 2025 || site:avherald.com Air India Flight AI171 Air India 2025 || site:aviation-safety.net Air India Flight AI171 Air India 2025 || site:reuters.com Air India Flight AI171 Air India 2025",
+      "query": "site:flightglobal.com Air India Flight AI171 Air India 2025 || site:flightglobal.com Air India Boeing 787-8 2025 India Flight AI171 || site:flightglobal.com \"Boeing 787-8\" \"year-old\" Ahmedabad || site:aviationweek.com Air India Flight AI171 Air India 2025 || site:avherald.com Air India Flight AI171 Air India 2025 || site:aviation-safety.net Air India Flight AI171 Air India 2025 || site:reuters.com Air India Flight AI171 Air India 2025",
       "articles": [
-        {
-          "title": "Air India 787-8 crashes after taking off from Ahmedabad",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWllQaFdQY1hZU0w1alVpcGVubDRKQTNuUGdVejdNVktvaFk2TkkzMDM0T2pMWW44aHhjbnItZC02ckU2VWdLd1YtbUE2ZVE5dWN6bjJqOFNYemh2Zm4xSVdQdXRKOEI4N0ZULUJkMGdxUTlRUWRZX2sweVZQUlBqOTl4bi0tUEVFV3dVcTBKaV9zeWRyY3lid2x6UjB2WXdaTG5hVmxlanZkdw?oc=5",
-          "source": "FlightGlobal",
-          "publishedAt": "2025-06-12T07:00:00.000Z",
-          "summary": "Air India 787-8 crashes after taking off from Ahmedabad &nbsp;&nbsp; FlightGlobal",
-          "relevanceScore": 10
-        },
         {
           "title": "Air India Boeing 787 Accident Probe Reveals Few Clues",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSTE5UTFGdDl0WHFJUVZsaE5ZYnJTSGl1eTc0aHZVX3ByTzRSbGZ2UTZMQUdlN05rZEFJM2pTdGlKb2czUDFLZWh6ZzhyMkVlS28wVVJLTGstSTVMQk1VOGxqbXVEY3JnTTY0RlBWUDFLZWdsbHBZdml6QjAxdTJaNzVyV1dXRmVOZFpQNnNSZEwzRGd3d1hvUXhTMlpGLXVqaUpOS0pjMVRwVm4xQjg0ZlllQmw?oc=5",
@@ -831,16 +832,8 @@
       ]
     },
     "WIKIDATA-Q134880537": {
-      "query": "site:flightglobal.com Air India Flight 171 Air India 2025 || site:aviationweek.com Air India Flight 171 Air India 2025 || site:avherald.com Air India Flight 171 Air India 2025 || site:aviation-safety.net Air India Flight 171 Air India 2025 || site:aviation-safety.net Air India 2025 India Flight 171 || site:reuters.com Air India Flight 171 Air India 2025",
+      "query": "site:flightglobal.com Air India Flight 171 Air India 2025 || site:flightglobal.com Air India 2025 India Flight 171 || site:aviationweek.com Air India Flight 171 Air India 2025 || site:avherald.com Air India Flight 171 Air India 2025 || site:aviation-safety.net Air India Flight 171 Air India 2025 || site:aviation-safety.net Air India 2025 India Flight 171 || site:reuters.com Air India Flight 171 Air India 2025",
       "articles": [
-        {
-          "title": "Air India 787-8 crashes after taking off from Ahmedabad",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWllQaFdQY1hZU0w1alVpcGVubDRKQTNuUGdVejdNVktvaFk2TkkzMDM0T2pMWW44aHhjbnItZC02ckU2VWdLd1YtbUE2ZVE5dWN6bjJqOFNYemh2Zm4xSVdQdXRKOEI4N0ZULUJkMGdxUTlRUWRZX2sweVZQUlBqOTl4bi0tUEVFV3dVcTBKaV9zeWRyY3lid2x6UjB2WXdaTG5hVmxlanZkdw?oc=5",
-          "source": "FlightGlobal",
-          "publishedAt": "2025-06-12T07:00:00.000Z",
-          "summary": "Air India 787-8 crashes after taking off from Ahmedabad &nbsp;&nbsp; FlightGlobal",
-          "relevanceScore": 9
-        },
         {
           "title": "Air India Boeing 787 Accident Probe Reveals Few Clues",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSTE5UTFGdDl0WHFJUVZsaE5ZYnJTSGl1eTc0aHZVX3ByTzRSbGZ2UTZMQUdlN05rZEFJM2pTdGlKb2czUDFLZWh6ZzhyMkVlS28wVVJLTGstSTVMQk1VOGxqbXVEY3JnTTY0RlBWUDFLZWdsbHBZdml6QjAxdTJaNzVyV1dXRmVOZFpQNnNSZEwzRGd3d1hvUXhTMlpGLXVqaUpOS0pjMVRwVm4xQjg0ZlllQmw?oc=5",
@@ -1372,6 +1365,14 @@
           "publishedAt": "2024-07-19T07:00:00.000Z",
           "summary": "Self-check-in kiosk shows maintenance notice at Kuala Lumpur International Airport amid global IT outage, in Sepang &nbsp;&nbsp; Reuters",
           "relevanceScore": 4
+        },
+        {
+          "title": "Uganda signs deal with UAE to build third international airport",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdlJ3SEFKRmlkRjNMbFV6UWtMenltVGRxeF95QkZtenZQcXZWZFYyalJBb0tLb29ZT3c5a3hZeFhwU0VfbDE3NkNwT3RIQzhTQ0l0djBwS1Nkam5ka0tKc2pFcTd6REhTZmpNeEJkWXMyTGl6MEVXNXBnVFpQVnhKa3hUVHoxTjN0Nk85eW5kQUg4cktGa1gtdkZObWx0T1pUVjgwM2F5YmhfWExrd1E?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2024-06-21T07:00:00.000Z",
+          "summary": "Uganda signs deal with UAE to build third international airport &nbsp;&nbsp; Reuters",
+          "relevanceScore": 4
         }
       ]
     },
@@ -1411,11 +1412,11 @@
           "relevanceScore": 5
         },
         {
-          "title": "Incident Bombardier BD-100 Challenger 300 N818RC, Wednesday 16 October 2013",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vdTEtdTFrRXliTTN3X1haWE9YMENuMHUzR1dwdENBWmlHajV1alcxOGRaNTVxY2YtOEZpVHdDU3FEWV9ObTFqcEdkd1dITHJuYl85VXFR?oc=5",
+          "title": "Runway excursion Accident Bombardier BD-100-1A10 Challenger 300 LV-GOK, Wednesday 18 December 2024",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9lVEl2VEVVWUJIelNBeHBhOGgxSHlVVXVCRGx0OVg0Q09aZkY0bnUtNmRJNnRPdzJWejdsa3NBSGRfRXp3cnFGck5HSXgtaV9wck9Ga1Z3?oc=5",
           "source": "Aviation Safety Network",
           "publishedAt": "2024-12-18T08:00:00.000Z",
-          "summary": "Incident Bombardier BD-100 Challenger 300 N818RC, Wednesday 16 October 2013 &nbsp;&nbsp; Aviation Safety Network",
+          "summary": "Runway excursion Accident Bombardier BD-100-1A10 Challenger 300 LV-GOK, Wednesday 18 December 2024 &nbsp;&nbsp; Aviation Safety Network",
           "relevanceScore": 7
         }
       ]
@@ -1611,6 +1612,14 @@
           "relevanceScore": 5
         },
         {
+          "title": "Alaska Air says loose hardware found on some of its 737 MAX 9 fleet",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeG56cEM1S2dYV1R4UlRIM0JDMXU0eEFUN3U4Mmp3a3p4S3JXTXVJMkxyZ2FPN041R0JwdkxwSUJqTDVnLTFxYkdMcFZUdUJXNDhFRjMyTEtTajJETTVsTkxUWUgyU09rdDlhQWpQSXNObjFKdXZpcU1PeGhENEpUbVpjOE0xMElXcXRDdXAwQl83ZkVPZ2VXUWpCUmI2WDNITGp1Z3NiWTQ3dzNsU05jQ2Zpcmc2dC00Q0ctVTFwR3FCQQ?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2024-01-08T08:00:00.000Z",
+          "summary": "Alaska Air says loose hardware found on some of its 737 MAX 9 fleet &nbsp;&nbsp; Reuters",
+          "relevanceScore": 5
+        },
+        {
           "title": "Boeing 737 MAX 9 door plug bolts appeared to be missing on Alaska jet, NTSB says",
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWU5qbGdoVWFhMkxSZDd4aXFGdHNPN3ktRnctSTdMWnhBZmpGTkgtaGFvS241T18taU9MUjdQMkFEWjNkWFdUTGQwMFNKRVEtVGJ4ZXlWc3Q4WEl5WGFjVGlCTXZPWkVTZWR0Q1ZVdDhhdnd4X0xXYUxkaXRxMGRSWlB2Q1UyUElkVVA0NzFGT2p6b3hFMUFBdUV1U0hMZXBNbDh6WnUxVndBX1RMSTFuRm5ZTWN4a1lLTUJtM09jZGE4bHFtMmNxcXpoRG1zWHMxdXc0ZE05T04?oc=5",
           "source": "Reuters",
@@ -1624,14 +1633,6 @@
           "source": "Reuters",
           "publishedAt": "2024-01-06T08:00:00.000Z",
           "summary": "Indian regulator orders aircraft inspections following Alaska Airlines incident, ANI reports &nbsp;&nbsp; Reuters",
-          "relevanceScore": 6
-        },
-        {
-          "title": "Alaska Airlines 737 MAX 9 passengers may be crime victims: FBI",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY2tuTTZ4cEo3cV8zR3FRSEJCa01pSk8wbnF1N0liWDBzRi1WMHhqU1dtUWY3VExTQUNoNGRpbTZMaWhLdGZNYlAwQnZpem1QLWdHdnVMLWdteWgtTHJocmoxZ3ZGb2ZGdDh4SHlfc2pKel95Q2F4Nzk0T182aTZMeFN4ay1RSDNMZnJBTkhPeE9nd1IwQ2xuRm9PZzhDNzdDSFI5M0VUdXpVX0JLWUxETEtxaEduXzRDMV9SSFpWTmdCNjYyVUpneTd3YU1WQ0k3?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2024-03-22T07:00:00.000Z",
-          "summary": "Alaska Airlines 737 MAX 9 passengers may be crime victims: FBI &nbsp;&nbsp; Reuters",
           "relevanceScore": 6
         }
       ]
@@ -1688,14 +1689,6 @@
           "relevanceScore": 4
         },
         {
-          "title": "Five dead after JAL airliner crashes into quake aid plane at Tokyo airport",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSW5ER2puclNBaTVWRW9RNnJuQzRyaHg5b01GZkVVTXdCaW1URzgyN0ZveXBvLVVweEIzb0UwSkhyTl9TeHdUd2Y2dVhVR1lhQjJ3NmZGUjJaYURMT2pCT0ZNUjZxX1U0NExZX0N5emlXWnZpeUd4YkdOa0pXdV82M2tJdFRfaV9LSmttUEQ0R1d1RC1fckNnWGhRcUVZaERFSjdkOFN6WHZOTGFhX1YzOExhX2ZfZw?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2024-01-03T08:00:00.000Z",
-          "summary": "Five dead after JAL airliner crashes into quake aid plane at Tokyo airport &nbsp;&nbsp; Reuters",
-          "relevanceScore": 6
-        },
-        {
           "title": "Japan Airlines counts losses from wrecked Tokyo plane",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWjB1T0ktRzhiV0xtbEcwclE3WWx3aDBYemd5d2NVZHQ1cGROQ2lxd09BTHBDRmdpMVFwTmpfaXBUUzZab0RVVkxwV3QwUzI2SXBJcXc3Y0NOLUhHazZHU3hhNU13cXNxUmZuU2lNeXlqNV9kNTMyUmRJRnR1ODlBbDNPQlF3TVQyWGxQSllGWVZtRXp3Z2RSZ3ppemxXVmtuc0xWeVpVbnJINWxROEFTR3h3WHRzdG1D?oc=5",
           "source": "Reuters",
@@ -1709,6 +1702,14 @@
           "source": "Reuters",
           "publishedAt": "2024-01-05T08:00:00.000Z",
           "summary": "Crews begin clearing plane wreckage from Japan runway collision &nbsp;&nbsp; Reuters",
+          "relevanceScore": 9
+        },
+        {
+          "title": "Key moments of Tokyo runway collision",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPN0M1dnU2aTZUY1NBZG9QSzgzXzBYdV9lYWxhQTZocEZheGFRelpzZVlPeDMtZjZPdHZKMFJiMlBfbHliTkpfa2pSNWpaSW5CU2FZVjQ1Z0lrbTJSR3V3Y0N4YnZYaHpuU3RnOXltdllnYzhhMkVoaTVWZUt1bDNHWTRyZ1hJdTI0OE9DbmJ3WmthVDQ?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2024-01-05T08:00:00.000Z",
+          "summary": "Key moments of Tokyo runway collision &nbsp;&nbsp; Reuters",
           "relevanceScore": 9
         }
       ]
@@ -1772,7 +1773,7 @@
       ]
     },
     "CAAC-MU5735-2022": {
-      "query": "site:flightglobal.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:aviationweek.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:avherald.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:aviation-safety.net China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:reuters.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022",
+      "query": "site:flightglobal.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:aviationweek.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:avherald.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:aviation-safety.net China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:reuters.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:reuters.com China Eastern Airlines Boeing 737-800 2022 Airlines Flight MU5735",
       "articles": [
         {
           "title": "IATA chief cites China’s ‘outstanding’ airline safety efforts as MU5735 probe continues",
@@ -1799,20 +1800,20 @@
           "relevanceScore": 10
         },
         {
-          "title": "CAAC Yet To Provide Clarity On 2022 China Eastern 737 Crash",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWG45dUlHdFA2LWZCS1Mtdkh1RkRONE4zU2dNRGJzc3FqQUZNbmN0OEE0UXN4OUJaZHY2SlpIRlF4WENXMVdOaUN2cnJ3dFJod041UkZvc0ZOTjhCTk9Odkl6SmJuc2htLWRrOE9XNjg1YWlNb1dnMjFfM3h0TWZ0R0tHQzFnS1RlSmxFUWJrcDRkSS0zUl91SWROcUxXU0xuRzUxVkpYWmpyeHo4bHN2VWRSWDA?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2024-03-21T07:00:00.000Z",
-          "summary": "CAAC Yet To Provide Clarity On 2022 China Eastern 737 Crash &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 4
-        },
-        {
           "title": "NTSB: Both Engines Shut Down In China Eastern 737-800 Crash",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPLVgwYjY2TUFONHVWUWdOOVo5QnRIRjVVSVhKTVFud2JQYmZHWVJRRlJMOWxCWjJFRURmVmpBT1UxeHpZRWNFeUxyS3QzN084TDc2ajJ5a3ZzNHNoWS1Oc0d2N19TVldOYmVPQW5mdjJxUXJPREpJVTBValRwN0dkZmVJZ1BiZklLMUVUUUxOWmpwUDluSk9ISmExemgwSG9hUHJDTk16b0kxdUFpXzJrbWFzNVRWamM?oc=5",
           "source": "Aviation Week",
           "publishedAt": "2026-05-06T07:00:00.000Z",
           "summary": "NTSB: Both Engines Shut Down In China Eastern 737-800 Crash &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 5
+        },
+        {
+          "title": "CAAC Yet To Provide Clarity On 2022 China Eastern 737 Crash",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWG45dUlHdFA2LWZCS1Mtdkh1RkRONE4zU2dNRGJzc3FqQUZNbmN0OEE0UXN4OUJaZHY2SlpIRlF4WENXMVdOaUN2cnJ3dFJod041UkZvc0ZOTjhCTk9Odkl6SmJuc2htLWRrOE9XNjg1YWlNb1dnMjFfM3h0TWZ0R0tHQzFnS1RlSmxFUWJrcDRkSS0zUl91SWROcUxXU0xuRzUxVkpYWmpyeHo4bHN2VWRSWDA?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2024-03-21T07:00:00.000Z",
+          "summary": "CAAC Yet To Provide Clarity On 2022 China Eastern 737 Crash &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 4
         },
         {
           "title": "China Eastern 737-800 Crashes With 132 Onboard",
@@ -1855,11 +1856,11 @@
           "relevanceScore": 5
         },
         {
-          "title": "China confirms all on board China Eastern plane died in crash",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRV95TjJzYUxQb1VNbGhKYWZXU3NZbktZQVg2alJiQjBWRGhEaV9Dek1WRUZzb1I4RHczZWwzckxpVVN6TWpaYzJaeTAzVnYxSGFKOWYzaWhNakxOTndkMXNfS0IxbXNiMUdLMUpaYVFPVUtNSHlJMzhSZFpQYmdUTXZjRGpZeFVHZDh3SDA5VWRUMUZqLUo1eUtPcjFQQjJtS1A5YmlLclU?oc=5",
+          "title": "Grim aftermath at China Eastern crash site",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE10TU55cmxTUFpyNFFycjd0RzFNbTZFektrbWhMdDc2UURadndJek5NdlhOVzNFbEtsY0NXNUJ6T3dJeWgzVWVvM1BTbHBsMFlCWjBCcGdfVmIxa3VWQTZv?oc=5",
           "source": "Reuters",
-          "publishedAt": "2022-03-26T07:00:00.000Z",
-          "summary": "China confirms all on board China Eastern plane died in crash &nbsp;&nbsp; Reuters",
+          "publishedAt": "2022-03-24T07:00:00.000Z",
+          "summary": "Grim aftermath at China Eastern crash site &nbsp;&nbsp; Reuters",
           "relevanceScore": 8
         }
       ]
@@ -2046,19 +2047,19 @@
           "relevanceScore": 5
         },
         {
-          "title": "Death toll from Pakistan airliner crash 97, black box found: authorities",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcXZjQ0JQVVZlSzBxejhBYk5BODM3R05tUjFUS2dQbEZ3LTNNMlBKVVBEUWVrNDY5Mk1lSnNPdWlsaEFNV0FhUEV5Yk1RVE5wMHhpek5wcXlDSnh6ckFMOTNqZjZTYzRmX2JjSm1Lc2F2TGhFTUJqUXFyemRDbXh2UE8zN0t5R0Vqb1A3b2xSU1d2R1lyUXJybHFsUmR0OGJLakZ0RlZXVDZmeGwxZWluS1VhT2p2QzBlOV9WVEExSnk?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2020-05-23T07:00:00.000Z",
-          "summary": "Death toll from Pakistan airliner crash 97, black box found: authorities &nbsp;&nbsp; Reuters",
-          "relevanceScore": 5
-        },
-        {
           "title": "PIA spokesman says blackbox recovered from Karachi plane crash site",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbEpndmhhTnhocUdva1BiSzU3R3cyRzNZVDAwd3NtTG00eFJ2VmVUVXgyX0VEdF9RYWNuNGZCb3VaYjJrZmlqbmFUZFM2TTdGd0piZ1dtTXU0cGxteEtQcF9YeGxYVnczcFhCSGxrcjZFd0RsS0NQU1ROM0Fwdjg5ZHk0VklGMVJNNEI1Zm5aZTV5dzlUaERYRkRFNEhDMmZscldrZTF4c1RsTkdIRHRsWDMtTURUVDVadzZPUA?oc=5",
           "source": "Reuters",
           "publishedAt": "2020-05-23T07:00:00.000Z",
           "summary": "PIA spokesman says blackbox recovered from Karachi plane crash site &nbsp;&nbsp; Reuters",
+          "relevanceScore": 5
+        },
+        {
+          "title": "Death toll from Pakistan airliner crash 97, black box found: authorities",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcXZjQ0JQVVZlSzBxejhBYk5BODM3R05tUjFUS2dQbEZ3LTNNMlBKVVBEUWVrNDY5Mk1lSnNPdWlsaEFNV0FhUEV5Yk1RVE5wMHhpek5wcXlDSnh6ckFMOTNqZjZTYzRmX2JjSm1Lc2F2TGhFTUJqUXFyemRDbXh2UE8zN0t5R0Vqb1A3b2xSU1d2R1lyUXJybHFsUmR0OGJLakZ0RlZXVDZmeGwxZWluS1VhT2p2QzBlOV9WVEExSnk?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2020-05-23T07:00:00.000Z",
+          "summary": "Death toll from Pakistan airliner crash 97, black box found: authorities &nbsp;&nbsp; Reuters",
           "relevanceScore": 5
         }
       ]
@@ -2115,11 +2116,11 @@
           "relevanceScore": 5
         },
         {
-          "title": "Iran's Zarif says Ukrainian plane crash caused by human error and 'U.S. adventurism'",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcngwZlJDZ1B3OVprbU9JRmpTdVhoNS1JYUUxYktqajJ0SUdVNWJqR2ViNTVBb2F4ZDF5dGllanRkU1RjVWItZjlMM0dxRkwtTEp5WHhXWjEwMEZFMnQtSk5VSTl3djZiVTJrc3dObHRRcjF2VnI0aXZRZ2tRZzFNUTFpVWhKYUg3NVMxWmh5dTgySWZOejNOVHlZdGJCMEc2cnJZcjd1azR6dmc5dXdNZ1JoeHBPalhFQkhpQVFlbmlTdVlmdmNpTw?oc=5",
+          "title": "'Disastrous mistake': Iran acknowledges shooting down Ukrainian airliner",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVTBJazF5bGV5bldYNVlHb1VxU0FqVGxrSnZ2UFRrLWp5X0hsVklyclFDYnJQdjliclpiSEF0ZFdvd3JNeFN2QmZYVFIta2o1bElEaUc1bkFYSmVVLTRrQWJPU2FHemwtcDd3MnpnTUQ0S1o0X043bm15YXNLWW94Qi16RUQ3WU8zV3FVVS1jTVZzTVdlZ0Q2QkN1WnhTaXdFdzhiOGNaOUdwYnItNko2MGdYOWVsY1hMaEk0bnJQTQ?oc=5",
           "source": "Reuters",
           "publishedAt": "2020-01-10T08:00:00.000Z",
-          "summary": "Iran's Zarif says Ukrainian plane crash caused by human error and 'U.S. adventurism' &nbsp;&nbsp; Reuters",
+          "summary": "'Disastrous mistake': Iran acknowledges shooting down Ukrainian airliner &nbsp;&nbsp; Reuters",
           "relevanceScore": 5
         }
       ]
@@ -2481,12 +2482,12 @@
           "relevanceScore": 6
         },
         {
-          "title": "Searchers build roadway to remote France air crash site",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSU9rVEczMXVjcm1GUjM3UEZrTWRBN3hNM2x3emhsU3NRNUJiUGZjQXVKRm5xV2UwN1hHcTlMTFNxcEhRTm90dnVDZ3g3MVZTdEFkQ2x5dTVWQVZISWpPNWZQamozUlVxeEgyeGJaNFl5UGwyZTZlNEdrVHR6cmFlcmRCc0NDVl9zamxIQTFzM0xwWHl0R2hmZ3RSOUxZb2NOYW1STUtQTzBNd3FP?oc=5",
+          "title": "Crash in the French Alps",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UZHV4dHBxRExlY0tQS1dSQmlmNUVwbjBCYl9tM05GbFBWLWdlSGxZOEw5Q0VLQ2JfS0lyTGxuSXA5NTVVUDlVUEYwaHlVYjJNdGRNb1JpVGVsY2hEQWRyWTJNdXNfZWdNTWQyUGRB?oc=5",
           "source": "Reuters",
-          "publishedAt": "2015-03-30T07:00:00.000Z",
-          "summary": "Searchers build roadway to remote France air crash site &nbsp;&nbsp; Reuters",
-          "relevanceScore": 5
+          "publishedAt": "2015-03-31T07:00:00.000Z",
+          "summary": "Crash in the French Alps &nbsp;&nbsp; Reuters",
+          "relevanceScore": 6
         }
       ]
     },
@@ -2666,14 +2667,6 @@
           "relevanceScore": 9
         },
         {
-          "title": "Search for Air France flight remnants",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmY5T1BGaFdaUUpLY1RZRXhTaUxWSXhYZWJFUFFDQ0owOHA2VzhwelFDVjdUX0RYeVI3UjB3WFp3bGpvWVpLYVMxenB6ZHFkNmwxMWpGbzIwXzFjTnVYanhLU0Q5S0ZNTWVDOUo1a0JxOFNURzZDMVJGeHJpams4ZTF1cmF4TU5XVmlYMzNGdWtiZw?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2009-06-15T07:00:00.000Z",
-          "summary": "Search for Air France flight remnants &nbsp;&nbsp; Reuters",
-          "relevanceScore": 4
-        },
-        {
           "title": "Air France and Airbus on trial 13 years after Atlantic jet disaster",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdUZPeWVKcmV0Q0VGclNTLXdUeFY3ak1kNUZyNzNfemJSQ1Q3WWFWekhRQ2VsdUxHY0FXUjUza1d2NC0tbzlfMjMxSFdVeTBBYVlrS1c4YlNEemlRdFhBUENCdVgyRmdqekZEMWJtdWhxbHNBQTAwNlRXMUdCZXR6VjdCTXZzQnk0YmEzMlZ4ekhGcjFEbE1JMGNiMWl2dnVJYndMc1FVeHpYbUNPZDF1NFFQT2N4ajl1ek5HVnpvS3k?oc=5",
           "source": "Reuters",
@@ -2688,6 +2681,14 @@
           "publishedAt": "2026-05-21T07:00:00.000Z",
           "summary": "Airbus, Air France found guilty of manslaughter over 2009 Atlantic crash &nbsp;&nbsp; Reuters",
           "relevanceScore": 5
+        },
+        {
+          "title": "Air France to compensate crash victims' families",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUVNSdk90cDFIbXo1MTlGQ3EzSXVaT1l5bE5VVE5zQmMtRlktejIwZDJ4cUsxTlctd1FRUm80SktISlJjZzZsRDBGTDRLNnl2QTF5eHY3N2lqVWtDV3FILVYwUk9lalQtZnloTkhIUDhmSTNjTXdBYnZoUUdfa0pQQlVHVnZLaW5BX2hqYmZpOWVKWjBtNHlnQzktN1hsUVdJX2c?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2009-06-19T07:00:00.000Z",
+          "summary": "Air France to compensate crash victims' families &nbsp;&nbsp; Reuters",
+          "relevanceScore": 4
         }
       ]
     },
