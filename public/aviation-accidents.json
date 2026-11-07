@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-06T11:26:29.257087Z",
-  "coverageNote": "Federated global aviation safety index: 41 official/curated cases plus 3089 Wikidata discovery records for coverage. Discovery records are excluded from authoritative cause analysis until verified against an Annex 13 authority.",
+  "updatedAt": "2026-11-07T10:40:21.995494Z",
+  "coverageNote": "Federated global aviation safety index: 41 official/curated cases plus 3088 Wikidata discovery records for coverage. Discovery records are excluded from authoritative cause analysis until verified against an Annex 13 authority.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality/cause statistics use verified or curated records; discovery-layer values may be incomplete and are kept separate.",
   "fleetProfiles": [
     {
@@ -4321,6 +4321,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q131328202",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
+      "location": "United States",
       "latitude": 40.829444444,
       "longitude": -74.060277777,
       "coordinateSource": "Wikidata event coordinate",
@@ -5395,24 +5396,6 @@
       "probableCause": ""
     },
     {
-      "id": "WIKIDATA-Q21564373",
-      "date": "2015-10-02",
-      "title": "Q21564373",
-      "authority": "Wikidata discovery",
-      "status": "Discovery record — official verification pending",
-      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
-      "sourceUrl": "http://www.wikidata.org/entity/Q21564373",
-      "sourceTier": "discovery",
-      "verificationStatus": "secondary structured discovery — cause not authoritative",
-      "operator": "United States Air Force",
-      "location": "Jalalabad Airport",
-      "latitude": 34.399694444,
-      "longitude": 70.498527777,
-      "coordinateSource": "Wikidata event-location coordinate",
-      "fatalities": 11,
-      "probableCause": ""
-    },
-    {
       "id": "WIKIDATA-Q21042789",
       "date": "2015-10-02",
       "title": "Aviastar Flight 7503",
@@ -5432,18 +5415,19 @@
       "probableCause": ""
     },
     {
-      "id": "WIKIDATA-Q133844243",
+      "id": "WIKIDATA-Q21564373",
       "date": "2015-10-02",
       "title": "2015 Jalalabad USAF C-130J crash",
       "authority": "Wikidata discovery",
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
-      "sourceUrl": "http://www.wikidata.org/entity/Q133844243",
+      "sourceUrl": "http://www.wikidata.org/entity/Q21564373",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
-      "location": "Afghanistan",
-      "latitude": 33.0,
-      "longitude": 66.0,
+      "operator": "United States Air Force",
+      "location": "Jalalabad Airport, Afghanistan",
+      "latitude": 34.399694444,
+      "longitude": 70.498527777,
       "coordinateSource": "Wikidata event-location coordinate",
       "fatalities": 11,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2015_Jalalabad_USAF_C-130J_crash",
@@ -21162,7 +21146,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
       "operator": "Pakistan International Airlines",
-      "location": "Kathmandu, Nepal",
+      "location": "Lower Himalayan Range, Nepal",
       "latitude": 27.53277778,
       "longitude": 85.28472222,
       "coordinateSource": "Wikidata event coordinate",
@@ -30271,7 +30255,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Korpijärvi, South Korea",
+      "location": "Karelian Autonomous Soviet Socialist Republic, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -45495,7 +45479,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
-      "location": "Barzas",
+      "location": "Kemerovsky District",
       "fatalities": 27,
       "probableCause": ""
     },
@@ -51874,9 +51858,9 @@
   "discoveryNote": "Wikidata is used only to expand case, timeline and map coverage. Its discovery records are not treated as authoritative probable-cause or investigation findings.",
   "counts": {
     "officialIndexed": 41,
-    "discovery": 3089,
-    "totalVisible": 3130,
-    "withCoordinates": 1624
+    "discovery": 3088,
+    "totalVisible": 3129,
+    "withCoordinates": 1623
   },
-  "mapNote": "1624 indexed records currently include structured map coordinates. Discovery coordinates improve coverage but do not imply cause verification."
+  "mapNote": "1623 indexed records currently include structured map coordinates. Discovery coordinates improve coverage but do not imply cause verification."
 }
