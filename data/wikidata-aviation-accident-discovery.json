@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T10:40:21.366688Z",
+  "updatedAt": "2026-11-08T10:44:43.093415Z",
   "source": "Wikidata Query Service / aviation accident (Q744913)",
   "license": "Wikidata structured data is CC0",
   "coverageNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
@@ -12866,6 +12866,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2003_Iran_Ilyushin_Il-76_crash"
     },
     {
+      "id": "WIKIDATA-Q142077796",
+      "date": "2003-02-10",
+      "title": "Q142077796",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q142077796",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q132192795",
       "date": "2003-02-03",
       "title": "Aerosur Flight 231",
@@ -19048,7 +19059,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q111948125",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Dallas/Fort Worth International Airport, United States",
+      "location": "Dallas, United States",
       "latitude": 32.779166666,
       "longitude": -96.808888888,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -19390,7 +19401,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Pakistan International Airlines",
-      "location": "Lower Himalayan Range, Nepal",
+      "location": "Kathmandu, Nepal",
       "latitude": 27.53277778,
       "longitude": 85.28472222,
       "coordinateSource": "Wikidata event coordinate",
@@ -21998,7 +22009,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q120269588",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Batagay Airport",
+      "location": "Batagay",
       "latitude": 62.03333333,
       "longitude": 129.73333333,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -33227,6 +33238,17 @@
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Toa_Domestic_Airlines_Flight_63"
     },
     {
+      "id": "WIKIDATA-Q142082708",
+      "date": "1971-06-17",
+      "title": "Q142082708",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q142082708",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery"
+    },
+    {
       "id": "WIKIDATA-Q16961079",
       "date": "1971-06-07",
       "title": "Allegheny Airlines Flight 485",
@@ -42217,7 +42239,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Kemerovsky District",
+      "location": "Barzas",
       "fatalities": 27
     },
     {

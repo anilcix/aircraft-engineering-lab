@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-07T10:40:21.995494Z",
-  "coverageNote": "Federated global aviation safety index: 41 official/curated cases plus 3088 Wikidata discovery records for coverage. Discovery records are excluded from authoritative cause analysis until verified against an Annex 13 authority.",
+  "updatedAt": "2026-11-08T10:44:43.614522Z",
+  "coverageNote": "Federated global aviation safety index: 41 official/curated cases plus 3090 Wikidata discovery records for coverage. Discovery records are excluded from authoritative cause analysis until verified against an Annex 13 authority.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality/cause statistics use verified or curated records; discovery-layer values may be incomplete and are kept separate.",
   "fleetProfiles": [
     {
@@ -14207,6 +14207,18 @@
       "probableCause": ""
     },
     {
+      "id": "WIKIDATA-Q142077796",
+      "date": "2003-02-10",
+      "title": "Q142077796",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q142077796",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery — cause not authoritative",
+      "probableCause": ""
+    },
+    {
       "id": "WIKIDATA-Q132192795",
       "date": "2003-02-03",
       "title": "Aerosur Flight 231",
@@ -20783,7 +20795,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q111948125",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
-      "location": "Dallas/Fort Worth International Airport, United States",
+      "location": "Dallas, United States",
       "latitude": 32.779166666,
       "longitude": -96.808888888,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -21146,7 +21158,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
       "operator": "Pakistan International Airlines",
-      "location": "Lower Himalayan Range, Nepal",
+      "location": "Kathmandu, Nepal",
       "latitude": 27.53277778,
       "longitude": 85.28472222,
       "coordinateSource": "Wikidata event coordinate",
@@ -23921,7 +23933,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q120269588",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
-      "location": "Batagay Airport",
+      "location": "Batagay",
       "latitude": 62.03333333,
       "longitude": 129.73333333,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -35851,6 +35863,18 @@
       "probableCause": ""
     },
     {
+      "id": "WIKIDATA-Q142082708",
+      "date": "1971-06-17",
+      "title": "Q142082708",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q142082708",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery — cause not authoritative",
+      "probableCause": ""
+    },
+    {
       "id": "WIKIDATA-Q16961079",
       "date": "1971-06-07",
       "title": "Allegheny Airlines Flight 485",
@@ -45479,7 +45503,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
-      "location": "Kemerovsky District",
+      "location": "Barzas",
       "fatalities": 27,
       "probableCause": ""
     },
@@ -51858,8 +51882,8 @@
   "discoveryNote": "Wikidata is used only to expand case, timeline and map coverage. Its discovery records are not treated as authoritative probable-cause or investigation findings.",
   "counts": {
     "officialIndexed": 41,
-    "discovery": 3088,
-    "totalVisible": 3129,
+    "discovery": 3090,
+    "totalVisible": 3131,
     "withCoordinates": 1623
   },
   "mapNote": "1623 indexed records currently include structured map coordinates. Discovery coordinates improve coverage but do not imply cause verification."
