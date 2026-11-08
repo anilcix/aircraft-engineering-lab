@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T11:25:13.620Z",
+  "updatedAt": "2026-11-08T11:35:56.714Z",
   "sourceSet": [
     {
       "name": "FlightGlobal",
@@ -177,7 +177,7 @@
           "title": "Investigators recover black boxes from cargo plane crash in Miami",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQVZXcnY2Ym5SNExDY0RsNmlYeV9qcVRrVGNNajFfQ0pkd3k5ZmZicVBfOUZQTjdjV0d0Z29LT2FnYnByR1RyVGxHTkhOX1lUWjJGd3dOQ210Vlo5UV93WlgySTg4TTgzX3VYcnZlQ3dHU2ZHX00teG84eUFOc3RGUDdOdUo4NzEtdjZqLUwzMHhnWmY5aHhTelJCQlVrbXJ5UmFGelVjcG5xdkJwV01TWUV1cFkyd3E3ZzVjQi1uRUdDOHVzekM4?oc=5",
           "source": "Reuters",
-          "publishedAt": "2026-09-08T07:00:00.000Z",
+          "publishedAt": "2026-09-07T07:00:00.000Z",
           "summary": "Investigators recover black boxes from cargo plane crash in Miami &nbsp;&nbsp; Reuters",
           "relevanceScore": 5
         }
@@ -528,7 +528,7 @@
           "title": "Deputy chief minister of India's Maharashtra state among five dead in air charter crash",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcHRkU2lLdWlQMmZuak5neUxVQU9SOGh3N3RRREtjZ0hWRG04WUE3V1VPVDY0MVJrVldTTjU3ZGpxMm85UU1zcHRQdHdHbmRERzhERnVEOEZsblM1UTA2emNhb0tWZEFCUk5RNUg3eFpWUE50UnJLZjBYeU8yZmRCMi1iOGo4dmRpaWo0aWJBb1lOaVR4MHdKcHh4dTZKcnYyZ1RHVGpodVdQLUUxdXVKMU1vWDdseUVxckdLa0RR?oc=5",
           "source": "Reuters",
-          "publishedAt": "2026-01-28T08:00:00.000Z",
+          "publishedAt": "2026-01-27T08:00:00.000Z",
           "summary": "Deputy chief minister of India's Maharashtra state among five dead in air charter crash &nbsp;&nbsp; Reuters",
           "relevanceScore": 5
         }
@@ -597,14 +597,6 @@
           "source": "Aviation Week",
           "publishedAt": "2025-11-07T08:00:00.000Z",
           "summary": "Cessna Citation Ascend Earns FAA Type Certification &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 4
-        },
-        {
-          "title": "Aircraft Overview: Cessna Citation Latitude",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPX0VnSWRPR1lqa0RoTmhNQmpzNDlNOFNKRGt5YmpVUUNQMTlQTEc3VzFlMjlxd3RrTVVYSDFNMVRwZ2VFSU5BUEk3NVVEVGdvaHA1QVFwSjdaWmczRkNFQW8yVFlMZ25FQXlLb0tsclpiZVR1eEw2a3NrSkZfR19UZS00MWN6cElZckN6U0RpQXJPbXcxeER4WWNXQnRERWRnQVM4dW1R?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2025-07-14T22:58:17.000Z",
-          "summary": "Aircraft Overview: Cessna Citation Latitude &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 4
         },
         {
@@ -928,14 +920,6 @@
           "relevanceScore": 7
         },
         {
-          "title": "History of helicopter crashes in New York City",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaUFhSUM3cE16aWNEeWotd25Ddkg1ZEdfR2dMdHlmcFNRdUpkdzRyV2dLdE5ucXhsWE9PZnAyaWJQNjlvMDl3bHlndDNQYUx1Vmt0aXlWSnp1Z2VDNmt2cUdDRm5xTDh4dzJVY0hLS3I1SWRiQ0tTZDJuOV95bk5ud2dSWlo3YS1kYUt3UEln?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2025-04-10T07:00:00.000Z",
-          "summary": "History of helicopter crashes in New York City &nbsp;&nbsp; Reuters",
-          "relevanceScore": 5
-        },
-        {
           "title": "Tourist helicopter crashes into New York's Hudson River, killing all six aboard",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaXRaVHlzR3plTlVGMlZpeGdMTkQ2S0d5NUU2SDVCV0ExRmZsc1pPTnN3SGZpOTB6TElueUNQUVl2Z2xUbHVBblZmUThwbWNYSWppVkw5MUxNU2NEN01uY3BhVDJoUlRmN0djOUw4NVg0eHZDclE4WkxNallTOWVaQVNTVzI5X3hMeEFzbWdjX1hOWUM2eTl1aHJmbC0?oc=5",
           "source": "Reuters",
@@ -1047,8 +1031,17 @@
       ]
     },
     "WIKIDATA-Q132161853": {
-      "query": "site:flightglobal.com Bering Air Flight 445 Bering Air 2025 || site:flightglobal.com Bering Air 2025 Air Flight 445 || site:aviationweek.com Bering Air Flight 445 Bering Air 2025 || site:aviationweek.com Bering Air 2025 Air Flight 445 || site:avherald.com Bering Air Flight 445 Bering Air 2025 || site:avherald.com Bering Air 2025 Air Flight 445 || site:aviation-safety.net Bering Air Flight 445 Bering Air 2025 || site:aviation-safety.net Bering Air 2025 Air Flight 445 || site:reuters.com Bering Air Flight 445 Bering Air 2025 || site:reuters.com Bering Air 2025 Air Flight 445",
-      "articles": []
+      "query": "site:flightglobal.com Bering Air Flight 445 Bering Air 2025 || site:aviationweek.com Bering Air Flight 445 Bering Air 2025 || site:aviationweek.com Bering Air 2025 Air Flight 445 || site:avherald.com Bering Air Flight 445 Bering Air 2025 || site:avherald.com Bering Air 2025 Air Flight 445 || site:aviation-safety.net Bering Air Flight 445 Bering Air 2025 || site:aviation-safety.net Bering Air 2025 Air Flight 445 || site:reuters.com Bering Air Flight 445 Bering Air 2025 || site:reuters.com Bering Air 2025 Air Flight 445",
+      "articles": [
+        {
+          "title": "NTSB’s Bering Air crash inquiry focuses on take-off weight and possible ice build up",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWTlKSW1aZFk3WWZNbDJYWkhpRXl1em9MYi1IMG01c3lyQVRCNDd5RXljMklSbUpPT25XaEZVb0lFYkVqV0hSR3hTUHZuQkdhbUZNaGs2Q0JWTmlSd1MybllubGZ0SFYtcHZuRC05Nk1nclN4Qkd1LWhIby1JWURHdzl5SzVkaDAxLU1aRjBNN2t3X0dNWUljXzZNVGlHcVdOeXVWLV9FTlRnYXZtVXBWWU1fZVZsSldvQTJyak1STkJDNU9vUEhKNE8zS3k?oc=5",
+          "source": "FlightGlobal",
+          "publishedAt": "2025-03-24T07:00:00.000Z",
+          "summary": "NTSB’s Bering Air crash inquiry focuses on take-off weight and possible ice build up &nbsp;&nbsp; FlightGlobal",
+          "relevanceScore": 4
+        }
+      ]
     },
     "WIKIDATA-Q131990794": {
       "query": "site:flightglobal.com Med Jets Flight 056 Jet Rescue Air Ambulance 2025 || site:flightglobal.com Jet Rescue Air Ambulance 2025 Jets Flight 056 || site:aviationweek.com Med Jets Flight 056 Jet Rescue Air Ambulance 2025 || site:aviationweek.com Jet Rescue Air Ambulance 2025 Jets Flight 056 || site:avherald.com Med Jets Flight 056 Jet Rescue Air Ambulance 2025 || site:avherald.com Jet Rescue Air Ambulance 2025 Jets Flight 056 || site:aviation-safety.net Med Jets Flight 056 Jet Rescue Air Ambulance 2025 || site:aviation-safety.net Jet Rescue Air Ambulance 2025 Jets Flight 056 || site:reuters.com Med Jets Flight 056 Jet Rescue Air Ambulance 2025 || site:reuters.com Jet Rescue Air Ambulance 2025 Jets Flight 056",
@@ -1612,11 +1605,11 @@
           "relevanceScore": 5
         },
         {
-          "title": "Alaska Air says loose hardware found on some of its 737 MAX 9 fleet",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeG56cEM1S2dYV1R4UlRIM0JDMXU0eEFUN3U4Mmp3a3p4S3JXTXVJMkxyZ2FPN041R0JwdkxwSUJqTDVnLTFxYkdMcFZUdUJXNDhFRjMyTEtTajJETTVsTkxUWUgyU09rdDlhQWpQSXNObjFKdXZpcU1PeGhENEpUbVpjOE0xMElXcXRDdXAwQl83ZkVPZ2VXUWpCUmI2WDNITGp1Z3NiWTQ3dzNsU05jQ2Zpcmc2dC00Q0ctVTFwR3FCQQ?oc=5",
+          "title": "Alaska Airlines found loose bolts on 'many' MAX 9 airplanes -CEO",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMFlHbVJDN256bTVCSW1idDJ5aFBkc1RjUzdMMExHdjVJUUtwX2ctb1UzVEFiM1ZTZUxYeVEtejFkV1lzTVNIVTZTZGtHUWo0aEg0VkNEeGd5aUtNbmhJVjJoZFZoNjlkVFp1NWdDdjhwazlxV1ZncVotV0Zqbjd0TVJKdnFSSXNCaXBOb0ExWGhZWDVNWE0waDYxMm5ucGNZbDlla08xR2tjU2VlRVhyZjUzdDV3dC1PdVlzb1VR?oc=5",
           "source": "Reuters",
-          "publishedAt": "2024-01-08T08:00:00.000Z",
-          "summary": "Alaska Air says loose hardware found on some of its 737 MAX 9 fleet &nbsp;&nbsp; Reuters",
+          "publishedAt": "2024-01-23T08:00:00.000Z",
+          "summary": "Alaska Airlines found loose bolts on 'many' MAX 9 airplanes -CEO &nbsp;&nbsp; Reuters",
           "relevanceScore": 5
         },
         {
@@ -1726,6 +1719,14 @@
           "relevanceScore": 14
         },
         {
+          "title": "Investigators recover flight recorders from crashed Yeti Airlines ATR 72",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQ0xfdDFfbjltemI1R3Z2em1JamQ4RDVmRmJjWlgwMl85cW0xYzRHNGRmSHY5Y0ZTUWNCcTkzeTNVVjNWOUpLQmQxZEwyWEd3TGVoV0oyZDlFeDU0b1dCeW52aVh0UXBvYy02cEQ3aTIyVHBDS0RzN1hvcG4xSDVqZGlhUWEtMVlVaVBwYmZjMTM3eGV1cE1MVTVLMUljTVViX3g0UkZfTjdmSlBJVG5MbGtRYlVsdXVia09TQWNB?oc=5",
+          "source": "FlightGlobal",
+          "publishedAt": "2023-01-16T08:00:00.000Z",
+          "summary": "Investigators recover flight recorders from crashed Yeti Airlines ATR 72 &nbsp;&nbsp; FlightGlobal",
+          "relevanceScore": 11
+        },
+        {
           "title": "Yeti Airlines ATR 72 Crash In Nepal Kills At Least 68",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWFItT0k2QnlBYTBTR1o3aG44SmhfNEN1WU9IS3hyczNsS2FvbmRKcUt0eEE0V1R5OU5yNHZsc0t2Ry1YZHpzc20xTkJvbmRpVzFOODItcFFUa2V6N2lNdHhfdVh5al9hczAyS1VYMkFoaFd1TjlabnM2YnNwYXpTWDBwbGVNWG1CY2ZvOXNhSE5hZ2dyY0poc3BMMy1qdDlRN2R5RDZJVDlqUUVS?oc=5",
           "source": "Aviation Week",
@@ -1773,7 +1774,7 @@
       ]
     },
     "CAAC-MU5735-2022": {
-      "query": "site:flightglobal.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:aviationweek.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:avherald.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:aviation-safety.net China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:reuters.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:reuters.com China Eastern Airlines Boeing 737-800 2022 Airlines Flight MU5735",
+      "query": "site:flightglobal.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:aviationweek.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:avherald.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:aviation-safety.net China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:reuters.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022",
       "articles": [
         {
           "title": "IATA chief cites China’s ‘outstanding’ airline safety efforts as MU5735 probe continues",
@@ -1800,20 +1801,20 @@
           "relevanceScore": 10
         },
         {
-          "title": "NTSB: Both Engines Shut Down In China Eastern 737-800 Crash",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPLVgwYjY2TUFONHVWUWdOOVo5QnRIRjVVSVhKTVFud2JQYmZHWVJRRlJMOWxCWjJFRURmVmpBT1UxeHpZRWNFeUxyS3QzN084TDc2ajJ5a3ZzNHNoWS1Oc0d2N19TVldOYmVPQW5mdjJxUXJPREpJVTBValRwN0dkZmVJZ1BiZklLMUVUUUxOWmpwUDluSk9ISmExemgwSG9hUHJDTk16b0kxdUFpXzJrbWFzNVRWamM?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2026-05-06T07:00:00.000Z",
-          "summary": "NTSB: Both Engines Shut Down In China Eastern 737-800 Crash &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 5
-        },
-        {
           "title": "CAAC Yet To Provide Clarity On 2022 China Eastern 737 Crash",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWG45dUlHdFA2LWZCS1Mtdkh1RkRONE4zU2dNRGJzc3FqQUZNbmN0OEE0UXN4OUJaZHY2SlpIRlF4WENXMVdOaUN2cnJ3dFJod041UkZvc0ZOTjhCTk9Odkl6SmJuc2htLWRrOE9XNjg1YWlNb1dnMjFfM3h0TWZ0R0tHQzFnS1RlSmxFUWJrcDRkSS0zUl91SWROcUxXU0xuRzUxVkpYWmpyeHo4bHN2VWRSWDA?oc=5",
           "source": "Aviation Week",
           "publishedAt": "2024-03-21T07:00:00.000Z",
           "summary": "CAAC Yet To Provide Clarity On 2022 China Eastern 737 Crash &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 4
+        },
+        {
+          "title": "NTSB: Both Engines Shut Down In China Eastern 737-800 Crash",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPLVgwYjY2TUFONHVWUWdOOVo5QnRIRjVVSVhKTVFud2JQYmZHWVJRRlJMOWxCWjJFRURmVmpBT1UxeHpZRWNFeUxyS3QzN084TDc2ajJ5a3ZzNHNoWS1Oc0d2N19TVldOYmVPQW5mdjJxUXJPREpJVTBValRwN0dkZmVJZ1BiZklLMUVUUUxOWmpwUDluSk9ISmExemgwSG9hUHJDTk16b0kxdUFpXzJrbWFzNVRWamM?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2026-05-06T07:00:00.000Z",
+          "summary": "NTSB: Both Engines Shut Down In China Eastern 737-800 Crash &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 5
         },
         {
           "title": "China Eastern 737-800 Crashes With 132 Onboard",
@@ -1856,11 +1857,11 @@
           "relevanceScore": 5
         },
         {
-          "title": "Grim aftermath at China Eastern crash site",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE10TU55cmxTUFpyNFFycjd0RzFNbTZFektrbWhMdDc2UURadndJek5NdlhOVzNFbEtsY0NXNUJ6T3dJeWgzVWVvM1BTbHBsMFlCWjBCcGdfVmIxa3VWQTZv?oc=5",
+          "title": "China confirms all on board China Eastern plane died in crash",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRV95TjJzYUxQb1VNbGhKYWZXU3NZbktZQVg2alJiQjBWRGhEaV9Dek1WRUZzb1I4RHczZWwzckxpVVN6TWpaYzJaeTAzVnYxSGFKOWYzaWhNakxOTndkMXNfS0IxbXNiMUdLMUpaYVFPVUtNSHlJMzhSZFpQYmdUTXZjRGpZeFVHZDh3SDA5VWRUMUZqLUo1eUtPcjFQQjJtS1A5YmlLclU?oc=5",
           "source": "Reuters",
-          "publishedAt": "2022-03-24T07:00:00.000Z",
-          "summary": "Grim aftermath at China Eastern crash site &nbsp;&nbsp; Reuters",
+          "publishedAt": "2022-03-26T07:00:00.000Z",
+          "summary": "China confirms all on board China Eastern plane died in crash &nbsp;&nbsp; Reuters",
           "relevanceScore": 8
         }
       ]
@@ -2039,11 +2040,11 @@
           "relevanceScore": 9
         },
         {
-          "title": "Crashed Pakistan plane hit runway three times on first approach - minister",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVGw0dHVuaXNfUHFwa3dwaUZSei1FbktaMHZGN3Q0cVVQYklwQ1duZUNVTjl3Y1Z3Zk54Z2lpMi1SdmRSUzlKNm1RVWZvVGV6Y3BfU3NmcGJ3RUgxSnNJbG9RTWpUVUwtTWRZcVZKODd1dDhkbk5VQjRNdjhXVWl5NzRIZFQ3WXhoUnNucUJ0WTQ1NjZRYXdaWnpLeFktZG9HbTI2RkM4QndLb004alNKNW9WTVI2X0VZVld3UENvdm5uMjA?oc=5",
+          "title": "Death toll from Pakistan airliner crash 97, black box found: authorities",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcXZjQ0JQVVZlSzBxejhBYk5BODM3R05tUjFUS2dQbEZ3LTNNMlBKVVBEUWVrNDY5Mk1lSnNPdWlsaEFNV0FhUEV5Yk1RVE5wMHhpek5wcXlDSnh6ckFMOTNqZjZTYzRmX2JjSm1Lc2F2TGhFTUJqUXFyemRDbXh2UE8zN0t5R0Vqb1A3b2xSU1d2R1lyUXJybHFsUmR0OGJLakZ0RlZXVDZmeGwxZWluS1VhT2p2QzBlOV9WVEExSnk?oc=5",
           "source": "Reuters",
-          "publishedAt": "2020-05-28T07:00:00.000Z",
-          "summary": "minister &nbsp;&nbsp; Reuters",
+          "publishedAt": "2020-05-23T07:00:00.000Z",
+          "summary": "Death toll from Pakistan airliner crash 97, black box found: authorities &nbsp;&nbsp; Reuters",
           "relevanceScore": 5
         },
         {
@@ -2055,11 +2056,11 @@
           "relevanceScore": 5
         },
         {
-          "title": "Death toll from Pakistan airliner crash 97, black box found: authorities",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcXZjQ0JQVVZlSzBxejhBYk5BODM3R05tUjFUS2dQbEZ3LTNNMlBKVVBEUWVrNDY5Mk1lSnNPdWlsaEFNV0FhUEV5Yk1RVE5wMHhpek5wcXlDSnh6ckFMOTNqZjZTYzRmX2JjSm1Lc2F2TGhFTUJqUXFyemRDbXh2UE8zN0t5R0Vqb1A3b2xSU1d2R1lyUXJybHFsUmR0OGJLakZ0RlZXVDZmeGwxZWluS1VhT2p2QzBlOV9WVEExSnk?oc=5",
+          "title": "Crashed Pakistan plane hit runway three times on first approach - minister",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVGw0dHVuaXNfUHFwa3dwaUZSei1FbktaMHZGN3Q0cVVQYklwQ1duZUNVTjl3Y1Z3Zk54Z2lpMi1SdmRSUzlKNm1RVWZvVGV6Y3BfU3NmcGJ3RUgxSnNJbG9RTWpUVUwtTWRZcVZKODd1dDhkbk5VQjRNdjhXVWl5NzRIZFQ3WXhoUnNucUJ0WTQ1NjZRYXdaWnpLeFktZG9HbTI2RkM4QndLb004alNKNW9WTVI2X0VZVld3UENvdm5uMjA?oc=5",
           "source": "Reuters",
-          "publishedAt": "2020-05-23T07:00:00.000Z",
-          "summary": "Death toll from Pakistan airliner crash 97, black box found: authorities &nbsp;&nbsp; Reuters",
+          "publishedAt": "2020-05-28T07:00:00.000Z",
+          "summary": "minister &nbsp;&nbsp; Reuters",
           "relevanceScore": 5
         }
       ]
@@ -2179,6 +2180,14 @@
         {
           "title": "Crash: Ethiopian B38M near Bishoftu on Mar 10th 2019, impacted terrain after departure",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE12ZkdnM1FJZFY4YjJIbEpteWxsY2wwYjVrajRxQmx3UkpQUE5IMHU5c242MnduZmZtdmw2ZHZOZ3NtYTFLRG0ySXVQSThQR1p6S0JzUUdhc1k?oc=5",
+          "source": "The Aviation Herald",
+          "publishedAt": "2019-03-10T08:00:00.000Z",
+          "summary": "Crash: Ethiopian B38M near Bishoftu on Mar 10th 2019, impacted terrain after departure &nbsp;&nbsp; The Aviation Herald",
+          "relevanceScore": 6
+        },
+        {
+          "title": "Crash: Ethiopian B38M near Bishoftu on Mar 10th 2019, impacted terrain after departure",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE12eVVNR2NHQVVWUmVvWlctYXRnSGk0VTNfVEV5NkFBd181MU1yaE8tcnRjVEFnR3dpOFNTOGR4bDlsSm1KM1ZkTHhFd01fdjNFU2NHSzJoSQ?oc=5",
           "source": "The Aviation Herald",
           "publishedAt": "2019-03-10T08:00:00.000Z",
           "summary": "Crash: Ethiopian B38M near Bishoftu on Mar 10th 2019, impacted terrain after departure &nbsp;&nbsp; The Aviation Herald",
@@ -2475,7 +2484,7 @@
         },
         {
           "title": "Germanwings crash in France",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONVhSczZPb0ViQ3BndjB3NGhIcUhsb3ZFS05UTlkwQzJZSXZSY0ZGZTJMTFEtSU9QYjBTNXFZNHZlbzUwOWpxTTdjNGthQTNsclY2WmlvSGJpWVpsRDBUSjhZZXlraFYtOWtkUjIzVlFpaUZxX2xTQ0xydWo5eVdicmE3ek4?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMV9fbE0xSkc0ZFlqOVJtdW9Tek0zd3Y1Y2c4OU5MWDZqOTdSUnNBM3JJN1hFcVcwMVdLVDA3MS0wbV9pVWZkeDhBVi1NcFdRUHJWdEF1enZpTEc1ZEp3ZmJWbThVU0lpRkJJdm9FUVA4OE1iYlROb0h6RWlUUktmQkhaSDc?oc=5",
           "source": "Reuters",
           "publishedAt": "2015-03-26T07:00:00.000Z",
           "summary": "Germanwings crash in France &nbsp;&nbsp; Reuters",
