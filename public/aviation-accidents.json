@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-08T10:44:43.614522Z",
-  "coverageNote": "Federated global aviation safety index: 41 official/curated cases plus 3090 Wikidata discovery records for coverage. Discovery records are excluded from authoritative cause analysis until verified against an Annex 13 authority.",
+  "updatedAt": "2026-11-09T12:03:15.973927Z",
+  "coverageNote": "Federated global aviation safety index: 41 official/curated cases plus 3093 Wikidata discovery records for coverage. Discovery records are excluded from authoritative cause analysis until verified against an Annex 13 authority.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality/cause statistics use verified or curated records; discovery-layer values may be incomplete and are kept separate.",
   "fleetProfiles": [
     {
@@ -1751,6 +1751,20 @@
       "verificationStatus": "secondary structured discovery — cause not authoritative",
       "location": "Syria",
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2023_Syria_helicopter_accident",
+      "probableCause": ""
+    },
+    {
+      "id": "WIKIDATA-Q142086896",
+      "date": "2023-05-15",
+      "title": "Q142086896",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q142086896",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery — cause not authoritative",
+      "location": "Germany",
+      "fatalities": 2,
       "probableCause": ""
     },
     {
@@ -20795,7 +20809,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q111948125",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
-      "location": "Dallas, United States",
+      "location": "Dallas/Fort Worth International Airport, United States",
       "latitude": 32.779166666,
       "longitude": -96.808888888,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -21078,6 +21092,18 @@
       "status": "Discovery record — official verification pending",
       "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
       "sourceUrl": "http://www.wikidata.org/entity/Q96059298",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery — cause not authoritative",
+      "probableCause": ""
+    },
+    {
+      "id": "WIKIDATA-Q142085131",
+      "date": "1992-10-19",
+      "title": "Q142085131",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q142085131",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
       "probableCause": ""
@@ -21931,6 +21957,7 @@
       "longitude": 30.316666666,
       "coordinateSource": "Wikidata event-location coordinate",
       "fatalities": 10,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1991_Gulf_of_Finland_Antonov_An-24_crash",
       "probableCause": ""
     },
     {
@@ -23933,7 +23960,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q120269588",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
-      "location": "Batagay",
+      "location": "Batagay Airport",
       "latitude": 62.03333333,
       "longitude": 129.73333333,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -30267,7 +30294,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Karelian Autonomous Soviet Socialist Republic, South Korea",
+      "location": "Korpijärvi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -43283,6 +43310,18 @@
       "probableCause": ""
     },
     {
+      "id": "WIKIDATA-Q142085101",
+      "date": "1958-09-19",
+      "title": "Q142085101",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q142085101",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery — cause not authoritative",
+      "probableCause": ""
+    },
+    {
       "id": "WIKIDATA-Q11870469",
       "date": "1958-09-19",
       "title": "Q11870469",
@@ -51882,8 +51921,8 @@
   "discoveryNote": "Wikidata is used only to expand case, timeline and map coverage. Its discovery records are not treated as authoritative probable-cause or investigation findings.",
   "counts": {
     "officialIndexed": 41,
-    "discovery": 3090,
-    "totalVisible": 3131,
+    "discovery": 3093,
+    "totalVisible": 3134,
     "withCoordinates": 1623
   },
   "mapNote": "1623 indexed records currently include structured map coordinates. Discovery coordinates improve coverage but do not imply cause verification."
