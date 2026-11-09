@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T11:35:56.714Z",
+  "updatedAt": "2026-11-09T13:28:01.722Z",
   "sourceSet": [
     {
       "name": "FlightGlobal",
@@ -629,6 +629,14 @@
           "relevanceScore": 6
         },
         {
+          "title": "Indian plane crashes during a demonstration at the Dubai air show, AP reports",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYnNjbEFmbm1aMnE0ZEdMT21WSjUxZlJLVHVCSW1JVndQTURPUXlxZURfZ1lhNEJhb0UwWDliaVpVQ3FacVR0S3gxZ2ZBQm45dGFMZEpaZzNUb3R6STg3Ul9TN18yZXFDRHJfR2JyUVJ6NzhJRGFkZURENUdPU2VMaEpFZTZzeUJJZndmbm14MmhHeVV1TlZScjRac3VVRHpLOU16dEw5eWJuOFlScDFrcTlBWV9Odw?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2025-11-21T08:00:00.000Z",
+          "summary": "Indian plane crashes during a demonstration at the Dubai air show, AP reports &nbsp;&nbsp; Reuters",
+          "relevanceScore": 9
+        },
+        {
           "title": "Indian Tejas fighter jet crashes in a ball of fire at Dubai Airshow, killing pilot",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVVFiemRzWW1vSThwdUZJNmkycHBmVUhyaHJYRTZBdzBPOHBFSDdVVG90dzA1TG1vNWhDeGpUTGtRb0VPQkpQbk1kSjVNUkY0RkVUNXZET3JwYjhzTUZVSWRLRksxNm9Fell5SFVJdG5ldEIybVpoOEZWSU1XdENxdnROY1REVDE1d0xPU1ROWjYwUEhBWS1ReW9kdTZTNkVUakMyV2hCYzhfUQ?oc=5",
           "source": "Reuters",
@@ -721,6 +729,14 @@
       "query": "site:flightglobal.com 2025 Dhaka fighter jet crash Bangladesh Air Force 2025 || site:flightglobal.com Bangladesh Air Force 2025 fighter jet crash || site:aviationweek.com 2025 Dhaka fighter jet crash Bangladesh Air Force 2025 || site:aviationweek.com Bangladesh Air Force 2025 fighter jet crash || site:avherald.com 2025 Dhaka fighter jet crash Bangladesh Air Force 2025 || site:avherald.com Bangladesh Air Force 2025 fighter jet crash || site:aviation-safety.net 2025 Dhaka fighter jet crash Bangladesh Air Force 2025 || site:aviation-safety.net Bangladesh Air Force 2025 fighter jet crash || site:reuters.com 2025 Dhaka fighter jet crash Bangladesh Air Force 2025",
       "articles": [
         {
+          "title": "What is the Chinese-made F-7 jet that crashed into Bangladesh school?",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPc2ZSY0lLUDlPTlN2V1dFanpwVlF6WXdSdUFucW5MMlhyNHl3RVlvbkFvbGZ3SWVQcmhxMnE2THA3U3pFYUE3ZE9rS0RtaTVnaGxfUGxWS2J5TExyUlFLRmlDRmhiNV93aDdJOUlDOWhxdU5RLW1hbVNIVWplbF9LV3o0RWoyWmprOG9YU09ycUVPdUE2WWNxMDhlcF9VTEFMM2JqVk1vOG1PczZEN19TamRB?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2025-07-22T07:00:00.000Z",
+          "summary": "What is the Chinese-made F-7 jet that crashed into Bangladesh school? &nbsp;&nbsp; Reuters",
+          "relevanceScore": 6
+        },
+        {
           "title": "At least 19 killed, scores injured as Bangladesh air force jet crashes into college campus",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbG9tSjNXTTFOdkRGNzE1cHB4YVkxV0MyQi1SeFh5VVNrX1Q0cm5UZGpVQlYtTXVLWWI3UF9PdzJZU3VvU3JNZFFYRHlUeFRsazA4ODJwZEtJRFlGRUZFWkYySXVDc0RUbHMzcWpYUWNxaWpDbmNZNVMtM09GTTlBMkZsa3doR0JXTVd4ZlZZXzI4ck9vbVVadUpaMVZ1SWowY0NyalBqVEI0OUMwNjNLSUo3X2JfeERObGktVTVPMUpfSW9HR1FUVVNSUQ?oc=5",
           "source": "Reuters",
@@ -735,20 +751,20 @@
           "publishedAt": "2025-07-22T07:00:00.000Z",
           "summary": "Students protest in Bangladesh after air force jet crash kills 31, mostly children &nbsp;&nbsp; Reuters",
           "relevanceScore": 8
-        },
-        {
-          "title": "What is the Chinese-made F-7 jet that crashed into Bangladesh school?",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPc2ZSY0lLUDlPTlN2V1dFanpwVlF6WXdSdUFucW5MMlhyNHl3RVlvbkFvbGZ3SWVQcmhxMnE2THA3U3pFYUE3ZE9rS0RtaTVnaGxfUGxWS2J5TExyUlFLRmlDRmhiNV93aDdJOUlDOWhxdU5RLW1hbVNIVWplbF9LV3o0RWoyWmprOG9YU09ycUVPdUE2WWNxMDhlcF9VTEFMM2JqVk1vOG1PczZEN19TamRB?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2025-07-22T07:00:00.000Z",
-          "summary": "What is the Chinese-made F-7 jet that crashed into Bangladesh school? &nbsp;&nbsp; Reuters",
-          "relevanceScore": 6
         }
       ]
     },
     "AAIB-AI171-2025": {
-      "query": "site:flightglobal.com Air India Flight AI171 Air India 2025 || site:flightglobal.com Air India Boeing 787-8 2025 India Flight AI171 || site:flightglobal.com \"Boeing 787-8\" \"year-old\" Ahmedabad || site:aviationweek.com Air India Flight AI171 Air India 2025 || site:avherald.com Air India Flight AI171 Air India 2025 || site:aviation-safety.net Air India Flight AI171 Air India 2025 || site:reuters.com Air India Flight AI171 Air India 2025",
+      "query": "site:flightglobal.com Air India Flight AI171 Air India 2025 || site:aviationweek.com Air India Flight AI171 Air India 2025 || site:avherald.com Air India Flight AI171 Air India 2025 || site:aviation-safety.net Air India Flight AI171 Air India 2025 || site:reuters.com Air India Flight AI171 Air India 2025",
       "articles": [
+        {
+          "title": "Air India 787-8 crashes after taking off from Ahmedabad",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWllQaFdQY1hZU0w1alVpcGVubDRKQTNuUGdVejdNVktvaFk2TkkzMDM0T2pMWW44aHhjbnItZC02ckU2VWdLd1YtbUE2ZVE5dWN6bjJqOFNYemh2Zm4xSVdQdXRKOEI4N0ZULUJkMGdxUTlRUWRZX2sweVZQUlBqOTl4bi0tUEVFV3dVcTBKaV9zeWRyY3lid2x6UjB2WXdaTG5hVmxlanZkdw?oc=5",
+          "source": "FlightGlobal",
+          "publishedAt": "2025-06-12T07:00:00.000Z",
+          "summary": "Air India 787-8 crashes after taking off from Ahmedabad &nbsp;&nbsp; FlightGlobal",
+          "relevanceScore": 10
+        },
         {
           "title": "Air India Boeing 787 Accident Probe Reveals Few Clues",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSTE5UTFGdDl0WHFJUVZsaE5ZYnJTSGl1eTc0aHZVX3ByTzRSbGZ2UTZMQUdlN05rZEFJM2pTdGlKb2czUDFLZWh6ZzhyMkVlS28wVVJLTGstSTVMQk1VOGxqbXVEY3JnTTY0RlBWUDFLZWdsbHBZdml6QjAxdTJaNzVyV1dXRmVOZFpQNnNSZEwzRGd3d1hvUXhTMlpGLXVqaUpOS0pjMVRwVm4xQjg0ZlllQmw?oc=5",
@@ -758,20 +774,20 @@
           "relevanceScore": 10
         },
         {
+          "title": "Air India 787 Inspections Provide No Clues For AI 171 Accident Investigation",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb2pUWmZORFdIb0k3dUxKWkZyb0ZfXzc4Wk5LVXBRSUFHNnZnUmF4ZXExczlkaGJrQ3NyaXVSMkl3U1BlM3dLNFZJZmNvSnBkN1VuNUVaZ3E3MWVjOHFFeTBtenpydEQ4VF9hM3BzUTdGOEN1RFpXbUxPMVZLYUc4VFdJb0c4VGpST0dVRVpYYkhiME1wRDhvUUh1TkJUNUJ6elBYVldIVnpiVFVRdEZCTVI3VHp5NGlxbkpz?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2025-06-17T07:00:00.000Z",
+          "summary": "Air India 787 Inspections Provide No Clues For AI 171 Accident Investigation &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 9
+        },
+        {
           "title": "Air India Boeing 787-8 Crashes After Takeoff",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZFp3eWxUOFI3TzB6MnlvQkwzUVZwTTBWRTF1SXM5YlhpZ19tMTNEYUNkREdOaDBHS0ZBU3IzNEJxbnRyVUpEOWpMU0UzZ185MU5mS1hkdlBJYmxwUGpERS01LURnVHVNTmZXUldjS29YcVdJZUMybjBQamhHZXFvRExSamMxaTk2aFFWOUpRM1kzdUk2ck9XNC05UUdmemFQMnJzaW5paWE?oc=5",
           "source": "Aviation Week",
           "publishedAt": "2025-06-12T07:00:00.000Z",
           "summary": "Air India Boeing 787-8 Crashes After Takeoff &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 14
-        },
-        {
-          "title": "Air India Begins Rebuilding International Schedule, Adds Ahmedabad–Heathrow",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcENjNzVCeWNEOFlFd2xuSG9IQkM4UG4zTm9nWXF1QWdvbHZ4MTJNTFBVTXFfcGEzOGJZNVFRSHBtQ2IyQjktekM3WkYtWlQyNUltQzdqNUFnT2hnSjM2TXp3R0cwSzA4Ty1vZFJSM3V0M2pvcVpuZlU2U3BqZzF5UE1OU1ZlcmE5aGpKZ1dIRmt4bWFuRXBVX0lyMVJuRFYyRGRwS1NyckUxRUx1NGU5WV80cUNKb05hTHQ3dEVB?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2025-07-16T07:00:00.000Z",
-          "summary": "Air India Begins Rebuilding International Schedule, Adds Ahmedabad–Heathrow &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 7
         },
         {
           "title": "Crash: India B788 at Ahmedabad on Jun 12th 2025, lost height shortly after takeoff, no thrust reported",
@@ -824,8 +840,16 @@
       ]
     },
     "WIKIDATA-Q134880537": {
-      "query": "site:flightglobal.com Air India Flight 171 Air India 2025 || site:flightglobal.com Air India 2025 India Flight 171 || site:aviationweek.com Air India Flight 171 Air India 2025 || site:avherald.com Air India Flight 171 Air India 2025 || site:aviation-safety.net Air India Flight 171 Air India 2025 || site:aviation-safety.net Air India 2025 India Flight 171 || site:reuters.com Air India Flight 171 Air India 2025",
+      "query": "site:flightglobal.com Air India Flight 171 Air India 2025 || site:aviationweek.com Air India Flight 171 Air India 2025 || site:avherald.com Air India Flight 171 Air India 2025 || site:aviation-safety.net Air India Flight 171 Air India 2025 || site:aviation-safety.net Air India 2025 India Flight 171 || site:reuters.com Air India Flight 171 Air India 2025",
       "articles": [
+        {
+          "title": "Air India 787-8 crashes after taking off from Ahmedabad",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWllQaFdQY1hZU0w1alVpcGVubDRKQTNuUGdVejdNVktvaFk2TkkzMDM0T2pMWW44aHhjbnItZC02ckU2VWdLd1YtbUE2ZVE5dWN6bjJqOFNYemh2Zm4xSVdQdXRKOEI4N0ZULUJkMGdxUTlRUWRZX2sweVZQUlBqOTl4bi0tUEVFV3dVcTBKaV9zeWRyY3lid2x6UjB2WXdaTG5hVmxlanZkdw?oc=5",
+          "source": "FlightGlobal",
+          "publishedAt": "2025-06-12T07:00:00.000Z",
+          "summary": "Air India 787-8 crashes after taking off from Ahmedabad &nbsp;&nbsp; FlightGlobal",
+          "relevanceScore": 9
+        },
         {
           "title": "Air India Boeing 787 Accident Probe Reveals Few Clues",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSTE5UTFGdDl0WHFJUVZsaE5ZYnJTSGl1eTc0aHZVX3ByTzRSbGZ2UTZMQUdlN05rZEFJM2pTdGlKb2czUDFLZWh6ZzhyMkVlS28wVVJLTGstSTVMQk1VOGxqbXVEY3JnTTY0RlBWUDFLZWdsbHBZdml6QjAxdTJaNzVyV1dXRmVOZFpQNnNSZEwzRGd3d1hvUXhTMlpGLXVqaUpOS0pjMVRwVm4xQjg0ZlllQmw?oc=5",
@@ -835,20 +859,20 @@
           "relevanceScore": 8
         },
         {
+          "title": "Air India 787 Inspections Provide No Clues For AI 171 Accident Investigation",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb2pUWmZORFdIb0k3dUxKWkZyb0ZfXzc4Wk5LVXBRSUFHNnZnUmF4ZXExczlkaGJrQ3NyaXVSMkl3U1BlM3dLNFZJZmNvSnBkN1VuNUVaZ3E3MWVjOHFFeTBtenpydEQ4VF9hM3BzUTdGOEN1RFpXbUxPMVZLYUc4VFdJb0c4VGpST0dVRVpYYkhiME1wRDhvUUh1TkJUNUJ6elBYVldIVnpiVFVRdEZCTVI3VHp5NGlxbkpz?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2025-06-17T07:00:00.000Z",
+          "summary": "Air India 787 Inspections Provide No Clues For AI 171 Accident Investigation &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 9
+        },
+        {
           "title": "Air India Boeing 787-8 Crashes After Takeoff",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZFp3eWxUOFI3TzB6MnlvQkwzUVZwTTBWRTF1SXM5YlhpZ19tMTNEYUNkREdOaDBHS0ZBU3IzNEJxbnRyVUpEOWpMU0UzZ185MU5mS1hkdlBJYmxwUGpERS01LURnVHVNTmZXUldjS29YcVdJZUMybjBQamhHZXFvRExSamMxaTk2aFFWOUpRM1kzdUk2ck9XNC05UUdmemFQMnJzaW5paWE?oc=5",
           "source": "Aviation Week",
           "publishedAt": "2025-06-12T07:00:00.000Z",
           "summary": "Air India Boeing 787-8 Crashes After Takeoff &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 8
-        },
-        {
-          "title": "Air India Flight 171 Accident Probe Stokes More Confusion",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNd2FhOUtpSDBNMno5Zk1zSkZMQ2xCM3BtbERqLUJRUnFQelZsbzMxMFpiOVBNZzQ5b2FkSWt0OENuOW5ReDFzdDF4RG54SnVkOUktNEFWOTBxRkhySkQ1ZTIwYzItV0NQR0lwMlQ4NHFReFVBTlFFZzdHbS1GQW5ucXF1RzlzQzFUbnF1eTVodWpjbFg5bVpweVIzTDVqaWN6QnVCNFlILUFwdnRDWUlDcGFsT1lhQk9OM2c?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2025-07-18T07:00:00.000Z",
-          "summary": "Air India Flight 171 Accident Probe Stokes More Confusion &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 7
         },
         {
           "title": "Air India Flight 171",
@@ -1605,14 +1629,6 @@
           "relevanceScore": 5
         },
         {
-          "title": "Alaska Airlines found loose bolts on 'many' MAX 9 airplanes -CEO",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMFlHbVJDN256bTVCSW1idDJ5aFBkc1RjUzdMMExHdjVJUUtwX2ctb1UzVEFiM1ZTZUxYeVEtejFkV1lzTVNIVTZTZGtHUWo0aEg0VkNEeGd5aUtNbmhJVjJoZFZoNjlkVFp1NWdDdjhwazlxV1ZncVotV0Zqbjd0TVJKdnFSSXNCaXBOb0ExWGhZWDVNWE0waDYxMm5ucGNZbDlla08xR2tjU2VlRVhyZjUzdDV3dC1PdVlzb1VR?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2024-01-23T08:00:00.000Z",
-          "summary": "Alaska Airlines found loose bolts on 'many' MAX 9 airplanes -CEO &nbsp;&nbsp; Reuters",
-          "relevanceScore": 5
-        },
-        {
           "title": "Boeing 737 MAX 9 door plug bolts appeared to be missing on Alaska jet, NTSB says",
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWU5qbGdoVWFhMkxSZDd4aXFGdHNPN3ktRnctSTdMWnhBZmpGTkgtaGFvS241T18taU9MUjdQMkFEWjNkWFdUTGQwMFNKRVEtVGJ4ZXlWc3Q4WEl5WGFjVGlCTXZPWkVTZWR0Q1ZVdDhhdnd4X0xXYUxkaXRxMGRSWlB2Q1UyUElkVVA0NzFGT2p6b3hFMUFBdUV1U0hMZXBNbDh6WnUxVndBX1RMSTFuRm5ZTWN4a1lLTUJtM09jZGE4bHFtMmNxcXpoRG1zWHMxdXc0ZE05T04?oc=5",
           "source": "Reuters",
@@ -1626,6 +1642,14 @@
           "source": "Reuters",
           "publishedAt": "2024-01-06T08:00:00.000Z",
           "summary": "Indian regulator orders aircraft inspections following Alaska Airlines incident, ANI reports &nbsp;&nbsp; Reuters",
+          "relevanceScore": 6
+        },
+        {
+          "title": "Alaska Airlines 737 MAX 9 passengers may be crime victims: FBI",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY2tuTTZ4cEo3cV8zR3FRSEJCa01pSk8wbnF1N0liWDBzRi1WMHhqU1dtUWY3VExTQUNoNGRpbTZMaWhLdGZNYlAwQnZpem1QLWdHdnVMLWdteWgtTHJocmoxZ3ZGb2ZGdDh4SHlfc2pKel95Q2F4Nzk0T182aTZMeFN4ay1RSDNMZnJBTkhPeE9nd1IwQ2xuRm9PZzhDNzdDSFI5M0VUdXpVX0JLWUxETEtxaEduXzRDMV9SSFpWTmdCNjYyVUpneTd3YU1WQ0k3?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2024-03-22T07:00:00.000Z",
+          "summary": "Alaska Airlines 737 MAX 9 passengers may be crime victims: FBI &nbsp;&nbsp; Reuters",
           "relevanceScore": 6
         }
       ]
@@ -1926,12 +1950,12 @@
           "relevanceScore": 6
         },
         {
-          "title": "Sriwijaya Air crash places Indonesia's aviation safety under fresh spotlight",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRGItOWxwVFJMV2t1Uy1zVy1pd3BHZFNlRHhRT0tQdExnUTRlU0dXSVllVnMzaXZYeGp2S1NacEE5X2tKUFNvM05DUEdOQmtHWi1yQXZ5emVxYzUzc2JBOTExRWoxNTRIREhKR1lzSEJNZmZ5czVYZ21saGNzOWgtNW03ajBGX2pYdEdlS0V2eVVYOUpfQWEzS2ZpbEZvcHVZd3NJdUJCNzFQalowaGF2cG1RRkR4YkVVWF9jZmtHSDFaYUlfNlhsa0RR?oc=5",
+          "title": "Indonesia locates black boxes of crashed jet as body parts recovered",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRHE2b0UwdWxRcmIwMzgwaXFpQ2N4ZXVGZlNnS0VmdzlXZVRFN0FUcTROX0E3UVFMVjMtS1NwSFluSmNqcmY5VDJRZElHTVRQRkpPNWR1M3hmX0w0Q19ibG41WldNYW9WZDNZMGFYd08weTM2T2ZRNkNCdTd2dDlTb3FTTG9tdHgxV3pORVF6RlR1aERhb2VCXzNWTGt1dThhQm55eFVmeW1NYkJibjkxMzZVWG9NQl82ZVl1N2E1R01TRjA?oc=5",
           "source": "Reuters",
           "publishedAt": "2021-01-10T08:00:00.000Z",
-          "summary": "Sriwijaya Air crash places Indonesia's aviation safety under fresh spotlight &nbsp;&nbsp; Reuters",
-          "relevanceScore": 9
+          "summary": "Indonesia locates black boxes of crashed jet as body parts recovered &nbsp;&nbsp; Reuters",
+          "relevanceScore": 5
         }
       ]
     },
@@ -1945,6 +1969,14 @@
           "publishedAt": "2020-08-10T07:00:00.000Z",
           "summary": "Air India Express Probe Likely To Revisit Airport Safety &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 9
+        },
+        {
+          "title": "Death Toll Rises After Air India Express 737-800 Overshoots Runway",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSlpWWjdCQWI2NmtpNjUtUkFKT05CWHZfRDZlQ25UQ2FBYU9EMlhoUnRvUV9GcDRpZ2NER1c4S3Q1M09maXgzc21jZ3ZFVmpsbnZjSVBhcTV2bHFUbWlILTU1Nk5NMTE5U29CU01KTzB2Qy1nNmc2YVFfaXhpb1RkR1RIN0R2QmVwdnNIelZYZjhBanliMUtmbjdnNTBBcmtVcWdWRE4tRV8wVFE4Q0ZwbmVYUHJHVnVIeEQ5MW5TZw?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2020-08-07T07:00:00.000Z",
+          "summary": "Death Toll Rises After Air India Express 737-800 Overshoots Runway &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 11
         },
         {
           "title": "What Was The Most Significant Factor Behind The Air India Express Crash?",
@@ -2549,14 +2581,6 @@
           "relevanceScore": 4
         },
         {
-          "title": "San Francisco plane crash",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSm1BcnJmdlktZkdfaEt5UUh1c2N1Y1pmdXBOZHI3aGp4SEF0V2dkdk03Qk1rY05URWlUc21jdHQ5UnQ2ODBQM3JkdTc1V1ZSX1lVeVhzX3NubVFVVWJXSDNKNXZOb3VnR29nYzMtbEJkSXBYZVh1T2N4RV9RZFJfaTB3?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2013-07-08T07:00:00.000Z",
-          "summary": "San Francisco plane crash &nbsp;&nbsp; Reuters",
-          "relevanceScore": 6
-        },
-        {
           "title": "Asiana plane was far below target speed before San Francisco crash",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRzhnUWV6a3JuQmFReHRVa3E2ei1qUkdjd1JocXdUUS1YZDl3ZzBfTGJtWEJzdXdiN0dqRVNoOS11cUxxaHZRMWliOFA0dVplVzJrS0F4Uml3T1ZoQk9qWWhqb0JrNUlfV2NuaDhXelBQdVlVdHpYVGR5MzdkLUkxWkQyWUFCOFVPS2I2M3d2RUdHSktSekIzSjE4bUo1Q05ObUNVSUN6VEJGVzZPX19YSVJFY192TzBPLWFn?oc=5",
           "source": "Reuters",
@@ -2568,7 +2592,7 @@
           "title": "In difficult year for Boeing, 777 crash may not be major setback",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQ3ZLbUtHRXFnY0t2OG4yZFlMMW51M3ZIY25KN21hTWZER1ZBWXpFaHRCckZKX0x4SEVHd0ExT0x3aWZwRTVmQmthNXg0a2c4ZGF0Vkl6bWZDNmxzSlZNNjVkX2V4TWpjN3VyLUFLdWdsZU9kd0FUazRXd3VlbkJ1cGVwOXhGc2w5Q181TnJWdGlCd29HRnFfeUl5ZzB6YXU0YXNWNDE2Mks5Zk5qcDE5Xy1XUXoxNGJyaHNN?oc=5",
           "source": "Reuters",
-          "publishedAt": "2013-07-08T07:00:00.000Z",
+          "publishedAt": "2013-07-07T07:00:00.000Z",
           "summary": "In difficult year for Boeing, 777 crash may not be major setback &nbsp;&nbsp; Reuters",
           "relevanceScore": 4
         }
@@ -2676,6 +2700,14 @@
           "relevanceScore": 9
         },
         {
+          "title": "Search for Air France flight remnants",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmY5T1BGaFdaUUpLY1RZRXhTaUxWSXhYZWJFUFFDQ0owOHA2VzhwelFDVjdUX0RYeVI3UjB3WFp3bGpvWVpLYVMxenB6ZHFkNmwxMWpGbzIwXzFjTnVYanhLU0Q5S0ZNTWVDOUo1a0JxOFNURzZDMVJGeHJpams4ZTF1cmF4TU5XVmlYMzNGdWtiZw?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2009-06-15T07:00:00.000Z",
+          "summary": "Search for Air France flight remnants &nbsp;&nbsp; Reuters",
+          "relevanceScore": 4
+        },
+        {
           "title": "Air France and Airbus on trial 13 years after Atlantic jet disaster",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdUZPeWVKcmV0Q0VGclNTLXdUeFY3ak1kNUZyNzNfemJSQ1Q3WWFWekhRQ2VsdUxHY0FXUjUza1d2NC0tbzlfMjMxSFdVeTBBYVlrS1c4YlNEemlRdFhBUENCdVgyRmdqekZEMWJtdWhxbHNBQTAwNlRXMUdCZXR6VjdCTXZzQnk0YmEzMlZ4ekhGcjFEbE1JMGNiMWl2dnVJYndMc1FVeHpYbUNPZDF1NFFQT2N4ajl1ek5HVnpvS3k?oc=5",
           "source": "Reuters",
@@ -2690,14 +2722,6 @@
           "publishedAt": "2026-05-21T07:00:00.000Z",
           "summary": "Airbus, Air France found guilty of manslaughter over 2009 Atlantic crash &nbsp;&nbsp; Reuters",
           "relevanceScore": 5
-        },
-        {
-          "title": "Air France to compensate crash victims' families",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUVNSdk90cDFIbXo1MTlGQ3EzSXVaT1l5bE5VVE5zQmMtRlktejIwZDJ4cUsxTlctd1FRUm80SktISlJjZzZsRDBGTDRLNnl2QTF5eHY3N2lqVWtDV3FILVYwUk9lalQtZnloTkhIUDhmSTNjTXdBYnZoUUdfa0pQQlVHVnZLaW5BX2hqYmZpOWVKWjBtNHlnQzktN1hsUVdJX2c?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2009-06-19T07:00:00.000Z",
-          "summary": "Air France to compensate crash victims' families &nbsp;&nbsp; Reuters",
-          "relevanceScore": 4
         }
       ]
     },
