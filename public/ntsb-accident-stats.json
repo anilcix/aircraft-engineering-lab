@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T13:39:36.080108Z",
+  "generatedAt": "2026-11-09T14:02:38.897427Z",
   "coverageNote": "Official NTSB downloadable aviation dataset, 1982-present. Type and operator counts are NTSB-scope accident records, not a global accident census.",
   "causeMethodNote": "Cause/contributing-factor categories are AEL multi-label groupings derived primarily from NTSB Findings text, with narrative fallback when no finding category matches. They are not an official NTSB single-cause taxonomy; one event may appear in multiple categories.",
   "totalAccidents": 29075,
