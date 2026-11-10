@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T12:03:15.421558Z",
+  "updatedAt": "2026-11-10T11:43:49.561147Z",
   "source": "Wikidata Query Service / aviation accident (Q744913)",
   "license": "Wikidata structured data is CC0",
   "coverageNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
@@ -13749,7 +13749,8 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16662471",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "fatalities": 27
+      "fatalities": 27,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/IRS_Aero_Flight_9601/02"
     },
     {
       "id": "WIKIDATA-Q384845",
@@ -17737,7 +17738,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Intercontinental de Aviación",
-      "location": "Marialabaja, Colombia",
+      "location": "María La Baja, Colombia",
       "latitude": 9.983333333,
       "longitude": -75.35,
       "coordinateSource": "Wikidata event coordinate",
@@ -25108,7 +25109,8 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q65244617",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "operator": "SAN Ecuador"
+      "operator": "SAN Ecuador",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/SAN_Ecuador_Flight_832"
     },
     {
       "id": "WIKIDATA-Q16662637",
@@ -29040,7 +29042,8 @@
       "location": "Václav Havel Airport Prague, Czechoslovakia",
       "latitude": 50.10108,
       "longitude": 14.2596667,
-      "coordinateSource": "Wikidata event coordinate"
+      "coordinateSource": "Wikidata event coordinate",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1977_Praha-Ruzyne_Airport_collision"
     },
     {
       "id": "WIKIDATA-Q5348315",
@@ -32139,7 +32142,8 @@
       "latitude": 41.0055,
       "longitude": 16.3592,
       "coordinateSource": "Wikidata event coordinate",
-      "fatalities": 27
+      "fatalities": 27,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aero_Trasporti_Italiani_Flight_327"
     },
     {
       "id": "WIKIDATA-Q97329973",
@@ -32917,7 +32921,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Eastern Air Lines",
-      "location": "North Carolina, United States",
+      "location": "Raleigh–Durham International Airport, United States",
       "latitude": 35.877777777,
       "longitude": -78.7875,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -39199,7 +39203,8 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Itavia",
-      "location": "Italy"
+      "location": "Italy",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Itavia_Flight_115"
     },
     {
       "id": "WIKIDATA-Q5329960",
@@ -39347,7 +39352,8 @@
       "verificationStatus": "secondary structured discovery",
       "operator": "Aeroflot",
       "location": "Minsk-1 Airport",
-      "fatalities": 8
+      "fatalities": 8,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Aeroflot_Flight_414"
     },
     {
       "id": "WIKIDATA-Q19916799",
