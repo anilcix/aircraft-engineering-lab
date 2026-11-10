@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T19:49:37.747Z",
+  "updatedAt": "2026-11-10T03:34:32.580Z",
   "items": [
     {
       "title": "NASA Advanced Mid-Power Electric Rocket Challenge",
@@ -241,14 +241,6 @@
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık malzemeleri ve malzeme teknolojileri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
-      "title": "Materials Engineered for Re-Entry Using Innovative Needling Operations",
-      "source": "NASA Aeronautics",
-      "category": "Materials",
-      "url": "https://www.nasa.gov/technology/materials-engineered-for-re-entry-using-innovative-needling-operations/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık malzemeleri ve malzeme teknolojileri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
       "title": "Ultra-Efficient Aviation",
       "source": "NASA Aeronautics",
       "category": "Industry",
@@ -319,6 +311,14 @@
       "url": "https://www.aerospacemanufacturinganddesign.com/news/transform-aging-forging-presses-into-high-performance-aerospace-assets/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "Materials Engineered for Re-Entry Using Innovative Needling Operations",
+      "source": "NASA Aeronautics",
+      "category": "Materials",
+      "url": "https://www.nasa.gov/technology/materials-engineered-for-re-entry-using-innovative-needling-operations/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık malzemeleri ve malzeme teknolojileri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
       "title": "The cyber threat landscape in aerospace manufacturing",
