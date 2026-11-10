@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T13:28:01.722Z",
+  "updatedAt": "2026-11-10T13:03:41.616Z",
   "sourceSet": [
     {
       "name": "FlightGlobal",
@@ -245,11 +245,11 @@
           "relevanceScore": 4
         },
         {
-          "title": "Other Cessna 208 Grand Caravan N9642F, xx Aug 2026",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE41VzNRRWhVNExMRWYzRG5OM0JXTkFlQUdpSTRiQTQ3SDVIRF9UT1lrcTFFOU5oamxNSTFmcldXMmxIX2N4aHRZNENad01wc0dwZEpXX1JB?oc=5",
+          "title": "Accident Cessna 208 Caravan I C-GHXD, Thursday 16 July 2026",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jVFUwR2RfTTJzV09XSzZRNVJFbVg4dlVtS193V1Q4ZnV3aF9sVy13bGhfcmJ6bEMxdzhDeXdMMWF1SHAzakhnRDdmYThud3dUZW82ZVdn?oc=5",
           "source": "Aviation Safety Network",
-          "publishedAt": "2026-10-18T07:00:00.000Z",
-          "summary": "Other Cessna 208 Grand Caravan N9642F, xx Aug 2026 &nbsp;&nbsp; Aviation Safety Network",
+          "publishedAt": "2026-07-16T07:00:00.000Z",
+          "summary": "Accident Cessna 208 Caravan I C-GHXD, Thursday 16 July 2026 &nbsp;&nbsp; Aviation Safety Network",
           "relevanceScore": 4
         },
         {
@@ -463,6 +463,14 @@
           "relevanceScore": 5
         },
         {
+          "title": "United States Air Force",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1fVXlibU5nR09ZMnhHRXAzSlpObzdzZXpkYzA5bWRqMjZXaF95SVlKaXJzdS1mMXpOU3lZWEVxT2FVakthSWtHajVmejlBYVlWTnowNjdxTy1NQnlTUlZUZ2V5c2FCOGZybm4yMGdxUQ?oc=5",
+          "source": "FlightGlobal",
+          "publishedAt": "2026-03-26T23:49:58.000Z",
+          "summary": "United States Air Force &nbsp;&nbsp; FlightGlobal",
+          "relevanceScore": 4
+        },
+        {
           "title": "US Air Force seeking long-range anti-ship missile deployed from transport aircraft",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNY0dZY3dwNUpnUl9jU0hXOHdOLVlKOFFzRFVBdWYzTkpoSDR5U1VfWlNfQ0o0Z1l0QXQ1bkhtR0Jma3V1cHlmSk5rM1JXVDRfOXo5bXhkQmFDaFdoRjhja2EyOVRQVFpVQm1rM25zX3JSQzRtNURNWnp5UVNSai1DLTdtWnFCUzZOTW51UHEweEJUTGdsYTRpaXdxRVBRRWpvYUJsVjdRZ24yM0xuWmd6LW9mX0hOcHF1LVU4bGdUcGtLdjVGUEJR?oc=5",
           "source": "FlightGlobal",
@@ -629,14 +637,6 @@
           "relevanceScore": 6
         },
         {
-          "title": "Indian plane crashes during a demonstration at the Dubai air show, AP reports",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYnNjbEFmbm1aMnE0ZEdMT21WSjUxZlJLVHVCSW1JVndQTURPUXlxZURfZ1lhNEJhb0UwWDliaVpVQ3FacVR0S3gxZ2ZBQm45dGFMZEpaZzNUb3R6STg3Ul9TN18yZXFDRHJfR2JyUVJ6NzhJRGFkZURENUdPU2VMaEpFZTZzeUJJZndmbm14MmhHeVV1TlZScjRac3VVRHpLOU16dEw5eWJuOFlScDFrcTlBWV9Odw?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2025-11-21T08:00:00.000Z",
-          "summary": "Indian plane crashes during a demonstration at the Dubai air show, AP reports &nbsp;&nbsp; Reuters",
-          "relevanceScore": 9
-        },
-        {
           "title": "Indian Tejas fighter jet crashes in a ball of fire at Dubai Airshow, killing pilot",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVVFiemRzWW1vSThwdUZJNmkycHBmVUhyaHJYRTZBdzBPOHBFSDdVVG90dzA1TG1vNWhDeGpUTGtRb0VPQkpQbk1kSjVNUkY0RkVUNXZET3JwYjhzTUZVSWRLRksxNm9Fell5SFVJdG5ldEIybVpoOEZWSU1XdENxdnROY1REVDE1d0xPU1ROWjYwUEhBWS1ReW9kdTZTNkVUakMyV2hCYzhfUQ?oc=5",
           "source": "Reuters",
@@ -729,14 +729,6 @@
       "query": "site:flightglobal.com 2025 Dhaka fighter jet crash Bangladesh Air Force 2025 || site:flightglobal.com Bangladesh Air Force 2025 fighter jet crash || site:aviationweek.com 2025 Dhaka fighter jet crash Bangladesh Air Force 2025 || site:aviationweek.com Bangladesh Air Force 2025 fighter jet crash || site:avherald.com 2025 Dhaka fighter jet crash Bangladesh Air Force 2025 || site:avherald.com Bangladesh Air Force 2025 fighter jet crash || site:aviation-safety.net 2025 Dhaka fighter jet crash Bangladesh Air Force 2025 || site:aviation-safety.net Bangladesh Air Force 2025 fighter jet crash || site:reuters.com 2025 Dhaka fighter jet crash Bangladesh Air Force 2025",
       "articles": [
         {
-          "title": "What is the Chinese-made F-7 jet that crashed into Bangladesh school?",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPc2ZSY0lLUDlPTlN2V1dFanpwVlF6WXdSdUFucW5MMlhyNHl3RVlvbkFvbGZ3SWVQcmhxMnE2THA3U3pFYUE3ZE9rS0RtaTVnaGxfUGxWS2J5TExyUlFLRmlDRmhiNV93aDdJOUlDOWhxdU5RLW1hbVNIVWplbF9LV3o0RWoyWmprOG9YU09ycUVPdUE2WWNxMDhlcF9VTEFMM2JqVk1vOG1PczZEN19TamRB?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2025-07-22T07:00:00.000Z",
-          "summary": "What is the Chinese-made F-7 jet that crashed into Bangladesh school? &nbsp;&nbsp; Reuters",
-          "relevanceScore": 6
-        },
-        {
           "title": "At least 19 killed, scores injured as Bangladesh air force jet crashes into college campus",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbG9tSjNXTTFOdkRGNzE1cHB4YVkxV0MyQi1SeFh5VVNrX1Q0cm5UZGpVQlYtTXVLWWI3UF9PdzJZU3VvU3JNZFFYRHlUeFRsazA4ODJwZEtJRFlGRUZFWkYySXVDc0RUbHMzcWpYUWNxaWpDbmNZNVMtM09GTTlBMkZsa3doR0JXTVd4ZlZZXzI4ck9vbVVadUpaMVZ1SWowY0NyalBqVEI0OUMwNjNLSUo3X2JfeERObGktVTVPMUpfSW9HR1FUVVNSUQ?oc=5",
           "source": "Reuters",
@@ -751,6 +743,14 @@
           "publishedAt": "2025-07-22T07:00:00.000Z",
           "summary": "Students protest in Bangladesh after air force jet crash kills 31, mostly children &nbsp;&nbsp; Reuters",
           "relevanceScore": 8
+        },
+        {
+          "title": "What is the Chinese-made F-7 jet that crashed into Bangladesh school?",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPc2ZSY0lLUDlPTlN2V1dFanpwVlF6WXdSdUFucW5MMlhyNHl3RVlvbkFvbGZ3SWVQcmhxMnE2THA3U3pFYUE3ZE9rS0RtaTVnaGxfUGxWS2J5TExyUlFLRmlDRmhiNV93aDdJOUlDOWhxdU5RLW1hbVNIVWplbF9LV3o0RWoyWmprOG9YU09ycUVPdUE2WWNxMDhlcF9VTEFMM2JqVk1vOG1PczZEN19TamRB?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2025-07-22T07:00:00.000Z",
+          "summary": "What is the Chinese-made F-7 jet that crashed into Bangladesh school? &nbsp;&nbsp; Reuters",
+          "relevanceScore": 6
         }
       ]
     },
@@ -851,6 +851,14 @@
           "relevanceScore": 9
         },
         {
+          "title": "Air India Flight 171 Accident Probe Stokes More Confusion",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNd2FhOUtpSDBNMno5Zk1zSkZMQ2xCM3BtbERqLUJRUnFQelZsbzMxMFpiOVBNZzQ5b2FkSWt0OENuOW5ReDFzdDF4RG54SnVkOUktNEFWOTBxRkhySkQ1ZTIwYzItV0NQR0lwMlQ4NHFReFVBTlFFZzdHbS1GQW5ucXF1RzlzQzFUbnF1eTVodWpjbFg5bVpweVIzTDVqaWN6QnVCNFlILUFwdnRDWUlDcGFsT1lhQk9OM2c?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2025-07-18T07:00:00.000Z",
+          "summary": "Air India Flight 171 Accident Probe Stokes More Confusion &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 7
+        },
+        {
           "title": "Air India Boeing 787 Accident Probe Reveals Few Clues",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSTE5UTFGdDl0WHFJUVZsaE5ZYnJTSGl1eTc0aHZVX3ByTzRSbGZ2UTZMQUdlN05rZEFJM2pTdGlKb2czUDFLZWh6ZzhyMkVlS28wVVJLTGstSTVMQk1VOGxqbXVEY3JnTTY0RlBWUDFLZWdsbHBZdml6QjAxdTJaNzVyV1dXRmVOZFpQNnNSZEwzRGd3d1hvUXhTMlpGLXVqaUpOS0pjMVRwVm4xQjg0ZlllQmw?oc=5",
           "source": "Aviation Week",
@@ -865,14 +873,6 @@
           "publishedAt": "2025-06-17T07:00:00.000Z",
           "summary": "Air India 787 Inspections Provide No Clues For AI 171 Accident Investigation &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 9
-        },
-        {
-          "title": "Air India Boeing 787-8 Crashes After Takeoff",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZFp3eWxUOFI3TzB6MnlvQkwzUVZwTTBWRTF1SXM5YlhpZ19tMTNEYUNkREdOaDBHS0ZBU3IzNEJxbnRyVUpEOWpMU0UzZ185MU5mS1hkdlBJYmxwUGpERS01LURnVHVNTmZXUldjS29YcVdJZUMybjBQamhHZXFvRExSamMxaTk2aFFWOUpRM1kzdUk2ck9XNC05UUdmemFQMnJzaW5paWE?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2025-06-12T07:00:00.000Z",
-          "summary": "Air India Boeing 787-8 Crashes After Takeoff &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 8
         },
         {
           "title": "Air India Flight 171",
@@ -1629,14 +1629,6 @@
           "relevanceScore": 5
         },
         {
-          "title": "Boeing 737 MAX 9 door plug bolts appeared to be missing on Alaska jet, NTSB says",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWU5qbGdoVWFhMkxSZDd4aXFGdHNPN3ktRnctSTdMWnhBZmpGTkgtaGFvS241T18taU9MUjdQMkFEWjNkWFdUTGQwMFNKRVEtVGJ4ZXlWc3Q4WEl5WGFjVGlCTXZPWkVTZWR0Q1ZVdDhhdnd4X0xXYUxkaXRxMGRSWlB2Q1UyUElkVVA0NzFGT2p6b3hFMUFBdUV1U0hMZXBNbDh6WnUxVndBX1RMSTFuRm5ZTWN4a1lLTUJtM09jZGE4bHFtMmNxcXpoRG1zWHMxdXc0ZE05T04?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2024-02-06T08:00:00.000Z",
-          "summary": "Boeing 737 MAX 9 door plug bolts appeared to be missing on Alaska jet, NTSB says &nbsp;&nbsp; Reuters",
-          "relevanceScore": 4
-        },
-        {
           "title": "Indian regulator orders aircraft inspections following Alaska Airlines incident, ANI reports",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWU4yRnZtaTdmMVdEQmdIS0pBeGJPQlpkWk5MV3p0cGxaNTVJM056U256SUNRczVUS0tBVE1ySHdlUXpoUDh6STVMN25lYVVUS0VXWTVUODFwWTBuZkZ1djJmQzVmc3MtYXhvNDNiQlpEaERHVjZpQS1TRTJCVGFHYjN3SGM5LTFsWlBMV2ozYWlfR3p1TzdxQ1ZCOFpWYWRhdmRsSktaNUdadWNSYzdiaE5UaU90YXBiWThfX2xTOVFTeFZPMDdPYks0ZGs1V3ZVVHF2SWtXM1J3UQ?oc=5",
           "source": "Reuters",
@@ -1651,6 +1643,14 @@
           "publishedAt": "2024-03-22T07:00:00.000Z",
           "summary": "Alaska Airlines 737 MAX 9 passengers may be crime victims: FBI &nbsp;&nbsp; Reuters",
           "relevanceScore": 6
+        },
+        {
+          "title": "Alaska Airlines found loose bolts on 'many' MAX 9 airplanes -CEO",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMFlHbVJDN256bTVCSW1idDJ5aFBkc1RjUzdMMExHdjVJUUtwX2ctb1UzVEFiM1ZTZUxYeVEtejFkV1lzTVNIVTZTZGtHUWo0aEg0VkNEeGd5aUtNbmhJVjJoZFZoNjlkVFp1NWdDdjhwazlxV1ZncVotV0Zqbjd0TVJKdnFSSXNCaXBOb0ExWGhZWDVNWE0waDYxMm5ucGNZbDlla08xR2tjU2VlRVhyZjUzdDV3dC1PdVlzb1VR?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2024-01-23T08:00:00.000Z",
+          "summary": "Alaska Airlines found loose bolts on 'many' MAX 9 airplanes -CEO &nbsp;&nbsp; Reuters",
+          "relevanceScore": 5
         }
       ]
     },
@@ -1950,12 +1950,12 @@
           "relevanceScore": 6
         },
         {
-          "title": "Indonesia locates black boxes of crashed jet as body parts recovered",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRHE2b0UwdWxRcmIwMzgwaXFpQ2N4ZXVGZlNnS0VmdzlXZVRFN0FUcTROX0E3UVFMVjMtS1NwSFluSmNqcmY5VDJRZElHTVRQRkpPNWR1M3hmX0w0Q19ibG41WldNYW9WZDNZMGFYd08weTM2T2ZRNkNCdTd2dDlTb3FTTG9tdHgxV3pORVF6RlR1aERhb2VCXzNWTGt1dThhQm55eFVmeW1NYkJibjkxMzZVWG9NQl82ZVl1N2E1R01TRjA?oc=5",
+          "title": "Sriwijaya Air crash places Indonesia's aviation safety under fresh spotlight",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRGItOWxwVFJMV2t1Uy1zVy1pd3BHZFNlRHhRT0tQdExnUTRlU0dXSVllVnMzaXZYeGp2S1NacEE5X2tKUFNvM05DUEdOQmtHWi1yQXZ5emVxYzUzc2JBOTExRWoxNTRIREhKR1lzSEJNZmZ5czVYZ21saGNzOWgtNW03ajBGX2pYdEdlS0V2eVVYOUpfQWEzS2ZpbEZvcHVZd3NJdUJCNzFQalowaGF2cG1RRkR4YkVVWF9jZmtHSDFaYUlfNlhsa0RR?oc=5",
           "source": "Reuters",
           "publishedAt": "2021-01-10T08:00:00.000Z",
-          "summary": "Indonesia locates black boxes of crashed jet as body parts recovered &nbsp;&nbsp; Reuters",
-          "relevanceScore": 5
+          "summary": "Sriwijaya Air crash places Indonesia's aviation safety under fresh spotlight &nbsp;&nbsp; Reuters",
+          "relevanceScore": 9
         }
       ]
     },
@@ -2072,6 +2072,14 @@
           "relevanceScore": 9
         },
         {
+          "title": "Crashed Pakistan plane hit runway three times on first approach - minister",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVGw0dHVuaXNfUHFwa3dwaUZSei1FbktaMHZGN3Q0cVVQYklwQ1duZUNVTjl3Y1Z3Zk54Z2lpMi1SdmRSUzlKNm1RVWZvVGV6Y3BfU3NmcGJ3RUgxSnNJbG9RTWpUVUwtTWRZcVZKODd1dDhkbk5VQjRNdjhXVWl5NzRIZFQ3WXhoUnNucUJ0WTQ1NjZRYXdaWnpLeFktZG9HbTI2RkM4QndLb004alNKNW9WTVI2X0VZVld3UENvdm5uMjA?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2020-05-28T07:00:00.000Z",
+          "summary": "minister &nbsp;&nbsp; Reuters",
+          "relevanceScore": 5
+        },
+        {
           "title": "Death toll from Pakistan airliner crash 97, black box found: authorities",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcXZjQ0JQVVZlSzBxejhBYk5BODM3R05tUjFUS2dQbEZ3LTNNMlBKVVBEUWVrNDY5Mk1lSnNPdWlsaEFNV0FhUEV5Yk1RVE5wMHhpek5wcXlDSnh6ckFMOTNqZjZTYzRmX2JjSm1Lc2F2TGhFTUJqUXFyemRDbXh2UE8zN0t5R0Vqb1A3b2xSU1d2R1lyUXJybHFsUmR0OGJLakZ0RlZXVDZmeGwxZWluS1VhT2p2QzBlOV9WVEExSnk?oc=5",
           "source": "Reuters",
@@ -2085,14 +2093,6 @@
           "source": "Reuters",
           "publishedAt": "2020-05-23T07:00:00.000Z",
           "summary": "PIA spokesman says blackbox recovered from Karachi plane crash site &nbsp;&nbsp; Reuters",
-          "relevanceScore": 5
-        },
-        {
-          "title": "Crashed Pakistan plane hit runway three times on first approach - minister",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVGw0dHVuaXNfUHFwa3dwaUZSei1FbktaMHZGN3Q0cVVQYklwQ1duZUNVTjl3Y1Z3Zk54Z2lpMi1SdmRSUzlKNm1RVWZvVGV6Y3BfU3NmcGJ3RUgxSnNJbG9RTWpUVUwtTWRZcVZKODd1dDhkbk5VQjRNdjhXVWl5NzRIZFQ3WXhoUnNucUJ0WTQ1NjZRYXdaWnpLeFktZG9HbTI2RkM4QndLb004alNKNW9WTVI2X0VZVld3UENvdm5uMjA?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2020-05-28T07:00:00.000Z",
-          "summary": "minister &nbsp;&nbsp; Reuters",
           "relevanceScore": 5
         }
       ]
@@ -2149,11 +2149,11 @@
           "relevanceScore": 5
         },
         {
-          "title": "'Disastrous mistake': Iran acknowledges shooting down Ukrainian airliner",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVTBJazF5bGV5bldYNVlHb1VxU0FqVGxrSnZ2UFRrLWp5X0hsVklyclFDYnJQdjliclpiSEF0ZFdvd3JNeFN2QmZYVFIta2o1bElEaUc1bkFYSmVVLTRrQWJPU2FHemwtcDd3MnpnTUQ0S1o0X043bm15YXNLWW94Qi16RUQ3WU8zV3FVVS1jTVZzTVdlZ0Q2QkN1WnhTaXdFdzhiOGNaOUdwYnItNko2MGdYOWVsY1hMaEk0bnJQTQ?oc=5",
+          "title": "Iran's Zarif says Ukrainian plane crash caused by human error and 'U.S. adventurism'",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcngwZlJDZ1B3OVprbU9JRmpTdVhoNS1JYUUxYktqajJ0SUdVNWJqR2ViNTVBb2F4ZDF5dGllanRkU1RjVWItZjlMM0dxRkwtTEp5WHhXWjEwMEZFMnQtSk5VSTl3djZiVTJrc3dObHRRcjF2VnI0aXZRZ2tRZzFNUTFpVWhKYUg3NVMxWmh5dTgySWZOejNOVHlZdGJCMEc2cnJZcjd1azR6dmc5dXdNZ1JoeHBPalhFQkhpQVFlbmlTdVlmdmNpTw?oc=5",
           "source": "Reuters",
           "publishedAt": "2020-01-10T08:00:00.000Z",
-          "summary": "'Disastrous mistake': Iran acknowledges shooting down Ukrainian airliner &nbsp;&nbsp; Reuters",
+          "summary": "Iran's Zarif says Ukrainian plane crash caused by human error and 'U.S. adventurism' &nbsp;&nbsp; Reuters",
           "relevanceScore": 5
         }
       ]
@@ -2292,11 +2292,27 @@
           "relevanceScore": 4
         },
         {
+          "title": "Helicopters, ships scour sea for lost Lion 737 Max 8",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQlpZNWVUY0laWE1jV3RUUGNkMzN0Z19ZazJpaVA0TVBnUkFLWUNQTVRrSFJMTUZmTlBqam9NRklKclFwQm1fTnVaVzdCbjJtb0pVZVdDMmo1eUFyQXMtbFhBY3JlZkdnTzM4VUZ2MVhVUlRxd29YZ0szenFJbGN0djhiM1VWMl90cVQ5clcwN3ZLSF9RUGdUZVJjV0RfYk1ENHc?oc=5",
+          "source": "FlightGlobal",
+          "publishedAt": "2018-10-30T07:00:00.000Z",
+          "summary": "Helicopters, ships scour sea for lost Lion 737 Max 8 &nbsp;&nbsp; FlightGlobal",
+          "relevanceScore": 8
+        },
+        {
           "title": "The Return Of The Boeing 737 MAX",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53SmNMNjBvMVJCWU5mbWFvMTVRVHQ5VTlXTExDRVVnTVcwWVVZMmdDUThQWndPZmhVMmhWZXZVdk9Vai1yc3ZfLWNHdTROYnJRNnlxY29QNUJpNXE5WnFlY0J5R2Z5b0h4STVr?oc=5",
           "source": "Aviation Week",
           "publishedAt": "2021-12-18T00:39:37.000Z",
           "summary": "The Return Of The Boeing 737 MAX &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 4
+        },
+        {
+          "title": "The Boeing 737 MAX Timeline: From Conceptualization To Service Return",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MUlFTRTlEeGUwQUcya2VqVDBRWngzcDhvYW1kS3JVcnZqbGpKSENLN196aDFUc0JERWxzZ2JiTjAyWTZSY0FRVjAySG9aSzkzaWVPUlNUV0tZM2dKM192cHpxRnVfVW9SSVl0cTlsSnM0VWx1UkdhMnk3U2s?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2021-03-18T10:24:11.000Z",
+          "summary": "The Boeing 737 MAX Timeline: From Conceptualization To Service Return &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 4
         },
         {
@@ -2356,12 +2372,12 @@
           "relevanceScore": 11
         },
         {
-          "title": "Boeing settles nearly all Lion Air 737 MAX crash claims - filing",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObnZjMmtMcExPbm9sZ2ZzZTFjRGNNU2cyOXFJclJhRnVtRkRfZm0yOXVHUDB2ZnhpamotZDdWWmtPOWRONEdYRkx6WTdQSjVNSnpMeHVRY2lSOFFjQnFaZVJFeU5VRDRZVGhfMEE1QjR5WkhuRFV1T0RxYkI3UzBWaVZYYUF3emVnTEg0S0JoTzQyMlAyU3lxek94dUFaMi1rS3NnbWlxZUwzaEV6RzQ4dU11MzBjUQ?oc=5",
+          "title": "Indonesia report on 737 MAX crash faults Boeing design, says Lion Air made mistakes",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdGhZcTNjU1dmaDROdkt1NFY2QXlQLVlSMUMzOTVKZW9HVEF0MkEwQThjZmhMZVpSWTFqR0tKbE9GSGNWYndVSjEwel9ldFlKNl8xWktoaHZCX0NJamNOb254Y1dCa0lvR19mYkw5aWctN2lOc1phOG5nNjRsTzRaN04wbEUxRVlzME11ak5HS0I0bkhRdnpmTFRKWncySW1sWnVvc2FtYmtXY0VTZGR6Tlc2dUlDT0Q3MkJRVW1sbVhYVkwxQ0o2ekFrRlU?oc=5",
           "source": "Reuters",
-          "publishedAt": "2020-07-07T07:00:00.000Z",
-          "summary": "filing &nbsp;&nbsp; Reuters",
-          "relevanceScore": 4
+          "publishedAt": "2019-10-24T07:00:00.000Z",
+          "summary": "Indonesia report on 737 MAX crash faults Boeing design, says Lion Air made mistakes &nbsp;&nbsp; Reuters",
+          "relevanceScore": 7
         }
       ]
     },
@@ -2581,6 +2597,14 @@
           "relevanceScore": 4
         },
         {
+          "title": "San Francisco plane crash",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSm1BcnJmdlktZkdfaEt5UUh1c2N1Y1pmdXBOZHI3aGp4SEF0V2dkdk03Qk1rY05URWlUc21jdHQ5UnQ2ODBQM3JkdTc1V1ZSX1lVeVhzX3NubVFVVWJXSDNKNXZOb3VnR29nYzMtbEJkSXBYZVh1T2N4RV9RZFJfaTB3?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2013-07-08T07:00:00.000Z",
+          "summary": "San Francisco plane crash &nbsp;&nbsp; Reuters",
+          "relevanceScore": 6
+        },
+        {
           "title": "Asiana plane was far below target speed before San Francisco crash",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRzhnUWV6a3JuQmFReHRVa3E2ei1qUkdjd1JocXdUUS1YZDl3ZzBfTGJtWEJzdXdiN0dqRVNoOS11cUxxaHZRMWliOFA0dVplVzJrS0F4Uml3T1ZoQk9qWWhqb0JrNUlfV2NuaDhXelBQdVlVdHpYVGR5MzdkLUkxWkQyWUFCOFVPS2I2M3d2RUdHSktSekIzSjE4bUo1Q05ObUNVSUN6VEJGVzZPX19YSVJFY192TzBPLWFn?oc=5",
           "source": "Reuters",
@@ -2766,6 +2790,14 @@
           "source": "Reuters",
           "publishedAt": "2009-02-25T08:00:00.000Z",
           "summary": "Plane crashes in Amsterdam &nbsp;&nbsp; Reuters",
+          "relevanceScore": 5
+        },
+        {
+          "title": "Dutch say Turks, Americans among Schiphol crash dead",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeXh5ODRUMmxPZ0dsYUdFV2pRQVFBLVljVzAxQ2xSOFFmVjlqdmdKWF9wQkJTSlVFVG1vOE1CcllIdWdTTEJwcmdWTThXQldNQmZJZzFhU0x6VVFQR2Z2ZHlpU2tYR2syN0pxcE4zRUR3N3g2ZVYzYjMtMERBbXNObWtjMFFsb1A4UnZVeVBsaXlwZWc1OGhMbnZnSjRpZ1QyTkE?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2009-02-26T08:00:00.000Z",
+          "summary": "Dutch say Turks, Americans among Schiphol crash dead &nbsp;&nbsp; Reuters",
           "relevanceScore": 5
         }
       ]
