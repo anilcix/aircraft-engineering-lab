@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T11:10:31.697Z",
+  "updatedAt": "2026-11-12T19:54:21.646Z",
   "items": [
     {
       "title": "NASA Advanced Mid-Power Electric Rocket Challenge",
@@ -38,7 +38,7 @@
       "publishedAt": "2026-10-29T15:06:40.000Z"
     },
     {
-      "title": "NASA University Challenge Ignites Trajectory of Drone Entrepreneur",
+      "title": "NASA University Challenge Ignites Trajectory of Drone Entrepreneur October 28, 2026 Article",
       "source": "NASA Aeronautics",
       "category": "Industry",
       "url": "https://www.nasa.gov/aeronautics/nasa-challenge-drone-entrepreneur/",
@@ -265,14 +265,6 @@
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
-      "title": "NASA’s X-59 Aircraft and Test Pilot October 26, 2026 Image Article",
-      "source": "NASA Aeronautics",
-      "category": "Industry",
-      "url": "https://www.nasa.gov/image-article/nasas-x-59-aircraft-and-test-pilot/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
       "title": "Women to Watch in Manufacturing",
       "source": "Aerospace Manufacturing & Design",
       "category": "Manufacturing",
@@ -303,6 +295,14 @@
       "url": "https://www.aerospacemanufacturinganddesign.com/news/maxwell-aircraft-unveils-m1-hybrid-amphibious-aircraft/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, motor, türbin ve itki sistemleri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "NASA’s X-59 Aircraft and Test Pilot October 26, 2026 Image Article",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://www.nasa.gov/image-article/nasas-x-59-aircraft-and-test-pilot/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
       "title": "Electra Defense gets Air Force contract for hybrid-electric aircraft testing",
