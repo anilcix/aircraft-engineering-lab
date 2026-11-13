@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T13:21:02.089Z",
+  "updatedAt": "2026-11-13T12:43:19.010Z",
   "sourceSet": [
     {
       "name": "FlightGlobal",
@@ -25,16 +25,7 @@
   "cases": {
     "US-NTSB-ERA27MA026": {
       "query": "site:flightglobal.com 2026 Palm Beach County Learjet 60 crash Aurora Aviation dba Upper Jet 2026 || site:flightglobal.com Aurora Aviation dba Upper Jet Learjet 60 2026 Learjet 60 crash || site:flightglobal.com \"Learjet 60\" \"year-old\" Greenacres || site:aviationweek.com 2026 Palm Beach County Learjet 60 crash Aurora Aviation dba Upper Jet 2026 || site:aviationweek.com Aurora Aviation dba Upper Jet Learjet 60 2026 Learjet 60 crash || site:aviationweek.com \"Learjet 60\" \"year-old\" Greenacres || site:avherald.com 2026 Palm Beach County Learjet 60 crash Aurora Aviation dba Upper Jet 2026 || site:avherald.com Aurora Aviation dba Upper Jet Learjet 60 2026 Learjet 60 crash || site:avherald.com \"Learjet 60\" \"year-old\" Greenacres || site:aviation-safety.net 2026 Palm Beach County Learjet 60 crash Aurora Aviation dba Upper Jet 2026 || site:aviation-safety.net Aurora Aviation dba Upper Jet Learjet 60 2026 Learjet 60 crash || site:aviation-safety.net \"Learjet 60\" \"year-old\" Greenacres || site:reuters.com 2026 Palm Beach County Learjet 60 crash Aurora Aviation dba Upper Jet 2026 || site:reuters.com Aurora Aviation dba Upper Jet Learjet 60 2026 Learjet 60 crash || site:reuters.com \"Learjet 60\" \"year-old\" Greenacres",
-      "articles": [
-        {
-          "title": "NTSB Recovers Most Of Crashed Learjet 60's Left Elevator",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMjRzaDVYWEdSZXRZVlBubHZOWFp6M3g2RWJzUloxVkN3RHdmUnFtMnNGZ1RmMUlvVG1UUmlfUGdPdnFQa216V0hZNkRDZkY3OHdzVW1FNVllN3hFSk5OOXpIWjJraDBvN2NRVURiaUVtVDlSM2dNQzhWZnBoZ3pONWVpS3pta1B5ZGNyMGF1LXpEVWtPRk1MUmJ6cEJfN2t5SzVlYTRLa2dVYnFUUk9tMzNBdmJXSWc0Szc4?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2026-11-03T22:22:35.000Z",
-          "summary": "NTSB Recovers Most Of Crashed Learjet 60's Left Elevator &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 7
-        }
-      ]
+      "articles": []
     },
     "WIKIDATA-Q141947331": {
       "query": "site:flightglobal.com 2026 Uttarakhand helicopter crash 2026 || site:flightglobal.com 2026 Uttarakhand helicopter crash || site:aviationweek.com 2026 Uttarakhand helicopter crash 2026 || site:aviationweek.com 2026 Uttarakhand helicopter crash || site:avherald.com 2026 Uttarakhand helicopter crash 2026 || site:avherald.com 2026 Uttarakhand helicopter crash || site:aviation-safety.net 2026 Uttarakhand helicopter crash 2026 || site:aviation-safety.net 2026 Uttarakhand helicopter crash || site:reuters.com 2026 Uttarakhand helicopter crash 2026 || site:reuters.com 2026 Uttarakhand helicopter crash",
@@ -640,7 +631,7 @@
           "title": "India's Tejas jet-maker HAL calls Dubai crash an isolated occurrence",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOa3VuUWQxQVN1Q3FjVE9DSWVlQ3R5MWpBZXBaSzlzTDQ5TVZHSGxsZFhBWURIY1Jta0FFYWhLQXlWLXRSS293VUc4ZGNLeVA2V3M1ZEF2cjB2Tmg4Um5ySEtITGFyak94THFVTFM4YmFRSnVnLUEyWm9SMElhZURtOEV6NjVCcHg0bm1lTFA3X052Rk1tVWpHVERqdHhrR0lrREtOelBIUjFJQVRzeDhjajZkOThpb3doYW1FbUxB?oc=5",
           "source": "Reuters",
-          "publishedAt": "2025-11-24T08:00:00.000Z",
+          "publishedAt": "2025-11-23T08:00:00.000Z",
           "summary": "India's Tejas jet-maker HAL calls Dubai crash an isolated occurrence &nbsp;&nbsp; Reuters",
           "relevanceScore": 9
         }
@@ -1009,7 +1000,7 @@
       ]
     },
     "WIKIDATA-Q133067560": {
-      "query": "site:flightglobal.com 2025 FA-50 fighter jet crash 2025 || site:flightglobal.com Korea Aerospace Industries FA-50 Fighting Eagle 2025 fighter jet crash || site:flightglobal.com \"Korea Aerospace Industries FA-50 Fighting Eagle\" \"year-old\" Kalatungan Mountain Range || site:aviationweek.com 2025 FA-50 fighter jet crash 2025 || site:avherald.com 2025 FA-50 fighter jet crash 2025 || site:avherald.com Korea Aerospace Industries FA-50 Fighting Eagle 2025 fighter jet crash || site:avherald.com \"Korea Aerospace Industries FA-50 Fighting Eagle\" \"year-old\" Kalatungan Mountain Range || site:aviation-safety.net 2025 FA-50 fighter jet crash 2025 || site:aviation-safety.net Korea Aerospace Industries FA-50 Fighting Eagle 2025 fighter jet crash || site:aviation-safety.net \"Korea Aerospace Industries FA-50 Fighting Eagle\" \"year-old\" Kalatungan Mountain Range || site:reuters.com 2025 FA-50 fighter jet crash 2025 || site:reuters.com Korea Aerospace Industries FA-50 Fighting Eagle 2025 fighter jet crash || site:reuters.com \"Korea Aerospace Industries FA-50 Fighting Eagle\" \"year-old\" Kalatungan Mountain Range",
+      "query": "site:flightglobal.com 2025 FA-50 fighter jet crash 2025 || site:flightglobal.com Korea Aerospace Industries FA-50 Fighting Eagle 2025 fighter jet crash || site:flightglobal.com \"Korea Aerospace Industries FA-50 Fighting Eagle\" \"year-old\" Kalatungan Mountain Range || site:aviationweek.com 2025 FA-50 fighter jet crash 2025 || site:avherald.com 2025 FA-50 fighter jet crash 2025 || site:avherald.com Korea Aerospace Industries FA-50 Fighting Eagle 2025 fighter jet crash || site:avherald.com \"Korea Aerospace Industries FA-50 Fighting Eagle\" \"year-old\" Kalatungan Mountain Range || site:aviation-safety.net 2025 FA-50 fighter jet crash 2025 || site:aviation-safety.net Korea Aerospace Industries FA-50 Fighting Eagle 2025 fighter jet crash || site:aviation-safety.net \"Korea Aerospace Industries FA-50 Fighting Eagle\" \"year-old\" Kalatungan Mountain Range || site:reuters.com 2025 FA-50 fighter jet crash 2025",
       "articles": [
         {
           "title": "Philippines Grounds FA-50 Fleet After Fatal Crash",
@@ -1018,6 +1009,14 @@
           "publishedAt": "2025-03-05T08:00:00.000Z",
           "summary": "Philippines Grounds FA-50 Fleet After Fatal Crash &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 5
+        },
+        {
+          "title": "Philippines, South Korea boost defence cooperation, upgrades ties to strategic partnership",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbnNVbnBnUm9SRExiaWoySkRkaV95aC12SnBjRG9QRUhaUUpzd01Zck9YLWpNT2VodUt0RVZwRTV6OEhobmNxYVhsSFItb3NTYnF5Y2stWDh6WENobVp4cnVteWR1NEJhY21wU2xsbG1hdzdVNEN5bW8yUWRHZTFLbVNmTVY5LXR3SnliTFVTeUtYUnNwWkh1TC0tMXFfMnNyeXUwYnBXallRZ2loZmVDUHRHYw?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2024-10-06T07:00:00.000Z",
+          "summary": "Philippines, South Korea boost defence cooperation, upgrades ties to strategic partnership &nbsp;&nbsp; Reuters",
+          "relevanceScore": 4
         }
       ]
     },
@@ -1312,27 +1311,19 @@
           "relevanceScore": 4
         },
         {
+          "title": "PRESS RELEASE: Newcastle International Airport Named Routes World Awards Overall Winner",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZlZJWkxtbWFpMjVYVml2Y1hiYlpKZ1V5SU4yS28zazhuMGVybElQZFFFWDRoOGhVYmdsUWFzSDlhOVRWTVpaTVZDdHA1Y3BaV0w0U0dTZVRjZHQtampwV0hKUUVUb2JWQnpaSFBlVm9rdmJMbXBxVEVxQXgxTjlKTElFRmJ6a0Q0X2hpbEwxQ2lrTkNBUFZINWQ0OEpscHhNQWxtbFlrdlBVVWxFX253NGRDbV9XSWp3WVA2MzBB?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2024-10-07T07:00:00.000Z",
+          "summary": "PRESS RELEASE: Newcastle International Airport Named Routes World Awards Overall Winner &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 4
+        },
+        {
           "title": "Malta International Airport Targets North America And Scandinavia",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObWFQVWx1WDRFVzJYRGktaC1tUVR3RVp5Uy1LRWFudUZYakFiTHo1eFYwZWNfM05fVE5PbzFlaXE4V1RmM2RMSnk4TkVlV084cWlhTE4zS1lmT3RNbUpmZnhZTjQxellNcmRHaW12YVRmZ2o4U3ZoRngyU2lKWldEYWk0bHJMXzRabzlETEV1Ymotc3ZBZk84cVkycmZBR0k5TWtXMEFydWlZcTRzNVQ3N21kei1UbDdxeUE?oc=5",
           "source": "Aviation Week",
           "publishedAt": "2024-10-15T07:00:00.000Z",
           "summary": "Malta International Airport Targets North America And Scandinavia &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 4
-        },
-        {
-          "title": "Denver International Airport Named Overall Winner At Routes Americas 2025 Awards",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYWkxYng0dER4WGZwMjJ0MHl3SDJ5Y2NtYlJUdXpvOThsZXNaeGNXVVRYanZXd1FJaHR6TE03MlFmZHJpSURYbTdBNFVGcy1aai14WEhtRjdPbEwwcll3MGZPTTdSaVR2YTRCSUM0MXloSkNCVXhjeFduTkdoWG9VdER1Vzc2TWxMeWlDLTdlN003SFcyNDNFWXlCWUV1RVlTVTB4LU9lS1pKNnVnLU1VaTNQMTdXQktraXlNRHBCdw?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2025-02-12T08:00:00.000Z",
-          "summary": "Denver International Airport Named Overall Winner At Routes Americas 2025 Awards &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 4
-        },
-        {
-          "title": "Incident: Buddha AT72 at Bhairawa on Jul 11th 2024, runway excursion on landing",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE83UjB5Z2ZLZmdUZmNfZEs5c0lTMzk3RnJLd3J4dXNmR0tNeVF3Yk02Q29IY0I0ZU1JbnlyVGxHT3Zjak1rc2RCUFlBQ2FaNW9G?oc=5",
-          "source": "The Aviation Herald",
-          "publishedAt": "2024-07-11T07:00:00.000Z",
-          "summary": "Incident: Buddha AT72 at Bhairawa on Jul 11th 2024, runway excursion on landing &nbsp;&nbsp; The Aviation Herald",
           "relevanceScore": 4
         },
         {
@@ -1342,6 +1333,14 @@
           "publishedAt": "2024-12-28T08:00:00.000Z",
           "summary": "Incident: KLM B738 at Oslo on Dec 28th 2024, hydraulic problems, runway excursion &nbsp;&nbsp; The Aviation Herald",
           "relevanceScore": 6
+        },
+        {
+          "title": "Incident: Buddha AT72 at Bhairawa on Jul 11th 2024, runway excursion on landing",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE83UjB5Z2ZLZmdUZmNfZEs5c0lTMzk3RnJLd3J4dXNmR0tNeVF3Yk02Q29IY0I0ZU1JbnlyVGxHT3Zjak1rc2RCUFlBQ2FaNW9G?oc=5",
+          "source": "The Aviation Herald",
+          "publishedAt": "2024-07-11T07:00:00.000Z",
+          "summary": "Incident: Buddha AT72 at Bhairawa on Jul 11th 2024, runway excursion on landing &nbsp;&nbsp; The Aviation Herald",
+          "relevanceScore": 4
         },
         {
           "title": "Accident: Salaam L410 at Lankien on Nov 19th 2024, runway excursion, fire on board",
@@ -1621,6 +1620,14 @@
           "relevanceScore": 5
         },
         {
+          "title": "Alaska Air returns 737 MAX 9 involved in mid-air blowout to Boeing",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNlU1UHJuZzEwT2NiSUxCRWF4UnpsZWlwYWljdm9LanpDNHVnY09zdWk0YzluZFlwSmIxSGpQZ2Z4X0t4bkZUQ2Q5VDdKQXZ5R2dMLWVZUTB5SXNtdE5DYkYxVEJkQWFHMDRfbnhYaFNwc3ItZ3dmN0dCcElJTVBlWV8yZFdIUGNITk5HazZ0MzlkYnFQcUJjbUhjMXBLclJnMTVNeldFeDhhOEJFSlR6TXpaaGg0Y3hFYklZ?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2024-06-28T07:00:00.000Z",
+          "summary": "Alaska Air returns 737 MAX 9 involved in mid-air blowout to Boeing &nbsp;&nbsp; Reuters",
+          "relevanceScore": 4
+        },
+        {
           "title": "Boeing 737 MAX 9 door plug bolts appeared to be missing on Alaska jet, NTSB says",
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNWU5qbGdoVWFhMkxSZDd4aXFGdHNPN3ktRnctSTdMWnhBZmpGTkgtaGFvS241T18taU9MUjdQMkFEWjNkWFdUTGQwMFNKRVEtVGJ4ZXlWc3Q4WEl5WGFjVGlCTXZPWkVTZWR0Q1ZVdDhhdnd4X0xXYUxkaXRxMGRSWlB2Q1UyUElkVVA0NzFGT2p6b3hFMUFBdUV1U0hMZXBNbDh6WnUxVndBX1RMSTFuRm5ZTWN4a1lLTUJtM09jZGE4bHFtMmNxcXpoRG1zWHMxdXc0ZE05T04?oc=5",
           "source": "Reuters",
@@ -1634,14 +1641,6 @@
           "source": "Reuters",
           "publishedAt": "2024-01-06T08:00:00.000Z",
           "summary": "Indian regulator orders aircraft inspections following Alaska Airlines incident, ANI reports &nbsp;&nbsp; Reuters",
-          "relevanceScore": 6
-        },
-        {
-          "title": "Alaska Airlines 737 MAX 9 passengers may be crime victims: FBI",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY2tuTTZ4cEo3cV8zR3FRSEJCa01pSk8wbnF1N0liWDBzRi1WMHhqU1dtUWY3VExTQUNoNGRpbTZMaWhLdGZNYlAwQnZpem1QLWdHdnVMLWdteWgtTHJocmoxZ3ZGb2ZGdDh4SHlfc2pKel95Q2F4Nzk0T182aTZMeFN4ay1RSDNMZnJBTkhPeE9nd1IwQ2xuRm9PZzhDNzdDSFI5M0VUdXpVX0JLWUxETEtxaEduXzRDMV9SSFpWTmdCNjYyVUpneTd3YU1WQ0k3?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2024-03-22T07:00:00.000Z",
-          "summary": "Alaska Airlines 737 MAX 9 passengers may be crime victims: FBI &nbsp;&nbsp; Reuters",
           "relevanceScore": 6
         }
       ]
@@ -1690,12 +1689,12 @@
           "relevanceScore": 10
         },
         {
-          "title": "Runway incursion Accident de Havilland Canada DHC-8-315Q MPA JA722A, Tuesday 2 January 2024",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFByZm1MLXVleUo3U0RlR3o4Y0JjelY1bHJmMG5SaldDOG5mX1kzTGY0TFA5bWtObDhrN2lyTWNkclFWRUJQUWJfNU1Pb255SF9PSkNSRWp3?oc=5",
+          "title": "Runway incursion Accident Airbus A350-941 JA13XJ, Tuesday 2 January 2024",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBNUWhKQUlSVW1UVk5lQkE3aXR5OHN2eVFMdnEwNVJsTDdjdmVBd3FURGJJSHhaX2dlUE9uZzRWQ1A3NkJLTkFJVHhBSjl1MTFxWWpxMFJn?oc=5",
           "source": "Aviation Safety Network",
           "publishedAt": "2024-01-02T08:00:00.000Z",
-          "summary": "Runway incursion Accident de Havilland Canada DHC-8-315Q MPA JA722A, Tuesday 2 January 2024 &nbsp;&nbsp; Aviation Safety Network",
-          "relevanceScore": 4
+          "summary": "Runway incursion Accident Airbus A350-941 JA13XJ, Tuesday 2 January 2024 &nbsp;&nbsp; Aviation Safety Network",
+          "relevanceScore": 10
         },
         {
           "title": "Japan Airlines counts losses from wrecked Tokyo plane",
@@ -1841,6 +1840,14 @@
           "relevanceScore": 4
         },
         {
+          "title": "China confirms all on board China Eastern plane died in crash",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRV95TjJzYUxQb1VNbGhKYWZXU3NZbktZQVg2alJiQjBWRGhEaV9Dek1WRUZzb1I4RHczZWwzckxpVVN6TWpaYzJaeTAzVnYxSGFKOWYzaWhNakxOTndkMXNfS0IxbXNiMUdLMUpaYVFPVUtNSHlJMzhSZFpQYmdUTXZjRGpZeFVHZDh3SDA5VWRUMUZqLUo1eUtPcjFQQjJtS1A5YmlLclU?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2022-03-26T07:00:00.000Z",
+          "summary": "China confirms all on board China Eastern plane died in crash &nbsp;&nbsp; Reuters",
+          "relevanceScore": 8
+        },
+        {
           "title": "China Eastern faces more losses, regulatory scrutiny after plane crash",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdFIyUWxhME1QUGtpREJmMmgxZ3dzRDd1NWVxcFBvWGFoMDBJcC1JQkdaSUtoV00zdmlib25WVXFpcmdkTVB1X0dIWGFuamRFTHNNell1LXRxblU2bHo0M3dqeGlDbXRncHl3LVdFa2hfSlB6N0FyZ0lYcWEyX05Ha2ltLUZOWlRucTBoNXFiZ0U3ZGlDTHlDTmRyTkhackV5RUplWURKUERmTUdtek9lT2tmMS1LWWtBd1NfMVQzczktY2hzUUdhNjN1dk4?oc=5",
           "source": "Reuters",
@@ -1855,14 +1862,6 @@
           "publishedAt": "2022-03-23T07:00:00.000Z",
           "summary": "China finds first black box from crashed jet, U.S. discussing quarantine for investigators &nbsp;&nbsp; Reuters",
           "relevanceScore": 5
-        },
-        {
-          "title": "Grim aftermath at China Eastern crash site",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE10TU55cmxTUFpyNFFycjd0RzFNbTZFektrbWhMdDc2UURadndJek5NdlhOVzNFbEtsY0NXNUJ6T3dJeWgzVWVvM1BTbHBsMFlCWjBCcGdfVmIxa3VWQTZv?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2022-03-24T07:00:00.000Z",
-          "summary": "Grim aftermath at China Eastern crash site &nbsp;&nbsp; Reuters",
-          "relevanceScore": 8
         }
       ]
     },
@@ -1947,20 +1946,20 @@
           "relevanceScore": 9
         },
         {
-          "title": "Death Toll Rises After Air India Express 737-800 Overshoots Runway",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSlpWWjdCQWI2NmtpNjUtUkFKT05CWHZfRDZlQ25UQ2FBYU9EMlhoUnRvUV9GcDRpZ2NER1c4S3Q1M09maXgzc21jZ3ZFVmpsbnZjSVBhcTV2bHFUbWlILTU1Nk5NMTE5U29CU01KTzB2Qy1nNmc2YVFfaXhpb1RkR1RIN0R2QmVwdnNIelZYZjhBanliMUtmbjdnNTBBcmtVcWdWRE4tRV8wVFE4Q0ZwbmVYUHJHVnVIeEQ5MW5TZw?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2020-08-07T07:00:00.000Z",
-          "summary": "Death Toll Rises After Air India Express 737-800 Overshoots Runway &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 11
-        },
-        {
           "title": "What Was The Most Significant Factor Behind The Air India Express Crash?",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPS2dTaDVXblJZTlNGMEhyNFlYVUExajNIa1M5dGk5elF0d0hiY0lHcEZTRHpIejgxTGRCM2YyU0NPNkt6SnVVTlNfenV5d1h2aHZoS3ExSVFrXzd1a3paRjZEbFZtWHhxV2N6NFJ0OVBVeUhLWi1GWE43VU40SmtuNFRKb1lneVlJcWN4OTZ4VHFFazROOTJDRjJhakVXMHhUdE93Mg?oc=5",
           "source": "Aviation Week",
           "publishedAt": "2020-08-10T07:00:00.000Z",
           "summary": "What Was The Most Significant Factor Behind The Air India Express Crash? &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 9
+        },
+        {
+          "title": "Death Toll Rises After Air India Express 737-800 Overshoots Runway",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSlpWWjdCQWI2NmtpNjUtUkFKT05CWHZfRDZlQ25UQ2FBYU9EMlhoUnRvUV9GcDRpZ2NER1c4S3Q1M09maXgzc21jZ3ZFVmpsbnZjSVBhcTV2bHFUbWlILTU1Nk5NMTE5U29CU01KTzB2Qy1nNmc2YVFfaXhpb1RkR1RIN0R2QmVwdnNIelZYZjhBanliMUtmbjdnNTBBcmtVcWdWRE4tRV8wVFE4Q0ZwbmVYUHJHVnVIeEQ5MW5TZw?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2020-08-07T07:00:00.000Z",
+          "summary": "Death Toll Rises After Air India Express 737-800 Overshoots Runway &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 11
         },
         {
           "title": "Accident: India Express B738 at Kozhikode on Aug 7th 2020, overran runway and fell into valley",
@@ -2162,14 +2161,6 @@
           "relevanceScore": 4
         },
         {
-          "title": "The Return Of The Boeing 737 MAX",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53SmNMNjBvMVJCWU5mbWFvMTVRVHQ5VTlXTExDRVVnTVcwWVVZMmdDUThQWndPZmhVMmhWZXZVdk9Vai1yc3ZfLWNHdTROYnJRNnlxY29QNUJpNXE5WnFlY0J5R2Z5b0h4STVr?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2021-12-18T00:39:37.000Z",
-          "summary": "The Return Of The Boeing 737 MAX &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 4
-        },
-        {
           "title": "What routes does the Boeing 737 MAX 8 fly?",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQazFkRnduM2tudmF5N1JIbVJiMUJ5SG9HY2x5UWtON1FKVGtPZlFDaFBaMlNiUTM0YldBdFJzQzJuR3R3X2JiV3hmRFhwTmV5b09qSWJXNUxlOVl2ajR4MTlVZUZqUUJkbDJHRmItTjhkMGVDRnBVaERMUXMyZnNDY2RYVnNUSUtvc1R3WDZjZVZINFVSVUp3X0ZB?oc=5",
           "source": "Aviation Week",
@@ -2183,6 +2174,14 @@
           "source": "Aviation Week",
           "publishedAt": "2019-04-04T07:00:00.000Z",
           "summary": "Interim Report Details Ethiopian Flight 302 Pilots’ Confusion &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 4
+        },
+        {
+          "title": "Boeing 737 MAX Fleet’s Return To Service Gains Momentum",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdm9sOG1BRFduWWVzazZMblV0UnlZc000QUpaX09QQ0tnRVp5ZjQ1YlIwYVpmcDF1OXdyLTdKUmxyZTVQMEV2UDcxLU1YREpISkRpWHhYdndJeXIxbGNGN21maFdiXzVkQXNVWXlWNkdVeWRwWk9tZ3psejZRcXZLTDNQZHVVZl9ISV92QUF3YVQ0aE85MWMzTDVRMWdIX3ZPZHc?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2021-03-12T08:00:00.000Z",
+          "summary": "Boeing 737 MAX Fleet’s Return To Service Gains Momentum &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 4
         },
         {
@@ -2252,14 +2251,6 @@
       "query": "site:flightglobal.com Lion Air Flight 610 Lion Air 2018 || site:aviationweek.com Lion Air Flight 610 Lion Air 2018 || site:avherald.com Lion Air Flight 610 Lion Air 2018 || site:aviation-safety.net Lion Air Flight 610 Lion Air 2018 || site:reuters.com Lion Air Flight 610 Lion Air 2018",
       "articles": [
         {
-          "title": "How Boeing 737 Max flight computers now handle angle-of-attack failures",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN2RERXNNeUttTXVwa3JZQXdURG5IMVlzMVQ4WXB3VTRUbUtCSnVKeExTMGNjclFHSXFUZVFIUnY1YW5GekpqVWh3bDd0NGpnN0UzSHdXdzlCdmp4ZVpZWUI5aFpzY2R6WTJMcGp0U1U5aFo0eWVyTGF2QlM0TVJBZm5KQklxbnIzeU03dTVPZmdkZHlrYnJFUkpKZDNCNVoxZEJjWFpwMmM3Vkw4cFVwdjBkU1RHSEhneTFmRw?oc=5",
-          "source": "FlightGlobal",
-          "publishedAt": "2020-11-18T08:00:00.000Z",
-          "summary": "How Boeing 737 Max flight computers now handle angle-of-attack failures &nbsp;&nbsp; FlightGlobal",
-          "relevanceScore": 4
-        },
-        {
           "title": "Helicopters, ships scour sea for lost Lion 737 Max 8",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQlpZNWVUY0laWE1jV3RUUGNkMzN0Z19ZazJpaVA0TVBnUkFLWUNQTVRrSFJMTUZmTlBqam9NRklKclFwQm1fTnVaVzdCbjJtb0pVZVdDMmo1eUFyQXMtbFhBY3JlZkdnTzM4VUZ2MVhVUlRxd29YZ0szenFJbGN0djhiM1VWMl90cVQ5clcwN3ZLSF9RUGdUZVJjV0RfYk1ENHc?oc=5",
           "source": "FlightGlobal",
@@ -2268,11 +2259,11 @@
           "relevanceScore": 8
         },
         {
-          "title": "The Return Of The Boeing 737 MAX",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53SmNMNjBvMVJCWU5mbWFvMTVRVHQ5VTlXTExDRVVnTVcwWVVZMmdDUThQWndPZmhVMmhWZXZVdk9Vai1yc3ZfLWNHdTROYnJRNnlxY29QNUJpNXE5WnFlY0J5R2Z5b0h4STVr?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2021-12-18T00:39:37.000Z",
-          "summary": "The Return Of The Boeing 737 MAX &nbsp;&nbsp; Aviation Week",
+          "title": "How Boeing 737 Max flight computers now handle angle-of-attack failures",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN2RERXNNeUttTXVwa3JZQXdURG5IMVlzMVQ4WXB3VTRUbUtCSnVKeExTMGNjclFHSXFUZVFIUnY1YW5GekpqVWh3bDd0NGpnN0UzSHdXdzlCdmp4ZVpZWUI5aFpzY2R6WTJMcGp0U1U5aFo0eWVyTGF2QlM0TVJBZm5KQklxbnIzeU03dTVPZmdkZHlrYnJFUkpKZDNCNVoxZEJjWFpwMmM3Vkw4cFVwdjBkU1RHSEhneTFmRw?oc=5",
+          "source": "FlightGlobal",
+          "publishedAt": "2020-11-18T08:00:00.000Z",
+          "summary": "How Boeing 737 Max flight computers now handle angle-of-attack failures &nbsp;&nbsp; FlightGlobal",
           "relevanceScore": 4
         },
         {
@@ -2332,12 +2323,12 @@
           "relevanceScore": 11
         },
         {
-          "title": "Indonesia report on 737 MAX crash faults Boeing design, says Lion Air made mistakes",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdGhZcTNjU1dmaDROdkt1NFY2QXlQLVlSMUMzOTVKZW9HVEF0MkEwQThjZmhMZVpSWTFqR0tKbE9GSGNWYndVSjEwel9ldFlKNl8xWktoaHZCX0NJamNOb254Y1dCa0lvR19mYkw5aWctN2lOc1phOG5nNjRsTzRaN04wbEUxRVlzME11ak5HS0I0bkhRdnpmTFRKWncySW1sWnVvc2FtYmtXY0VTZGR6Tlc2dUlDT0Q3MkJRVW1sbVhYVkwxQ0o2ekFrRlU?oc=5",
+          "title": "Boeing settles nearly all Lion Air 737 MAX crash claims - filing",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObnZjMmtMcExPbm9sZ2ZzZTFjRGNNU2cyOXFJclJhRnVtRkRfZm0yOXVHUDB2ZnhpamotZDdWWmtPOWRONEdYRkx6WTdQSjVNSnpMeHVRY2lSOFFjQnFaZVJFeU5VRDRZVGhfMEE1QjR5WkhuRFV1T0RxYkI3UzBWaVZYYUF3emVnTEg0S0JoTzQyMlAyU3lxek94dUFaMi1rS3NnbWlxZUwzaEV6RzQ4dU11MzBjUQ?oc=5",
           "source": "Reuters",
-          "publishedAt": "2019-10-24T07:00:00.000Z",
-          "summary": "Indonesia report on 737 MAX crash faults Boeing design, says Lion Air made mistakes &nbsp;&nbsp; Reuters",
-          "relevanceScore": 7
+          "publishedAt": "2020-07-07T07:00:00.000Z",
+          "summary": "filing &nbsp;&nbsp; Reuters",
+          "relevanceScore": 4
         }
       ]
     },
@@ -2574,7 +2565,7 @@
         },
         {
           "title": "San Francisco plane crash",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNXVXbmhTRnlIY2ZJbWNjZl9uU0xiZFNORWg1R3Z4Q1dkb1o2dXlES3FvOU9vdHJxbmgtUUROU3ZOWEk1eFVRbHNRbkJHQmJXbXdDRjc1VWdDWVliS0JPNDV5Yy1zTVR3d25VRFNsaFV2VlFPSGJhTE5GWlNYOE1qdDRR?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSm1BcnJmdlktZkdfaEt5UUh1c2N1Y1pmdXBOZHI3aGp4SEF0V2dkdk03Qk1rY05URWlUc21jdHQ5UnQ2ODBQM3JkdTc1V1ZSX1lVeVhzX3NubVFVVWJXSDNKNXZOb3VnR29nYzMtbEJkSXBYZVh1T2N4RV9RZFJfaTB3?oc=5",
           "source": "Reuters",
           "publishedAt": "2013-07-08T07:00:00.000Z",
           "summary": "San Francisco plane crash &nbsp;&nbsp; Reuters",
@@ -2839,6 +2830,14 @@
     "AAIB-BA38-2008": {
       "query": "site:flightglobal.com British Airways Flight 38 British Airways 2008 || site:aviationweek.com British Airways Flight 38 British Airways 2008 || site:aviationweek.com British Airways Boeing 777-200ER 2008 Airways Flight 38 || site:aviationweek.com \"Boeing 777-200ER\" \"year-old\" London Heathrow || site:avherald.com British Airways Flight 38 British Airways 2008 || site:aviation-safety.net British Airways Flight 38 British Airways 2008 || site:reuters.com British Airways Flight 38 British Airways 2008 || site:reuters.com British Airways Boeing 777-200ER 2008 Airways Flight 38 || site:reuters.com \"Boeing 777-200ER\" \"year-old\" London Heathrow",
       "articles": [
+        {
+          "title": "Power loss caused BA 777 crash landing at Heathrow",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUzd5S0VBMmZkUkVzWkJJQlB2d3ktUVBqbExjUTE4eDlVeFdUN0pCQ0ZTQWFDVzQzTHJKMHplRmM1V3VMUk9BWkJPd3pURXJ0bEl5WG44TXJ6aDN0S2c2Rjd6clZQaEVOYk83TU5JM3RZZ0QxZGdQSmtVS3pzNmxrWXRKTXZkbmFWa19sWXU2S1hrcjdnU2I3eXoxTnEzTUtK?oc=5",
+          "source": "FlightGlobal",
+          "publishedAt": "2008-01-18T08:00:00.000Z",
+          "summary": "Power loss caused BA 777 crash landing at Heathrow &nbsp;&nbsp; FlightGlobal",
+          "relevanceScore": 6
+        },
         {
           "title": "PICTURES: BA Boeing 777 Heathrow crash evidence",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUm50T3VMc0JpTXRJVnU1UUoyXzM4X0dJcXBJa3luU1J3bzZvOXotSHRXeEhobzRaUllFdzFhcEJtak92aG5HV1oyMVktMlFqWlV3cEpWOVJQRFlPNHdRZ19xT09PYTd1Q2VaVjM2dGw1WGNOQWdpV0xES1VWd3g1TnFxUHI1dlNfZlItOFROMlNSRkIyVWpOaW10SQ?oc=5",
