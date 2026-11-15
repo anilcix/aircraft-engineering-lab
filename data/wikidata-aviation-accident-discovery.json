@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T10:52:27.360275Z",
+  "updatedAt": "2026-11-15T11:27:38.947814Z",
   "source": "Wikidata Query Service / aviation accident (Q744913)",
   "license": "Wikidata structured data is CC0",
   "coverageNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
@@ -1635,7 +1635,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q111973540",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "operator": "Tibet Airlines",
+      "operator": "Xizang Airlines",
       "aircraft": "Airbus A319-115",
       "family": "Airbus A320 Family",
       "location": "Chongqing Jiangbei International Airport, People's Republic of China",
@@ -19426,7 +19426,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Pakistan International Airlines",
-      "location": "Lower Himalayan Range, Nepal",
+      "location": "Kathmandu, Nepal",
       "latitude": 27.53277778,
       "longitude": 85.28472222,
       "coordinateSource": "Wikidata event coordinate",
@@ -27993,7 +27993,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Korpijärvi, South Korea",
+      "location": "Karelian Autonomous Soviet Socialist Republic, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -45603,7 +45603,7 @@
       "operator": "Red Army",
       "aircraft": "Douglas A-20 Havoc",
       "family": "Douglas A-20 Havoc",
-      "location": "Wróblik (Opawskie Mountains), Poland"
+      "location": "Wróblik, Poland"
     },
     {
       "id": "WIKIDATA-Q107491621",
