@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-19T12:06:09.189437Z",
-  "coverageNote": "Federated global aviation safety index: 41 official/curated cases plus 3093 Wikidata discovery records for coverage. Discovery records are excluded from authoritative cause analysis until verified against an Annex 13 authority.",
+  "updatedAt": "2026-11-20T12:07:40.539257Z",
+  "coverageNote": "Federated global aviation safety index: 41 official/curated cases plus 3095 Wikidata discovery records for coverage. Discovery records are excluded from authoritative cause analysis until verified against an Annex 13 authority.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality/cause statistics use verified or curated records; discovery-layer values may be incomplete and are kept separate.",
   "fleetProfiles": [
     {
@@ -1413,7 +1413,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q126365376",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
-      "operator": "KLM Cityhopper",
+      "operator": "KLM",
       "location": "Amsterdam Schiphol Airport",
       "latitude": 52.3081,
       "longitude": 4.764169444,
@@ -20810,7 +20810,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q111948125",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
-      "location": "Dallas/Fort Worth International Airport, United States",
+      "location": "Dallas, United States",
       "latitude": 32.779166666,
       "longitude": -96.808888888,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -29099,6 +29099,20 @@
       "probableCause": ""
     },
     {
+      "id": "WIKIDATA-Q142213256",
+      "date": "1980-02-16",
+      "title": "Q142213256",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q142213256",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery — cause not authoritative",
+      "fatalities": 7,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/Redcoat_Air_Cargo_Flight_103",
+      "probableCause": ""
+    },
+    {
       "id": "WIKIDATA-Q2254354",
       "date": "1980-01-21",
       "title": "Iran Air Flight 291",
@@ -30296,7 +30310,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Korpijärvi, South Korea",
+      "location": "Karelian Autonomous Soviet Socialist Republic, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
@@ -35527,7 +35541,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
       "operator": "Eastern Air Lines",
-      "location": "Raleigh–Durham International Airport, United States",
+      "location": "North Carolina, United States",
       "latitude": 35.877777777,
       "longitude": -78.7875,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -35959,6 +35973,23 @@
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 6,
       "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1971_Colorado_Aviation_Aero_Commander_680_crash",
+      "probableCause": ""
+    },
+    {
+      "id": "WIKIDATA-Q142216355",
+      "date": "1971-05-25",
+      "title": "Q142216355",
+      "authority": "Wikidata discovery",
+      "status": "Discovery record — official verification pending",
+      "summary": "Structured discovery record from Wikidata. Use the linked source to identify the responsible Annex 13 investigation authority before treating causal or fatality data as authoritative.",
+      "sourceUrl": "http://www.wikidata.org/entity/Q142216355",
+      "sourceTier": "discovery",
+      "verificationStatus": "secondary structured discovery — cause not authoritative",
+      "location": "Chile",
+      "latitude": -33.517861111,
+      "longitude": -70.706805555,
+      "coordinateSource": "Wikidata event coordinate",
+      "fatalities": 3,
       "probableCause": ""
     },
     {
@@ -38646,7 +38677,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16488145",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
-      "location": "Turksib District",
+      "location": "Guldala",
       "fatalities": 3,
       "probableCause": ""
     },
@@ -45548,7 +45579,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702261",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
-      "location": "Kemerovsky District",
+      "location": "Barzas",
       "fatalities": 27,
       "probableCause": ""
     },
@@ -51927,9 +51958,9 @@
   "discoveryNote": "Wikidata is used only to expand case, timeline and map coverage. Its discovery records are not treated as authoritative probable-cause or investigation findings.",
   "counts": {
     "officialIndexed": 41,
-    "discovery": 3093,
-    "totalVisible": 3134,
-    "withCoordinates": 1623
+    "discovery": 3095,
+    "totalVisible": 3136,
+    "withCoordinates": 1624
   },
-  "mapNote": "1623 indexed records currently include structured map coordinates. Discovery coordinates improve coverage but do not imply cause verification."
+  "mapNote": "1624 indexed records currently include structured map coordinates. Discovery coordinates improve coverage but do not imply cause verification."
 }
