@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T12:07:40.539257Z",
+  "updatedAt": "2026-11-21T11:41:57.495425Z",
   "coverageNote": "Federated global aviation safety index: 41 official/curated cases plus 3095 Wikidata discovery records for coverage. Discovery records are excluded from authoritative cause analysis until verified against an Annex 13 authority.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality/cause statistics use verified or curated records; discovery-layer values may be incomplete and are kept separate.",
   "fleetProfiles": [
@@ -1413,7 +1413,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q126365376",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
-      "operator": "KLM",
+      "operator": "KLM Cityhopper",
       "location": "Amsterdam Schiphol Airport",
       "latitude": 52.3081,
       "longitude": 4.764169444,
@@ -15861,6 +15861,7 @@
       "latitude": 41.66,
       "longitude": 41.820222,
       "coordinateSource": "Wikidata event coordinate",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2000_Batumi_Ilyushin_Il-18_crash",
       "probableCause": ""
     },
     {
@@ -20810,7 +20811,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q111948125",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
-      "location": "Dallas, United States",
+      "location": "Dallas/Fort Worth International Airport, United States",
       "latitude": 32.779166666,
       "longitude": -96.808888888,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -30310,7 +30311,7 @@
       "operator": "Korean Air",
       "aircraft": "Boeing 707",
       "family": "Boeing 707",
-      "location": "Karelian Autonomous Soviet Socialist Republic, South Korea",
+      "location": "Korpijärvi, South Korea",
       "latitude": 66.048333333,
       "longitude": 33.070555555,
       "coordinateSource": "Wikidata event coordinate",
