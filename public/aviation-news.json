@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T02:15:06.185Z",
+  "updatedAt": "2026-11-21T11:01:21.752Z",
   "items": [
     {
       "title": "ASG, Flair Airlines and Phoenix Aviation Capital sign co-operation agreement",
@@ -373,6 +373,22 @@
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
+      "title": "Nammo UK confirms engine test success for lunar lander",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Propulsion",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/nammo-uk-confirms-engine-test-success-lunar-lander/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
+      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, motor, türbin ve itki sistemleri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "Manufacturing execution systems for single-part manufacturing",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Manufacturing",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/manufacturing-execution-systems-single-part-manufacturing/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
+      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
       "title": "Sinclair Community College, BETA Technologies showcase electric aircraft",
       "source": "Aerospace Manufacturing & Design",
       "category": "Propulsion",
@@ -381,18 +397,18 @@
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, motor, türbin ve itki sistemleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
-      "title": "GE Aerospace commits $100K to Embry-Riddle",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Industry",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/ge-aerospace-commits-100k-embry-riddle/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
       "title": "Aerospace Flexible Heaters",
       "source": "Aerospace Manufacturing & Design",
       "category": "Industry",
       "url": "https://www.aerospacemanufacturinganddesign.com/article/comparing-aerospace-flexible-heaters-acrylic-fep-all-polyimide/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
+      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "GE Aerospace commits $100K to Embry-Riddle",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Industry",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/ge-aerospace-commits-100k-embry-riddle/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
@@ -499,22 +515,6 @@
       "url": "https://www.nasa.gov/image-article/nasas-x-59-aircraft-and-test-pilot/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "Electra Defense gets Air Force contract for hybrid-electric aircraft testing",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Propulsion",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/electra-defense-gets-air-force-contract-hybrid-electric-aircraft-testing/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, motor, türbin ve itki sistemleri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "Solestra Group continues expansion with Jeh Aerospace",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Industry",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/solestra-group-continues-expansion-with-jeh-aerospace/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     }
   ]
 }
