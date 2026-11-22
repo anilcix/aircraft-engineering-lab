@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T11:41:57.495425Z",
+  "updatedAt": "2026-11-22T11:56:58.344929Z",
   "coverageNote": "Federated global aviation safety index: 41 official/curated cases plus 3095 Wikidata discovery records for coverage. Discovery records are excluded from authoritative cause analysis until verified against an Annex 13 authority.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality/cause statistics use verified or curated records; discovery-layer values may be incomplete and are kept separate.",
   "fleetProfiles": [
@@ -21186,7 +21186,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
       "operator": "Pakistan International Airlines",
-      "location": "Kathmandu, Nepal",
+      "location": "Lower Himalayan Range, Nepal",
       "latitude": 27.53277778,
       "longitude": 85.28472222,
       "coordinateSource": "Wikidata event coordinate",
@@ -22469,7 +22469,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16702263",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
-      "location": "Pavlodar Airport",
+      "location": "Kazakh Soviet Socialist Republic",
       "latitude": 48.0,
       "longitude": 68.0,
       "coordinateSource": "Wikidata event-location coordinate",
@@ -38678,7 +38678,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q16488145",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
-      "location": "Guldala",
+      "location": "Turksib District",
       "fatalities": 3,
       "probableCause": ""
     },
