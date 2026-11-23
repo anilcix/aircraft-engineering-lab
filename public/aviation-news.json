@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-11-23T01:43:17.095Z",
+  "updatedAt": "2026-11-23T12:41:23.865Z",
   "items": [
+    {
+      "title": "Fatal Kamaka Grand Caravan crash probe reveals maintenance procedure weaknesses",
+      "source": "FlightGlobal",
+      "category": "MRO",
+      "url": "https://www.flightglobal.com/ops-safety/2026/11/fatal-kamaka-grand-caravan-crash-probe-reveals-maintenance-procedure-weaknesses/",
+      "summary": "Latest technical aerospace item collected from FlightGlobal.",
+      "summaryTr": "FlightGlobal kaynaklı bu gelişme, bakım, onarım ve revizyon faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor.",
+      "publishedAt": "2026-11-23T10:28:16.000Z"
+    },
     {
       "title": "ASG, Flair Airlines and Phoenix Aviation Capital sign co-operation agreement",
       "source": "FlightGlobal",
@@ -17,6 +26,15 @@
       "url": "https://www.flightglobal.com/category/business-general-aviation/",
       "summary": "Latest technical aerospace item collected from FlightGlobal.",
       "summaryTr": "FlightGlobal kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor.",
+      "publishedAt": "2026-11-20T17:41:08.000Z"
+    },
+    {
+      "title": "Air to inaugurate new Florida eVTOL assembly site",
+      "source": "FlightGlobal",
+      "category": "New Concepts",
+      "url": "https://www.flightglobal.com/business-general-aviation/2026/11/air-to-inaugurate-new-florida-evtol-assembly-site/",
+      "summary": "Latest technical aerospace item collected from FlightGlobal.",
+      "summaryTr": "FlightGlobal kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor.",
       "publishedAt": "2026-11-20T17:41:08.000Z"
     },
     {
@@ -499,22 +517,6 @@
       "url": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
       "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "US Marine Corps orders additional UC-12W&#x2B; aircraft",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Industry",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/us-marine-corps-orders-additional-uc-12w-plus-aircraft/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "Maxwell Aircraft unveils M1 Hybrid amphibious aircraft",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Propulsion",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/maxwell-aircraft-unveils-m1-hybrid-amphibious-aircraft/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, motor, türbin ve itki sistemleri alanındaki yeni bir güncellemeyi ele alıyor."
     }
   ]
 }
