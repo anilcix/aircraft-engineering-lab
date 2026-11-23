@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T12:56:19.766Z",
+  "updatedAt": "2026-11-23T15:27:32.551Z",
   "sourceSet": [
     {
       "name": "FlightGlobal",
@@ -826,12 +826,12 @@
           "relevanceScore": 8
         },
         {
-          "title": "Air India Flight 171 Accident Probe Stokes More Confusion",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNd2FhOUtpSDBNMno5Zk1zSkZMQ2xCM3BtbERqLUJRUnFQelZsbzMxMFpiOVBNZzQ5b2FkSWt0OENuOW5ReDFzdDF4RG54SnVkOUktNEFWOTBxRkhySkQ1ZTIwYzItV0NQR0lwMlQ4NHFReFVBTlFFZzdHbS1GQW5ucXF1RzlzQzFUbnF1eTVodWpjbFg5bVpweVIzTDVqaWN6QnVCNFlILUFwdnRDWUlDcGFsT1lhQk9OM2c?oc=5",
+          "title": "Air India Crash Investigators Working To Extract Recorder Data",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUS0zOGVTX1pCRUZTeVhCZm5iUjliMTN3X09FSVd1ZHJoaHl5RXNhdGJhQ2hpMmNRSEpQU2phcllsVFY3VVVrTHpNOG1HNDJjdjhla1VaX1VQaFBfSkthaUJYeUprV0FxT2tHQWRiWGhFRkxXM081NHhUNXZia1hodUo4U3VuVjd3WXFhT0p2YUxpWUc0Tm1vVWRlYzdESkIybjhkeGpuUzlNa1Vsa1lDTVc3OWlDS2I1SDZKUQ?oc=5",
           "source": "Aviation Week",
-          "publishedAt": "2025-07-18T07:00:00.000Z",
-          "summary": "Air India Flight 171 Accident Probe Stokes More Confusion &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 7
+          "publishedAt": "2025-06-20T07:00:00.000Z",
+          "summary": "Air India Crash Investigators Working To Extract Recorder Data &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 8
         },
         {
           "title": "Air India Flight 171",
@@ -1175,6 +1175,14 @@
           "relevanceScore": 4
         },
         {
+          "title": "Fiery plane crash kills 179 in worst airline disaster in South Korea",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOT196QzZXbWpXZnRMcEZhYllVT3hZM0NQQ3pxQXBvaEJxQnBLQnliQnIyY3RrS2xJMnZGSUd5OGV2TmRheVA0MFUybnpBZWtKajlBQnFvb3NudjBVZ0RaNG1CZms3aFQyWUxaZ21YR0tIRlpwNHh1SHRTU3h3NUEzeGRRQkhQTmlEd1lXa2dKN3NHbld3MXJEYkxGSmp4MHhtd0pCTVJEWGVGZjNKbjRxUFdEcFFuYWh5VTJ6RDFn?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2024-12-29T08:00:00.000Z",
+          "summary": "Fiery plane crash kills 179 in worst airline disaster in South Korea &nbsp;&nbsp; Reuters",
+          "relevanceScore": 6
+        },
+        {
           "title": "Video shows deadly Jeju Air flight crash in South Korea",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtM1JDb2F5ZFZkcVlfUlpYbm5kcHdLeHIzRkxHaE9yUDJ6cGVZMFZoWGFTZUFlS0tYc05DQ2hwX3hjc1JkSlNMUUpIcnFIcHVJNzdrMV9taTYxUFN6cms1N1dadlZyT3M?oc=5",
           "source": "Reuters",
@@ -1189,14 +1197,6 @@
           "publishedAt": "2024-12-29T08:00:00.000Z",
           "summary": "Jeju Air crash deadliest on South Korean soil &nbsp;&nbsp; Reuters",
           "relevanceScore": 9
-        },
-        {
-          "title": "Families demand answers a year after South Korea's Jeju Air crash",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMGk0d1NpNDhWeDFaMUFDbDQ5bnlIREExdXhWT0tVdmNRUFh5Q2p0RXZxd2JvaTRwUHRCUGZDcEYtSEljVUZQLWY4eTRaZUowUWhPMlFzTkJ6MlJPOUd4WnRJeGNMXzN5SWNOX0daSjdrNHc3NU84bjNZYTFaR2h4ekVnc2tMMkdLSXpLQWI4T19GSmRGR29uRkJjd0hjXzIxTDJVQ19uZ1JrNXB0OV9LQURETllmc0hK?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2025-12-29T08:00:00.000Z",
-          "summary": "Families demand answers a year after South Korea's Jeju Air crash &nbsp;&nbsp; Reuters",
-          "relevanceScore": 5
         }
       ]
     },
@@ -1233,14 +1233,6 @@
           "source": "Reuters",
           "publishedAt": "2024-12-27T08:00:00.000Z",
           "summary": "Azerbaijan Airlines plane crash: what do we know? &nbsp;&nbsp; Reuters",
-          "relevanceScore": 6
-        },
-        {
-          "title": "NATO calls for full investigation of Azerbaijan Airlines crash",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZTFidGpGRFhHaHpnVi1sdjRqOGtXVHRUWjA1cEdJZ0VNSzFyc1RoYzI0U3RVY3FqeVdKejhfWHUzWnhzSUgxU1NXa2xvaG1ZTW9RaUktaDFQckFpQldVWjdjckNKTk5NQ2x6STZJOGIwZTdpU2kyMGVPdG5QY0RQc2dIeFJQamRNdmwxaEJucjdrNy1kQmt0enJZX0sxQ1o3TkQzNktuRjhidkp4aUJJ?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2024-12-26T08:00:00.000Z",
-          "summary": "NATO calls for full investigation of Azerbaijan Airlines crash &nbsp;&nbsp; Reuters",
           "relevanceScore": 6
         }
       ]
@@ -1339,6 +1331,14 @@
           "source": "Reuters",
           "publishedAt": "2024-07-19T07:00:00.000Z",
           "summary": "Self-check-in kiosk shows maintenance notice at Kuala Lumpur International Airport amid global IT outage, in Sepang &nbsp;&nbsp; Reuters",
+          "relevanceScore": 4
+        },
+        {
+          "title": "Uganda signs deal with UAE to build third international airport",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdlJ3SEFKRmlkRjNMbFV6UWtMenltVGRxeF95QkZtenZQcXZWZFYyalJBb0tLb29ZT3c5a3hZeFhwU0VfbDE3NkNwT3RIQzhTQ0l0djBwS1Nkam5ka0tKc2pFcTd6REhTZmpNeEJkWXMyTGl6MEVXNXBnVFpQVnhKa3hUVHoxTjN0Nk85eW5kQUg4cktGa1gtdkZObWx0T1pUVjgwM2F5YmhfWExrd1E?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2024-06-21T07:00:00.000Z",
+          "summary": "Uganda signs deal with UAE to build third international airport &nbsp;&nbsp; Reuters",
           "relevanceScore": 4
         }
       ]
@@ -1555,14 +1555,6 @@
       "query": "site:flightglobal.com Alaska Airlines Flight 1282 Alaska Airlines 2024 || site:aviationweek.com Alaska Airlines Flight 1282 Alaska Airlines 2024 || site:aviationweek.com Alaska Airlines Boeing 737-9 MAX 2024 Airlines Flight 1282 || site:aviationweek.com \"Boeing 737-9\" \"year-old\" Portland || site:avherald.com Alaska Airlines Flight 1282 Alaska Airlines 2024 || site:aviation-safety.net Alaska Airlines Flight 1282 Alaska Airlines 2024 || site:reuters.com Alaska Airlines Flight 1282 Alaska Airlines 2024",
       "articles": [
         {
-          "title": "Passengers of flight 1282 sue Alaska Airlines and Boeing for ‘fear and trauma’",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNemVPYW9HSjJzRTRKd1d2c3prSEFVWC0yZDBMYi03MDVyTFZ3YXR3Y2Z5YTJYTzZpRjFERGNNNklILWNSaXdQNHRtR3VKTmNRTUl0VlluTDY2TEVmMV9iUFRQb0JIRmNmODhjcGViWjZ4NExEVGZ2OG55alczZ0hBT0Fja0g2OXZYVnJNWGtuSkd3TDBySkYzOGRySVZBNDBQX3NhV1dYenR5cVNDY093WHZEVDB3Tk9Yb3ZCbWJYUkx3LVRER25zSFRR?oc=5",
-          "source": "FlightGlobal",
-          "publishedAt": "2024-01-18T08:00:00.000Z",
-          "summary": "Passengers of flight 1282 sue Alaska Airlines and Boeing for ‘fear and trauma’ &nbsp;&nbsp; FlightGlobal",
-          "relevanceScore": 8
-        },
-        {
           "title": "Most Alaska and United Boeing 737 Max 9s back in the air: FAA",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVEVzS3JJZVFmdHI2aENicllKUy1xS1ZTcnNvU21LTktOOHdySFpOY2k1Z1h4dHluRkV2TXRrejNPLXZiNFNtZVFieW9vVDc2TmtWd2xlNlpTclFKRzBqem56ZFFDWUpNRkVKYWZNZnZBd3hkUEdZWlhjelJYeHJ2eUlURmhrdlNPWm5VUTlPcUI3d29ES0lfYXY3ZlU3cEZ6dlNycmtyZ2w?oc=5",
           "source": "FlightGlobal",
@@ -1577,6 +1569,14 @@
           "publishedAt": "2024-01-06T08:00:00.000Z",
           "summary": "Alaska 737 Max suffers ‘pressurisation issue’ after window blow-out &nbsp;&nbsp; FlightGlobal",
           "relevanceScore": 5
+        },
+        {
+          "title": "Experts point at Boeing as investigation into Alaska 737 Max incident gets underway",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOb1VreW1hTEIxcXRneUlLX0ZFYUdSaF9vZnA3elhSeHBDUmFCbmgxQl94d3d3Vm1JWWdaOGN2dzBmdGFWWWg5LXlFd0JvMWdTMnh3V3h4MUFGYjdIcVdHcDNWOTI3MEotbnE4TjNQejB2TXpGekUzTFBFUnkzdEdSTjJqTEU5cW5hOTZKV21fMTVaR1JtZVVwcFpadkZyVVpWTDVDYVJLRE1lWk4tRTl1SnQ1RlQwOVpEUTNmSldaOV9USDc3cEJtcDhLZFA?oc=5",
+          "source": "FlightGlobal",
+          "publishedAt": "2024-01-07T08:00:00.000Z",
+          "summary": "Experts point at Boeing as investigation into Alaska 737 Max incident gets underway &nbsp;&nbsp; FlightGlobal",
+          "relevanceScore": 6
         },
         {
           "title": "Accident: Alaska B39M at Portland on Jan 5th 2024, emergency exit plug and panel separated in flight",
@@ -1611,12 +1611,12 @@
           "relevanceScore": 6
         },
         {
-          "title": "Alaska Airlines 737 MAX 9 passengers may be crime victims: FBI",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY2tuTTZ4cEo3cV8zR3FRSEJCa01pSk8wbnF1N0liWDBzRi1WMHhqU1dtUWY3VExTQUNoNGRpbTZMaWhLdGZNYlAwQnZpem1QLWdHdnVMLWdteWgtTHJocmoxZ3ZGb2ZGdDh4SHlfc2pKel95Q2F4Nzk0T182aTZMeFN4ay1RSDNMZnJBTkhPeE9nd1IwQ2xuRm9PZzhDNzdDSFI5M0VUdXpVX0JLWUxETEtxaEduXzRDMV9SSFpWTmdCNjYyVUpneTd3YU1WQ0k3?oc=5",
+          "title": "Alaska Airlines extends Boeing 737 MAX 9 cancellations through Sunday",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdXFuYUJvclVaYTVtcnNXbjBOSDZsMzg5U1ZvLXY2ZEFreWxyekdNNzN3bDVBVEg0NHJhSEN2aWNTOWJURWZwVGhiNzVUYVpwWmVkYUpNMnhQT1lRRFk0WEFuQmZ0YUVfT1Bkc2tsS3hpR0x1cnB5ZllncmlkZmoxRWRsLXJ5VEE0NWJCenFndVBzZHU3d1hoOEthZ19JdVhqZzZyUU5OSVZYYWZJNFRWSzU4QTBxWUtleWJWMjdZekJjR2ZfMi1GMU9yOVI?oc=5",
           "source": "Reuters",
-          "publishedAt": "2024-03-23T07:00:00.000Z",
-          "summary": "Alaska Airlines 737 MAX 9 passengers may be crime victims: FBI &nbsp;&nbsp; Reuters",
-          "relevanceScore": 6
+          "publishedAt": "2024-01-18T08:00:00.000Z",
+          "summary": "Alaska Airlines extends Boeing 737 MAX 9 cancellations through Sunday &nbsp;&nbsp; Reuters",
+          "relevanceScore": 9
         }
       ]
     },
@@ -1739,6 +1739,14 @@
           "publishedAt": "2023-01-15T08:00:00.000Z",
           "summary": "Loss of control Accident ATR 72-500 (72-212A) 9N-ANC, Sunday 15 January 2023 &nbsp;&nbsp; Aviation Safety Network",
           "relevanceScore": 8
+        },
+        {
+          "title": "Deadly aircraft crashes common in mountainous Nepal",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdlZNUGdCQzhSdUMyelVMNUpGT3FBMVJRc250NjRXd055cElicnI0eVJvN3QtYjF4anF6SUJ0RlJCUkszUkVqYzhHTXhzcndVYkllNTJYY2ZHTDkwNV8wd0ZJSElMeDJYNmVQLXFJVVpTMTZVbGNYbzJJdWs4aTIwbGtidW9NZkpEU1ZOSDNCdzJuS05rTElsSG5zNlg3WFBVUGRPVEdR?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2023-01-15T08:00:00.000Z",
+          "summary": "Deadly aircraft crashes common in mountainous Nepal &nbsp;&nbsp; Reuters",
+          "relevanceScore": 5
         }
       ]
     },
@@ -1935,6 +1943,14 @@
           "publishedAt": "2020-08-10T07:00:00.000Z",
           "summary": "Air India Express Probe Likely To Revisit Airport Safety &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 9
+        },
+        {
+          "title": "Death Toll Rises After Air India Express 737-800 Overshoots Runway",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSlpWWjdCQWI2NmtpNjUtUkFKT05CWHZfRDZlQ25UQ2FBYU9EMlhoUnRvUV9GcDRpZ2NER1c4S3Q1M09maXgzc21jZ3ZFVmpsbnZjSVBhcTV2bHFUbWlILTU1Nk5NMTE5U29CU01KTzB2Qy1nNmc2YVFfaXhpb1RkR1RIN0R2QmVwdnNIelZYZjhBanliMUtmbjdnNTBBcmtVcWdWRE4tRV8wVFE4Q0ZwbmVYUHJHVnVIeEQ5MW5TZw?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2020-08-07T07:00:00.000Z",
+          "summary": "Death Toll Rises After Air India Express 737-800 Overshoots Runway &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 11
         },
         {
           "title": "What Was The Most Significant Factor Behind The Air India Express Crash?",
@@ -2237,14 +2253,6 @@
       "query": "site:flightglobal.com Atlas Air Flight 3591 Atlas Air 2019 || site:aviationweek.com Atlas Air Flight 3591 Atlas Air 2019 || site:aviationweek.com Atlas Air Boeing 767-375BCF 2019 Air Flight 3591 || site:aviationweek.com \"Boeing 767-375BCF\" \"year-old\" Trinity Bay || site:avherald.com Atlas Air Flight 3591 Atlas Air 2019 || site:avherald.com Atlas Air Boeing 767-375BCF 2019 Air Flight 3591 || site:avherald.com \"Boeing 767-375BCF\" \"year-old\" Trinity Bay || site:aviation-safety.net Atlas Air Flight 3591 Atlas Air 2019 || site:reuters.com Atlas Air Flight 3591 Atlas Air 2019 || site:reuters.com Atlas Air Boeing 767-375BCF 2019 Air Flight 3591 || site:reuters.com \"Boeing 767-375BCF\" \"year-old\" Trinity Bay",
       "articles": [
         {
-          "title": "Atlas Air 767 Freighter crashes near Houston",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOU3luakhyRVVjLUdvQ1lsREN0YkRJekRvWmg3TGdwdnFleWRQZ0ZWZ2s1SWxrcWh4SzVkbkprNTFFNFgtd3VrSF9BelA5RFFiY3E5OHB5VDlJQXZScjR4ckNNdnZBLUpQdFBBQktaaHV4cmNsM2I4TUxCV0ZhSlEtMFhkckxIRjlnTWJKbno1bFA0aGYwY3RDeQ?oc=5",
-          "source": "FlightGlobal",
-          "publishedAt": "2019-02-23T08:00:00.000Z",
-          "summary": "Atlas Air 767 Freighter crashes near Houston &nbsp;&nbsp; FlightGlobal",
-          "relevanceScore": 7
-        },
-        {
           "title": "VIDEO: NTSB video shows Atlas 767 debris field",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbjFUYnFVRFJ2WjVtSk5ZdlVhMkI1NWl1UHdUN1BiV3FYM3UzSGZoLWlvTm1BY2djTlN4Tzd0ek41cVIyY3AtMkl2WFhFa2dEVlFFdV81WEtCeTNudFRBU25aLVFWeDJrOGhzU1pRV0lRVHhySDhkQ1BVQWVESDhOZ1pWUWVuQm1yc1VtcDdkMFhCbGN1SV9zUEl3?oc=5",
           "source": "FlightGlobal",
@@ -2290,6 +2298,14 @@
           "relevanceScore": 4
         },
         {
+          "title": "Gallery: The Boeing 737 MAX Timeline",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBaU1BHdkFhcnhTMEtDNG95VFlrMWl5UWhsUk96Wmg2enlLdTNqT3pKX0lBMG8ydEZybXpmWXJUWG1XaHRVNHRyY0JzWVJpQ1ZEalVrVTdNLTdjR0ZmLXhnRXdxUHFzYTJBT2tXOA?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2021-05-27T07:00:00.000Z",
+          "summary": "Gallery: The Boeing 737 MAX Timeline &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 4
+        },
+        {
           "title": "The Boeing 737 MAX Timeline: From Conceptualization To Service Return",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MUlFTRTlEeGUwQUcya2VqVDBRWngzcDhvYW1kS3JVcnZqbGpKSENLN196aDFUc0JERWxzZ2JiTjAyWTZSY0FRVjAySG9aSzkzaWVPUlNUV0tZM2dKM192cHpxRnVfVW9SSVl0cTlsSnM0VWx1UkdhMnk3U2s?oc=5",
           "source": "Aviation Week",
@@ -2298,12 +2314,12 @@
           "relevanceScore": 4
         },
         {
-          "title": "Gallery: The Boeing 737 MAX Timeline",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBaU1BHdkFhcnhTMEtDNG95VFlrMWl5UWhsUk96Wmg2enlLdTNqT3pKX0lBMG8ydEZybXpmWXJUWG1XaHRVNHRyY0JzWVJpQ1ZEalVrVTdNLTdjR0ZmLXhnRXdxUHFzYTJBT2tXOA?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2021-05-27T07:00:00.000Z",
-          "summary": "Gallery: The Boeing 737 MAX Timeline &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 4
+          "title": "Crash: Lion B38M near Jakarta on Oct 29th 2018, aircraft lost height and crashed into Java Sea, wrong AoA data",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBvOElXLUlSLThlM0lGZGJpWndIcGVYb2FsM2ZDbU5IRUk3Z2RaOVo1TDhaWDZTVXhsaHpSUGREUWFlWTdmZ3ZHTzRZOHJqX0VTVmxQUkhibE9yRkFLMVRB?oc=5",
+          "source": "The Aviation Herald",
+          "publishedAt": "2018-10-29T07:00:00.000Z",
+          "summary": "Crash: Lion B38M near Jakarta on Oct 29th 2018, aircraft lost height and crashed into Java Sea, wrong AoA data &nbsp;&nbsp; The Aviation Herald",
+          "relevanceScore": 7
         },
         {
           "title": "Crash: Lion B38M near Jakarta on Oct 29th 2018, aircraft lost height and crashed into Java Sea, wrong AoA data",
@@ -2530,7 +2546,7 @@
         },
         {
           "title": "Germanwings crash in France",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONVhSczZPb0ViQ3BndjB3NGhIcUhsb3ZFS05UTlkwQzJZSXZSY0ZGZTJMTFEtSU9QYjBTNXFZNHZlbzUwOWpxTTdjNGthQTNsclY2WmlvSGJpWVpsRDBUSjhZZXlraFYtOWtkUjIzVlFpaUZxX2xTQ0xydWo5eVdicmE3ek4?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMV9fbE0xSkc0ZFlqOVJtdW9Tek0zd3Y1Y2c4OU5MWDZqOTdSUnNBM3JJN1hFcVcwMVdLVDA3MS0wbV9pVWZkeDhBVi1NcFdRUHJWdEF1enZpTEc1ZEp3ZmJWbThVU0lpRkJJdm9FUVA4OE1iYlROb0h6RWlUUktmQkhaSDc?oc=5",
           "source": "Reuters",
           "publishedAt": "2015-03-26T07:00:00.000Z",
           "summary": "Germanwings crash in France &nbsp;&nbsp; Reuters",
@@ -2592,8 +2608,16 @@
       ]
     },
     "NTSB-DCA13MA120": {
-      "query": "site:flightglobal.com Asiana Airlines Flight 214 Asiana Airlines 2013 || site:flightglobal.com Asiana Airlines Boeing 777-200ER 2013 Airlines Flight 214 || site:flightglobal.com \"Boeing 777-200ER\" \"year-old\" San Francisco || site:aviationweek.com Asiana Airlines Flight 214 Asiana Airlines 2013 || site:aviationweek.com Asiana Airlines Boeing 777-200ER 2013 Airlines Flight 214 || site:aviationweek.com \"Boeing 777-200ER\" \"year-old\" San Francisco || site:avherald.com Asiana Airlines Flight 214 Asiana Airlines 2013 || site:aviation-safety.net Asiana Airlines Flight 214 Asiana Airlines 2013 || site:reuters.com Asiana Airlines Flight 214 Asiana Airlines 2013",
+      "query": "site:flightglobal.com Asiana Airlines Flight 214 Asiana Airlines 2013 || site:flightglobal.com Asiana Airlines Boeing 777-200ER 2013 Airlines Flight 214 || site:flightglobal.com \"Boeing 777-200ER\" \"year-old\" San Francisco || site:aviationweek.com Asiana Airlines Flight 214 Asiana Airlines 2013 || site:avherald.com Asiana Airlines Flight 214 Asiana Airlines 2013 || site:aviation-safety.net Asiana Airlines Flight 214 Asiana Airlines 2013 || site:reuters.com Asiana Airlines Flight 214 Asiana Airlines 2013",
       "articles": [
+        {
+          "title": "Asiana Flight 214 pilots’ actions scrutinized",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcDlSaDIwTzY5ZWlZSUtrYU85Nm9Ob0FfbC1oUXZ4YktWOS04VTkzMExmU09iQkdISmZXUUZ4YWpfS1JiVndTZ2FGV2FMbXA1MlR3ZWJ5TFA5bEhGRm1rclo1ZmloMGo0SlNaQ2M1TGhFY1FWTU1GcTA0UVJfWjFDWU1GZWhxWGkwRUpWblZ6ZG9zV0ZGcENOUFQ2am5EaWhNbVZvaWN2RTU?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2013-07-10T07:00:00.000Z",
+          "summary": "Asiana Flight 214 pilots’ actions scrutinized &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 6
+        },
         {
           "title": "Accident: Asiana B772 at San Francisco on Jul 6th 2013, touched down short of the runway, broke up and burst into flames",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9fRGlrenJrdkVZUXFXM0lLZWxhcU1aeGJMZEhVRERNNllmNDRHdTBNN1FQNzV4SUdDMERQUVdtSkFUMjctNmt6clhLR2dQV0g1?oc=5",
@@ -2611,6 +2635,14 @@
           "relevanceScore": 4
         },
         {
+          "title": "San Francisco plane crash",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSm1BcnJmdlktZkdfaEt5UUh1c2N1Y1pmdXBOZHI3aGp4SEF0V2dkdk03Qk1rY05URWlUc21jdHQ5UnQ2ODBQM3JkdTc1V1ZSX1lVeVhzX3NubVFVVWJXSDNKNXZOb3VnR29nYzMtbEJkSXBYZVh1T2N4RV9RZFJfaTB3?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2013-07-08T07:00:00.000Z",
+          "summary": "San Francisco plane crash &nbsp;&nbsp; Reuters",
+          "relevanceScore": 6
+        },
+        {
           "title": "Asiana plane was far below target speed before San Francisco crash",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRzhnUWV6a3JuQmFReHRVa3E2ei1qUkdjd1JocXdUUS1YZDl3ZzBfTGJtWEJzdXdiN0dqRVNoOS11cUxxaHZRMWliOFA0dVplVzJrS0F4Uml3T1ZoQk9qWWhqb0JrNUlfV2NuaDhXelBQdVlVdHpYVGR5MzdkLUkxWkQyWUFCOFVPS2I2M3d2RUdHSktSekIzSjE4bUo1Q05ObUNVSUN6VEJGVzZPX19YSVJFY192TzBPLWFn?oc=5",
           "source": "Reuters",
@@ -2625,14 +2657,6 @@
           "publishedAt": "2013-07-07T07:00:00.000Z",
           "summary": "In difficult year for Boeing, 777 crash may not be major setback &nbsp;&nbsp; Reuters",
           "relevanceScore": 4
-        },
-        {
-          "title": "Airport landing system off when plane crashed in San Francisco",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMDlIRFR3TWNhZGFLNGZZWnEtOGptckllaXdrS21Vcm1neDlMaDZIMmZjU3lxU010LUlUT3V1dGxSRloteE5zS1I2N0lpUnB1Y2VRazYwaEJySkJuRXY2QXN4Y2Y0SEduTi1NZ0xSTk80NlFYbFhzVzVSYkxCeGVUVm9jVzMyT3Vwa0dIbi1McDJjdDlHMGI0bTdjSEctUzRsRW5ILWFVMWVQVmYxQ1E?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2013-07-06T07:00:00.000Z",
-          "summary": "Airport landing system off when plane crashed in San Francisco &nbsp;&nbsp; Reuters",
-          "relevanceScore": 6
         }
       ]
     },
@@ -2738,14 +2762,6 @@
           "relevanceScore": 9
         },
         {
-          "title": "Search for Air France flight remnants",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNmY5T1BGaFdaUUpLY1RZRXhTaUxWSXhYZWJFUFFDQ0owOHA2VzhwelFDVjdUX0RYeVI3UjB3WFp3bGpvWVpLYVMxenB6ZHFkNmwxMWpGbzIwXzFjTnVYanhLU0Q5S0ZNTWVDOUo1a0JxOFNURzZDMVJGeHJpams4ZTF1cmF4TU5XVmlYMzNGdWtiZw?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2009-06-15T07:00:00.000Z",
-          "summary": "Search for Air France flight remnants &nbsp;&nbsp; Reuters",
-          "relevanceScore": 4
-        },
-        {
           "title": "Air France and Airbus on trial 13 years after Atlantic jet disaster",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdUZPeWVKcmV0Q0VGclNTLXdUeFY3ak1kNUZyNzNfemJSQ1Q3WWFWekhRQ2VsdUxHY0FXUjUza1d2NC0tbzlfMjMxSFdVeTBBYVlrS1c4YlNEemlRdFhBUENCdVgyRmdqekZEMWJtdWhxbHNBQTAwNlRXMUdCZXR6VjdCTXZzQnk0YmEzMlZ4ekhGcjFEbE1JMGNiMWl2dnVJYndMc1FVeHpYbUNPZDF1NFFQT2N4ajl1ek5HVnpvS3k?oc=5",
           "source": "Reuters",
@@ -2760,11 +2776,19 @@
           "publishedAt": "2026-05-21T07:00:00.000Z",
           "summary": "Airbus, Air France found guilty of manslaughter over 2009 Atlantic crash &nbsp;&nbsp; Reuters",
           "relevanceScore": 5
+        },
+        {
+          "title": "Air France to compensate crash victims' families",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUVNSdk90cDFIbXo1MTlGQ3EzSXVaT1l5bE5VVE5zQmMtRlktejIwZDJ4cUsxTlctd1FRUm80SktISlJjZzZsRDBGTDRLNnl2QTF5eHY3N2lqVWtDV3FILVYwUk9lalQtZnloTkhIUDhmSTNjTXdBYnZoUUdfa0pQQlVHVnZLaW5BX2hqYmZpOWVKWjBtNHlnQzktN1hsUVdJX2c?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2009-06-19T07:00:00.000Z",
+          "summary": "Air France to compensate crash victims' families &nbsp;&nbsp; Reuters",
+          "relevanceScore": 4
         }
       ]
     },
     "DSB-TK1951-2009": {
-      "query": "site:flightglobal.com Turkish Airlines Flight 1951 Turkish Airlines 2009 || site:aviationweek.com Turkish Airlines Flight 1951 Turkish Airlines 2009 || site:aviationweek.com Turkish Airlines Boeing 737-800 2009 Airlines Flight 1951 || site:aviationweek.com \"Boeing 737-800\" \"year-old\" Amsterdam Schiphol || site:avherald.com Turkish Airlines Flight 1951 Turkish Airlines 2009 || site:aviation-safety.net Turkish Airlines Flight 1951 Turkish Airlines 2009 || site:reuters.com Turkish Airlines Flight 1951 Turkish Airlines 2009 || site:reuters.com Turkish Airlines Boeing 737-800 2009 Airlines Flight 1951 || site:reuters.com \"Boeing 737-800\" \"year-old\" Amsterdam Schiphol",
+      "query": "site:flightglobal.com Turkish Airlines Flight 1951 Turkish Airlines 2009 || site:aviationweek.com Turkish Airlines Flight 1951 Turkish Airlines 2009 || site:aviationweek.com Turkish Airlines Boeing 737-800 2009 Airlines Flight 1951 || site:aviationweek.com \"Boeing 737-800\" \"year-old\" Amsterdam Schiphol || site:avherald.com Turkish Airlines Flight 1951 Turkish Airlines 2009 || site:aviation-safety.net Turkish Airlines Flight 1951 Turkish Airlines 2009 || site:reuters.com Turkish Airlines Flight 1951 Turkish Airlines 2009",
       "articles": [
         {
           "title": "Schiphol crash pilot’s death draws cockpit door scrutiny",
@@ -2797,6 +2821,14 @@
           "publishedAt": "2009-02-25T08:00:00.000Z",
           "summary": "Loss of control Accident Boeing 737-8F2 TC-JGE, Wednesday 25 February 2009 &nbsp;&nbsp; Aviation Safety Network",
           "relevanceScore": 4
+        },
+        {
+          "title": "Plane crashes in Amsterdam",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNFBfZU93b0xwQ2dBR0QyNGRzWmk2dDBEZ3EtWHVqYXJPeVNqcmdfYTZ0cEo5cjZsWElMS3N0aFMtU2IxbXg3Um5yMThlNFU0b242eHpXTzRsNkhyLTl4cmRla1Z0WmcxVlFoS1JwTGRHeU8xYk9jSWpuaGp3VWNfZmdB?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2009-02-25T08:00:00.000Z",
+          "summary": "Plane crashes in Amsterdam &nbsp;&nbsp; Reuters",
+          "relevanceScore": 5
         }
       ]
     },
