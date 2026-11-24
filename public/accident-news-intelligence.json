@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T15:27:32.551Z",
+  "updatedAt": "2026-11-24T15:22:26.648Z",
   "sourceSet": [
     {
       "name": "FlightGlobal",
@@ -168,16 +168,7 @@
     },
     "WIKIDATA-Q141246366": {
       "query": "site:flightglobal.com Security Aviation Flight 45 2026 || site:flightglobal.com 2026 Aviation Flight 45 || site:aviationweek.com Security Aviation Flight 45 2026 || site:aviationweek.com 2026 Aviation Flight 45 || site:avherald.com Security Aviation Flight 45 2026 || site:avherald.com 2026 Aviation Flight 45 || site:aviation-safety.net Security Aviation Flight 45 2026 || site:aviation-safety.net 2026 Aviation Flight 45 || site:reuters.com Security Aviation Flight 45 2026 || site:reuters.com 2026 Aviation Flight 45",
-      "articles": [
-        {
-          "title": "Incident: United B764 near London on Aug 24th 2026, packs issue",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4xU0MxTVpkN0kzZDd2S2tBYmt5WFFEbkkwSGxiSXljRi16TklpVWwxWWUyMnRLVXg2Q3ZmTVhJb1A2NDFJSjIwWV9fZlkydWNTUmtpOHpuS2Y?oc=5",
-          "source": "The Aviation Herald",
-          "publishedAt": "2026-08-24T07:00:00.000Z",
-          "summary": "Incident: United B764 near London on Aug 24th 2026, packs issue &nbsp;&nbsp; The Aviation Herald",
-          "relevanceScore": 5
-        }
-      ]
+      "articles": []
     },
     "WIKIDATA-Q141131120": {
       "query": "site:flightglobal.com 2026 Mount Ololokwe helicopter crash 2026 || site:flightglobal.com Eurocopter EC130 2026 Ololokwe helicopter crash || site:flightglobal.com \"Eurocopter EC130\" \"year-old\" Kenya || site:aviationweek.com 2026 Mount Ololokwe helicopter crash 2026 || site:aviationweek.com Eurocopter EC130 2026 Ololokwe helicopter crash || site:aviationweek.com \"Eurocopter EC130\" \"year-old\" Kenya || site:avherald.com 2026 Mount Ololokwe helicopter crash 2026 || site:avherald.com Eurocopter EC130 2026 Ololokwe helicopter crash || site:avherald.com \"Eurocopter EC130\" \"year-old\" Kenya || site:aviation-safety.net 2026 Mount Ololokwe helicopter crash 2026 || site:reuters.com 2026 Mount Ololokwe helicopter crash 2026",
@@ -733,14 +724,6 @@
       "query": "site:flightglobal.com Air India Flight AI171 Air India 2025 || site:flightglobal.com Air India Boeing 787-8 2025 India Flight AI171 || site:flightglobal.com \"Boeing 787-8\" \"year-old\" Ahmedabad || site:aviationweek.com Air India Flight AI171 Air India 2025 || site:avherald.com Air India Flight AI171 Air India 2025 || site:aviation-safety.net Air India Flight AI171 Air India 2025 || site:reuters.com Air India Flight AI171 Air India 2025",
       "articles": [
         {
-          "title": "Air India 787 Inspections Provide No Clues For AI 171 Accident Investigation",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb2pUWmZORFdIb0k3dUxKWkZyb0ZfXzc4Wk5LVXBRSUFHNnZnUmF4ZXExczlkaGJrQ3NyaXVSMkl3U1BlM3dLNFZJZmNvSnBkN1VuNUVaZ3E3MWVjOHFFeTBtenpydEQ4VF9hM3BzUTdGOEN1RFpXbUxPMVZLYUc4VFdJb0c4VGpST0dVRVpYYkhiME1wRDhvUUh1TkJUNUJ6elBYVldIVnpiVFVRdEZCTVI3VHp5NGlxbkpz?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2025-06-17T07:00:00.000Z",
-          "summary": "Air India 787 Inspections Provide No Clues For AI 171 Accident Investigation &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 9
-        },
-        {
           "title": "Air India Boeing 787-8 Crashes After Takeoff",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZFp3eWxUOFI3TzB6MnlvQkwzUVZwTTBWRTF1SXM5YlhpZ19tMTNEYUNkREdOaDBHS0ZBU3IzNEJxbnRyVUpEOWpMU0UzZ185MU5mS1hkdlBJYmxwUGpERS01LURnVHVNTmZXUldjS29YcVdJZUMybjBQamhHZXFvRExSamMxaTk2aFFWOUpRM1kzdUk2ck9XNC05UUdmemFQMnJzaW5paWE?oc=5",
           "source": "Aviation Week",
@@ -755,6 +738,14 @@
           "publishedAt": "2025-06-12T07:00:00.000Z",
           "summary": "Air India Boeing 787 Accident Probe Reveals Few Clues &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 10
+        },
+        {
+          "title": "Air India 787 Crash Being Investigated As ‘Criminal Act,’ Says Safety Expert",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdncwTVAzd0J1S0N3d3VKWXVTWWJicUdtazF2SG1CaW10U2xEUVdyZVBmcGZ0NDhLM2tsaU5hdWNlNnh5TUxqcDl1ZUR0eUxBaThuOEN3N2c0anFSR0ZZcUtXUS00MjJwcy1sVnpfbU1NaXNWa0dRWHNXOFkzdkI2U0dZMDd2WWtqc0piYzBuZTM0NjZPZVdXM0lGcUJ0QmxfZU5EQWZWSHBneFdBVWtfalVTQ2VDOXNGeC1YSnVFRHlhZw?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2025-07-23T07:00:00.000Z",
+          "summary": "Air India 787 Crash Being Investigated As ‘Criminal Act,’ Says Safety Expert &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 7
         },
         {
           "title": "Crash: India B788 at Ahmedabad on Jun 12th 2025, lost height shortly after takeoff, no thrust reported",
@@ -810,20 +801,20 @@
       "query": "site:flightglobal.com Air India Flight 171 Air India 2025 || site:flightglobal.com Air India 2025 India Flight 171 || site:aviationweek.com Air India Flight 171 Air India 2025 || site:avherald.com Air India Flight 171 Air India 2025 || site:aviation-safety.net Air India Flight 171 Air India 2025 || site:aviation-safety.net Air India 2025 India Flight 171 || site:reuters.com Air India Flight 171 Air India 2025",
       "articles": [
         {
-          "title": "Air India 787 Inspections Provide No Clues For AI 171 Accident Investigation",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNb2pUWmZORFdIb0k3dUxKWkZyb0ZfXzc4Wk5LVXBRSUFHNnZnUmF4ZXExczlkaGJrQ3NyaXVSMkl3U1BlM3dLNFZJZmNvSnBkN1VuNUVaZ3E3MWVjOHFFeTBtenpydEQ4VF9hM3BzUTdGOEN1RFpXbUxPMVZLYUc4VFdJb0c4VGpST0dVRVpYYkhiME1wRDhvUUh1TkJUNUJ6elBYVldIVnpiVFVRdEZCTVI3VHp5NGlxbkpz?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2025-06-17T07:00:00.000Z",
-          "summary": "Air India 787 Inspections Provide No Clues For AI 171 Accident Investigation &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 9
-        },
-        {
           "title": "Air India Boeing 787-8 Crashes After Takeoff",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZFp3eWxUOFI3TzB6MnlvQkwzUVZwTTBWRTF1SXM5YlhpZ19tMTNEYUNkREdOaDBHS0ZBU3IzNEJxbnRyVUpEOWpMU0UzZ185MU5mS1hkdlBJYmxwUGpERS01LURnVHVNTmZXUldjS29YcVdJZUMybjBQamhHZXFvRExSamMxaTk2aFFWOUpRM1kzdUk2ck9XNC05UUdmemFQMnJzaW5paWE?oc=5",
           "source": "Aviation Week",
           "publishedAt": "2025-06-12T07:00:00.000Z",
           "summary": "Air India Boeing 787-8 Crashes After Takeoff &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 8
+        },
+        {
+          "title": "Air India Flight 171 Accident Probe Stokes More Confusion",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNd2FhOUtpSDBNMno5Zk1zSkZMQ2xCM3BtbERqLUJRUnFQelZsbzMxMFpiOVBNZzQ5b2FkSWt0OENuOW5ReDFzdDF4RG54SnVkOUktNEFWOTBxRkhySkQ1ZTIwYzItV0NQR0lwMlQ4NHFReFVBTlFFZzdHbS1GQW5ucXF1RzlzQzFUbnF1eTVodWpjbFg5bVpweVIzTDVqaWN6QnVCNFlILUFwdnRDWUlDcGFsT1lhQk9OM2c?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2025-07-18T07:00:00.000Z",
+          "summary": "Air India Flight 171 Accident Probe Stokes More Confusion &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 7
         },
         {
           "title": "Air India Crash Investigators Working To Extract Recorder Data",
@@ -1175,14 +1166,6 @@
           "relevanceScore": 4
         },
         {
-          "title": "Fiery plane crash kills 179 in worst airline disaster in South Korea",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOT196QzZXbWpXZnRMcEZhYllVT3hZM0NQQ3pxQXBvaEJxQnBLQnliQnIyY3RrS2xJMnZGSUd5OGV2TmRheVA0MFUybnpBZWtKajlBQnFvb3NudjBVZ0RaNG1CZms3aFQyWUxaZ21YR0tIRlpwNHh1SHRTU3h3NUEzeGRRQkhQTmlEd1lXa2dKN3NHbld3MXJEYkxGSmp4MHhtd0pCTVJEWGVGZjNKbjRxUFdEcFFuYWh5VTJ6RDFn?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2024-12-29T08:00:00.000Z",
-          "summary": "Fiery plane crash kills 179 in worst airline disaster in South Korea &nbsp;&nbsp; Reuters",
-          "relevanceScore": 6
-        },
-        {
           "title": "Video shows deadly Jeju Air flight crash in South Korea",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtM1JDb2F5ZFZkcVlfUlpYbm5kcHdLeHIzRkxHaE9yUDJ6cGVZMFZoWGFTZUFlS0tYc05DQ2hwX3hjc1JkSlNMUUpIcnFIcHVJNzdrMV9taTYxUFN6cms1N1dadlZyT3M?oc=5",
           "source": "Reuters",
@@ -1197,6 +1180,14 @@
           "publishedAt": "2024-12-29T08:00:00.000Z",
           "summary": "Jeju Air crash deadliest on South Korean soil &nbsp;&nbsp; Reuters",
           "relevanceScore": 9
+        },
+        {
+          "title": "Families demand answers a year after South Korea's Jeju Air crash",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMGk0d1NpNDhWeDFaMUFDbDQ5bnlIREExdXhWT0tVdmNRUFh5Q2p0RXZxd2JvaTRwUHRCUGZDcEYtSEljVUZQLWY4eTRaZUowUWhPMlFzTkJ6MlJPOUd4WnRJeGNMXzN5SWNOX0daSjdrNHc3NU84bjNZYTFaR2h4ekVnc2tMMkdLSXpLQWI4T19GSmRGR29uRkJjd0hjXzIxTDJVQ19uZ1JrNXB0OV9LQURETllmc0hK?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2025-12-29T08:00:00.000Z",
+          "summary": "Families demand answers a year after South Korea's Jeju Air crash &nbsp;&nbsp; Reuters",
+          "relevanceScore": 5
         }
       ]
     },
@@ -1278,12 +1269,12 @@
           "relevanceScore": 4
         },
         {
-          "title": "Airport In Focus: Faro International Airport",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRG84WGdhRUlFZ2pIbzNGUmhCaHV5enhFVEhyUjMzWkhUQ19HOGJWUkk2emNPYUhfeEZ4b0JxRVAzNXJhYnNmZlFiaHZFcEdPcktxRjZDNHEyTmhNZWp6Y3hvN09UTFdBWkZYd1l2U3FHaTE2Rkx1Rzh1RjZ0Nnd0RVZjRURVY0RoN2J4akY4NVFkb0R5WUgtOFJueUtMdw?oc=5",
+          "title": "Denver International Airport Named Overall Winner At Routes Americas 2025 Awards",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYWkxYng0dER4WGZwMjJ0MHl3SDJ5Y2NtYlJUdXpvOThsZXNaeGNXVVRYanZXd1FJaHR6TE03MlFmZHJpSURYbTdBNFVGcy1aai14WEhtRjdPbEwwcll3MGZPTTdSaVR2YTRCSUM0MXloSkNCVXhjeFduTkdoWG9VdER1Vzc2TWxMeWlDLTdlN003SFcyNDNFWXlCWUV1RVlTVTB4LU9lS1pKNnVnLU1VaTNQMTdXQktraXlNRHBCdw?oc=5",
           "source": "Aviation Week",
-          "publishedAt": "2024-12-09T08:00:00.000Z",
-          "summary": "Airport In Focus: Faro International Airport &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 6
+          "publishedAt": "2025-02-12T08:00:00.000Z",
+          "summary": "Denver International Airport Named Overall Winner At Routes Americas 2025 Awards &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 4
         },
         {
           "title": "Incident: Buddha AT72 at Bhairawa on Jul 11th 2024, runway excursion on landing",
@@ -1331,14 +1322,6 @@
           "source": "Reuters",
           "publishedAt": "2024-07-19T07:00:00.000Z",
           "summary": "Self-check-in kiosk shows maintenance notice at Kuala Lumpur International Airport amid global IT outage, in Sepang &nbsp;&nbsp; Reuters",
-          "relevanceScore": 4
-        },
-        {
-          "title": "Uganda signs deal with UAE to build third international airport",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdlJ3SEFKRmlkRjNMbFV6UWtMenltVGRxeF95QkZtenZQcXZWZFYyalJBb0tLb29ZT3c5a3hZeFhwU0VfbDE3NkNwT3RIQzhTQ0l0djBwS1Nkam5ka0tKc2pFcTd6REhTZmpNeEJkWXMyTGl6MEVXNXBnVFpQVnhKa3hUVHoxTjN0Nk85eW5kQUg4cktGa1gtdkZObWx0T1pUVjgwM2F5YmhfWExrd1E?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2024-06-21T07:00:00.000Z",
-          "summary": "Uganda signs deal with UAE to build third international airport &nbsp;&nbsp; Reuters",
           "relevanceScore": 4
         }
       ]
@@ -1526,27 +1509,27 @@
           "relevanceScore": 4
         },
         {
+          "title": "Inside deadly Singapore Airlines flight SQ321 - May 21, 2024",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSF92SUs1Y29VVUkyLVJsYWIwLUtOLVAxRGRmMm5HRjI4eXBRSG80ZmVyZGVEMS02RXRwT29WMWxQbkxwU1hJZkNfNGZCRFRzRXFmVm1zNDd0dVd4QVpFS0dHd2VUYlFXQW8yb2VWMzBEU2J3bE9jTmdqZkxHMjl4NzJ2VXI5OWtLMlZ4MWNBcHB6MHZU?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2024-05-21T07:00:00.000Z",
+          "summary": "May 21, 2024 &nbsp;&nbsp; Reuters",
+          "relevanceScore": 7
+        },
+        {
+          "title": "Singapore Airlines flight hits severe turbulence, one passenger dead",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVjFTTDhJSUxvcTFRU1d4SlkwRElxUHhrbWVRSWZCa0ZSNy1lcFFhQ1JnQWxwaThSbVY5RTB6aWFBOTF0R2lCZ3V4dVRjaFNoSjN4bFNPdHRmR2oxbzByWVIxUVlULW4zejh5aEdvUlV2bUJEclAxb1E2NHdMd0JDQkwwSzZqLWRJMFdEdDZMa0Z6c1l5aEZLci1KWXJYaHA1NUpLdWt4WWZkSGkwMC0wT09KcHdzT0J4VFBJTnJXZHRyWGJyTDVzSzA1NU1MMlE?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2024-05-21T07:00:00.000Z",
+          "summary": "Singapore Airlines flight hits severe turbulence, one passenger dead &nbsp;&nbsp; Reuters",
+          "relevanceScore": 6
+        },
+        {
           "title": "Singapore Airlines drops meal service when seatbelt sign on after deadly turbulence",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdWhKYkNEZ0kxZ1ExUUgyLWJYZlZtNkN5VWJUVk5Ib2d6YTU4a2VMZnJua2xwSTZWdzJhNjBscWdGUnZid2IteklZY1Q1NnRjdmNOeDJQMWpQend0SUVDMG5rQU5zLVM4RWVDOUhWSnJUVG9scmpJMEwyQVFmNVk5X3ItaDJfbUF0bi1mcVZqVVR0SGsyaU14VGk0ZWpNMlB3WDVzcmF1TzhVZG1BdzdwLWtPYUJ1TDNZY3h2NVRXVWdlMUoxREdpSmhRUHJMdjJ3czRFOUZSU2J4czQ?oc=5",
           "source": "Reuters",
           "publishedAt": "2024-05-24T07:00:00.000Z",
           "summary": "Singapore Airlines drops meal service when seatbelt sign on after deadly turbulence &nbsp;&nbsp; Reuters",
-          "relevanceScore": 6
-        },
-        {
-          "title": "Thai hospital says 43 people from Singapore Airlines flight still under treatment",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOGhhV0NPWGZWRkpXRnMxYmotMFlWV3o0MFJyN0pUU0s0QjhlOFRDNnBCTzFFdFBTMm9fYnVrTi0tcUlwMjFwY3FfcUdZc25RNFVTbFlzZE40RjgzNWlZYTQzazV2c0tTUHpFR1hlX0ZOODNVSG56ZTIzV1NuYTFOeHBzQVpDUkY2X1E1QVlwQ1BPcHVveWpzUnJpZkhLUTlmcHRKSGhzV1lvVVpzSGJndDY1aUtzcUsxRC1HZE1QT1RqUldmeVkzWXVSQQ?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2024-05-25T07:00:00.000Z",
-          "summary": "Thai hospital says 43 people from Singapore Airlines flight still under treatment &nbsp;&nbsp; Reuters",
-          "relevanceScore": 6
-        },
-        {
-          "title": "Singapore Airlines shares slip 1.3% after turbulent flight",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdkNhcE15Yk5GRk1zamJQaERLNjFTOS1rOEE0TWtNeTAwZktJTmx0UVlhbVZ1NS1BQWtwcUpWOVhtbUhzcXN0NmN1MXljMUdYM1JWdUhfQTlkM2VHT3NmbDJTSjViUWNCOURkWWpXeHNCYll3bFFTM0F3REhqOGlRNlVzSEFZVmFkb1E2UGt2VlF1RDdRNTA2dVRmUE40Z3drWW9jSEQ0N2g?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2024-05-22T07:00:00.000Z",
-          "summary": "Singapore Airlines shares slip 1.3% after turbulent flight &nbsp;&nbsp; Reuters",
           "relevanceScore": 6
         }
       ]
@@ -1611,12 +1594,12 @@
           "relevanceScore": 6
         },
         {
-          "title": "Alaska Airlines extends Boeing 737 MAX 9 cancellations through Sunday",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPdXFuYUJvclVaYTVtcnNXbjBOSDZsMzg5U1ZvLXY2ZEFreWxyekdNNzN3bDVBVEg0NHJhSEN2aWNTOWJURWZwVGhiNzVUYVpwWmVkYUpNMnhQT1lRRFk0WEFuQmZ0YUVfT1Bkc2tsS3hpR0x1cnB5ZllncmlkZmoxRWRsLXJ5VEE0NWJCenFndVBzZHU3d1hoOEthZ19JdVhqZzZyUU5OSVZYYWZJNFRWSzU4QTBxWUtleWJWMjdZekJjR2ZfMi1GMU9yOVI?oc=5",
+          "title": "Alaska Airlines 737 MAX 9 passengers may be crime victims: FBI",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY2tuTTZ4cEo3cV8zR3FRSEJCa01pSk8wbnF1N0liWDBzRi1WMHhqU1dtUWY3VExTQUNoNGRpbTZMaWhLdGZNYlAwQnZpem1QLWdHdnVMLWdteWgtTHJocmoxZ3ZGb2ZGdDh4SHlfc2pKel95Q2F4Nzk0T182aTZMeFN4ay1RSDNMZnJBTkhPeE9nd1IwQ2xuRm9PZzhDNzdDSFI5M0VUdXpVX0JLWUxETEtxaEduXzRDMV9SSFpWTmdCNjYyVUpneTd3YU1WQ0k3?oc=5",
           "source": "Reuters",
-          "publishedAt": "2024-01-18T08:00:00.000Z",
-          "summary": "Alaska Airlines extends Boeing 737 MAX 9 cancellations through Sunday &nbsp;&nbsp; Reuters",
-          "relevanceScore": 9
+          "publishedAt": "2024-03-22T07:00:00.000Z",
+          "summary": "Alaska Airlines 737 MAX 9 passengers may be crime victims: FBI &nbsp;&nbsp; Reuters",
+          "relevanceScore": 6
         }
       ]
     },
@@ -1925,7 +1908,7 @@
         },
         {
           "title": "Sriwijaya Air crash places Indonesia's aviation safety under fresh spotlight",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRGItOWxwVFJMV2t1Uy1zVy1pd3BHZFNlRHhRT0tQdExnUTRlU0dXSVllVnMzaXZYeGp2S1NacEE5X2tKUFNvM05DUEdOQmtHWi1yQXZ5emVxYzUzc2JBOTExRWoxNTRIREhKR1lzSEJNZmZ5czVYZ21saGNzOWgtNW03ajBGX2pYdEdlS0V2eVVYOUpfQWEzS2ZpbEZvcHVZd3NJdUJCNzFQalowaGF2cG1RRkR4YkVVWF9jZmtHSDFaYUlfNlhsa0RR?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYW5jeXB2c3g3cGktUzJpanJsS29rV3JWUVQ5Qy1NMEJkbDc0RWRvME9XR2p4V2JkVUdyMzZaU08wV2xmVFJsRGozbzk1Z05WOFFJamNkMmdkNTZKUEFfeTdUdTNVMjhXWWZhUE1LNlVXX1hwY3RBQUdGLThQSWRKV1A0UTgyNVVjcGJBVTI4UndBeExXZXprd0F0b1NyYjFtNHNXcTM5b3FIMnRZRWZ6UTNfQVBmY1NRRk9nYjJZejk4Y2V0ckxv?oc=5",
           "source": "Reuters",
           "publishedAt": "2021-01-10T08:00:00.000Z",
           "summary": "Sriwijaya Air crash places Indonesia's aviation safety under fresh spotlight &nbsp;&nbsp; Reuters",
@@ -2022,6 +2005,14 @@
           "relevanceScore": 4
         },
         {
+          "title": "Preliminary Report Questions Crew Actions In Pakistan A320 Accident",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNllZMTB2QTRNc0d6QkNwSkJwT05ZNUhhTXBJY2l6TDVpQ0hQWnJFQWozU1JzS2FKbVJIR0V4UTVuMzZUdHA3eWpnVnZJRlNXREpMaU9EVmozbGNuZnJxVWJ2Ni1XVmRVSU1nYVdva2FfR2V1M1Q5R2h3OVpzWEdZN2c0ZFhpZERnUGJ6cXlqQWNCYmQzbHUzM1RTckpvaXBkdXdMM1NfMWNJdUdVbDdTa1JhOUlXN1k?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2020-06-24T07:00:00.000Z",
+          "summary": "Preliminary Report Questions Crew Actions In Pakistan A320 Accident &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 4
+        },
+        {
           "title": "FINAL INVESTIGATION REPORT ACCIDENT OF PAKISTAN INTERNATIONAL AIRLINES FLIGHT PIA 8303 AIRBUS A320-214 AIRCRAFT REGISTRATION NUM",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZy1CNWVZTHJJRGJiZUphQ0N3ckxsdFFHSU5wNDY0TWlrVmQ0NllwUndQWXZqU1ItWXVkV0pYR2hyWTNRV2dSWG5aVzczbEVtWkd0b3ZmWFRCblBobmQ2LWRScTVnbE53LWY5QzFhc2x3bUh5cndGa2VQSDBoQnpWbWtuSUNpYXh0d2l6Ukoxd3dRVTNuaGNkN3dXLW1pQ0E1RlJtaDNvVQ?oc=5",
           "source": "The Aviation Herald",
@@ -2054,19 +2045,19 @@
           "relevanceScore": 5
         },
         {
-          "title": "PIA spokesman says blackbox recovered from Karachi plane crash site",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbEpndmhhTnhocUdva1BiSzU3R3cyRzNZVDAwd3NtTG00eFJ2VmVUVXgyX0VEdF9RYWNuNGZCb3VaYjJrZmlqbmFUZFM2TTdGd0piZ1dtTXU0cGxteEtQcF9YeGxYVnczcFhCSGxrcjZFd0RsS0NQU1ROM0Fwdjg5ZHk0VklGMVJNNEI1Zm5aZTV5dzlUaERYRkRFNEhDMmZscldrZTF4c1RsTkdIRHRsWDMtTURUVDVadzZPUA?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2020-05-23T07:00:00.000Z",
-          "summary": "PIA spokesman says blackbox recovered from Karachi plane crash site &nbsp;&nbsp; Reuters",
-          "relevanceScore": 5
-        },
-        {
           "title": "Crashed Pakistan plane hit runway three times on first approach - minister",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVGw0dHVuaXNfUHFwa3dwaUZSei1FbktaMHZGN3Q0cVVQYklwQ1duZUNVTjl3Y1Z3Zk54Z2lpMi1SdmRSUzlKNm1RVWZvVGV6Y3BfU3NmcGJ3RUgxSnNJbG9RTWpUVUwtTWRZcVZKODd1dDhkbk5VQjRNdjhXVWl5NzRIZFQ3WXhoUnNucUJ0WTQ1NjZRYXdaWnpLeFktZG9HbTI2RkM4QndLb004alNKNW9WTVI2X0VZVld3UENvdm5uMjA?oc=5",
           "source": "Reuters",
           "publishedAt": "2020-05-28T07:00:00.000Z",
           "summary": "minister &nbsp;&nbsp; Reuters",
+          "relevanceScore": 5
+        },
+        {
+          "title": "PIA spokesman says blackbox recovered from Karachi plane crash site",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbEpndmhhTnhocUdva1BiSzU3R3cyRzNZVDAwd3NtTG00eFJ2VmVUVXgyX0VEdF9RYWNuNGZCb3VaYjJrZmlqbmFUZFM2TTdGd0piZ1dtTXU0cGxteEtQcF9YeGxYVnczcFhCSGxrcjZFd0RsS0NQU1ROM0Fwdjg5ZHk0VklGMVJNNEI1Zm5aZTV5dzlUaERYRkRFNEhDMmZscldrZTF4c1RsTkdIRHRsWDMtTURUVDVadzZPUA?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2020-05-23T07:00:00.000Z",
+          "summary": "PIA spokesman says blackbox recovered from Karachi plane crash site &nbsp;&nbsp; Reuters",
           "relevanceScore": 5
         }
       ]
@@ -2168,6 +2159,14 @@
           "relevanceScore": 4
         },
         {
+          "title": "What routes does the Boeing 737 MAX 8 fly?",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQazFkRnduM2tudmF5N1JIbVJiMUJ5SG9HY2x5UWtON1FKVGtPZlFDaFBaMlNiUTM0YldBdFJzQzJuR3R3X2JiV3hmRFhwTmV5b09qSWJXNUxlOVl2ajR4MTlVZUZqUUJkbDJHRmItTjhkMGVDRnBVaERMUXMyZnNDY2RYVnNUSUtvc1R3WDZjZVZINFVSVUp3X0ZB?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2019-03-18T07:00:00.000Z",
+          "summary": "What routes does the Boeing 737 MAX 8 fly? &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 9
+        },
+        {
           "title": "Interim Report Details Ethiopian Flight 302 Pilots’ Confusion",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcURCUFo0UkdRV1FxZUlZQkRwdVBDWUtRN1VxRVN5TmZQTmhqN1dzNW9uNElvTkRxSDl0bzJQbDl0aUxOdTBYNW9DUnBfQzByRXBhWEZqcGU2dkJwMTlaLVZkQlRlaFZsNm15VWhQd0JkczZEbTNVWkZ1YlQwOTJ3SFl4WHR6RmVXMEd4NmxmLVd2amNKakhhWjBMckZPRUdl?oc=5",
           "source": "Aviation Week",
@@ -2176,24 +2175,16 @@
           "relevanceScore": 4
         },
         {
-          "title": "FAA Authorizes Boeing 737 MAX Certification Test Flights",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbUZDU2wyRm9nQ0JYT3U5M2h5OWJpel9tWDh4b1RTcTdkcFNtQkM4TVZadzktVk9FMEZFa3NyNWcxZU5mU1JSZDZFM2dJTUxjNGlrWlEwVEx3WC1aVzNnYzM1QTJJRS13SkVxUTV1ekZpam9TS0xKMUN0Tk9SdU84c0JxYS0tbGpPdjVEUmQtTU4tUTRGTncyNWFTWURnSmNXRWJYU3p1U3lnaGI4d1dyNU85U3RwaEdk?oc=5",
+          "title": "The Boeing 737 MAX Timeline: From Conceptualization To Service Return",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MUlFTRTlEeGUwQUcya2VqVDBRWngzcDhvYW1kS3JVcnZqbGpKSENLN196aDFUc0JERWxzZ2JiTjAyWTZSY0FRVjAySG9aSzkzaWVPUlNUV0tZM2dKM192cHpxRnVfVW9SSVl0cTlsSnM0VWx1UkdhMnk3U2s?oc=5",
           "source": "Aviation Week",
-          "publishedAt": "2020-06-29T07:00:00.000Z",
-          "summary": "FAA Authorizes Boeing 737 MAX Certification Test Flights &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 4
-        },
-        {
-          "title": "Boeing 737 MAX Fleet’s Return To Service Gains Momentum",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdm9sOG1BRFduWWVzazZMblV0UnlZc000QUpaX09QQ0tnRVp5ZjQ1YlIwYVpmcDF1OXdyLTdKUmxyZTVQMEV2UDcxLU1YREpISkRpWHhYdndJeXIxbGNGN21maFdiXzVkQXNVWXlWNkdVeWRwWk9tZ3psejZRcXZLTDNQZHVVZl9ISV92QUF3YVQ0aE85MWMzTDVRMWdIX3ZPZHc?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2021-03-12T08:00:00.000Z",
-          "summary": "Boeing 737 MAX Fleet’s Return To Service Gains Momentum &nbsp;&nbsp; Aviation Week",
+          "publishedAt": "2021-03-18T10:24:11.000Z",
+          "summary": "The Boeing 737 MAX Timeline: From Conceptualization To Service Return &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 4
         },
         {
           "title": "Crash: Ethiopian B38M near Bishoftu on Mar 10th 2019, impacted terrain after departure",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE12ZkdnM1FJZFY4YjJIbEpteWxsY2wwYjVrajRxQmx3UkpQUE5IMHU5c242MnduZmZtdmw2ZHZOZ3NtYTFLRG0ySXVQSThQR1p6S0JzUUdhc1k?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1UU3JINUNuVXNleUxXYmJ4b3I2Y2dSa2tRRk9OenMySFpBUGROUFc1T09tSThmR193NGNpTElYY1RMZ09JMHRTZmpsN1RMcTZHWnk3bkZ5RQ?oc=5",
           "source": "The Aviation Herald",
           "publishedAt": "2019-03-10T08:00:00.000Z",
           "summary": "Crash: Ethiopian B38M near Bishoftu on Mar 10th 2019, impacted terrain after departure &nbsp;&nbsp; The Aviation Herald",
@@ -2201,7 +2192,7 @@
         },
         {
           "title": "Crash: Ethiopian B38M near Bishoftu on Mar 10th 2019, impacted terrain after departure",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE12eVVNR2NHQVVWUmVvWlctYXRnSGk0VTNfVEV5NkFBd181MU1yaE8tcnRjVEFnR3dpOFNTOGR4bDlsSm1KM1ZkTHhFd01fdjNFU2NHSzJoSQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE12ZkdnM1FJZFY4YjJIbEpteWxsY2wwYjVrajRxQmx3UkpQUE5IMHU5c242MnduZmZtdmw2ZHZOZ3NtYTFLRG0ySXVQSThQR1p6S0JzUUdhc1k?oc=5",
           "source": "The Aviation Herald",
           "publishedAt": "2019-03-10T08:00:00.000Z",
           "summary": "Crash: Ethiopian B38M near Bishoftu on Mar 10th 2019, impacted terrain after departure &nbsp;&nbsp; The Aviation Herald",
@@ -2274,14 +2265,6 @@
       "query": "site:flightglobal.com Lion Air Flight 610 Lion Air 2018 || site:aviationweek.com Lion Air Flight 610 Lion Air 2018 || site:avherald.com Lion Air Flight 610 Lion Air 2018 || site:aviation-safety.net Lion Air Flight 610 Lion Air 2018 || site:reuters.com Lion Air Flight 610 Lion Air 2018",
       "articles": [
         {
-          "title": "How Boeing 737 Max flight computers now handle angle-of-attack failures",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN2RERXNNeUttTXVwa3JZQXdURG5IMVlzMVQ4WXB3VTRUbUtCSnVKeExTMGNjclFHSXFUZVFIUnY1YW5GekpqVWh3bDd0NGpnN0UzSHdXdzlCdmp4ZVpZWUI5aFpzY2R6WTJMcGp0U1U5aFo0eWVyTGF2QlM0TVJBZm5KQklxbnIzeU03dTVPZmdkZHlrYnJFUkpKZDNCNVoxZEJjWFpwMmM3Vkw4cFVwdjBkU1RHSEhneTFmRw?oc=5",
-          "source": "FlightGlobal",
-          "publishedAt": "2020-11-18T08:00:00.000Z",
-          "summary": "How Boeing 737 Max flight computers now handle angle-of-attack failures &nbsp;&nbsp; FlightGlobal",
-          "relevanceScore": 4
-        },
-        {
           "title": "Helicopters, ships scour sea for lost Lion 737 Max 8",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQlpZNWVUY0laWE1jV3RUUGNkMzN0Z19ZazJpaVA0TVBnUkFLWUNQTVRrSFJMTUZmTlBqam9NRklKclFwQm1fTnVaVzdCbjJtb0pVZVdDMmo1eUFyQXMtbFhBY3JlZkdnTzM4VUZ2MVhVUlRxd29YZ0szenFJbGN0djhiM1VWMl90cVQ5clcwN3ZLSF9RUGdUZVJjV0RfYk1ENHc?oc=5",
           "source": "FlightGlobal",
@@ -2290,11 +2273,11 @@
           "relevanceScore": 8
         },
         {
-          "title": "FAA Authorizes Boeing 737 MAX Certification Test Flights",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbUZDU2wyRm9nQ0JYT3U5M2h5OWJpel9tWDh4b1RTcTdkcFNtQkM4TVZadzktVk9FMEZFa3NyNWcxZU5mU1JSZDZFM2dJTUxjNGlrWlEwVEx3WC1aVzNnYzM1QTJJRS13SkVxUTV1ekZpam9TS0xKMUN0Tk9SdU84c0JxYS0tbGpPdjVEUmQtTU4tUTRGTncyNWFTWURnSmNXRWJYU3p1U3lnaGI4d1dyNU85U3RwaEdk?oc=5",
+          "title": "The Boeing 737 MAX Timeline: From Conceptualization To Service Return",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MUlFTRTlEeGUwQUcya2VqVDBRWngzcDhvYW1kS3JVcnZqbGpKSENLN196aDFUc0JERWxzZ2JiTjAyWTZSY0FRVjAySG9aSzkzaWVPUlNUV0tZM2dKM192cHpxRnVfVW9SSVl0cTlsSnM0VWx1UkdhMnk3U2s?oc=5",
           "source": "Aviation Week",
-          "publishedAt": "2020-06-29T07:00:00.000Z",
-          "summary": "FAA Authorizes Boeing 737 MAX Certification Test Flights &nbsp;&nbsp; Aviation Week",
+          "publishedAt": "2021-03-18T10:24:11.000Z",
+          "summary": "The Boeing 737 MAX Timeline: From Conceptualization To Service Return &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 4
         },
         {
@@ -2303,14 +2286,6 @@
           "source": "Aviation Week",
           "publishedAt": "2021-05-27T07:00:00.000Z",
           "summary": "Gallery: The Boeing 737 MAX Timeline &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 4
-        },
-        {
-          "title": "The Boeing 737 MAX Timeline: From Conceptualization To Service Return",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MUlFTRTlEeGUwQUcya2VqVDBRWngzcDhvYW1kS3JVcnZqbGpKSENLN196aDFUc0JERWxzZ2JiTjAyWTZSY0FRVjAySG9aSzkzaWVPUlNUV0tZM2dKM192cHpxRnVfVW9SSVl0cTlsSnM0VWx1UkdhMnk3U2s?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2021-03-18T10:24:11.000Z",
-          "summary": "The Boeing 737 MAX Timeline: From Conceptualization To Service Return &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 4
         },
         {
@@ -2380,7 +2355,7 @@
       ]
     },
     "NTSB-DCA18MA142": {
-      "query": "site:flightglobal.com Southwest Airlines Flight 1380 Southwest Airlines 2018 || site:flightglobal.com Southwest Airlines Boeing 737-700 2018 Airlines Flight 1380 || site:flightglobal.com \"Boeing 737-700\" \"year-old\" Near Philadelphia || site:aviationweek.com Southwest Airlines Flight 1380 Southwest Airlines 2018 || site:aviationweek.com Southwest Airlines Boeing 737-700 2018 Airlines Flight 1380 || site:aviationweek.com \"Boeing 737-700\" \"year-old\" Near Philadelphia || site:avherald.com Southwest Airlines Flight 1380 Southwest Airlines 2018 || site:aviation-safety.net Southwest Airlines Flight 1380 Southwest Airlines 2018 || site:reuters.com Southwest Airlines Flight 1380 Southwest Airlines 2018",
+      "query": "site:flightglobal.com Southwest Airlines Flight 1380 Southwest Airlines 2018 || site:flightglobal.com Southwest Airlines Boeing 737-700 2018 Airlines Flight 1380 || site:flightglobal.com \"Boeing 737-700\" \"year-old\" Near Philadelphia || site:aviationweek.com Southwest Airlines Flight 1380 Southwest Airlines 2018 || site:aviationweek.com Southwest Airlines Boeing 737-700 2018 Airlines Flight 1380 || site:aviationweek.com \"Boeing 737-700\" \"year-old\" Near Philadelphia || site:avherald.com Southwest Airlines Flight 1380 Southwest Airlines 2018 || site:aviation-safety.net Southwest Airlines Flight 1380 Southwest Airlines 2018 || site:aviation-safety.net Southwest Airlines Boeing 737-700 2018 Airlines Flight 1380 || site:reuters.com Southwest Airlines Flight 1380 Southwest Airlines 2018 || site:reuters.com Southwest Airlines Boeing 737-700 2018 Airlines Flight 1380",
       "articles": [
         {
           "title": "Accident: Southwest B737 near Philadelphia on Apr 17th 2018, uncontained engine failure takes out passenger window",
@@ -2409,7 +2384,7 @@
       ]
     },
     "GCAA-EK521-2016": {
-      "query": "site:flightglobal.com Emirates Flight 521 Emirates 2016 || site:aviationweek.com Emirates Flight 521 Emirates 2016 || site:avherald.com Emirates Flight 521 Emirates 2016 || site:aviation-safety.net Emirates Flight 521 Emirates 2016 || site:reuters.com Emirates Flight 521 Emirates 2016",
+      "query": "site:flightglobal.com Emirates Flight 521 Emirates 2016 || site:aviationweek.com Emirates Flight 521 Emirates 2016 || site:avherald.com Emirates Flight 521 Emirates 2016 || site:avherald.com Emirates Boeing 777-300 2016 Emirates Flight 521 || site:aviation-safety.net Emirates Flight 521 Emirates 2016 || site:aviation-safety.net Emirates Boeing 777-300 2016 Emirates Flight 521 || site:reuters.com Emirates Flight 521 Emirates 2016",
       "articles": [
         {
           "title": "Emirates crash: Communications point to possible go-around",
@@ -2452,14 +2427,6 @@
           "relevanceScore": 6
         },
         {
-          "title": "Accident: Emirates B773 at Dubai on Aug 3rd 2016, long landing, go around without thrust results in runway impact, aircraft on fire, TOGA switches inhibited",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8wSmNDN0RrZXlQdUZoZjg3Y3FmZ2ttMnJyNmg2SzBiV3BFZUoya3JYS1NveFNvd3lVbFZnbTl3OHVWYTJCUVBfQ1U5RDRqdUtkNTFydGJOUQ?oc=5",
-          "source": "The Aviation Herald",
-          "publishedAt": "2016-08-03T07:00:00.000Z",
-          "summary": "Accident: Emirates B773 at Dubai on Aug 3rd 2016, long landing, go around without thrust results in runway impact, aircraft on fire, TOGA switches inhibited &nbsp;&nbsp; The Aviation Herald",
-          "relevanceScore": 6
-        },
-        {
           "title": "Accident Boeing 777-31H A6-EMW, Wednesday 3 August 2016",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tZjdpTXBPWG1DSXlqQTFzcVBVU3ZoZ0oyaGw2RUpiYzlDZjVYTWFHX1hGZ2tyTmRMcnp0NkNkaXJ0UlQxRjN2eXROXzUzd1N0MTdOTm5R?oc=5",
           "source": "Aviation Safety Network",
@@ -2486,24 +2453,8 @@
       ]
     },
     "BEA-GWI9525-2015": {
-      "query": "site:flightglobal.com Germanwings Flight 9525 Germanwings 2015 || site:aviationweek.com Germanwings Flight 9525 Germanwings 2015 || site:avherald.com Germanwings Flight 9525 Germanwings 2015 || site:aviation-safety.net Germanwings Flight 9525 Germanwings 2015 || site:reuters.com Germanwings Flight 9525 Germanwings 2015",
+      "query": "site:flightglobal.com Germanwings Flight 9525 Germanwings 2015 || site:flightglobal.com Germanwings Airbus A320-211 2015 Germanwings Flight 9525 || site:flightglobal.com \"Airbus A320-211\" \"year-old\" French Alps || site:aviationweek.com Germanwings Flight 9525 Germanwings 2015 || site:aviationweek.com Germanwings Airbus A320-211 2015 Germanwings Flight 9525 || site:aviationweek.com \"Airbus A320-211\" \"year-old\" French Alps || site:avherald.com Germanwings Flight 9525 Germanwings 2015 || site:aviation-safety.net Germanwings Flight 9525 Germanwings 2015 || site:aviation-safety.net Germanwings Airbus A320-211 2015 Germanwings Flight 9525 || site:reuters.com Germanwings Flight 9525 Germanwings 2015",
       "articles": [
-        {
-          "title": "Airbus details flight history of crashed A320",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZE1vSXZxenV3NjdIQkEyT2JraG9pUTd3Z2JMczJydjZUMk43MnFuQWlEdFA1bUVpSmo0R1pKSjJBT29TZU1jWnRNOEpJczgwUFhreXFPY29ESTF0ZHF6ZWpiR3RYczJncEQwZS1MUHJvTGVWdm00RFc3V1g1VE54NGp5YlZpYWFSQTJ1QUhQdms2ZTVQS3Q4S3RR?oc=5",
-          "source": "FlightGlobal",
-          "publishedAt": "2015-03-24T07:00:00.000Z",
-          "summary": "Airbus details flight history of crashed A320 &nbsp;&nbsp; FlightGlobal",
-          "relevanceScore": 4
-        },
-        {
-          "title": "Opinion: Lessons To Learn From Germanwings Flight 9525",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMFh0Z0htUHZaVk5QQ0pPWGt1czVIV3hKa3ZUTFhHVF92dUtDb1ZERGItODlLalNoRTlqTmZ4X0xOUU1WYTQ4WE44RkI4RXVIMUpSbVk4QnNHb0Z4QWVNbEhKSWlCMFVEZmt0dnBDZ1M4dDJfMWc5VElJSFVndXZ5LXowUFB1WjBhZS16RQ?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2015-04-14T07:00:00.000Z",
-          "summary": "Opinion: Lessons To Learn From Germanwings Flight 9525 &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 4
-        },
         {
           "title": "Crash: Germanwings A320 near Barcelonnette on Mar 24th 2015, first officer alone in cockpit, initiated rapid descent, aircraft impacted terrain",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9STFFGY1RyWkVQckFxOGMzUG0tNVpONzVkTzcxUlNGdzM1NW5xZVF1VHJCM05aNG42MDVScWtuMUk3NEk2Wm1Fclo2OHp1eUZr?oc=5",
@@ -2545,20 +2496,20 @@
           "relevanceScore": 7
         },
         {
-          "title": "Germanwings crash in France",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMV9fbE0xSkc0ZFlqOVJtdW9Tek0zd3Y1Y2c4OU5MWDZqOTdSUnNBM3JJN1hFcVcwMVdLVDA3MS0wbV9pVWZkeDhBVi1NcFdRUHJWdEF1enZpTEc1ZEp3ZmJWbThVU0lpRkJJdm9FUVA4OE1iYlROb0h6RWlUUktmQkhaSDc?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2015-03-26T07:00:00.000Z",
-          "summary": "Germanwings crash in France &nbsp;&nbsp; Reuters",
-          "relevanceScore": 6
-        },
-        {
           "title": "Crash in the French Alps",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UZHV4dHBxRExlY0tQS1dSQmlmNUVwbjBCYl9tM05GbFBWLWdlSGxZOEw5Q0VLQ2JfS0lyTGxuSXA5NTVVUDlVUEYwaHlVYjJNdGRNb1JpVGVsY2hEQWRyWTJNdXNfZWdNTWQyUGRB?oc=5",
           "source": "Reuters",
           "publishedAt": "2015-03-31T07:00:00.000Z",
           "summary": "Crash in the French Alps &nbsp;&nbsp; Reuters",
           "relevanceScore": 6
+        },
+        {
+          "title": "Airlines introduce two-person cockpit rule after Alps crash",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY2ZIQ09DTTY2ZThNZThGOGg2Rlp5LTlkdTJWUDJ5M1BhVnB5MHBBM1M4VFZ1dndXLTBZc1RlSnZWOE1MUk9hS0Q4R0NNczBlazluTUt6Q2JWM1ZUSzg3cC1hcVY5WGNONnItbFN2cHprdVVaaTIxM3VzaTNIZ2ZxdXVTX3Q4NUEtenZMTW5qVk5XX0pMQTc0VkhMUnBaSzRkbEFlZkJicUJMTElHWUVKOTln?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2015-03-26T07:00:00.000Z",
+          "summary": "Airlines introduce two-person cockpit rule after Alps crash &nbsp;&nbsp; Reuters",
+          "relevanceScore": 5
         }
       ]
     },
@@ -2596,14 +2547,6 @@
           "publishedAt": "2014-12-28T08:00:00.000Z",
           "summary": "Airbus says missing AirAsia plane was delivered in 2008 &nbsp;&nbsp; Reuters",
           "relevanceScore": 4
-        },
-        {
-          "title": "Bodies, debris from missing AirAsia plane pulled from sea off Indonesia",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdnJjelhTZk5vUUtQSzVGWjVBZUE0YnVZNVlUUWZlWUhIOXFoYURocExuWTFhTk1KWmVWeDByUGVtUTRubnJqa1psRkxHRl9oS3M5aXlrZW9obmN5OVR4cTVNVjI5MXhieHFKZUtkV19VYXVWQ09Cbi15RFpoM20tV3I1MnQyaTFqTlZlaUJJY2ZmakpnQXBwWm9Kd0xnalNLSWVfT1JLaFctQ2xMVVIwOXdnNjJ6WDA1ZDd2aw?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2014-12-29T08:00:00.000Z",
-          "summary": "Bodies, debris from missing AirAsia plane pulled from sea off Indonesia &nbsp;&nbsp; Reuters",
-          "relevanceScore": 9
         }
       ]
     },
@@ -2776,14 +2719,6 @@
           "publishedAt": "2026-05-21T07:00:00.000Z",
           "summary": "Airbus, Air France found guilty of manslaughter over 2009 Atlantic crash &nbsp;&nbsp; Reuters",
           "relevanceScore": 5
-        },
-        {
-          "title": "Air France to compensate crash victims' families",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUVNSdk90cDFIbXo1MTlGQ3EzSXVaT1l5bE5VVE5zQmMtRlktejIwZDJ4cUsxTlctd1FRUm80SktISlJjZzZsRDBGTDRLNnl2QTF5eHY3N2lqVWtDV3FILVYwUk9lalQtZnloTkhIUDhmSTNjTXdBYnZoUUdfa0pQQlVHVnZLaW5BX2hqYmZpOWVKWjBtNHlnQzktN1hsUVdJX2c?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2009-06-19T07:00:00.000Z",
-          "summary": "Air France to compensate crash victims' families &nbsp;&nbsp; Reuters",
-          "relevanceScore": 4
         }
       ]
     },
