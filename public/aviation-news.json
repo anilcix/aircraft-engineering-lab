@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-11-24T02:12:20.157Z",
+  "updatedAt": "2026-11-24T13:43:11.967Z",
   "items": [
+    {
+      "title": "Blog 2 Min Read NASA Officially Takes Ownership of X-59 Supersonic Aircraft",
+      "source": "NASA Aeronautics",
+      "category": "New Concepts",
+      "url": "https://www.nasa.gov/blogs/quesst/2026/11/23/nasa-officially-takes-ownership-of-x-59-supersonic-aircraft/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor.",
+      "publishedAt": "2026-11-23T21:05:34.000Z"
+    },
     {
       "title": "Amendment 83: New Opportunity: B.9 Heliophysics Flight Opportunities in Research and Technology",
       "source": "NASA Aeronautics",
@@ -384,14 +393,6 @@
       "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
-      "title": "Blog 2 Min Read NASA Officially Takes Ownership of X-59 Supersonic Aircraft",
-      "source": "NASA Aeronautics",
-      "category": "New Concepts",
-      "url": "https://www.nasa.gov/blogs/quesst/2026/11/23/nasa-officially-takes-ownership-of-x-59-supersonic-aircraft/",
-      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
-      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
       "title": "NASA Announces X-70 Experimental Aircraft to Advance Flight Research November 4, 2026 News Release",
       "source": "NASA Aeronautics",
       "category": "Industry",
@@ -406,6 +407,14 @@
       "url": "https://www.aerospacemanufacturinganddesign.com/tag/women-to-watch/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
+    },
+    {
+      "title": "Coltala Aerospace unites under one name",
+      "source": "Aerospace Manufacturing & Design",
+      "category": "Industry",
+      "url": "https://www.aerospacemanufacturinganddesign.com/news/coltala-aerospace-unites-under-one-name/",
+      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
+      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
     },
     {
       "title": "Poseidon Aerospace, Flexcompute use AI to cut 18 months from autonomous aircraft development",
@@ -510,14 +519,6 @@
       "url": "https://www.aerospacemanufacturinganddesign.com/news/air-sends-autonomous-cargo-evtol-us-flight-demonstrations/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "What to expect from the manufacturing supply chain",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "Manufacturing",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/what-expect-from-manufacturing-supply-chain/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık üretimi, imalat teknolojileri ve tedarik zinciri alanındaki yeni bir güncellemeyi ele alıyor."
     }
   ]
 }
