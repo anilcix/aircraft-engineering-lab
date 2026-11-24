@@ -1,6 +1,15 @@
 {
-  "updatedAt": "2026-11-24T13:43:11.967Z",
+  "updatedAt": "2026-11-24T23:53:45.860Z",
   "items": [
+    {
+      "title": "NASA’s Titan-Bound Dragonfly Rotorcraft Gets Its Eyes",
+      "source": "NASA Aeronautics",
+      "category": "Industry",
+      "url": "https://science.nasa.gov/missions/dragonfly/nasas-titan-bound-dragonfly-rotorcraft-gets-its-eyes/",
+      "summary": "Latest technical aerospace item collected from NASA Aeronautics.",
+      "summaryTr": "NASA Aeronautics kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor.",
+      "publishedAt": "2026-11-24T15:44:38.000Z"
+    },
     {
       "title": "Blog 2 Min Read NASA Officially Takes Ownership of X-59 Supersonic Aircraft",
       "source": "NASA Aeronautics",
@@ -511,14 +520,6 @@
       "url": "https://www.aerospacemanufacturinganddesign.com/news/the-helicopter-company-thc-to-purchase-up-to-60-bombardier-aircraft/",
       "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
       "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, havacılık sektörü, programlar ve araştırma faaliyetleri alanındaki yeni bir güncellemeyi ele alıyor."
-    },
-    {
-      "title": "AIR sends autonomous cargo eVTOL to US for flight demonstrations",
-      "source": "Aerospace Manufacturing & Design",
-      "category": "New Concepts",
-      "url": "https://www.aerospacemanufacturinganddesign.com/news/air-sends-autonomous-cargo-evtol-us-flight-demonstrations/",
-      "summary": "Latest technical aerospace item collected from Aerospace Manufacturing & Design.",
-      "summaryTr": "Aerospace Manufacturing & Design kaynaklı bu gelişme, yeni nesil havacılık konseptleri ve teknoloji geliştirme alanındaki yeni bir güncellemeyi ele alıyor."
     }
   ]
 }
