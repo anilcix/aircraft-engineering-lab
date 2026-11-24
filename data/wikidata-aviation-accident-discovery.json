@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T13:35:49.892937Z",
+  "updatedAt": "2026-11-24T14:13:02.467720Z",
   "source": "Wikidata Query Service / aviation accident (Q744913)",
   "license": "Wikidata structured data is CC0",
   "coverageNote": "Broad secondary discovery layer. Records are not treated as official investigation findings until linked to the responsible national investigation authority.",
@@ -21,7 +21,7 @@
       "longitude": -80.113111111,
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 9,
-      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2026_Palm_Beach_County_Learjet_60_crash"
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/2026_Florida_Learjet_60_crash"
     },
     {
       "id": "WIKIDATA-Q141947331",
@@ -16964,7 +16964,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Trans World Airlines",
-      "location": "Moriches Inlet, United States",
+      "location": "Atlantic Ocean, United States",
       "latitude": 40.649166666,
       "longitude": -72.636944444,
       "coordinateSource": "Wikidata event coordinate",
@@ -19427,7 +19427,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
       "operator": "Pakistan International Airlines",
-      "location": "Lower Himalayan Range, Nepal",
+      "location": "Kathmandu, Nepal",
       "latitude": 27.53277778,
       "longitude": 85.28472222,
       "coordinateSource": "Wikidata event coordinate",
@@ -20025,7 +20025,8 @@
       "latitude": 54.64,
       "longitude": 52.801666666,
       "coordinateSource": "Wikidata event-location coordinate",
-      "fatalities": 41
+      "fatalities": 41,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1991_Bugulma_Antonov_An-24_crash"
     },
     {
       "id": "WIKIDATA-Q501208",
@@ -34740,7 +34741,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q108805116",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery",
-      "location": "Emling"
+      "location": "Bockhorn"
     },
     {
       "id": "WIKIDATA-Q11737218",

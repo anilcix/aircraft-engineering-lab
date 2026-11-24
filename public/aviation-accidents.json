@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T13:35:50.473058Z",
+  "updatedAt": "2026-11-24T14:13:03.426095Z",
   "coverageNote": "Federated global aviation safety index: 41 official/curated cases plus 3095 Wikidata discovery records for coverage. Discovery records are excluded from authoritative cause analysis until verified against an Annex 13 authority.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality/cause statistics use verified or curated records; discovery-layer values may be incomplete and are kept separate.",
   "fleetProfiles": [
@@ -21186,7 +21186,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
       "operator": "Pakistan International Airlines",
-      "location": "Lower Himalayan Range, Nepal",
+      "location": "Kathmandu, Nepal",
       "latitude": 27.53277778,
       "longitude": 85.28472222,
       "coordinateSource": "Wikidata event coordinate",
@@ -21822,6 +21822,7 @@
       "longitude": 52.801666666,
       "coordinateSource": "Wikidata event-location coordinate",
       "fatalities": 41,
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/1991_Bugulma_Antonov_An-24_crash",
       "probableCause": ""
     },
     {
@@ -37464,7 +37465,7 @@
       "sourceUrl": "http://www.wikidata.org/entity/Q108805116",
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
-      "location": "Emling",
+      "location": "Bockhorn",
       "probableCause": ""
     },
     {
