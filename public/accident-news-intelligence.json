@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T15:03:34.529Z",
+  "updatedAt": "2026-11-26T14:33:31.202Z",
   "sourceSet": [
     {
       "name": "FlightGlobal",
@@ -220,11 +220,11 @@
           "relevanceScore": 4
         },
         {
-          "title": "Other Cessna 208 Grand Caravan N9642F, xx Aug 2026",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE41VzNRRWhVNExMRWYzRG5OM0JXTkFlQUdpSTRiQTQ3SDVIRF9UT1lrcTFFOU5oamxNSTFmcldXMmxIX2N4aHRZNENad01wc0dwZEpXX1JB?oc=5",
+          "title": "Accident Cessna 208 Caravan I C-GHXD, Thursday 16 July 2026",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jVFUwR2RfTTJzV09XSzZRNVJFbVg4dlVtS193V1Q4ZnV3aF9sVy13bGhfcmJ6bEMxdzhDeXdMMWF1SHAzakhnRDdmYThud3dUZW82ZVdn?oc=5",
           "source": "Aviation Safety Network",
-          "publishedAt": "2026-10-18T07:00:00.000Z",
-          "summary": "Other Cessna 208 Grand Caravan N9642F, xx Aug 2026 &nbsp;&nbsp; Aviation Safety Network",
+          "publishedAt": "2026-07-16T07:00:00.000Z",
+          "summary": "Accident Cessna 208 Caravan I C-GHXD, Thursday 16 July 2026 &nbsp;&nbsp; Aviation Safety Network",
           "relevanceScore": 4
         },
         {
@@ -288,14 +288,6 @@
           "publishedAt": "2026-06-17T07:00:00.000Z",
           "summary": "Crashed B-52H was testing radar upgrade during fatal Edwards incident &nbsp;&nbsp; FlightGlobal",
           "relevanceScore": 5
-        },
-        {
-          "title": "Topic: US Air Force",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90dFpFbWs3QVlHVHU4M0QwSE5GSmMySUxoTHd1TWZ0b095eEJBMEFOOVFSTTk0X0NlYXBSOTZVNHV4YkRUT2RlMjBWYTJuSENrOF9DQmxjZkNTQQ?oc=5",
-          "source": "FlightGlobal",
-          "publishedAt": "2026-09-04T13:47:18.000Z",
-          "summary": "Topic: US Air Force &nbsp;&nbsp; FlightGlobal",
-          "relevanceScore": 6
         },
         {
           "title": "B-52 Crashes After Takeoff At Edwards AFB",
@@ -575,14 +567,6 @@
       "query": "site:flightglobal.com 2025 North Carolina Cessna Citation II crash 2025 || site:flightglobal.com 2025 Citation II crash || site:aviationweek.com 2025 North Carolina Cessna Citation II crash 2025 || site:aviationweek.com 2025 Citation II crash || site:avherald.com 2025 North Carolina Cessna Citation II crash 2025 || site:avherald.com 2025 Citation II crash || site:aviation-safety.net 2025 North Carolina Cessna Citation II crash 2025 || site:reuters.com 2025 North Carolina Cessna Citation II crash 2025 || site:reuters.com 2025 Citation II crash",
       "articles": [
         {
-          "title": "Cessna Citation Ascend Earns FAA Type Certification",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNajI3V1VVSnprRHl0MXowVmtJTU10ekVXeVptTXR0UXpCRXBDcHdfelB6eHpDb1RTb0NoTy1sazM3dW51Zk9Lc3d3R2R3OW5hRW1oLU5LVjdIaTlDUmY0UFpIcFZGbHhuNHFxVjhVTDFPcFUtOUpCcUhEV3Q4cmc5Y2Fmd3J2NkNiTW5HWEcwRkUtMFhHZE1sdVNackJDOWtZUXEwTFp1b2VwQmtCaG5YQnVIU1M?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2025-11-07T08:00:00.000Z",
-          "summary": "Cessna Citation Ascend Earns FAA Type Certification &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 4
-        },
-        {
           "title": "Accident Cessna 550 Citation II N257BW, Thursday 18 December 2025",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YWWc5MTBxSDNxLVNlQ1A2TGJ1WjMwTFpqZTBjb3k3MWVCOHh1R3NaWnhJc3NBWmRlNTgwZzRWRXliMC1NeWQyQ3dxOFJEZEE3X1N4QUtB?oc=5",
           "source": "Aviation Safety Network",
@@ -593,8 +577,16 @@
       ]
     },
     "WIKIDATA-Q136892833": {
-      "query": "site:flightglobal.com 2025 HAL Tejas Dubai Air Show crash 2025 || site:flightglobal.com 2025 Air Show crash || site:aviationweek.com 2025 HAL Tejas Dubai Air Show crash 2025 || site:aviationweek.com 2025 Air Show crash || site:avherald.com 2025 HAL Tejas Dubai Air Show crash 2025 || site:avherald.com 2025 Air Show crash || site:aviation-safety.net 2025 HAL Tejas Dubai Air Show crash 2025 || site:reuters.com 2025 HAL Tejas Dubai Air Show crash 2025",
+      "query": "site:flightglobal.com 2025 HAL Tejas Dubai Air Show crash 2025 || site:aviationweek.com 2025 HAL Tejas Dubai Air Show crash 2025 || site:aviationweek.com 2025 Air Show crash || site:avherald.com 2025 HAL Tejas Dubai Air Show crash 2025 || site:avherald.com 2025 Air Show crash || site:aviation-safety.net 2025 HAL Tejas Dubai Air Show crash 2025 || site:reuters.com 2025 HAL Tejas Dubai Air Show crash 2025",
       "articles": [
+        {
+          "title": "Indian air force Tejas fighter crashes during Dubai air show display",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWVlVRFVEN0FZUTJpQWRGWkpVY0FiV3VKcS1xN3J2R1czWEMwd2tsN1pjaUtLRDItTHdkNmNiQzZ5TGExbVN0WnVFaHMyZ2lhN3JnYWtpTEo5Yng0elhLYkVnWEpmLWNxTjZmdWcxMXVpUEZDRVExV0xLcG5MYTROSW8yWHRoZnZ3YXB3dXItQkVkcnlXQ0M3WTlneGROSmNEY05TVi1hUkZfT1dhVlpuNTNyd0JfYWJy?oc=5",
+          "source": "FlightGlobal",
+          "publishedAt": "2025-11-21T08:00:00.000Z",
+          "summary": "Indian air force Tejas fighter crashes during Dubai air show display &nbsp;&nbsp; FlightGlobal",
+          "relevanceScore": 10
+        },
         {
           "title": "Accident HAL Tejas LCA Mk 1 LA-5026, Friday 21 November 2025",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCOWRmRTdzYmdpdVVZZGtfMHpEOWhyX0pMdC1mQWRYR3h2YW5sVnFrMjZtSmlpaTg3OEh1UEVtVUZrMVhxdjhkVVcxTWJ0S3JJd3VlTGhR?oc=5",
@@ -696,14 +688,6 @@
       "query": "site:flightglobal.com 2025 Dhaka fighter jet crash Bangladesh Air Force 2025 || site:flightglobal.com Bangladesh Air Force 2025 fighter jet crash || site:aviationweek.com 2025 Dhaka fighter jet crash Bangladesh Air Force 2025 || site:aviationweek.com Bangladesh Air Force 2025 fighter jet crash || site:avherald.com 2025 Dhaka fighter jet crash Bangladesh Air Force 2025 || site:avherald.com Bangladesh Air Force 2025 fighter jet crash || site:aviation-safety.net 2025 Dhaka fighter jet crash Bangladesh Air Force 2025 || site:aviation-safety.net Bangladesh Air Force 2025 fighter jet crash || site:reuters.com 2025 Dhaka fighter jet crash Bangladesh Air Force 2025",
       "articles": [
         {
-          "title": "How did a Bangladesh air force fighter jet crash into a school campus?",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVjZVcmhFYXNEalpuM1JYckFTWmVoQjJrZEdvTUpOZXNYclE5Zm11RE1sZ3FnTzVqUnVpR0Q2bXZCME9HUTBYRUdodFZDVkRLRUw4OVBPS1NIWUFNVk5RNGstby15bS12RzdXYWRseGlvRE9YQ2NhVlJkWHJ5VTQ1aDNxcWNtZ3JRcDRhMGVwWnVVbTcyQURMd1hUakF2QzR0RnFhbmJHNDdzTTV6dHM3TzB0U2lmNGJrNWJXNHBPbFhscFhyckU0?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2025-07-22T07:00:00.000Z",
-          "summary": "How did a Bangladesh air force fighter jet crash into a school campus? &nbsp;&nbsp; Reuters",
-          "relevanceScore": 11
-        },
-        {
           "title": "At least 19 killed, scores injured as Bangladesh air force jet crashes into college campus",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbG9tSjNXTTFOdkRGNzE1cHB4YVkxV0MyQi1SeFh5VVNrX1Q0cm5UZGpVQlYtTXVLWWI3UF9PdzJZU3VvU3JNZFFYRHlUeFRsazA4ODJwZEtJRFlGRUZFWkYySXVDc0RUbHMzcWpYUWNxaWpDbmNZNVMtM09GTTlBMkZsa3doR0JXTVd4ZlZZXzI4ck9vbVVadUpaMVZ1SWowY0NyalBqVEI0OUMwNjNLSUo3X2JfeERObGktVTVPMUpfSW9HR1FUVVNSUQ?oc=5",
           "source": "Reuters",
@@ -718,6 +702,14 @@
           "publishedAt": "2025-07-22T07:00:00.000Z",
           "summary": "Students protest in Bangladesh after air force jet crash kills 31, mostly children &nbsp;&nbsp; Reuters",
           "relevanceScore": 8
+        },
+        {
+          "title": "What is the Chinese-made F-7 jet that crashed into Bangladesh school?",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPc2ZSY0lLUDlPTlN2V1dFanpwVlF6WXdSdUFucW5MMlhyNHl3RVlvbkFvbGZ3SWVQcmhxMnE2THA3U3pFYUE3ZE9rS0RtaTVnaGxfUGxWS2J5TExyUlFLRmlDRmhiNV93aDdJOUlDOWhxdU5RLW1hbVNIVWplbF9LV3o0RWoyWmprOG9YU09ycUVPdUE2WWNxMDhlcF9VTEFMM2JqVk1vOG1PczZEN19TamRB?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2025-07-22T07:00:00.000Z",
+          "summary": "What is the Chinese-made F-7 jet that crashed into Bangladesh school? &nbsp;&nbsp; Reuters",
+          "relevanceScore": 6
         }
       ]
     },
@@ -942,7 +934,7 @@
       ]
     },
     "WIKIDATA-Q133309963": {
-      "query": "site:flightglobal.com Aerolínea Lanhsa Flight 018 2025 || site:flightglobal.com 2025 Lanhsa Flight 018 || site:aviationweek.com Aerolínea Lanhsa Flight 018 2025 || site:aviationweek.com 2025 Lanhsa Flight 018 || site:avherald.com Aerolínea Lanhsa Flight 018 2025 || site:avherald.com 2025 Lanhsa Flight 018 || site:aviation-safety.net Aerolínea Lanhsa Flight 018 2025 || site:aviation-safety.net 2025 Lanhsa Flight 018 || site:reuters.com Aerolínea Lanhsa Flight 018 2025",
+      "query": "site:flightglobal.com Aerolínea Lanhsa Flight 018 2025 || site:flightglobal.com 2025 Lanhsa Flight 018 || site:aviationweek.com Aerolínea Lanhsa Flight 018 2025 || site:aviationweek.com 2025 Lanhsa Flight 018 || site:avherald.com Aerolínea Lanhsa Flight 018 2025 || site:avherald.com 2025 Lanhsa Flight 018 || site:aviation-safety.net Aerolínea Lanhsa Flight 018 2025 || site:aviation-safety.net 2025 Lanhsa Flight 018 || site:reuters.com Aerolínea Lanhsa Flight 018 2025 || site:reuters.com 2025 Lanhsa Flight 018",
       "articles": [
         {
           "title": "At least 12 dead after Honduras plane crashes into the water after takeoff",
@@ -955,7 +947,7 @@
       ]
     },
     "WIKIDATA-Q133274463": {
-      "query": "site:flightglobal.com American Airlines flight 1006 American Airlines 2025 || site:flightglobal.com American Airlines 2025 Airlines flight 1006 || site:aviationweek.com American Airlines flight 1006 American Airlines 2025 || site:avherald.com American Airlines flight 1006 American Airlines 2025 || site:aviation-safety.net American Airlines flight 1006 American Airlines 2025 || site:aviation-safety.net American Airlines 2025 Airlines flight 1006 || site:reuters.com American Airlines flight 1006 American Airlines 2025",
+      "query": "site:flightglobal.com American Airlines flight 1006 American Airlines 2025 || site:flightglobal.com American Airlines 2025 Airlines flight 1006 || site:aviationweek.com American Airlines flight 1006 American Airlines 2025 || site:aviationweek.com American Airlines 2025 Airlines flight 1006 || site:avherald.com American Airlines flight 1006 American Airlines 2025 || site:aviation-safety.net American Airlines flight 1006 American Airlines 2025 || site:aviation-safety.net American Airlines 2025 Airlines flight 1006 || site:reuters.com American Airlines flight 1006 American Airlines 2025",
       "articles": [
         {
           "title": "NTSB To Probe American Airlines 737-800 Engine Fire At Denver Airport",
@@ -1030,7 +1022,7 @@
       "articles": []
     },
     "ARAIB-BX391-2025": {
-      "query": "site:flightglobal.com Air Busan Flight BX391 Ground Fire Air Busan 2025 || site:flightglobal.com Air Busan Airbus A321-200 2025 BX391 Ground Fire || site:aviationweek.com Air Busan Flight BX391 Ground Fire Air Busan 2025 || site:avherald.com Air Busan Flight BX391 Ground Fire Air Busan 2025 || site:aviation-safety.net Air Busan Flight BX391 Ground Fire Air Busan 2025 || site:reuters.com Air Busan Flight BX391 Ground Fire Air Busan 2025 || site:reuters.com Air Busan Airbus A321-200 2025 BX391 Ground Fire || site:reuters.com \"Airbus A321-200\" \"year-old\" Gimhae International Airport",
+      "query": "site:flightglobal.com Air Busan Flight BX391 Ground Fire Air Busan 2025 || site:aviationweek.com Air Busan Flight BX391 Ground Fire Air Busan 2025 || site:aviationweek.com Air Busan Airbus A321-200 2025 BX391 Ground Fire || site:aviationweek.com \"Airbus A321-200\" \"year-old\" Gimhae International Airport || site:avherald.com Air Busan Flight BX391 Ground Fire Air Busan 2025 || site:aviation-safety.net Air Busan Flight BX391 Ground Fire Air Busan 2025 || site:reuters.com Air Busan Flight BX391 Ground Fire Air Busan 2025 || site:reuters.com Air Busan Airbus A321-200 2025 BX391 Ground Fire || site:reuters.com \"Airbus A321-200\" \"year-old\" Gimhae International Airport",
       "articles": [
         {
           "title": "All occupants escape Air Busan A321 after fire breaks out at Gimhae",
@@ -1041,12 +1033,12 @@
           "relevanceScore": 11
         },
         {
-          "title": "Air Busan A321 Catches Fire At Gimhae International Airport",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSUFERXFBTl81eHM5aEdDbEZoOTlyNUNLLUdBRjgtTWpNcEhoeEhSRGZycE85a1dxcGJhLWN4ODNCTDJ6cC16UGNDUlV5YmQxSEhHVW1LdUdkdDViZW10VjFqS2UxaXRMVkdSMzRGVENwTU1yYWtLSkNWVG9YOUdsWndINDZHV21BZlJ6UklseG9HVk90bmZiTUdGOEFTMktCMTBsaDhFNG1XXzNVQW8tbHZrTzJZTVNO?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2025-01-28T08:00:00.000Z",
-          "summary": "Air Busan A321 Catches Fire At Gimhae International Airport &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 13
+          "title": "Air Busan A321 fire broke out while jet waited for delayed pushback: investigators",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNS1pKMUVfY1gxVG8wdks4UTdfNmNESTRNU205aXdQNHZweTJ5TlZzVVpITlBfdTdkcDQyMzJzUFFNQjFzRFhLZ0JTQk5oUU1sekFIUG01UTR0R1NSTnNZTW5CTUVTNVpvYTY2c0FRam00UnRJYWQ4aWJyTW9jWVpIWG82eWdQSktIQU5YcmVZSHlPV09BUjk4R044ZmhFM2Jjb1pwV2lHOGNyRi1IcjVuV2FXLXdxT3l6elpMcVRqY2YxakJCZzNGWEV3?oc=5",
+          "source": "FlightGlobal",
+          "publishedAt": "2025-03-05T08:00:00.000Z",
+          "summary": "Air Busan A321 fire broke out while jet waited for delayed pushback: investigators &nbsp;&nbsp; FlightGlobal",
+          "relevanceScore": 6
         },
         {
           "title": "Accident: Busan A321 at Busan on Jan 28th 2025, fire during departure preparations",
@@ -1132,7 +1124,7 @@
       "articles": []
     },
     "ARAIB-JEJU2216-2024": {
-      "query": "site:flightglobal.com Jeju Air Flight 2216 Jeju Air 2024 || site:aviationweek.com Jeju Air Flight 2216 Jeju Air 2024 || site:avherald.com Jeju Air Flight 2216 Jeju Air 2024 || site:aviation-safety.net Jeju Air Flight 2216 Jeju Air 2024 || site:aviation-safety.net Jeju Air Boeing 737-800 2024 Air Flight 2216 || site:reuters.com Jeju Air Flight 2216 Jeju Air 2024",
+      "query": "site:flightglobal.com Jeju Air Flight 2216 Jeju Air 2024 || site:aviationweek.com Jeju Air Flight 2216 Jeju Air 2024 || site:avherald.com Jeju Air Flight 2216 Jeju Air 2024 || site:aviation-safety.net Jeju Air Flight 2216 Jeju Air 2024 || site:reuters.com Jeju Air Flight 2216 Jeju Air 2024",
       "articles": [
         {
           "title": "Crashed Jeju 737 touched down without landing gear deployed",
@@ -1201,16 +1193,8 @@
       ]
     },
     "KZ-AZAL8243-2024": {
-      "query": "site:flightglobal.com Azerbaijan Airlines Flight 8243 Azerbaijan Airlines 2024 || site:flightglobal.com Azerbaijan Airlines Embraer 190AR 2024 Airlines Flight 8243 || site:flightglobal.com \"Embraer 190AR\" \"year-old\" Near Aktau || site:aviationweek.com Azerbaijan Airlines Flight 8243 Azerbaijan Airlines 2024 || site:avherald.com Azerbaijan Airlines Flight 8243 Azerbaijan Airlines 2024 || site:aviation-safety.net Azerbaijan Airlines Flight 8243 Azerbaijan Airlines 2024 || site:aviation-safety.net Azerbaijan Airlines Embraer 190AR 2024 Airlines Flight 8243 || site:reuters.com Azerbaijan Airlines Flight 8243 Azerbaijan Airlines 2024",
+      "query": "site:flightglobal.com Azerbaijan Airlines Flight 8243 Azerbaijan Airlines 2024 || site:flightglobal.com Azerbaijan Airlines Embraer 190AR 2024 Airlines Flight 8243 || site:flightglobal.com \"Embraer 190AR\" \"year-old\" Near Aktau || site:aviationweek.com Azerbaijan Airlines Flight 8243 Azerbaijan Airlines 2024 || site:aviationweek.com Azerbaijan Airlines Embraer 190AR 2024 Airlines Flight 8243 || site:aviationweek.com \"Embraer 190AR\" \"year-old\" Near Aktau || site:avherald.com Azerbaijan Airlines Flight 8243 Azerbaijan Airlines 2024 || site:aviation-safety.net Azerbaijan Airlines Flight 8243 Azerbaijan Airlines 2024 || site:reuters.com Azerbaijan Airlines Flight 8243 Azerbaijan Airlines 2024",
       "articles": [
-        {
-          "title": "Azerbaijan Airlines Embraer 190 Crashes In Kazakhstan",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeW94VVl0dzltcl9USGdqd0gzcW9fdVlaVm5oVGoxbC1aOVJ4OE5zdjhGMTdSRGUtT3VweW1tWlBBZDhxbGJXTTF0eG1ydjJLeG8wVlZ0SHlPSlB3Qk5ad1dpVEhhcUdzYXFpQUJPTzg2a01UOGh4a2NBTHoxNnVjZzROVjYwMTlBRkVRRk0tUlZqR1VuTm1iWkRsNTRLNVlqd05GcWhqb0Q4ZEhmTlZWRg?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2024-12-25T08:00:00.000Z",
-          "summary": "Azerbaijan Airlines Embraer 190 Crashes In Kazakhstan &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 10
-        },
         {
           "title": "Accident: Azerbaijan E190 near Aktau on Dec 25th 2024, lost height and impacted ground after being shot at",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9oaFpDbDBuZUFmWFF4bHpkcDVsOWtaR0dQVGhCX0tVZmM0VlVKUk9jWEVCMXBfaWNvNTc5OVVTYUZGNHlhSVhnVENmeFZqdVFF?oc=5",
@@ -1239,17 +1223,50 @@
     },
     "WIKIDATA-Q131539636": {
       "query": "site:flightglobal.com 2024 Gramado Piper PA-42 crash 2024 || site:flightglobal.com 2024 Piper PA-42 crash || site:aviationweek.com 2024 Gramado Piper PA-42 crash 2024 || site:aviationweek.com 2024 Piper PA-42 crash || site:avherald.com 2024 Gramado Piper PA-42 crash 2024 || site:avherald.com 2024 Piper PA-42 crash || site:aviation-safety.net 2024 Gramado Piper PA-42 crash 2024 || site:aviation-safety.net 2024 Piper PA-42 crash || site:reuters.com 2024 Gramado Piper PA-42 crash 2024 || site:reuters.com 2024 Piper PA-42 crash",
-      "articles": []
-    },
-    "WIKIDATA-Q131469153": {
-      "query": "site:flightglobal.com Runway excursion at San Fernando International Airport in 2024 2024 || site:flightglobal.com 2024 Airport in 2024 || site:aviationweek.com Runway excursion at San Fernando International Airport in 2024 2024 || site:aviationweek.com 2024 Airport in 2024 || site:avherald.com Runway excursion at San Fernando International Airport in 2024 2024 || site:avherald.com 2024 Airport in 2024 || site:aviation-safety.net Runway excursion at San Fernando International Airport in 2024 2024 || site:reuters.com Runway excursion at San Fernando International Airport in 2024 2024 || site:reuters.com 2024 Airport in 2024",
       "articles": [
         {
-          "title": "Incident: Buddha AT72 at Bhairawa on Jul 11th 2024, runway excursion on landing",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE83UjB5Z2ZLZmdUZmNfZEs5c0lTMzk3RnJLd3J4dXNmR0tNeVF3Yk02Q29IY0I0ZU1JbnlyVGxHT3Zjak1rc2RCUFlBQ2FaNW9G?oc=5",
-          "source": "The Aviation Herald",
-          "publishedAt": "2024-07-11T07:00:00.000Z",
-          "summary": "Incident: Buddha AT72 at Bhairawa on Jul 11th 2024, runway excursion on landing &nbsp;&nbsp; The Aviation Herald",
+          "title": "Small plane crashes into Brazil tourist city, killing at least 10",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcnc4UVF0alpVWlpOVTlhWld3aEZoUDNoTWpfZzhmTUoyWEZrUjVtRDdqX3AteU9mdEpxRl9jaDlHNGktd0JvUGJjWDdWc3lhbDBnVk5WYl9XRG1IemNQMjZwVTk0MjNZdkIxcnpmcDVoVTdhckVuMFdWVzRiUUVhQ1NDUGRxZXRfRlNfWWliMkZ6OHAyNkJiM0Z5aDhSV2dDSlpBNUV4eGNMS0N1b1RxRW4tUDFHdw?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2024-12-22T08:00:00.000Z",
+          "summary": "Small plane crashes into Brazil tourist city, killing at least 10 &nbsp;&nbsp; Reuters",
+          "relevanceScore": 5
+        }
+      ]
+    },
+    "WIKIDATA-Q131469153": {
+      "query": "site:flightglobal.com Runway excursion at San Fernando International Airport in 2024 2024 || site:aviationweek.com Runway excursion at San Fernando International Airport in 2024 2024 || site:aviationweek.com 2024 Airport in 2024 || site:avherald.com Runway excursion at San Fernando International Airport in 2024 2024 || site:avherald.com 2024 Airport in 2024 || site:aviation-safety.net Runway excursion at San Fernando International Airport in 2024 2024 || site:reuters.com Runway excursion at San Fernando International Airport in 2024 2024 || site:reuters.com 2024 Airport in 2024",
+      "articles": [
+        {
+          "title": "Bombardier Challenger 300 destroyed following runway excursion in Argentina",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOXzVqMkZwZGtfeUM0ZmxUN3JTQVVFRW1jYjVwSU1iY3g5cko4dVlTeXZybmYtRmdLVy1UQ1lRVWdFYWJBZXNoSlNNaTExdVVVcTBYWDhzV2pjdGFaSnY2THc4cnI5Y3hlUzlPNHJyRnFIWFhKdmc0S3RRNUY4V0FfTXk1cHlxR1NEVDMtT1ZBdnlwSGFfU0xVZkkwazVEcm1rbjY2OXVHR2g3Y2owOWhPVmdpUVdJNjNndURlR1pJNktRZlExZ2c?oc=5",
+          "source": "FlightGlobal",
+          "publishedAt": "2024-12-19T08:00:00.000Z",
+          "summary": "Bombardier Challenger 300 destroyed following runway excursion in Argentina &nbsp;&nbsp; FlightGlobal",
+          "relevanceScore": 9
+        },
+        {
+          "title": "Hong Kong Airport On Track For 2024 Recovery, Three-Runway System",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUzREbWIzeDNkZW4zai01N2dQQXNrLTdPUDhCZkNPVVNWZi1nS2MyWDdHRmhhTHFhUE5QOGpYZTZDczlkLUdYTWVvSTc5dlBCRDFMUU92UFJ0Z0c5YlNUd2k2QWZWTVNsZTJrN2JZazNDZlZmZ0dKRm1TN19sb29NYW5aRDVsUXBaR0pldjdCd2JKSjVvckk4T1VYSkYtRTF0YVUyQXdUektqRy15X3ZCS01Gd3A?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2024-07-05T07:00:00.000Z",
+          "summary": "Hong Kong Airport On Track For 2024 Recovery, Three-Runway System &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 4
+        },
+        {
+          "title": "Meet The Winners: Newcastle International Airport",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMFEyZTc5RGYwZFFqOTJoTXZycU9ZV0JGS0VhenF6dXZtNFMwcjlyS21XNDlSV1BFZjlwTEEzNm8tdjMzUGNMUU9UV29XWlhObUJQajVHYW9aZkVNaGs3VmdIN0l5LVpnLWJreUVuNUFSTi1CUC1EX1lqNi14X3o2ZEhkUnVhbUt2b2l3aE9Gb0pkU3FndTVZQkdvQ193UzBDR1Rz?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2024-10-31T07:00:00.000Z",
+          "summary": "Meet The Winners: Newcastle International Airport &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 4
+        },
+        {
+          "title": "Airport In Focus: Keflavik-Reykjavik International Airport",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa01sQVJDZUFPWnJVeUtkVkM3eVJFNW5kR25vWklmZXZuWWktQXVaamduZ0F5eHNLX1FhaTVNN1ZjajlxVS1VMUNUWVRhQzVRX2JnOVdNMHFhcFZPTUwtWXNhMkhUYlYxdnVQck5GbGh5UVVhQVo3QW1sMUpYV29Kd3N2bE9pbGJKblJ5dnJoMlJQTDc0V05mTw?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2024-09-16T07:00:00.000Z",
+          "summary": "Airport In Focus: Keflavik-Reykjavik International Airport &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 4
         },
         {
@@ -1261,12 +1278,20 @@
           "relevanceScore": 4
         },
         {
-          "title": "Accident: Trigana AT42 at Serui on Sep 9th 2024, runway excursion on rejected takeoff",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1LNkFMVmMtal9WYmJmWXlLTFJrUE9ORW5FUnpQMHBWYjhlRlJOcXU1LVE2WDVQVW8wRGppMUl5YnhCOE96YzZoVzgyWjR6Tkg0?oc=5",
+          "title": "Incident: Buddha AT72 at Bhairawa on Jul 11th 2024, runway excursion on landing",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE83UjB5Z2ZLZmdUZmNfZEs5c0lTMzk3RnJLd3J4dXNmR0tNeVF3Yk02Q29IY0I0ZU1JbnlyVGxHT3Zjak1rc2RCUFlBQ2FaNW9G?oc=5",
           "source": "The Aviation Herald",
-          "publishedAt": "2024-09-09T07:00:00.000Z",
-          "summary": "Accident: Trigana AT42 at Serui on Sep 9th 2024, runway excursion on rejected takeoff &nbsp;&nbsp; The Aviation Herald",
+          "publishedAt": "2024-07-11T07:00:00.000Z",
+          "summary": "Incident: Buddha AT72 at Bhairawa on Jul 11th 2024, runway excursion on landing &nbsp;&nbsp; The Aviation Herald",
           "relevanceScore": 4
+        },
+        {
+          "title": "Incident: KLM B738 at Oslo on Dec 28th 2024, hydraulic problems, runway excursion",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1McUhKRE1ocWp5OXpWQ09WeGtjNzMtZU94Z3Nuekg5SVE1Nm5Ebk1rZWFGTGFOYVJaMm4zS2djSWNOWmFkWEh0U0MwNnViQWNC?oc=5",
+          "source": "The Aviation Herald",
+          "publishedAt": "2024-12-28T08:00:00.000Z",
+          "summary": "Incident: KLM B738 at Oslo on Dec 28th 2024, hydraulic problems, runway excursion &nbsp;&nbsp; The Aviation Herald",
+          "relevanceScore": 6
         },
         {
           "title": "Runway excursion Accident Bombardier BD-100-1A10 Challenger 300 LV-GOK, Wednesday 18 December 2024",
@@ -1282,14 +1307,6 @@
           "source": "Reuters",
           "publishedAt": "2025-01-30T08:00:00.000Z",
           "summary": "Dubai International Airport handles record 92 million passengers in 2024 &nbsp;&nbsp; Reuters",
-          "relevanceScore": 4
-        },
-        {
-          "title": "Self-check-in kiosk shows maintenance notice at Kuala Lumpur International Airport amid global IT outage, in Sepang",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOQS03dXdkNE9pbVpRcTR0SGY5cG1CLW1haXpmLWhFZHlqajREV2lwbmhXSlp3ZlVfYXd6NldFM1p4RHFGekJLeXpsbUo4ekxyYzVnb09zRDJ6REpaRDd2aDFmRWNvS0FNTUNxbzhpd3pJS19qVGlheVRZMS1MWmsteDliSkxxWkZOS1AtY3JfRDBuRUpqdDRfa2R3WHdPNGRJOFNUY1I1VnlYVmJZR3BRLXpiQzdkUVFiZkxEU1F1ZUhqZkk2RWFFLVRYRGtmbTZ2endacWp2NDRQUQ?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2024-07-19T07:00:00.000Z",
-          "summary": "Self-check-in kiosk shows maintenance notice at Kuala Lumpur International Airport amid global IT outage, in Sepang &nbsp;&nbsp; Reuters",
           "relevanceScore": 4
         }
       ]
@@ -1348,7 +1365,7 @@
       ]
     },
     "CENIPA-PSVPB-2024": {
-      "query": "site:flightglobal.com Voepass Flight 2283 Voepass Linhas Aereas 2024 || site:aviationweek.com Voepass Flight 2283 Voepass Linhas Aereas 2024 || site:aviationweek.com Voepass Linhas Aereas ATR 72-500 2024 Voepass Flight 2283 || site:aviationweek.com \"ATR 72-500\" \"year-old\" Vinhedo || site:avherald.com Voepass Flight 2283 Voepass Linhas Aereas 2024 || site:aviation-safety.net Voepass Flight 2283 Voepass Linhas Aereas 2024 || site:reuters.com Voepass Flight 2283 Voepass Linhas Aereas 2024 || site:reuters.com Voepass Linhas Aereas ATR 72-500 2024 Voepass Flight 2283 || site:reuters.com \"ATR 72-500\" \"year-old\" Vinhedo",
+      "query": "site:flightglobal.com Voepass Flight 2283 Voepass Linhas Aereas 2024 || site:aviationweek.com Voepass Flight 2283 Voepass Linhas Aereas 2024 || site:aviationweek.com Voepass Linhas Aereas ATR 72-500 2024 Voepass Flight 2283 || site:aviationweek.com \"ATR 72-500\" \"year-old\" Vinhedo || site:avherald.com Voepass Flight 2283 Voepass Linhas Aereas 2024 || site:aviation-safety.net Voepass Flight 2283 Voepass Linhas Aereas 2024 || site:reuters.com Voepass Flight 2283 Voepass Linhas Aereas 2024",
       "articles": [
         {
           "title": "Flight recorders retrieved from crashed Voepass ATR 72-500",
@@ -1381,12 +1398,36 @@
           "publishedAt": "2024-08-09T07:00:00.000Z",
           "summary": "Accident ATR 72-500 (72-212A) PS-VPB, Friday 9 August 2024 &nbsp;&nbsp; Aviation Safety Network",
           "relevanceScore": 8
+        },
+        {
+          "title": "Brazil authorities recover bodies of all 62 plane crash victims",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUWo2SE5zcGpIZGhzcGhaVUZfN0g5LXgySDNydldsRUI0STdHemlURXlzSVItQ3ktUTBUSE8wQzVkbThZTlphbnpYcUV5bjRBNmdjaTZBamV1RTVCRTBaV3h1WVloV05UeUhxNDlHQVJPWXhiWmk3RmxGUHkzZ0dVZDhCREdXeE1jczI0MlRMQllTZXVLM2Y4TDJrUS1lcFNxaWRoUS1ZUTJuQQ?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2024-08-10T07:00:00.000Z",
+          "summary": "Brazil authorities recover bodies of all 62 plane crash victims &nbsp;&nbsp; Reuters",
+          "relevanceScore": 5
+        },
+        {
+          "title": "Fact Check: Cancer researcher Leonardo Ferreira misidentified as victim of Brazil plane crash",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQX0hQeWJXeUJQbVJpUTE1eWlBMkdfeF9TNGhCSWZLVlFrYVY0c2FFSVRQVmNnVFNUOEF6WEVITHRaNW1COWNWSjZPQU51eGJTRXJ1ZTM5MVd4bnM4MlhaUXRBcnc4dzBzQ0lHb0VEU0NxMFNlQmVRUWQ2dXVHZkU1TGtEOEI5eUpHbHNBTFdiMk9ZM1BWM3N0RmVhZzFDaEM0WEJGcW5rUWdhRlNWenMxcW9KTmJTZWdEaWdQb0ZkUQ?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2024-08-14T07:00:00.000Z",
+          "summary": "Fact Check: Cancer researcher Leonardo Ferreira misidentified as victim of Brazil plane crash &nbsp;&nbsp; Reuters",
+          "relevanceScore": 5
         }
       ]
     },
     "NP-SAURYA-2024": {
-      "query": "site:flightglobal.com Saurya Airlines CRJ-200 Accident Saurya Airlines 2024 || site:flightglobal.com Saurya Airlines Bombardier CRJ-200LR 2024 Airlines CRJ-200 Accident || site:flightglobal.com \"CRJ-200LR\" \"year-old\" Kathmandu || site:aviationweek.com Saurya Airlines CRJ-200 Accident Saurya Airlines 2024 || site:avherald.com Saurya Airlines CRJ-200 Accident Saurya Airlines 2024 || site:aviation-safety.net Saurya Airlines CRJ-200 Accident Saurya Airlines 2024 || site:aviation-safety.net Saurya Airlines Bombardier CRJ-200LR 2024 Airlines CRJ-200 Accident || site:aviation-safety.net \"CRJ-200LR\" \"year-old\" Kathmandu || site:reuters.com Saurya Airlines CRJ-200 Accident Saurya Airlines 2024",
+      "query": "site:flightglobal.com Saurya Airlines CRJ-200 Accident Saurya Airlines 2024 || site:aviationweek.com Saurya Airlines CRJ-200 Accident Saurya Airlines 2024 || site:avherald.com Saurya Airlines CRJ-200 Accident Saurya Airlines 2024 || site:aviation-safety.net Saurya Airlines CRJ-200 Accident Saurya Airlines 2024 || site:reuters.com Saurya Airlines CRJ-200 Accident Saurya Airlines 2024",
       "articles": [
+        {
+          "title": "Saurya Airlines CRJ200 fatally crashes during take-off from Kathmandu",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZktrNHZaYXljZnRhWmc2bHBYdzBOVVFfeGFTcEExUHlRbG1iRjhDZUkwMDRZaTU2bk9BaWdjX01LdzdQNEdySUJRZGQ2YlJQMV80dkVMNkhYOERJUGt6dXlVSFNIX0VLTUthYzhYblpFU3hTUF9RQ1hkX2pHUTV3LVZHTG1fZ3BsQkktaDVWVFc4OXA2cDVsTXZMbTFITHExNEZ2N2dORV9jRy12UzNZc1VXczdoUkNfOUE?oc=5",
+          "source": "FlightGlobal",
+          "publishedAt": "2024-07-24T07:00:00.000Z",
+          "summary": "Saurya Airlines CRJ200 fatally crashes during take-off from Kathmandu &nbsp;&nbsp; FlightGlobal",
+          "relevanceScore": 9
+        },
         {
           "title": "Fatal Saurya Airlines CRJ200 Crash Leaves Pilot As Sole Survivor",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORXBFSzNBa0h5T09qbXo1ejBoMkQ0NHF5QzlQb3MzQjhUWVRjY2Q3V2dqYm9ObVhkSGxtVF9HekN3WlhuSDNtcTFkSm5xVmU2Q2ZyZmVyRHlhajFfQ3N6U1Q4eEh2ZUllNTdUTGVYTzhXQkpweVUzVzRKVTAwTHM3M2JrNjRmSGdoeTI2M3FadThwQnlVRWpPeHlfOTJ5MmJQUmtaa1B2UzZ1dEdTRVNXc2V6X0RpMFg4dDhMNHpZQQ?oc=5",
@@ -1402,6 +1443,14 @@
           "publishedAt": "2024-07-24T07:00:00.000Z",
           "summary": "Crash: Saurya CRJ2 near Kathmandu on Jul 24 2024, rolled right and lost height after take off &nbsp;&nbsp; The Aviation Herald",
           "relevanceScore": 6
+        },
+        {
+          "title": "Accident Bombardier CRJ-200ER 9N-AME, Wednesday 24 July 2024",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9xb0hRSjJUZEZ0T04tQXRaYXJ5VWVfaTd4ZnBUbkI0SXBMa1FtY3NQWm55b09NVkt5ZXNhVjNMMDBDZUtOSVRCWFFIMWx1MHNwUDZUbDVR?oc=5",
+          "source": "Aviation Safety Network",
+          "publishedAt": "2024-07-24T07:00:00.000Z",
+          "summary": "Accident Bombardier CRJ-200ER 9N-AME, Wednesday 24 July 2024 &nbsp;&nbsp; Aviation Safety Network",
+          "relevanceScore": 4
         },
         {
           "title": "Plane crash at Nepal's Kathmandu airport kills 18; captain survives",
@@ -1430,7 +1479,7 @@
       ]
     },
     "TSIB-SQ321-2024": {
-      "query": "site:flightglobal.com Singapore Airlines Flight SQ321 Singapore Airlines 2024 || site:flightglobal.com Singapore Airlines Boeing 777-300ER 2024 Airlines Flight SQ321 || site:flightglobal.com \"Boeing 777-300ER\" \"year-old\" Over Myanmar / diversion to Bangkok || site:aviationweek.com Singapore Airlines Flight SQ321 Singapore Airlines 2024 || site:aviationweek.com Singapore Airlines Boeing 777-300ER 2024 Airlines Flight SQ321 || site:aviationweek.com \"Boeing 777-300ER\" \"year-old\" Over Myanmar / diversion to Bangkok || site:avherald.com Singapore Airlines Flight SQ321 Singapore Airlines 2024 || site:aviation-safety.net Singapore Airlines Flight SQ321 Singapore Airlines 2024 || site:aviation-safety.net Singapore Airlines Boeing 777-300ER 2024 Airlines Flight SQ321 || site:aviation-safety.net \"Boeing 777-300ER\" \"year-old\" Over Myanmar / diversion to Bangkok || site:reuters.com Singapore Airlines Flight SQ321 Singapore Airlines 2024 || site:reuters.com Singapore Airlines Boeing 777-300ER 2024 Airlines Flight SQ321",
+      "query": "site:flightglobal.com Singapore Airlines Flight SQ321 Singapore Airlines 2024 || site:flightglobal.com Singapore Airlines Boeing 777-300ER 2024 Airlines Flight SQ321 || site:flightglobal.com \"Boeing 777-300ER\" \"year-old\" Over Myanmar / diversion to Bangkok || site:aviationweek.com Singapore Airlines Flight SQ321 Singapore Airlines 2024 || site:aviationweek.com Singapore Airlines Boeing 777-300ER 2024 Airlines Flight SQ321 || site:aviationweek.com \"Boeing 777-300ER\" \"year-old\" Over Myanmar / diversion to Bangkok || site:avherald.com Singapore Airlines Flight SQ321 Singapore Airlines 2024 || site:aviation-safety.net Singapore Airlines Flight SQ321 Singapore Airlines 2024 || site:reuters.com Singapore Airlines Flight SQ321 Singapore Airlines 2024",
       "articles": [
         {
           "title": "Accident: Singapore B773 near Bangkok on May 21st 2024, severe turbulence kills one and injures 85",
@@ -1441,12 +1490,12 @@
           "relevanceScore": 6
         },
         {
-          "title": "Singapore Airlines flight hits severe turbulence, one passenger dead",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVjFTTDhJSUxvcTFRU1d4SlkwRElxUHhrbWVRSWZCa0ZSNy1lcFFhQ1JnQWxwaThSbVY5RTB6aWFBOTF0R2lCZ3V4dVRjaFNoSjN4bFNPdHRmR2oxbzByWVIxUVlULW4zejh5aEdvUlV2bUJEclAxb1E2NHdMd0JDQkwwSzZqLWRJMFdEdDZMa0Z6c1l5aEZLci1KWXJYaHA1NUpLdWt4WWZkSGkwMC0wT09KcHdzT0J4VFBJTnJXZHRyWGJyTDVzSzA1NU1MMlE?oc=5",
-          "source": "Reuters",
+          "title": "Accident Boeing 777-312ER 9V-SWM, Tuesday 21 May 2024",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOaF94UVVZaXFvQkVSTkpGNmlLTnQyTnB5eEpUcVVsWkluVnUzRTNac3JSWkNaOGFyZ3lMZnJjc21hN2ZhbGVrSWliZ1BkOGtPaDlIUE1R?oc=5",
+          "source": "Aviation Safety Network",
           "publishedAt": "2024-05-21T07:00:00.000Z",
-          "summary": "Singapore Airlines flight hits severe turbulence, one passenger dead &nbsp;&nbsp; Reuters",
-          "relevanceScore": 6
+          "summary": "Accident Boeing 777-312ER 9V-SWM, Tuesday 21 May 2024 &nbsp;&nbsp; Aviation Safety Network",
+          "relevanceScore": 4
         },
         {
           "title": "Singapore Airlines drops meal service when seatbelt sign on after deadly turbulence",
@@ -1457,17 +1506,25 @@
           "relevanceScore": 6
         },
         {
-          "title": "Singapore Airlines: What is aircraft turbulence and how common is it?",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPS2RBMURYMlVZTG5Fa2NBZnVaS3duSmlZVndDQWFRN3B4OWlzeVVkY1IxZDdVU21ydnBMMGszaXJ2S19DeFkwU1FYbFFWSWV4Z2NBYzVqNXJxWnpJdG5fTmpLdU9YSmdrT1RRMHdDMkZrdUxHblplQktrQ3FrLW1uYVhER181RGFRY1VKeEdHOWdtUnhMaFp2VG9ydDhmZXVhRU5GUldTUTRlcTA?oc=5",
+          "title": "Thai hospital says 43 people from Singapore Airlines flight still under treatment",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOGhhV0NPWGZWRkpXRnMxYmotMFlWV3o0MFJyN0pUU0s0QjhlOFRDNnBCTzFFdFBTMm9fYnVrTi0tcUlwMjFwY3FfcUdZc25RNFVTbFlzZE40RjgzNWlZYTQzazV2c0tTUHpFR1hlX0ZOODNVSG56ZTIzV1NuYTFOeHBzQVpDUkY2X1E1QVlwQ1BPcHVveWpzUnJpZkhLUTlmcHRKSGhzV1lvVVpzSGJndDY1aUtzcUsxRC1HZE1QT1RqUldmeVkzWXVSQQ?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2024-05-25T07:00:00.000Z",
+          "summary": "Thai hospital says 43 people from Singapore Airlines flight still under treatment &nbsp;&nbsp; Reuters",
+          "relevanceScore": 6
+        },
+        {
+          "title": "Singapore Airlines shares slip 1.3% after turbulent flight",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdkNhcE15Yk5GRk1zamJQaERLNjFTOS1rOEE0TWtNeTAwZktJTmx0UVlhbVZ1NS1BQWtwcUpWOVhtbUhzcXN0NmN1MXljMUdYM1JWdUhfQTlkM2VHT3NmbDJTSjViUWNCOURkWWpXeHNCYll3bFFTM0F3REhqOGlRNlVzSEFZVmFkb1E2UGt2VlF1RDdRNTA2dVRmUE40Z3drWW9jSEQ0N2g?oc=5",
           "source": "Reuters",
           "publishedAt": "2024-05-22T07:00:00.000Z",
-          "summary": "Singapore Airlines: What is aircraft turbulence and how common is it? &nbsp;&nbsp; Reuters",
+          "summary": "Singapore Airlines shares slip 1.3% after turbulent flight &nbsp;&nbsp; Reuters",
           "relevanceScore": 6
         }
       ]
     },
     "NTSB-DCA24MA063": {
-      "query": "site:flightglobal.com Alaska Airlines Flight 1282 Alaska Airlines 2024 || site:aviationweek.com Alaska Airlines Flight 1282 Alaska Airlines 2024 || site:aviationweek.com Alaska Airlines Boeing 737-9 MAX 2024 Airlines Flight 1282 || site:aviationweek.com \"Boeing 737-9\" \"year-old\" Portland || site:avherald.com Alaska Airlines Flight 1282 Alaska Airlines 2024 || site:avherald.com Alaska Airlines Boeing 737-9 MAX 2024 Airlines Flight 1282 || site:avherald.com \"Boeing 737-9\" \"year-old\" Portland || site:aviation-safety.net Alaska Airlines Flight 1282 Alaska Airlines 2024 || site:reuters.com Alaska Airlines Flight 1282 Alaska Airlines 2024",
+      "query": "site:flightglobal.com Alaska Airlines Flight 1282 Alaska Airlines 2024 || site:aviationweek.com Alaska Airlines Flight 1282 Alaska Airlines 2024 || site:avherald.com Alaska Airlines Flight 1282 Alaska Airlines 2024 || site:aviation-safety.net Alaska Airlines Flight 1282 Alaska Airlines 2024 || site:reuters.com Alaska Airlines Flight 1282 Alaska Airlines 2024",
       "articles": [
         {
           "title": "Most Alaska and United Boeing 737 Max 9s back in the air: FAA",
@@ -1486,11 +1543,27 @@
           "relevanceScore": 5
         },
         {
-          "title": "Experts point at Boeing as investigation into Alaska 737 Max incident gets underway",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOb1VreW1hTEIxcXRneUlLX0ZFYUdSaF9vZnA3elhSeHBDUmFCbmgxQl94d3d3Vm1JWWdaOGN2dzBmdGFWWWg5LXlFd0JvMWdTMnh3V3h4MUFGYjdIcVdHcDNWOTI3MEotbnE4TjNQejB2TXpGekUzTFBFUnkzdEdSTjJqTEU5cW5hOTZKV21fMTVaR1JtZVVwcFpadkZyVVpWTDVDYVJLRE1lWk4tRTl1SnQ1RlQwOVpEUTNmSldaOV9USDc3cEJtcDhLZFA?oc=5",
+          "title": "Guide roller fittings on Alaska Max 9 door plug are fractured: NTSB",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNekQ5TEYwM2tfX1NPdFJobEdPQW5SX2d2Y0tqMHRoVXozTUlMRWp4V1pielE1TjQxUGhPeDhyYmllNy1TbF9CV1JqRld1NFlfaTR6d0xpbk8ySm5MNE9ncEp5Y1Y5cVUxdlRXOVlWbnlkUE0tTnZrUEVPNndVcFlIaV94Y01VTVdBdDRzZV9NVGZtb2VDUFhpSElGTGlCb3BRMHItcVY0VXV2YWFBdzVhMFhRVHgyUQ?oc=5",
           "source": "FlightGlobal",
-          "publishedAt": "2024-01-07T08:00:00.000Z",
-          "summary": "Experts point at Boeing as investigation into Alaska 737 Max incident gets underway &nbsp;&nbsp; FlightGlobal",
+          "publishedAt": "2024-01-09T08:00:00.000Z",
+          "summary": "Guide roller fittings on Alaska Max 9 door plug are fractured: NTSB &nbsp;&nbsp; FlightGlobal",
+          "relevanceScore": 4
+        },
+        {
+          "title": "Boeing 737-9s Return To Service As Airlines Complete Inspections",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU1BJek00YW5Ma1J4WVNWZWp1UjdCU0FjbC1sY3Q1bUEzdmRKNi1DUDNxWmR4emQxUW10aGJ4ZFp4RkdGR2dWMmZ0MGVMY3d2N2FlMGJWMExoRnJXNnR2VTRHdEJzVWdLMWFVakN0OXM1V19TNFp6ODREMU5rdnljOWkwcDFISTJfQ3FVaWF4dnhHdlloX3ZrRHBfUGZQYlptT2JRUUR1azdUMkVXVGJqdGVubi0?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2024-01-29T08:00:00.000Z",
+          "summary": "Boeing 737-9s Return To Service As Airlines Complete Inspections &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 7
+        },
+        {
+          "title": "Accident: Alaska B39M at Portland on Jan 5th 2024, emergency exit plug and panel separated in flight",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE41Tmp0T3FRQUNKLUNLNnh4VG9YZVE0cXByWExFVnpGYWlmU2ZnLUdLNXRVM0pxM0ZVTGZnaVJ3amk5VkRyQVpobWVkLWFKS3Bw?oc=5",
+          "source": "The Aviation Herald",
+          "publishedAt": "2024-01-05T08:00:00.000Z",
+          "summary": "Accident: Alaska B39M at Portland on Jan 5th 2024, emergency exit plug and panel separated in flight &nbsp;&nbsp; The Aviation Herald",
           "relevanceScore": 6
         },
         {
@@ -1521,7 +1594,7 @@
           "title": "Alaska Airlines 737 MAX 9 passengers may be crime victims: FBI",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY2tuTTZ4cEo3cV8zR3FRSEJCa01pSk8wbnF1N0liWDBzRi1WMHhqU1dtUWY3VExTQUNoNGRpbTZMaWhLdGZNYlAwQnZpem1QLWdHdnVMLWdteWgtTHJocmoxZ3ZGb2ZGdDh4SHlfc2pKel95Q2F4Nzk0T182aTZMeFN4ay1RSDNMZnJBTkhPeE9nd1IwQ2xuRm9PZzhDNzdDSFI5M0VUdXpVX0JLWUxETEtxaEduXzRDMV9SSFpWTmdCNjYyVUpneTd3YU1WQ0k3?oc=5",
           "source": "Reuters",
-          "publishedAt": "2024-03-22T07:00:00.000Z",
+          "publishedAt": "2024-03-23T07:00:00.000Z",
           "summary": "Alaska Airlines 737 MAX 9 passengers may be crime victims: FBI &nbsp;&nbsp; Reuters",
           "relevanceScore": 6
         }
@@ -1605,7 +1678,7 @@
       ]
     },
     "NP-YETI691-2023": {
-      "query": "site:flightglobal.com Yeti Airlines Flight 691 Yeti Airlines 2023 || site:aviationweek.com Yeti Airlines Flight 691 Yeti Airlines 2023 || site:avherald.com Yeti Airlines Flight 691 Yeti Airlines 2023 || site:aviation-safety.net Yeti Airlines Flight 691 Yeti Airlines 2023 || site:aviation-safety.net Yeti Airlines ATR 72-212A 2023 Airlines Flight 691 || site:aviation-safety.net \"ATR 72\" \"year-old\" Pokhara || site:reuters.com Yeti Airlines Flight 691 Yeti Airlines 2023 || site:reuters.com Yeti Airlines ATR 72-212A 2023 Airlines Flight 691 || site:reuters.com \"ATR 72\" \"year-old\" Pokhara",
+      "query": "site:flightglobal.com Yeti Airlines Flight 691 Yeti Airlines 2023 || site:aviationweek.com Yeti Airlines Flight 691 Yeti Airlines 2023 || site:avherald.com Yeti Airlines Flight 691 Yeti Airlines 2023 || site:aviation-safety.net Yeti Airlines Flight 691 Yeti Airlines 2023 || site:reuters.com Yeti Airlines Flight 691 Yeti Airlines 2023 || site:reuters.com Yeti Airlines ATR 72-212A 2023 Airlines Flight 691 || site:reuters.com \"ATR 72\" \"year-old\" Pokhara",
       "articles": [
         {
           "title": "Yeti Airlines ATR 72-500 crashes near Pokhara",
@@ -1638,6 +1711,14 @@
           "publishedAt": "2023-01-15T08:00:00.000Z",
           "summary": "Crash: Yeti AT72 at Pokhara on Jan 15th 2023, lost height on final approach, both propellers went into feather &nbsp;&nbsp; The Aviation Herald",
           "relevanceScore": 6
+        },
+        {
+          "title": "Loss of control Accident ATR 72-500 (72-212A) 9N-ANC, Sunday 15 January 2023",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBuQ1JHNGpVRFlJdlI0al9UbFpSVFFPUE5halktZU1SOHlSOXdfMUZEamY4bkxOUXMzcEx6QWxrRjAxZHBLS0dsMVA3cTR0NzFlWnc?oc=5",
+          "source": "Aviation Safety Network",
+          "publishedAt": "2023-01-15T08:00:00.000Z",
+          "summary": "Loss of control Accident ATR 72-500 (72-212A) 9N-ANC, Sunday 15 January 2023 &nbsp;&nbsp; Aviation Safety Network",
+          "relevanceScore": 8
         }
       ]
     },
@@ -1655,7 +1736,7 @@
       ]
     },
     "CAAC-MU5735-2022": {
-      "query": "site:flightglobal.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:aviationweek.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:aviationweek.com China Eastern Airlines Boeing 737-800 2022 Airlines Flight MU5735 || site:avherald.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:aviation-safety.net China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:reuters.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022",
+      "query": "site:flightglobal.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:aviationweek.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:avherald.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:aviation-safety.net China Eastern Airlines Flight MU5735 China Eastern Airlines 2022 || site:reuters.com China Eastern Airlines Flight MU5735 China Eastern Airlines 2022",
       "articles": [
         {
           "title": "IATA chief cites China’s ‘outstanding’ airline safety efforts as MU5735 probe continues",
@@ -1698,12 +1779,12 @@
           "relevanceScore": 5
         },
         {
-          "title": "China Eastern 737-800 Crashes With 132 Onboard",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUFY0UFFvMHhDcGNzMjFkWWdVeVRmYUJTR1cyb0tSY3pYZGFjWUZscUhxT2x6ZXljaWpVcUR4U2NfZmF0SjZjSFpiNGQ5SDF4MV9mYUF5THhBRmUyUjBkVHh1TUNJcVZYbmdWYng0dTJldTJmclJLQkdfelozVHQ1b1pELXplazR5djJuX1Rxclh6NVRUUzg0dFo2TDBOcGduNXJ6eg?oc=5",
+          "title": "CAAC Offers No Answers On Anniversary Of China Eastern 737 Crash",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeE5ZSGNIWVhGUzdiazlma1VMMTNHUVFQTjI0d3hzU190X21wc3F1c0hRamUzcUxka08tUDR5OXBBOElMY2lqSWV2eFB3dHplLUdoR2QtSnZKeTdWWVZSYUtHXy1ZVnh4ZGJoc0ozT3hVVHYtSUZIc0Q2MUtxQlFEV1hJdHl0eGJiNTdHbUFlajFvNklGRWdCUkxZc1JDbmtEd2xmODlNNzY1LURWQXJycElRdU85Sllidl84?oc=5",
           "source": "Aviation Week",
-          "publishedAt": "2022-03-21T07:00:00.000Z",
-          "summary": "China Eastern 737-800 Crashes With 132 Onboard &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 10
+          "publishedAt": "2023-03-21T07:00:00.000Z",
+          "summary": "CAAC Offers No Answers On Anniversary Of China Eastern 737 Crash &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 4
         },
         {
           "title": "Crash: China Eastern B738 near Guangzhou on Mar 21st 2022, lost altitude and impacted terrain",
@@ -1738,17 +1819,17 @@
           "relevanceScore": 5
         },
         {
-          "title": "China confirms all on board China Eastern plane died in crash",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRV95TjJzYUxQb1VNbGhKYWZXU3NZbktZQVg2alJiQjBWRGhEaV9Dek1WRUZzb1I4RHczZWwzckxpVVN6TWpaYzJaeTAzVnYxSGFKOWYzaWhNakxOTndkMXNfS0IxbXNiMUdLMUpaYVFPVUtNSHlJMzhSZFpQYmdUTXZjRGpZeFVHZDh3SDA5VWRUMUZqLUo1eUtPcjFQQjJtS1A5YmlLclU?oc=5",
+          "title": "China Eastern resumes Boeing 737-800 flights after March crash",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdHpSeEs3S0dydTRtV24zNWw5NWZoV1V3dXdLQ0pJSG9FblBQZ2JtaVNpeFlUWUNoSlNuZ3ZDQkhjNTJLdjBYMm5mRHg1NWJFQkxTckxFZzBEVllfckdHNHBaMk1SYUZxTU5FVE5PT0RXbFFldUlmSFRsVm9CUXJTbFJHU1QtTUJJdUV6bFRRQ09qYk9ud1BkQVluQ0RSa1dUdUdDcTJHS1l0bFBSN2s1cFk5bjN6VG8yS3dYLWMwQTZ1NDdxTEI3RGNOdTdkVGo1dXZz?oc=5",
           "source": "Reuters",
-          "publishedAt": "2022-03-26T07:00:00.000Z",
-          "summary": "China confirms all on board China Eastern plane died in crash &nbsp;&nbsp; Reuters",
-          "relevanceScore": 8
+          "publishedAt": "2022-04-17T07:00:00.000Z",
+          "summary": "China Eastern resumes Boeing 737-800 flights after March crash &nbsp;&nbsp; Reuters",
+          "relevanceScore": 13
         }
       ]
     },
     "KNKT-SJY182-2021": {
-      "query": "site:flightglobal.com Sriwijaya Air Flight 182 Sriwijaya Air 2021 || site:flightglobal.com Sriwijaya Air Boeing 737-500 2021 Air Flight 182 || site:aviationweek.com Sriwijaya Air Flight 182 Sriwijaya Air 2021 || site:avherald.com Sriwijaya Air Flight 182 Sriwijaya Air 2021 || site:aviation-safety.net Sriwijaya Air Flight 182 Sriwijaya Air 2021 || site:aviation-safety.net Sriwijaya Air Boeing 737-500 2021 Air Flight 182 || site:reuters.com Sriwijaya Air Flight 182 Sriwijaya Air 2021",
+      "query": "site:flightglobal.com Sriwijaya Air Flight 182 Sriwijaya Air 2021 || site:aviationweek.com Sriwijaya Air Flight 182 Sriwijaya Air 2021 || site:avherald.com Sriwijaya Air Flight 182 Sriwijaya Air 2021 || site:aviation-safety.net Sriwijaya Air Flight 182 Sriwijaya Air 2021 || site:reuters.com Sriwijaya Air Flight 182 Sriwijaya Air 2021",
       "articles": [
         {
           "title": "Search underway for missing Sriwijaya 737-500",
@@ -1825,7 +1906,7 @@
       ]
     },
     "IN-AAIB-IX1344-2020": {
-      "query": "site:flightglobal.com Air India Express Flight 1344 Air India Express 2020 || site:flightglobal.com Air India Express Boeing 737-800 2020 Express Flight 1344 || site:flightglobal.com \"Boeing 737-800\" \"year-old\" Kozhikode || site:aviationweek.com Air India Express Flight 1344 Air India Express 2020 || site:avherald.com Air India Express Flight 1344 Air India Express 2020 || site:avherald.com Air India Express Boeing 737-800 2020 Express Flight 1344 || site:aviation-safety.net Air India Express Flight 1344 Air India Express 2020 || site:reuters.com Air India Express Flight 1344 Air India Express 2020",
+      "query": "site:flightglobal.com Air India Express Flight 1344 Air India Express 2020 || site:flightglobal.com Air India Express Boeing 737-800 2020 Express Flight 1344 || site:flightglobal.com \"Boeing 737-800\" \"year-old\" Kozhikode || site:aviationweek.com Air India Express Flight 1344 Air India Express 2020 || site:avherald.com Air India Express Flight 1344 Air India Express 2020 || site:aviation-safety.net Air India Express Flight 1344 Air India Express 2020 || site:reuters.com Air India Express Flight 1344 Air India Express 2020",
       "articles": [
         {
           "title": "Air India Express Probe Likely To Revisit Airport Safety",
@@ -1897,20 +1978,20 @@
           "relevanceScore": 4
         },
         {
-          "title": "EASA Lifts Pakistan International Airlines Flight Ban",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVnBYWl9qM1ZLLTRIMTAxOV9BSDVGVnZrd3JlS01NY3pETENyX09tMEJiZzBRY3loNldKaTNkT2lYclNoejNmOWxfTGFoWXRPOFlXbWsxRU9uMG94SFlhZmxWdGctMjRfWTN0czdrak8zTjRvc25aYjIzR3ZNOWI2MW9PV05uZldDWmcxaWNlNmdDbTZaU3ZHMmo0amVvdUMwLTl2eTl1bC1YalpHUS1tZ3lvcHQ?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2024-11-29T08:00:00.000Z",
-          "summary": "EASA Lifts Pakistan International Airlines Flight Ban &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 4
-        },
-        {
           "title": "Pakistan International Airlines Airbus A320 Crashes In Karachi",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRTBITUY1SlB6VE5FMVlMWXJ3VW1WYy10cmVBV3pPOHJZOFN3MmQyaHdCQUo4c0dXbHpjM2pWSjFLZXdwRm1uRVVwdmJ2UHBfd1dOMWpQQVpwcGVwZnFXV1FEN3drT0JQNW01Zmxwdkx2TVNjdE9KajRVQ3NmVFZOTllNTDB6a0wzRGFqVS02eHhtR1NCM2xnSENDMExrbkdmVFpfbjlZUTRmdEF6NHNoUm9YZEcxaVdLa0E?oc=5",
           "source": "Aviation Week",
           "publishedAt": "2020-05-22T07:00:00.000Z",
           "summary": "Pakistan International Airlines Airbus A320 Crashes In Karachi &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 12
+        },
+        {
+          "title": "EASA Lifts Pakistan International Airlines Flight Ban",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVnBYWl9qM1ZLLTRIMTAxOV9BSDVGVnZrd3JlS01NY3pETENyX09tMEJiZzBRY3loNldKaTNkT2lYclNoejNmOWxfTGFoWXRPOFlXbWsxRU9uMG94SFlhZmxWdGctMjRfWTN0czdrak8zTjRvc25aYjIzR3ZNOWI2MW9PV05uZldDWmcxaWNlNmdDbTZaU3ZHMmo0amVvdUMwLTl2eTl1bC1YalpHUS1tZ3lvcHQ?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2024-11-29T08:00:00.000Z",
+          "summary": "EASA Lifts Pakistan International Airlines Flight Ban &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 4
         },
         {
           "title": "Preliminary Report Questions Crew Actions In Pakistan A320 Accident",
@@ -2022,11 +2103,11 @@
           "relevanceScore": 5
         },
         {
-          "title": "'Disastrous mistake': Iran acknowledges shooting down Ukrainian airliner",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVTBJazF5bGV5bldYNVlHb1VxU0FqVGxrSnZ2UFRrLWp5X0hsVklyclFDYnJQdjliclpiSEF0ZFdvd3JNeFN2QmZYVFIta2o1bElEaUc1bkFYSmVVLTRrQWJPU2FHemwtcDd3MnpnTUQ0S1o0X043bm15YXNLWW94Qi16RUQ3WU8zV3FVVS1jTVZzTVdlZ0Q2QkN1WnhTaXdFdzhiOGNaOUdwYnItNko2MGdYOWVsY1hMaEk0bnJQTQ?oc=5",
+          "title": "Iran's Zarif says Ukrainian plane crash caused by human error and 'U.S. adventurism'",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcngwZlJDZ1B3OVprbU9JRmpTdVhoNS1JYUUxYktqajJ0SUdVNWJqR2ViNTVBb2F4ZDF5dGllanRkU1RjVWItZjlMM0dxRkwtTEp5WHhXWjEwMEZFMnQtSk5VSTl3djZiVTJrc3dObHRRcjF2VnI0aXZRZ2tRZzFNUTFpVWhKYUg3NVMxWmh5dTgySWZOejNOVHlZdGJCMEc2cnJZcjd1azR6dmc5dXdNZ1JoeHBPalhFQkhpQVFlbmlTdVlmdmNpTw?oc=5",
           "source": "Reuters",
           "publishedAt": "2020-01-10T08:00:00.000Z",
-          "summary": "'Disastrous mistake': Iran acknowledges shooting down Ukrainian airliner &nbsp;&nbsp; Reuters",
+          "summary": "Iran's Zarif says Ukrainian plane crash caused by human error and 'U.S. adventurism' &nbsp;&nbsp; Reuters",
           "relevanceScore": 5
         }
       ]
@@ -2084,7 +2165,7 @@
         },
         {
           "title": "Crash: Ethiopian B38M near Bishoftu on Mar 10th 2019, impacted terrain after departure",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1UU3JINUNuVXNleUxXYmJ4b3I2Y2dSa2tRRk9OenMySFpBUGROUFc1T09tSThmR193NGNpTElYY1RMZ09JMHRTZmpsN1RMcTZHWnk3bkZ5RQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE12ZkdnM1FJZFY4YjJIbEpteWxsY2wwYjVrajRxQmx3UkpQUE5IMHU5c242MnduZmZtdmw2ZHZOZ3NtYTFLRG0ySXVQSThQR1p6S0JzUUdhc1k?oc=5",
           "source": "The Aviation Herald",
           "publishedAt": "2019-03-10T08:00:00.000Z",
           "summary": "Crash: Ethiopian B38M near Bishoftu on Mar 10th 2019, impacted terrain after departure &nbsp;&nbsp; The Aviation Herald",
@@ -2092,7 +2173,7 @@
         },
         {
           "title": "Crash: Ethiopian B38M near Bishoftu on Mar 10th 2019, impacted terrain after departure",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE12ZkdnM1FJZFY4YjJIbEpteWxsY2wwYjVrajRxQmx3UkpQUE5IMHU5c242MnduZmZtdmw2ZHZOZ3NtYTFLRG0ySXVQSThQR1p6S0JzUUdhc1k?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1UU3JINUNuVXNleUxXYmJ4b3I2Y2dSa2tRRk9OenMySFpBUGROUFc1T09tSThmR193NGNpTElYY1RMZ09JMHRTZmpsN1RMcTZHWnk3bkZ5RQ?oc=5",
           "source": "The Aviation Herald",
           "publishedAt": "2019-03-10T08:00:00.000Z",
           "summary": "Crash: Ethiopian B38M near Bishoftu on Mar 10th 2019, impacted terrain after departure &nbsp;&nbsp; The Aviation Herald",
@@ -2123,26 +2204,34 @@
           "relevanceScore": 6
         },
         {
+          "title": "Pilot of crashed Ethiopian Airlines jet reported flight control problems: WSJ",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTEtpOTVtQ1ZuOGZjLVF2NnNkdzZDTllzb0FIblloVkp5VXBoSkg1SFV1OExSY3ROU2VTT0VxNklOVVc0NDB3bHR1MHVKVEVIZm9KWEE3SlBUTUpHYlhCVUFjOGV5UmMxRHl4SW1yVDNNVjdlUG1XX3RqUS1ZZzhnMUJIX2ppU3ZJVFc4UmVYdzMzX040RmQydGR0NUl4WjZfTklVRnNwNWlkVEE2WEx0Z2hEMV9fYTVvSy1ZbWdKZ1hGdDZSd0piVDdRMXM?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2019-03-13T07:00:00.000Z",
+          "summary": "Pilot of crashed Ethiopian Airlines jet reported flight control problems: WSJ &nbsp;&nbsp; Reuters",
+          "relevanceScore": 6
+        },
+        {
           "title": "Ethiopian Airlines to resume using Boeing 737 MAX planes in Feb",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZ0h2Mk5HX2tMNHN5T3hENEZSRWR4bXNKMEhXMm11VnkzbFBmX1FGcU5EMXFHR2FPYS1ocHNONW5WdXIwRm50V1FPRnpKTFd2aVRoX1FmMUkwblZzenkxbzdacDNSVmJqLUlWSkM3dXJiWkRXdGRqd2c1OEdVakdvcFNaNVhWQURPaWdhaUtNMV9DazdDcWxPNC1QUjhZd3RaWlBKRzRjR1YxT0c5bVpIeUtVT3VSMEF3c0FlX0ZlT2lkUTQ?oc=5",
           "source": "Reuters",
           "publishedAt": "2021-12-27T08:00:00.000Z",
           "summary": "Ethiopian Airlines to resume using Boeing 737 MAX planes in Feb &nbsp;&nbsp; Reuters",
           "relevanceScore": 8
-        },
-        {
-          "title": "Ethiopia crash captain did not train on airline's MAX simulator - source",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdC1NZ2JlQ0dyMlp5MHh4VFVNTmk4X3huc0g0cjlBX05rMExUV0h4MGl4Sm5QeDQ4NmlaNmRuMVhuZXFwWXV1ZVlWcXRnc2ZZUHlpV0lLcGo5cGI3Mkx5bTlsSFZfOUtBaXRrc2lBUG4tNU84YzI3UVNMZ0ppemREU0QxQmtGTWlIUUs0UEM1akhtTENQbC1wTlZMcXFEWHVKd2hkVFJZZ0Q4YjRXOXA1SXFoVU1EOEVhazI4V3NtVQ?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2019-03-21T07:00:00.000Z",
-          "summary": "source &nbsp;&nbsp; Reuters",
-          "relevanceScore": 6
         }
       ]
     },
     "NTSB-DCA19MA086": {
-      "query": "site:flightglobal.com Atlas Air Flight 3591 Atlas Air 2019 || site:flightglobal.com Atlas Air Boeing 767-375BCF 2019 Air Flight 3591 || site:flightglobal.com \"Boeing 767-375BCF\" \"year-old\" Trinity Bay || site:aviationweek.com Atlas Air Flight 3591 Atlas Air 2019 || site:aviationweek.com Atlas Air Boeing 767-375BCF 2019 Air Flight 3591 || site:aviationweek.com \"Boeing 767-375BCF\" \"year-old\" Trinity Bay || site:avherald.com Atlas Air Flight 3591 Atlas Air 2019 || site:avherald.com Atlas Air Boeing 767-375BCF 2019 Air Flight 3591 || site:avherald.com \"Boeing 767-375BCF\" \"year-old\" Trinity Bay || site:aviation-safety.net Atlas Air Flight 3591 Atlas Air 2019 || site:reuters.com Atlas Air Flight 3591 Atlas Air 2019 || site:reuters.com Atlas Air Boeing 767-375BCF 2019 Air Flight 3591 || site:reuters.com \"Boeing 767-375BCF\" \"year-old\" Trinity Bay",
+      "query": "site:flightglobal.com Atlas Air Flight 3591 Atlas Air 2019 || site:aviationweek.com Atlas Air Flight 3591 Atlas Air 2019 || site:aviationweek.com Atlas Air Boeing 767-375BCF 2019 Air Flight 3591 || site:aviationweek.com \"Boeing 767-375BCF\" \"year-old\" Trinity Bay || site:avherald.com Atlas Air Flight 3591 Atlas Air 2019 || site:avherald.com Atlas Air Boeing 767-375BCF 2019 Air Flight 3591 || site:avherald.com \"Boeing 767-375BCF\" \"year-old\" Trinity Bay || site:aviation-safety.net Atlas Air Flight 3591 Atlas Air 2019 || site:reuters.com Atlas Air Flight 3591 Atlas Air 2019 || site:reuters.com Atlas Air Boeing 767-375BCF 2019 Air Flight 3591 || site:reuters.com \"Boeing 767-375BCF\" \"year-old\" Trinity Bay",
       "articles": [
+        {
+          "title": "VIDEO: NTSB video shows Atlas 767 debris field",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbjFUYnFVRFJ2WjVtSk5ZdlVhMkI1NWl1UHdUN1BiV3FYM3UzSGZoLWlvTm1BY2djTlN4Tzd0ek41cVIyY3AtMkl2WFhFa2dEVlFFdV81WEtCeTNudFRBU25aLVFWeDJrOGhzU1pRV0lRVHhySDhkQ1BVQWVESDhOZ1pWUWVuQm1yc1VtcDdkMFhCbGN1SV9zUEl3?oc=5",
+          "source": "FlightGlobal",
+          "publishedAt": "2019-02-26T08:00:00.000Z",
+          "summary": "VIDEO: NTSB video shows Atlas 767 debris field &nbsp;&nbsp; FlightGlobal",
+          "relevanceScore": 4
+        },
         {
           "title": "Loss of control Accident Boeing 767-375ER (BCF) (WL) N1217A, Saturday 23 February 2019",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB1TlBYZDFuVkZ2M2ZqMkJCWHBFczlQZEk1QzdGT3R0YXhmUjd3cl95YTNvSUw4U2JjYUlBbkktVXh5V01YQXM4MGdEaGJWTzJSamVabTBR?oc=5",
@@ -2190,7 +2279,7 @@
         },
         {
           "title": "Crash: Lion B38M near Jakarta on Oct 29th 2018, aircraft lost height and crashed into Java Sea, wrong AoA data",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBvOElXLUlSLThlM0lGZGJpWndIcGVYb2FsM2ZDbU5IRUk3Z2RaOVo1TDhaWDZTVXhsaHpSUGREUWFlWTdmZ3ZHTzRZOHJqX0VTVmxQUkhibE9yRkFLMVRB?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9tclVKcjRoMnhKZVhqZHRxT3otQWp5MHpFVGNxeU1rRTNWR0FIQi0tcE5YdlU0M0YyU2FhSGJzRnlOdW5Balg5czdQWXZaWnRl?oc=5",
           "source": "The Aviation Herald",
           "publishedAt": "2018-10-29T07:00:00.000Z",
           "summary": "Crash: Lion B38M near Jakarta on Oct 29th 2018, aircraft lost height and crashed into Java Sea, wrong AoA data &nbsp;&nbsp; The Aviation Herald",
@@ -2198,7 +2287,7 @@
         },
         {
           "title": "Crash: Lion B38M near Jakarta on Oct 29th 2018, aircraft lost height and crashed into Java Sea, wrong AoA data",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9tclVKcjRoMnhKZVhqZHRxT3otQWp5MHpFVGNxeU1rRTNWR0FIQi0tcE5YdlU0M0YyU2FhSGJzRnlOdW5Balg5czdQWXZaWnRl?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBvOElXLUlSLThlM0lGZGJpWndIcGVYb2FsM2ZDbU5IRUk3Z2RaOVo1TDhaWDZTVXhsaHpSUGREUWFlWTdmZ3ZHTzRZOHJqX0VTVmxQUkhibE9yRkFLMVRB?oc=5",
           "source": "The Aviation Herald",
           "publishedAt": "2018-10-29T07:00:00.000Z",
           "summary": "Crash: Lion B38M near Jakarta on Oct 29th 2018, aircraft lost height and crashed into Java Sea, wrong AoA data &nbsp;&nbsp; The Aviation Herald",
@@ -2420,20 +2509,20 @@
           "relevanceScore": 7
         },
         {
+          "title": "Germanwings crash in France",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMV9fbE0xSkc0ZFlqOVJtdW9Tek0zd3Y1Y2c4OU5MWDZqOTdSUnNBM3JJN1hFcVcwMVdLVDA3MS0wbV9pVWZkeDhBVi1NcFdRUHJWdEF1enZpTEc1ZEp3ZmJWbThVU0lpRkJJdm9FUVA4OE1iYlROb0h6RWlUUktmQkhaSDc?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2015-03-26T07:00:00.000Z",
+          "summary": "Germanwings crash in France &nbsp;&nbsp; Reuters",
+          "relevanceScore": 6
+        },
+        {
           "title": "Crash in the French Alps",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UZHV4dHBxRExlY0tQS1dSQmlmNUVwbjBCYl9tM05GbFBWLWdlSGxZOEw5Q0VLQ2JfS0lyTGxuSXA5NTVVUDlVUEYwaHlVYjJNdGRNb1JpVGVsY2hEQWRyWTJNdXNfZWdNTWQyUGRB?oc=5",
           "source": "Reuters",
           "publishedAt": "2015-03-31T07:00:00.000Z",
           "summary": "Crash in the French Alps &nbsp;&nbsp; Reuters",
           "relevanceScore": 6
-        },
-        {
-          "title": "Airlines introduce two-person cockpit rule after Alps crash",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY2ZIQ09DTTY2ZThNZThGOGg2Rlp5LTlkdTJWUDJ5M1BhVnB5MHBBM1M4VFZ1dndXLTBZc1RlSnZWOE1MUk9hS0Q4R0NNczBlazluTUt6Q2JWM1ZUSzg3cC1hcVY5WGNONnItbFN2cHprdVVaaTIxM3VzaTNIZ2ZxdXVTX3Q4NUEtenZMTW5qVk5XX0pMQTc0VkhMUnBaSzRkbEFlZkJicUJMTElHWUVKOTln?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2015-03-26T07:00:00.000Z",
-          "summary": "Airlines introduce two-person cockpit rule after Alps crash &nbsp;&nbsp; Reuters",
-          "relevanceScore": 5
         }
       ]
     },
@@ -2621,6 +2710,14 @@
           "relevanceScore": 7
         },
         {
+          "title": "Incident: Air France A332 over Atlantic on Nov 30th 2009, Mayday call due to severe turbulence",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE80ZXNMWWJ6aDR5SkpnOXhDRnI0YVFZUWNaNUJLS1hIaS1xS21hdU1ueFJRNnB1NjF6QmpkOFZKVkVNUGg3bndvSDlfdDVtOTFG?oc=5",
+          "source": "The Aviation Herald",
+          "publishedAt": "2009-11-30T08:00:00.000Z",
+          "summary": "Incident: Air France A332 over Atlantic on Nov 30th 2009, Mayday call due to severe turbulence &nbsp;&nbsp; The Aviation Herald",
+          "relevanceScore": 4
+        },
+        {
           "title": "Crash: Air France A332 over Atlantic on Jun 1st 2009, aircraft entered high altitude stall and impacted ocean",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1HUy1zc2ZDYzNmV202TVVicmxBaU96dFNEMHdzU0k2b3NnYjlVM1VSQVRPaWxNYVFUYW9nWGNMWGV3WGpqWUZOb3VPWVY3enJqLUVickU2VQ?oc=5",
           "source": "The Aviation Herald",
@@ -2630,19 +2727,11 @@
         },
         {
           "title": "Crash: Air France A332 over Atlantic on Jun 1st 2009, aircraft entered high altitude stall and impacted ocean",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLYU9wQWZmZksxb2x0Zm9COWdaU1ZOYm9BSmZKS1V6QmxFSkZ2RXY5cjdBRHpxSkFqWlpBczAzTGh4a00zVzlmcEdvV1BMLS1KMlZoR3JwRm9jdUtaSGMxQ0JR?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9pVl9RYkhCSkRKY0l6WVRMZUQ5MjhYaUZNWVM2UW5YdEtCSW10ZW5EaUtFVzZaREV4UGFhT3lSUDNDYVd3eXhzZWxOZDgzQUw0aW9JN3piUlE?oc=5",
           "source": "The Aviation Herald",
           "publishedAt": "2009-06-01T07:00:00.000Z",
           "summary": "Crash: Air France A332 over Atlantic on Jun 1st 2009, aircraft entered high altitude stall and impacted ocean &nbsp;&nbsp; The Aviation Herald",
           "relevanceScore": 10
-        },
-        {
-          "title": "Incident: Air France A332 over Atlantic on Nov 30th 2009, Mayday call due to severe turbulence",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE80ZXNMWWJ6aDR5SkpnOXhDRnI0YVFZUWNaNUJLS1hIaS1xS21hdU1ueFJRNnB1NjF6QmpkOFZKVkVNUGg3bndvSDlfdDVtOTFG?oc=5",
-          "source": "The Aviation Herald",
-          "publishedAt": "2009-11-30T08:00:00.000Z",
-          "summary": "Incident: Air France A332 over Atlantic on Nov 30th 2009, Mayday call due to severe turbulence &nbsp;&nbsp; The Aviation Herald",
-          "relevanceScore": 4
         },
         {
           "title": "Loss of control Accident Airbus A330-203 F-GZCP, Monday 1 June 2009",
@@ -2728,6 +2817,14 @@
         },
         {
           "title": "Accident: US Airways A320 at New York on Jan 15th 2009, ditched in Hudson River",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA1VzFLUGl0VWg3NjVUeU9VMUVSdDA0QU92MUpoUTJjYVVBU2RxeHhrMGUtQWx4NnJtbFJudVJuc3NoYVVibS1acWQ4anFFT0hpeWRyTVk3anVOT2oyT3dN?oc=5",
+          "source": "The Aviation Herald",
+          "publishedAt": "2009-06-10T07:00:00.000Z",
+          "summary": "Accident: US Airways A320 at New York on Jan 15th 2009, ditched in Hudson River &nbsp;&nbsp; The Aviation Herald",
+          "relevanceScore": 8
+        },
+        {
+          "title": "Accident: US Airways A320 at New York on Jan 15th 2009, ditched in Hudson River",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qRzVwckIwdkdHX2Q2NFZKbmVucnc2Smp6NTEzd0FsZGcxUnl5SWVrMGpYSHhyd1Z2WUNZVEZQSEdKX2RRMmt5WmNIa0dXT05n?oc=5",
           "source": "The Aviation Herald",
           "publishedAt": "2009-01-15T08:00:00.000Z",
@@ -2798,6 +2895,14 @@
           "source": "The Aviation Herald",
           "publishedAt": "2010-02-09T08:00:00.000Z",
           "summary": "Report: British Airways B772 at London on Jan 17th 2008, both engines rolled back on final approach &nbsp;&nbsp; The Aviation Herald",
+          "relevanceScore": 4
+        },
+        {
+          "title": "Incident: British Airways B788 at London on Jun 15th 2025, flaps problems",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBzZHRPd29fZC1IODVWQ3NDQnQycEMzVUl6Z0dmR2VTQ3E4Rm5lTDhzLS1NaHJ0bTJwUkFtLWFpMjBwMHhJOTVXcTU0X09ET0ha?oc=5",
+          "source": "The Aviation Herald",
+          "publishedAt": "2025-06-15T07:00:00.000Z",
+          "summary": "Incident: British Airways B788 at London on Jun 15th 2025, flaps problems &nbsp;&nbsp; The Aviation Herald",
           "relevanceScore": 4
         },
         {
