@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T13:05:28.805023Z",
+  "updatedAt": "2026-11-27T13:04:43.927610Z",
   "coverageNote": "Federated global aviation safety index: 41 official/curated cases plus 3096 Wikidata discovery records for coverage. Discovery records are excluded from authoritative cause analysis until verified against an Annex 13 authority.",
   "ageNote": "Aircraft ages are approximate where shown. Official-layer fatality/cause statistics use verified or curated records; discovery-layer values may be incomplete and are kept separate.",
   "fleetProfiles": [
@@ -3608,7 +3608,7 @@
       "sourceTier": "discovery",
       "verificationStatus": "secondary structured discovery — cause not authoritative",
       "operator": "favourite",
-      "location": "Q179313",
+      "location": "Alderney",
       "latitude": 49.82,
       "longitude": -2.71,
       "coordinateSource": "Wikidata event coordinate",
@@ -4657,7 +4657,7 @@
       "longitude": -80.146388888,
       "coordinateSource": "Wikidata event coordinate",
       "fatalities": 0,
-      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/FedEx_Express_Flight_910",
+      "discoveryArticleUrl": "https://en.wikipedia.org/wiki/FedEx_Express_Flight_910_(October_28,_2016)",
       "probableCause": ""
     },
     {
