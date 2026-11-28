@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T14:26:06.889Z",
+  "updatedAt": "2026-11-28T13:41:48.142Z",
   "sourceSet": [
     {
       "name": "FlightGlobal",
@@ -588,20 +588,20 @@
           "relevanceScore": 6
         },
         {
-          "title": "India's Tejas jet-maker HAL calls Dubai crash an isolated occurrence",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOa3VuUWQxQVN1Q3FjVE9DSWVlQ3R5MWpBZXBaSzlzTDQ5TVZHSGxsZFhBWURIY1Jta0FFYWhLQXlWLXRSS293VUc4ZGNLeVA2V3M1ZEF2cjB2Tmg4Um5ySEtITGFyak94THFVTFM4YmFRSnVnLUEyWm9SMElhZURtOEV6NjVCcHg0bm1lTFA3X052Rk1tVWpHVERqdHhrR0lrREtOelBIUjFJQVRzeDhjajZkOThpb3doYW1FbUxB?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2025-11-23T08:00:00.000Z",
-          "summary": "India's Tejas jet-maker HAL calls Dubai crash an isolated occurrence &nbsp;&nbsp; Reuters",
-          "relevanceScore": 9
-        },
-        {
           "title": "Indian Tejas fighter jet crashes in a ball of fire at Dubai Airshow, killing pilot",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVVFiemRzWW1vSThwdUZJNmkycHBmVUhyaHJYRTZBdzBPOHBFSDdVVG90dzA1TG1vNWhDeGpUTGtRb0VPQkpQbk1kSjVNUkY0RkVUNXZET3JwYjhzTUZVSWRLRksxNm9Fell5SFVJdG5ldEIybVpoOEZWSU1XdENxdnROY1REVDE1d0xPU1ROWjYwUEhBWS1ReW9kdTZTNkVUakMyV2hCYzhfUQ?oc=5",
           "source": "Reuters",
           "publishedAt": "2025-11-21T08:00:00.000Z",
           "summary": "Indian Tejas fighter jet crashes in a ball of fire at Dubai Airshow, killing pilot &nbsp;&nbsp; Reuters",
           "relevanceScore": 8
+        },
+        {
+          "title": "India's Tejas jet-maker HAL calls Dubai crash an isolated occurrence",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOa3VuUWQxQVN1Q3FjVE9DSWVlQ3R5MWpBZXBaSzlzTDQ5TVZHSGxsZFhBWURIY1Jta0FFYWhLQXlWLXRSS293VUc4ZGNLeVA2V3M1ZEF2cjB2Tmg4Um5ySEtITGFyak94THFVTFM4YmFRSnVnLUEyWm9SMElhZURtOEV6NjVCcHg0bm1lTFA3X052Rk1tVWpHVERqdHhrR0lrREtOelBIUjFJQVRzeDhjajZkOThpb3doYW1FbUxB?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2025-11-23T08:00:00.000Z",
+          "summary": "India's Tejas jet-maker HAL calls Dubai crash an isolated occurrence &nbsp;&nbsp; Reuters",
+          "relevanceScore": 9
         }
       ]
     },
@@ -834,19 +834,19 @@
           "relevanceScore": 4
         },
         {
-          "title": "Editorial on India B788 at Ahmedabad on Jun 12th 2025, lost height shortly after takeoff, no thrust reported",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE81YVd5R1dJTklsUWd3NWRPbE5OSUZhMzlweGhmTUtSb296bFEtTGg1MTF2a0F0MXF2enA3a1JiaUxYSTV2YVRNeHo3Q2hWenRu?oc=5",
-          "source": "The Aviation Herald",
-          "publishedAt": "2025-06-12T07:00:00.000Z",
-          "summary": "Editorial on India B788 at Ahmedabad on Jun 12th 2025, lost height shortly after takeoff, no thrust reported &nbsp;&nbsp; The Aviation Herald",
-          "relevanceScore": 6
-        },
-        {
           "title": "Crash: India B788 at Ahmedabad on Jun 12th 2025, lost height shortly after takeoff, no thrust reported",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9jUjUwdndJWTFJVzQtSGdreFRLT2ZaMXB3bUpnTFI2eXUxWko1YXZiQ0p6M1Mta0xIeFg3Q1U4RExNUXF6OWZOMVlQMEowdXFB?oc=5",
           "source": "The Aviation Herald",
           "publishedAt": "2025-06-12T07:00:00.000Z",
           "summary": "Crash: India B788 at Ahmedabad on Jun 12th 2025, lost height shortly after takeoff, no thrust reported &nbsp;&nbsp; The Aviation Herald",
+          "relevanceScore": 6
+        },
+        {
+          "title": "Editorial on India B788 at Ahmedabad on Jun 12th 2025, lost height shortly after takeoff, no thrust reported",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE81YVd5R1dJTklsUWd3NWRPbE5OSUZhMzlweGhmTUtSb296bFEtTGg1MTF2a0F0MXF2enA3a1JiaUxYSTV2YVRNeHo3Q2hWenRu?oc=5",
+          "source": "The Aviation Herald",
+          "publishedAt": "2025-06-12T07:00:00.000Z",
+          "summary": "Editorial on India B788 at Ahmedabad on Jun 12th 2025, lost height shortly after takeoff, no thrust reported &nbsp;&nbsp; The Aviation Herald",
           "relevanceScore": 6
         },
         {
@@ -968,7 +968,7 @@
       ]
     },
     "WIKIDATA-Q133067560": {
-      "query": "site:flightglobal.com 2025 FA-50 fighter jet crash 2025 || site:flightglobal.com Korea Aerospace Industries FA-50 Fighting Eagle 2025 fighter jet crash || site:flightglobal.com \"Korea Aerospace Industries FA-50 Fighting Eagle\" \"year-old\" Kalatungan Mountain Range || site:aviationweek.com 2025 FA-50 fighter jet crash 2025 || site:avherald.com 2025 FA-50 fighter jet crash 2025 || site:avherald.com Korea Aerospace Industries FA-50 Fighting Eagle 2025 fighter jet crash || site:avherald.com \"Korea Aerospace Industries FA-50 Fighting Eagle\" \"year-old\" Kalatungan Mountain Range || site:aviation-safety.net 2025 FA-50 fighter jet crash 2025 || site:aviation-safety.net Korea Aerospace Industries FA-50 Fighting Eagle 2025 fighter jet crash || site:aviation-safety.net \"Korea Aerospace Industries FA-50 Fighting Eagle\" \"year-old\" Kalatungan Mountain Range || site:reuters.com 2025 FA-50 fighter jet crash 2025",
+      "query": "site:flightglobal.com 2025 FA-50 fighter jet crash 2025 || site:flightglobal.com Korea Aerospace Industries FA-50 Fighting Eagle 2025 fighter jet crash || site:flightglobal.com \"Korea Aerospace Industries FA-50 Fighting Eagle\" \"year-old\" Kalatungan Mountain Range || site:aviationweek.com 2025 FA-50 fighter jet crash 2025 || site:avherald.com 2025 FA-50 fighter jet crash 2025 || site:avherald.com Korea Aerospace Industries FA-50 Fighting Eagle 2025 fighter jet crash || site:avherald.com \"Korea Aerospace Industries FA-50 Fighting Eagle\" \"year-old\" Kalatungan Mountain Range || site:aviation-safety.net 2025 FA-50 fighter jet crash 2025 || site:aviation-safety.net Korea Aerospace Industries FA-50 Fighting Eagle 2025 fighter jet crash || site:aviation-safety.net \"Korea Aerospace Industries FA-50 Fighting Eagle\" \"year-old\" Kalatungan Mountain Range || site:reuters.com 2025 FA-50 fighter jet crash 2025 || site:reuters.com Korea Aerospace Industries FA-50 Fighting Eagle 2025 fighter jet crash || site:reuters.com \"Korea Aerospace Industries FA-50 Fighting Eagle\" \"year-old\" Kalatungan Mountain Range",
       "articles": [
         {
           "title": "Philippines Grounds FA-50 Fleet After Fatal Crash",
@@ -977,22 +977,6 @@
           "publishedAt": "2025-03-05T08:00:00.000Z",
           "summary": "Philippines Grounds FA-50 Fleet After Fatal Crash &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 5
-        },
-        {
-          "title": "Russia offers India its most advanced Su-57 stealth fighter jet",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONXM0TUNNRWFkZ3otRTJieGFpeW1XTFR0R0o2YWdEc0M2NjFjNFhQc3B4SjZFVHVObmhPRXlGbmFxbVBnMFRNREhubnRZZjBEUGU4MW51RkxHUW5fSUM4dHNHeFUwQ0YtVmhWYlk2ZzdnSnpuQ1NUdjF4dVBTUDRqTjFFaGJSaUxhVDRPRTlxY00wbU5rTXJXeXlTODREdk4xcTFiUkw2dkVZU1ZEOERPaG5SdjNWd0xfbHl3RWp5UUoyTTNi?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2025-02-11T08:00:00.000Z",
-          "summary": "Russia offers India its most advanced Su-57 stealth fighter jet &nbsp;&nbsp; Reuters",
-          "relevanceScore": 4
-        },
-        {
-          "title": "What fighter jet programs does the US Air Force have?",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMk5aczhDaVktNzFrYVZUdHB1U0ZOMS1mVE43bTNYelVmZ0VyX2NRQXUweEp6WG9kV3REOVAyZWVDY1R2YnB5aGlnczJ3eEZaTm5TdEI0NjRDV2FpSDU0WXVkTG5Sd09Va3h4dmpzbTMySGhKOW5GcG1KUklkWERuVkRmVU1IV1pOU012cUhBLXBEME9CSlp0WE9VYTFGMGpUdjVfMVA0bC0xcGR0bEpqYg?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2025-03-21T07:00:00.000Z",
-          "summary": "What fighter jet programs does the US Air Force have? &nbsp;&nbsp; Reuters",
-          "relevanceScore": 4
         }
       ]
     },
@@ -1191,6 +1175,14 @@
           "relevanceScore": 4
         },
         {
+          "title": "South Korea jet crash puts fast-growing Jeju Air's safety under scrutiny",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMVdpc1JDaHRvQUlzY1hJTmpxRXpfdi1WM1I3czFZOW1ZcUNCa1JvQ2VCQ3NnWDc5WkhjVm9CaGp6MGx4cXJQZk5OYktvZDVTR2Eyb3Nia0s1UjhxcjA1cllVRXhJV2EybVg5WWZTUWgzYk80VjRDdDdJS0Z6TWtYRjc4cjlkV29HQ1l5anVIR2ZIbGhNVEVxZXIxQVFRSHgtUkQwRmVFc215TDNTOEFaQ0RZU0k4TktkNEZPcERKTmhPaFdH?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2025-01-09T08:00:00.000Z",
+          "summary": "South Korea jet crash puts fast-growing Jeju Air's safety under scrutiny &nbsp;&nbsp; Reuters",
+          "relevanceScore": 10
+        },
+        {
           "title": "Video shows deadly Jeju Air flight crash in South Korea",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtM1JDb2F5ZFZkcVlfUlpYbm5kcHdLeHIzRkxHaE9yUDJ6cGVZMFZoWGFTZUFlS0tYc05DQ2hwX3hjc1JkSlNMUUpIcnFIcHVJNzdrMV9taTYxUFN6cms1N1dadlZyT3M?oc=5",
           "source": "Reuters",
@@ -1205,14 +1197,6 @@
           "publishedAt": "2024-12-29T08:00:00.000Z",
           "summary": "Jeju Air crash deadliest on South Korean soil &nbsp;&nbsp; Reuters",
           "relevanceScore": 9
-        },
-        {
-          "title": "Families demand answers a year after South Korea's Jeju Air crash",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMGk0d1NpNDhWeDFaMUFDbDQ5bnlIREExdXhWT0tVdmNRUFh5Q2p0RXZxd2JvaTRwUHRCUGZDcEYtSEljVUZQLWY4eTRaZUowUWhPMlFzTkJ6MlJPOUd4WnRJeGNMXzN5SWNOX0daSjdrNHc3NU84bjNZYTFaR2h4ekVnc2tMMkdLSXpLQWI4T19GSmRGR29uRkJjd0hjXzIxTDJVQ19uZ1JrNXB0OV9LQURETllmc0hK?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2025-12-29T08:00:00.000Z",
-          "summary": "Families demand answers a year after South Korea's Jeju Air crash &nbsp;&nbsp; Reuters",
-          "relevanceScore": 5
         }
       ]
     },
@@ -1286,19 +1270,19 @@
           "relevanceScore": 4
         },
         {
-          "title": "Airport In Focus: Keflavik-Reykjavik International Airport",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa01sQVJDZUFPWnJVeUtkVkM3eVJFNW5kR25vWklmZXZuWWktQXVaamduZ0F5eHNLX1FhaTVNN1ZjajlxVS1VMUNUWVRhQzVRX2JnOVdNMHFhcFZPTUwtWXNhMkhUYlYxdnVQck5GbGh5UVVhQVo3QW1sMUpYV29Kd3N2bE9pbGJKblJ5dnJoMlJQTDc0V05mTw?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2024-09-16T07:00:00.000Z",
-          "summary": "Airport In Focus: Keflavik-Reykjavik International Airport &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 4
-        },
-        {
           "title": "Malta International Airport Targets North America And Scandinavia",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObWFQVWx1WDRFVzJYRGktaC1tUVR3RVp5Uy1LRWFudUZYakFiTHo1eFYwZWNfM05fVE5PbzFlaXE4V1RmM2RMSnk4TkVlV084cWlhTE4zS1lmT3RNbUpmZnhZTjQxellNcmRHaW12YVRmZ2o4U3ZoRngyU2lKWldEYWk0bHJMXzRabzlETEV1Ymotc3ZBZk84cVkycmZBR0k5TWtXMEFydWlZcTRzNVQ3N21kei1UbDdxeUE?oc=5",
           "source": "Aviation Week",
           "publishedAt": "2024-10-15T07:00:00.000Z",
           "summary": "Malta International Airport Targets North America And Scandinavia &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 4
+        },
+        {
+          "title": "Denver International Airport Named Overall Winner At Routes Americas 2025 Awards",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYWkxYng0dER4WGZwMjJ0MHl3SDJ5Y2NtYlJUdXpvOThsZXNaeGNXVVRYanZXd1FJaHR6TE03MlFmZHJpSURYbTdBNFVGcy1aai14WEhtRjdPbEwwcll3MGZPTTdSaVR2YTRCSUM0MXloSkNCVXhjeFduTkdoWG9VdER1Vzc2TWxMeWlDLTdlN003SFcyNDNFWXlCWUV1RVlTVTB4LU9lS1pKNnVnLU1VaTNQMTdXQktraXlNRHBCdw?oc=5",
+          "source": "Aviation Week",
+          "publishedAt": "2025-02-12T08:00:00.000Z",
+          "summary": "Denver International Airport Named Overall Winner At Routes Americas 2025 Awards &nbsp;&nbsp; Aviation Week",
           "relevanceScore": 4
         },
         {
@@ -1340,6 +1324,22 @@
           "publishedAt": "2025-01-30T08:00:00.000Z",
           "summary": "Dubai International Airport handles record 92 million passengers in 2024 &nbsp;&nbsp; Reuters",
           "relevanceScore": 4
+        },
+        {
+          "title": "Uganda signs deal with UAE to build third international airport",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdlJ3SEFKRmlkRjNMbFV6UWtMenltVGRxeF95QkZtenZQcXZWZFYyalJBb0tLb29ZT3c5a3hZeFhwU0VfbDE3NkNwT3RIQzhTQ0l0djBwS1Nkam5ka0tKc2pFcTd6REhTZmpNeEJkWXMyTGl6MEVXNXBnVFpQVnhKa3hUVHoxTjN0Nk85eW5kQUg4cktGa1gtdkZObWx0T1pUVjgwM2F5YmhfWExrd1E?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2024-06-21T07:00:00.000Z",
+          "summary": "Uganda signs deal with UAE to build third international airport &nbsp;&nbsp; Reuters",
+          "relevanceScore": 4
+        },
+        {
+          "title": "Man shot dead at Brazil's Sao Paulo international airport",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaTJkNUQ2TF9uYmk1bTZXbTFjcFlSMEhKMGhSckhxdVhYaTljeDFzekxhdWdtTkh6OThrd2s4Rnh1MnpGRTgwUDd5ZzBoaktobVByc1RRSHlJdENla0lsQ1ZzbjRzM1RlUldQM2Z6SlNGbEp6WW1uejluSmJZdVlZQzk2VkZ2RWNlRGhOLTFIVkF2UklKZWVELUlpUm1FZmU0RjZXUHozVQ?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2024-11-08T08:00:00.000Z",
+          "summary": "Man shot dead at Brazil's Sao Paulo international airport &nbsp;&nbsp; Reuters",
+          "relevanceScore": 4
         }
       ]
     },
@@ -1379,11 +1379,11 @@
           "relevanceScore": 5
         },
         {
-          "title": "Incident Bombardier BD-100 Challenger 300 N818RC, Wednesday 16 October 2013",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vdTEtdTFrRXliTTN3X1haWE9YMENuMHUzR1dwdENBWmlHajV1alcxOGRaNTVxY2YtOEZpVHdDU3FEWV9ObTFqcEdkd1dITHJuYl85VXFR?oc=5",
+          "title": "Runway excursion Accident Bombardier BD-100-1A10 Challenger 300 LV-GOK, Wednesday 18 December 2024",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9lVEl2VEVVWUJIelNBeHBhOGgxSHlVVXVCRGx0OVg0Q09aZkY0bnUtNmRJNnRPdzJWejdsa3NBSGRfRXp3cnFGck5HSXgtaV9wck9Ga1Z3?oc=5",
           "source": "Aviation Safety Network",
           "publishedAt": "2024-12-18T08:00:00.000Z",
-          "summary": "Incident Bombardier BD-100 Challenger 300 N818RC, Wednesday 16 October 2013 &nbsp;&nbsp; Aviation Safety Network",
+          "summary": "Runway excursion Accident Bombardier BD-100-1A10 Challenger 300 LV-GOK, Wednesday 18 December 2024 &nbsp;&nbsp; Aviation Safety Network",
           "relevanceScore": 7
         },
         {
@@ -1610,7 +1610,7 @@
           "title": "Alaska Airlines 737 MAX 9 passengers may be crime victims: FBI",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY2tuTTZ4cEo3cV8zR3FRSEJCa01pSk8wbnF1N0liWDBzRi1WMHhqU1dtUWY3VExTQUNoNGRpbTZMaWhLdGZNYlAwQnZpem1QLWdHdnVMLWdteWgtTHJocmoxZ3ZGb2ZGdDh4SHlfc2pKel95Q2F4Nzk0T182aTZMeFN4ay1RSDNMZnJBTkhPeE9nd1IwQ2xuRm9PZzhDNzdDSFI5M0VUdXpVX0JLWUxETEtxaEduXzRDMV9SSFpWTmdCNjYyVUpneTd3YU1WQ0k3?oc=5",
           "source": "Reuters",
-          "publishedAt": "2024-03-23T07:00:00.000Z",
+          "publishedAt": "2024-03-22T07:00:00.000Z",
           "summary": "Alaska Airlines 737 MAX 9 passengers may be crime victims: FBI &nbsp;&nbsp; Reuters",
           "relevanceScore": 6
         }
@@ -1994,14 +1994,6 @@
           "relevanceScore": 4
         },
         {
-          "title": "Pakistan International Airlines Airbus A320 Crashes In Karachi",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRTBITUY1SlB6VE5FMVlMWXJ3VW1WYy10cmVBV3pPOHJZOFN3MmQyaHdCQUo4c0dXbHpjM2pWSjFLZXdwRm1uRVVwdmJ2UHBfd1dOMWpQQVpwcGVwZnFXV1FEN3drT0JQNW01Zmxwdkx2TVNjdE9KajRVQ3NmVFZOTllNTDB6a0wzRGFqVS02eHhtR1NCM2xnSENDMExrbkdmVFpfbjlZUTRmdEF6NHNoUm9YZEcxaVdLa0E?oc=5",
-          "source": "Aviation Week",
-          "publishedAt": "2020-05-22T07:00:00.000Z",
-          "summary": "Pakistan International Airlines Airbus A320 Crashes In Karachi &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 12
-        },
-        {
           "title": "EASA Lifts Pakistan International Airlines Flight Ban",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVnBYWl9qM1ZLLTRIMTAxOV9BSDVGVnZrd3JlS01NY3pETENyX09tMEJiZzBRY3loNldKaTNkT2lYclNoejNmOWxfTGFoWXRPOFlXbWsxRU9uMG94SFlhZmxWdGctMjRfWTN0czdrak8zTjRvc25aYjIzR3ZNOWI2MW9PV05uZldDWmcxaWNlNmdDbTZaU3ZHMmo0amVvdUMwLTl2eTl1bC1YalpHUS1tZ3lvcHQ?oc=5",
           "source": "Aviation Week",
@@ -2010,12 +2002,12 @@
           "relevanceScore": 4
         },
         {
-          "title": "Preliminary Report Questions Crew Actions In Pakistan A320 Accident",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNllZMTB2QTRNc0d6QkNwSkJwT05ZNUhhTXBJY2l6TDVpQ0hQWnJFQWozU1JzS2FKbVJIR0V4UTVuMzZUdHA3eWpnVnZJRlNXREpMaU9EVmozbGNuZnJxVWJ2Ni1XVmRVSU1nYVdva2FfR2V1M1Q5R2h3OVpzWEdZN2c0ZFhpZERnUGJ6cXlqQWNCYmQzbHUzM1RTckpvaXBkdXdMM1NfMWNJdUdVbDdTa1JhOUlXN1k?oc=5",
+          "title": "Pakistan International Airlines Airbus A320 Crashes In Karachi",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRTBITUY1SlB6VE5FMVlMWXJ3VW1WYy10cmVBV3pPOHJZOFN3MmQyaHdCQUo4c0dXbHpjM2pWSjFLZXdwRm1uRVVwdmJ2UHBfd1dOMWpQQVpwcGVwZnFXV1FEN3drT0JQNW01Zmxwdkx2TVNjdE9KajRVQ3NmVFZOTllNTDB6a0wzRGFqVS02eHhtR1NCM2xnSENDMExrbkdmVFpfbjlZUTRmdEF6NHNoUm9YZEcxaVdLa0E?oc=5",
           "source": "Aviation Week",
-          "publishedAt": "2020-06-24T07:00:00.000Z",
-          "summary": "Preliminary Report Questions Crew Actions In Pakistan A320 Accident &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 4
+          "publishedAt": "2020-05-22T07:00:00.000Z",
+          "summary": "Pakistan International Airlines Airbus A320 Crashes In Karachi &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 12
         },
         {
           "title": "FINAL INVESTIGATION REPORT ACCIDENT OF PAKISTAN INTERNATIONAL AIRLINES FLIGHT PIA 8303 AIRBUS A320-214 AIRCRAFT REGISTRATION NUM",
@@ -2119,11 +2111,11 @@
           "relevanceScore": 5
         },
         {
-          "title": "Iran's Zarif says Ukrainian plane crash caused by human error and 'U.S. adventurism'",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcngwZlJDZ1B3OVprbU9JRmpTdVhoNS1JYUUxYktqajJ0SUdVNWJqR2ViNTVBb2F4ZDF5dGllanRkU1RjVWItZjlMM0dxRkwtTEp5WHhXWjEwMEZFMnQtSk5VSTl3djZiVTJrc3dObHRRcjF2VnI0aXZRZ2tRZzFNUTFpVWhKYUg3NVMxWmh5dTgySWZOejNOVHlZdGJCMEc2cnJZcjd1azR6dmc5dXdNZ1JoeHBPalhFQkhpQVFlbmlTdVlmdmNpTw?oc=5",
+          "title": "'Disastrous mistake': Iran acknowledges shooting down Ukrainian airliner",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVTBJazF5bGV5bldYNVlHb1VxU0FqVGxrSnZ2UFRrLWp5X0hsVklyclFDYnJQdjliclpiSEF0ZFdvd3JNeFN2QmZYVFIta2o1bElEaUc1bkFYSmVVLTRrQWJPU2FHemwtcDd3MnpnTUQ0S1o0X043bm15YXNLWW94Qi16RUQ3WU8zV3FVVS1jTVZzTVdlZ0Q2QkN1WnhTaXdFdzhiOGNaOUdwYnItNko2MGdYOWVsY1hMaEk0bnJQTQ?oc=5",
           "source": "Reuters",
           "publishedAt": "2020-01-10T08:00:00.000Z",
-          "summary": "Iran's Zarif says Ukrainian plane crash caused by human error and 'U.S. adventurism' &nbsp;&nbsp; Reuters",
+          "summary": "'Disastrous mistake': Iran acknowledges shooting down Ukrainian airliner &nbsp;&nbsp; Reuters",
           "relevanceScore": 5
         }
       ]
@@ -2140,19 +2132,19 @@
           "relevanceScore": 8
         },
         {
-          "title": "​Boeing to delay 777X rollout after Ethiopian crash",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcTgwZmd2LXYtUkxjQVkzQ1YwOXFSaUZwcmRBc0dVWk5qSDE4NDVGQXNKWXZNWmZyVnlVVnFrbjAwY1RCbWd1OTFQVnZwdlhBMThOelA1MWEtSkhjMVhmTl9RTlhnWTZzMlhZbElDa2NFeDl5M2tnZkk4T1I0VEotc05TOUp2TXpFc25INkd3ZDcwWjd5OFlKRUhXeGZnQVZQ?oc=5",
-          "source": "FlightGlobal",
-          "publishedAt": "2019-03-11T07:00:00.000Z",
-          "summary": "​Boeing to delay 777X rollout after Ethiopian crash &nbsp;&nbsp; FlightGlobal",
-          "relevanceScore": 4
-        },
-        {
           "title": "A timeline of how Boeing 737 Max went from grounding to service return",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQVM1ZlJXQTdaZEpQeEFodUR5ZGFpZjh2aW5zaGluZ2VWME56a2lYY2E5d043cUVRMzRCNzBQMWJrY095UHFrc09acXZjQUFyUkdxX1ZOa0cyRnRKVVJ6clhXQW9MZFRCWHhHWlVtWVpWaUxwS0dtZklhSFpfYlBRYmpCRzIxVG5ZbDFXSURITkd6MUNpaUFVVlBjTGkxeWt0RXU1TmxUYmJ3R3pjaXdxQjFnRDU0RnRSdUhZ?oc=5",
           "source": "FlightGlobal",
           "publishedAt": "2021-03-10T08:00:00.000Z",
           "summary": "A timeline of how Boeing 737 Max went from grounding to service return &nbsp;&nbsp; FlightGlobal",
+          "relevanceScore": 4
+        },
+        {
+          "title": "How Boeing 737 Max flight computers now handle angle-of-attack failures",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN2RERXNNeUttTXVwa3JZQXdURG5IMVlzMVQ4WXB3VTRUbUtCSnVKeExTMGNjclFHSXFUZVFIUnY1YW5GekpqVWh3bDd0NGpnN0UzSHdXdzlCdmp4ZVpZWUI5aFpzY2R6WTJMcGp0U1U5aFo0eWVyTGF2QlM0TVJBZm5KQklxbnIzeU03dTVPZmdkZHlrYnJFUkpKZDNCNVoxZEJjWFpwMmM3Vkw4cFVwdjBkU1RHSEhneTFmRw?oc=5",
+          "source": "FlightGlobal",
+          "publishedAt": "2020-11-18T08:00:00.000Z",
+          "summary": "How Boeing 737 Max flight computers now handle angle-of-attack failures &nbsp;&nbsp; FlightGlobal",
           "relevanceScore": 4
         },
         {
@@ -2172,16 +2164,16 @@
           "relevanceScore": 4
         },
         {
-          "title": "The Boeing 737 MAX Timeline: From Conceptualization To Service Return",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1MUlFTRTlEeGUwQUcya2VqVDBRWngzcDhvYW1kS3JVcnZqbGpKSENLN196aDFUc0JERWxzZ2JiTjAyWTZSY0FRVjAySG9aSzkzaWVPUlNUV0tZM2dKM192cHpxRnVfVW9SSVl0cTlsSnM0VWx1UkdhMnk3U2s?oc=5",
+          "title": "Ethiopian Airlines flight ET 302 flight recorder sent to Paris for investigation",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONUhjTXFhUW5HWUc1RmVsSFZDS1M0SWVjYjlkTmNRVXoyaUtQYkthUGxhREF5bzBmam9ERXZiWHIzMUp0SmV3aGx1V2hEM3VIVDdGT3RScHhtYmp0TVJCZWdyMWRDTjBLdXBwT2VYWXZWMjFfOUFzMGhDSFBhdGZyTE9pYmFPem05U3NsLW5jVUplN1dGS2hZMzBRU1BtRFAxbE1nU2tQMnNFS1RhZlhjVTRn?oc=5",
           "source": "Aviation Week",
-          "publishedAt": "2021-03-18T10:24:11.000Z",
-          "summary": "The Boeing 737 MAX Timeline: From Conceptualization To Service Return &nbsp;&nbsp; Aviation Week",
-          "relevanceScore": 4
+          "publishedAt": "2019-03-14T07:00:00.000Z",
+          "summary": "Ethiopian Airlines flight ET 302 flight recorder sent to Paris for investigation &nbsp;&nbsp; Aviation Week",
+          "relevanceScore": 7
         },
         {
           "title": "Crash: Ethiopian B38M near Bishoftu on Mar 10th 2019, impacted terrain after departure",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1UU3JINUNuVXNleUxXYmJ4b3I2Y2dSa2tRRk9OenMySFpBUGROUFc1T09tSThmR193NGNpTElYY1RMZ09JMHRTZmpsN1RMcTZHWnk3bkZ5RQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE12ZkdnM1FJZFY4YjJIbEpteWxsY2wwYjVrajRxQmx3UkpQUE5IMHU5c242MnduZmZtdmw2ZHZOZ3NtYTFLRG0ySXVQSThQR1p6S0JzUUdhc1k?oc=5",
           "source": "The Aviation Herald",
           "publishedAt": "2019-03-10T08:00:00.000Z",
           "summary": "Crash: Ethiopian B38M near Bishoftu on Mar 10th 2019, impacted terrain after departure &nbsp;&nbsp; The Aviation Herald",
@@ -2189,7 +2181,7 @@
         },
         {
           "title": "Crash: Ethiopian B38M near Bishoftu on Mar 10th 2019, impacted terrain after departure",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE12ZkdnM1FJZFY4YjJIbEpteWxsY2wwYjVrajRxQmx3UkpQUE5IMHU5c242MnduZmZtdmw2ZHZOZ3NtYTFLRG0ySXVQSThQR1p6S0JzUUdhc1k?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE12eVVNR2NHQVVWUmVvWlctYXRnSGk0VTNfVEV5NkFBd181MU1yaE8tcnRjVEFnR3dpOFNTOGR4bDlsSm1KM1ZkTHhFd01fdjNFU2NHSzJoSQ?oc=5",
           "source": "The Aviation Herald",
           "publishedAt": "2019-03-10T08:00:00.000Z",
           "summary": "Crash: Ethiopian B38M near Bishoftu on Mar 10th 2019, impacted terrain after departure &nbsp;&nbsp; The Aviation Herald",
@@ -2220,20 +2212,20 @@
           "relevanceScore": 6
         },
         {
+          "title": "Pilot of crashed Ethiopian Airlines jet reported flight control problems: WSJ",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTEtpOTVtQ1ZuOGZjLVF2NnNkdzZDTllzb0FIblloVkp5VXBoSkg1SFV1OExSY3ROU2VTT0VxNklOVVc0NDB3bHR1MHVKVEVIZm9KWEE3SlBUTUpHYlhCVUFjOGV5UmMxRHl4SW1yVDNNVjdlUG1XX3RqUS1ZZzhnMUJIX2ppU3ZJVFc4UmVYdzMzX040RmQydGR0NUl4WjZfTklVRnNwNWlkVEE2WEx0Z2hEMV9fYTVvSy1ZbWdKZ1hGdDZSd0piVDdRMXM?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2019-03-13T07:00:00.000Z",
+          "summary": "Pilot of crashed Ethiopian Airlines jet reported flight control problems: WSJ &nbsp;&nbsp; Reuters",
+          "relevanceScore": 6
+        },
+        {
           "title": "Ethiopian Airlines to resume using Boeing 737 MAX planes in Feb",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZ0h2Mk5HX2tMNHN5T3hENEZSRWR4bXNKMEhXMm11VnkzbFBmX1FGcU5EMXFHR2FPYS1ocHNONW5WdXIwRm50V1FPRnpKTFd2aVRoX1FmMUkwblZzenkxbzdacDNSVmJqLUlWSkM3dXJiWkRXdGRqd2c1OEdVakdvcFNaNVhWQURPaWdhaUtNMV9DazdDcWxPNC1QUjhZd3RaWlBKRzRjR1YxT0c5bVpIeUtVT3VSMEF3c0FlX0ZlT2lkUTQ?oc=5",
           "source": "Reuters",
           "publishedAt": "2021-12-27T08:00:00.000Z",
           "summary": "Ethiopian Airlines to resume using Boeing 737 MAX planes in Feb &nbsp;&nbsp; Reuters",
           "relevanceScore": 8
-        },
-        {
-          "title": "Ethiopia crash captain did not train on airline's MAX simulator - source",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdC1NZ2JlQ0dyMlp5MHh4VFVNTmk4X3huc0g0cjlBX05rMExUV0h4MGl4Sm5QeDQ4NmlaNmRuMVhuZXFwWXV1ZVlWcXRnc2ZZUHlpV0lLcGo5cGI3Mkx5bTlsSFZfOUtBaXRrc2lBUG4tNU84YzI3UVNMZ0ppemREU0QxQmtGTWlIUUs0UEM1akhtTENQbC1wTlZMcXFEWHVKd2hkVFJZZ0Q4YjRXOXA1SXFoVU1EOEVhazI4V3NtVQ?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2019-03-21T07:00:00.000Z",
-          "summary": "source &nbsp;&nbsp; Reuters",
-          "relevanceScore": 6
         }
       ]
     },
@@ -2588,16 +2580,8 @@
       ]
     },
     "NTSB-DCA13MA120": {
-      "query": "site:flightglobal.com Asiana Airlines Flight 214 Asiana Airlines 2013 || site:aviationweek.com Asiana Airlines Flight 214 Asiana Airlines 2013 || site:aviationweek.com Asiana Airlines Boeing 777-200ER 2013 Airlines Flight 214 || site:aviationweek.com \"Boeing 777-200ER\" \"year-old\" San Francisco || site:avherald.com Asiana Airlines Flight 214 Asiana Airlines 2013 || site:aviation-safety.net Asiana Airlines Flight 214 Asiana Airlines 2013 || site:reuters.com Asiana Airlines Flight 214 Asiana Airlines 2013",
+      "query": "site:flightglobal.com Asiana Airlines Flight 214 Asiana Airlines 2013 || site:flightglobal.com Asiana Airlines Boeing 777-200ER 2013 Airlines Flight 214 || site:flightglobal.com \"Boeing 777-200ER\" \"year-old\" San Francisco || site:aviationweek.com Asiana Airlines Flight 214 Asiana Airlines 2013 || site:aviationweek.com Asiana Airlines Boeing 777-200ER 2013 Airlines Flight 214 || site:aviationweek.com \"Boeing 777-200ER\" \"year-old\" San Francisco || site:avherald.com Asiana Airlines Flight 214 Asiana Airlines 2013 || site:aviation-safety.net Asiana Airlines Flight 214 Asiana Airlines 2013 || site:reuters.com Asiana Airlines Flight 214 Asiana Airlines 2013",
       "articles": [
-        {
-          "title": "PICTURES: Crashed Asiana 777 flew “significantly” below target speed on approach",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOU184Ni1BbUszUjBaekQ1VDBHQXhxeGpfeWg3LTNOSXpvcnoyb3QtbloxRGJQOV9fM2hvZU0xY01BRi00elNpcllDTFdBLXREVUJlWXFpZVZqNGdOQThhZmhNVUtHUHVPU3FORjdjZ0cyZWxqMjJpT0tBakxhRHFtOExidmhndTZrTHlVQlRaYXBIREJyTlVSX1N1Y18yTUplaUcyS095YVE0VHJ1enA2Q3doVWRTNG85akNNS09JWURJZzBm?oc=5",
-          "source": "FlightGlobal",
-          "publishedAt": "2013-07-08T07:00:00.000Z",
-          "summary": "PICTURES: Crashed Asiana 777 flew “significantly” below target speed on approach &nbsp;&nbsp; FlightGlobal",
-          "relevanceScore": 4
-        },
         {
           "title": "Accident: Asiana B772 at San Francisco on Jul 6th 2013, touched down short of the runway, broke up and burst into flames",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9fRGlrenJrdkVZUXFXM0lLZWxhcU1aeGJMZEhVRERNNllmNDRHdTBNN1FQNzV4SUdDMERQUVdtSkFUMjctNmt6clhLR2dQV0g1?oc=5",
